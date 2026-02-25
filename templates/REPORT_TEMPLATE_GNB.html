@@ -2,99 +2,99 @@
 <html lang="ru" style="scroll-behavior:smooth;">
 <head>
 <meta charset="UTF-8">
-<title>PromptGrid — Report: FromId Migration</title>
-<link rel="icon" type="image/svg+xml" href="assets/pg-logo.svg">
+<title>GNB Agency — Report: FromId Migration</title>
+<link rel="icon" type="image/svg+xml" href="../assets/gnb-favicon.svg">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
   * { box-sizing: border-box; }
-  body { font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; color: #cccccc; line-height: 1.65; background: #181818; }
+  body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; color: #e0e0e0; line-height: 1.65; background: #0C0C0C; }
 
   /* ── Header ── */
-  .report-header { background: linear-gradient(135deg, #181818 0%, #212121 100%); padding: 48px 40px 40px; border-bottom: 3px solid #4ec9b0; position: relative; }
-  .report-header .logo { height: 28px; margin-bottom: 24px; }
+  .report-header { background: linear-gradient(135deg, #0C0C0C 0%, #1a1a1a 100%); padding: 48px 40px 40px; border-bottom: 3px solid #EAFF00; position: relative; }
+  .report-header .logo { height: 28px; margin-bottom: 24px; filter: brightness(1.1); }
   .report-header h1 { font-size: 26px; font-weight: 700; color: #fff; margin: 0 0 8px 0; letter-spacing: -0.5px; }
-  .report-header .meta { color: #888888; font-size: 13px; margin: 0; }
-  .report-header .meta span { color: #4ec9b0; font-weight: 600; }
+  .report-header .meta { color: #888; font-size: 13px; margin: 0; }
+  .report-header .meta span { color: #EAFF00; font-weight: 600; }
 
   /* ── Language Switcher ── */
   .lang-switcher { position: absolute; top: 20px; right: 40px; display: flex; gap: 6px; }
-  .lang-btn { background: #212121; border: 1px solid #3a3a3a; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; color: #888888; font-family: inherit; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
-  .lang-btn:hover { border-color: #4ec9b0; color: #cccccc; }
-  .lang-btn.active { background: #4ec9b0; color: #181818; border-color: #4ec9b0; font-weight: 700; }
+  .lang-btn { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; color: #888; font-family: inherit; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+  .lang-btn:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .lang-btn.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
   .lang-flag { font-size: 16px; line-height: 1; }
 
   /* ── Content ── */
   .content { padding: 0 40px 48px; }
 
-  h2 { color: #fff; margin-top: 40px; font-size: 18px; font-weight: 700; border-left: 4px solid #4ec9b0; padding-left: 14px; letter-spacing: -0.3px; }
-  h3 { color: #cccccc; font-size: 14px; font-weight: 600; margin-top: 20px; }
+  h2 { color: #fff; margin-top: 40px; font-size: 18px; font-weight: 700; border-left: 4px solid #EAFF00; padding-left: 14px; letter-spacing: -0.3px; }
+  h3 { color: #ccc; font-size: 14px; font-weight: 600; margin-top: 20px; }
 
   p { color: #b0b0b0; font-size: 14px; }
-  strong { color: #cccccc; }
+  strong { color: #e0e0e0; }
 
   /* ── Tables ── */
   table { border-collapse: collapse; width: 100%; margin: 12px 0 24px 0; font-size: 13px; }
-  th { background: #1e1e1e; color: #4ec9b0; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #4ec9b0; }
-  td { border-bottom: 1px solid #2d2d2d; padding: 8px 14px; vertical-align: top; color: #cccccc; }
-  tr:hover { background: #1c1c1c; }
+  th { background: #1a1a1a; color: #EAFF00; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #EAFF00; }
+  td { border-bottom: 1px solid #222; padding: 8px 14px; vertical-align: top; color: #ccc; }
+  tr:hover { background: #141414; }
 
-  .old { color: #f14c4c; }
-  .new { color: #25b644; font-weight: 600; }
+  .old { color: #ff6b6b; }
+  .new { color: #51cf66; font-weight: 600; }
   .cnt { text-align: center; font-weight: 700; font-size: 15px; color: #fff; }
 
   /* ── Code ── */
-  code { background: #1e1e1e; border: 1px solid #3a3a3a; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #ddd; word-break: break-all; font-family: 'Consolas', 'Monaco', monospace; }
+  code { background: #1a1a1a; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #ddd; word-break: break-all; font-family: 'Consolas', 'Monaco', monospace; }
 
   /* ── Summary cards ── */
   .summary-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
-  .summary-card { background: #1c1c1c; border: 1px solid #2d2d2d; border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
-  .summary-card:hover { border-color: #4ec9b0; }
+  .summary-card { background: #141414; border: 1px solid #222; border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
+  .summary-card:hover { border-color: #EAFF00; }
   .summary-card h3 { margin: 0 0 4px 0; color: #fff; font-size: 14px; font-weight: 600; }
-  .summary-card .count { font-size: 32px; font-weight: 800; color: #4ec9b0; letter-spacing: -1px; }
-  .summary-card .label { font-size: 12px; color: #888888; margin-top: 2px; }
+  .summary-card .count { font-size: 32px; font-weight: 800; color: #EAFF00; letter-spacing: -1px; }
+  .summary-card .label { font-size: 12px; color: #888; margin-top: 2px; }
 
   /* ── Callouts ── */
-  .note { background: rgba(78, 201, 176, 0.08); border-left: 3px solid #4ec9b0; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #b0b0b0; }
-  .note strong { color: #4ec9b0; }
-  .warn { background: rgba(204, 167, 0, 0.08); border-left: 3px solid #cca700; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c0a878; }
-  .warn strong { color: #cca700; }
-  .warn code { border-color: #443820; background: rgba(204, 167, 0, 0.06); color: #ddc090; }
-  .error { background: rgba(241, 76, 76, 0.08); border-left: 3px solid #f14c4c; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c08080; }
-  .error strong { color: #f14c4c; }
-  .error code { border-color: #442020; background: rgba(241, 76, 76, 0.06); color: #dda0a0; }
+  .note { background: #1a1700; border-left: 3px solid #EAFF00; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #b0b0b0; }
+  .note strong { color: #EAFF00; }
+  .warn { background: #1a1510; border-left: 3px solid #f0a030; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c0a878; }
+  .warn strong { color: #f0a030; }
+  .warn code { border-color: #443820; background: #1a1510; color: #ddc090; }
+  .error { background: #1a1010; border-left: 3px solid #ff6b6b; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c08080; }
+  .error strong { color: #ff6b6b; }
+  .error code { border-color: #442020; background: #1a1010; color: #dda0a0; }
 
   /* ── Footer ── */
-  .report-footer { background: #181818; border-top: 1px solid #2d2d2d; padding: 24px 40px; text-align: center; }
+  .report-footer { background: #0C0C0C; border-top: 1px solid #222; padding: 24px 40px; text-align: center; }
   .report-footer .logo-sm { height: 18px; opacity: 0.85; margin-bottom: 8px; }
-  .report-footer p { font-size: 11px; color: #606060; margin: 0; }
+  .report-footer p { font-size: 11px; color: #555; margin: 0; }
 
   /* ── Bullets ── */
   ul { padding-left: 20px; }
   li { color: #b0b0b0; font-size: 14px; margin-bottom: 6px; }
-  li::marker { color: #4ec9b0; }
+  li::marker { color: #EAFF00; }
 
   /* ── Navigation bar ── */
-  .report-nav { position: sticky; top: 0; z-index: 100; background: rgba(24,24,24,0.92); border-bottom: 1px solid #2d2d2d; padding: 10px 40px; display: flex; gap: 6px; backdrop-filter: blur(14px); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: #4ec9b0 #1e1e1e; -webkit-overflow-scrolling: touch; }
+  .report-nav { position: sticky; top: 0; z-index: 100; background: rgba(17,17,17,0.92); border-bottom: 1px solid #222; padding: 10px 40px; display: flex; gap: 6px; backdrop-filter: blur(14px); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: #EAFF00 #1a1a1a; -webkit-overflow-scrolling: touch; }
   .report-nav::before, .report-nav::after { content: ''; flex: 1 0 0px; }
   .report-nav::-webkit-scrollbar { height: 5px; }
-  .report-nav::-webkit-scrollbar-track { background: #1e1e1e; border-radius: 3px; }
-  .report-nav::-webkit-scrollbar-thumb { background: #4ec9b0; border-radius: 3px; }
-  .report-nav::-webkit-scrollbar-thumb:hover { background: #5fd4bb; }
-  .nav-link { background: transparent; border: 1px solid #3a3a3a; border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 500; color: #888888; text-decoration: none; cursor: pointer; transition: all 0.25s; font-family: inherit; white-space: nowrap; flex-shrink: 0; }
-  .nav-link:hover { border-color: #4ec9b0; color: #cccccc; }
-  .nav-link.active { background: #4ec9b0; color: #181818; border-color: #4ec9b0; font-weight: 700; }
+  .report-nav::-webkit-scrollbar-track { background: #1a1a1a; border-radius: 3px; }
+  .report-nav::-webkit-scrollbar-thumb { background: #EAFF00; border-radius: 3px; }
+  .report-nav::-webkit-scrollbar-thumb:hover { background: #d4e000; }
+  .nav-link { background: transparent; border: 1px solid #333; border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 500; color: #888; text-decoration: none; cursor: pointer; transition: all 0.25s; font-family: inherit; white-space: nowrap; flex-shrink: 0; }
+  .nav-link:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .nav-link.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
   .nav-num { font-weight: 700; margin-right: 4px; font-size: 11px; opacity: 0.7; }
   .nav-link.active .nav-num { opacity: 1; }
   .section-anchor { scroll-margin-top: 56px; }
 
   /* ── Sender ID card ── */
-  .sender-grid { display: grid; grid-template-columns: 60px 1fr 1fr; gap: 0; margin: 16px 0 24px 0; border: 1px solid #2d2d2d; border-radius: 12px; overflow: hidden; font-size: 13px; }
-  .sender-grid .sg-header { background: #1e1e1e; color: #4ec9b0; padding: 10px 14px; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #4ec9b0; }
-  .sender-grid .sg-cell { padding: 10px 14px; border-bottom: 1px solid #2d2d2d; color: #cccccc; display: flex; align-items: center; }
+  .sender-grid { display: grid; grid-template-columns: 60px 1fr 1fr; gap: 0; margin: 16px 0 24px 0; border: 1px solid #222; border-radius: 12px; overflow: hidden; font-size: 13px; }
+  .sender-grid .sg-header { background: #1a1a1a; color: #EAFF00; padding: 10px 14px; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #EAFF00; }
+  .sender-grid .sg-cell { padding: 10px 14px; border-bottom: 1px solid #222; color: #ccc; display: flex; align-items: center; }
   .sender-grid .sg-id { font-weight: 800; font-size: 18px; color: #fff; justify-content: center; }
-  .sender-grid .sg-old { color: #f14c4c; }
-  .sender-grid .sg-new { color: #25b644; font-weight: 600; }
-  .sender-grid .sg-unused { color: #888888; font-style: italic; }
+  .sender-grid .sg-old { color: #ff6b6b; }
+  .sender-grid .sg-new { color: #51cf66; font-weight: 600; }
+  .sender-grid .sg-unused { color: #888; font-style: italic; }
 
   /* ── Language visibility ── */
   [data-lang] { display: none; }
@@ -131,8 +131,8 @@
     .summary-card:hover { border-color: #ddd; }
     .summary-card h3 { color: #111; }
     .summary-card .count { color: #111; }
-    .note { background: #f0faf7; border-left-color: #4ec9b0; color: #333; }
-    .note strong { color: #3ba08a; }
+    .note { background: #fffbe6; border-left-color: #d4a800; color: #333; }
+    .note strong { color: #d4a800; }
     .warn { background: #fff8ee; border-left-color: #d48800; color: #664400; }
     .warn strong { color: #d48800; }
     .warn code { background: #fff8ee; border-color: #eeddbb; color: #664400; }
@@ -146,10 +146,7 @@
 <body>
 
 <div class="report-header">
-  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
-    <img class="logo" src="assets/pg-logo.svg" alt="PromptGrid" style="margin-bottom:0;">
-    <span style="font-size:22px;font-weight:600;color:#fff;letter-spacing:-0.5px;">PromptGrid</span>
-  </div>
+  <img class="logo" src="../assets/gnb-logo.png" alt="GNB Agency">
 
   <div class="lang-switcher">
     <button class="lang-btn active" data-set-lang="ru">RU</button>
@@ -201,7 +198,7 @@
 </table>
 <p>Задача: заменить устаревшие <code>FromId: 3</code> и <code>FromId: 2</code> на актуальный <code>FromId: 5</code> во всех файлах Table data в папке ХейХо (21 файл).</p>
 <div class="note">
-  <strong>Примечание:</strong> все три кампании, в которых использовался устаревший <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>), имеют статус <strong style="color:#f14c4c;">Stopped</strong> в Customer.io и не отправляют писем. Это снижает риск при замене — изменения не затрагивают активные рассылки.
+  <strong>Примечание:</strong> все три кампании, в которых использовался устаревший <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>), имеют статус <strong style="color:#ff6b6b;">Stopped</strong> в Customer.io и не отправляют писем. Это снижает риск при замене — изменения не затрагивают активные рассылки.
 </div>
 </div>
 
@@ -219,7 +216,7 @@
 </table>
 <p>Задача: замінити застарілі <code>FromId: 3</code> та <code>FromId: 2</code> на актуальний <code>FromId: 5</code> у всіх файлах Table data в папці ХейХо (21 файл).</p>
 <div class="note">
-  <strong>Примітка:</strong> всі три кампанії, в яких використовувався застарілий <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>), мають статус <strong style="color:#f14c4c;">Stopped</strong> у Customer.io і не надсилають листів. Це знижує ризик при заміні — зміни не зачіпають активні розсилки.
+  <strong>Примітка:</strong> всі три кампанії, в яких використовувався застарілий <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>), мають статус <strong style="color:#ff6b6b;">Stopped</strong> у Customer.io і не надсилають листів. Це знижує ризик при заміні — зміни не зачіпають активні розсилки.
 </div>
 </div>
 
@@ -237,7 +234,7 @@
 </table>
 <p>Task: replace deprecated <code>FromId: 3</code> and <code>FromId: 2</code> with the current <code>FromId: 5</code> across all Table data files in the ХейХо folder (21 files).</p>
 <div class="note">
-  <strong>Note:</strong> all three campaigns that used the deprecated <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>) have <strong style="color:#f14c4c;">Stopped</strong> status in Customer.io and are not sending emails. This reduces risk during replacement — changes do not affect active campaigns.
+  <strong>Note:</strong> all three campaigns that used the deprecated <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>) have <strong style="color:#ff6b6b;">Stopped</strong> status in Customer.io and are not sending emails. This reduces risk during replacement — changes do not affect active campaigns.
 </div>
 </div>
 
@@ -255,14 +252,14 @@
   <tr>
     <td class="cnt old">3</td>
     <td class="old">HeyHo Casino &lt;promotions@heyhocasino.com&gt;</td>
-    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td style="text-align:center; font-size:18px; color:#EAFF00;">→</td>
     <td class="cnt new">5</td>
     <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
   </tr>
   <tr>
     <td class="cnt old">2</td>
     <td class="old">HeyHo Casino &lt;promo@hh.fo&gt;</td>
-    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td style="text-align:center; font-size:18px; color:#EAFF00;">→</td>
     <td class="cnt new">5</td>
     <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
   </tr>
@@ -278,14 +275,14 @@
   <tr>
     <td class="cnt old">3</td>
     <td class="old">HeyHo Casino &lt;promotions@heyhocasino.com&gt;</td>
-    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td style="text-align:center; font-size:18px; color:#EAFF00;">→</td>
     <td class="cnt new">5</td>
     <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
   </tr>
   <tr>
     <td class="cnt old">2</td>
     <td class="old">HeyHo Casino &lt;promo@hh.fo&gt;</td>
-    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td style="text-align:center; font-size:18px; color:#EAFF00;">→</td>
     <td class="cnt new">5</td>
     <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
   </tr>
@@ -301,14 +298,14 @@
   <tr>
     <td class="cnt old">3</td>
     <td class="old">HeyHo Casino &lt;promotions@heyhocasino.com&gt;</td>
-    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td style="text-align:center; font-size:18px; color:#EAFF00;">→</td>
     <td class="cnt new">5</td>
     <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
   </tr>
   <tr>
     <td class="cnt old">2</td>
     <td class="old">HeyHo Casino &lt;promo@hh.fo&gt;</td>
-    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td style="text-align:center; font-size:18px; color:#EAFF00;">→</td>
     <td class="cnt new">5</td>
     <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
   </tr>
@@ -359,7 +356,7 @@
 <p>Поиск <code>FromId: 3</code> выполнен по всем 21 файлу. Совпадения обнаружены в 3 файлах:</p>
 
 <h3>4.1 welcome_package_set — Table data.txt</h3>
-<p>Кампания: <strong>welcome_package_set</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 6 писем. Файл содержит записи для писем WP_1 … WP_6, каждое в нескольких локалях (Default, de-DE, fr, nl-NL и др.).</p>
+<p>Кампания: <strong>welcome_package_set</strong> — статус <strong style="color:#ff6b6b;">● Stopped</strong>, 6 писем. Файл содержит записи для писем WP_1 … WP_6, каждое в нескольких локалях (Default, de-DE, fr, nl-NL и др.).</p>
 <table>
   <tr><th>Было</th><th>Стало</th><th>Кол-во</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">24</td></tr>
@@ -367,7 +364,7 @@
 <p>Все 24 записи в файле использовали <code>FromId: 3</code>. После замены — весь файл переведён на <code>FromId: 5</code>.</p>
 
 <h3>4.2 dep_1_additional_mails — Table data.txt</h3>
-<p>Кампания: <strong>dep_1_additional_mails</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 3 письма + 3 таймера. Файл содержит записи для дополнительных писем серии депозитов (dep_1), каждое в нескольких локалях.</p>
+<p>Кампания: <strong>dep_1_additional_mails</strong> — статус <strong style="color:#ff6b6b;">● Stopped</strong>, 3 письма + 3 таймера. Файл содержит записи для дополнительных писем серии депозитов (dep_1), каждое в нескольких локалях.</p>
 <table>
   <tr><th>Было</th><th>Стало</th><th>Кол-во</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
@@ -375,7 +372,7 @@
 <p>Все 12 записей заменены.</p>
 
 <h3>4.3 dep_0_additional_mails — Table data.txt</h3>
-<p>Кампания: <strong>dep_0_additional_mails</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 3 письма + 3 таймера. Файл содержит записи для дополнительных писем серии «без депозита» (dep_0), каждое в нескольких локалях.</p>
+<p>Кампания: <strong>dep_0_additional_mails</strong> — статус <strong style="color:#ff6b6b;">● Stopped</strong>, 3 письма + 3 таймера. Файл содержит записи для дополнительных писем серии «без депозита» (dep_0), каждое в нескольких локалях.</p>
 <table>
   <tr><th>Было</th><th>Стало</th><th>Кол-во</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
@@ -413,7 +410,7 @@
 <p>Пошук <code>FromId: 3</code> виконано по всіх 21 файлу. Збіги виявлено у 3 файлах:</p>
 
 <h3>4.1 welcome_package_set — Table data.txt</h3>
-<p>Кампанія: <strong>welcome_package_set</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 6 листів. Файл містить записи для листів WP_1 … WP_6, кожен у кількох локалях (Default, de-DE, fr, nl-NL та ін.).</p>
+<p>Кампанія: <strong>welcome_package_set</strong> — статус <strong style="color:#ff6b6b;">● Stopped</strong>, 6 листів. Файл містить записи для листів WP_1 … WP_6, кожен у кількох локалях (Default, de-DE, fr, nl-NL та ін.).</p>
 <table>
   <tr><th>Було</th><th>Стало</th><th>К-сть</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">24</td></tr>
@@ -421,7 +418,7 @@
 <p>Усі 24 записи у файлі використовували <code>FromId: 3</code>. Після заміни — весь файл переведено на <code>FromId: 5</code>.</p>
 
 <h3>4.2 dep_1_additional_mails — Table data.txt</h3>
-<p>Кампанія: <strong>dep_1_additional_mails</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 3 листи + 3 таймери. Файл містить записи для додаткових листів серії депозитів (dep_1), кожен у кількох локалях.</p>
+<p>Кампанія: <strong>dep_1_additional_mails</strong> — статус <strong style="color:#ff6b6b;">● Stopped</strong>, 3 листи + 3 таймери. Файл містить записи для додаткових листів серії депозитів (dep_1), кожен у кількох локалях.</p>
 <table>
   <tr><th>Було</th><th>Стало</th><th>К-сть</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
@@ -429,7 +426,7 @@
 <p>Усі 12 записів замінено.</p>
 
 <h3>4.3 dep_0_additional_mails — Table data.txt</h3>
-<p>Кампанія: <strong>dep_0_additional_mails</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 3 листи + 3 таймери. Файл містить записи для додаткових листів серії «без депозиту» (dep_0), кожен у кількох локалях.</p>
+<p>Кампанія: <strong>dep_0_additional_mails</strong> — статус <strong style="color:#ff6b6b;">● Stopped</strong>, 3 листи + 3 таймери. Файл містить записи для додаткових листів серії «без депозиту» (dep_0), кожен у кількох локалях.</p>
 <table>
   <tr><th>Було</th><th>Стало</th><th>К-сть</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
@@ -467,7 +464,7 @@
 <p>A search for <code>FromId: 3</code> was performed across all 21 files. Matches were found in 3 files:</p>
 
 <h3>4.1 welcome_package_set — Table data.txt</h3>
-<p>Campaign: <strong>welcome_package_set</strong> — status <strong style="color:#f14c4c;">● Stopped</strong>, 6 emails. This file contains entries for emails WP_1 … WP_6, each in multiple locales (Default, de-DE, fr, nl-NL, etc.).</p>
+<p>Campaign: <strong>welcome_package_set</strong> — status <strong style="color:#ff6b6b;">● Stopped</strong>, 6 emails. This file contains entries for emails WP_1 … WP_6, each in multiple locales (Default, de-DE, fr, nl-NL, etc.).</p>
 <table>
   <tr><th>Before</th><th>After</th><th>Count</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">24</td></tr>
@@ -475,7 +472,7 @@
 <p>All 24 entries in the file used <code>FromId: 3</code>. After replacement — the entire file now uses <code>FromId: 5</code>.</p>
 
 <h3>4.2 dep_1_additional_mails — Table data.txt</h3>
-<p>Campaign: <strong>dep_1_additional_mails</strong> — status <strong style="color:#f14c4c;">● Stopped</strong>, 3 emails + 3 timers. This file contains entries for additional emails in the deposit series (dep_1), each in multiple locales.</p>
+<p>Campaign: <strong>dep_1_additional_mails</strong> — status <strong style="color:#ff6b6b;">● Stopped</strong>, 3 emails + 3 timers. This file contains entries for additional emails in the deposit series (dep_1), each in multiple locales.</p>
 <table>
   <tr><th>Before</th><th>After</th><th>Count</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
@@ -483,7 +480,7 @@
 <p>All 12 entries replaced.</p>
 
 <h3>4.3 dep_0_additional_mails — Table data.txt</h3>
-<p>Campaign: <strong>dep_0_additional_mails</strong> — status <strong style="color:#f14c4c;">● Stopped</strong>, 3 emails + 3 timers. This file contains entries for additional emails in the "no deposit" series (dep_0), each in multiple locales.</p>
+<p>Campaign: <strong>dep_0_additional_mails</strong> — status <strong style="color:#ff6b6b;">● Stopped</strong>, 3 emails + 3 timers. This file contains entries for additional emails in the "no deposit" series (dep_0), each in multiple locales.</p>
 <table>
   <tr><th>Before</th><th>After</th><th>Count</th></tr>
   <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
@@ -715,8 +712,8 @@
 </div><!-- .content -->
 
 <div class="report-footer">
-  <img class="logo-sm" src="assets/pg-logo.svg" alt="PromptGrid">
-  <p>&copy; 2026 PromptGrid &bull; Automation &bull; Precision &bull; Results</p>
+  <img class="logo-sm" src="../assets/gnb-logo.png" alt="GNB Agency">
+  <p>&copy; 2026 GNB Agency &bull; Retention &bull; Revenue &bull; Results</p>
 </div>
 
 <script>
