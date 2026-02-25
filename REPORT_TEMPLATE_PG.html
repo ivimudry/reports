@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ru" style="scroll-behavior:smooth;">
+<head>
+<meta charset="UTF-8">
+<title>PromptGrid — Report: FromId Migration</title>
+<link rel="icon" type="image/svg+xml" href="assets/pg-logo.svg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+  * { box-sizing: border-box; }
+  body { font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; color: #cccccc; line-height: 1.65; background: #181818; }
+
+  /* ── Header ── */
+  .report-header { background: linear-gradient(135deg, #181818 0%, #212121 100%); padding: 48px 40px 40px; border-bottom: 3px solid #4ec9b0; position: relative; }
+  .report-header .logo { height: 28px; margin-bottom: 24px; }
+  .report-header h1 { font-size: 26px; font-weight: 700; color: #fff; margin: 0 0 8px 0; letter-spacing: -0.5px; }
+  .report-header .meta { color: #888888; font-size: 13px; margin: 0; }
+  .report-header .meta span { color: #4ec9b0; font-weight: 600; }
+
+  /* ── Language Switcher ── */
+  .lang-switcher { position: absolute; top: 20px; right: 40px; display: flex; gap: 6px; }
+  .lang-btn { background: #212121; border: 1px solid #3a3a3a; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; color: #888888; font-family: inherit; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+  .lang-btn:hover { border-color: #4ec9b0; color: #cccccc; }
+  .lang-btn.active { background: #4ec9b0; color: #181818; border-color: #4ec9b0; font-weight: 700; }
+  .lang-flag { font-size: 16px; line-height: 1; }
+
+  /* ── Content ── */
+  .content { padding: 0 40px 48px; }
+
+  h2 { color: #fff; margin-top: 40px; font-size: 18px; font-weight: 700; border-left: 4px solid #4ec9b0; padding-left: 14px; letter-spacing: -0.3px; }
+  h3 { color: #cccccc; font-size: 14px; font-weight: 600; margin-top: 20px; }
+
+  p { color: #b0b0b0; font-size: 14px; }
+  strong { color: #cccccc; }
+
+  /* ── Tables ── */
+  table { border-collapse: collapse; width: 100%; margin: 12px 0 24px 0; font-size: 13px; }
+  th { background: #1e1e1e; color: #4ec9b0; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #4ec9b0; }
+  td { border-bottom: 1px solid #2d2d2d; padding: 8px 14px; vertical-align: top; color: #cccccc; }
+  tr:hover { background: #1c1c1c; }
+
+  .old { color: #f14c4c; }
+  .new { color: #25b644; font-weight: 600; }
+  .cnt { text-align: center; font-weight: 700; font-size: 15px; color: #fff; }
+
+  /* ── Code ── */
+  code { background: #1e1e1e; border: 1px solid #3a3a3a; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #ddd; word-break: break-all; font-family: 'Consolas', 'Monaco', monospace; }
+
+  /* ── Summary cards ── */
+  .summary-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .summary-card { background: #1c1c1c; border: 1px solid #2d2d2d; border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
+  .summary-card:hover { border-color: #4ec9b0; }
+  .summary-card h3 { margin: 0 0 4px 0; color: #fff; font-size: 14px; font-weight: 600; }
+  .summary-card .count { font-size: 32px; font-weight: 800; color: #4ec9b0; letter-spacing: -1px; }
+  .summary-card .label { font-size: 12px; color: #888888; margin-top: 2px; }
+
+  /* ── Callouts ── */
+  .note { background: rgba(78, 201, 176, 0.08); border-left: 3px solid #4ec9b0; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #b0b0b0; }
+  .note strong { color: #4ec9b0; }
+  .warn { background: rgba(204, 167, 0, 0.08); border-left: 3px solid #cca700; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c0a878; }
+  .warn strong { color: #cca700; }
+  .warn code { border-color: #443820; background: rgba(204, 167, 0, 0.06); color: #ddc090; }
+  .error { background: rgba(241, 76, 76, 0.08); border-left: 3px solid #f14c4c; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c08080; }
+  .error strong { color: #f14c4c; }
+  .error code { border-color: #442020; background: rgba(241, 76, 76, 0.06); color: #dda0a0; }
+
+  /* ── Footer ── */
+  .report-footer { background: #181818; border-top: 1px solid #2d2d2d; padding: 24px 40px; text-align: center; }
+  .report-footer .logo-sm { height: 18px; opacity: 0.85; margin-bottom: 8px; }
+  .report-footer p { font-size: 11px; color: #606060; margin: 0; }
+
+  /* ── Bullets ── */
+  ul { padding-left: 20px; }
+  li { color: #b0b0b0; font-size: 14px; margin-bottom: 6px; }
+  li::marker { color: #4ec9b0; }
+
+  /* ── Navigation bar ── */
+  .report-nav { position: sticky; top: 0; z-index: 100; background: rgba(24,24,24,0.92); border-bottom: 1px solid #2d2d2d; padding: 10px 40px; display: flex; gap: 6px; backdrop-filter: blur(14px); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: #4ec9b0 #1e1e1e; -webkit-overflow-scrolling: touch; }
+  .report-nav::before, .report-nav::after { content: ''; flex: 1 0 0px; }
+  .report-nav::-webkit-scrollbar { height: 5px; }
+  .report-nav::-webkit-scrollbar-track { background: #1e1e1e; border-radius: 3px; }
+  .report-nav::-webkit-scrollbar-thumb { background: #4ec9b0; border-radius: 3px; }
+  .report-nav::-webkit-scrollbar-thumb:hover { background: #5fd4bb; }
+  .nav-link { background: transparent; border: 1px solid #3a3a3a; border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 500; color: #888888; text-decoration: none; cursor: pointer; transition: all 0.25s; font-family: inherit; white-space: nowrap; flex-shrink: 0; }
+  .nav-link:hover { border-color: #4ec9b0; color: #cccccc; }
+  .nav-link.active { background: #4ec9b0; color: #181818; border-color: #4ec9b0; font-weight: 700; }
+  .nav-num { font-weight: 700; margin-right: 4px; font-size: 11px; opacity: 0.7; }
+  .nav-link.active .nav-num { opacity: 1; }
+  .section-anchor { scroll-margin-top: 56px; }
+
+  /* ── Sender ID card ── */
+  .sender-grid { display: grid; grid-template-columns: 60px 1fr 1fr; gap: 0; margin: 16px 0 24px 0; border: 1px solid #2d2d2d; border-radius: 12px; overflow: hidden; font-size: 13px; }
+  .sender-grid .sg-header { background: #1e1e1e; color: #4ec9b0; padding: 10px 14px; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #4ec9b0; }
+  .sender-grid .sg-cell { padding: 10px 14px; border-bottom: 1px solid #2d2d2d; color: #cccccc; display: flex; align-items: center; }
+  .sender-grid .sg-id { font-weight: 800; font-size: 18px; color: #fff; justify-content: center; }
+  .sender-grid .sg-old { color: #f14c4c; }
+  .sender-grid .sg-new { color: #25b644; font-weight: 600; }
+  .sender-grid .sg-unused { color: #888888; font-style: italic; }
+
+  /* ── Language visibility ── */
+  [data-lang] { display: none; }
+  [data-lang].active { display: block; }
+  table[data-lang].active { display: table; }
+  tr[data-lang].active { display: table-row; }
+  .summary-grid[data-lang].active { display: grid; }
+  div.warn[data-lang].active, div.note[data-lang].active, div.error[data-lang].active { display: block; }
+  span[data-lang].active { display: inline; }
+
+  /* ── Print ── */
+  @media print {
+    .lang-switcher { display: none; }
+    .report-nav { display: none; }
+    body { background: #fff; color: #222; }
+    .report-header { background: #fff; border-bottom-color: #222; }
+    .report-header h1 { color: #111; }
+    .report-header .meta { color: #666; }
+    .report-header .meta span { color: #111; }
+    .content { padding: 0 20px 20px; }
+    h2 { color: #111; border-left-color: #222; }
+    h3 { color: #333; }
+    p, li { color: #333; }
+    strong { color: #111; }
+    table { font-size: 11px; }
+    th { background: #111; color: #fff; border-bottom-color: #111; }
+    td { color: #333; border-bottom-color: #ddd; }
+    tr:hover { background: transparent; }
+    .old { color: #c0392b; }
+    .new { color: #27ae60; }
+    .cnt { color: #111; }
+    code { background: #f4f4f4; border-color: #ddd; color: #333; }
+    .summary-card { background: #f9f9f9; border-color: #ddd; }
+    .summary-card:hover { border-color: #ddd; }
+    .summary-card h3 { color: #111; }
+    .summary-card .count { color: #111; }
+    .note { background: #f0faf7; border-left-color: #4ec9b0; color: #333; }
+    .note strong { color: #3ba08a; }
+    .warn { background: #fff8ee; border-left-color: #d48800; color: #664400; }
+    .warn strong { color: #d48800; }
+    .warn code { background: #fff8ee; border-color: #eeddbb; color: #664400; }
+    .error { background: #fff0f0; border-left-color: #cc0000; color: #440000; }
+    .error strong { color: #cc0000; }
+    .report-footer { border-top-color: #ddd; }
+    .report-footer p { color: #999; }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
+    <img class="logo" src="assets/pg-logo.svg" alt="PromptGrid" style="margin-bottom:0;">
+    <span style="font-size:22px;font-weight:600;color:#fff;letter-spacing:-0.5px;">PromptGrid</span>
+  </div>
+
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-set-lang="ru">RU</button>
+    <button class="lang-btn" data-set-lang="ua">UA</button>
+    <button class="lang-btn" data-set-lang="en">EN</button>
+  </div>
+
+  <!-- RU -->
+  <h1 data-lang="ru" class="active">Миграция FromId отправителей</h1>
+  <p class="meta" data-lang="ru"><span>HeyHo Casino</span> &bull; <span>19 февраля 2026</span> &bull; Замена устаревших Sender ID в файлах кампаний</p>
+
+  <!-- UA -->
+  <h1 data-lang="ua">Міграція FromId відправників</h1>
+  <p class="meta" data-lang="ua"><span>HeyHo Casino</span> &bull; <span>19 лютого 2026</span> &bull; Заміна застарілих Sender ID у файлах кампаній</p>
+
+  <!-- EN -->
+  <h1 data-lang="en">FromId Sender Migration</h1>
+  <p class="meta" data-lang="en"><span>HeyHo Casino</span> &bull; <span>February 19, 2026</span> &bull; Replacing deprecated Sender IDs in campaign files</p>
+</div>
+
+<nav class="report-nav">
+  <a class="nav-link active" href="#sec-1"><span class="nav-num">1.</span><span data-lang="ru" class="active">Контекст</span><span data-lang="ua">Контекст</span><span data-lang="en">Context</span></a>
+  <a class="nav-link" href="#sec-2"><span class="nav-num">2.</span><span data-lang="ru" class="active">Маппинг</span><span data-lang="ua">Маппінг</span><span data-lang="en">Mapping</span></a>
+  <a class="nav-link" href="#sec-3"><span class="nav-num">3.</span><span data-lang="ru" class="active">Сводка</span><span data-lang="ua">Зведення</span><span data-lang="en">Summary</span></a>
+  <a class="nav-link" href="#sec-4"><span class="nav-num">4.</span><span data-lang="ru" class="active">Детали</span><span data-lang="ua">Деталі</span><span data-lang="en">Details</span></a>
+  <a class="nav-link" href="#sec-5"><span class="nav-num">5.</span><span data-lang="ru" class="active">Аномалия ID 2</span><span data-lang="ua">Аномалія ID 2</span><span data-lang="en">ID 2 Anomaly</span></a>
+  <a class="nav-link" href="#sec-6"><span class="nav-num">6.</span><span data-lang="ru" class="active">Верификация</span><span data-lang="ua">Верифікація</span><span data-lang="en">Verification</span></a>
+  <a class="nav-link" href="#sec-7"><span class="nav-num">7.</span><span data-lang="ru" class="active">Метод</span><span data-lang="ua">Метод</span><span data-lang="en">Method</span></a>
+</nav>
+
+<div class="content">
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 1 — CONTEXT                                        ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-1" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>1. Контекст</h2>
+<p>В Customer.io каждое отправляемое письмо привязывается к конкретному отправителю через поле <code>FromId</code> (Sender ID). Каждый Sender ID соответствует паре «имя + email-адрес», зарегистрированной в настройках воркспейса.</p>
+<p>Для HeyHo Casino в системе зарегистрированы следующие адреса отправителей:</p>
+<table>
+  <tr><th>ID</th><th>Имя</th><th>Email</th><th>Статус</th></tr>
+  <tr><td class="cnt">1</td><td>HeyHo Casino</td><td><code>mails@hh.fo</code></td><td>Unused</td></tr>
+  <tr><td class="cnt">2</td><td>HeyHo Casino</td><td><code>promo@hh.fo</code></td><td>In Use ⚠️</td></tr>
+  <tr><td class="cnt">3</td><td>HeyHo Casino</td><td><code>promotions@heyhocasino.com</code></td><td>Deprecated</td></tr>
+  <tr><td class="cnt">5</td><td>HeyHo</td><td><code>info@mails-hh.com</code></td><td class="new">Active ✓</td></tr>
+</table>
+<p>Задача: заменить устаревшие <code>FromId: 3</code> и <code>FromId: 2</code> на актуальный <code>FromId: 5</code> во всех файлах Table data в папке ХейХо (21 файл).</p>
+<div class="note">
+  <strong>Примечание:</strong> все три кампании, в которых использовался устаревший <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>), имеют статус <strong style="color:#f14c4c;">Stopped</strong> в Customer.io и не отправляют писем. Это снижает риск при замене — изменения не затрагивают активные рассылки.
+</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>1. Контекст</h2>
+<p>У Customer.io кожен лист, що надсилається, прив'язується до конкретного відправника через поле <code>FromId</code> (Sender ID). Кожен Sender ID відповідає парі «ім'я + email-адреса», зареєстрованій у налаштуваннях воркспейса.</p>
+<p>Для HeyHo Casino в системі зареєстровані наступні адреси відправників:</p>
+<table>
+  <tr><th>ID</th><th>Ім'я</th><th>Email</th><th>Статус</th></tr>
+  <tr><td class="cnt">1</td><td>HeyHo Casino</td><td><code>mails@hh.fo</code></td><td>Unused</td></tr>
+  <tr><td class="cnt">2</td><td>HeyHo Casino</td><td><code>promo@hh.fo</code></td><td>In Use ⚠️</td></tr>
+  <tr><td class="cnt">3</td><td>HeyHo Casino</td><td><code>promotions@heyhocasino.com</code></td><td>Deprecated</td></tr>
+  <tr><td class="cnt">5</td><td>HeyHo</td><td><code>info@mails-hh.com</code></td><td class="new">Active ✓</td></tr>
+</table>
+<p>Задача: замінити застарілі <code>FromId: 3</code> та <code>FromId: 2</code> на актуальний <code>FromId: 5</code> у всіх файлах Table data в папці ХейХо (21 файл).</p>
+<div class="note">
+  <strong>Примітка:</strong> всі три кампанії, в яких використовувався застарілий <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>), мають статус <strong style="color:#f14c4c;">Stopped</strong> у Customer.io і не надсилають листів. Це знижує ризик при заміні — зміни не зачіпають активні розсилки.
+</div>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>1. Context</h2>
+<p>In Customer.io, every sent email is linked to a specific sender via the <code>FromId</code> (Sender ID) field. Each Sender ID corresponds to a "name + email address" pair registered in the workspace settings.</p>
+<p>The following sender addresses are registered for HeyHo Casino:</p>
+<table>
+  <tr><th>ID</th><th>Name</th><th>Email</th><th>Status</th></tr>
+  <tr><td class="cnt">1</td><td>HeyHo Casino</td><td><code>mails@hh.fo</code></td><td>Unused</td></tr>
+  <tr><td class="cnt">2</td><td>HeyHo Casino</td><td><code>promo@hh.fo</code></td><td>In Use ⚠️</td></tr>
+  <tr><td class="cnt">3</td><td>HeyHo Casino</td><td><code>promotions@heyhocasino.com</code></td><td>Deprecated</td></tr>
+  <tr><td class="cnt">5</td><td>HeyHo</td><td><code>info@mails-hh.com</code></td><td class="new">Active ✓</td></tr>
+</table>
+<p>Task: replace deprecated <code>FromId: 3</code> and <code>FromId: 2</code> with the current <code>FromId: 5</code> across all Table data files in the ХейХо folder (21 files).</p>
+<div class="note">
+  <strong>Note:</strong> all three campaigns that used the deprecated <code>FromId: 3</code> (<strong>welcome_package_set</strong>, <strong>dep_0_additional_mails</strong>, <strong>dep_1_additional_mails</strong>) have <strong style="color:#f14c4c;">Stopped</strong> status in Customer.io and are not sending emails. This reduces risk during replacement — changes do not affect active campaigns.
+</div>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 2 — MAPPING                                        ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-2" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>2. Маппинг отправителей</h2>
+<p>Ниже показано, какие адреса заменяются и на что:</p>
+<table>
+  <tr><th>Старый ID</th><th>Старый отправитель</th><th></th><th>Новый ID</th><th>Новый отправитель</th></tr>
+  <tr>
+    <td class="cnt old">3</td>
+    <td class="old">HeyHo Casino &lt;promotions@heyhocasino.com&gt;</td>
+    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td class="cnt new">5</td>
+    <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
+  </tr>
+  <tr>
+    <td class="cnt old">2</td>
+    <td class="old">HeyHo Casino &lt;promo@hh.fo&gt;</td>
+    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td class="cnt new">5</td>
+    <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
+  </tr>
+</table>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>2. Маппінг відправників</h2>
+<p>Нижче показано, які адреси замінюються і на що:</p>
+<table>
+  <tr><th>Старий ID</th><th>Старий відправник</th><th></th><th>Новий ID</th><th>Новий відправник</th></tr>
+  <tr>
+    <td class="cnt old">3</td>
+    <td class="old">HeyHo Casino &lt;promotions@heyhocasino.com&gt;</td>
+    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td class="cnt new">5</td>
+    <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
+  </tr>
+  <tr>
+    <td class="cnt old">2</td>
+    <td class="old">HeyHo Casino &lt;promo@hh.fo&gt;</td>
+    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td class="cnt new">5</td>
+    <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
+  </tr>
+</table>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>2. Sender Mapping</h2>
+<p>Below is the mapping of old to new sender addresses:</p>
+<table>
+  <tr><th>Old ID</th><th>Old Sender</th><th></th><th>New ID</th><th>New Sender</th></tr>
+  <tr>
+    <td class="cnt old">3</td>
+    <td class="old">HeyHo Casino &lt;promotions@heyhocasino.com&gt;</td>
+    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td class="cnt new">5</td>
+    <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
+  </tr>
+  <tr>
+    <td class="cnt old">2</td>
+    <td class="old">HeyHo Casino &lt;promo@hh.fo&gt;</td>
+    <td style="text-align:center; font-size:18px; color:#4ec9b0;">→</td>
+    <td class="cnt new">5</td>
+    <td class="new">HeyHo &lt;info@mails-hh.com&gt;</td>
+  </tr>
+</table>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 3 — SUMMARY                                        ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-3" class="section-anchor"></div>
+
+<!-- RU -->
+<h2 data-lang="ru" class="active">3. Сводка</h2>
+<!-- UA -->
+<h2 data-lang="ua">3. Зведення</h2>
+<!-- EN -->
+<h2 data-lang="en">3. Summary</h2>
+
+<!-- RU cards -->
+<div class="summary-grid" data-lang="ru">
+  <div class="summary-card"><h3>Просканировано файлов</h3><div class="count">21</div><div class="label">Table data файлов в папке ХейХо</div></div>
+  <div class="summary-card"><h3>FromId: 3 → 5</h3><div class="count">48</div><div class="label">замен в 3 файлах</div></div>
+  <div class="summary-card"><h3>FromId: 2</h3><div class="count">0</div><div class="label">не найдено ни в одном файле</div></div>
+</div>
+
+<!-- UA cards -->
+<div class="summary-grid" data-lang="ua">
+  <div class="summary-card"><h3>Проскановано файлів</h3><div class="count">21</div><div class="label">Table data файлів у папці ХейХо</div></div>
+  <div class="summary-card"><h3>FromId: 3 → 5</h3><div class="count">48</div><div class="label">замін у 3 файлах</div></div>
+  <div class="summary-card"><h3>FromId: 2</h3><div class="count">0</div><div class="label">не знайдено в жодному файлі</div></div>
+</div>
+
+<!-- EN cards -->
+<div class="summary-grid" data-lang="en">
+  <div class="summary-card"><h3>Files Scanned</h3><div class="count">21</div><div class="label">Table data files in ХейХо folder</div></div>
+  <div class="summary-card"><h3>FromId: 3 → 5</h3><div class="count">48</div><div class="label">replacements across 3 files</div></div>
+  <div class="summary-card"><h3>FromId: 2</h3><div class="count">0</div><div class="label">not found in any file</div></div>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 4 — DETAILS                                        ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-4" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>4. Детали замены FromId: 3 → 5</h2>
+<p>Поиск <code>FromId: 3</code> выполнен по всем 21 файлу. Совпадения обнаружены в 3 файлах:</p>
+
+<h3>4.1 welcome_package_set — Table data.txt</h3>
+<p>Кампания: <strong>welcome_package_set</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 6 писем. Файл содержит записи для писем WP_1 … WP_6, каждое в нескольких локалях (Default, de-DE, fr, nl-NL и др.).</p>
+<table>
+  <tr><th>Было</th><th>Стало</th><th>Кол-во</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">24</td></tr>
+</table>
+<p>Все 24 записи в файле использовали <code>FromId: 3</code>. После замены — весь файл переведён на <code>FromId: 5</code>.</p>
+
+<h3>4.2 dep_1_additional_mails — Table data.txt</h3>
+<p>Кампания: <strong>dep_1_additional_mails</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 3 письма + 3 таймера. Файл содержит записи для дополнительных писем серии депозитов (dep_1), каждое в нескольких локалях.</p>
+<table>
+  <tr><th>Было</th><th>Стало</th><th>Кол-во</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
+</table>
+<p>Все 12 записей заменены.</p>
+
+<h3>4.3 dep_0_additional_mails — Table data.txt</h3>
+<p>Кампания: <strong>dep_0_additional_mails</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 3 письма + 3 таймера. Файл содержит записи для дополнительных писем серии «без депозита» (dep_0), каждое в нескольких локалях.</p>
+<table>
+  <tr><th>Было</th><th>Стало</th><th>Кол-во</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
+</table>
+<p>Все 12 записей заменены.</p>
+
+<h3>4.4 Файлы без совпадений</h3>
+<p>В остальных 18 файлах <code>FromId: 3</code> не обнаружен. Эти файлы используют другие Sender ID (4, 5, 6, 7) и не были затронуты:</p>
+<table>
+  <tr><th>Файл</th><th>Используемые FromId</th></tr>
+  <tr><td>DEP Retention - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #1 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #1 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #2 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #2 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #3 LIVE - Table data.txt</td><td>4, 5, 6</td></tr>
+  <tr><td>Nutrition #3 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #4 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #4 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>Nutrition #5 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #5 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>Nutrition #6 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #6 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>SU Retention - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>TEST AUTOMATION - Table data.txt</td><td>4</td></tr>
+  <tr><td>TEST Company - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Unsuccessful Deposit - Table data.txt</td><td>5</td></tr>
+  <tr><td>Welcome Flow - Table data.txt</td><td>5, 6, 7</td></tr>
+</table>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>4. Деталі заміни FromId: 3 → 5</h2>
+<p>Пошук <code>FromId: 3</code> виконано по всіх 21 файлу. Збіги виявлено у 3 файлах:</p>
+
+<h3>4.1 welcome_package_set — Table data.txt</h3>
+<p>Кампанія: <strong>welcome_package_set</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 6 листів. Файл містить записи для листів WP_1 … WP_6, кожен у кількох локалях (Default, de-DE, fr, nl-NL та ін.).</p>
+<table>
+  <tr><th>Було</th><th>Стало</th><th>К-сть</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">24</td></tr>
+</table>
+<p>Усі 24 записи у файлі використовували <code>FromId: 3</code>. Після заміни — весь файл переведено на <code>FromId: 5</code>.</p>
+
+<h3>4.2 dep_1_additional_mails — Table data.txt</h3>
+<p>Кампанія: <strong>dep_1_additional_mails</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 3 листи + 3 таймери. Файл містить записи для додаткових листів серії депозитів (dep_1), кожен у кількох локалях.</p>
+<table>
+  <tr><th>Було</th><th>Стало</th><th>К-сть</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
+</table>
+<p>Усі 12 записів замінено.</p>
+
+<h3>4.3 dep_0_additional_mails — Table data.txt</h3>
+<p>Кампанія: <strong>dep_0_additional_mails</strong> — статус <strong style="color:#f14c4c;">● Stopped</strong>, 3 листи + 3 таймери. Файл містить записи для додаткових листів серії «без депозиту» (dep_0), кожен у кількох локалях.</p>
+<table>
+  <tr><th>Було</th><th>Стало</th><th>К-сть</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
+</table>
+<p>Усі 12 записів замінено.</p>
+
+<h3>4.4 Файли без збігів</h3>
+<p>В решті 18 файлів <code>FromId: 3</code> не виявлено. Ці файли використовують інші Sender ID (4, 5, 6, 7) і не були зачеплені:</p>
+<table>
+  <tr><th>Файл</th><th>Використовувані FromId</th></tr>
+  <tr><td>DEP Retention - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #1 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #1 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #2 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #2 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #3 LIVE - Table data.txt</td><td>4, 5, 6</td></tr>
+  <tr><td>Nutrition #3 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #4 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #4 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>Nutrition #5 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #5 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>Nutrition #6 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #6 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>SU Retention - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>TEST AUTOMATION - Table data.txt</td><td>4</td></tr>
+  <tr><td>TEST Company - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Unsuccessful Deposit - Table data.txt</td><td>5</td></tr>
+  <tr><td>Welcome Flow - Table data.txt</td><td>5, 6, 7</td></tr>
+</table>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>4. FromId: 3 → 5 Replacement Details</h2>
+<p>A search for <code>FromId: 3</code> was performed across all 21 files. Matches were found in 3 files:</p>
+
+<h3>4.1 welcome_package_set — Table data.txt</h3>
+<p>Campaign: <strong>welcome_package_set</strong> — status <strong style="color:#f14c4c;">● Stopped</strong>, 6 emails. This file contains entries for emails WP_1 … WP_6, each in multiple locales (Default, de-DE, fr, nl-NL, etc.).</p>
+<table>
+  <tr><th>Before</th><th>After</th><th>Count</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">24</td></tr>
+</table>
+<p>All 24 entries in the file used <code>FromId: 3</code>. After replacement — the entire file now uses <code>FromId: 5</code>.</p>
+
+<h3>4.2 dep_1_additional_mails — Table data.txt</h3>
+<p>Campaign: <strong>dep_1_additional_mails</strong> — status <strong style="color:#f14c4c;">● Stopped</strong>, 3 emails + 3 timers. This file contains entries for additional emails in the deposit series (dep_1), each in multiple locales.</p>
+<table>
+  <tr><th>Before</th><th>After</th><th>Count</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
+</table>
+<p>All 12 entries replaced.</p>
+
+<h3>4.3 dep_0_additional_mails — Table data.txt</h3>
+<p>Campaign: <strong>dep_0_additional_mails</strong> — status <strong style="color:#f14c4c;">● Stopped</strong>, 3 emails + 3 timers. This file contains entries for additional emails in the "no deposit" series (dep_0), each in multiple locales.</p>
+<table>
+  <tr><th>Before</th><th>After</th><th>Count</th></tr>
+  <tr><td class="old"><code>FromId: 3</code></td><td class="new"><code>FromId: 5</code></td><td class="cnt">12</td></tr>
+</table>
+<p>All 12 entries replaced.</p>
+
+<h3>4.4 Files With No Matches</h3>
+<p>The remaining 18 files contained no <code>FromId: 3</code>. These files use other Sender IDs (4, 5, 6, 7) and were not affected:</p>
+<table>
+  <tr><th>File</th><th>FromId Values Used</th></tr>
+  <tr><td>DEP Retention - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #1 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #1 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #2 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #2 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #3 LIVE - Table data.txt</td><td>4, 5, 6</td></tr>
+  <tr><td>Nutrition #3 SLOTS - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Nutrition #4 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #4 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>Nutrition #5 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #5 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>Nutrition #6 LIVE - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>Nutrition #6 SLOTS - Table data.txt</td><td>4</td></tr>
+  <tr><td>SU Retention - Table data.txt</td><td>4, 5, 6, 7</td></tr>
+  <tr><td>TEST AUTOMATION - Table data.txt</td><td>4</td></tr>
+  <tr><td>TEST Company - Table data.txt</td><td>4, 5</td></tr>
+  <tr><td>Unsuccessful Deposit - Table data.txt</td><td>5</td></tr>
+  <tr><td>Welcome Flow - Table data.txt</td><td>5, 6, 7</td></tr>
+</table>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 5 — ANOMALY ID 2                                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-5" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>5. Аномалия: FromId 2 (promo@hh.fo)</h2>
+
+<div class="error">
+  <strong>⚠ Аномалия:</strong> адрес <code>HeyHo Casino &lt;promo@hh.fo&gt;</code> (ID 2) имеет статус <strong>«In Use»</strong> на странице Sender Addresses в Customer.io, однако <strong>ни один шаблон</strong> не найден при поиске по этому адресу в Message Library.
+</div>
+
+<h3>5.1 Поиск в файлах</h3>
+<p>Полнотекстовый поиск <code>FromId: 2</code> по всем 21 файлу Table data — результат: <strong>0 совпадений</strong>.</p>
+<p>Этот Sender ID не используется ни в одной кампании в экспортированных данных.</p>
+
+<h3>5.2 Поиск в Customer.io</h3>
+<p>Поиск <code>promo@hh.fo</code> в Message Library (All statuses, All channels) — результат: <strong>«No messages matching your search»</strong> (1–0 of 0).</p>
+<div class="warn">
+  <strong>Вероятные причины статуса «In Use»:</strong>
+  <ul>
+    <li>Адрес мог быть привязан к транзакционным письмам, которые не отображаются в Message Library</li>
+    <li>Адрес мог использоваться в удалённой или архивированной кампании, но Customer.io не обновил статус</li>
+    <li>Возможный баг кеширования статуса Sender Address в интерфейсе Customer.io</li>
+  </ul>
+</div>
+<div class="note">
+  <strong>Рекомендация:</strong> проверить в API Customer.io через эндпоинт <code>GET /v1/sender_identities</code>, к каким объектам привязан Sender ID 2. Если привязок нет — статус «In Use» ошибочен и адрес можно деактивировать.
+</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>5. Аномалія: FromId 2 (promo@hh.fo)</h2>
+
+<div class="error">
+  <strong>⚠ Аномалія:</strong> адреса <code>HeyHo Casino &lt;promo@hh.fo&gt;</code> (ID 2) має статус <strong>«In Use»</strong> на сторінці Sender Addresses у Customer.io, проте <strong>жодного шаблону</strong> не знайдено під час пошуку за цією адресою в Message Library.
+</div>
+
+<h3>5.1 Пошук у файлах</h3>
+<p>Повнотекстовий пошук <code>FromId: 2</code> по всіх 21 файлу Table data — результат: <strong>0 збігів</strong>.</p>
+<p>Цей Sender ID не використовується в жодній кампанії в експортованих даних.</p>
+
+<h3>5.2 Пошук у Customer.io</h3>
+<p>Пошук <code>promo@hh.fo</code> у Message Library (All statuses, All channels) — результат: <strong>«No messages matching your search»</strong> (1–0 of 0).</p>
+<div class="warn">
+  <strong>Ймовірні причини статусу «In Use»:</strong>
+  <ul>
+    <li>Адреса могла бути прив'язана до транзакційних листів, які не відображаються в Message Library</li>
+    <li>Адреса могла використовуватися у видаленій або архівованій кампанії, але Customer.io не оновив статус</li>
+    <li>Можливий баг кешування статусу Sender Address в інтерфейсі Customer.io</li>
+  </ul>
+</div>
+<div class="note">
+  <strong>Рекомендація:</strong> перевірити через API Customer.io ендпоінт <code>GET /v1/sender_identities</code>, до яких об'єктів прив'язаний Sender ID 2. Якщо прив'язок немає — статус «In Use» помилковий і адресу можна деактивувати.
+</div>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>5. Anomaly: FromId 2 (promo@hh.fo)</h2>
+
+<div class="error">
+  <strong>⚠ Anomaly:</strong> the address <code>HeyHo Casino &lt;promo@hh.fo&gt;</code> (ID 2) shows status <strong>"In Use"</strong> on the Sender Addresses page in Customer.io, yet <strong>no templates</strong> were found when searching for this address in the Message Library.
+</div>
+
+<h3>5.1 File Search</h3>
+<p>Full-text search for <code>FromId: 2</code> across all 21 Table data files — result: <strong>0 matches</strong>.</p>
+<p>This Sender ID is not used in any campaign in the exported data.</p>
+
+<h3>5.2 Customer.io Search</h3>
+<p>Search for <code>promo@hh.fo</code> in Message Library (All statuses, All channels) — result: <strong>"No messages matching your search"</strong> (1–0 of 0).</p>
+<div class="warn">
+  <strong>Probable reasons for "In Use" status:</strong>
+  <ul>
+    <li>The address may be linked to transactional emails that are not displayed in Message Library</li>
+    <li>The address may have been used in a deleted or archived campaign, but Customer.io did not update the status</li>
+    <li>Possible caching bug for the Sender Address status in the Customer.io interface</li>
+  </ul>
+</div>
+<div class="note">
+  <strong>Recommendation:</strong> verify via the Customer.io API endpoint <code>GET /v1/sender_identities</code> which objects Sender ID 2 is linked to. If there are no bindings — the "In Use" status is erroneous and the address can be deactivated.
+</div>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 6 — VERIFICATION                                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-6" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>6. Верификация</h2>
+<p>После применения всех замен выполнен повторный автоматизированный скан всех 21 файла:</p>
+</div>
+<!-- UA -->
+<div data-lang="ua">
+<h2>6. Верифікація</h2>
+<p>Після застосування всіх замін виконано повторне автоматизоване сканування всіх 21 файлу:</p>
+</div>
+<!-- EN -->
+<div data-lang="en">
+<h2>6. Verification</h2>
+<p>After applying all replacements, an automated re-scan of all 21 files was performed:</p>
+</div>
+
+<!-- RU verification table -->
+<table data-lang="ru">
+  <tr><th>Проверка</th><th>Результат</th></tr>
+  <tr><td><code>FromId: 3</code> в 21 файле</td><td class="new">0 совпадений ✓</td></tr>
+  <tr><td><code>FromId: 2</code> в 21 файле</td><td class="new">0 совпадений ✓</td></tr>
+  <tr><td><code>FromId: 5</code> в welcome_package_set</td><td class="new">24 записи ✓</td></tr>
+  <tr><td><code>FromId: 5</code> в dep_1_additional_mails</td><td class="new">12 записей ✓</td></tr>
+  <tr><td><code>FromId: 5</code> в dep_0_additional_mails</td><td class="new">12 записей ✓</td></tr>
+  <tr><td>Общее кол-во замен</td><td class="new">48 = 24 + 12 + 12 ✓</td></tr>
+</table>
+
+<!-- UA verification table -->
+<table data-lang="ua">
+  <tr><th>Перевірка</th><th>Результат</th></tr>
+  <tr><td><code>FromId: 3</code> у 21 файлі</td><td class="new">0 збігів ✓</td></tr>
+  <tr><td><code>FromId: 2</code> у 21 файлі</td><td class="new">0 збігів ✓</td></tr>
+  <tr><td><code>FromId: 5</code> у welcome_package_set</td><td class="new">24 записи ✓</td></tr>
+  <tr><td><code>FromId: 5</code> у dep_1_additional_mails</td><td class="new">12 записів ✓</td></tr>
+  <tr><td><code>FromId: 5</code> у dep_0_additional_mails</td><td class="new">12 записів ✓</td></tr>
+  <tr><td>Загальна кількість замін</td><td class="new">48 = 24 + 12 + 12 ✓</td></tr>
+</table>
+
+<!-- EN verification table -->
+<table data-lang="en">
+  <tr><th>Check</th><th>Result</th></tr>
+  <tr><td><code>FromId: 3</code> across 21 files</td><td class="new">0 matches ✓</td></tr>
+  <tr><td><code>FromId: 2</code> across 21 files</td><td class="new">0 matches ✓</td></tr>
+  <tr><td><code>FromId: 5</code> in welcome_package_set</td><td class="new">24 entries ✓</td></tr>
+  <tr><td><code>FromId: 5</code> in dep_1_additional_mails</td><td class="new">12 entries ✓</td></tr>
+  <tr><td><code>FromId: 5</code> in dep_0_additional_mails</td><td class="new">12 entries ✓</td></tr>
+  <tr><td>Total replacements</td><td class="new">48 = 24 + 12 + 12 ✓</td></tr>
+</table>
+
+<!-- RU note -->
+<div class="note" data-lang="ru">
+  <strong>Итог:</strong> все устаревшие <code>FromId: 3</code> успешно заменены на <code>FromId: 5</code>. <code>FromId: 2</code> отсутствовал в файлах. Ни один устаревший Sender ID не остался в экспортированных данных.
+</div>
+<!-- UA note -->
+<div class="note" data-lang="ua">
+  <strong>Підсумок:</strong> всі застарілі <code>FromId: 3</code> успішно замінено на <code>FromId: 5</code>. <code>FromId: 2</code> був відсутній у файлах. Жоден застарілий Sender ID не залишився в експортованих даних.
+</div>
+<!-- EN note -->
+<div class="note" data-lang="en">
+  <strong>Conclusion:</strong> all deprecated <code>FromId: 3</code> entries were successfully replaced with <code>FromId: 5</code>. <code>FromId: 2</code> was absent from all files. No deprecated Sender IDs remain in the exported data.
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 7 — METHOD                                         ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-7" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>7. Метод исправления</h2>
+<p>Все исправления выполнены с помощью автоматизированных скриптов:</p>
+<ul>
+  <li><strong>Этап 1 — Поиск:</strong> <code>grep_search</code> по паттерну <code>FromId: 3</code> во всех *.txt файлах папки ХейХо → 48 совпадений в 3 файлах</li>
+  <li><strong>Этап 2 — Поиск:</strong> <code>grep_search</code> по паттерну <code>FromId: 2</code> во всех *.txt файлах → 0 совпадений</li>
+  <li><strong>Этап 3 — Замена:</strong> PowerShell-скрипт: чтение каждого файла → <code>[regex]::Replace($content, 'FromId: 3', 'FromId: 5')</code> → перезапись файла</li>
+  <li><strong>Этап 4 — Верификация:</strong> повторный <code>grep_search</code> по <code>FromId: 3</code> → 0 совпадений (подтверждение успеха)</li>
+  <li><strong>Этап 5 — Полный аудит:</strong> распечатка всех <code>FromId</code> во всех 21 файле для полной картины</li>
+</ul>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>7. Метод виправлення</h2>
+<p>Усі виправлення виконано за допомогою автоматизованих скриптів:</p>
+<ul>
+  <li><strong>Етап 1 — Пошук:</strong> <code>grep_search</code> за патерном <code>FromId: 3</code> у всіх *.txt файлах папки ХейХо → 48 збігів у 3 файлах</li>
+  <li><strong>Етап 2 — Пошук:</strong> <code>grep_search</code> за патерном <code>FromId: 2</code> у всіх *.txt файлах → 0 збігів</li>
+  <li><strong>Етап 3 — Заміна:</strong> PowerShell-скрипт: читання кожного файлу → <code>[regex]::Replace($content, 'FromId: 3', 'FromId: 5')</code> → перезапис файлу</li>
+  <li><strong>Етап 4 — Верифікація:</strong> повторний <code>grep_search</code> за <code>FromId: 3</code> → 0 збігів (підтвердження успіху)</li>
+  <li><strong>Етап 5 — Повний аудит:</strong> виведення всіх <code>FromId</code> у всіх 21 файлі для повної картини</li>
+</ul>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>7. Fix Method</h2>
+<p>All fixes were applied using automated scripts:</p>
+<ul>
+  <li><strong>Step 1 — Search:</strong> <code>grep_search</code> for pattern <code>FromId: 3</code> across all *.txt files in ХейХо folder → 48 matches in 3 files</li>
+  <li><strong>Step 2 — Search:</strong> <code>grep_search</code> for pattern <code>FromId: 2</code> across all *.txt files → 0 matches</li>
+  <li><strong>Step 3 — Replace:</strong> PowerShell script: read each file → <code>[regex]::Replace($content, 'FromId: 3', 'FromId: 5')</code> → write file back</li>
+  <li><strong>Step 4 — Verification:</strong> repeat <code>grep_search</code> for <code>FromId: 3</code> → 0 matches (success confirmed)</li>
+  <li><strong>Step 5 — Full audit:</strong> listing all <code>FromId</code> values across all 21 files for complete overview</li>
+</ul>
+</div>
+
+</div><!-- .content -->
+
+<div class="report-footer">
+  <img class="logo-sm" src="assets/pg-logo.svg" alt="PromptGrid">
+  <p>&copy; 2026 PromptGrid &bull; Automation &bull; Precision &bull; Results</p>
+</div>
+
+<script>
+(function() {
+  const LANGS = ['ru', 'ua', 'en'];
+  const buttons = document.querySelectorAll('[data-set-lang]');
+  const elements = document.querySelectorAll('[data-lang]');
+
+  function setLang(lang) {
+    elements.forEach(el => {
+      if (el.getAttribute('data-lang') === lang) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
+    });
+    buttons.forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-set-lang') === lang);
+    });
+    document.documentElement.lang = lang === 'ua' ? 'uk' : lang;
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => setLang(btn.getAttribute('data-set-lang')));
+  });
+
+  // ── Scroll spy ──
+  const nav = document.querySelector('.report-nav');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const anchors = Array.from(document.querySelectorAll('.section-anchor'));
+
+  function scrollNavToActive(link) {
+    const navRect = nav.getBoundingClientRect();
+    const linkRect = link.getBoundingClientRect();
+    const pad = 60;
+    if (linkRect.right + pad > navRect.right) {
+      nav.scrollBy({ left: linkRect.right - navRect.right + pad, behavior: 'smooth' });
+    } else if (linkRect.left - pad < navRect.left) {
+      nav.scrollBy({ left: linkRect.left - navRect.left - pad, behavior: 'smooth' });
+    }
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      setTimeout(() => scrollNavToActive(link), 50);
+    });
+  });
+
+  function updateActiveNav() {
+    const atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 2);
+    let current = 0;
+    if (atBottom) {
+      current = anchors.length - 1;
+    } else {
+      const offset = 80;
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        if (anchors[i] && anchors[i].getBoundingClientRect().top <= offset) {
+          current = i;
+          break;
+        }
+      }
+    }
+    navLinks.forEach((link, idx) => {
+      link.classList.toggle('active', idx === current);
+    });
+    if (navLinks[current]) scrollNavToActive(navLinks[current]);
+  }
+
+  window.addEventListener('scroll', updateActiveNav, {passive: true});
+  updateActiveNav();
+
+  setLang('ru');
+})();
+</script>
+
+</body>
+</html>
