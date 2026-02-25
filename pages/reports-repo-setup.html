@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru" style="scroll-behavior:smooth;">
+<head>
+<meta charset="UTF-8">
+<title>PromptGrid — Report: Reports Repository Setup</title>
+<link rel="icon" type="image/svg+xml" href="../assets/pg-logo.svg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+  * { box-sizing: border-box; }
+  body { font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; color: #cccccc; line-height: 1.65; background: #181818; }
+
+  /* ── Header ── */
+  .report-header { background: linear-gradient(135deg, #181818 0%, #212121 100%); padding: 48px 40px 40px; border-bottom: 3px solid #4ec9b0; position: relative; }
+  .report-header .logo { height: 28px; margin-bottom: 24px; }
+  .report-header h1 { font-size: 26px; font-weight: 700; color: #fff; margin: 0 0 8px 0; letter-spacing: -0.5px; }
+  .report-header .meta { color: #888888; font-size: 13px; margin: 0; }
+  .report-header .meta span { color: #4ec9b0; font-weight: 600; }
+
+  /* ── Language Switcher ── */
+  .lang-switcher { position: absolute; top: 20px; right: 40px; display: flex; gap: 6px; }
+  .lang-btn { background: #212121; border: 1px solid #3a3a3a; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; color: #888888; font-family: inherit; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+  .lang-btn:hover { border-color: #4ec9b0; color: #cccccc; }
+  .lang-btn.active { background: #4ec9b0; color: #181818; border-color: #4ec9b0; font-weight: 700; }
+
+  /* ── Content ── */
+  .content { padding: 0 40px 48px; }
+
+  h2 { color: #fff; margin-top: 40px; font-size: 18px; font-weight: 700; border-left: 4px solid #4ec9b0; padding-left: 14px; letter-spacing: -0.3px; }
+  h3 { color: #cccccc; font-size: 14px; font-weight: 600; margin-top: 20px; }
+
+  p { color: #b0b0b0; font-size: 14px; }
+  strong { color: #cccccc; }
+
+  /* ── Tables ── */
+  table { border-collapse: collapse; width: 100%; margin: 12px 0 24px 0; font-size: 13px; }
+  th { background: #1e1e1e; color: #4ec9b0; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #4ec9b0; }
+  td { border-bottom: 1px solid #2d2d2d; padding: 8px 14px; vertical-align: top; color: #cccccc; }
+  tr:hover { background: #1c1c1c; }
+
+  /* ── Code ── */
+  code { background: #1e1e1e; border: 1px solid #3a3a3a; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #ddd; word-break: break-all; font-family: 'Consolas', 'Monaco', monospace; }
+
+  /* ── Summary cards ── */
+  .summary-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .summary-card { background: #1c1c1c; border: 1px solid #2d2d2d; border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
+  .summary-card:hover { border-color: #4ec9b0; }
+  .summary-card h3 { margin: 0 0 4px 0; color: #fff; font-size: 14px; font-weight: 600; }
+  .summary-card .count { font-size: 32px; font-weight: 800; color: #4ec9b0; letter-spacing: -1px; }
+  .summary-card .label { font-size: 12px; color: #888888; margin-top: 2px; }
+
+  /* ── Callouts ── */
+  .note { background: rgba(78, 201, 176, 0.08); border-left: 3px solid #4ec9b0; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #b0b0b0; }
+  .note strong { color: #4ec9b0; }
+
+  /* ── Footer ── */
+  .report-footer { background: #181818; border-top: 1px solid #2d2d2d; padding: 24px 40px; text-align: center; }
+  .report-footer .logo-sm { height: 18px; opacity: 0.85; margin-bottom: 8px; }
+  .report-footer p { font-size: 11px; color: #606060; margin: 0; }
+
+  /* ── Bullets ── */
+  ul { padding-left: 20px; }
+  li { color: #b0b0b0; font-size: 14px; margin-bottom: 6px; }
+  li::marker { color: #4ec9b0; }
+
+  /* ── Navigation bar ── */
+  .report-nav { position: sticky; top: 0; z-index: 100; background: rgba(24,24,24,0.92); border-bottom: 1px solid #2d2d2d; padding: 10px 40px; display: flex; gap: 6px; backdrop-filter: blur(14px); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: #4ec9b0 #1e1e1e; -webkit-overflow-scrolling: touch; justify-content: center; }
+  .nav-link { background: transparent; border: 1px solid #3a3a3a; border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 500; color: #888888; text-decoration: none; cursor: pointer; transition: all 0.25s; font-family: inherit; white-space: nowrap; flex-shrink: 0; }
+  .nav-link:hover { border-color: #4ec9b0; color: #cccccc; }
+  .nav-link.active { background: #4ec9b0; color: #181818; border-color: #4ec9b0; font-weight: 700; }
+  .nav-num { font-weight: 700; margin-right: 4px; font-size: 11px; opacity: 0.7; }
+  .nav-link.active .nav-num { opacity: 1; }
+  .section-anchor { scroll-margin-top: 56px; }
+
+  /* ── Tree structure ── */
+  .tree { background: #1c1c1c; border: 1px solid #2d2d2d; border-radius: 12px; padding: 20px 24px; font-family: 'Consolas', 'Monaco', monospace; font-size: 13px; color: #cccccc; line-height: 1.8; margin: 16px 0; }
+  .tree .folder { color: #4ec9b0; font-weight: 600; }
+  .tree .file { color: #b0b0b0; }
+  .tree .comment { color: #606060; font-style: italic; }
+
+  /* ── Language visibility ── */
+  [data-lang] { display: none; }
+  [data-lang].active { display: block; }
+  table[data-lang].active { display: table; }
+  .summary-grid[data-lang].active { display: grid; }
+  span[data-lang].active { display: inline; }
+
+  /* ── Print ── */
+  @media print {
+    .lang-switcher, .report-nav { display: none; }
+    body { background: #fff; color: #222; }
+    .report-header { background: #fff; border-bottom-color: #222; }
+    .report-header h1 { color: #111; }
+    .report-header .meta { color: #666; }
+    .report-header .meta span { color: #111; }
+    .content { padding: 0 20px 20px; }
+    h2 { color: #111; border-left-color: #222; }
+    p, li { color: #333; }
+    strong { color: #111; }
+    table { font-size: 11px; }
+    th { background: #111; color: #fff; border-bottom-color: #111; }
+    td { color: #333; border-bottom-color: #ddd; }
+    tr:hover { background: transparent; }
+    code { background: #f4f4f4; border-color: #ddd; color: #333; }
+    .summary-card { background: #f9f9f9; border-color: #ddd; }
+    .summary-card h3 { color: #111; }
+    .summary-card .count { color: #111; }
+    .note { background: #f0faf7; border-left-color: #4ec9b0; color: #333; }
+    .note strong { color: #3ba08a; }
+    .tree { background: #f9f9f9; border-color: #ddd; }
+    .tree .folder { color: #2a7a68; }
+    .tree .file { color: #333; }
+    .report-footer { border-top-color: #ddd; }
+    .report-footer p { color: #999; }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
+    <img class="logo" src="../assets/pg-logo.svg" alt="PromptGrid" style="margin-bottom:0;">
+    <span style="font-size:22px;font-weight:600;color:#fff;letter-spacing:-0.5px;">PromptGrid</span>
+  </div>
+
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-set-lang="ru">RU</button>
+    <button class="lang-btn" data-set-lang="ua">UA</button>
+    <button class="lang-btn" data-set-lang="en">EN</button>
+  </div>
+
+  <!-- RU -->
+  <h1 data-lang="ru" class="active">Создание Reports-репозитория</h1>
+  <p class="meta" data-lang="ru"><span>PromptGrid</span> &bull; <span>25 февраля 2026</span> &bull; Настройка инфраструктуры для хостинга отчётов</p>
+
+  <!-- UA -->
+  <h1 data-lang="ua">Створення Reports-репозиторію</h1>
+  <p class="meta" data-lang="ua"><span>PromptGrid</span> &bull; <span>25 лютого 2026</span> &bull; Налаштування інфраструктури для хостингу звітів</p>
+
+  <!-- EN -->
+  <h1 data-lang="en">Reports Repository Setup</h1>
+  <p class="meta" data-lang="en"><span>PromptGrid</span> &bull; <span>February 25, 2026</span> &bull; Infrastructure setup for hosting client reports</p>
+</div>
+
+<nav class="report-nav">
+  <a class="nav-link active" href="#sec-1"><span class="nav-num">1.</span><span data-lang="ru" class="active">Цель</span><span data-lang="ua">Мета</span><span data-lang="en">Goal</span></a>
+  <a class="nav-link" href="#sec-2"><span class="nav-num">2.</span><span data-lang="ru" class="active">Шаблоны</span><span data-lang="ua">Шаблони</span><span data-lang="en">Templates</span></a>
+  <a class="nav-link" href="#sec-3"><span class="nav-num">3.</span><span data-lang="ru" class="active">Структура</span><span data-lang="ua">Структура</span><span data-lang="en">Structure</span></a>
+  <a class="nav-link" href="#sec-4"><span class="nav-num">4.</span><span data-lang="ru" class="active">Хостинг</span><span data-lang="ua">Хостинг</span><span data-lang="en">Hosting</span></a>
+</nav>
+
+<div class="content">
+
+<!-- ════════════════════════════════════════════════════ -->
+<!--  SECTION 1 — GOAL                                  -->
+<!-- ════════════════════════════════════════════════════ -->
+<div id="sec-1" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>1. Цель</h2>
+<p>Создать отдельный GitHub-репозиторий для хранения и хостинга HTML-отчётов, которые генерирует PromptGrid. Это позволяет делиться отчётами с клиентами по прямой ссылке — без необходимости настраивать сервер.</p>
+<div class="note"><strong>Решение:</strong> GitHub Pages — бесплатный статический хостинг, привязанный к git-репозиторию. Каждый push автоматически обновляет сайт.</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>1. Мета</h2>
+<p>Створити окремий GitHub-репозиторій для зберігання та хостингу HTML-звітів, які генерує PromptGrid. Це дозволяє ділитися звітами з клієнтами за прямим посиланням — без необхідності налаштовувати сервер.</p>
+<div class="note"><strong>Рішення:</strong> GitHub Pages — безкоштовний статичний хостинг, прив'язаний до git-репозиторію. Кожен push автоматично оновлює сайт.</div>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>1. Goal</h2>
+<p>Create a dedicated GitHub repository for storing and hosting HTML reports generated by PromptGrid. This allows sharing reports with clients via a direct link — no server setup required.</p>
+<div class="note"><strong>Solution:</strong> GitHub Pages — free static hosting tied to a git repository. Every push automatically updates the site.</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════ -->
+<!--  SECTION 2 — TEMPLATES                             -->
+<!-- ════════════════════════════════════════════════════ -->
+<div id="sec-2" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>2. Шаблоны отчётов</h2>
+<p>Созданы два HTML-шаблона с полной тёмной темой, мультиязычностью (RU/UA/EN), sticky навигацией и адаптацией для печати:</p>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>2. Шаблони звітів</h2>
+<p>Створено два HTML-шаблони з повною темною темою, мультимовністю (RU/UA/EN), sticky навігацією та адаптацією для друку:</p>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>2. Report Templates</h2>
+<p>Two HTML templates were created with full dark theme, multilingual support (RU/UA/EN), sticky navigation, and print styles:</p>
+</div>
+
+<table>
+  <tr>
+    <th><span data-lang="ru" class="active">Шаблон</span><span data-lang="ua">Шаблон</span><span data-lang="en">Template</span></th>
+    <th><span data-lang="ru" class="active">Бренд</span><span data-lang="ua">Бренд</span><span data-lang="en">Brand</span></th>
+    <th><span data-lang="ru" class="active">Акцент</span><span data-lang="ua">Акцент</span><span data-lang="en">Accent</span></th>
+    <th><span data-lang="ru" class="active">Шрифт</span><span data-lang="ua">Шрифт</span><span data-lang="en">Font</span></th>
+  </tr>
+  <tr>
+    <td><code>REPORT_TEMPLATE_PG.html</code></td>
+    <td>PromptGrid</td>
+    <td><span style="color:#4ec9b0;font-weight:700;">#4ec9b0</span></td>
+    <td>Montserrat</td>
+  </tr>
+  <tr>
+    <td><code>REPORT_TEMPLATE_GNB.html</code></td>
+    <td>GNB Agency</td>
+    <td><span style="color:#EAFF00;font-weight:700;">#EAFF00</span></td>
+    <td>Inter</td>
+  </tr>
+</table>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<div class="summary-grid">
+  <div class="summary-card"><h3>Компоненты</h3><div class="count">8</div><div class="label">Header, Nav, Cards, Tables, Code, Callouts, Tree, Footer</div></div>
+  <div class="summary-card"><h3>Языков</h3><div class="count">3</div><div class="label">RU / UA / EN — переключение без перезагрузки</div></div>
+  <div class="summary-card"><h3>CSS Variables</h3><div class="count">47</div><div class="label">Дизайн-токены из PromptGrid base.css</div></div>
+</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<div class="summary-grid">
+  <div class="summary-card"><h3>Компоненти</h3><div class="count">8</div><div class="label">Header, Nav, Cards, Tables, Code, Callouts, Tree, Footer</div></div>
+  <div class="summary-card"><h3>Мов</h3><div class="count">3</div><div class="label">RU / UA / EN — перемикання без перезавантаження</div></div>
+  <div class="summary-card"><h3>CSS Variables</h3><div class="count">47</div><div class="label">Дизайн-токени з PromptGrid base.css</div></div>
+</div>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<div class="summary-grid">
+  <div class="summary-card"><h3>Components</h3><div class="count">8</div><div class="label">Header, Nav, Cards, Tables, Code, Callouts, Tree, Footer</div></div>
+  <div class="summary-card"><h3>Languages</h3><div class="count">3</div><div class="label">RU / UA / EN — switchable without reload</div></div>
+  <div class="summary-card"><h3>CSS Variables</h3><div class="count">47</div><div class="label">Design tokens from PromptGrid base.css</div></div>
+</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════ -->
+<!--  SECTION 3 — STRUCTURE                             -->
+<!-- ════════════════════════════════════════════════════ -->
+<div id="sec-3" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>3. Структура репозитория</h2>
+<p>Репозиторий организован в три папки с чётким разделением:</p>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>3. Структура репозиторію</h2>
+<p>Репозиторій організовано у три папки з чітким розділенням:</p>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>3. Repository Structure</h2>
+<p>The repository is organized into three folders with clear separation:</p>
+</div>
+
+<div class="tree">
+<span class="folder">reports/</span><br>
+├── <span class="folder">assets/</span> <span class="comment">— logos, favicons, shared images</span><br>
+│&nbsp;&nbsp; ├── <span class="file">pg-logo.svg</span><br>
+│&nbsp;&nbsp; ├── <span class="file">gnb-logo.png</span><br>
+│&nbsp;&nbsp; └── <span class="file">gnb-favicon.svg</span><br>
+├── <span class="folder">templates/</span> <span class="comment">— base templates (not for clients)</span><br>
+│&nbsp;&nbsp; ├── <span class="file">REPORT_TEMPLATE_PG.html</span><br>
+│&nbsp;&nbsp; └── <span class="file">REPORT_TEMPLATE_GNB.html</span><br>
+└── <span class="folder">pages/</span> <span class="comment">— published reports (shareable links)</span><br>
+&nbsp;&nbsp;&nbsp; └── <span class="file">reports-repo-setup.html</span> <span class="comment">← this report</span>
+</div>
+
+<table>
+  <tr>
+    <th><span data-lang="ru" class="active">Папка</span><span data-lang="ua">Папка</span><span data-lang="en">Folder</span></th>
+    <th><span data-lang="ru" class="active">Назначение</span><span data-lang="ua">Призначення</span><span data-lang="en">Purpose</span></th>
+  </tr>
+  <tr>
+    <td><code>assets/</code></td>
+    <td><span data-lang="ru" class="active">Логотипи, іконки, загальні ресурси</span><span data-lang="ua">Логотипи, іконки, загальні ресурси</span><span data-lang="en">Logos, icons, shared resources</span></td>
+  </tr>
+  <tr>
+    <td><code>templates/</code></td>
+    <td><span data-lang="ru" class="active">Базовые шаблоны — копируются для новых отчётов</span><span data-lang="ua">Базові шаблони — копіюються для нових звітів</span><span data-lang="en">Base templates — copied for new reports</span></td>
+  </tr>
+  <tr>
+    <td><code>pages/</code></td>
+    <td><span data-lang="ru" class="active">Готовые отчёты — сюда ведут ссылки для клиентов</span><span data-lang="ua">Готові звіти — сюди ведуть посилання для клієнтів</span><span data-lang="en">Published reports — client-facing links point here</span></td>
+  </tr>
+</table>
+
+
+<!-- ════════════════════════════════════════════════════ -->
+<!--  SECTION 4 — HOSTING                               -->
+<!-- ════════════════════════════════════════════════════ -->
+<div id="sec-4" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>4. Хостинг и ссылки</h2>
+<p>Репозиторий подключён к <strong>GitHub Pages</strong>. После включения в настройках репозитория все HTML-файлы становятся доступными по прямым ссылкам.</p>
+<h3>Формула ссылки</h3>
+<p>Базовый URL: <code>https://ivimudry.github.io/reports/</code></p>
+<p>Для файла в <code>pages/my-report.html</code> ссылка будет:</p>
+<div class="note"><strong>https://ivimudry.github.io/reports/pages/my-report.html</strong></div>
+<h3>Рабочий процесс</h3>
+<ul>
+  <li>Скопировать шаблон из <code>templates/</code> в <code>pages/</code></li>
+  <li>Заменить контент на актуальные данные</li>
+  <li><code>git add</code> → <code>git commit</code> → <code>git push</code></li>
+  <li>Ссылка доступна через ~1 минуту</li>
+</ul>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>4. Хостинг і посилання</h2>
+<p>Репозиторій підключено до <strong>GitHub Pages</strong>. Після ввімкнення в налаштуваннях репозиторію всі HTML-файли стають доступними за прямими посиланнями.</p>
+<h3>Формула посилання</h3>
+<p>Базовий URL: <code>https://ivimudry.github.io/reports/</code></p>
+<p>Для файлу в <code>pages/my-report.html</code> посилання буде:</p>
+<div class="note"><strong>https://ivimudry.github.io/reports/pages/my-report.html</strong></div>
+<h3>Робочий процес</h3>
+<ul>
+  <li>Скопіювати шаблон з <code>templates/</code> в <code>pages/</code></li>
+  <li>Замінити контент на актуальні дані</li>
+  <li><code>git add</code> → <code>git commit</code> → <code>git push</code></li>
+  <li>Посилання доступне через ~1 хвилину</li>
+</ul>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>4. Hosting & Links</h2>
+<p>The repository is connected to <strong>GitHub Pages</strong>. Once enabled in repo settings, all HTML files become accessible via direct links.</p>
+<h3>Link Formula</h3>
+<p>Base URL: <code>https://ivimudry.github.io/reports/</code></p>
+<p>For a file at <code>pages/my-report.html</code> the link will be:</p>
+<div class="note"><strong>https://ivimudry.github.io/reports/pages/my-report.html</strong></div>
+<h3>Workflow</h3>
+<ul>
+  <li>Copy a template from <code>templates/</code> to <code>pages/</code></li>
+  <li>Replace content with actual data</li>
+  <li><code>git add</code> → <code>git commit</code> → <code>git push</code></li>
+  <li>Link is live within ~1 minute</li>
+</ul>
+</div>
+
+</div><!-- .content -->
+
+<div class="report-footer">
+  <img class="logo-sm" src="../assets/pg-logo.svg" alt="PromptGrid">
+  <p>&copy; 2026 PromptGrid &bull; Automation &bull; Precision &bull; Results</p>
+</div>
+
+<script>
+(function() {
+  const buttons = document.querySelectorAll('[data-set-lang]');
+  const elements = document.querySelectorAll('[data-lang]');
+
+  function setLang(lang) {
+    elements.forEach(el => {
+      el.classList.toggle('active', el.getAttribute('data-lang') === lang);
+    });
+    buttons.forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-set-lang') === lang);
+    });
+    document.documentElement.lang = lang === 'ua' ? 'uk' : lang;
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => setLang(btn.getAttribute('data-set-lang')));
+  });
+
+  // ── Scroll spy ──
+  const nav = document.querySelector('.report-nav');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const anchors = Array.from(document.querySelectorAll('.section-anchor'));
+
+  function scrollNavToActive(link) {
+    const navRect = nav.getBoundingClientRect();
+    const linkRect = link.getBoundingClientRect();
+    const pad = 60;
+    if (linkRect.right + pad > navRect.right) {
+      nav.scrollBy({ left: linkRect.right - navRect.right + pad, behavior: 'smooth' });
+    } else if (linkRect.left - pad < navRect.left) {
+      nav.scrollBy({ left: linkRect.left - navRect.left - pad, behavior: 'smooth' });
+    }
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      setTimeout(() => scrollNavToActive(link), 50);
+    });
+  });
+
+  function updateActiveNav() {
+    const atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 2);
+    let current = 0;
+    if (atBottom) {
+      current = anchors.length - 1;
+    } else {
+      const offset = 80;
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        if (anchors[i] && anchors[i].getBoundingClientRect().top <= offset) {
+          current = i;
+          break;
+        }
+      }
+    }
+    navLinks.forEach((link, idx) => {
+      link.classList.toggle('active', idx === current);
+    });
+    if (navLinks[current]) scrollNavToActive(navLinks[current]);
+  }
+
+  window.addEventListener('scroll', updateActiveNav, { passive: true });
+  updateActiveNav();
+  setLang('ua');
+})();
+</script>
+
+</body>
+</html>
