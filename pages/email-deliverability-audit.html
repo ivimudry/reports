@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ua" style="scroll-behavior:smooth;">
+<head>
+<meta charset="UTF-8">
+<title>GNB Agency — Report: Email Deliverability Audit</title>
+<link rel="icon" type="image/svg+xml" href="../assets/gnb-favicon.svg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  * { box-sizing: border-box; }
+  body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; color: #e0e0e0; line-height: 1.65; background: #0C0C0C; }
+
+  /* ── Header ── */
+  .report-header { background: linear-gradient(135deg, #0C0C0C 0%, #1a1a1a 100%); padding: 48px 40px 40px; border-bottom: 3px solid #EAFF00; position: relative; }
+  .report-header .logo { height: 28px; margin-bottom: 24px; filter: brightness(1.1); }
+  .report-header h1 { font-size: 26px; font-weight: 700; color: #fff; margin: 0 0 8px 0; letter-spacing: -0.5px; }
+  .report-header .meta { color: #888; font-size: 13px; margin: 0; }
+  .report-header .meta span { color: #EAFF00; font-weight: 600; }
+
+  /* ── Language Switcher ── */
+  .lang-switcher { position: absolute; top: 20px; right: 40px; display: flex; gap: 6px; }
+  .lang-btn { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; color: #888; font-family: inherit; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+  .lang-btn:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .lang-btn.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
+
+  /* ── Content ── */
+  .content { padding: 0 40px 48px; }
+
+  h2 { color: #fff; margin-top: 40px; font-size: 18px; font-weight: 700; border-left: 4px solid #EAFF00; padding-left: 14px; letter-spacing: -0.3px; }
+  h3 { color: #ccc; font-size: 14px; font-weight: 600; margin-top: 20px; }
+
+  p { color: #b0b0b0; font-size: 14px; }
+  strong { color: #e0e0e0; }
+
+  /* ── Tables ── */
+  table { border-collapse: collapse; width: 100%; margin: 12px 0 24px 0; font-size: 13px; }
+  th { background: #1a1a1a; color: #EAFF00; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #EAFF00; }
+  td { border-bottom: 1px solid #222; padding: 8px 14px; vertical-align: top; color: #ccc; }
+  tr:hover { background: #141414; }
+
+  .good { color: #51cf66; font-weight: 600; }
+  .bad { color: #ff6b6b; font-weight: 600; }
+  .warn-text { color: #f0a030; font-weight: 600; }
+  .cnt { text-align: center; font-weight: 700; font-size: 15px; color: #fff; }
+
+  /* ── Code ── */
+  code { background: #1a1a1a; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #ddd; word-break: break-all; font-family: 'Consolas', 'Monaco', monospace; }
+
+  /* ── Summary cards ── */
+  .summary-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .summary-card { background: #141414; border: 1px solid #222; border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
+  .summary-card:hover { border-color: #EAFF00; }
+  .summary-card h3 { margin: 0 0 4px 0; color: #fff; font-size: 14px; font-weight: 600; }
+  .summary-card .count { font-size: 32px; font-weight: 800; color: #EAFF00; letter-spacing: -1px; }
+  .summary-card .count.green { color: #51cf66; }
+  .summary-card .count.red { color: #ff6b6b; }
+  .summary-card .count.orange { color: #f0a030; }
+  .summary-card .label { font-size: 12px; color: #888; margin-top: 2px; }
+
+  /* ── Callouts ── */
+  .note { background: #1a1700; border-left: 3px solid #EAFF00; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #b0b0b0; }
+  .note strong { color: #EAFF00; }
+  .warn { background: #1a1510; border-left: 3px solid #f0a030; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c0a878; }
+  .warn strong { color: #f0a030; }
+  .error { background: #1a1010; border-left: 3px solid #ff6b6b; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c08080; }
+  .error strong { color: #ff6b6b; }
+
+  /* ── Footer ── */
+  .report-footer { background: #0C0C0C; border-top: 1px solid #222; padding: 24px 40px; text-align: center; }
+  .report-footer .logo-sm { height: 18px; opacity: 0.85; margin-bottom: 8px; }
+  .report-footer p { font-size: 11px; color: #555; margin: 0; }
+
+  /* ── Bullets ── */
+  ul { padding-left: 20px; }
+  li { color: #b0b0b0; font-size: 14px; margin-bottom: 6px; }
+  li::marker { color: #EAFF00; }
+
+  /* ── Navigation bar ── */
+  .report-nav { position: sticky; top: 0; z-index: 100; background: rgba(17,17,17,0.92); border-bottom: 1px solid #222; padding: 10px 40px; display: flex; gap: 6px; backdrop-filter: blur(14px); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: #EAFF00 #1a1a1a; -webkit-overflow-scrolling: touch; justify-content: center; }
+  .nav-link { background: transparent; border: 1px solid #333; border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 500; color: #888; text-decoration: none; cursor: pointer; transition: all 0.25s; font-family: inherit; white-space: nowrap; flex-shrink: 0; }
+  .nav-link:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .nav-link.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
+  .nav-num { font-weight: 700; margin-right: 4px; font-size: 11px; opacity: 0.7; }
+  .nav-link.active .nav-num { opacity: 1; }
+  .section-anchor { scroll-margin-top: 56px; }
+
+  /* ── Progress bar ── */
+  .progress-bar { background: #1a1a1a; border-radius: 8px; height: 24px; overflow: hidden; margin: 12px 0; border: 1px solid #222; }
+  .progress-fill { height: 100%; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: #0C0C0C; }
+
+  /* ── Language visibility ── */
+  [data-lang] { display: none; }
+  [data-lang].active { display: block; }
+  table[data-lang].active { display: table; }
+  .summary-grid[data-lang].active { display: grid; }
+  span[data-lang].active { display: inline; }
+
+  /* ── Print ── */
+  @media print {
+    .lang-switcher, .report-nav { display: none; }
+    body { background: #fff; color: #222; }
+    .report-header { background: #fff; border-bottom-color: #222; }
+    .report-header h1 { color: #111; }
+    .report-header .meta { color: #666; }
+    .report-header .meta span { color: #111; }
+    .content { padding: 0 20px 20px; }
+    h2 { color: #111; border-left-color: #222; }
+    p, li { color: #333; }
+    strong { color: #111; }
+    table { font-size: 11px; }
+    th { background: #111; color: #fff; border-bottom-color: #111; }
+    td { color: #333; border-bottom-color: #ddd; }
+    tr:hover { background: transparent; }
+    code { background: #f4f4f4; border-color: #ddd; color: #333; }
+    .summary-card { background: #f9f9f9; border-color: #ddd; }
+    .summary-card h3 { color: #111; }
+    .summary-card .count, .summary-card .count.green, .summary-card .count.red, .summary-card .count.orange { color: #111; }
+    .note { background: #fffbe6; border-left-color: #d4a800; color: #333; }
+    .note strong { color: #d4a800; }
+    .warn { background: #fff8ee; border-left-color: #d48800; color: #664400; }
+    .warn strong { color: #d48800; }
+    .error { background: #fff0f0; border-left-color: #cc0000; color: #440000; }
+    .error strong { color: #cc0000; }
+    .report-footer { border-top-color: #ddd; }
+    .report-footer p { color: #999; }
+    .progress-bar { border-color: #ddd; background: #f4f4f4; }
+    .progress-fill { color: #fff; }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <img class="logo" src="../assets/gnb-logo.png" alt="GNB Agency">
+
+  <div class="lang-switcher">
+    <button class="lang-btn" data-set-lang="ru">RU</button>
+    <button class="lang-btn active" data-set-lang="ua">UA</button>
+    <button class="lang-btn" data-set-lang="en">EN</button>
+  </div>
+
+  <!-- RU -->
+  <h1 data-lang="ru">Аудит доставляемости email</h1>
+  <p class="meta" data-lang="ru"><span>LuckyStar Casino</span> &bull; <span>25 февраля 2026</span> &bull; Анализ показателей доставки, open rate и spam-жалоб</p>
+
+  <!-- UA -->
+  <h1 data-lang="ua" class="active">Аудит доставлюваності email</h1>
+  <p class="meta" data-lang="ua" class="active"><span>LuckyStar Casino</span> &bull; <span>25 лютого 2026</span> &bull; Аналіз показників доставки, open rate та spam-скарг</p>
+
+  <!-- EN -->
+  <h1 data-lang="en">Email Deliverability Audit</h1>
+  <p class="meta" data-lang="en"><span>LuckyStar Casino</span> &bull; <span>February 25, 2026</span> &bull; Delivery rates, open rates & spam complaint analysis</p>
+</div>
+
+<nav class="report-nav">
+  <a class="nav-link active" href="#sec-1"><span class="nav-num">1.</span><span data-lang="ru">Обзор</span><span data-lang="ua" class="active">Огляд</span><span data-lang="en">Overview</span></a>
+  <a class="nav-link" href="#sec-2"><span class="nav-num">2.</span><span data-lang="ru">Метрики</span><span data-lang="ua" class="active">Метрики</span><span data-lang="en">Metrics</span></a>
+  <a class="nav-link" href="#sec-3"><span class="nav-num">3.</span><span data-lang="ru">Проблемы</span><span data-lang="ua" class="active">Проблеми</span><span data-lang="en">Issues</span></a>
+  <a class="nav-link" href="#sec-4"><span class="nav-num">4.</span><span data-lang="ru">Рекомендации</span><span data-lang="ua" class="active">Рекомендації</span><span data-lang="en">Recommendations</span></a>
+</nav>
+
+<div class="content">
+
+<!-- ════════════════════════════════════════════════════ -->
+<!--  SECTION 1 — OVERVIEW                              -->
+<!-- ════════════════════════════════════════════════════ -->
+<div id="sec-1" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2>1. Обзор</h2>
+<p>Проведён аудит email-рассылок <strong>LuckyStar Casino</strong> за период 01–24 февраля 2026. Проанализированы 12 кампаний, отправленных через Customer.io, по ключевым метрикам: доставляемость, open rate, click rate, bounce rate и spam complaints.</p>
+<div class="note"><strong>Период:</strong> 01.02.2026 – 24.02.2026 &bull; <strong>Платформа:</strong> Customer.io &bull; <strong>Домен:</strong> mail.luckystar.bet</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua" class="active">
+<h2>1. Огляд</h2>
+<p>Проведено аудит email-розсилок <strong>LuckyStar Casino</strong> за період 01–24 лютого 2026. Проаналізовано 12 кампаній, відправлених через Customer.io, за ключовими метриками: доставлюваність, open rate, click rate, bounce rate та spam-скарги.</p>
+<div class="note"><strong>Період:</strong> 01.02.2026 – 24.02.2026 &bull; <strong>Платформа:</strong> Customer.io &bull; <strong>Домен:</strong> mail.luckystar.bet</div>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>1. Overview</h2>
+<p>An email deliverability audit was conducted for <strong>LuckyStar Casino</strong> covering the period of February 1–24, 2026. Twelve campaigns sent via Customer.io were analyzed across key metrics: deliverability, open rate, click rate, bounce rate, and spam complaints.</p>
+<div class="note"><strong>Period:</strong> Feb 1–24, 2026 &bull; <strong>Platform:</strong> Customer.io &bull; <strong>Domain:</strong> mail.luckystar.bet</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════ -->
+<!--  SECTION 2 — METRICS                               -->
+<!-- ════════════════════════════════════════════════════ -->
+<div id="sec-2" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2>2. Ключевые метрики</h2>
+</div>
+<!-- UA -->
+<div data-lang="ua" class="active">
+<h2>2. Ключові метрики</h2>
+</div>
+<!-- EN -->
+<div data-lang="en">
+<h2>2. Key Metrics</h2>
+</div>
+
+<!-- Summary cards — RU -->
+<div data-lang="ru" class="summary-grid">
+  <div class="summary-card"><h3>Отправлено</h3><div class="count">84 320</div><div class="label">писем за период</div></div>
+  <div class="summary-card"><h3>Доставлено</h3><div class="count green">96.2%</div><div class="label">80 916 из 84 320</div></div>
+  <div class="summary-card"><h3>Open Rate</h3><div class="count">23.8%</div><div class="label">среднее по кампаниям</div></div>
+  <div class="summary-card"><h3>Spam Rate</h3><div class="count red">0.42%</div><div class="label">выше порога 0.3%</div></div>
+</div>
+
+<!-- Summary cards — UA -->
+<div data-lang="ua" class="summary-grid active">
+  <div class="summary-card"><h3>Відправлено</h3><div class="count">84 320</div><div class="label">листів за період</div></div>
+  <div class="summary-card"><h3>Доставлено</h3><div class="count green">96.2%</div><div class="label">80 916 з 84 320</div></div>
+  <div class="summary-card"><h3>Open Rate</h3><div class="count">23.8%</div><div class="label">середнє по кампаніям</div></div>
+  <div class="summary-card"><h3>Spam Rate</h3><div class="count red">0.42%</div><div class="label">вище порогу 0.3%</div></div>
+</div>
+
+<!-- Summary cards — EN -->
+<div data-lang="en" class="summary-grid">
+  <div class="summary-card"><h3>Sent</h3><div class="count">84,320</div><div class="label">emails in period</div></div>
+  <div class="summary-card"><h3>Delivered</h3><div class="count green">96.2%</div><div class="label">80,916 of 84,320</div></div>
+  <div class="summary-card"><h3>Open Rate</h3><div class="count">23.8%</div><div class="label">average across campaigns</div></div>
+  <div class="summary-card"><h3>Spam Rate</h3><div class="count red">0.42%</div><div class="label">above 0.3% threshold</div></div>
+</div>
+
+<!-- Delivery Rate bar -->
+<div data-lang="ru">
+<h3>Доставляемость по кампаниям</h3>
+</div>
+<div data-lang="ua" class="active">
+<h3>Доставлюваність по кампаніях</h3>
+</div>
+<div data-lang="en">
+<h3>Delivery rate by campaign</h3>
+</div>
+
+<table>
+  <tr>
+    <th><span data-lang="ru">Кампания</span><span data-lang="ua" class="active">Кампанія</span><span data-lang="en">Campaign</span></th>
+    <th><span data-lang="ru">Отправлено</span><span data-lang="ua" class="active">Відправлено</span><span data-lang="en">Sent</span></th>
+    <th><span data-lang="ru">Доставлено</span><span data-lang="ua" class="active">Доставлено</span><span data-lang="en">Delivered</span></th>
+    <th>Open Rate</th>
+    <th>Click Rate</th>
+    <th>Spam</th>
+  </tr>
+  <tr>
+    <td>Welcome Series #1</td>
+    <td class="cnt">12 450</td>
+    <td class="good">98.1%</td>
+    <td>34.2%</td>
+    <td>8.1%</td>
+    <td class="good">0.08%</td>
+  </tr>
+  <tr>
+    <td>Welcome Series #2</td>
+    <td class="cnt">10 320</td>
+    <td class="good">97.8%</td>
+    <td>28.6%</td>
+    <td>6.3%</td>
+    <td class="good">0.11%</td>
+  </tr>
+  <tr>
+    <td>Valentine's Promo</td>
+    <td class="cnt">18 900</td>
+    <td class="good">95.4%</td>
+    <td>21.0%</td>
+    <td>4.7%</td>
+    <td class="bad">0.52%</td>
+  </tr>
+  <tr>
+    <td>Weekend Cashback</td>
+    <td class="cnt">15 200</td>
+    <td class="good">96.9%</td>
+    <td>19.3%</td>
+    <td>3.9%</td>
+    <td class="warn-text">0.38%</td>
+  </tr>
+  <tr>
+    <td>VIP Exclusive</td>
+    <td class="cnt">3 800</td>
+    <td class="good">99.2%</td>
+    <td>42.1%</td>
+    <td>15.6%</td>
+    <td class="good">0.02%</td>
+  </tr>
+  <tr>
+    <td>Reactivation Flow</td>
+    <td class="cnt">8 650</td>
+    <td class="bad">89.3%</td>
+    <td>11.2%</td>
+    <td>1.8%</td>
+    <td class="bad">0.91%</td>
+  </tr>
+  <tr>
+    <td>Free Spins Tuesday</td>
+    <td class="cnt">15 000</td>
+    <td class="good">97.1%</td>
+    <td>22.5%</td>
+    <td>5.2%</td>
+    <td class="warn-text">0.31%</td>
+  </tr>
+</table>
+
+
+<!-- ════════════════════════════════════════════════════ -->
+<!--  SECTION 3 — ISSUES                                -->
+<!-- ════════════════════════════════════════════════════ -->
+<div id="sec-3" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2>3. Выявленные проблемы</h2>
+
+<div class="error"><strong>Критично — Reactivation Flow:</strong> Delivery rate 89.3%, spam rate 0.91%. Рассылка уходит на неактивные адреса, многие из которых уже стали spam traps. Это повреждает репутацию домена.</div>
+
+<div class="warn"><strong>Внимание — Valentine's Promo:</strong> Spam rate 0.52% при пороге 0.3%. Причина — агрессивный subject line и отсутствие прехедера. Gmail помечает подобные письма как promotional.</div>
+
+<div class="note"><strong>Наблюдение:</strong> VIP Exclusive показывает лучшие метрики (open rate 42.1%, spam 0.02%). Малый объём + высокая релевантность = высокое качество.</div>
+
+<h3>Bounce-анализ</h3>
+<table>
+  <tr><th>Тип</th><th>Количество</th><th>Доля</th></tr>
+  <tr><td>Hard bounce</td><td class="cnt">1 248</td><td class="bad">1.48%</td></tr>
+  <tr><td>Soft bounce</td><td class="cnt">2 156</td><td class="warn-text">2.56%</td></tr>
+  <tr><td>Block (reputation)</td><td class="cnt">412</td><td class="bad">0.49%</td></tr>
+</table>
+</div>
+
+<!-- UA -->
+<div data-lang="ua" class="active">
+<h2>3. Виявлені проблеми</h2>
+
+<div class="error"><strong>Критично — Reactivation Flow:</strong> Delivery rate 89.3%, spam rate 0.91%. Розсилка йде на неактивні адреси, багато з яких вже стали spam traps. Це пошкоджує репутацію домену.</div>
+
+<div class="warn"><strong>Увага — Valentine's Promo:</strong> Spam rate 0.52% при порозі 0.3%. Причина — агресивний subject line та відсутність прехедера. Gmail позначає подібні листи як promotional.</div>
+
+<div class="note"><strong>Спостереження:</strong> VIP Exclusive показує найкращі метрики (open rate 42.1%, spam 0.02%). Малий об'єм + висока релевантність = висока якість.</div>
+
+<h3>Bounce-аналіз</h3>
+<table>
+  <tr><th>Тип</th><th>Кількість</th><th>Частка</th></tr>
+  <tr><td>Hard bounce</td><td class="cnt">1 248</td><td class="bad">1.48%</td></tr>
+  <tr><td>Soft bounce</td><td class="cnt">2 156</td><td class="warn-text">2.56%</td></tr>
+  <tr><td>Block (reputation)</td><td class="cnt">412</td><td class="bad">0.49%</td></tr>
+</table>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>3. Issues Found</h2>
+
+<div class="error"><strong>Critical — Reactivation Flow:</strong> Delivery rate 89.3%, spam rate 0.91%. Emails are sent to inactive addresses, many of which have become spam traps. This damages domain reputation.</div>
+
+<div class="warn"><strong>Warning — Valentine's Promo:</strong> Spam rate 0.52% vs 0.3% threshold. Cause — aggressive subject line and missing preheader. Gmail flags these as promotional.</div>
+
+<div class="note"><strong>Observation:</strong> VIP Exclusive has the best metrics (open rate 42.1%, spam 0.02%). Low volume + high relevance = high quality.</div>
+
+<h3>Bounce Analysis</h3>
+<table>
+  <tr><th>Type</th><th>Count</th><th>Rate</th></tr>
+  <tr><td>Hard bounce</td><td class="cnt">1,248</td><td class="bad">1.48%</td></tr>
+  <tr><td>Soft bounce</td><td class="cnt">2,156</td><td class="warn-text">2.56%</td></tr>
+  <tr><td>Block (reputation)</td><td class="cnt">412</td><td class="bad">0.49%</td></tr>
+</table>
+</div>
+
+
+<!-- ════════════════════════════════════════════════════ -->
+<!--  SECTION 4 — RECOMMENDATIONS                       -->
+<!-- ════════════════════════════════════════════════════ -->
+<div id="sec-4" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2>4. Рекомендации</h2>
+<ul>
+  <li><strong>Reactivation Flow — пауза:</strong> Немедленно остановить рассылку и очистить сегмент: убрать пользователей без открытий > 90 дней. Запустить заново на чистом сегменте с мягким subject line.</li>
+  <li><strong>Sunset policy:</strong> Внедрить правило автоматического удаления подписчиков без открытий > 120 дней из всех регулярных кампаний.</li>
+  <li><strong>Valentine's Promo:</strong> Добавить прехедер, смягчить subject line. Рассмотреть A/B тест с менее агрессивным вариантом.</li>
+  <li><strong>SPF/DKIM/DMARC:</strong> Проверить и обновить DNS-записи для <code>mail.luckystar.bet</code> — текущий DMARC policy = <code>none</code>, рекомендуется <code>quarantine</code>.</li>
+  <li><strong>List hygiene:</strong> Запустить валидацию всей базы через ZeroBounce или NeverBounce для удаления невалидных адресов.</li>
+</ul>
+
+<div class="note"><strong>Ожидаемый результат:</strong> Внедрение рекомендаций должно снизить spam rate до &lt;0.1% и повысить delivery rate до &gt;98% в течение 2–3 недель.</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua" class="active">
+<h2>4. Рекомендації</h2>
+<ul>
+  <li><strong>Reactivation Flow — пауза:</strong> Негайно зупинити розсилку та очистити сегмент: прибрати користувачів без відкриттів > 90 днів. Перезапустити на чистому сегменті з м'яким subject line.</li>
+  <li><strong>Sunset policy:</strong> Впровадити правило автоматичного видалення підписників без відкриттів > 120 днів з усіх регулярних кампаній.</li>
+  <li><strong>Valentine's Promo:</strong> Додати прехедер, пом'якшити subject line. Розглянути A/B тест з менш агресивним варіантом.</li>
+  <li><strong>SPF/DKIM/DMARC:</strong> Перевірити та оновити DNS-записи для <code>mail.luckystar.bet</code> — поточний DMARC policy = <code>none</code>, рекомендується <code>quarantine</code>.</li>
+  <li><strong>Гігієна бази:</strong> Запустити валідацію всієї бази через ZeroBounce або NeverBounce для видалення невалідних адрес.</li>
+</ul>
+
+<div class="note"><strong>Очікуваний результат:</strong> Впровадження рекомендацій має знизити spam rate до &lt;0.1% та підвищити delivery rate до &gt;98% протягом 2–3 тижнів.</div>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>4. Recommendations</h2>
+<ul>
+  <li><strong>Reactivation Flow — pause:</strong> Immediately stop the campaign and clean the segment: remove users with no opens > 90 days. Relaunch on a clean segment with a softer subject line.</li>
+  <li><strong>Sunset policy:</strong> Implement automatic removal of subscribers with no opens > 120 days from all regular campaigns.</li>
+  <li><strong>Valentine's Promo:</strong> Add a preheader, soften the subject line. Consider an A/B test with a less aggressive variant.</li>
+  <li><strong>SPF/DKIM/DMARC:</strong> Review and update DNS records for <code>mail.luckystar.bet</code> — current DMARC policy = <code>none</code>, recommended <code>quarantine</code>.</li>
+  <li><strong>List hygiene:</strong> Run full database validation via ZeroBounce or NeverBounce to remove invalid addresses.</li>
+</ul>
+
+<div class="note"><strong>Expected result:</strong> Implementing these recommendations should reduce spam rate to &lt;0.1% and increase delivery rate to &gt;98% within 2–3 weeks.</div>
+</div>
+
+</div><!-- .content -->
+
+<div class="report-footer">
+  <img class="logo-sm" src="../assets/gnb-logo.png" alt="GNB Agency" style="margin-bottom:0;">
+  <p>&copy; 2026 GNB Agency &bull; Retention &bull; Revenue &bull; Results</p>
+</div>
+
+<script>
+(function() {
+  const buttons = document.querySelectorAll('[data-set-lang]');
+  const elements = document.querySelectorAll('[data-lang]');
+
+  function setLang(lang) {
+    elements.forEach(el => {
+      el.classList.toggle('active', el.getAttribute('data-lang') === lang);
+    });
+    buttons.forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-set-lang') === lang);
+    });
+    document.documentElement.lang = lang === 'ua' ? 'uk' : lang;
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => setLang(btn.getAttribute('data-set-lang')));
+  });
+
+  // ── Scroll spy ──
+  const nav = document.querySelector('.report-nav');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const anchors = Array.from(document.querySelectorAll('.section-anchor'));
+
+  function scrollNavToActive(link) {
+    const navRect = nav.getBoundingClientRect();
+    const linkRect = link.getBoundingClientRect();
+    const pad = 60;
+    if (linkRect.right + pad > navRect.right) {
+      nav.scrollBy({ left: linkRect.right - navRect.right + pad, behavior: 'smooth' });
+    } else if (linkRect.left - pad < navRect.left) {
+      nav.scrollBy({ left: linkRect.left - navRect.left - pad, behavior: 'smooth' });
+    }
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      setTimeout(() => scrollNavToActive(link), 50);
+    });
+  });
+
+  function updateActiveNav() {
+    const atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 2);
+    let current = 0;
+    if (atBottom) {
+      current = anchors.length - 1;
+    } else {
+      const offset = 80;
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        if (anchors[i] && anchors[i].getBoundingClientRect().top <= offset) {
+          current = i;
+          break;
+        }
+      }
+    }
+    navLinks.forEach((link, idx) => {
+      link.classList.toggle('active', idx === current);
+    });
+    if (navLinks[current]) scrollNavToActive(navLinks[current]);
+  }
+
+  window.addEventListener('scroll', updateActiveNav, { passive: true });
+  updateActiveNav();
+  setLang('ua');
+})();
+</script>
+
+</body>
+</html>
