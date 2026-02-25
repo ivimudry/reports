@@ -1,1 +1,5 @@
-https://ivimudry.github.io/reports/pages/NAMEOFREPORT.html
+PromptGrid
+https://ivimudry.github.io/reports/pages/promptgrid/NAMEOFREPORT.html
+
+GNB Agency
+https://ivimudry.github.io/reports/pages/gnb/NAMEOFREPORT.html
