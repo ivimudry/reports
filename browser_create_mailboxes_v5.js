@@ -898,21 +898,38 @@ function handleResponse(text, name, index) {
   }
 
   const total = mailboxes.length;
-  console.log("\n\ud83d\ude80 Starting creation of " + total + " mailboxes for " + DOMAIN + "...\n");
+  const DELAY = 250; // ms between requests (safe for ISPmanager)
+  const estMinutes = Math.ceil(total * (DELAY + 200) / 60000); // rough estimate
+  console.log("\n\ud83d\ude80 Starting creation of " + total + " mailboxes for " + DOMAIN);
+  console.log("\u23f1\ufe0f Delay: " + DELAY + "ms | Estimated time: ~" + estMinutes + " min\n");
+
+  const startTime = Date.now();
 
   for (let i = 0; i < mailboxes.length; i++) {
     await createMailbox(mailboxes[i][0], mailboxes[i][1], i);
-    await new Promise(r => setTimeout(r, 500));
+    await new Promise(r => setTimeout(r, DELAY));
 
-    if ((i+1) % 50 === 0) {
-      console.log("\n\ud83d\udcca Progress: " + (i+1) + "/" + total + " (OK: " + created + ", FAIL: " + failed + ", EXISTS: " + skipped + ")\n");
+    if ((i+1) % 100 === 0) {
+      const elapsed = (Date.now() - startTime) / 1000;
+      const speed = ((i+1) / elapsed).toFixed(1);
+      const remaining = Math.ceil((total - (i+1)) / (i+1) * elapsed);
+      const remMin = Math.floor(remaining / 60);
+      const remSec = remaining % 60;
+      console.log("\n\ud83d\udcca Progress: " + (i+1) + "/" + total + " | OK: " + created + " | FAIL: " + failed + " | EXISTS: " + skipped);
+      console.log("\u26a1 Speed: " + speed + "/sec | ETA: " + remMin + "m " + remSec + "s\n");
     }
   }
+
+  const totalTime = ((Date.now() - startTime) / 1000).toFixed(1);
+  const avgSpeed = (total / (totalTime)).toFixed(1);
 
   console.log("\n============================");
   console.log("\u2705 Created:  " + created);
   console.log("\u23ed\ufe0f Existed:  " + skipped);
   console.log("\u274c Failed:   " + failed);
+  console.log("----------------------------");
+  console.log("\u23f1\ufe0f Total time: " + Math.floor(totalTime/60) + "m " + Math.round(totalTime%60) + "s");
+  console.log("\u26a1 Avg speed: " + avgSpeed + " mailboxes/sec");
   console.log("============================");
   if (errors.length > 0) {
     console.log("\nErrors (first 20):");
