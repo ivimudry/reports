@@ -1,5 +1,5 @@
 ﻿// ============================================
-// SCRIPT v4 — CREATE 800 MAILBOXES
+// SCRIPT v5 — CREATE 800 MAILBOXES
 // Paste in browser console (F12 → Console)
 // while logged into ISPmanager
 // ============================================
