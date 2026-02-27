@@ -72,7 +72,7 @@ Body:
 Hey [Name],
 We sent you a 120% deposit bonus. Twice. Still nothing.
 Code ENH1. First deposit. Up to R3 600 stacked on top.
-Panthers don't get third reminders. This is yours.
+Panthers don't get a third reminder.
 [ Copy promo code ] [ Claim Bonus ]
 
 Email #6
@@ -99,7 +99,7 @@ Preheader: More in your pocket before you even spin
 Body:
 Hey [Name],
 Slots. Tables. Live dealers. Whatever your game - do it with 120% extra in your balance.
-Enter code ENH1 on your first deposit. Up to R3 600 in bonus funds, stacked before your first spin.
+Enter code ENH1 on your first deposit. Up to R3 600 in bonus funds, loaded before your first spin.
 That's the Panther way - load up, then play.
 [ Copy promo code ] [ Claim Bonus ]
 
@@ -111,7 +111,7 @@ Preheader: ENH1 hasn't been used yet
 Body:
 Hey [Name],
 Code ENH1 is still live. 120% casino bonus - up to R3 600 - unclaimed.
-Tables are running. Slots are hot. And you're sitting on a code that makes your first deposit worth more than double.
+Tables are running. Slots are hot. And there's a code sitting here that more than doubles your first deposit.
 Use it or lose it.
 [ Copy promo code ] [ Claim Bonus ]
 
