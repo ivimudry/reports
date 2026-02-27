@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Email Audit — Final Report</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 1060px; margin: 0 auto; color: #1a1a1a; background: #f7f7f8; padding: 20px 24px 60px; }
+h1 { font-size: 26px; border-bottom: 3px solid #e74c3c; padding-bottom: 8px; margin-bottom: 6px; }
+h2 { font-size: 20px; color: #c0392b; margin-top: 36px; margin-bottom: 10px; border-left: 4px solid #e74c3c; padding-left: 10px; }
+h3 { font-size: 16px; color: #444; margin: 20px 0 8px; }
+p { margin: 6px 0; line-height: 1.55; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0 20px; font-size: 13.5px; }
+th { background: #2c3e50; color: #fff; padding: 9px 10px; text-align: left; font-size: 13px; }
+td { padding: 7px 10px; border-bottom: 1px solid #ddd; vertical-align: top; }
+tr:nth-child(even) td { background: #f4f4f4; }
+.old { color: #c0392b; }
+.new { color: #27ae60; font-weight: 600; }
+.strike { text-decoration: line-through; }
+.tag { display: inline-block; padding: 2px 7px; border-radius: 3px; font-size: 10.5px; font-weight: 700; margin-right: 3px; white-space: nowrap; }
+.tag-ai { background: #fadbd8; color: #e74c3c; }
+.tag-staccato { background: #fdebd0; color: #e67e22; }
+.tag-repeat { background: #d6eaf8; color: #2980b9; }
+.tag-vague { background: #e8daef; color: #8e44ad; }
+.tag-verb { background: #d5f5e3; color: #1e8449; }
+.tag-promo { background: #d4efdf; color: #1a7a3a; }
+.tag-filler { background: #fce4ec; color: #c62828; }
+.box { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 14px 18px; margin: 14px 0; }
+.count { font-size: 32px; font-weight: 800; color: #e74c3c; }
+.count-green { font-size: 32px; font-weight: 800; color: #27ae60; }
+.note { color: #888; font-size: 12.5px; font-style: italic; }
+
+/* Language switcher */
+.lang-switcher { position: fixed; top: 16px; right: 24px; z-index: 999; display: flex; gap: 0; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+.lang-btn { padding: 8px 16px; border: none; cursor: pointer; font-size: 13px; font-weight: 700; background: #ecf0f1; color: #555; transition: all .2s; }
+.lang-btn.active { background: #2c3e50; color: #fff; }
+.lang-btn:hover:not(.active) { background: #d5dbdb; }
+[data-lang="ru"] { display: none; }
+body.ru [data-lang="uk"] { display: none; }
+body.ru [data-lang="ru"] { display: block; }
+body.ru table [data-lang="uk"],
+body.ru .box [data-lang="uk"],
+body.ru p[data-lang="uk"],
+body.ru h1[data-lang="uk"],
+body.ru h2[data-lang="uk"],
+body.ru h3[data-lang="uk"] { display: none; }
+body.ru table [data-lang="ru"],
+body.ru .box [data-lang="ru"],
+body.ru p[data-lang="ru"],
+body.ru h1[data-lang="ru"],
+body.ru h2[data-lang="ru"],
+body.ru h3[data-lang="ru"] { display: block; }
+body:not(.ru) table [data-lang="ru"],
+body:not(.ru) .box [data-lang="ru"],
+body:not(.ru) p[data-lang="ru"],
+body:not(.ru) h1[data-lang="ru"],
+body:not(.ru) h2[data-lang="ru"],
+body:not(.ru) h3[data-lang="ru"] { display: none; }
+
+.section-divider { border: none; border-top: 2px dashed #ccc; margin: 40px 0 20px; }
+</style>
+</head>
+<body>
+
+<div class="lang-switcher">
+  <button class="lang-btn active" onclick="setLang('uk')">🇺🇦 UA</button>
+  <button class="lang-btn" onclick="setLang('ru')">🇷🇺 RU</button>
+</div>
+
+<!-- ============ HEADER ============ -->
+<h1 data-lang="uk">📋 Фінальний аудит email-кампаній PantherBet</h1>
+<h1 data-lang="ru">📋 Финальный аудит email-кампаний PantherBet</h1>
+
+<p data-lang="uk">Дата: 27.02.2026 &nbsp;|&nbsp; Кампанії: WELCOME FLOW (#5–#9), NUTRITION 1 (#1–#8) &nbsp;|&nbsp; WF #1–4 не змінювались</p>
+<p data-lang="ru">Дата: 27.02.2026 &nbsp;|&nbsp; Кампании: WELCOME FLOW (#5–#9), NUTRITION 1 (#1–#8) &nbsp;|&nbsp; WF #1–4 не менялись</p>
+
+<div class="box">
+  <p data-lang="uk"><span class="count">3</span> раунди виправлень &nbsp;·&nbsp; <span class="count">26</span> замін загалом &nbsp;·&nbsp; <span class="count-green">13</span> листів оброблено</p>
+  <p data-lang="ru"><span class="count">3</span> раунда исправлений &nbsp;·&nbsp; <span class="count">26</span> замен всего &nbsp;·&nbsp; <span class="count-green">13</span> писем обработано</p>
+</div>
+
+<!-- ============ PART 1: INITIAL AI CLEANUP ============ -->
+<hr class="section-divider">
+
+<h2 data-lang="uk">Частина 1 — Початкове очищення від ШІ-сміття (Раунд 1)</h2>
+<h2 data-lang="ru">Часть 1 — Первичная очистка от ИИ-мусора (Раунд 1)</h2>
+
+<p data-lang="uk">Перший аудит виявив масивні AI-патерни у всіх листах. Повна заміна тексту у WF #5–9 та N #1–8.</p>
+<p data-lang="ru">Первый аудит выявил массивные AI-паттерны во всех письмах. Полная замена текста в WF #5–9 и N #1–8.</p>
+
+<h3 data-lang="uk">Типи ШІ-проблем, знайдених у Раунді 1</h3>
+<h3 data-lang="ru">Типы ИИ-проблем, найденных в Раунде 1</h3>
+
+<div data-lang="uk">
+<table>
+<tr><th>Проблема</th><th>Приклади</th><th>К-ть</th></tr>
+<tr><td>Шаблон "No X. No Y. Just Z."</td><td class="old">"No tricks. No gimmicks. Just players who…", "No hidden steps, no fine print surprises. Just more funds…", "No wagering tricks. Just pure spins…"</td><td>6+</td></tr>
+<tr><td>Фраза "from the moment you land"</td><td class="old">Повторювалась 3 рази у різних листах</td><td>3</td></tr>
+<tr><td>"when it matters most"</td><td class="old">Класичний ChatGPT closer</td><td>1</td></tr>
+<tr><td>"exclusively for players like you"</td><td class="old">Повторювалась у 5+ листах</td><td>5+</td></tr>
+<tr><td>"still sitting here - untouched"</td><td class="old">Ідентична конструкція у 4 листах</td><td>4</td></tr>
+<tr><td>"keep the momentum going"</td><td class="old">Прямо вказано керівництвом як AI-сміття</td><td>1</td></tr>
+<tr><td>"serious edge / serious upgrade"</td><td class="old">Overused AI filler</td><td>3</td></tr>
+<tr><td>"More X, more Y, more Z"</td><td class="old">"More funds, more spins, more chances to walk away winning"</td><td>2</td></tr>
+<tr><td>"gets the premium treatment"</td><td class="old">Маркетинговий AI slop</td><td>1</td></tr>
+<tr><td>"won't wait forever" / "slip through"</td><td class="old">AI urgency clichés</td><td>3</td></tr>
+</table>
+</div>
+
+<div data-lang="ru">
+<table>
+<tr><th>Проблема</th><th>Примеры</th><th>Кол-во</th></tr>
+<tr><td>Шаблон "No X. No Y. Just Z."</td><td class="old">"No tricks. No gimmicks. Just players who…", "No hidden steps, no fine print surprises. Just more funds…", "No wagering tricks. Just pure spins…"</td><td>6+</td></tr>
+<tr><td>Фраза "from the moment you land"</td><td class="old">Повторялась 3 раза в разных письмах</td><td>3</td></tr>
+<tr><td>"when it matters most"</td><td class="old">Классическая ChatGPT концовка</td><td>1</td></tr>
+<tr><td>"exclusively for players like you"</td><td class="old">Повторялась в 5+ письмах</td><td>5+</td></tr>
+<tr><td>"still sitting here - untouched"</td><td class="old">Идентичная конструкция в 4 письмах</td><td>4</td></tr>
+<tr><td>"keep the momentum going"</td><td class="old">Прямо указано руководством как AI-мусор</td><td>1</td></tr>
+<tr><td>"serious edge / serious upgrade"</td><td class="old">Шаблонный AI filler</td><td>3</td></tr>
+<tr><td>"More X, more Y, more Z"</td><td class="old">"More funds, more spins, more chances to walk away winning"</td><td>2</td></tr>
+<tr><td>"gets the premium treatment"</td><td class="old">Маркетинговый AI slop</td><td>1</td></tr>
+<tr><td>"won't wait forever" / "slip through"</td><td class="old">AI urgency клише</td><td>3</td></tr>
+</table>
+</div>
+
+<p data-lang="uk" class="note">Раунд 1: повна заміна 5 листів WF + 8 листів N. Усі AI-фрази вище були вилучені.</p>
+<p data-lang="ru" class="note">Раунд 1: полная замена 5 писем WF + 8 писем N. Все AI-фразы выше были удалены.</p>
+
+<!-- ============ PART 2: ROUND 2 — REMAINING AI PATTERNS ============ -->
+<hr class="section-divider">
+
+<h2 data-lang="uk">Частина 2 — Повторний аудит: залишкові ШІ-патерни (Раунд 2)</h2>
+<h2 data-lang="ru">Часть 2 — Повторный аудит: остаточные ИИ-паттерны (Раунд 2)</h2>
+
+<p data-lang="uk">Після першої заміни знайдено <b>13 залишкових</b> проблем у вже переписаних текстах.</p>
+<p data-lang="ru">После первой замены найдено <b>13 остаточных</b> проблем в уже переписанных текстах.</p>
+
+<h3 data-lang="uk">Категорії залишкових проблем</h3>
+<h3 data-lang="ru">Категории остаточных проблем</h3>
+
+<div data-lang="uk">
+<table>
+<tr><th>Категорія</th><th>Тег</th><th>К-ть</th><th>Опис</th></tr>
+<tr><td>Стаккато-трійки "X. Y. Z."</td><td><span class="tag tag-staccato">STACCATO</span></td><td>6</td><td>Три уривчасті фрагменти підряд — фірмовий ChatGPT-патерн копірайтингу</td></tr>
+<tr><td>AI-конструкції</td><td><span class="tag tag-ai">AI-CONSTRUCT</span></td><td>2</td><td>Паралельні конструкції "Every X without Y is Z without W"</td></tr>
+<tr><td>Повтори слів</td><td><span class="tag tag-repeat">REPEAT</span></td><td>3</td><td>"stacked", "thrown in", "untouched/hasn't been touched" — AI recycling</td></tr>
+<tr><td>Розпливчасті фрази</td><td><span class="tag tag-vague">VAGUE</span></td><td>1</td><td>"could turn into something serious" — нічого конкретного</td></tr>
+<tr><td>AI-дієслова</td><td><span class="tag tag-verb">AI-VERB</span></td><td>1</td><td>"unlocks" — гейміфікаційне дієслово</td></tr>
+</table>
+</div>
+
+<div data-lang="ru">
+<table>
+<tr><th>Категория</th><th>Тег</th><th>Кол-во</th><th>Описание</th></tr>
+<tr><td>Стаккато-тройки "X. Y. Z."</td><td><span class="tag tag-staccato">STACCATO</span></td><td>6</td><td>Три обрывистых фрагмента подряд — фирменный ChatGPT-паттерн</td></tr>
+<tr><td>AI-конструкции</td><td><span class="tag tag-ai">AI-CONSTRUCT</span></td><td>2</td><td>Параллельные конструкции "Every X without Y is Z without W"</td></tr>
+<tr><td>Повторы слов</td><td><span class="tag tag-repeat">REPEAT</span></td><td>3</td><td>"stacked", "thrown in", "untouched/hasn't been touched" — AI recycling</td></tr>
+<tr><td>Размытые фразы</td><td><span class="tag tag-vague">VAGUE</span></td><td>1</td><td>"could turn into something serious" — ничего конкретного</td></tr>
+<tr><td>AI-глаголы</td><td><span class="tag tag-verb">AI-VERB</span></td><td>1</td><td>"unlocks" — геймификационный глагол</td></tr>
+</table>
+</div>
+
+<h3 data-lang="uk">Виправлення Раунду 2 — детальна таблиця</h3>
+<h3 data-lang="ru">Исправления Раунда 2 — детальная таблица</h3>
+
+<div data-lang="uk">
+<table>
+<tr><th>Лист</th><th>Теги</th><th>Було</th><th>Стало</th></tr>
+<tr><td>WF#5</td><td><span class="tag tag-vague">VAGUE</span></td><td class="old">Panthers don't get third reminders. This is yours.</td><td class="new">Panthers don't get a third reminder.</td></tr>
+<tr><td>WF#7</td><td><span class="tag tag-repeat">REPEAT</span></td><td class="old">…bonus funds, <u>stacked</u> before your first spin</td><td class="new">…bonus funds, <u>loaded</u> before your first spin</td></tr>
+<tr><td>WF#8</td><td><span class="tag tag-ai">AI-CONSTRUCT</span></td><td class="old">And you're sitting on a code that makes your first deposit worth more than double.</td><td class="new">And there's a code sitting here that more than doubles your first deposit.</td></tr>
+<tr><td>N#1</td><td><span class="tag tag-repeat">REPEAT</span></td><td class="old">plus 100 FS <u>thrown in</u></td><td class="new">plus 100 FS <u>on top</u></td></tr>
+<tr><td>N#2</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">Deposit. Collect. Spin.</td><td class="new">You know what to do.</td></tr>
+<tr><td>N#3 prehead</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">One code. Double funds. 100 spins.</td><td class="new">ENH2 — your deposit doubles</td></tr>
+<tr><td>N#3 body</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">One code. Double your money. A hundred spins on the house.</td><td class="new">Your deposit doubles. Plus a hundred spins on the house.</td></tr>
+<tr><td>N#4</td><td><span class="tag tag-ai">AI-CONSTRUCT</span> <span class="tag tag-staccato">STACCATO</span></td><td class="old">Every day without the code is a day you're playing without the edge. Enter it. Deposit. Done.</td><td class="new">You're playing without the edge for no reason — the code is right here. Punch in ENH2 and deposit.</td></tr>
+<tr><td>N#5</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">200 Free Spins. Gates of Olympus. Code XXXX.</td><td class="new">Code XXXX gets you 200 Free Spins on Gates of Olympus.</td></tr>
+<tr><td>N#6 ln1</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">Code XXXX. 200 Free Spins. Gates of Olympus. Still unclaimed.</td><td class="new">Your 200 Free Spins on Gates of Olympus — still unclaimed. Code XXXX.</td></tr>
+<tr><td>N#6 ln2</td><td><span class="tag tag-vague">VAGUE</span></td><td class="old">…could turn into <u>something serious</u></td><td class="new">200 spins is a lot of shots at a big payout.</td></tr>
+<tr><td>N#7</td><td><span class="tag tag-verb">AI-VERB</span></td><td class="old">Second deposit <u>unlocks</u> 75%…</td><td class="new">Second deposit <u>gets you</u> 75%…</td></tr>
+<tr><td>N#8</td><td><span class="tag tag-repeat">REPEAT</span></td><td class="old">bonus <u>hasn't been touched</u></td><td class="new">That 75% on your second deposit? Still here.</td></tr>
+</table>
+</div>
+
+<div data-lang="ru">
+<table>
+<tr><th>Письмо</th><th>Теги</th><th>Было</th><th>Стало</th></tr>
+<tr><td>WF#5</td><td><span class="tag tag-vague">VAGUE</span></td><td class="old">Panthers don't get third reminders. This is yours.</td><td class="new">Panthers don't get a third reminder.</td></tr>
+<tr><td>WF#7</td><td><span class="tag tag-repeat">REPEAT</span></td><td class="old">…bonus funds, <u>stacked</u> before your first spin</td><td class="new">…bonus funds, <u>loaded</u> before your first spin</td></tr>
+<tr><td>WF#8</td><td><span class="tag tag-ai">AI-CONSTRUCT</span></td><td class="old">And you're sitting on a code that makes your first deposit worth more than double.</td><td class="new">And there's a code sitting here that more than doubles your first deposit.</td></tr>
+<tr><td>N#1</td><td><span class="tag tag-repeat">REPEAT</span></td><td class="old">plus 100 FS <u>thrown in</u></td><td class="new">plus 100 FS <u>on top</u></td></tr>
+<tr><td>N#2</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">Deposit. Collect. Spin.</td><td class="new">You know what to do.</td></tr>
+<tr><td>N#3 prehead</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">One code. Double funds. 100 spins.</td><td class="new">ENH2 — your deposit doubles</td></tr>
+<tr><td>N#3 body</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">One code. Double your money. A hundred spins on the house.</td><td class="new">Your deposit doubles. Plus a hundred spins on the house.</td></tr>
+<tr><td>N#4</td><td><span class="tag tag-ai">AI-CONSTRUCT</span> <span class="tag tag-staccato">STACCATO</span></td><td class="old">Every day without the code is a day you're playing without the edge. Enter it. Deposit. Done.</td><td class="new">You're playing without the edge for no reason — the code is right here. Punch in ENH2 and deposit.</td></tr>
+<tr><td>N#5</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">200 Free Spins. Gates of Olympus. Code XXXX.</td><td class="new">Code XXXX gets you 200 Free Spins on Gates of Olympus.</td></tr>
+<tr><td>N#6 ln1</td><td><span class="tag tag-staccato">STACCATO</span></td><td class="old">Code XXXX. 200 Free Spins. Gates of Olympus. Still unclaimed.</td><td class="new">Your 200 Free Spins on Gates of Olympus — still unclaimed. Code XXXX.</td></tr>
+<tr><td>N#6 ln2</td><td><span class="tag tag-vague">VAGUE</span></td><td class="old">…could turn into <u>something serious</u></td><td class="new">200 spins is a lot of shots at a big payout.</td></tr>
+<tr><td>N#7</td><td><span class="tag tag-verb">AI-VERB</span></td><td class="old">Second deposit <u>unlocks</u> 75%…</td><td class="new">Second deposit <u>gets you</u> 75%…</td></tr>
+<tr><td>N#8</td><td><span class="tag tag-repeat">REPEAT</span></td><td class="old">bonus <u>hasn't been touched</u></td><td class="new">That 75% on your second deposit? Still here.</td></tr>
+</table>
+</div>
+
+<!-- ============ PART 3: PROMO-ORIENTATION ============ -->
+<hr class="section-divider">
+
+<h2 data-lang="uk">Частина 3 — Промо-орієнтація (Раунд 3)</h2>
+<h2 data-lang="ru">Часть 3 — Промо-ориентация (Раунд 3)</h2>
+
+<p data-lang="uk">Після очощення від AI-сміття — наступний прохід: кожен лист перевірений на промо-фокус. Правило: <b>перше речення після "Hey [Name]" має містити оферту (%, суму, код або кількість спінів)</b>. Усе що не пушить промо — фільтрується як filler.</p>
+<p data-lang="ru">После очистки от AI-мусора — следующий проход: каждое письмо проверено на промо-фокус. Правило: <b>первое предложение после "Hey [Name]" должно содержать оферту (%, сумму, код или количество спинов)</b>. Всё что не пушит промо — фильтруется как filler.</p>
+
+<h3 data-lang="uk">Знайдені промо-проблеми та виправлення</h3>
+<h3 data-lang="ru">Найденные промо-проблемы и исправления</h3>
+
+<div data-lang="uk">
+<table>
+<tr><th>Лист</th><th>Теги</th><th>Було</th><th>Стало</th><th>Чому</th></tr>
+<tr>
+  <td><b>WF#5</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">We sent you a 120% deposit bonus. Twice. Still nothing.<br>Code ENH1. First deposit. Up to R3 600 stacked on top.<br>Panthers don't get a third reminder.</td>
+  <td class="new">120% on your first deposit. Up to R3 600. Code ENH1.<br>This is the third time we're putting this in front of you — and the last.<br>Enter the code, deposit, and collect.</td>
+  <td>Оферта з 2-го рядка пішла на 1-й. "Panthers don't get…" — наїзд, а не промо. Тепер лідить цифрами.</td>
+</tr>
+<tr>
+  <td><b>WF#6</b></td>
+  <td><span class="tag tag-staccato">STACCATO</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">Same platform. Same games. They just didn't sit around.</td>
+  <td class="new">Same games you can play right now. They just didn't wait.</td>
+  <td>Стаккато-пара вбита. Додано "you can play right now" — прив'язка до дії.</td>
+</tr>
+<tr>
+  <td><b>WF#7</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">That's the Panther way - load up, then play.</td>
+  <td class="new">Code ENH1, first deposit, 120% added — it's that simple.</td>
+  <td>Брендовий filler → рестейтмент оферти (код + % + дія).</td>
+</tr>
+<tr>
+  <td><b>N#1 intro</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">First deposit went through. Good. Now the real stack starts.<br>Your second deposit comes with 75% extra…</td>
+  <td class="new">75% match + 100 Free Spins on your second deposit. That's what's waiting for you right now.</td>
+  <td>2 рядки filler'у → 1 рядок з офертою на першому місці.</td>
+</tr>
+<tr>
+  <td><b>N#1 body</b></td>
+  <td><span class="tag tag-repeat">REPEAT</span></td>
+  <td class="old">Drop the deposit. We stack 75% and throw in a hundred spins.</td>
+  <td class="new">Deposit and we add 75% on top — plus a hundred spins to go with it.</td>
+  <td>"throw in" → "to go with it". Натуральніше + без повтору.</td>
+</tr>
+<tr>
+  <td><b>N#1 VIP</b></td>
+  <td><span class="tag tag-filler">FILLER</span></td>
+  <td class="old">VIP numbers for VIP players.</td>
+  <td class="new">Your VIP second deposit goes even higher.</td>
+  <td>Порожній слоган → конкретна вказівка що VIP бонус більший.</td>
+</tr>
+<tr>
+  <td><b>N#2 intro</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">You already deposited once. Your second deposit bonus is still untouched.</td>
+  <td class="new">75% + 100 Free Spins on your second deposit — still unclaimed.</td>
+  <td>Оферта у відкритті замість факту "ви вже депозили".</td>
+</tr>
+<tr>
+  <td><b>N#2 body</b></td>
+  <td><span class="tag tag-filler">FILLER</span></td>
+  <td class="old">…100 Free Spins. You know what to do.</td>
+  <td class="new">…100 Free Spins — deposit and it's yours.</td>
+  <td>"You know what to do" = filler без CTA → прямий CTA "deposit".</td>
+</tr>
+<tr>
+  <td><b>N#3 intro</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span> <span class="tag tag-staccato">STACCATO</span></td>
+  <td class="old">Panthers don't wait for handouts. They take what's theirs.<br>Code ENH2. Deposit. Get 100% back…</td>
+  <td class="new">100% match + 100 Free Spins — code ENH2 is all it takes.<br>Enter code ENH2, deposit, and get 100% back…</td>
+  <td>Брендова філософія замінена на оферту. Стаккато "Code. Deposit." → нормальне речення.</td>
+</tr>
+<tr>
+  <td><b>N#7 intro</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">First deposit hit. Now go harder.<br>Second deposit gets you 75% extra plus 100 FS.</td>
+  <td class="new">75% + 100 Free Spins on your second deposit. Time to go again.</td>
+  <td>2 рядки → 1 з офертою першою. "Now go harder" = filler.</td>
+</tr>
+<tr>
+  <td><b>N#7 REG</b></td>
+  <td><span class="tag tag-filler">FILLER</span></td>
+  <td class="old">Second deposit, bigger return. That's how Panthers play.</td>
+  <td class="new">75% match + a hundred spins — one deposit is all it takes.</td>
+  <td>"That's how Panthers play" — порожній слоган → рестейтмент оферти.</td>
+</tr>
+<tr>
+  <td><b>N#7 VIP</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-staccato">STACCATO</span></td>
+  <td class="old">VIP funds for VIP plays. Your move.</td>
+  <td class="new">VIP rate, R8 000 ceiling. Claim it.</td>
+  <td>Порожні слова → конкретна сума + прямий CTA.</td>
+</tr>
+<tr>
+  <td><b>N#8 VIP</b></td>
+  <td><span class="tag tag-ai">AI-FRAG</span></td>
+  <td class="old">Not reserved forever.</td>
+  <td class="new">Won't be here forever.</td>
+  <td>Штучний фрагмент "Not reserved" → природніший варіант.</td>
+</tr>
+</table>
+</div>
+
+<div data-lang="ru">
+<table>
+<tr><th>Письмо</th><th>Теги</th><th>Было</th><th>Стало</th><th>Почему</th></tr>
+<tr>
+  <td><b>WF#5</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">We sent you a 120% deposit bonus. Twice. Still nothing.<br>Code ENH1. First deposit. Up to R3 600 stacked on top.<br>Panthers don't get a third reminder.</td>
+  <td class="new">120% on your first deposit. Up to R3 600. Code ENH1.<br>This is the third time we're putting this in front of you — and the last.<br>Enter the code, deposit, and collect.</td>
+  <td>Оферта с 2-й строки перенесена на 1-ю. "Panthers don't get…" — наезд, а не промо. Теперь лидит цифрами.</td>
+</tr>
+<tr>
+  <td><b>WF#6</b></td>
+  <td><span class="tag tag-staccato">STACCATO</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">Same platform. Same games. They just didn't sit around.</td>
+  <td class="new">Same games you can play right now. They just didn't wait.</td>
+  <td>Стаккато-пара убита. Добавлено "you can play right now" — привязка к действию.</td>
+</tr>
+<tr>
+  <td><b>WF#7</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">That's the Panther way - load up, then play.</td>
+  <td class="new">Code ENH1, first deposit, 120% added — it's that simple.</td>
+  <td>Брендовый filler → рестейтмент оферты (код + % + действие).</td>
+</tr>
+<tr>
+  <td><b>N#1 intro</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">First deposit went through. Good. Now the real stack starts.<br>Your second deposit comes with 75% extra…</td>
+  <td class="new">75% match + 100 Free Spins on your second deposit. That's what's waiting for you right now.</td>
+  <td>2 строки filler'а → 1 строка с офертой на первом месте.</td>
+</tr>
+<tr>
+  <td><b>N#1 body</b></td>
+  <td><span class="tag tag-repeat">REPEAT</span></td>
+  <td class="old">Drop the deposit. We stack 75% and throw in a hundred spins.</td>
+  <td class="new">Deposit and we add 75% on top — plus a hundred spins to go with it.</td>
+  <td>"throw in" → "to go with it". Естественнее + без повтора.</td>
+</tr>
+<tr>
+  <td><b>N#1 VIP</b></td>
+  <td><span class="tag tag-filler">FILLER</span></td>
+  <td class="old">VIP numbers for VIP players.</td>
+  <td class="new">Your VIP second deposit goes even higher.</td>
+  <td>Пустой слоган → конкретное указание что VIP бонус больше.</td>
+</tr>
+<tr>
+  <td><b>N#2 intro</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">You already deposited once. Your second deposit bonus is still untouched.</td>
+  <td class="new">75% + 100 Free Spins on your second deposit — still unclaimed.</td>
+  <td>Оферта в открытии вместо факта "вы уже депозили".</td>
+</tr>
+<tr>
+  <td><b>N#2 body</b></td>
+  <td><span class="tag tag-filler">FILLER</span></td>
+  <td class="old">…100 Free Spins. You know what to do.</td>
+  <td class="new">…100 Free Spins — deposit and it's yours.</td>
+  <td>"You know what to do" = filler без CTA → прямой CTA "deposit".</td>
+</tr>
+<tr>
+  <td><b>N#3 intro</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span> <span class="tag tag-staccato">STACCATO</span></td>
+  <td class="old">Panthers don't wait for handouts. They take what's theirs.<br>Code ENH2. Deposit. Get 100% back…</td>
+  <td class="new">100% match + 100 Free Spins — code ENH2 is all it takes.<br>Enter code ENH2, deposit, and get 100% back…</td>
+  <td>Брендовая философия заменена на оферту. Стаккато "Code. Deposit." → нормальное предложение.</td>
+</tr>
+<tr>
+  <td><b>N#7 intro</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-promo">PROMO</span></td>
+  <td class="old">First deposit hit. Now go harder.<br>Second deposit gets you 75% extra plus 100 FS.</td>
+  <td class="new">75% + 100 Free Spins on your second deposit. Time to go again.</td>
+  <td>2 строки → 1 с офертой первой. "Now go harder" = filler.</td>
+</tr>
+<tr>
+  <td><b>N#7 REG</b></td>
+  <td><span class="tag tag-filler">FILLER</span></td>
+  <td class="old">Second deposit, bigger return. That's how Panthers play.</td>
+  <td class="new">75% match + a hundred spins — one deposit is all it takes.</td>
+  <td>"That's how Panthers play" — пустой слоган → рестейтмент оферты.</td>
+</tr>
+<tr>
+  <td><b>N#7 VIP</b></td>
+  <td><span class="tag tag-filler">FILLER</span> <span class="tag tag-staccato">STACCATO</span></td>
+  <td class="old">VIP funds for VIP plays. Your move.</td>
+  <td class="new">VIP rate, R8 000 ceiling. Claim it.</td>
+  <td>Пустые слова → конкретная сумма + прямой CTA.</td>
+</tr>
+<tr>
+  <td><b>N#8 VIP</b></td>
+  <td><span class="tag tag-ai">AI-FRAG</span></td>
+  <td class="old">Not reserved forever.</td>
+  <td class="new">Won't be here forever.</td>
+  <td>Искусственный фрагмент "Not reserved" → более естественный вариант.</td>
+</tr>
+</table>
+</div>
+
+<!-- ============ SUMMARY ============ -->
+<hr class="section-divider">
+
+<h2 data-lang="uk">Підсумок</h2>
+<h2 data-lang="ru">Итог</h2>
+
+<div class="box">
+<div data-lang="uk">
+<b>Раунд 1 — Очищення від ШІ:</b> повна заміна WF #5–9 та N #1–8 (видалено 30+ AI-фраз)<br>
+<b>Раунд 2 — Залишкові патерни:</b> 13 виправлень (стаккато, AI-конструкції, повтори, розпливчасті фрази, AI-дієслова)<br>
+<b>Раунд 3 — Промо-орієнтація:</b> 13 виправлень (filler → оферта-лід, брендові слогани → рестейтмент числових промо, додані прямі CTA)<br><br>
+<b>Оновлені файли:</b><br>
+• WELCOME FLOW.html + .txt — 6 виправлень (Раунд 2 + 3)<br>
+• NUTRITION 1.html + .txt — 20 виправлень (Раунд 2 + 3)<br><br>
+<b>Принцип після аудиту:</b> Перше речення = оферта. Кожен рядок або пушить промо, або створює urgency. Нуль порожніх брендових слоганів.
+</div>
+<div data-lang="ru">
+<b>Раунд 1 — Очистка от ИИ:</b> полная замена WF #5–9 и N #1–8 (удалено 30+ AI-фраз)<br>
+<b>Раунд 2 — Остаточные паттерны:</b> 13 исправлений (стаккато, AI-конструкции, повторы, размытые фразы, AI-глаголы)<br>
+<b>Раунд 3 — Промо-ориентация:</b> 13 исправлений (filler → оферта-лид, брендовые слоганы → рестейтмент числовых промо, добавлены прямые CTA)<br><br>
+<b>Обновлённые файлы:</b><br>
+• WELCOME FLOW.html + .txt — 6 исправлений (Раунд 2 + 3)<br>
+• NUTRITION 1.html + .txt — 20 исправлений (Раунд 2 + 3)<br><br>
+<b>Принцип после аудита:</b> Первое предложение = оферта. Каждая строка либо пушит промо, либо создаёт urgency. Ноль пустых брендовых слоганов.
+</div>
+</div>
+
+<script>
+function setLang(lang) {
+  document.body.classList.toggle('ru', lang === 'ru');
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector(`.lang-btn[onclick="setLang('${lang}')"]`).classList.add('active');
+}
+</script>
+
+</body>
+</html>
