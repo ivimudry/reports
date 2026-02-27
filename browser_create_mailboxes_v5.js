@@ -810,6 +810,7 @@ const mailboxes = [
 const DOMAIN = "newarento.ru";
 const DELAY = 250; // ms between requests (safe for ISPmanager)
 let created = 0, failed = 0, skipped = 0, errors = [];
+let skippedList = []; // mailboxes that already existed
 let requestTimes = []; // track each request duration
 
 // Returns request duration in ms
@@ -870,6 +871,7 @@ function handleResponse(text, name, index) {
     const errMsg = JSON.stringify(data.doc.error);
     if (errMsg.includes("exist")) {
       skipped++;
+      skippedList.push(name);
       return "EXISTS";
     } else {
       failed++;
@@ -955,6 +957,10 @@ function formatETA(seconds) {
   console.log("\u26a1 Avg speed: " + avgSpeed + " mailboxes/sec");
   console.log("\ud83d\udce1 Avg request: " + avgReqFinal + "ms + " + DELAY + "ms delay = " + (avgReqFinal + DELAY) + "ms/cycle");
   console.log("============================");
+  if (skippedList.length > 0) {
+    console.log("\n\u23ed\ufe0f Already existed (" + skippedList.length + "):");
+    console.log(skippedList.map(function(n) { return n + "@" + DOMAIN; }).join(", "));
+  }
   if (errors.length > 0) {
     console.log("\nErrors (first 20):");
     errors.slice(0, 20).forEach(function(e) { console.log("  " + e); });
