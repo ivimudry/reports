@@ -1,6 +1,7 @@
 Email #1
 Subject: 🎰 Your Welcome Pack is ready!
 Preheader: You're one step away from something big
+Body:
 Hey [Name],
 Panthers don't settle for average. Neither should your welcome bonus. Your first three deposits come fully loaded - pick your pack and start hunting.
 [ REGULAR OFFER ]
@@ -24,6 +25,7 @@ Email #2
 
 Subject: 💥 Claim your bonus: 100% Bonus Await!
 Preheader: The time has come…
+Body:
 Hey [Name],
 Your first deposit at PantherBet doesn't just get you in - it gets you double. Make your move today and claim a 100% match bonus from the moment you land.
 
@@ -43,7 +45,7 @@ Email #3
 
 Subject: ⚡ 120% on your first deposit - bold moves get rewarded
 Preheader: PantherBet rewards those who don't hesitate
-
+Body:
 Hey [Name],
 Most players settle for a standard welcome. Panthers don't.
 Enter code ENH1 on your first deposit and get 120% back - up to R3 600 in bonus funds ready to play with.
@@ -55,7 +57,7 @@ Email #4
 
 Subject: ⏳ Your 120% bonus is still waiting 
 Preheader: Don't let this one slip through
-
+Body:
 
 Email #5
 
