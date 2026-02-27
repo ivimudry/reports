@@ -1,5 +1,5 @@
-Email #1
-Subject: 🎰 Your Welcome Pack. Take it.
+﻿Email #1
+Subject:  Your Welcome Pack. Take it.
 Preheader: Three deposits. Heavy bonuses.
 Body:
 Hey [Name],
@@ -22,7 +22,7 @@ Up to R22 000. No lightweight stuff.
 
 
 Email #2
-Subject: 💥 100% Match. Don't blink.
+Subject:  100% Match. Don't blink.
 Preheader: Double your first deposit right now.
 Body:
 Hey [Name],
@@ -41,7 +41,7 @@ Heavy hitters only.
 
 
 Email #3
-Subject: ⚡ 120% Bonus. Code: ENH1.
+Subject:  120% Bonus. Code: ENH1.
 Preheader: Take the extra 20%.
 Body:
 Hey [Name],
@@ -52,7 +52,7 @@ Grab the code. Make the drop. Play hard.
 
 
 Email #4
-Subject: ⏳ ENH1 is still active. Use it.
+Subject:  ENH1 is still active. Use it.
 Preheader: 120% match up to R3 600.
 Body:
 Hey [Name],
@@ -63,7 +63,7 @@ We don't hold these open forever. Take it or lose it.
 
 
 Email #5
-Subject: 🔥 Last call for 120%.
+Subject:  Last call for 120%.
 Preheader: Code ENH1 expires soon.
 Body:
 Hey [Name],
@@ -74,16 +74,16 @@ Drop the deposit. Take the cash.
 
 
 Email #6
-Subject: 🏆 R27k, R22k, R19k. Who's next?
+Subject:  R27k, R22k, R19k. Who's next?
 Preheader: Last week's top payouts.
 Body:
 Hey [Name],
 Some players talk. Others cash out.
 Look at last week's top hits:
 
-🥇 Ale•••••95 — R27 341
-🥈 Khu••••41 — R22 187
-🥉 Tha•••••••07 — R19 068
+ Ale95  R27 341
+ Khu41  R22 187
+ Tha07  R19 068
 
 They didn't hesitate. They deposited and took the house.
 Your turn.
@@ -91,7 +91,7 @@ Your turn.
 
 
 Email #7
-Subject: ⚡ 120% Casino Bonus. Code: ENH1.
+Subject:  120% Casino Bonus. Code: ENH1.
 Preheader: Extra cash for the tables.
 Body:
 Hey [Name],
@@ -102,7 +102,7 @@ More cash means bigger bets. Bigger bets mean bigger payouts.
 
 
 Email #8
-Subject: ⏳ 120% Casino Bonus. Still here.
+Subject:  120% Casino Bonus. Still here.
 Preheader: Don't let the code waste away.
 Body:
 Hey [Name],
@@ -113,7 +113,7 @@ Stop watching from the sidelines. Get in the game.
 
 
 Email #9
-Subject: 🎁 100% Match. Code: HIPANTHER.
+Subject:  100% Match. Code: HIPANTHER.
 Preheader: Double your cash up to R3 000.
 Body:
 Hey [Name],
