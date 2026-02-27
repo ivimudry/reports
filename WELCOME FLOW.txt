@@ -1,0 +1,243 @@
+Email C1.1
+Subject: 🎁 Your 100% Bonus + 30 Free Spins!
+Preheader: Now it's time for the fun part…
+Body: Hi {{customer.first_name | default:"friend"}}!
+You signed up - great move! Now it's time for the fun part.
+
+Make your first deposit and grab a 100% Bonus + 30 Free Spins. Deposit 50 EUR, play with 100 EUR plus 30 spins on top.
+
+Thousands of slots, live dealers, and crash games are calling your name. Let's get started!
+CTA: Claim bonus →
+
+Email C2.1
+Subject: ✈️ 65 Free Spins on Aviator!
+Preheader: It's the game everyone's talking about…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Ever tried Aviator? It's the game everyone's talking about.
+
+We're giving you 65 Free Spins on Aviator to kick things off. Use promo code {PROMOCODE}. Watch the multiplier climb, cash out at the right moment, and pocket real winnings.
+
+No complicated rules - just pure adrenaline and big multipliers!
+CTA: Play Aviator →
+
+Email C3.1
+Subject: 💰 100% Bonus + 30 Free Spins!
+Preheader: Your account's ready, the games are live…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Your account's all set - all that's left is your first deposit.
+
+Grab a 100% Bonus + 30 Free Spins right now. Pick from thousands of slots, live casino tables, and crash games like Aviator and JetX. Your bonus doubles whatever you put in, so every euro works twice as hard.
+
+The games are live. The bonus is ready. What are you waiting for?
+CTA: Get bonus →
+
+Email C4.1
+Subject: ✈️ 65 Free Spins on Aviator!
+Preheader: Records are breaking, join in…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Aviator's breaking records - and you can be part of it.
+
+Grab your 65 Free Spins right now. Use promo code {PROMOCODE}. The multiplier keeps climbing until someone cashes out. Will you be the one who times it perfectly?
+
+The longer you wait, the higher the stakes. Jump in today!
+CTA: Play now →
+
+Email C5.1
+Subject: 🔥 100% Bonus + 30 FS - expiring soon!
+Preheader: Don't let this one pass you by…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Your welcome offer won't last forever. Here's what you're missing out on:
+
+100% Bonus on your first deposit - play with double the money.
+30 Free Spins - extra chances to win at zero extra cost.
+Turbo Saturday - double your deposit every Saturday.
+VIP Cashback - get money back on every bet.
+
+Make your first deposit now and unlock all these rewards at once!
+CTA: Unlock now →
+
+Email C6.1
+Subject: ✈️ 55 Free Spins on Aviator!
+Preheader: Your flight is boarding…
+Body: Hi {{customer.first_name | default:"friend"}}!
+We haven't given up on you - and you shouldn't give up on big wins either.
+
+Here are 55 Free Spins on Aviator. Use promo code {PROMOCODE}. It takes seconds to get going - set your bet, watch the plane rise, and cash out before it vanishes.
+
+Simple. Fast. Exciting. Give it a spin today!
+CTA: Play Aviator →
+
+Email C7.1
+Subject: 💎 100% + 30 FS - still yours!
+Preheader: Three steps and you're playing…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Getting started at PariPesa is dead simple:
+
+1. Make your first deposit.
+2. Get 100% Bonus + 30 Free Spins instantly.
+3. Pick any game and start winning.
+
+That's it. No hidden steps, no fine print. Your bonus kicks in automatically and you're ready to play in seconds.
+
+Slots, live dealers, crash games - it's all open for you!
+CTA: Deposit now →
+
+Email C8.1
+Subject: 🚀 75 Free Spins on JetX!
+Preheader: Quick thinking means big payouts…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Meet JetX - the crash game where quick thinking means big payouts.
+
+We've got 75 Free Spins on JetX lined up just for you. Use promo code {PROMOCODE}. The rocket launches, the multiplier grows, and you pick the moment to cash out. One click could change your whole day.
+
+Plus, active players enjoy Weekly Cashback and 60 Free Bets in Aviator. Jump in and unlock it all!
+CTA: Play JetX →
+
+Email C9.1
+Subject: ⏳ 100% + 30 FS - almost gone!
+Preheader: Time's running out on this one…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Time's running out. Your 100% First Deposit Bonus + 30 Free Spins won't be around much longer.
+
+Here's what happens when you deposit today:
+Your balance is doubled instantly.
+You get 30 Free Spins on top.
+You unlock Turbo Saturday, VIP Cashback, and more.
+
+Don't let this one slip away - act now!
+CTA: Get bonus →
+
+Email C10.1
+Subject: ✈️ 100 Free Spins on Aviator!
+Preheader: Our biggest one yet…
+Body: Hi {{customer.first_name | default:"friend"}}!
+This is it - our biggest offer yet.
+
+We're giving you 100 Free Spins on Aviator. Use promo code {PROMOCODE}. That's 100 chances to hit a massive multiplier and walk away with real cash.
+
+Watch the plane climb, feel the rush, and cash out at the perfect moment. With 100 spins, you've got plenty of room to find your winning rhythm.
+
+This is your moment - don't let it fly away!
+CTA: Claim spins →
+
+Email S1.1
+Subject: ⚽ 100% on your first sports bet!
+Preheader: The stadium's ready for you…
+Body: Hi {{customer.first_name | default:"friend"}}!
+You signed up - and the stadium's ready for you.
+
+Make your first deposit and grab a 100% Bonus. That's double the bankroll for your very first sports bets. Football, cricket, tennis, basketball - pick your game and start winning.
+
+Live betting, pre-match odds, and thousands of events every day. Your sports journey starts now!
+CTA: Get bonus →
+
+Email S2.1
+Subject: 🏅 Sports winners of the week!
+Preheader: See who crushed it last week…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Check out who crushed it in sports betting last week:
+
+Ja•••••on won 6 400 EUR on Premier League.
+Mi•••••el won 4 100 EUR on Live Betting.
+Ka•••••na won 2 750 EUR on Cricket.
+
+Plus, PariPesa players enjoy Turbo Saturday - double your deposit every Saturday - and an Accumulator Bonus with up to +10% on combo bets.
+
+Make your first deposit and start winning like them!
+CTA: Join now →
+
+Email S3.1
+Subject: 💪 100% Bonus for sports betting!
+Preheader: The matches are live, the odds are hot…
+Body: Hi {{customer.first_name | default:"friend"}}!
+The matches are live, the odds are hot, and your 100% First Deposit Bonus is ready.
+
+Deposit any amount and we'll double it. Use your boosted balance to bet on football, cricket, tennis, esports - or any of our 40+ sports. Pre-match or live, the choice is yours.
+
+Smart bettors start with an edge. Your edge is this bonus!
+CTA: Get bonus →
+
+Email S4.1
+Subject: ⭐ Big wins this week!
+Preheader: Real results from real players…
+Body: Hi {{customer.first_name | default:"friend"}}!
+PariPesa players keep delivering incredible results:
+
+Be•••••in won 5 700 EUR on a 4-fold Accumulator.
+An•••••ew won 3 900 EUR on Live Football.
+Li•••••sa won 2 300 EUR on Tennis.
+
+What gives them an edge? The Accumulator Shield protects your combo even if one leg fails, and the Bonus for Losing Bets helps you bounce back on tough days.
+
+Your first deposit unlocks it all!
+CTA: Start now →
+
+Email S5.1
+Subject: 🔥 Your 100% Bonus is waiting!
+Preheader: Every champion starts somewhere…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Every champion was once a beginner. Your journey starts with one deposit.
+
+Get 100% on your first deposit and use it across all sports markets. Football derbies, Grand Slam tennis, IPL cricket, Champions League nights - there's always something to bet on.
+
+Thousands of players started exactly where you are now. Your winning streak begins today!
+CTA: Claim 100% →
+
+Email S6.1
+Subject: 📱 100% Bonus + play on the go!
+Preheader: Bet anywhere, anytime…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Why wait? Your 100% First Deposit Bonus is ready - and with the PariPesa App, you can bet from anywhere.
+
+Download the app and place bets on the bus, during lunch, or from your couch. Never miss a kickoff or a live odds shift again.
+
+Plus, you'll unlock the exclusive App Bonus on top of your deposit offer. Double the rewards, zero the hassle!
+CTA: Get started →
+
+Email S7.1
+Subject: ⚡ 100% Bonus - going fast!
+Preheader: The biggest matches are on right now…
+Body: Hi {{customer.first_name | default:"friend"}}!
+The biggest matches are happening right now, and your 100% Bonus is still on the table.
+
+Imagine watching a game and knowing your bet's riding on every goal, every point, every play. That excitement is one deposit away.
+
+Don't sit on the sidelines. Get in the game with double the funds and show us your sports instinct!
+CTA: Bet now →
+
+Email S8.1
+Subject: 🏆 Weekly champions revealed!
+Preheader: Another round of big winners…
+Body: Hi {{customer.first_name | default:"friend"}}!
+Another week, another round of PariPesa champions:
+
+Pa•••••ck won 7 200 EUR on Football.
+Ri•••••do won 4 600 EUR on Basketball.
+Em•••••ly won 3 100 EUR on Live Betting.
+
+They take advantage of the Monday 50% Bonus to start each week strong, and High Odds on top events to maximize every winning bet.
+
+One deposit opens the door to all of this!
+CTA: Deposit now →
+
+Email S9.1
+Subject: 🎯 100% Bonus - your shot!
+Preheader: You know the game, now play it…
+Body: Hi {{customer.first_name | default:"friend"}}!
+You've done your homework. You know the teams. You've got the strategy.
+
+All you need is the bankroll to back it up. Make your first deposit, get 100% on top, and turn your knowledge into real winnings.
+
+PariPesa covers 40+ sports, 1 000+ daily events, and lightning-fast live betting. The perfect playground for someone who knows the game!
+CTA: Place a bet →
+
+Email S10.1
+Subject: 🥇 Last call: 100% Bonus!
+Preheader: This is it, don't look back…
+Body: Hi {{customer.first_name | default:"friend"}}!
+This is your final reminder - your 100% First Deposit Bonus is about to expire.
+
+You signed up for a reason. Maybe it was a big match, a favourite team, or the thrill of winning. Whatever it was, that reason's still there - and so is your bonus.
+
+Make your deposit today. Double your money. Start betting. It's that simple. See you on the winning side!
+CTA: Deposit now →
