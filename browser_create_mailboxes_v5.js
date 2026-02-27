@@ -808,7 +808,7 @@ const mailboxes = [
 ];
 
 const DOMAIN = "newarento.ru";
-const DELAY = 250; // ms between requests (safe for ISPmanager)
+const DELAY = 50; // ms between requests (server response ~1000ms is the real bottleneck)
 let created = 0, failed = 0, skipped = 0, errors = [];
 let skippedList = []; // mailboxes that already existed
 let reqTimesOK = [], reqTimesExists = [], reqTimesFail = []; // per-status request times
