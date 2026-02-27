@@ -811,7 +811,9 @@ const DOMAIN = "newarento.ru";
 const DELAY = 250; // ms between requests (safe for ISPmanager)
 let created = 0, failed = 0, skipped = 0, errors = [];
 let skippedList = []; // mailboxes that already existed
-let requestTimes = []; // track each request duration
+let reqTimesOK = [], reqTimesExists = [], reqTimesFail = []; // per-status request times
+
+function avgOf(arr) { return arr.length ? Math.round(arr.reduce((a, b) => a + b, 0) / arr.length) : 0; }
 
 // Returns request duration in ms
 async function createMailbox(name, password, index) {
@@ -844,17 +846,33 @@ async function createMailbox(name, password, index) {
       if (text2.startsWith("<!") || text2.startsWith("<html")) {
         failed++;
         errors.push(name + ": HTML response (session expired?)");
-        return { status: "FAIL", ms: Date.now() - reqStart };
+        const ms = Date.now() - reqStart;
+        reqTimesFail.push(ms);
+        return { status: "FAIL", ms };
       }
-      return { status: handleResponse(text2, name, index), ms: Date.now() - reqStart };
+      const ms = Date.now() - reqStart;
+      const status = handleResponse(text2, name, index);
+      pushReqTime(status, ms);
+      return { status, ms };
     } else {
-      return { status: handleResponse(text, name, index), ms: Date.now() - reqStart };
+      const ms = Date.now() - reqStart;
+      const status = handleResponse(text, name, index);
+      pushReqTime(status, ms);
+      return { status, ms };
     }
   } catch(e) {
     failed++;
     errors.push(name + ": " + e.message);
-    return { status: "ERROR", ms: Date.now() - reqStart };
+    const ms = Date.now() - reqStart;
+    reqTimesFail.push(ms);
+    return { status: "ERROR", ms };
   }
+}
+
+function pushReqTime(status, ms) {
+  if (status === "OK") reqTimesOK.push(ms);
+  else if (status === "EXISTS") reqTimesExists.push(ms);
+  else reqTimesFail.push(ms);
 }
 
 function handleResponse(text, name, index) {
@@ -891,6 +909,16 @@ function formatETA(seconds) {
   return m + "m " + s + "s";
 }
 
+function speedSummary() {
+  let parts = [];
+  if (reqTimesOK.length) parts.push("OK: " + avgOf(reqTimesOK) + "ms");
+  if (reqTimesExists.length) parts.push("EXISTS: " + avgOf(reqTimesExists) + "ms");
+  if (reqTimesFail.length) parts.push("FAIL: " + avgOf(reqTimesFail) + "ms");
+  const all = reqTimesOK.concat(reqTimesExists, reqTimesFail);
+  parts.push("ALL: " + avgOf(all) + "ms");
+  return parts.join(" | ");
+}
+
 (async () => {
   console.log("\ud83d\udd0d Testing API connection...");
   try {
@@ -917,10 +945,10 @@ function formatETA(seconds) {
 
   for (let i = 0; i < mailboxes.length; i++) {
     const result = await createMailbox(mailboxes[i][0], mailboxes[i][1], i);
-    requestTimes.push(result.ms);
 
-    // Calculate average request time + delay = cycle time
-    const avgReq = Math.round(requestTimes.reduce((a, b) => a + b, 0) / requestTimes.length);
+    // Calculate ETA based on all request times
+    const allTimes = reqTimesOK.concat(reqTimesExists, reqTimesFail);
+    const avgReq = avgOf(allTimes);
     const avgCycle = avgReq + DELAY;
     const remaining = total - (i + 1);
     const eta = formatETA(Math.ceil(remaining * avgCycle / 1000));
@@ -933,20 +961,19 @@ function formatETA(seconds) {
 
     await new Promise(r => setTimeout(r, DELAY));
 
-    // Summary block every 100
-    if ((i+1) % 100 === 0) {
+    // Summary block every 50
+    if ((i+1) % 50 === 0) {
       const elapsed = ((Date.now() - startTime) / 1000).toFixed(0);
       const speed = ((i+1) / elapsed).toFixed(1);
       console.log("\n\ud83d\udcca ===== " + (i+1) + "/" + total + " =====");
       console.log("   OK: " + created + " | FAIL: " + failed + " | EXISTS: " + skipped);
-      console.log("   \u26a1 " + speed + "/sec | Avg request: " + avgReq + "ms + " + DELAY + "ms delay");
+      console.log("   \u26a1 " + speed + "/sec | Avg req: " + speedSummary());
       console.log("   \u23f1\ufe0f Elapsed: " + formatETA(+elapsed) + " | ETA: " + eta + "\n");
     }
   }
 
   const totalTime = ((Date.now() - startTime) / 1000).toFixed(1);
   const avgSpeed = (total / totalTime).toFixed(1);
-  const avgReqFinal = Math.round(requestTimes.reduce((a, b) => a + b, 0) / requestTimes.length);
 
   console.log("\n============================");
   console.log("\u2705 Created:  " + created);
@@ -955,7 +982,12 @@ function formatETA(seconds) {
   console.log("----------------------------");
   console.log("\u23f1\ufe0f Total time: " + formatETA(Math.round(totalTime)));
   console.log("\u26a1 Avg speed: " + avgSpeed + " mailboxes/sec");
-  console.log("\ud83d\udce1 Avg request: " + avgReqFinal + "ms + " + DELAY + "ms delay = " + (avgReqFinal + DELAY) + "ms/cycle");
+  console.log("\ud83d\udce1 Avg request by type:");
+  if (reqTimesOK.length) console.log("   \u2705 OK:     " + avgOf(reqTimesOK) + "ms (" + reqTimesOK.length + " requests)");
+  if (reqTimesExists.length) console.log("   \u23ed\ufe0f EXISTS: " + avgOf(reqTimesExists) + "ms (" + reqTimesExists.length + " requests)");
+  if (reqTimesFail.length) console.log("   \u274c FAIL:   " + avgOf(reqTimesFail) + "ms (" + reqTimesFail.length + " requests)");
+  const allFinal = reqTimesOK.concat(reqTimesExists, reqTimesFail);
+  console.log("   \ud83d\udcca ALL:    " + avgOf(allFinal) + "ms (" + allFinal.length + " requests) + " + DELAY + "ms delay = " + (avgOf(allFinal) + DELAY) + "ms/cycle");
   console.log("============================");
   if (skippedList.length > 0) {
     console.log("\n\u23ed\ufe0f Already existed (" + skippedList.length + "):");
