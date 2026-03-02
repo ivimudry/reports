@@ -39,4 +39,10 @@ WEBHOOK В Customer.io для відправки SMS через CM.com
 
 Саме ці дані обробляються в Customer.io та виконують запит.
 
-Дані надсилаються на вебхук, 
+Дані надсилаються на вебхук, "https://api-eu.customer.io/v1/webhook/0a085a6dc8e9ca57"
+{
+    "phone": "27821234567",
+    "message": "Test SMS from Customer.io via CM.com",
+    "name": "Test User"
+}
+Далі в Customer.io 
