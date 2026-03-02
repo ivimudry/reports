@@ -3,26 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <title>PP UNSUCCESSFUL DEPOSIT</title>
-<style>body{font-family:Arial,sans-serif;color:#000;line-height:1.6;padding:20px;}</style>
+<style>body{font-family:Arial,sans-serif;font-size:14px;line-height:1.6;max-width:800px;margin:40px auto;color:#222;}h2{margin-top:36px;border-bottom:1px solid #ccc;padding-bottom:4px;}</style>
 </head>
 <body>
 
-<b>Email 1</b><br>
-<b>Subject:</b> 💳 Your deposit didn't go through<br>
-<b>Preheader:</b> Quick fix inside<br>
-<b>Body:</b> Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
+<h2>Email #1</h2>
+<p>Subject: 💳 Your deposit didn't go through</p>
+<p>Preheader: Quick fix inside</p>
+<p>Body:<br>
+Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
 Your recent deposit didn't complete. No worries - this is usually a quick fix.<br><br>
 What to do:<br>
 • Switch your card or try a different one<br>
 • Go with Crypto, Mobile Money, or Bank Transfer in the Cashier<br><br>
 Most of the time, just picking another method works. Give it another shot - takes less than a minute.<br><br>
 Any problems? Hit up our live chat or write to [SUPPORT_EMAIL].<br>
-<b>CTA:</b> Complete deposit →<br><br>
+<b>[ Complete Deposit ]</b></p>
 
-<b>Email 2</b><br>
-<b>Subject:</b> 🏦 Deposit still not going through?<br>
-<b>Preheader:</b> Try a different method<br>
-<b>Body:</b> Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
+<h2>Email #2</h2>
+<p>Subject: 🏦 Deposit still not going through?</p>
+<p>Preheader: Try a different method</p>
+<p>Body:<br>
+Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
 Your deposit is still pending. Let's fix that.<br><br>
 You've got a few options in the Cashier:<br>
 • Bank Card - quick and easy<br>
@@ -31,12 +33,13 @@ You've got a few options in the Cashier:<br>
 • Bank Transfer - simple and direct<br><br>
 Just pick a different one and you should be good. If your bank put a hold on the funds, it usually clears on its own.<br><br>
 Questions? Live chat or [SUPPORT_EMAIL] - we'll sort it out.<br>
-<b>CTA:</b> Try another method →<br><br>
+<b>[ Try Another Method ]</b></p>
 
-<b>Email 3</b><br>
-<b>Subject:</b> RE: Deposit issue<br>
-<b>Preheader:</b> Let us help you with this<br>
-<b>Body:</b> Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
+<h2>Email #3</h2>
+<p>Subject: RE: Deposit issue</p>
+<p>Preheader: Let us help you with this</p>
+<p>Body:<br>
+Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
 Still having trouble with your deposit? Let's figure it out together.<br><br>
 Tell us:<br>
 • Which payment method you used<br>
@@ -44,31 +47,33 @@ Tell us:<br>
 • Where exactly it got stuck<br><br>
 We'll find the right option for you - Bank Card, Crypto, Mobile Money, or Bank Transfer, whatever works best.<br><br>
 Reply here or jump into live chat on PariPesa - we're on it.<br>
-<b>CTA:</b> Contact support →<br><br>
+<b>[ Contact Support ]</b></p>
 
-<b>Email 4</b><br>
-<b>Subject:</b> 🔄 Quick fix for your deposit<br>
-<b>Preheader:</b> One more try<br>
-<b>Body:</b> Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
+<h2>Email #4</h2>
+<p>Subject: 🔄 Quick fix for your deposit</p>
+<p>Preheader: One more try</p>
+<p>Body:<br>
+Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
 Your deposit still hasn't come through - let's get that sorted.<br><br>
 Good news: it usually takes just a few seconds to fix. Open the Cashier and pick:<br>
 • Bank Card for instant processing<br>
 • Crypto, Mobile Money, or Bank Transfer if the card didn't work<br><br>
 That's it. One switch and you're back.<br><br>
 Need a hand? Live chat or [SUPPORT_EMAIL] - we respond fast.<br>
-<b>CTA:</b> Complete deposit →<br><br>
+<b>[ Complete Deposit ]</b></p>
 
-<b>Email 5</b><br>
-<b>Subject:</b> RE: Need help with your deposit?<br>
-<b>Preheader:</b> We're here<br>
-<b>Body:</b> Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
+<h2>Email #5</h2>
+<p>Subject: RE: Need help with your deposit?</p>
+<p>Preheader: We're here</p>
+<p>Body:<br>
+Hi, {{customer.first_name | default:"there" | capitalize}}!<br>
 Your deposit still hasn't gone through. We don't want you stuck on this.<br><br>
 Tap below and try again. If the same method keeps failing, switch it up in the Cashier:<br>
 • Bank Card for card payments<br>
 • Crypto, Mobile Money, and Bank Transfer also work<br><br>
 Different method - usually goes right through.<br><br>
 Still stuck? Reply to this email or use live chat - we'll walk you through it.<br>
-<b>CTA:</b> Complete deposit →
+<b>[ Complete Deposit ]</b></p>
 
 </body>
 </html>
