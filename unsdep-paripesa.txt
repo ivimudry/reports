@@ -7,8 +7,8 @@ Hi, {{ customer.first_name | default:"there" | capitalize }}!
 Your recent deposit didn't complete. No worries - this is usually a quick fix.
 
 What to do:
-• Switch your card or try a different one
-• Go with Crypto, Mobile Money, or Bank Transfer in the Cashier
+• Try a different card - switch between Visa and Mastercard
+• Use Crypto, Google Pay, Apple Pay, or Bank Transfer - all available in your Cashier
 
 Most of the time, just picking another method works. Give it another shot - takes less than a minute.
 
@@ -27,9 +27,10 @@ Hi, {{ customer.first_name | default:"there" | capitalize }}!
 Your deposit is still pending. Let's fix that.
 
 You've got a few options in the Cashier:
-• Bank Card - quick and easy
+• Visa - quick and easy
+• Mastercard - widely accepted
 • Crypto - works worldwide
-• Mobile Money - right from your phone
+• Google Pay / Apple Pay - right from your device
 • Bank Transfer - simple and direct
 
 Just pick a different one and you should be good. If your bank put a hold on the funds, it usually clears on its own.
@@ -53,7 +54,7 @@ Tell us:
 • What error or message showed up
 • Where exactly it got stuck
 
-We'll find the right option for you - Bank Card, Crypto, Mobile Money, or Bank Transfer, whatever works best.
+We'll find the right option for you - whether that's Visa, Mastercard, Crypto, Google Pay, Apple Pay, or Bank Transfer.
 
 Reply here or jump into live chat on PariPesa - we're on it.
 
@@ -70,8 +71,8 @@ Hi, {{ customer.first_name | default:"there" | capitalize }}!
 Your deposit still hasn't come through - let's get that sorted.
 
 Good news: it usually takes just a few seconds to fix. Open the Cashier and pick:
-• Bank Card for instant processing
-• Crypto, Mobile Money, or Bank Transfer if the card didn't work
+• Visa or Mastercard for instant card processing
+• Crypto, Google Pay, Apple Pay, or Bank Transfer if the card didn't work
 
 That's it. One switch and you're back.
 
@@ -90,8 +91,8 @@ Hi, {{ customer.first_name | default:"there" | capitalize }}!
 Your deposit still hasn't gone through. We don't want you stuck on this.
 
 Tap below and try again. If the same method keeps failing, switch it up in the Cashier:
-• Bank Card for card payments
-• Crypto, Mobile Money, and Bank Transfer also work
+• Visa and Mastercard for card payments
+• Crypto, Google Pay, Apple Pay, and Bank Transfer also work
 
 Different method - usually goes right through.
 
