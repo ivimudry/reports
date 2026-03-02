@@ -30,9 +30,11 @@ WEBHOOK В Customer.io для відправки SMS через CM.com
 
 
 
-
+Дані які надсилає CM.com в Customer.io після відправки SMS (можна використовувати для перевірки або логування):
 {
     "phone": "27821234567",
     "message": "Test SMS from Customer.io via CM.com",
     "name": "Test User"
 }
+
+Саме ці дані обробляються в Customer.io 
