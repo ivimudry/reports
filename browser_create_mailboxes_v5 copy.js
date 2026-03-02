@@ -7,10 +7,10 @@
                "to": [                        // кому відправити
                    {
                        "number": "{{trigger.phone | remove: '+'}}"  
-                       // номер телефону з тригера, з видаленням "+" якщо є
+                       // номер телефону з тригера, з видаленням "+" якщо є, щоб формат відповідав вимогам CM.com
                    }
                ],
-               "minimumNumberOfMessageParts": 1,   // мінімум 1 частина SMS
+               "minimumNumberOfMessageParts": 1,   // мінімум 1 частина SMS (153)
                "maximumNumberOfMessageParts": 3,   // максимум 3 частини (якщо текст довгий)
                "body": {
                    "type": "auto",            // автоматичне визначення кодування (GSM або Unicode)
