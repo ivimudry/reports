@@ -4,15 +4,15 @@ Preheader: Let's get you back on track
 Body:
 Hi, {{ customer.first_name | default:"there" | capitalize }}!
 
-We noticed your recent deposit didn't complete — but don't worry, it happens and there's an easy fix.
+We noticed your recent deposit didn't complete - but don't worry, it happens and there's an easy fix.
 
 Here's what you can do right now:
-• Try a different bank card — sometimes simply switching cards does the trick
-• Use Crypto, Mobile Money, or Bank Transfer — all available in your Cashier
+• Try a different card - switching often does the trick
+• Use Crypto, Mobile Money, or Bank Transfer - all available in your Cashier
 
-Often, choosing an alternative payment method resolves the issue instantly. Head back to the Cashier and give it another go — your next big win could be just one deposit away.
+Often, simply switching your payment method does the trick. Head back to the Cashier and give it another go - your next big win could be just one deposit away.
 
-If you run into any issues, our support team is ready to help via live chat on paripesa.io or at [SUPPORT_EMAIL].
+If you run into any issues, our support team is ready to help via live chat on our website or at [SUPPORT_EMAIL].
 
 Best,
 The PariPesa Team
@@ -27,16 +27,16 @@ Hi, {{ customer.first_name | default:"there" | capitalize }}!
 It looks like your deposit still hasn't gone through. We want to make sure nothing stands between you and the action.
 
 Try one of these options in the Cashier:
-• Bank Card — fast and reliable
-• Crypto — secure and borderless
-• Mobile Money — quick from your device
-• Bank Transfer — straightforward and trusted
+• Bank Card - fast and reliable
+• Crypto - quick and secure
+• Mobile Money - seamless from your device
+• Bank Transfer - reliable and straightforward
 
-Most payment issues are resolved instantly by choosing an alternative method. We've made it easy to switch — just head to your Cashier.
+Most payment issues are resolved instantly by choosing an alternative method. We've made it easy to switch - just head to your Cashier.
 
 If your bank placed a temporary hold on the funds, it typically reverses automatically according to their policy.
 
-Need help? Reach out via live chat or email us at [SUPPORT_EMAIL] — we're here for you.
+Need help? Reach out via live chat or email us at [SUPPORT_EMAIL] - we're here for you.
 
 Best,
 The PariPesa Team
@@ -55,9 +55,9 @@ Just reply to this email and let us know:
 • What error or message you're seeing
 • At which step the process stops
 
-Our team will find the best alternative for you — whether that's a bank card, crypto, mobile money, or bank transfer. We'll make sure you're set up and ready to play.
+Our team will find the best alternative for you - whether that's a bank card, crypto, mobile money, or bank transfer. We'll make sure you're set up and ready to play.
 
-You can also reach us instantly via the live chat on paripesa.io
+You can also reach us instantly via the live chat on our website.
  or simply reply to this email :)
 
 Best,
@@ -70,15 +70,15 @@ Preheader: You're closer than you think
 Body:
 Hi, {{ customer.first_name | default:"there" | capitalize }}!
 
-We know your deposit hasn't gone through yet — and we don't want you to miss out on the action.
+We know your deposit hasn't gone through yet - and we don't want you to miss out on the action.
 
 Here's the good news: most payment issues are solved in seconds by simply switching your method. Head to the Cashier and try:
-• Bank Card for instant processing
+• Bank Card for instant card processing
 • Crypto, Mobile Money, or Bank Transfer as alternatives
 
 It only takes a moment, and you'll be back in the game right away.
 
-If anything blocks you, reach out via live chat or email [SUPPORT_EMAIL] — we'll get you sorted immediately.
+If anything blocks you, reach out via live chat or email [SUPPORT_EMAIL] - we'll get you sorted immediately.
 
 Best,
 The PariPesa Team
@@ -90,15 +90,15 @@ Preheader: We're standing by
 Body:
 Hi, {{ customer.first_name | default:"there" | capitalize }}!
 
-We noticed your deposit still hasn't been completed — and we want to make sure you're not missing out.
+We noticed your deposit still hasn't been completed - and we want to make sure you're not missing out.
 
-Tap below to try again — it only takes a moment. If the same method isn't working, switch it up in the Cashier:
+Tap below to try again - it only takes a moment. If the same method isn't working, switch it up in the Cashier:
 • Bank Card for card payments
 • Crypto, Mobile Money, and Bank Transfer are also available
 
 A different payment option often goes through right away.
 
-If you're still running into trouble, reply to this email or connect with us via live chat — our team will walk you through it step by step.
+If you're still running into trouble, reply to this email or connect with us via live chat - our team will walk you through it step by step.
 
 Best,
 The PariPesa Team
