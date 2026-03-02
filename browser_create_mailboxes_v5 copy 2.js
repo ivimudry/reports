@@ -1,4 +1,7 @@
-﻿{
+﻿
+WEBHOOK В Customer.io для відправки SMS через CM.com
+Приклад тіла запиту для відправки SMS через CM.com з використанням даних з тригера в Customer.io:
+{
    "messages": {
        "msg": [                          // масив повідомлень (можна кілька, але ми шлемо 1)
            {
@@ -20,4 +23,16 @@
            }
        ]
    }
+}
+
+
+
+
+
+
+
+{
+    "phone": "27821234567",
+    "message": "Test SMS from Customer.io via CM.com",
+    "name": "Test User"
 }
