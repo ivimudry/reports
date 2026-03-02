@@ -10,7 +10,7 @@
                        // номер телефону з тригера, з видаленням "+" якщо є, щоб формат відповідав вимогам CM.com
                    }
                ],
-               "minimumNumberOfMessageParts": 1,   // мінімум 1 частина SMS (153)
+               "minimumNumberOfMessageParts": 1,   // мінімум 1 частина SMS (153 символів для GSM (латиниця, цифри) або 70 для Unicode)
                "maximumNumberOfMessageParts": 3,   // максимум 3 частини (якщо текст довгий)
                "body": {
                    "type": "auto",            // автоматичне визначення кодування (GSM або Unicode)
