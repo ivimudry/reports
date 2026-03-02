@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="ru" style="scroll-behavior:smooth;">
+<head>
+<meta charset="UTF-8">
+<title>GNB Agency — Report: SMS Webhook via CM.com</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/gnb-favicon.svg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  * { box-sizing: border-box; }
+  body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; color: #e0e0e0; line-height: 1.65; background: #0C0C0C; }
+
+  /* ── Header ── */
+  .report-header { background: linear-gradient(135deg, #0C0C0C 0%, #1a1a1a 100%); padding: 48px 40px 40px; border-bottom: 3px solid #EAFF00; position: relative; }
+  .report-header .logo { height: 28px; margin-bottom: 24px; filter: brightness(1.1); }
+  .report-header h1 { font-size: 26px; font-weight: 700; color: #fff; margin: 0 0 8px 0; letter-spacing: -0.5px; }
+  .report-header .meta { color: #888; font-size: 13px; margin: 0; }
+  .report-header .meta span { color: #EAFF00; font-weight: 600; }
+
+  /* ── Language Switcher ── */
+  .lang-switcher { position: absolute; top: 20px; right: 40px; display: flex; gap: 6px; }
+  .lang-btn { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; color: #888; font-family: inherit; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+  .lang-btn:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .lang-btn.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
+  .lang-flag { font-size: 16px; line-height: 1; }
+
+  /* ── Content ── */
+  .content { padding: 0 40px 48px; }
+
+  h2 { color: #fff; margin-top: 40px; font-size: 18px; font-weight: 700; border-left: 4px solid #EAFF00; padding-left: 14px; letter-spacing: -0.3px; }
+  h3 { color: #ccc; font-size: 14px; font-weight: 600; margin-top: 20px; }
+
+  p { color: #b0b0b0; font-size: 14px; }
+  strong { color: #e0e0e0; }
+
+  /* ── Tables ── */
+  table { border-collapse: collapse; width: 100%; margin: 12px 0 24px 0; font-size: 13px; }
+  th { background: #1a1a1a; color: #EAFF00; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #EAFF00; }
+  td { border-bottom: 1px solid #222; padding: 8px 14px; vertical-align: top; color: #ccc; }
+  tr:hover { background: #141414; }
+
+  .old { color: #ff6b6b; }
+  .new { color: #51cf66; font-weight: 600; }
+  .cnt { text-align: center; font-weight: 700; font-size: 15px; color: #fff; }
+
+  /* ── Code ── */
+  code { background: #1a1a1a; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #ddd; word-break: break-all; font-family: 'Consolas', 'Monaco', monospace; }
+  pre { background: #111; border: 1px solid #2a2a2a; border-radius: 10px; padding: 20px 24px; margin: 14px 0 20px 0; overflow-x: auto; font-size: 12.5px; line-height: 1.75; color: #ddd; font-family: 'Consolas', 'Monaco', monospace; }
+  pre .comment { color: #6a6a6a; font-style: italic; }
+  pre .key { color: #EAFF00; }
+  pre .string { color: #51cf66; }
+  pre .number { color: #74c0fc; }
+  pre .bracket { color: #888; }
+  pre .liquid { color: #ff922b; font-weight: 600; }
+
+  /* ── Summary cards ── */
+  .summary-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .summary-card { background: #141414; border: 1px solid #222; border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
+  .summary-card:hover { border-color: #EAFF00; }
+  .summary-card h3 { margin: 0 0 4px 0; color: #fff; font-size: 14px; font-weight: 600; }
+  .summary-card .count { font-size: 28px; font-weight: 800; color: #EAFF00; letter-spacing: -1px; }
+  .summary-card .label { font-size: 12px; color: #888; margin-top: 2px; }
+
+  /* ── Flow diagram ── */
+  .flow-diagram { display: flex; align-items: center; justify-content: center; gap: 0; margin: 28px 0; flex-wrap: wrap; }
+  .flow-step { background: #141414; border: 1px solid #333; border-radius: 12px; padding: 16px 20px; text-align: center; min-width: 140px; transition: border-color 0.2s; }
+  .flow-step:hover { border-color: #EAFF00; }
+  .flow-step .step-icon { font-size: 28px; margin-bottom: 6px; }
+  .flow-step .step-name { font-size: 13px; font-weight: 700; color: #fff; }
+  .flow-step .step-detail { font-size: 11px; color: #888; margin-top: 3px; }
+  .flow-arrow { font-size: 22px; color: #EAFF00; padding: 0 10px; flex-shrink: 0; }
+
+  /* ── Callouts ── */
+  .note { background: #1a1700; border-left: 3px solid #EAFF00; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #b0b0b0; }
+  .note strong { color: #EAFF00; }
+  .warn { background: #1a1510; border-left: 3px solid #f0a030; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c0a878; }
+  .warn strong { color: #f0a030; }
+  .warn code { border-color: #443820; background: #1a1510; color: #ddc090; }
+  .error { background: #1a1010; border-left: 3px solid #ff6b6b; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c08080; }
+  .error strong { color: #ff6b6b; }
+  .error code { border-color: #442020; background: #1a1010; color: #dda0a0; }
+
+  /* ── Footer ── */
+  .report-footer { background: #0C0C0C; border-top: 1px solid #222; padding: 24px 40px; text-align: center; }
+  .report-footer .logo-sm { height: 18px; opacity: 0.85; margin-bottom: 8px; }
+  .report-footer p { font-size: 11px; color: #555; margin: 0; }
+
+  /* ── Bullets ── */
+  ul { padding-left: 20px; }
+  li { color: #b0b0b0; font-size: 14px; margin-bottom: 6px; }
+  li::marker { color: #EAFF00; }
+
+  /* ── Navigation bar ── */
+  .report-nav { position: sticky; top: 0; z-index: 100; background: rgba(17,17,17,0.92); border-bottom: 1px solid #222; padding: 10px 40px; display: flex; gap: 6px; backdrop-filter: blur(14px); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: #EAFF00 #1a1a1a; -webkit-overflow-scrolling: touch; }
+  .report-nav::before, .report-nav::after { content: ''; flex: 1 0 0px; }
+  .report-nav::-webkit-scrollbar { height: 5px; }
+  .report-nav::-webkit-scrollbar-track { background: #1a1a1a; border-radius: 3px; }
+  .report-nav::-webkit-scrollbar-thumb { background: #EAFF00; border-radius: 3px; }
+  .report-nav::-webkit-scrollbar-thumb:hover { background: #d4e000; }
+  .nav-link { background: transparent; border: 1px solid #333; border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 500; color: #888; text-decoration: none; cursor: pointer; transition: all 0.25s; font-family: inherit; white-space: nowrap; flex-shrink: 0; }
+  .nav-link:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .nav-link.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
+  .nav-num { font-weight: 700; margin-right: 4px; font-size: 11px; opacity: 0.7; }
+  .nav-link.active .nav-num { opacity: 1; }
+  .section-anchor { scroll-margin-top: 56px; }
+
+  /* ── Language visibility ── */
+  [data-lang] { display: none; }
+  [data-lang].active { display: block; }
+  table[data-lang].active { display: table; }
+  tr[data-lang].active { display: table-row; }
+  .summary-grid[data-lang].active { display: grid; }
+  .flow-diagram[data-lang].active { display: flex; }
+  div.warn[data-lang].active, div.note[data-lang].active, div.error[data-lang].active { display: block; }
+  span[data-lang].active { display: inline; }
+  pre[data-lang].active { display: block; }
+
+  /* ── Print ── */
+  @media print {
+    .lang-switcher { display: none; }
+    .report-nav { display: none; }
+    body { background: #fff; color: #222; }
+    .report-header { background: #fff; border-bottom-color: #222; }
+    .report-header h1 { color: #111; }
+    .report-header .meta { color: #666; }
+    .report-header .meta span { color: #111; }
+    .content { padding: 0 20px 20px; }
+    h2 { color: #111; border-left-color: #222; }
+    h3 { color: #333; }
+    p, li { color: #333; }
+    strong { color: #111; }
+    table { font-size: 11px; }
+    th { background: #111; color: #fff; border-bottom-color: #111; }
+    td { color: #333; border-bottom-color: #ddd; }
+    tr:hover { background: transparent; }
+    code { background: #f4f4f4; border-color: #ddd; color: #333; }
+    pre { background: #f4f4f4; border-color: #ddd; color: #333; }
+    .summary-card { background: #f9f9f9; border-color: #ddd; }
+    .summary-card:hover { border-color: #ddd; }
+    .summary-card h3 { color: #111; }
+    .summary-card .count { color: #111; }
+    .flow-step { background: #f9f9f9; border-color: #ddd; }
+    .flow-arrow { color: #333; }
+    .note { background: #fffbe6; border-left-color: #d4a800; color: #333; }
+    .note strong { color: #d4a800; }
+    .warn { background: #fff8ee; border-left-color: #d48800; color: #664400; }
+    .warn strong { color: #d48800; }
+    .warn code { background: #fff8ee; border-color: #eeddbb; color: #664400; }
+    .error { background: #fff0f0; border-left-color: #cc0000; color: #440000; }
+    .error strong { color: #cc0000; }
+    .report-footer { border-top-color: #ddd; }
+    .report-footer p { color: #999; }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <img class="logo" src="../../assets/gnb-logo.png" alt="GNB Agency">
+
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-set-lang="ru">RU</button>
+    <button class="lang-btn" data-set-lang="ua">UA</button>
+    <button class="lang-btn" data-set-lang="en">EN</button>
+  </div>
+
+  <!-- RU -->
+  <h1 data-lang="ru" class="active">SMS Webhook: Customer.io → CM.com</h1>
+  <p class="meta" data-lang="ru" class="active"><span>Ubuntu Quantum</span> &bull; <span>2 марта 2026</span> &bull; Настройка отправки SMS через вебхук Customer.io и CM.com API</p>
+
+  <!-- UA -->
+  <h1 data-lang="ua">SMS Webhook: Customer.io → CM.com</h1>
+  <p class="meta" data-lang="ua"><span>Ubuntu Quantum</span> &bull; <span>2 березня 2026</span> &bull; Налаштування відправки SMS через вебхук Customer.io та CM.com API</p>
+
+  <!-- EN -->
+  <h1 data-lang="en">SMS Webhook: Customer.io → CM.com</h1>
+  <p class="meta" data-lang="en"><span>Ubuntu Quantum</span> &bull; <span>March 2, 2026</span> &bull; SMS delivery setup via Customer.io webhook and CM.com API</p>
+</div>
+
+<nav class="report-nav">
+  <a class="nav-link active" href="#sec-1"><span class="nav-num">1.</span><span data-lang="ru" class="active">Обзор</span><span data-lang="ua">Огляд</span><span data-lang="en">Overview</span></a>
+  <a class="nav-link" href="#sec-2"><span class="nav-num">2.</span><span data-lang="ru" class="active">Архитектура</span><span data-lang="ua">Архітектура</span><span data-lang="en">Architecture</span></a>
+  <a class="nav-link" href="#sec-3"><span class="nav-num">3.</span><span data-lang="ru" class="active">Конфигурация</span><span data-lang="ua">Конфігурація</span><span data-lang="en">Configuration</span></a>
+  <a class="nav-link" href="#sec-4"><span class="nav-num">4.</span><span data-lang="ru" class="active">Тело запроса</span><span data-lang="ua">Тіло запиту</span><span data-lang="en">Request Body</span></a>
+  <a class="nav-link" href="#sec-5"><span class="nav-num">5.</span><span data-lang="ru" class="active">Триггер данные</span><span data-lang="ua">Тригер дані</span><span data-lang="en">Trigger Data</span></a>
+  <a class="nav-link" href="#sec-6"><span class="nav-num">6.</span><span data-lang="ru" class="active">SMS кодировка</span><span data-lang="ua">SMS кодування</span><span data-lang="en">SMS Encoding</span></a>
+  <a class="nav-link" href="#sec-7"><span class="nav-num">7.</span><span data-lang="ru" class="active">Статус</span><span data-lang="ua">Статус</span><span data-lang="en">Status</span></a>
+</nav>
+
+<div class="content">
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 1 — OVERVIEW                                       ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-1" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>1. Обзор</h2>
+<p>Для проекта <strong>Ubuntu Quantum</strong> настроена отправка SMS через вебхук в Customer.io с доставкой через SMS-провайдера <strong>CM.com</strong>. Customer.io не имеет нативной интеграции с CM.com, поэтому используется блок <strong>«Send and Receive Data»</strong> (webhook action) внутри кампании.</p>
+<p>Отправка SMS инициируется внешним HTTP-запросом на вебхук-URL кампании, после чего Customer.io формирует и отправляет запрос на CM.com API с данными из тригера.</p>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>1. Огляд</h2>
+<p>Для проєкту <strong>Ubuntu Quantum</strong> налаштовано відправку SMS через вебхук у Customer.io з доставкою через SMS-провайдера <strong>CM.com</strong>. Customer.io не має нативної інтеграції з CM.com, тому використовується блок <strong>«Send and Receive Data»</strong> (webhook action) всередині кампанії.</p>
+<p>Відправка SMS ініціюється зовнішнім HTTP-запитом на вебхук-URL кампанії, після чого Customer.io формує і надсилає запит на CM.com API з даними з тригера.</p>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>1. Overview</h2>
+<p>For the <strong>Ubuntu Quantum</strong> project, SMS sending has been configured via a webhook in Customer.io with delivery through SMS provider <strong>CM.com</strong>. Customer.io does not have a native CM.com integration, so the <strong>"Send and Receive Data"</strong> block (webhook action) is used inside a campaign.</p>
+<p>SMS sending is initiated by an external HTTP request to the campaign's webhook URL. Customer.io then constructs and sends a request to the CM.com API using data from the trigger.</p>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 2 — ARCHITECTURE                                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-2" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>2. Архитектура потока</h2>
+<p>Данные проходят через три этапа: внешний триггер → Customer.io → CM.com → SMS абоненту.</p>
+</div>
+<!-- UA -->
+<div data-lang="ua">
+<h2>2. Архітектура потоку</h2>
+<p>Дані проходять через три етапи: зовнішній тригер → Customer.io → CM.com → SMS абоненту.</p>
+</div>
+<!-- EN -->
+<div data-lang="en">
+<h2>2. Flow Architecture</h2>
+<p>Data flows through three stages: external trigger → Customer.io → CM.com → SMS to subscriber.</p>
+</div>
+
+<!-- Flow diagram (language-independent) -->
+<div class="flow-diagram" data-lang="ru" class="active">
+  <div class="flow-step">
+    <div class="step-icon">📡</div>
+    <div class="step-name">Внешний запрос</div>
+    <div class="step-detail">POST → webhook URL</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">⚙️</div>
+    <div class="step-name">Customer.io</div>
+    <div class="step-detail">Кампания (webhook-triggered)</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">📨</div>
+    <div class="step-name">CM.com API</div>
+    <div class="step-detail">POST /v1.0/message</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">📱</div>
+    <div class="step-name">Абонент</div>
+    <div class="step-detail">SMS доставлено</div>
+  </div>
+</div>
+
+<div class="flow-diagram" data-lang="ua">
+  <div class="flow-step">
+    <div class="step-icon">📡</div>
+    <div class="step-name">Зовнішній запит</div>
+    <div class="step-detail">POST → webhook URL</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">⚙️</div>
+    <div class="step-name">Customer.io</div>
+    <div class="step-detail">Кампанія (webhook-triggered)</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">📨</div>
+    <div class="step-name">CM.com API</div>
+    <div class="step-detail">POST /v1.0/message</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">📱</div>
+    <div class="step-name">Абонент</div>
+    <div class="step-detail">SMS доставлено</div>
+  </div>
+</div>
+
+<div class="flow-diagram" data-lang="en">
+  <div class="flow-step">
+    <div class="step-icon">📡</div>
+    <div class="step-name">External Request</div>
+    <div class="step-detail">POST → webhook URL</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">⚙️</div>
+    <div class="step-name">Customer.io</div>
+    <div class="step-detail">Campaign (webhook-triggered)</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">📨</div>
+    <div class="step-name">CM.com API</div>
+    <div class="step-detail">POST /v1.0/message</div>
+  </div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step">
+    <div class="step-icon">📱</div>
+    <div class="step-name">Subscriber</div>
+    <div class="step-detail">SMS delivered</div>
+  </div>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 3 — CONFIGURATION                                  ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-3" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>3. Конфигурация вебхука</h2>
+
+<h3>3.1 Customer.io — Триггер кампании</h3>
+<p>Кампания активируется через webhook-triggered endpoint:</p>
+<table>
+  <tr><th>Параметр</th><th>Значение</th></tr>
+  <tr><td>Workspace</td><td><code>169267</code> (Ubuntu Quantum)</td></tr>
+  <tr><td>Campaign ID</td><td><code>96</code></td></tr>
+  <tr><td>Region</td><td>EU (<code>api-eu.customer.io</code>)</td></tr>
+  <tr><td>Webhook URL</td><td><code>https://api-eu.customer.io/v1/webhook/0a085a6dc8e9ca57</code></td></tr>
+</table>
+
+<h3>3.2 Customer.io — «Send and Receive Data» блок</h3>
+<p>Внутри кампании настроен блок webhook-action, который отправляет запрос на CM.com:</p>
+<table>
+  <tr><th>Параметр</th><th>Значение</th></tr>
+  <tr><td>Method</td><td><code>POST</code></td></tr>
+  <tr><td>URL</td><td><code>https://gw.cmtelecom.com/v1.0/message</code></td></tr>
+  <tr><td>Header 1</td><td><code>Content-Type: application/json</code></td></tr>
+  <tr><td>Header 2</td><td><code>X-CM-PRODUCTTOKEN: [product token]</code></td></tr>
+</table>
+
+<div class="warn">
+  <strong>Важно:</strong> заголовок <code>X-CM-PRODUCTTOKEN</code> должен быть введён без пробелов и скрытых символов (включая табуляцию <code>\t</code>). При копировании из документации могут скопироваться невидимые символы — рекомендуется вводить имя заголовка вручную.
+</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>3. Конфігурація вебхука</h2>
+
+<h3>3.1 Customer.io — Тригер кампанії</h3>
+<p>Кампанія активується через webhook-triggered endpoint:</p>
+<table>
+  <tr><th>Параметр</th><th>Значення</th></tr>
+  <tr><td>Workspace</td><td><code>169267</code> (Ubuntu Quantum)</td></tr>
+  <tr><td>Campaign ID</td><td><code>96</code></td></tr>
+  <tr><td>Region</td><td>EU (<code>api-eu.customer.io</code>)</td></tr>
+  <tr><td>Webhook URL</td><td><code>https://api-eu.customer.io/v1/webhook/0a085a6dc8e9ca57</code></td></tr>
+</table>
+
+<h3>3.2 Customer.io — «Send and Receive Data» блок</h3>
+<p>Всередині кампанії налаштовано блок webhook-action, який надсилає запит на CM.com:</p>
+<table>
+  <tr><th>Параметр</th><th>Значення</th></tr>
+  <tr><td>Method</td><td><code>POST</code></td></tr>
+  <tr><td>URL</td><td><code>https://gw.cmtelecom.com/v1.0/message</code></td></tr>
+  <tr><td>Header 1</td><td><code>Content-Type: application/json</code></td></tr>
+  <tr><td>Header 2</td><td><code>X-CM-PRODUCTTOKEN: [product token]</code></td></tr>
+</table>
+
+<div class="warn">
+  <strong>Важливо:</strong> заголовок <code>X-CM-PRODUCTTOKEN</code> має бути введений без пробілів та прихованих символів (включаючи табуляцію <code>\t</code>). При копіюванні з документації можуть скопіюватися невидимі символи — рекомендується вводити ім'я заголовка вручну.
+</div>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>3. Webhook Configuration</h2>
+
+<h3>3.1 Customer.io — Campaign Trigger</h3>
+<p>The campaign is activated via a webhook-triggered endpoint:</p>
+<table>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Workspace</td><td><code>169267</code> (Ubuntu Quantum)</td></tr>
+  <tr><td>Campaign ID</td><td><code>96</code></td></tr>
+  <tr><td>Region</td><td>EU (<code>api-eu.customer.io</code>)</td></tr>
+  <tr><td>Webhook URL</td><td><code>https://api-eu.customer.io/v1/webhook/0a085a6dc8e9ca57</code></td></tr>
+</table>
+
+<h3>3.2 Customer.io — "Send and Receive Data" Block</h3>
+<p>Inside the campaign, a webhook-action block is configured to send a request to CM.com:</p>
+<table>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Method</td><td><code>POST</code></td></tr>
+  <tr><td>URL</td><td><code>https://gw.cmtelecom.com/v1.0/message</code></td></tr>
+  <tr><td>Header 1</td><td><code>Content-Type: application/json</code></td></tr>
+  <tr><td>Header 2</td><td><code>X-CM-PRODUCTTOKEN: [product token]</code></td></tr>
+</table>
+
+<div class="warn">
+  <strong>Important:</strong> the <code>X-CM-PRODUCTTOKEN</code> header must be entered without spaces or hidden characters (including tab <code>\t</code>). Copying from documentation may introduce invisible characters — it is recommended to type the header name manually.
+</div>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 4 — REQUEST BODY                                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-4" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>4. Тело запроса к CM.com</h2>
+<p>Ниже — JSON-тело, настроенное в блоке «Send and Receive Data» в Customer.io. Liquid-переменные <code>{{trigger.*}}</code> подставляются из данных тригера:</p>
+</div>
+<!-- UA -->
+<div data-lang="ua">
+<h2>4. Тіло запиту до CM.com</h2>
+<p>Нижче — JSON-тіло, налаштоване у блоці «Send and Receive Data» в Customer.io. Liquid-змінні <code>{{trigger.*}}</code> підставляються з даних тригера:</p>
+</div>
+<!-- EN -->
+<div data-lang="en">
+<h2>4. Request Body to CM.com</h2>
+<p>Below is the JSON body configured in the "Send and Receive Data" block in Customer.io. Liquid variables <code>{{trigger.*}}</code> are populated from trigger data:</p>
+</div>
+
+<pre>{
+  <span class="key">"messages"</span>: {
+    <span class="key">"msg"</span>: [
+      {
+        <span class="key">"allowedChannels"</span>: [<span class="string">"SMS"</span>],
+        <span class="key">"from"</span>: <span class="string">"PantherBet"</span>,
+        <span class="key">"to"</span>: [
+          {
+            <span class="key">"number"</span>: <span class="liquid">"{{trigger.phone | remove: '+'}}"</span>
+          }
+        ],
+        <span class="key">"minimumNumberOfMessageParts"</span>: <span class="number">1</span>,
+        <span class="key">"maximumNumberOfMessageParts"</span>: <span class="number">3</span>,
+        <span class="key">"body"</span>: {
+          <span class="key">"type"</span>: <span class="string">"auto"</span>,
+          <span class="key">"content"</span>: <span class="liquid">"{{trigger.message}}"</span>
+        },
+        <span class="key">"reference"</span>: <span class="liquid">"cio-{{trigger.phone}}"</span>
+      }
+    ]
+  }
+}</pre>
+
+<!-- RU field descriptions -->
+<div data-lang="ru" class="active">
+<h3>4.1 Описание полей</h3>
+<table>
+  <tr><th>Поле</th><th>Значение</th><th>Описание</th></tr>
+  <tr><td><code>allowedChannels</code></td><td><code>["SMS"]</code></td><td>Канал доставки — только SMS</td></tr>
+  <tr><td><code>from</code></td><td><code>"PantherBet"</code></td><td>Имя отправителя (что увидит получатель)</td></tr>
+  <tr><td><code>to[].number</code></td><td><code>{{trigger.phone | remove: '+'}}</code></td><td>Номер телефона из тригера, с удалением «+» для формата CM.com</td></tr>
+  <tr><td><code>minimumNumberOfMessageParts</code></td><td><code>1</code></td><td>Минимум 1 часть SMS</td></tr>
+  <tr><td><code>maximumNumberOfMessageParts</code></td><td><code>3</code></td><td>Максимум 3 части SMS</td></tr>
+  <tr><td><code>body.type</code></td><td><code>"auto"</code></td><td>Автоопределение кодировки (GSM или Unicode)</td></tr>
+  <tr><td><code>body.content</code></td><td><code>{{trigger.message}}</code></td><td>Текст SMS из тригера</td></tr>
+  <tr><td><code>reference</code></td><td><code>cio-{{trigger.phone}}</code></td><td>Уникальный ID для трекинга в CM.com</td></tr>
+</table>
+</div>
+
+<!-- UA field descriptions -->
+<div data-lang="ua">
+<h3>4.1 Опис полів</h3>
+<table>
+  <tr><th>Поле</th><th>Значення</th><th>Опис</th></tr>
+  <tr><td><code>allowedChannels</code></td><td><code>["SMS"]</code></td><td>Канал доставки — тільки SMS</td></tr>
+  <tr><td><code>from</code></td><td><code>"PantherBet"</code></td><td>Ім'я відправника (що побачить отримувач)</td></tr>
+  <tr><td><code>to[].number</code></td><td><code>{{trigger.phone | remove: '+'}}</code></td><td>Номер телефону з тригера, з видаленням «+» для формату CM.com</td></tr>
+  <tr><td><code>minimumNumberOfMessageParts</code></td><td><code>1</code></td><td>Мінімум 1 частина SMS</td></tr>
+  <tr><td><code>maximumNumberOfMessageParts</code></td><td><code>3</code></td><td>Максимум 3 частини SMS</td></tr>
+  <tr><td><code>body.type</code></td><td><code>"auto"</code></td><td>Автовизначення кодування (GSM або Unicode)</td></tr>
+  <tr><td><code>body.content</code></td><td><code>{{trigger.message}}</code></td><td>Текст SMS з тригера</td></tr>
+  <tr><td><code>reference</code></td><td><code>cio-{{trigger.phone}}</code></td><td>Унікальний ID для трекінгу в CM.com</td></tr>
+</table>
+</div>
+
+<!-- EN field descriptions -->
+<div data-lang="en">
+<h3>4.1 Field Descriptions</h3>
+<table>
+  <tr><th>Field</th><th>Value</th><th>Description</th></tr>
+  <tr><td><code>allowedChannels</code></td><td><code>["SMS"]</code></td><td>Delivery channel — SMS only</td></tr>
+  <tr><td><code>from</code></td><td><code>"PantherBet"</code></td><td>Sender name (visible to recipient)</td></tr>
+  <tr><td><code>to[].number</code></td><td><code>{{trigger.phone | remove: '+'}}</code></td><td>Phone number from trigger, with "+" removed for CM.com format</td></tr>
+  <tr><td><code>minimumNumberOfMessageParts</code></td><td><code>1</code></td><td>Minimum 1 SMS part</td></tr>
+  <tr><td><code>maximumNumberOfMessageParts</code></td><td><code>3</code></td><td>Maximum 3 SMS parts</td></tr>
+  <tr><td><code>body.type</code></td><td><code>"auto"</code></td><td>Auto-detect encoding (GSM or Unicode)</td></tr>
+  <tr><td><code>body.content</code></td><td><code>{{trigger.message}}</code></td><td>SMS text from trigger</td></tr>
+  <tr><td><code>reference</code></td><td><code>cio-{{trigger.phone}}</code></td><td>Unique ID for tracking in CM.com</td></tr>
+</table>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 5 — TRIGGER DATA                                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-5" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>5. Данные триггера</h2>
+<p>Для активации кампании необходимо отправить POST-запрос на webhook URL с JSON-телом следующей структуры:</p>
+</div>
+<!-- UA -->
+<div data-lang="ua">
+<h2>5. Дані тригера</h2>
+<p>Для активації кампанії необхідно надіслати POST-запит на webhook URL із JSON-тілом наступної структури:</p>
+</div>
+<!-- EN -->
+<div data-lang="en">
+<h2>5. Trigger Data</h2>
+<p>To activate the campaign, send a POST request to the webhook URL with a JSON body of the following structure:</p>
+</div>
+
+<pre>{
+  <span class="key">"phone"</span>: <span class="string">"27821234567"</span>,
+  <span class="key">"message"</span>: <span class="string">"Test SMS from Customer.io via CM.com"</span>,
+  <span class="key">"name"</span>: <span class="string">"Test User"</span>
+}</pre>
+
+<!-- RU trigger table -->
+<div data-lang="ru" class="active">
+<h3>5.1 Описание полей триггера</h3>
+<table>
+  <tr><th>Поле</th><th>Тип</th><th>Описание</th></tr>
+  <tr><td><code>phone</code></td><td>String</td><td>Номер телефона получателя в международном формате (без «+»). Доступен в Liquid как <code>{{trigger.phone}}</code></td></tr>
+  <tr><td><code>message</code></td><td>String</td><td>Текст SMS. Доступен как <code>{{trigger.message}}</code></td></tr>
+  <tr><td><code>name</code></td><td>String</td><td>Имя получателя (опционально, для логирования). Доступен как <code>{{trigger.name}}</code></td></tr>
+</table>
+
+<h3>5.2 Пример вызова (PowerShell)</h3>
+</div>
+
+<!-- UA trigger table -->
+<div data-lang="ua">
+<h3>5.1 Опис полів тригера</h3>
+<table>
+  <tr><th>Поле</th><th>Тип</th><th>Опис</th></tr>
+  <tr><td><code>phone</code></td><td>String</td><td>Номер телефону отримувача в міжнародному форматі (без «+»). Доступний у Liquid як <code>{{trigger.phone}}</code></td></tr>
+  <tr><td><code>message</code></td><td>String</td><td>Текст SMS. Доступний як <code>{{trigger.message}}</code></td></tr>
+  <tr><td><code>name</code></td><td>String</td><td>Ім'я отримувача (опціонально, для логування). Доступний як <code>{{trigger.name}}</code></td></tr>
+</table>
+
+<h3>5.2 Приклад виклику (PowerShell)</h3>
+</div>
+
+<!-- EN trigger table -->
+<div data-lang="en">
+<h3>5.1 Trigger Field Descriptions</h3>
+<table>
+  <tr><th>Field</th><th>Type</th><th>Description</th></tr>
+  <tr><td><code>phone</code></td><td>String</td><td>Recipient phone number in international format (without "+"). Available in Liquid as <code>{{trigger.phone}}</code></td></tr>
+  <tr><td><code>message</code></td><td>String</td><td>SMS text. Available as <code>{{trigger.message}}</code></td></tr>
+  <tr><td><code>name</code></td><td>String</td><td>Recipient name (optional, for logging). Available as <code>{{trigger.name}}</code></td></tr>
+</table>
+
+<h3>5.2 Example Call (PowerShell)</h3>
+</div>
+
+<pre>$headers = @{
+  <span class="key">"Authorization"</span> = <span class="string">"Bearer [SITE_ID]:[API_KEY]"</span>
+  <span class="key">"Content-Type"</span>  = <span class="string">"application/json"</span>
+}
+
+$body = <span class="string">'{
+  "phone": "27821234567",
+  "message": "Test SMS from Customer.io via CM.com",
+  "name": "Test User"
+}'</span>
+
+Invoke-RestMethod `
+  -Uri <span class="string">"https://api-eu.customer.io/v1/webhook/0a085a6dc8e9ca57"</span> `
+  -Method POST `
+  -Headers $headers `
+  -Body $body</pre>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 6 — SMS ENCODING                                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-6" class="section-anchor"></div>
+
+<!-- RU -->
+<h2 data-lang="ru" class="active">6. SMS кодировка и лимиты</h2>
+<!-- UA -->
+<h2 data-lang="ua">6. SMS кодування та ліміти</h2>
+<!-- EN -->
+<h2 data-lang="en">6. SMS Encoding &amp; Limits</h2>
+
+<!-- RU cards -->
+<div class="summary-grid" data-lang="ru">
+  <div class="summary-card">
+    <h3>GSM (латиница)</h3>
+    <div class="count">459</div>
+    <div class="label">макс. символов (3 части × 153)</div>
+  </div>
+  <div class="summary-card">
+    <h3>Unicode (кириллица)</h3>
+    <div class="count">201</div>
+    <div class="label">макс. символов (3 части × 67)</div>
+  </div>
+  <div class="summary-card">
+    <h3>Тип кодировки</h3>
+    <div class="count">Auto</div>
+    <div class="label">CM.com определяет автоматически</div>
+  </div>
+</div>
+
+<!-- UA cards -->
+<div class="summary-grid" data-lang="ua">
+  <div class="summary-card">
+    <h3>GSM (латиниця)</h3>
+    <div class="count">459</div>
+    <div class="label">макс. символів (3 частини × 153)</div>
+  </div>
+  <div class="summary-card">
+    <h3>Unicode (кирилиця)</h3>
+    <div class="count">201</div>
+    <div class="label">макс. символів (3 частини × 67)</div>
+  </div>
+  <div class="summary-card">
+    <h3>Тип кодування</h3>
+    <div class="count">Auto</div>
+    <div class="label">CM.com визначає автоматично</div>
+  </div>
+</div>
+
+<!-- EN cards -->
+<div class="summary-grid" data-lang="en">
+  <div class="summary-card">
+    <h3>GSM (Latin)</h3>
+    <div class="count">459</div>
+    <div class="label">max characters (3 parts × 153)</div>
+  </div>
+  <div class="summary-card">
+    <h3>Unicode (Cyrillic)</h3>
+    <div class="count">201</div>
+    <div class="label">max characters (3 parts × 67)</div>
+  </div>
+  <div class="summary-card">
+    <h3>Encoding Type</h3>
+    <div class="count">Auto</div>
+    <div class="label">CM.com auto-detects</div>
+  </div>
+</div>
+
+<!-- RU encoding table -->
+<div data-lang="ru" class="active">
+<h3>6.1 Детали кодировки</h3>
+<table>
+  <tr><th>Кодировка</th><th>1 часть</th><th>2 части</th><th>3 части</th><th>Символы</th></tr>
+  <tr><td>GSM 7-bit</td><td>160 символов</td><td>306 символов</td><td class="new">459 символов</td><td>Латиница, цифры, базовая пунктуация</td></tr>
+  <tr><td>Unicode (UCS-2)</td><td>70 символов</td><td>134 символа</td><td class="new">201 символ</td><td>Кириллица, ємодзї, CJK и другие</td></tr>
+</table>
+<div class="note">
+  <strong>Примечание:</strong> поскольку целевая аудитория Ubuntu Quantum — Африка, SMS будут на английском (латиница), поэтому используется кодировка GSM 7-bit с максимумом <strong>459 символов</strong> для 3 частей.
+</div>
+</div>
+
+<!-- UA encoding table -->
+<div data-lang="ua">
+<h3>6.1 Деталі кодування</h3>
+<table>
+  <tr><th>Кодування</th><th>1 частина</th><th>2 частини</th><th>3 частини</th><th>Символи</th></tr>
+  <tr><td>GSM 7-bit</td><td>160 символів</td><td>306 символів</td><td class="new">459 символів</td><td>Латиниця, цифри, базова пунктуація</td></tr>
+  <tr><td>Unicode (UCS-2)</td><td>70 символів</td><td>134 символи</td><td class="new">201 символ</td><td>Кирилиця, емодзі, CJK та інші</td></tr>
+</table>
+<div class="note">
+  <strong>Примітка:</strong> оскільки цільова аудиторія Ubuntu Quantum — Африка, SMS будуть англійською (латиниця), тому використовується кодування GSM 7-bit з максимумом <strong>459 символів</strong> для 3 частин.
+</div>
+</div>
+
+<!-- EN encoding table -->
+<div data-lang="en">
+<h3>6.1 Encoding Details</h3>
+<table>
+  <tr><th>Encoding</th><th>1 Part</th><th>2 Parts</th><th>3 Parts</th><th>Characters</th></tr>
+  <tr><td>GSM 7-bit</td><td>160 chars</td><td>306 chars</td><td class="new">459 chars</td><td>Latin, digits, basic punctuation</td></tr>
+  <tr><td>Unicode (UCS-2)</td><td>70 chars</td><td>134 chars</td><td class="new">201 chars</td><td>Cyrillic, emoji, CJK and others</td></tr>
+</table>
+<div class="note">
+  <strong>Note:</strong> since Ubuntu Quantum's target audience is Africa, SMS messages will be in English (Latin characters), so GSM 7-bit encoding is used with a maximum of <strong>459 characters</strong> for 3 parts.
+</div>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 7 — STATUS                                         ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-7" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>7. Текущий статус и замечания</h2>
+
+<h3>7.1 Что работает</h3>
+<table>
+  <tr><th>Проверка</th><th>Результат</th></tr>
+  <tr><td>API-вызов Customer.io → CM.com</td><td class="new">200 OK, «Accepted» ✓</td></tr>
+  <tr><td>Webhook trigger URL</td><td class="new">Работает ✓</td></tr>
+  <tr><td>Liquid-подстановка переменных</td><td class="new">Корректно ✓</td></tr>
+  <tr><td>JSON-формат запроса</td><td class="new">Валидный ✓</td></tr>
+</table>
+
+<h3>7.2 Известные ограничения</h3>
+<div class="error">
+  <strong>⚠ Маршрутизация:</strong> аккаунт CM.com «Ubuntu Quantum SMS» маршрутизируется через Южную Африку (тарификация в ZAR). Отправка SMS на номера за пределами Южной Африки возвращает ошибку <code>Operator network failure</code>. Необходимо связаться с менеджером CM.com для расширения маршрутизации на другие страны.
+</div>
+
+<div class="warn">
+  <strong>Safeguard (Destination Management):</strong> в CM.com Dashboard активна функция Destination Management, которая блокирует SMS в неразрешённые страны. Необходимо настроить Allow-list с нужными странами (Южная Африка и другие целевые рынки).
+</div>
+
+<div class="warn">
+  <strong>Sender Name:</strong> имя отправителя <code>PantherBet</code> используется в конфигурации, но не подтверждено, зарегистрировано ли оно как Sender ID в CM.com. Необходимо верифицировать в CM.com Dashboard.
+</div>
+
+<h3>7.3 Следующие шаги</h3>
+<ul>
+  <li><strong>Шаг 1:</strong> Связаться с менеджером CM.com для исправления маршрутизации (расширить географию доставки)</li>
+  <li><strong>Шаг 2:</strong> Настроить Destination Management (Allow-list) с целевыми странами</li>
+  <li><strong>Шаг 3:</strong> Верифицировать Sender Name «PantherBet» в CM.com</li>
+  <li><strong>Шаг 4:</strong> Провести тестовую отправку на реальный номер ЮАР</li>
+  <li><strong>Шаг 5:</strong> Активировать кампанию в Customer.io для боевой работы</li>
+</ul>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>7. Поточний статус та зауваження</h2>
+
+<h3>7.1 Що працює</h3>
+<table>
+  <tr><th>Перевірка</th><th>Результат</th></tr>
+  <tr><td>API-виклик Customer.io → CM.com</td><td class="new">200 OK, «Accepted» ✓</td></tr>
+  <tr><td>Webhook trigger URL</td><td class="new">Працює ✓</td></tr>
+  <tr><td>Liquid-підстановка змінних</td><td class="new">Коректно ✓</td></tr>
+  <tr><td>JSON-формат запиту</td><td class="new">Валідний ✓</td></tr>
+</table>
+
+<h3>7.2 Відомі обмеження</h3>
+<div class="error">
+  <strong>⚠ Маршрутизація:</strong> акаунт CM.com «Ubuntu Quantum SMS» маршрутизується через Південну Африку (тарифікація в ZAR). Відправка SMS на номери за межами Південної Африки повертає помилку <code>Operator network failure</code>. Необхідно зв'язатися з менеджером CM.com для розширення маршрутизації на інші країни.
+</div>
+
+<div class="warn">
+  <strong>Safeguard (Destination Management):</strong> у CM.com Dashboard активна функція Destination Management, яка блокує SMS у недозволені країни. Необхідно налаштувати Allow-list з потрібними країнами (Південна Африка та інші цільові ринки).
+</div>
+
+<div class="warn">
+  <strong>Sender Name:</strong> ім'я відправника <code>PantherBet</code> використовується в конфігурації, але не підтверджено, чи зареєстроване воно як Sender ID у CM.com. Необхідно верифікувати в CM.com Dashboard.
+</div>
+
+<h3>7.3 Наступні кроки</h3>
+<ul>
+  <li><strong>Крок 1:</strong> Зв'язатися з менеджером CM.com для виправлення маршрутизації (розширити географію доставки)</li>
+  <li><strong>Крок 2:</strong> Налаштувати Destination Management (Allow-list) з цільовими країнами</li>
+  <li><strong>Крок 3:</strong> Верифікувати Sender Name «PantherBet» у CM.com</li>
+  <li><strong>Крок 4:</strong> Провести тестову відправку на реальний номер ПАР</li>
+  <li><strong>Крок 5:</strong> Активувати кампанію в Customer.io для бойової роботи</li>
+</ul>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>7. Current Status &amp; Notes</h2>
+
+<h3>7.1 What Works</h3>
+<table>
+  <tr><th>Check</th><th>Result</th></tr>
+  <tr><td>API call Customer.io → CM.com</td><td class="new">200 OK, "Accepted" ✓</td></tr>
+  <tr><td>Webhook trigger URL</td><td class="new">Working ✓</td></tr>
+  <tr><td>Liquid variable substitution</td><td class="new">Correct ✓</td></tr>
+  <tr><td>JSON request format</td><td class="new">Valid ✓</td></tr>
+</table>
+
+<h3>7.2 Known Limitations</h3>
+<div class="error">
+  <strong>⚠ Routing:</strong> the CM.com account "Ubuntu Quantum SMS" routes through South Africa (ZAR pricing). Sending SMS to numbers outside South Africa returns an <code>Operator network failure</code> error. Contact the CM.com account manager to expand routing to additional countries.
+</div>
+
+<div class="warn">
+  <strong>Safeguard (Destination Management):</strong> the Destination Management feature in CM.com Dashboard is active and blocks SMS to disallowed countries. Configure the Allow-list with target countries (South Africa and other target markets).
+</div>
+
+<div class="warn">
+  <strong>Sender Name:</strong> the sender name <code>PantherBet</code> is used in the configuration, but it has not been confirmed whether it is registered as a Sender ID in CM.com. Verify in the CM.com Dashboard.
+</div>
+
+<h3>7.3 Next Steps</h3>
+<ul>
+  <li><strong>Step 1:</strong> Contact CM.com account manager to fix routing (expand delivery geography)</li>
+  <li><strong>Step 2:</strong> Configure Destination Management (Allow-list) with target countries</li>
+  <li><strong>Step 3:</strong> Verify Sender Name "PantherBet" in CM.com</li>
+  <li><strong>Step 4:</strong> Perform a test SMS send to a real South African number</li>
+  <li><strong>Step 5:</strong> Activate the campaign in Customer.io for production</li>
+</ul>
+</div>
+
+</div><!-- .content -->
+
+<div class="report-footer">
+  <img class="logo-sm" src="../../assets/gnb-logo.png" alt="GNB Agency">
+  <p>&copy; 2026 GNB Agency &bull; Retention &bull; Revenue &bull; Results</p>
+</div>
+
+<script>
+(function() {
+  const LANGS = ['ru', 'ua', 'en'];
+  const buttons = document.querySelectorAll('[data-set-lang]');
+  const elements = document.querySelectorAll('[data-lang]');
+
+  function setLang(lang) {
+    elements.forEach(el => {
+      if (el.getAttribute('data-lang') === lang) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
+    });
+    buttons.forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-set-lang') === lang);
+    });
+    document.documentElement.lang = lang === 'ua' ? 'uk' : lang;
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => setLang(btn.getAttribute('data-set-lang')));
+  });
+
+  // ── Scroll spy ──
+  const nav = document.querySelector('.report-nav');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const anchors = Array.from(document.querySelectorAll('.section-anchor'));
+
+  function scrollNavToActive(link) {
+    const navRect = nav.getBoundingClientRect();
+    const linkRect = link.getBoundingClientRect();
+    const pad = 60;
+    if (linkRect.right + pad > navRect.right) {
+      nav.scrollBy({ left: linkRect.right - navRect.right + pad, behavior: 'smooth' });
+    } else if (linkRect.left - pad < navRect.left) {
+      nav.scrollBy({ left: linkRect.left - navRect.left - pad, behavior: 'smooth' });
+    }
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      setTimeout(() => scrollNavToActive(link), 50);
+    });
+  });
+
+  function updateActiveNav() {
+    const atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 2);
+    let current = 0;
+    if (atBottom) {
+      current = anchors.length - 1;
+    } else {
+      const offset = 80;
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        if (anchors[i] && anchors[i].getBoundingClientRect().top <= offset) {
+          current = i;
+          break;
+        }
+      }
+    }
+    navLinks.forEach((link, idx) => {
+      link.classList.toggle('active', idx === current);
+    });
+    if (navLinks[current]) scrollNavToActive(navLinks[current]);
+  }
+
+  window.addEventListener('scroll', updateActiveNav, {passive: true});
+  updateActiveNav();
+
+  setLang('ru');
+})();
+</script>
+
+</body>
+</html>
