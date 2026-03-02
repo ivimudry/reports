@@ -65,9 +65,6 @@ Best,
 The PantherBet Team
 CTA: CONTACT SUPPORT
 
-SMS 3
-Body: Still having trouble depositing? Reply to us or use live chaReach our support team via tsupport@pantherbet.co.za - we'll help you get it sorted. {{ link }}
-
 EMAIL 4
 Subject: 🎯 Don't let a payment hiccup stop you
 Preheader: You're closer than you think
@@ -87,9 +84,6 @@ If anything blocks you, reach out via live chat or email support@pantherbet.co.z
 Best,
 The PantherBet Team
 CTA: COMPLETE DEPOSIT
-
-SMS 4
-Body: Don't let a payment hiccup stop you - switch your method in the Cashier and get back in the game! {{ link }}
 
 EMAIL 5
 Subject: RE: Still need help with your deposit?
