@@ -1,0 +1,106 @@
+EMAIL 1
+Subject: ⚡ Your deposit didn't go through
+Preheader: Let's get you back on track
+Body:
+Hi, {{ customer.first_name | default:"there" | capitalize }}!
+
+We noticed your recent deposit didn't complete - but don't worry, it happens and there's an easy fix.
+
+Here's what you can do right now:
+• Try a different card - switch between MasterCard and VISA
+• Use EasyPay, ApplePay, or Bank Transfer - all available in your Cashier
+
+Often, simply switching your payment method does the trick. Head back to the Cashier and give it another go - your next big win could be just one deposit away.
+
+If you run into any issues, our support team is ready to help via live chat on our website or at support@pantherbet.co.za.
+
+Best,
+The PantherBet Team
+CTA: COMPLETE DEPOSIT
+
+EMAIL 2
+Subject: 🔔 Your deposit is still pending
+Preheader: A quick switch could solve it
+Body:
+Hi, {{ customer.first_name | default:"there" | capitalize }}!
+
+It looks like your deposit still hasn't gone through. We want to make sure nothing stands between you and the action.
+
+Try one of these options in the Cashier:
+• MasterCard - fast and reliable
+• VISA - widely accepted
+• EasyPay - simple and secure
+• ApplePay - seamless from your device
+• Bank Transfer - reliable and straightforward
+
+Most payment issues are resolved instantly by choosing an alternative method. We've made it easy to switch - just head to your Cashier.
+
+If your bank placed a temporary hold on the funds, it typically reverses automatically according to their policy.
+
+Need help? Reach out via live chat or email us at support@pantherbet.co.za - we're here for you.
+
+Best,
+The PantherBet Team
+CTA: TRY ANOTHER METHOD
+
+EMAIL 3
+Subject: RE: Deposit not completing
+Preheader: We'd love to help you sort this out
+Body:
+Hi, {{ customer.first_name | default:"there" | capitalize }}!
+
+We see your deposit hasn't gone through yet, and we'd like to personally help you get it resolved.
+
+Just reply to this email and let us know:
+• Which payment method you tried
+• What error or message you're seeing
+• At which step the process stops
+
+Our team will find the best alternative for you - whether that's MasterCard, VISA, EasyPay, ApplePay, or Bank Transfer. We'll make sure you're set up and ready to play.
+
+You can also reach us instantly via the live chat on our website.
+ or simply reply to this email :) 
+
+Best,
+The PantherBet Team
+CTA: CONTACT SUPPORT
+
+EMAIL 4
+Subject: 🎯 Don't let a payment hiccup stop you
+Preheader: You're closer than you think
+Body:
+Hi, {{ customer.first_name | default:"there" | capitalize }}!
+
+We know your deposit hasn't gone through yet - and we don't want you to miss out on the action.
+
+Here's the good news: most payment issues are solved in seconds by simply switching your method. Head to the Cashier and try:
+• MasterCard or VISA for instant card processing
+• EasyPay, ApplePay, or Bank Transfer as alternatives
+
+It only takes a moment, and you'll be back in the game right away.
+
+If anything blocks you, reach out via live chat or email support@pantherbet.co.za - we'll get you sorted immediately.
+
+Best,
+The PantherBet Team
+CTA: COMPLETE DEPOSIT
+
+EMAIL 5
+Subject: RE: Still need help with your deposit?
+Preheader: We're standing by
+Body:
+Hi, {{ customer.first_name | default:"there" | capitalize }}!
+
+We noticed your deposit still hasn't been completed - and we want to make sure you're not missing out.
+
+Tap below to try again - it only takes a moment. If the same method isn't working, switch it up in the Cashier:
+• MasterCard and VISA for card payments
+• EasyPay, ApplePay, and Bank Transfer are also available
+
+A different payment option often goes through right away.
+
+If you're still running into trouble, reply to this email or connect with us via live chat - our team will walk you through it step by step.
+
+Best,
+The PantherBet Team
+CTA: COMPLETE DEPOSIT
