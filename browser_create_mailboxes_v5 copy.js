@@ -14,7 +14,7 @@
                "maximumNumberOfMessageParts": 3,   // максимум 3 частини (459 символів для GSM (латиниця, цифри) або 201 для Unicode (кирилиця, емодзі))
                "body": {
                    "type": "auto",            // автоматичне визначення кодування (GSM або Unicode)
-                   "content": "{{trigger.message}}"  // текст SMS з тригера
+                   "content": "{{trigger.message}}"  // текст SMS з тригера (те що надсилає CM.com)
                },
                "reference": "cio-{{trigger.phone}}"  // унікальний ID для трекінгу в CM.com
            }
