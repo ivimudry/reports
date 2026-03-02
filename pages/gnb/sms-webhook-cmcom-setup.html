@@ -343,9 +343,6 @@
   <tr><td>Header 2</td><td><code>X-CM-PRODUCTTOKEN: [product token]</code></td></tr>
 </table>
 
-<div class="warn">
-  <strong>Важно:</strong> заголовок <code>X-CM-PRODUCTTOKEN</code> должен быть введён без пробелов и скрытых символов (включая табуляцию <code>\t</code>). При копировании из документации могут скопироваться невидимые символы — рекомендуется вводить имя заголовка вручную.
-</div>
 </div>
 
 <!-- UA -->
@@ -372,9 +369,6 @@
   <tr><td>Header 2</td><td><code>X-CM-PRODUCTTOKEN: [product token]</code></td></tr>
 </table>
 
-<div class="warn">
-  <strong>Важливо:</strong> заголовок <code>X-CM-PRODUCTTOKEN</code> має бути введений без пробілів та прихованих символів (включаючи табуляцію <code>\t</code>). При копіюванні з документації можуть скопіюватися невидимі символи — рекомендується вводити ім'я заголовка вручну.
-</div>
 </div>
 
 <!-- EN -->
@@ -401,9 +395,6 @@
   <tr><td>Header 2</td><td><code>X-CM-PRODUCTTOKEN: [product token]</code></td></tr>
 </table>
 
-<div class="warn">
-  <strong>Important:</strong> the <code>X-CM-PRODUCTTOKEN</code> header must be entered without spaces or hidden characters (including tab <code>\t</code>). Copying from documentation may introduce invisible characters — it is recommended to type the header name manually.
-</div>
 </div>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
@@ -535,7 +526,6 @@
   <tr><td><code>name</code></td><td>String</td><td>Имя получателя (опционально, для логирования). Доступен как <code>{{trigger.name}}</code></td></tr>
 </table>
 
-<h3>5.2 Пример вызова (PowerShell)</h3>
 </div>
 
 <!-- UA trigger table -->
@@ -548,7 +538,6 @@
   <tr><td><code>name</code></td><td>String</td><td>Ім'я отримувача (опціонально, для логування). Доступний як <code>{{trigger.name}}</code></td></tr>
 </table>
 
-<h3>5.2 Приклад виклику (PowerShell)</h3>
 </div>
 
 <!-- EN trigger table -->
@@ -561,25 +550,9 @@
   <tr><td><code>name</code></td><td>String</td><td>Recipient name (optional, for logging). Available as <code>{{trigger.name}}</code></td></tr>
 </table>
 
-<h3>5.2 Example Call (PowerShell)</h3>
 </div>
 
-<pre>$headers = @{
-  <span class="key">"Authorization"</span> = <span class="string">"Bearer [SITE_ID]:[API_KEY]"</span>
-  <span class="key">"Content-Type"</span>  = <span class="string">"application/json"</span>
-}
 
-$body = <span class="string">'{
-  "phone": "27821234567",
-  "message": "Test SMS from Customer.io via CM.com",
-  "name": "Test User"
-}'</span>
-
-Invoke-RestMethod `
-  -Uri <span class="string">"https://api-eu.customer.io/v1/webhook/0a085a6dc8e9ca57"</span> `
-  -Method POST `
-  -Headers $headers `
-  -Body $body</pre>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
 <!-- ║  SECTION 6 — SMS ENCODING                                   ║ -->
@@ -708,26 +681,15 @@ Invoke-RestMethod `
 </table>
 
 <h3>7.2 Известные ограничения</h3>
-<div class="error">
-  <strong>⚠ Маршрутизация:</strong> аккаунт CM.com «Ubuntu Quantum SMS» маршрутизируется через Южную Африку (тарификация в ZAR). Отправка SMS на номера за пределами Южной Африки возвращает ошибку <code>Operator network failure</code>. Необходимо связаться с менеджером CM.com для расширения маршрутизации на другие страны.
-</div>
-
-<div class="warn">
-  <strong>Safeguard (Destination Management):</strong> в CM.com Dashboard активна функция Destination Management, которая блокирует SMS в неразрешённые страны. Необходимо настроить Allow-list с нужными странами (Южная Африка и другие целевые рынки).
+<div class="note">
+  <strong>Маршрутизация:</strong> аккаунт CM.com «Ubuntu Quantum SMS» маршрутизируется через Южную Африку (тарификация в ZAR). Целевая аудитория — Африка, поэтому маршрутизация настроена корректно. Для тестирования необходимо запросить реальные номера телефонов у клиента.
 </div>
 
 <div class="warn">
   <strong>Sender Name:</strong> имя отправителя <code>PantherBet</code> используется в конфигурации, но не подтверждено, зарегистрировано ли оно как Sender ID в CM.com. Необходимо верифицировать в CM.com Dashboard.
 </div>
 
-<h3>7.3 Следующие шаги</h3>
-<ul>
-  <li><strong>Шаг 1:</strong> Связаться с менеджером CM.com для исправления маршрутизации (расширить географию доставки)</li>
-  <li><strong>Шаг 2:</strong> Настроить Destination Management (Allow-list) с целевыми странами</li>
-  <li><strong>Шаг 3:</strong> Верифицировать Sender Name «PantherBet» в CM.com</li>
-  <li><strong>Шаг 4:</strong> Провести тестовую отправку на реальный номер ЮАР</li>
-  <li><strong>Шаг 5:</strong> Активировать кампанию в Customer.io для боевой работы</li>
-</ul>
+
 </div>
 
 <!-- UA -->
@@ -744,26 +706,15 @@ Invoke-RestMethod `
 </table>
 
 <h3>7.2 Відомі обмеження</h3>
-<div class="error">
-  <strong>⚠ Маршрутизація:</strong> акаунт CM.com «Ubuntu Quantum SMS» маршрутизується через Південну Африку (тарифікація в ZAR). Відправка SMS на номери за межами Південної Африки повертає помилку <code>Operator network failure</code>. Необхідно зв'язатися з менеджером CM.com для розширення маршрутизації на інші країни.
-</div>
-
-<div class="warn">
-  <strong>Safeguard (Destination Management):</strong> у CM.com Dashboard активна функція Destination Management, яка блокує SMS у недозволені країни. Необхідно налаштувати Allow-list з потрібними країнами (Південна Африка та інші цільові ринки).
+<div class="note">
+  <strong>Маршрутизація:</strong> акаунт CM.com «Ubuntu Quantum SMS» маршрутизується через Південну Африку (тарифікація в ZAR). Цільова аудиторія — Африка, тому маршрутизація налаштована коректно. Для тестування необхідно запросити реальні номери телефонів у клієнта.
 </div>
 
 <div class="warn">
   <strong>Sender Name:</strong> ім'я відправника <code>PantherBet</code> використовується в конфігурації, але не підтверджено, чи зареєстроване воно як Sender ID у CM.com. Необхідно верифікувати в CM.com Dashboard.
 </div>
 
-<h3>7.3 Наступні кроки</h3>
-<ul>
-  <li><strong>Крок 1:</strong> Зв'язатися з менеджером CM.com для виправлення маршрутизації (розширити географію доставки)</li>
-  <li><strong>Крок 2:</strong> Налаштувати Destination Management (Allow-list) з цільовими країнами</li>
-  <li><strong>Крок 3:</strong> Верифікувати Sender Name «PantherBet» у CM.com</li>
-  <li><strong>Крок 4:</strong> Провести тестову відправку на реальний номер ПАР</li>
-  <li><strong>Крок 5:</strong> Активувати кампанію в Customer.io для бойової роботи</li>
-</ul>
+
 </div>
 
 <!-- EN -->
@@ -780,26 +731,15 @@ Invoke-RestMethod `
 </table>
 
 <h3>7.2 Known Limitations</h3>
-<div class="error">
-  <strong>⚠ Routing:</strong> the CM.com account "Ubuntu Quantum SMS" routes through South Africa (ZAR pricing). Sending SMS to numbers outside South Africa returns an <code>Operator network failure</code> error. Contact the CM.com account manager to expand routing to additional countries.
-</div>
-
-<div class="warn">
-  <strong>Safeguard (Destination Management):</strong> the Destination Management feature in CM.com Dashboard is active and blocks SMS to disallowed countries. Configure the Allow-list with target countries (South Africa and other target markets).
+<div class="note">
+  <strong>Routing:</strong> the CM.com account "Ubuntu Quantum SMS" routes through South Africa (ZAR pricing). The target audience is Africa, so the routing is configured correctly. To test, request real phone numbers from the client.
 </div>
 
 <div class="warn">
   <strong>Sender Name:</strong> the sender name <code>PantherBet</code> is used in the configuration, but it has not been confirmed whether it is registered as a Sender ID in CM.com. Verify in the CM.com Dashboard.
 </div>
 
-<h3>7.3 Next Steps</h3>
-<ul>
-  <li><strong>Step 1:</strong> Contact CM.com account manager to fix routing (expand delivery geography)</li>
-  <li><strong>Step 2:</strong> Configure Destination Management (Allow-list) with target countries</li>
-  <li><strong>Step 3:</strong> Verify Sender Name "PantherBet" in CM.com</li>
-  <li><strong>Step 4:</strong> Perform a test SMS send to a real South African number</li>
-  <li><strong>Step 5:</strong> Activate the campaign in Customer.io for production</li>
-</ul>
+
 </div>
 
 </div><!-- .content -->
