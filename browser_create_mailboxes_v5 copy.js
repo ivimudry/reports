@@ -15,7 +15,7 @@
                     "type": "auto",
                     "content": "{{trigger.message}}"
                 },
-                "reference": "cio-{{trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_'}}"
+                "reference": "cio-{{trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_'}}-{{'now' | date: '%Y%m%d%H%M%S'}}"
             }
         ]
     }
