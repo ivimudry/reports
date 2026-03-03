@@ -3,7 +3,7 @@
         "msg": [
             {
                 "allowedChannels": ["SMS"],
-                "from": "PantherBet",
+                "from": "0000",
                 "to": [
                     {
                         "number": "{{trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_'}}"
