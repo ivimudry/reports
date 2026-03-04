@@ -496,27 +496,23 @@ span[data-lang].active{display:inline}
     <span data-lang="ru">7. Сводные ошибки и предупреждения</span>
   </h2>
   <p class="desc">
-    <span data-lang="en" class="active">27 issues across 4 campaigns. Nutrition #2 and #3 are clean.</span>
-    <span data-lang="ua">27 проблем у 4 кампаніях. Nutrition #2 та #3 чисті.</span>
-    <span data-lang="ru">27 проблем в 4 кампаниях. Nutrition #2 и #3 чистые.</span>
+    <span data-lang="en" class="active">7 issues across 2 campaigns. DEP, FTD, Nutrition #2 and #3 are clean.</span>
+    <span data-lang="ua">7 проблем у 2 кампаніях. DEP, FTD, Nutrition #2 та #3 чисті.</span>
+    <span data-lang="ru">7 проблем в 2 кампаниях. DEP, FTD, Nutrition #2 и #3 чистые.</span>
   </p>
 
   <!-- Category: Header ↔ Body Mismatch -->
-  <h3 style="color:#f14c4c;font-size:14px;margin:20px 0 10px">
+  <h3 style="color:#3fb950;font-size:14px;margin:20px 0 10px">
     <span class="ecat cat-m">MISMATCH</span>
-    <span data-lang="en" class="active"> Header ↔ Body Code Mismatch — 4 issues</span>
-    <span data-lang="ua"> Невідповідність хедер ↔ тіло — 4 проблеми</span>
-    <span data-lang="ru"> Несоответствие хедер ↔ тело — 4 проблемы</span>
+    <span data-lang="en" class="active"> Header ↔ Body Code Mismatch — 0 issues ✅</span>
+    <span data-lang="ua"> Невідповідність хедер ↔ тіло — 0 проблем ✅</span>
+    <span data-lang="ru"> Несоответствие хедер ↔ тело — 0 проблем ✅</span>
   </h3>
-  <table class="at">
-    <thead><tr><th>#</th><th><span data-lang="en" class="active">Campaign</span><span data-lang="ua">Кампанія</span><span data-lang="ru">Кампания</span></th><th>Email</th><th><span data-lang="en" class="active">Issue</span><span data-lang="ua">Проблема</span><span data-lang="ru">Проблема</span></th></tr></thead>
-    <tbody>
-<tr><td>1</td><td>DEP Retention</td><td class="eid">C3.1</td><td>Header has <span class="code">POWER140</span> but body has no class="promocode" element. Social proof email shouldn't have header code.</td></tr>
-<tr><td>2</td><td>DEP Retention</td><td class="eid">S3.1</td><td>Header has <span class="code">WIN20NRF</span> but body has no promo code. Social proof email with orphan header code.</td></tr>
-<tr><td>3</td><td>DEP Retention</td><td class="eid">S8.1</td><td>Header has <span class="code">WIN20NRF</span> but body has no promo code. Social proof email with orphan header code.</td></tr>
-<tr><td>4</td><td>SU Retention</td><td class="eid">7M</td><td>Body has both <span class="code">CHAOSCTRL80</span> + <span class="code">WIN20NRF</span> but header only contains CHAOSCTRL80. Missing WIN20NRF in data-promocode.</td></tr>
-    </tbody>
-  </table>
+  <p style="color:#888;font-size:12px;margin:0 0 16px">
+    <span data-lang="en" class="active">All header ↔ body mismatches have been resolved.</span>
+    <span data-lang="ua">Усі невідповідності хедер ↔ тіло виправлено.</span>
+    <span data-lang="ru">Все несоответствия хедер ↔ тело исправлены.</span>
+  </p>
 
   <!-- Category: Bonus Without Code -->
   <h3 style="color:#cca700;font-size:14px;margin:20px 0 10px">
@@ -554,30 +550,18 @@ span[data-lang].active{display:inline}
   </table>
 
   <!-- Category: Data Errors -->
-  <h3 style="color:#6cb6ff;font-size:14px;margin:20px 0 10px">
+  <h3 style="color:#3fb950;font-size:14px;margin:20px 0 10px">
     <span class="ecat cat-d">DATA</span>
-    <span data-lang="en" class="active"> Data File Errors — 1 issue</span>
-    <span data-lang="ua"> Помилки файлу даних — 1 проблема</span>
-    <span data-lang="ru"> Ошибки файла данных — 1 проблема</span>
+    <span data-lang="en" class="active"> Data File Errors — 0 issues ✅</span>
+    <span data-lang="ua"> Помилки файлу даних — 0 проблем ✅</span>
+    <span data-lang="ru"> Ошибки файла данных — 0 проблем ✅</span>
   </h3>
-  <table class="at">
-    <thead><tr><th>#</th><th><span data-lang="en" class="active">Campaign</span><span data-lang="ua">Кампанія</span><span data-lang="ru">Кампания</span></th><th>Email</th><th><span data-lang="en" class="active">Issue</span><span data-lang="ua">Проблема</span><span data-lang="ru">Проблема</span></th></tr></thead>
-    <tbody>
-<tr><td>1</td><td>Welcome Flow</td><td class="eid">1S</td><td>Duplicate entry — Email 1S appears twice in the data file with identical content.</td></tr>
-    </tbody>
-  </table>
+  <p style="color:#888;font-size:12px;margin:0 0 16px">
+    <span data-lang="en" class="active">All data file errors have been resolved (WF 1S duplicate removed).</span>
+    <span data-lang="ua">Усі помилки файлів даних виправлено (дублікат WF 1S видалено).</span>
+    <span data-lang="ru">Все ошибки файлов данных исправлены (дубликат WF 1S удалён).</span>
+  </p>
 
-  <!-- Note about intentional no-code -->
-  <div style="margin-top:20px;padding:16px;background:#1c1c1c;border:1px solid #2d2d2d;border-radius:8px;font-size:12px;color:#888">
-    <strong style="color:#aaa">
-      <span data-lang="en" class="active">ℹ️ Note:</span>
-      <span data-lang="ua">ℹ️ Примітка:</span>
-      <span data-lang="ru">ℹ️ Примечание:</span>
-    </strong>
-    <span data-lang="en" class="active">FTD Retention emails 3S and 6S explicitly state "No code. No hassle." / "no code needed" — these are intentionally code-free and are NOT flagged as issues.</span>
-    <span data-lang="ua">FTD Retention листи 3S та 6S явно вказують "No code. No hassle." / "no code needed" — це навмисно без коду і НЕ позначені як проблеми.</span>
-    <span data-lang="ru">FTD Retention письма 3S и 6S явно указывают "No code. No hassle." / "no code needed" — это намеренно без кода и НЕ отмечены как проблемы.</span>
-  </div>
 </div>
 
 </div><!-- /content -->
