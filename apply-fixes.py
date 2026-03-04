@@ -226,40 +226,29 @@ fix(SU,
     'Use code <strong class="promocode">FINTASTIC150</strong> and get a <strong>100% Bonus and 150 Free Spins on Razor Shark</strong>.',
     "SU CFS2 body: add FINTASTIC150")
 
-# S1 header: add EARNNRF15X (use unique preheader)
+# S1 header: add EARNNRF15X (use name as unique context — S10 has same preheader!)
 fix(SU,
-    "preheader: You\u2019ve joined \u2014 now make your move with 15% FreeBets on your first deposit\nheader_html_tag: dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"",
-    "preheader: You\u2019ve joined \u2014 now make your move with 15% FreeBets on your first deposit\nheader_html_tag: dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\" data-promocode=\"EARNNRF15X\"",
+    "name: Email 1S\nlocale: Default\nsubject: \U0001F3C6 15% NoRisk FreeBets: Your Safety Net is Ready\npreheader: You\u2019ve joined \u2014 now make your move with 15% FreeBets on your first deposit\nheader_html_tag: dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"",
+    "name: Email 1S\nlocale: Default\nsubject: \U0001F3C6 15% NoRisk FreeBets: Your Safety Net is Ready\npreheader: You\u2019ve joined \u2014 now make your move with 15% FreeBets on your first deposit\nheader_html_tag: dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\" data-promocode=\"EARNNRF15X\"",
     "SU S1: add EARNNRF15X to header")
 
-# S1 body: add EARNNRF15X
+# S1 body: add EARNNRF15X (unique — ends with 🤝, S10 ends with 🥊)
 fix(SU,
     "Make your first deposit and we\u2019ll back you with a <strong>15% NoRisk FreeBets Bonus</strong>. If it doesn\u2019t go your way, we\u2019ve got your back. \U0001F91D",
     "Make your first deposit with code <strong class=\"promocode\">EARNNRF15X</strong> and we\u2019ll back you with a <strong>15% NoRisk FreeBets Bonus</strong>. If it doesn\u2019t go your way, we\u2019ve got your back. \U0001F91D",
     "SU S1 body: add EARNNRF15X")
 
-# S10 header: add EARNNRF15X (use unique preheader)
+# S10 header: add EARNNRF15X (use name as unique context)
 fix(SU,
-    "preheader: You\u2019ve joined \u2014 now make your move with 15% FreeBets on your first deposit\nheader_html_tag: dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\" data-promocode=\"EARNNRF15X\"",
-    "",
-    "SU S10: SKIP — check manually")
+    "name: Email 10S\nlocale: Default\nsubject: \U0001F3C6 Still Waiting: 15% NoRisk FreeBets\npreheader: You\u2019ve joined \u2014 now make your move with 15% FreeBets on your first deposit\nheader_html_tag: dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\"",
+    "name: Email 10S\nlocale: Default\nsubject: \U0001F3C6 Still Waiting: 15% NoRisk FreeBets\npreheader: You\u2019ve joined \u2014 now make your move with 15% FreeBets on your first deposit\nheader_html_tag: dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" lang=\"en\" data-promocode=\"EARNNRF15X\"",
+    "SU S10: add EARNNRF15X to header")
 
-# Let me re-check S10 header...
-# S10 subject: 🏆 Still Waiting: 15% NoRisk FreeBets 
-# S10 preheader: You've joined — now make your move with 15% FreeBets on your first deposit
-
-# Wait - S1 and S10 have the SAME preheader! Let me use the name context instead.
-
-# Actually, let me fix this. After the S1 fix above, S1 now has EARNNRF15X. 
-# S10 still doesn't. S10 preheader is the same. Let me use the subject/name.
-
-# Actually I need to rethink S10. Let me check if S1 preheader is truly identical to S10.
-# S1 preheader: "You've joined — now make your move with 15% FreeBets on your first deposit"  
-# S10 preheader: "You've joined — now make your move with 15% FreeBets on your first deposit"
-# Yes, identical! After S1 fix, S1 already has data-promocode. S10 still has bare lang="en".
-# But the search string "preheader: You've joined...\nheader_html_tag:...lang="en"" will match S10 only (S1 already changed).
-# Actually wait - the S1 fix above should have already found exactly 1 match (S1), and now S10 
-# still has the bare header. Let me try to match S10:
+# S10 body: add EARNNRF15X (unique — ends with 🥊)
+fix(SU,
+    "Make your first deposit and we\u2019ll back you with a <strong>15% NoRisk FreeBets Bonus</strong>. If it doesn\u2019t go your way, we\u2019ve still got you covered. \U0001F94A",
+    "Make your first deposit with code <strong class=\"promocode\">EARNNRF15X</strong> and we\u2019ll back you with a <strong>15% NoRisk FreeBets Bonus</strong>. If it doesn\u2019t go your way, we\u2019ve still got you covered. \U0001F94A",
+    "SU S10 body: add EARNNRF15X")
 
 # M1 header: add FINTASTIC150, EARNNRF15X (use unique preheader)
 fix(SU,
