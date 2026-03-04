@@ -95,6 +95,58 @@ OUTLAW180	180% + 80 FS	Wanted Dead or a Wild by Hacksaw Gaming
 
 
 NUTRITION #2
+Promo Code	Offer	Game (if needed)
+UNDERDOG50	100% + 50 FS	Hand of Anubis by Hacksaw Gaming
+MEGAPAW65	100% + 65 FS	The Dog House Megaways by Pragmatic Play
+MAYHEM80	100% + 80 FS	Chaos Crew II by Hacksaw Gaming
+CANDYBLAST90	100% + 90 FS	Sweet Bonanza by Pragmatic Play
+OCCULT200	200% + 50 FS	Rich Wilde and the Tome of Madness by Play'n Go
+DORKSQUAD55	200% + 55 FS	Dork Unit by Hacksaw Gaming
+DEEPSEA60	200% + 60 FS	Razor Shark by Push Gaming
+MINER80	80 FS	Fire in the Hole xBomb DX1 by Nolimit City
+BULLET90	90 FS	Wanted Dead or a Wild by Hacksaw Gaming
+PHARAOH100	100 FS	Legacy of Dead by Play'n Go
+HEIST110	110 FS	Le Bandit by Hacksaw Gaming
+DINOREX120	120 FS	Dinopolis by Push Gaming
+CRYSTAL130	130 FS	Gems Bonanza by Pragmatic Play
+RISKLESS10	10% NoRisk FreeBet	
+WINZONE15	15% NoRisk FreeBet	
+CLEARSHOT20	20% NoRisk FreeBet	
+WINLOCK25	25% NoRisk FreeBet	
+MATCH100	100%	
+JUMPHIGH120	120%	
+RISEABOVE125	125%	
+EDGE130	130%	
+MAXED140	140%	
+ROCKET200	200%	
+BLAST210	210%	
+BOOSTED220	220%	
+STORM225	225%	
+FLASH230	230%	
+FULLPOWER250	250%	
+
 
 
 NUTRITION #3
+Promo Code	Offer	Game (if needed)
+VAULT150	150%	
+BLITZ160	160%	
+RISEUP170	170%	
+RAMP180	180%	
+SAFEPLAY10	10% NoRisk FreeBet	
+BACKBET15	15% NoRisk FreeBet	
+STEADY20	20% NoRisk FreeBet	
+NORETURN25	25% NoRisk FreeBet	
+BONBLAST80	100% + 80 FS	Sweet Bonanza by Pragmatic Play
+JUICYPARTY100	100% + 100 FS	Fruit Party by Pragmatic Play
+STACKED150	150% + 30 FS	Stack'EM by Hacksaw Gaming
+COWBOY170	170% + 30 FS	Wild West Gold by Pragmatic Play
+TOMB175	175% + 30 FS	Legacy of Dead by Play'n Go
+OCCULT200	200% + 50 FS	Rich Wilde and the Tome of Madness by Play'n Go
+KICKBACK2	2% CB	
+ROLLBACK3	3% CB	
+GRAB4CB	4% CB	
+PAWSPIN80	80 FS	The Dog House Megaways by Pragmatic Play
+ZEUS90	90 FS	Gates of Olympus 1000 by Pragmatic Play
+MUMMY100	100 FS	Hand of Anubis by Hacksaw Gaming
+SHARKBITE110	110 FS	Razor Shark by Push Gaming
