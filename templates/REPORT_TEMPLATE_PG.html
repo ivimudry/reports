@@ -178,7 +178,6 @@
   <a class="nav-link" href="#sec-4"><span class="nav-num">4.</span><span data-lang="ru" class="active">Детали</span><span data-lang="ua">Деталі</span><span data-lang="en">Details</span></a>
   <a class="nav-link" href="#sec-5"><span class="nav-num">5.</span><span data-lang="ru" class="active">Аномалия ID 2</span><span data-lang="ua">Аномалія ID 2</span><span data-lang="en">ID 2 Anomaly</span></a>
   <a class="nav-link" href="#sec-6"><span class="nav-num">6.</span><span data-lang="ru" class="active">Верификация</span><span data-lang="ua">Верифікація</span><span data-lang="en">Verification</span></a>
-  <a class="nav-link" href="#sec-7"><span class="nav-num">7.</span><span data-lang="ru" class="active">Метод</span><span data-lang="ua">Метод</span><span data-lang="en">Method</span></a>
 </nav>
 
 <div class="content">
@@ -667,50 +666,6 @@
 <!-- EN note -->
 <div class="note" data-lang="en">
   <strong>Conclusion:</strong> all deprecated <code>FromId: 3</code> entries were successfully replaced with <code>FromId: 5</code>. <code>FromId: 2</code> was absent from all files. No deprecated Sender IDs remain in the exported data.
-</div>
-
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 7 — METHOD                                         ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
-<div id="sec-7" class="section-anchor"></div>
-
-<!-- RU -->
-<div data-lang="ru" class="active">
-<h2>7. Метод исправления</h2>
-<p>Все исправления выполнены с помощью автоматизированных скриптов:</p>
-<ul>
-  <li><strong>Этап 1 — Поиск:</strong> <code>grep_search</code> по паттерну <code>FromId: 3</code> во всех *.txt файлах папки ХейХо → 48 совпадений в 3 файлах</li>
-  <li><strong>Этап 2 — Поиск:</strong> <code>grep_search</code> по паттерну <code>FromId: 2</code> во всех *.txt файлах → 0 совпадений</li>
-  <li><strong>Этап 3 — Замена:</strong> PowerShell-скрипт: чтение каждого файла → <code>[regex]::Replace($content, 'FromId: 3', 'FromId: 5')</code> → перезапись файла</li>
-  <li><strong>Этап 4 — Верификация:</strong> повторный <code>grep_search</code> по <code>FromId: 3</code> → 0 совпадений (подтверждение успеха)</li>
-  <li><strong>Этап 5 — Полный аудит:</strong> распечатка всех <code>FromId</code> во всех 21 файле для полной картины</li>
-</ul>
-</div>
-
-<!-- UA -->
-<div data-lang="ua">
-<h2>7. Метод виправлення</h2>
-<p>Усі виправлення виконано за допомогою автоматизованих скриптів:</p>
-<ul>
-  <li><strong>Етап 1 — Пошук:</strong> <code>grep_search</code> за патерном <code>FromId: 3</code> у всіх *.txt файлах папки ХейХо → 48 збігів у 3 файлах</li>
-  <li><strong>Етап 2 — Пошук:</strong> <code>grep_search</code> за патерном <code>FromId: 2</code> у всіх *.txt файлах → 0 збігів</li>
-  <li><strong>Етап 3 — Заміна:</strong> PowerShell-скрипт: читання кожного файлу → <code>[regex]::Replace($content, 'FromId: 3', 'FromId: 5')</code> → перезапис файлу</li>
-  <li><strong>Етап 4 — Верифікація:</strong> повторний <code>grep_search</code> за <code>FromId: 3</code> → 0 збігів (підтвердження успіху)</li>
-  <li><strong>Етап 5 — Повний аудит:</strong> виведення всіх <code>FromId</code> у всіх 21 файлі для повної картини</li>
-</ul>
-</div>
-
-<!-- EN -->
-<div data-lang="en">
-<h2>7. Fix Method</h2>
-<p>All fixes were applied using automated scripts:</p>
-<ul>
-  <li><strong>Step 1 — Search:</strong> <code>grep_search</code> for pattern <code>FromId: 3</code> across all *.txt files in ХейХо folder → 48 matches in 3 files</li>
-  <li><strong>Step 2 — Search:</strong> <code>grep_search</code> for pattern <code>FromId: 2</code> across all *.txt files → 0 matches</li>
-  <li><strong>Step 3 — Replace:</strong> PowerShell script: read each file → <code>[regex]::Replace($content, 'FromId: 3', 'FromId: 5')</code> → write file back</li>
-  <li><strong>Step 4 — Verification:</strong> repeat <code>grep_search</code> for <code>FromId: 3</code> → 0 matches (success confirmed)</li>
-  <li><strong>Step 5 — Full audit:</strong> listing all <code>FromId</code> values across all 21 files for complete overview</li>
-</ul>
 </div>
 
 </div><!-- .content -->

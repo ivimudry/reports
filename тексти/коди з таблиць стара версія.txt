@@ -1,7 +1,7 @@
 WELCOME FLOW
 Promo Code	Offer	Game (if needed)
-"BANDIT150
-RIP100CITY
+BANDIT150  100% + 150 FS
+RIP100CITY 	100% + 150 FS
 CREW150"	100% + 150 FS	"Le bandit by Hacksaw Gaming
 Rip City by Hacksaw Gaming
 Chaos Crew II by Hacksaw Gaming"
