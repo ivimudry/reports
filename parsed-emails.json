@@ -1,0 +1,50 @@
+﻿[
+    {
+        "campaign":  "FTD Retention Flow",
+        "file":  "FTD Retention Flow - Table data.txt",
+        "email_count":  0,
+        "emails":  [
+
+                   ]
+    },
+    {
+        "campaign":  "Welcome Flow",
+        "file":  "Welcome Flow - Table data.txt",
+        "email_count":  0,
+        "emails":  [
+
+                   ]
+    },
+    {
+        "campaign":  "DEP Retention",
+        "file":  "DEP Retention - Table data.txt",
+        "email_count":  0,
+        "emails":  [
+
+                   ]
+    },
+    {
+        "campaign":  "SU Retention",
+        "file":  "SU Retention - Table data.txt",
+        "email_count":  0,
+        "emails":  [
+
+                   ]
+    },
+    {
+        "campaign":  "Nutrition #2",
+        "file":  "Nutrition #2 - Table data.txt",
+        "email_count":  0,
+        "emails":  [
+
+                   ]
+    },
+    {
+        "campaign":  "Nutrition #3",
+        "file":  "Nutrition #3 - Table data.txt",
+        "email_count":  0,
+        "emails":  [
+
+                   ]
+    }
+]
