@@ -160,20 +160,20 @@
 </div>
 
 <div class="summary-grid" data-lang="en" class="active">
-  <div class="summary-card"><h3>Total Emails</h3><div class="count">152</div><div class="label">Across 6 campaigns</div></div>
-  <div class="summary-card"><h3>With Bonus</h3><div class="count">118</div><div class="label">Emails containing bonus offers</div></div>
+  <div class="summary-card"><h3>Total Emails</h3><div class="count">159</div><div class="label">Across 6 campaigns</div></div>
+  <div class="summary-card"><h3>With Bonus</h3><div class="count">122</div><div class="label">Emails containing bonus offers</div></div>
   <div class="summary-card warn-card"><h3>Bonus, No Code</h3><div class="count">30</div><div class="label">Bonus present but promo code missing</div></div>
   <div class="summary-card err-card"><h3>Format Issues</h3><div class="count">3</div><div class="label">HTML/header formatting errors</div></div>
 </div>
 <div class="summary-grid" data-lang="ua">
-  <div class="summary-card"><h3>Усього листів</h3><div class="count">152</div><div class="label">У 6 кампаніях</div></div>
-  <div class="summary-card"><h3>З бонусом</h3><div class="count">118</div><div class="label">Листи з бонусними пропозиціями</div></div>
+  <div class="summary-card"><h3>Усього листів</h3><div class="count">159</div><div class="label">У 6 кампаніях</div></div>
+  <div class="summary-card"><h3>З бонусом</h3><div class="count">122</div><div class="label">Листи з бонусними пропозиціями</div></div>
   <div class="summary-card warn-card"><h3>Бонус без коду</h3><div class="count">30</div><div class="label">Бонус є, але промокод відсутній</div></div>
   <div class="summary-card err-card"><h3>Помилки формату</h3><div class="count">3</div><div class="label">Помилки HTML/хедера</div></div>
 </div>
 <div class="summary-grid" data-lang="ru">
-  <div class="summary-card"><h3>Всего писем</h3><div class="count">152</div><div class="label">В 6 кампаниях</div></div>
-  <div class="summary-card"><h3>С бонусом</h3><div class="count">118</div><div class="label">Письма с бонусными предложениями</div></div>
+  <div class="summary-card"><h3>Всего писем</h3><div class="count">159</div><div class="label">В 6 кампаниях</div></div>
+  <div class="summary-card"><h3>С бонусом</h3><div class="count">122</div><div class="label">Письма с бонусными предложениями</div></div>
   <div class="summary-card warn-card"><h3>Бонус без кода</h3><div class="count">30</div><div class="label">Бонус есть, но промокод отсутствует</div></div>
   <div class="summary-card err-card"><h3>Ошибки формата</h3><div class="count">3</div><div class="label">Ошибки HTML/заголовка</div></div>
 </div>
@@ -216,44 +216,46 @@
 <div id="sec-3" class="section-anchor"></div>
 
 <div data-lang="en" class="active">
-<h2>3. DEP Retention <span class="campaign-badge">18 emails</span></h2>
-<p>All 18 emails have bonuses. All have <code>promocode_button</code> (expected). Most have proper promo codes.</p>
+<h2>3. DEP Retention <span class="campaign-badge">20 emails</span></h2>
+<p>10 Casino + 10 Sport emails. 16 bonus emails with promo codes + <code>promocode_button</code> (expected). 4 social proof emails (winners lists).</p>
 
-<div class="note"><strong>Status:</strong> 14/18 emails fully correct. 4 social proof-style emails have bonus in header but promo code missing or incomplete in body.</div>
+<div class="note"><strong>Status:</strong> 16/20 emails fully correct. 4 social proof emails have header/body inconsistencies.</div>
 
 <table>
   <tr><th>Email</th><th>Bonus</th><th>Promo Code</th><th>Body class="promocode"</th><th>Header data-promocode</th><th>Status</th></tr>
-  <tr><td>C1.1</td><td>100% + 50 FS</td><td>SURGE170</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>C2.1</td><td>150% + 50 FS</td><td>CREWBOOST150</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>C3.1</td><td>Social proof + bonus</td><td>POWER140</td><td class="err">MISSING in body</td><td class="ok">OK</td><td class="err">FAIL</td></tr>
-  <tr><td>C4.1</td><td>140% + 50 FS</td><td>POWER140</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>C5.1</td><td>160% + 50 FS</td><td>GUNSLINGER160</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>C6.1</td><td>Social proof + bonus</td><td>—</td><td class="err">MISSING</td><td class="err">MISSING</td><td class="err">FAIL</td></tr>
-  <tr><td>C7.1</td><td>170% + 50 FS</td><td>BOOSTER170</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>C8.1</td><td>180% + 50 FS</td><td>OUTLAW180</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>C9.1</td><td>100% + 50 FS</td><td>GIANTPANDA100</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>C10.1</td><td>200% + 50 FS</td><td>GEMHUNT200</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>C1.1</td><td>170% Bonus</td><td>SURGE170</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>C2.1</td><td>150% + 70 FS</td><td>CREWBOOST150</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>C3.1</td><td class="social">Social proof (winners)</td><td>—</td><td class="err">No code in body</td><td class="warn-text">POWER140 (inconsistent)</td><td class="err">FAIL</td></tr>
+  <tr><td>C4.1</td><td>160% + 80 FS</td><td>GUNSLINGER160</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>C5.1</td><td>170% Bonus</td><td>BOOSTER170</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>C6.1</td><td class="social">Social proof (winners)</td><td>—</td><td class="social">N/A</td><td class="social">N/A</td><td class="ok">OK (no bonus)</td></tr>
+  <tr><td>C7.1</td><td>160% + 80 FS</td><td>GUNSLINGER160</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>C8.1</td><td>180% + 80 FS</td><td>OUTLAW180</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>C9.1</td><td>140% + 100 FS</td><td>GIANTPANDA100</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>C10.1</td><td>200 Free Spins</td><td>GEMHUNT200</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
   <tr><td>S1.1</td><td>20% NoRisk FreeBet</td><td>WINSAFE20</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>S2.1</td><td>170% bonus</td><td>SURGE170</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>S3.1</td><td>Social proof</td><td>WIN20NRF</td><td class="err">MISSING in body</td><td class="ok">OK</td><td class="err">FAIL</td></tr>
-  <tr><td>S4.1</td><td>170% bonus</td><td>BOOSTER170</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>S5.1</td><td>30% NoRisk FreeBet</td><td>ONLYSAFE30</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>S6.1</td><td>20% NoRisk FreeBet</td><td>WIN20NRF</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>S7.1</td><td>20% NoRisk FreeBet</td><td>WIN20NRF</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
-  <tr><td>S8.1</td><td>Social proof</td><td>WIN20NRF</td><td class="err">MISSING in body</td><td class="ok">OK</td><td class="err">FAIL</td></tr>
+  <tr><td>S2.1</td><td>20% NoRisk FreeBet</td><td>WINSAFE20</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>S3.1</td><td class="social">Social proof (winners)</td><td>—</td><td class="err">No code in body</td><td class="warn-text">WIN20NRF (inconsistent)</td><td class="err">FAIL</td></tr>
+  <tr><td>S4.1</td><td>170% Bonus</td><td>SURGE170</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>S5.1</td><td>20% NoRisk FreeBet</td><td>WINSAFE20</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>S6.1</td><td>170% Bonus</td><td>BOOSTER170</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>S7.1</td><td>20% NoRisk FreeBet</td><td>WINSAFE20</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>S8.1</td><td class="social">Social proof (winners)</td><td>—</td><td class="err">No code in body</td><td class="warn-text">WIN20NRF (inconsistent)</td><td class="err">FAIL</td></tr>
+  <tr><td>S9.1</td><td>30% NoRisk FreeBet</td><td>ONLYSAFE30</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
+  <tr><td>S10.1</td><td>30% NoRisk FreeBet</td><td>ONLYSAFE30</td><td class="ok">OK</td><td class="ok">OK</td><td class="ok">PASS</td></tr>
 </table>
 </div>
 
 <div data-lang="ua">
-<h2>3. DEP Retention <span class="campaign-badge">18 листів</span></h2>
-<p>Всі 18 листів мають бонуси. Всі мають <code>promocode_button</code> (очікувано). Більшість мають правильні промокоди.</p>
-<div class="note"><strong>Статус:</strong> 14/18 листів повністю коректні. 4 листи типу social proof мають бонус у хедері, але промокод відсутній в тілі.</div>
+<h2>3. DEP Retention <span class="campaign-badge">20 листів</span></h2>
+<p>10 Casino + 10 Sport. 16 бонусних листів із промокодами + <code>promocode_button</code>. 4 social proof листи (списки переможців).</p>
+<div class="note"><strong>Статус:</strong> 16/20 листів повністю коректні. 4 social proof листи мають невідповідності хедер/тіло.</div>
 </div>
 
 <div data-lang="ru">
-<h2>3. DEP Retention <span class="campaign-badge">18 писем</span></h2>
-<p>Все 18 писем имеют бонусы. Все имеют <code>promocode_button</code> (ожидаемо). Большинство имеют правильные промокоды.</p>
-<div class="note"><strong>Статус:</strong> 14/18 писем полностью корректны. 4 письма типа social proof имеют бонус в заголовке, но промокод отсутствует в теле.</div>
+<h2>3. DEP Retention <span class="campaign-badge">20 писем</span></h2>
+<p>10 Casino + 10 Sport. 16 бонусных писем с промокодами + <code>promocode_button</code>. 4 social proof письма (списки победителей).</p>
+<div class="note"><strong>Статус:</strong> 16/20 писем полностью корректны. 4 social proof письма имеют несоответствия заголовок/тело.</div>
 </div>
 
 <!-- ══════════════════ SECTION 4 — FTD RETENTION ══════════════════ -->
