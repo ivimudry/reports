@@ -15,6 +15,47 @@ GUARANTEE25	25% NoRisk Free Bets
 BETSAFE20	20% NoRisk Freebets	
 
 FTD RETENTION
+Promo Code	Offer	Game (if needed)
+ANUBIS10050	100% + 50 FS	Hand of Anubis by Hacksaw Gaming
+DOG10060	100% + 60 FS	The Dog House Megaways by Pragmatic Play
+CHAOS10070	100% + 70 FS	Chaos Crew II by Hacksaw Gaming
+BONANZA10080	100% + 80 FS	Sweet Bonanza by Pragmatic Play
+RICH100150	100% + 150 FS	Rich Wilde and the Tome of Madness by Play'n Go
+DORK50110	110% + 50 FS	Dork Unit by Hacksaw Gaming
+RAZOR70110	110% + 70 FS	Razor Shark by Push Gaming
+FIRE60120	120% + 60 FS	Fire in the Hole xBomb DX1 by Nolimit City
+WILD13040	130% + 40 FS	Wanted Dead or a Wild by Hacksaw Gaming
+LODEAD130	130% + 50 FS	Legacy of Dead by Play'n Go
+LEBAND65130	130% + 65 FS	Le Bandit by Hacksaw Gaming
+DINO13070	130% + 70 FS	Dinopolis by Push Gaming
+GEMS13565	135% + 65 FS	Gems Bonanza by Pragmatic Play
+CHAOS140	140% + 30 FS	Chaos Crew by Hacksaw Gaming
+PARTY140	140% + 50 FS	Fruit Party by Pragmatic Play
+STACK90140	140% + 90 FS	Stack'EM by Hacksaw Gaming
+30GOLD145	145% + 30 FS	Wild West Gold by Pragmatic Play
+BAMBOO145	145% + 50 FS	Big Bamboo by Push Gaming
+RUSH90145	145% + 90 FS	Sugar Rush 1000 by Pragmatic Play
+FORGED150	150% + 30 FS	Stormforged by Hacksaw Gaming
+OLYMPUS150	150% + 70 FS	Gates of Olympus 1000 by Pragmatic Play
+STONE155	155% + 30 FS	Tombstone by Nolimit City
+BEAST160	160% + 30 FS	Beast Mode by Relax Gaming
+POWER150	150%	
+RISE155	155%	
+CLIMB160	160%	
+BOOST165	165%	
+SAFE2CB2	2% CB	
+RETURN3CB3	3% CB	
+BOOST4CB4	4% CB	
+BASSSPLASH100	100 FS	Big Bass Splash by Pragmatic Play
+PLINKOPINE110	110 FS	PINE OF PLINKO 2 by Relax Gaming
+MUSMYSTERY120	120 FS	Mystery Museum by Push Gaming
+STARLIGHT125	125 FS	Starlight Princess by Pragmatic Play
+WINBACKNRF20	20% NRF	
+SAFETYNRF25	25% NRF	
+COVERNRF30	30% NRF	
+ONLYWIN30	30% No Risk Only Win	
+
+
 
 
 DEP RETENTION
