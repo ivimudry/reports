@@ -9,7 +9,7 @@ fail = 0
 def fix(filepath, old, new, label):
     global ok, fail
     path = os.path.join(ROOT, filepath) if not os.path.isabs(filepath) else filepath
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8", newline='') as f:
         content = f.read()
     count = content.count(old)
     if count == 0:
@@ -19,7 +19,7 @@ def fix(filepath, old, new, label):
     if count > 1:
         print(f"  [WARN] {label} — {count} matches, replacing all")
     content = content.replace(old, new)
-    with open(path, "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8", newline='') as f:
         f.write(content)
     print(f"  [OK] {label} ({count} match)")
     ok += 1

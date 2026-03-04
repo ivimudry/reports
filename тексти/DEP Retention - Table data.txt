@@ -178,7 +178,7 @@ name: Email C3.1
 locale: Default
 subject: 🎡 Escape to the Wins: Last Week's Top Hits
 preheader: Leave the world behind and step into the winner's circle
-header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="POWER140"
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"
 text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, ready to change the vibe?</strong></h2></td>
 text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Sometimes you don't need more noise — you need a better rush. At <strong>Celsius Casino</strong>, top players cashed out big last week:<br><br><strong>🏆 Lu••••7 – €52,300<br>🏆 S•••••n – €35,900<br>🏆 Bi•••••t – €19,400</strong><br><br>The tables are calling and the slots are ready.<br>Switch off the stress and switch on the thrill at <strong>Celsius Casino</strong> — your seat is waiting.</p></td>
 button_text_1: START YOUR ESCAPE TODAY
@@ -196,7 +196,7 @@ name: Email S3.1
 locale: Default
 subject: 🏆 Weekly Winners: They Made the Right Call
 preheader: See who dominated the lines this week at Celsius Sport
-header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WIN20NRF"
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"
 text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, will you be next?</strong></h2></td>
 text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The last 7 days at <strong>Celsius Sport</strong> were big. Our sharpest bettors called it right and took home huge payouts:<br><br><strong>💰 Str•••••X – €42,810<br>💰 Go•••••er – €31,200<br>💰 Pa•••••ng – €19,450</strong><br><br>They didn't just watch — they made the play.<br>The lines are live for the next matches, so pick your spot and place your bet.<br>Your name could be next on this list.</p></td>
 button_text_1: SEE TODAY'S ODDS
@@ -205,7 +205,7 @@ name: Email S8.1
 locale: Default
 subject: 🏆 They Won Big on Sports — Now It's Your Turn
 preheader: See the top payouts of the week and pick your winning match
-header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WIN20NRF"
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"
 text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, the leaderboard is waiting!</strong></h2></td>
 text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Last week, these players trusted the numbers, hit the right moment, and cashed out big:<br><br><strong>💰 G••••er88 – €45,600<br>💰 O•••••ero – €32,150<br>💰 Be••••rd – €18,700</strong><br><br>Now the board is refreshed and the next matches are live on <strong>Celsius Sport</strong>. The odds are up, the markets are moving, and this is your window.<br><br>Pick your matchup, back your instincts, and make your move — your name should be next on the winner's list.</p></td>
 button_text_1: PICK A MATCH AND BET
