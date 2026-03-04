@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celsius — Text Audit Report</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/pg-logo.svg">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#181818;color:#d4d4d4;font-family:'Montserrat',sans-serif;font-size:14px;line-height:1.6}
+a{color:#4ec9b0;text-decoration:none}
+/* Language */
+div[data-lang],p[data-lang]{display:none}
+div[data-lang].active,p[data-lang].active{display:block}
+span[data-lang]{display:none}
+span[data-lang].active{display:inline}
+/* Header */
+.report-header{text-align:center;padding:60px 40px 20px}
+.report-header h1{font-size:28px;font-weight:800;color:#fff;letter-spacing:-.5px}
+.report-header .subtitle{font-size:13px;color:#888;margin-top:6px}
+.gnb-line{font-size:11px;color:#666;margin-top:10px;display:flex;align-items:center;justify-content:center;gap:5px}
+.gnb-line img{height:14px}
+.report-header .meta{font-size:12px;color:#555;margin-top:16px}
+/* Lang switch */
+.lang-switch{display:flex;justify-content:center;gap:4px;margin:12px 0 0}
+.lang-btn{background:transparent;border:1px solid #3a3a3a;border-radius:12px;padding:2px 10px;font-size:11px;font-weight:600;color:#888;cursor:pointer;font-family:inherit;transition:all .2s}
+.lang-btn:hover{border-color:#4ec9b0;color:#ccc}
+.lang-btn.active{background:#4ec9b0;color:#181818;border-color:#4ec9b0}
+/* Nav */
+.report-nav{position:sticky;top:0;z-index:100;background:rgba(24,24,24,.92);border-bottom:1px solid #2d2d2d;padding:10px 40px;display:flex;gap:6px;backdrop-filter:blur(14px);overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#4ec9b0 #1e1e1e;-webkit-overflow-scrolling:touch}
+.report-nav::before,.report-nav::after{content:'';flex:1 0 0px}
+.report-nav::-webkit-scrollbar{height:5px}
+.report-nav::-webkit-scrollbar-track{background:#1e1e1e;border-radius:3px}
+.report-nav::-webkit-scrollbar-thumb{background:#4ec9b0;border-radius:3px}
+.nav-link{background:transparent;border:1px solid #3a3a3a;border-radius:20px;padding:5px 14px;font-size:12px;font-weight:500;color:#888;text-decoration:none;cursor:pointer;transition:all .25s;font-family:inherit;white-space:nowrap;flex-shrink:0}
+.nav-link:hover{border-color:#4ec9b0;color:#ccc}
+.nav-link.active{background:#4ec9b0;color:#181818;border-color:#4ec9b0;font-weight:700}
+.nav-num{font-weight:700;margin-right:4px;font-size:11px;opacity:.7}
+.section-anchor{scroll-margin-top:56px}
+/* Content */
+.content{max-width:1240px;margin:0 auto;padding:0 40px 60px}
+/* Summary cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0 40px}
+.card{background:#1c1c1c;border:1px solid #2d2d2d;border-radius:12px;padding:24px;text-align:center}
+.card-value{font-size:36px;font-weight:800;color:#4ec9b0}
+.card-value.warn{color:#cca700}
+.card-label{font-size:12px;color:#888;margin-top:6px;text-transform:uppercase;letter-spacing:.5px}
+/* Sections */
+.section{margin-bottom:50px}
+.section h2{font-size:20px;font-weight:700;color:#fff;margin-bottom:6px;padding-bottom:12px;border-bottom:2px solid #4ec9b0}
+.section .desc{font-size:13px;color:#888;margin-bottom:16px}
+/* Tables */
+.at{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:24px}
+.at thead{background:#1a1a1a;position:sticky;top:48px;z-index:10}
+.at th{padding:8px 10px;text-align:left;font-weight:600;color:#aaa;border-bottom:2px solid #2d2d2d;white-space:nowrap;font-size:11px;text-transform:uppercase;letter-spacing:.3px}
+.at td{padding:7px 10px;border-bottom:1px solid #232323;vertical-align:top}
+.at tr:hover{background:#1e1e1e}
+.eid{font-weight:600;color:#fff;white-space:nowrap}
+/* Status */
+.s-ok{color:#25b644}
+.s-w{color:#cca700}
+.s-e{color:#f14c4c}
+.s-na{color:#555}
+.code{font-family:Consolas,'Courier New',monospace;font-size:11px;background:#1e1e1e;padding:1px 5px;border-radius:3px;border:1px solid #333;color:#4ec9b0;white-space:nowrap}
+/* Error categories */
+.ecat{display:inline-block;padding:2px 8px;border-radius:8px;font-size:10px;font-weight:600;text-transform:uppercase}
+.cat-m{background:#f14c4c22;color:#f14c4c;border:1px solid #f14c4c44}
+.cat-n{background:#cca70022;color:#cca700;border:1px solid #cca70044}
+.cat-d{background:#3b82f622;color:#6cb6ff;border:1px solid #3b82f644}
+/* Footer */
+.report-footer{text-align:center;padding:40px;border-top:1px solid #2d2d2d;margin-top:40px}
+.report-footer p{font-size:11px;color:#555}
+.logo-sm{height:16px;vertical-align:middle;margin-bottom:0}
+@media(max-width:768px){.cards{grid-template-columns:1fr}.content{padding:0 16px 40px}.report-nav{padding:10px 16px}.at{font-size:11px}}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="report-header">
+  <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:6px">
+    <img src="../../assets/pg-logo.svg" alt="PG" style="height:22px">
+    <span style="font-size:14px;font-weight:700;color:#888;letter-spacing:-.3px">PromptGrid</span>
+  </div>
+  <div class="gnb-line"><img src="../../assets/gnb-favicon.svg" alt="GNB"><span>Specially for GNB Agency</span></div>
+  <h1 style="margin-top:20px">
+    <span data-lang="en" class="active">Celsius — Text Audit Report</span>
+    <span data-lang="ua">Celsius — Аудит текстів</span>
+    <span data-lang="ru">Celsius — Аудит текстов</span>
+  </h1>
+  <p class="subtitle">
+    <span data-lang="en" class="active">Comprehensive per-email audit of 6 campaigns · 160 emails</span>
+    <span data-lang="ua">Детальний поемейловий аудит 6 кампаній · 160 листів</span>
+    <span data-lang="ru">Детальный поемейловый аудит 6 кампаний · 160 писем</span>
+  </p>
+  <p class="meta">Brand: Celsius Casino / Celsius Sport · Platform: Customer.io · Generated: 2025</p>
+  <div class="lang-switch">
+    <button class="lang-btn active" data-set-lang="en">EN</button>
+    <button class="lang-btn" data-set-lang="ua">UA</button>
+    <button class="lang-btn" data-set-lang="ru">RU</button>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="report-nav">
+  <a class="nav-link active" href="#summary"><span class="nav-num">0</span>
+    <span data-lang="en" class="active">Summary</span><span data-lang="ua">Підсумок</span><span data-lang="ru">Итоги</span></a>
+  <a class="nav-link" href="#dep-retention"><span class="nav-num">1</span>DEP Retention</a>
+  <a class="nav-link" href="#ftd-retention"><span class="nav-num">2</span>FTD Retention</a>
+  <a class="nav-link" href="#nutrition-2"><span class="nav-num">3</span>Nutrition #2</a>
+  <a class="nav-link" href="#nutrition-3"><span class="nav-num">4</span>Nutrition #3</a>
+  <a class="nav-link" href="#su-retention"><span class="nav-num">5</span>SU Retention</a>
+  <a class="nav-link" href="#welcome-flow"><span class="nav-num">6</span>Welcome Flow</a>
+  <a class="nav-link" href="#errors"><span class="nav-num">7</span>
+    <span data-lang="en" class="active">Errors</span><span data-lang="ua">Помилки</span><span data-lang="ru">Ошибки</span></a>
+</nav>
+
+<!-- CONTENT -->
+<div class="content">
+
+<!-- ==================== SUMMARY ==================== -->
+<div class="section section-anchor" id="summary">
+  <h2>
+    <span data-lang="en" class="active">Summary</span>
+    <span data-lang="ua">Підсумок</span>
+    <span data-lang="ru">Итоги</span>
+  </h2>
+  <div class="cards">
+    <div class="card">
+      <div class="card-value">160</div>
+      <div class="card-label">
+        <span data-lang="en" class="active">Total Emails</span>
+        <span data-lang="ua">Всього листів</span>
+        <span data-lang="ru">Всего писем</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-value">105</div>
+      <div class="card-label">
+        <span data-lang="en" class="active">With Code in Body</span>
+        <span data-lang="ua">З кодом у тілі</span>
+        <span data-lang="ru">С кодом в теле</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-value warn">27</div>
+      <div class="card-label">
+        <span data-lang="en" class="active">Issues Found</span>
+        <span data-lang="ua">Знайдено проблем</span>
+        <span data-lang="ru">Найдено проблем</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Campaign breakdown -->
+  <table class="at">
+    <thead><tr>
+      <th><span data-lang="en" class="active">Campaign</span><span data-lang="ua">Кампанія</span><span data-lang="ru">Кампания</span></th>
+      <th><span data-lang="en" class="active">Emails</span><span data-lang="ua">Листів</span><span data-lang="ru">Писем</span></th>
+      <th><span data-lang="en" class="active">With Code</span><span data-lang="ua">З кодом</span><span data-lang="ru">С кодом</span></th>
+      <th><span data-lang="en" class="active">Social Proof</span><span data-lang="ua">Соц. доказ</span><span data-lang="ru">Соц. доказ</span></th>
+      <th><span data-lang="en" class="active">Issues</span><span data-lang="ua">Проблем</span><span data-lang="ru">Проблем</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td class="eid">DEP Retention</td><td>20</td><td>16</td><td>4</td><td class="s-w">3</td></tr>
+      <tr><td class="eid">FTD Retention Flow</td><td>24</td><td>8</td><td>4</td><td class="s-w">10</td></tr>
+      <tr><td class="eid">Nutrition #2</td><td>24</td><td>17</td><td>7</td><td class="s-ok">0</td></tr>
+      <tr><td class="eid">Nutrition #3</td><td>24</td><td>18</td><td>6</td><td class="s-ok">0</td></tr>
+      <tr><td class="eid">SU Retention</td><td>40</td><td>32</td><td>3</td><td class="s-w">8</td></tr>
+      <tr><td class="eid">Welcome Flow</td><td>28</td><td>14</td><td>5</td><td class="s-w">6</td></tr>
+      <tr style="font-weight:700;border-top:2px solid #4ec9b0"><td class="eid">TOTAL</td><td>160</td><td>105</td><td>29</td><td class="s-w">27</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== 1. DEP RETENTION ==================== -->
+<div class="section section-anchor" id="dep-retention">
+  <h2>
+    <span data-lang="en" class="active">1. DEP Retention — 20 emails</span>
+    <span data-lang="ua">1. DEP Retention — 20 листів</span>
+    <span data-lang="ru">1. DEP Retention — 20 писем</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">16 with bonus, 4 social proof. Only campaign with <strong>promocode_button</strong>. Issues: 3 social proof emails have orphan header codes.</span>
+    <span data-lang="ua">16 з бонусом, 4 соціальний доказ. Єдина кампанія з <strong>promocode_button</strong>. Проблеми: 3 листи соц. доказу мають коди у хедері без коду в тілі.</span>
+    <span data-lang="ru">16 с бонусом, 4 соц. доказательство. Единственная кампания с <strong>promocode_button</strong>. Проблемы: 3 письма соц. доказательства имеют коды в хедере без кода в теле.</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th>
+      <th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">Бонус</span><span data-lang="ru">Бонус</span></th>
+      <th><span data-lang="en" class="active">Code in Body</span><span data-lang="ua">Код у тілі</span><span data-lang="ru">Код в теле</span></th>
+      <th>data-promocode</th>
+      <th>promocode_button</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">Статус</span><span data-lang="ru">Статус</span></th>
+    </tr></thead>
+    <tbody>
+<tr><td>1</td><td class="eid">C1.1</td><td class="s-ok">✅ 170%</td><td class="s-ok">✅ <span class="code">SURGE170</span></td><td class="s-ok">✅ SURGE170</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>2</td><td class="eid">C2.1</td><td class="s-ok">✅ 150%+70FS Chaos Crew II</td><td class="s-ok">✅ <span class="code">CREWBOOST150</span></td><td class="s-ok">✅ CREWBOOST150</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>3</td><td class="eid">C3.1</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-w">⚠️ POWER140</td><td class="s-na">❌</td><td class="s-w">⚠️ Header has orphan code</td></tr>
+<tr><td>4</td><td class="eid">C4.1</td><td class="s-ok">✅ 160%+80FS Wild West Gold</td><td class="s-ok">✅ <span class="code">GUNSLINGER160</span></td><td class="s-ok">✅ GUNSLINGER160</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>5</td><td class="eid">C5.1</td><td class="s-ok">✅ 170%</td><td class="s-ok">✅ <span class="code">BOOSTER170</span></td><td class="s-ok">✅ BOOSTER170</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>6</td><td class="eid">C6.1</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-na">❌</td><td class="s-ok">OK (engagement)</td></tr>
+<tr><td>7</td><td class="eid">C7.1</td><td class="s-ok">✅ 160%+80FS Wild West Gold</td><td class="s-ok">✅ <span class="code">GUNSLINGER160</span></td><td class="s-ok">✅ GUNSLINGER160</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>8</td><td class="eid">C8.1</td><td class="s-ok">✅ 180%+80FS Wanted Dead or Wild</td><td class="s-ok">✅ <span class="code">OUTLAW180</span></td><td class="s-ok">✅ OUTLAW180</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>9</td><td class="eid">C9.1</td><td class="s-ok">✅ 140%+100FS Big Bamboo</td><td class="s-ok">✅ <span class="code">GIANTPANDA100</span></td><td class="s-ok">✅ GIANTPANDA100</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>10</td><td class="eid">C10.1</td><td class="s-ok">✅ 200FS Gems Bonanza</td><td class="s-ok">✅ <span class="code">GEMHUNT200</span></td><td class="s-ok">✅ GEMHUNT200</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>11</td><td class="eid">S1.1</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">WINSAFE20</span></td><td class="s-ok">✅ WINSAFE20</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>12</td><td class="eid">S2.1</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">WINSAFE20</span></td><td class="s-ok">✅ WINSAFE20</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>13</td><td class="eid">S3.1</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-w">⚠️ WIN20NRF</td><td class="s-na">❌</td><td class="s-w">⚠️ Header has orphan code</td></tr>
+<tr><td>14</td><td class="eid">S4.1</td><td class="s-ok">✅ 170%</td><td class="s-ok">✅ <span class="code">SURGE170</span></td><td class="s-ok">✅ SURGE170</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>15</td><td class="eid">S5.1</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">WINSAFE20</span></td><td class="s-ok">✅ WINSAFE20</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>16</td><td class="eid">S6.1</td><td class="s-ok">✅ 170%</td><td class="s-ok">✅ <span class="code">BOOSTER170</span></td><td class="s-ok">✅ BOOSTER170</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>17</td><td class="eid">S7.1</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">WINSAFE20</span></td><td class="s-ok">✅ WINSAFE20</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>18</td><td class="eid">S8.1</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-w">⚠️ WIN20NRF</td><td class="s-na">❌</td><td class="s-w">⚠️ Header has orphan code</td></tr>
+<tr><td>19</td><td class="eid">S9.1</td><td class="s-ok">✅ 30% NRF</td><td class="s-ok">✅ <span class="code">ONLYSAFE30</span></td><td class="s-ok">✅ ONLYSAFE30</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+<tr><td>20</td><td class="eid">S10.1</td><td class="s-ok">✅ 30% NRF</td><td class="s-ok">✅ <span class="code">ONLYSAFE30</span></td><td class="s-ok">✅ ONLYSAFE30</td><td class="s-ok">✅</td><td class="s-ok">OK</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== 2. FTD RETENTION FLOW ==================== -->
+<div class="section section-anchor" id="ftd-retention">
+  <h2>
+    <span data-lang="en" class="active">2. FTD Retention Flow — 24 emails</span>
+    <span data-lang="ua">2. FTD Retention Flow — 24 листи</span>
+    <span data-lang="ru">2. FTD Retention Flow — 24 письма</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">8 with code, 4 social proof, 12 bonus-no-code. No promocode_button (expected). C-series and some S-series offer bonuses without promo codes (auto-apply pattern for 2nd deposit).</span>
+    <span data-lang="ua">8 з кодом, 4 соц. доказ, 12 бонус без коду. Немає promocode_button (очікувано). C-серія та деякі S-серії пропонують бонуси без промокодів (автозастосування).</span>
+    <span data-lang="ru">8 с кодом, 4 соц. доказ, 12 бонус без кода. Нет promocode_button (ожидаемо). C-серия и некоторые S-серии предлагают бонусы без промокодов (автоприменение).</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th><th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">Бонус</span><span data-lang="ru">Бонус</span></th>
+      <th><span data-lang="en" class="active">Code in Body</span><span data-lang="ua">Код у тілі</span><span data-lang="ru">Код в теле</span></th>
+      <th>data-promocode</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">Статус</span><span data-lang="ru">Статус</span></th>
+    </tr></thead>
+    <tbody>
+<tr><td>1</td><td class="eid">1C</td><td class="s-ok">✅ 100%+50FS Hand of Anubis</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>2</td><td class="eid">1M</td><td class="s-ok">✅ 100%+50FS HoA + 20% NRF</td><td class="s-ok">✅ <span class="code">ANUBIS10050</span> <span class="code">WINBACKNRF20</span></td><td class="s-ok">✅ ANUBIS10050, WINBACKNRF20</td><td class="s-ok">OK</td></tr>
+<tr><td>3</td><td class="eid">1S</td><td class="s-ok">✅ 20% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>4</td><td class="eid">2C</td><td class="s-na">❌ Engagement</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK (engagement)</td></tr>
+<tr><td>5</td><td class="eid">2M</td><td class="s-ok">✅ 100%+60FS Dog House + 20% NRF</td><td class="s-ok">✅ <span class="code">DOG10060</span> <span class="code">WINBACKNRF20</span></td><td class="s-ok">✅ WINBACKNRF20, DOG10060</td><td class="s-ok">OK</td></tr>
+<tr><td>6</td><td class="eid">2S</td><td class="s-ok">✅ 20% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>7</td><td class="eid">3C</td><td class="s-ok">✅ 140%+50FS Fruit Party</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>8</td><td class="eid">3M</td><td class="s-ok">✅ 2-4% CB + 20-30% NRF</td><td class="s-ok">✅ <span class="code">SAFE2CB2</span> <span class="code">RETURN3CB3</span> <span class="code">BOOST4CB4</span> <span class="code">WINBACKNRF20</span> <span class="code">SAFETYNRF25</span> <span class="code">COVERNRF30</span></td><td class="s-ok">✅ All 6 codes match</td><td class="s-ok">OK</td></tr>
+<tr><td>9</td><td class="eid">3S</td><td class="s-ok">✅ 20% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK ("No code. No hassle.")</td></tr>
+<tr><td>10</td><td class="eid">4C</td><td class="s-ok">✅ 110%+50FS Dork Unit</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>11</td><td class="eid">4M</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>12</td><td class="eid">4S</td><td class="s-ok">✅ 25% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>13</td><td class="eid">5C</td><td class="s-ok">✅ 100%+80FS Sweet Bonanza</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>14</td><td class="eid">5M</td><td class="s-ok">✅ 100%+70FS Chaos Crew + 20% NRF</td><td class="s-ok">✅ <span class="code">CHAOS10070</span> <span class="code">WINBACKNRF20</span></td><td class="s-ok">✅ WINBACKNRF20, CHAOS10070</td><td class="s-ok">OK</td></tr>
+<tr><td>15</td><td class="eid">5S</td><td class="s-ok">✅ 30% NROW</td><td class="s-ok">✅ <span class="code">ONLYWIN30</span></td><td class="s-ok">✅ ONLYWIN30</td><td class="s-ok">OK</td></tr>
+<tr><td>16</td><td class="eid">6C</td><td class="s-ok">✅ 100%+150FS Tome of Madness</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>17</td><td class="eid">6M</td><td class="s-ok">✅ 2-4% CB + 20-30% NRF</td><td class="s-ok">✅ <span class="code">SAFE2CB2</span> +5 more</td><td class="s-ok">✅ All 6 codes match</td><td class="s-ok">OK</td></tr>
+<tr><td>18</td><td class="eid">6S</td><td class="s-ok">✅ 20% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK ("no code needed")</td></tr>
+<tr><td>19</td><td class="eid">7C</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>20</td><td class="eid">7M</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>21</td><td class="eid">7S</td><td class="s-ok">✅ 20% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>22</td><td class="eid">8C</td><td class="s-ok">✅ 150%+30FS Stormforged</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>23</td><td class="eid">8M</td><td class="s-ok">✅ 2-4% CB + 20-30% NRF</td><td class="s-ok">✅ <span class="code">SAFE2CB2</span> +5 more</td><td class="s-ok">✅ All 6 codes match</td><td class="s-ok">OK</td></tr>
+<tr><td>24</td><td class="eid">8S</td><td class="s-ok">✅ 30% NROW</td><td class="s-ok">✅ <span class="code">ONLYWIN30</span></td><td class="s-ok">✅ ONLYWIN30</td><td class="s-ok">OK</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== 3. NUTRITION #2 ==================== -->
+<div class="section section-anchor" id="nutrition-2">
+  <h2>
+    <span data-lang="en" class="active">3. Nutrition #2 — 24 emails</span>
+    <span data-lang="ua">3. Nutrition #2 — 24 листи</span>
+    <span data-lang="ru">3. Nutrition #2 — 24 письма</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">17 with code, 7 social proof. All clean — no issues found. No promocode_button (expected).</span>
+    <span data-lang="ua">17 з кодом, 7 соц. доказ. Все чисто — проблем не знайдено. Немає promocode_button (очікувано).</span>
+    <span data-lang="ru">17 с кодом, 7 соц. доказ. Всё чисто — проблем не найдено. Нет promocode_button (ожидаемо).</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th><th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">Бонус</span><span data-lang="ru">Бонус</span></th>
+      <th><span data-lang="en" class="active">Code in Body</span><span data-lang="ua">Код у тілі</span><span data-lang="ru">Код в теле</span></th>
+      <th>data-promocode</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">Статус</span><span data-lang="ru">Статус</span></th>
+    </tr></thead>
+    <tbody>
+<tr><td>1</td><td class="eid">1CL</td><td class="s-ok">✅ 100%+50FS Hand of Anubis</td><td class="s-ok">✅ <span class="code">UNDERDOG50</span></td><td class="s-ok">✅ UNDERDOG50</td><td class="s-ok">OK</td></tr>
+<tr><td>2</td><td class="eid">1CS</td><td class="s-ok">✅ 100%+50FS Hand of Anubis</td><td class="s-ok">✅ <span class="code">UNDERDOG50</span></td><td class="s-ok">✅ UNDERDOG50</td><td class="s-ok">OK</td></tr>
+<tr><td>3</td><td class="eid">1S</td><td class="s-ok">✅ 20% NRF up to €500</td><td class="s-ok">✅ <span class="code">CLEARSHOT20</span></td><td class="s-ok">✅ CLEARSHOT20</td><td class="s-ok">OK</td></tr>
+<tr><td>4</td><td class="eid">2CL</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>5</td><td class="eid">2CS</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>6</td><td class="eid">2S</td><td class="s-ok">✅ 20% NRF up to €500</td><td class="s-ok">✅ <span class="code">CLEARSHOT20</span></td><td class="s-ok">✅ CLEARSHOT20</td><td class="s-ok">OK</td></tr>
+<tr><td>7</td><td class="eid">3CL</td><td class="s-ok">✅ 100% Live Casino</td><td class="s-ok">✅ <span class="code">MATCH100</span></td><td class="s-ok">✅ MATCH100</td><td class="s-ok">OK</td></tr>
+<tr><td>8</td><td class="eid">3CS</td><td class="s-ok">✅ 200%+50FS Tome of Madness</td><td class="s-ok">✅ <span class="code">OCCULT200</span></td><td class="s-ok">✅ OCCULT200</td><td class="s-ok">OK</td></tr>
+<tr><td>9</td><td class="eid">3S</td><td class="s-ok">✅ 20% NRF up to €500</td><td class="s-ok">✅ <span class="code">CLEARSHOT20</span></td><td class="s-ok">✅ CLEARSHOT20</td><td class="s-ok">OK</td></tr>
+<tr><td>10</td><td class="eid">4CL</td><td class="s-na">❌ Social proof (LC winners)</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>11</td><td class="eid">4CS</td><td class="s-ok">✅ 100%+50FS Hand of Anubis</td><td class="s-ok">✅ <span class="code">UNDERDOG50</span></td><td class="s-ok">✅ UNDERDOG50</td><td class="s-ok">OK</td></tr>
+<tr><td>12</td><td class="eid">4S</td><td class="s-ok">✅ 20% NRF up to €500</td><td class="s-ok">✅ <span class="code">CLEARSHOT20</span></td><td class="s-ok">✅ CLEARSHOT20</td><td class="s-ok">OK</td></tr>
+<tr><td>13</td><td class="eid">5CL</td><td class="s-ok">✅ 200% Live Casino</td><td class="s-ok">✅ <span class="code">ROCKET200</span></td><td class="s-ok">✅ ROCKET200</td><td class="s-ok">OK</td></tr>
+<tr><td>14</td><td class="eid">5CS</td><td class="s-ok">✅ 200%+50FS Tome of Madness</td><td class="s-ok">✅ <span class="code">OCCULT200</span></td><td class="s-ok">✅ OCCULT200</td><td class="s-ok">OK</td></tr>
+<tr><td>15</td><td class="eid">5S</td><td class="s-na">❌ Social proof (sports wins)</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>16</td><td class="eid">6CL</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>17</td><td class="eid">6CS</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>18</td><td class="eid">6S</td><td class="s-ok">✅ 20% NRF up to €500</td><td class="s-ok">✅ <span class="code">CLEARSHOT20</span></td><td class="s-ok">✅ CLEARSHOT20</td><td class="s-ok">OK</td></tr>
+<tr><td>19</td><td class="eid">7CL</td><td class="s-ok">✅ 210% Live Casino</td><td class="s-ok">✅ <span class="code">BLAST210</span></td><td class="s-ok">✅ BLAST210</td><td class="s-ok">OK</td></tr>
+<tr><td>20</td><td class="eid">7CS</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>21</td><td class="eid">7S</td><td class="s-ok">✅ 20% NRF up to €500</td><td class="s-ok">✅ <span class="code">CLEARSHOT20</span></td><td class="s-ok">✅ CLEARSHOT20</td><td class="s-ok">OK</td></tr>
+<tr><td>22</td><td class="eid">8CL</td><td class="s-ok">✅ 220% Live Casino</td><td class="s-ok">✅ <span class="code">BOOSTED220</span></td><td class="s-ok">✅ BOOSTED220</td><td class="s-ok">OK</td></tr>
+<tr><td>23</td><td class="eid">8CS</td><td class="s-ok">✅ 100FS Legacy of Dead</td><td class="s-ok">✅ <span class="code">PHARAOH100</span></td><td class="s-ok">✅ PHARAOH100</td><td class="s-ok">OK</td></tr>
+<tr><td>24</td><td class="eid">8S</td><td class="s-ok">✅ 20% NRF up to €500</td><td class="s-ok">✅ <span class="code">CLEARSHOT20</span></td><td class="s-ok">✅ CLEARSHOT20</td><td class="s-ok">OK</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== 4. NUTRITION #3 ==================== -->
+<div class="section section-anchor" id="nutrition-3">
+  <h2>
+    <span data-lang="en" class="active">4. Nutrition #3 — 24 emails</span>
+    <span data-lang="ua">4. Nutrition #3 — 24 листи</span>
+    <span data-lang="ru">4. Nutrition #3 — 24 письма</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">18 with code, 6 social proof. All clean — no issues found. No promocode_button (expected).</span>
+    <span data-lang="ua">18 з кодом, 6 соц. доказ. Все чисто — проблем не знайдено. Немає promocode_button (очікувано).</span>
+    <span data-lang="ru">18 с кодом, 6 соц. доказ. Всё чисто — проблем не найдено. Нет promocode_button (ожидаемо).</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th><th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">Бонус</span><span data-lang="ru">Бонус</span></th>
+      <th><span data-lang="en" class="active">Code in Body</span><span data-lang="ua">Код у тілі</span><span data-lang="ru">Код в теле</span></th>
+      <th>data-promocode</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">Статус</span><span data-lang="ru">Статус</span></th>
+    </tr></thead>
+    <tbody>
+<tr><td>1</td><td class="eid">1CL</td><td class="s-ok">✅ 150% Live Casino</td><td class="s-ok">✅ <span class="code">VAULT150</span></td><td class="s-ok">✅ VAULT150</td><td class="s-ok">OK</td></tr>
+<tr><td>2</td><td class="eid">1CS</td><td class="s-ok">✅ 200%+50FS Tome of Madness</td><td class="s-ok">✅ <span class="code">OCCULT200</span></td><td class="s-ok">✅ OCCULT200</td><td class="s-ok">OK</td></tr>
+<tr><td>3</td><td class="eid">1S</td><td class="s-ok">✅ 20% NRF up to €500</td><td class="s-ok">✅ <span class="code">STEADY20</span></td><td class="s-ok">✅ STEADY20</td><td class="s-ok">OK</td></tr>
+<tr><td>4</td><td class="eid">2CL</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>5</td><td class="eid">2CS</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>6</td><td class="eid">2S</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">STEADY20</span></td><td class="s-ok">✅ STEADY20</td><td class="s-ok">OK</td></tr>
+<tr><td>7</td><td class="eid">3CL</td><td class="s-ok">✅ 200%+50FS Tome of Madness</td><td class="s-ok">✅ <span class="code">OCCULT200</span></td><td class="s-ok">✅ OCCULT200</td><td class="s-ok">OK</td></tr>
+<tr><td>8</td><td class="eid">3CS</td><td class="s-ok">✅ 200%+50FS Tome of Madness</td><td class="s-ok">✅ <span class="code">OCCULT200</span></td><td class="s-ok">✅ OCCULT200</td><td class="s-ok">OK</td></tr>
+<tr><td>9</td><td class="eid">3S</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">STEADY20</span></td><td class="s-ok">✅ STEADY20</td><td class="s-ok">OK</td></tr>
+<tr><td>10</td><td class="eid">4CL</td><td class="s-ok">✅ 170% Live Casino</td><td class="s-ok">✅ <span class="code">RISEUP170</span></td><td class="s-ok">✅ RISEUP170</td><td class="s-ok">OK</td></tr>
+<tr><td>11</td><td class="eid">4CS</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>12</td><td class="eid">4S</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">STEADY20</span></td><td class="s-ok">✅ STEADY20</td><td class="s-ok">OK</td></tr>
+<tr><td>13</td><td class="eid">5CL</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>14</td><td class="eid">5CS</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>15</td><td class="eid">5S</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>16</td><td class="eid">6CL</td><td class="s-ok">✅ 170% Live Casino</td><td class="s-ok">✅ <span class="code">RISEUP170</span></td><td class="s-ok">✅ RISEUP170</td><td class="s-ok">OK</td></tr>
+<tr><td>17</td><td class="eid">6CS</td><td class="s-ok">✅ 200%+50FS Tome of Madness</td><td class="s-ok">✅ <span class="code">OCCULT200</span></td><td class="s-ok">✅ OCCULT200</td><td class="s-ok">OK</td></tr>
+<tr><td>18</td><td class="eid">6S</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">STEADY20</span></td><td class="s-ok">✅ STEADY20</td><td class="s-ok">OK</td></tr>
+<tr><td>19</td><td class="eid">7CL</td><td class="s-ok">✅ 170%+30FS Wild West Gold</td><td class="s-ok">✅ <span class="code">COWBOY170</span></td><td class="s-ok">✅ COWBOY170</td><td class="s-ok">OK</td></tr>
+<tr><td>20</td><td class="eid">7CS</td><td class="s-ok">✅ 170%+30FS Wild West Gold</td><td class="s-ok">✅ <span class="code">COWBOY170</span></td><td class="s-ok">✅ COWBOY170</td><td class="s-ok">OK</td></tr>
+<tr><td>21</td><td class="eid">7S</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">STEADY20</span></td><td class="s-ok">✅ STEADY20</td><td class="s-ok">OK</td></tr>
+<tr><td>22</td><td class="eid">8CL</td><td class="s-ok">✅ 170% Live Casino</td><td class="s-ok">✅ <span class="code">RISEUP170</span></td><td class="s-ok">✅ RISEUP170</td><td class="s-ok">OK</td></tr>
+<tr><td>23</td><td class="eid">8CS</td><td class="s-ok">✅ 200%+50FS Tome of Madness</td><td class="s-ok">✅ <span class="code">OCCULT200</span></td><td class="s-ok">✅ OCCULT200</td><td class="s-ok">OK</td></tr>
+<tr><td>24</td><td class="eid">8S</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">STEADY20</span></td><td class="s-ok">✅ STEADY20</td><td class="s-ok">OK</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== 5. SU RETENTION ==================== -->
+<div class="section section-anchor" id="su-retention">
+  <h2>
+    <span data-lang="en" class="active">5. SU Retention — 40 emails</span>
+    <span data-lang="ua">5. SU Retention — 40 листів</span>
+    <span data-lang="ru">5. SU Retention — 40 писем</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">32 with code, 3 social proof, 5 bonus-no-code. No promocode_button (expected). Issues: 7 auto-apply emails + 1 header mismatch (7M).</span>
+    <span data-lang="ua">32 з кодом, 3 соц. доказ, 5 бонус без коду. Немає promocode_button (очікувано). Проблеми: 7 листів з автозастосуванням + 1 невідповідність хедера (7M).</span>
+    <span data-lang="ru">32 с кодом, 3 соц. доказ, 5 бонус без кода. Нет promocode_button (ожидаемо). Проблемы: 7 автоприменений + 1 несоответствие хедера (7M).</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th><th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">Бонус</span><span data-lang="ru">Бонус</span></th>
+      <th><span data-lang="en" class="active">Code in Body</span><span data-lang="ua">Код у тілі</span><span data-lang="ru">Код в теле</span></th>
+      <th>data-promocode</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">Статус</span><span data-lang="ru">Статус</span></th>
+    </tr></thead>
+    <tbody>
+<tr><td>1</td><td class="eid">1C</td><td class="s-ok">✅ 100%+150FS (welcome)</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Auto-apply welcome</td></tr>
+<tr><td>2</td><td class="eid">1CFS</td><td class="s-ok">✅ 150FS Fire in the Hole xBomb</td><td class="s-ok">✅ <span class="code">XBOMB150</span></td><td class="s-ok">✅ XBOMB150</td><td class="s-ok">OK</td></tr>
+<tr><td>3</td><td class="eid">1M</td><td class="s-ok">✅ 100%+150FS RS + 15% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>4</td><td class="eid">1S</td><td class="s-ok">✅ 15% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>5</td><td class="eid">2C</td><td class="s-ok">✅ 100%+150FS (welcome)</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Auto-apply welcome</td></tr>
+<tr><td>6</td><td class="eid">2CFS</td><td class="s-ok">✅ 100%+150FS Razor Shark</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>7</td><td class="eid">2M</td><td class="s-ok">✅ 100%+150FS + 4% CB</td><td class="s-ok">✅ <span class="code">CASHPLUS4</span></td><td class="s-ok">✅ CASHPLUS4</td><td class="s-ok">OK</td></tr>
+<tr><td>8</td><td class="eid">2S</td><td class="s-ok">✅ 4% Cashback</td><td class="s-ok">✅ <span class="code">CASHPLUS4</span></td><td class="s-ok">✅ CASHPLUS4</td><td class="s-ok">OK</td></tr>
+<tr><td>9</td><td class="eid">3C</td><td class="s-ok">✅ 140%</td><td class="s-ok">✅ <span class="code">POWER140</span></td><td class="s-ok">✅ POWER140</td><td class="s-ok">OK</td></tr>
+<tr><td>10</td><td class="eid">3CFS</td><td class="s-ok">✅ 150FS Fire in the Hole xBomb</td><td class="s-ok">✅ <span class="code">XBOMB150</span></td><td class="s-ok">✅ XBOMB150</td><td class="s-ok">OK</td></tr>
+<tr><td>11</td><td class="eid">3M</td><td class="s-ok">✅ 140% OR 15% NRF</td><td class="s-ok">✅ <span class="code">POWER140</span> <span class="code">EARNNRF15X</span></td><td class="s-ok">✅ POWER140, EARNNRF15X</td><td class="s-ok">OK</td></tr>
+<tr><td>12</td><td class="eid">3S</td><td class="s-ok">✅ 15% NRF</td><td class="s-ok">✅ <span class="code">EARNNRF15X</span></td><td class="s-ok">✅ EARNNRF15X</td><td class="s-ok">OK</td></tr>
+<tr><td>13</td><td class="eid">4C</td><td class="s-ok">✅ 130%+70FS Sweet Bonanza</td><td class="s-ok">✅ <span class="code">CANDYDROP70</span></td><td class="s-ok">✅ CANDYDROP70</td><td class="s-ok">OK</td></tr>
+<tr><td>14</td><td class="eid">4CFS</td><td class="s-ok">✅ 100%+150FS</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>15</td><td class="eid">4M</td><td class="s-ok">✅ 130%+70FS Sweet Bonanza</td><td class="s-ok">✅ <span class="code">CANDYDROP70</span></td><td class="s-ok">✅ CANDYDROP70</td><td class="s-ok">OK</td></tr>
+<tr><td>16</td><td class="eid">4S</td><td class="s-ok">✅ 4% Cashback</td><td class="s-ok">✅ <span class="code">CASHPLUS4</span></td><td class="s-ok">✅ CASHPLUS4</td><td class="s-ok">OK</td></tr>
+<tr><td>17</td><td class="eid">5C</td><td class="s-ok">✅ 140%</td><td class="s-ok">✅ <span class="code">POWER140</span></td><td class="s-ok">✅ POWER140</td><td class="s-ok">OK</td></tr>
+<tr><td>18</td><td class="eid">5CFS</td><td class="s-ok">✅ 140%</td><td class="s-ok">✅ <span class="code">POWER140</span></td><td class="s-ok">✅ POWER140</td><td class="s-ok">OK</td></tr>
+<tr><td>19</td><td class="eid">5M</td><td class="s-ok">✅ 140% OR 15% NRF</td><td class="s-ok">✅ <span class="code">POWER140</span> <span class="code">EARNNRF15X</span></td><td class="s-ok">✅ POWER140, EARNNRF15X</td><td class="s-ok">OK</td></tr>
+<tr><td>20</td><td class="eid">5S</td><td class="s-ok">✅ 15% NRF</td><td class="s-ok">✅ <span class="code">EARNNRF15X</span></td><td class="s-ok">✅ EARNNRF15X</td><td class="s-ok">OK</td></tr>
+<tr><td>21</td><td class="eid">6C</td><td class="s-na">❌ Social proof (wins)</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>22</td><td class="eid">6CFS</td><td class="s-ok">✅ 200FS Hand of Anubis</td><td class="s-ok">✅ <span class="code">UNDERWORLD200</span></td><td class="s-ok">✅ UNDERWORLD200</td><td class="s-ok">OK</td></tr>
+<tr><td>23</td><td class="eid">6M</td><td class="s-ok">✅ 140% OR 15% NRF</td><td class="s-ok">✅ <span class="code">POWER140</span> <span class="code">EARNNRF15X</span></td><td class="s-ok">✅ POWER140, EARNNRF15X</td><td class="s-ok">OK</td></tr>
+<tr><td>24</td><td class="eid">6S</td><td class="s-ok">✅ 15% NRF</td><td class="s-ok">✅ <span class="code">EARNNRF15X</span></td><td class="s-ok">✅ EARNNRF15X</td><td class="s-ok">OK</td></tr>
+<tr><td>25</td><td class="eid">7C</td><td class="s-ok">✅ 140%+80FS Chaos Crew II</td><td class="s-ok">✅ <span class="code">CHAOSCTRL80</span></td><td class="s-ok">✅ CHAOSCTRL80</td><td class="s-ok">OK</td></tr>
+<tr><td>26</td><td class="eid">7CFS</td><td class="s-ok">✅ 140%+80FS Chaos Crew II</td><td class="s-ok">✅ <span class="code">CHAOSCTRL80</span></td><td class="s-ok">✅ CHAOSCTRL80</td><td class="s-ok">OK</td></tr>
+<tr><td>27</td><td class="eid">7M</td><td class="s-ok">✅ 140%+80FS CC2 OR 20% NRF</td><td class="s-ok">✅ <span class="code">CHAOSCTRL80</span> <span class="code">WIN20NRF</span></td><td class="s-w">⚠️ CHAOSCTRL80 only</td><td class="s-e">❌ Header missing WIN20NRF</td></tr>
+<tr><td>28</td><td class="eid">7S</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">WIN20NRF</span></td><td class="s-ok">✅ WIN20NRF</td><td class="s-ok">OK</td></tr>
+<tr><td>29</td><td class="eid">8C</td><td class="s-na">❌ Social proof (wins)</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>30</td><td class="eid">8CFS</td><td class="s-ok">✅ 200FS Hand of Anubis</td><td class="s-ok">✅ <span class="code">UNDERWORLD200</span></td><td class="s-ok">✅ UNDERWORLD200</td><td class="s-ok">OK</td></tr>
+<tr><td>31</td><td class="eid">8M</td><td class="s-ok">✅ 140%+80FS CC2 OR 20% NRF</td><td class="s-ok">✅ <span class="code">CHAOSCTRL80</span> <span class="code">WIN20NRF</span></td><td class="s-ok">✅ CHAOSCTRL80, WIN20NRF</td><td class="s-ok">OK</td></tr>
+<tr><td>32</td><td class="eid">8S</td><td class="s-ok">✅ 20% NRF</td><td class="s-ok">✅ <span class="code">WIN20NRF</span></td><td class="s-ok">✅ WIN20NRF</td><td class="s-ok">OK</td></tr>
+<tr><td>33</td><td class="eid">9C</td><td class="s-ok">✅ 160%+90FS Tome of Madness</td><td class="s-ok">✅ <span class="code">MADNESS16090</span></td><td class="s-ok">✅ MADNESS16090</td><td class="s-ok">OK</td></tr>
+<tr><td>34</td><td class="eid">9CFS</td><td class="s-ok">✅ 140%+80FS Chaos Crew II</td><td class="s-ok">✅ <span class="code">CHAOSCTRL80</span></td><td class="s-ok">✅ CHAOSCTRL80</td><td class="s-ok">OK</td></tr>
+<tr><td>35</td><td class="eid">9M</td><td class="s-ok">✅ 160%+90FS OR 25% NRF</td><td class="s-ok">✅ <span class="code">MADNESS16090</span> <span class="code">SECURE25</span></td><td class="s-ok">✅ MADNESS16090, SECURE25</td><td class="s-ok">OK</td></tr>
+<tr><td>36</td><td class="eid">9S</td><td class="s-ok">✅ 25% NRF</td><td class="s-ok">✅ <span class="code">SECURE25</span></td><td class="s-ok">✅ SECURE25</td><td class="s-ok">OK</td></tr>
+<tr><td>37</td><td class="eid">10C</td><td class="s-na">❌ Social proof (wins)</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>38</td><td class="eid">10CFS</td><td class="s-ok">✅ 160%+90FS Tome of Madness</td><td class="s-ok">✅ <span class="code">MADNESS16090</span></td><td class="s-ok">✅ MADNESS16090</td><td class="s-ok">OK</td></tr>
+<tr><td>39</td><td class="eid">10M</td><td class="s-ok">✅ 160%+90FS OR 25% NRF</td><td class="s-ok">✅ <span class="code">MADNESS16090</span> <span class="code">SECURE25</span></td><td class="s-ok">✅ MADNESS16090, SECURE25</td><td class="s-ok">OK</td></tr>
+<tr><td>40</td><td class="eid">10S</td><td class="s-ok">✅ 15% NRF</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== 6. WELCOME FLOW ==================== -->
+<div class="section section-anchor" id="welcome-flow">
+  <h2>
+    <span data-lang="en" class="active">6. Welcome Flow — 28 emails (1 duplicate)</span>
+    <span data-lang="ua">6. Welcome Flow — 28 листів (1 дублікат)</span>
+    <span data-lang="ru">6. Welcome Flow — 28 писем (1 дубликат)</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">14 with code, 5 social proof, 3 overviews, 5 bonus-no-code, 1 duplicate. No promocode_button (expected). Issues: 5 sport emails mention 50% FreeBets but no code. Email 1S appears twice in data file.</span>
+    <span data-lang="ua">14 з кодом, 5 соц. доказ, 3 огляди, 5 бонус без коду, 1 дублікат. Немає promocode_button (очікувано). 5 спорт-листів згадують 50% FreeBets без коду. Email 1S двічі у файлі.</span>
+    <span data-lang="ru">14 с кодом, 5 соц. доказ, 3 обзора, 5 бонус без кода, 1 дубликат. Нет promocode_button (ожидаемо). 5 спорт-писем упоминают 50% FreeBets без кода. Email 1S дважды в файле.</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th><th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">Бонус</span><span data-lang="ru">Бонус</span></th>
+      <th><span data-lang="en" class="active">Code in Body</span><span data-lang="ua">Код у тілі</span><span data-lang="ru">Код в теле</span></th>
+      <th>data-promocode</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">Статус</span><span data-lang="ru">Статус</span></th>
+    </tr></thead>
+    <tbody>
+<tr><td>1</td><td class="eid">1C</td><td class="s-ok">✅ Overview: €2000+250FS across 4 deps</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK (overview)</td></tr>
+<tr><td>2</td><td class="eid">1M</td><td class="s-ok">✅ Overview: Cashback bonus</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK (overview)</td></tr>
+<tr><td>3</td><td class="eid">1S</td><td class="s-ok">✅ Overview: FreeBets up to €700</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK (overview)</td></tr>
+<tr><td>4</td><td class="eid" style="color:#f14c4c">1S (dup)</td><td class="s-e">❌ DUPLICATE</td><td class="s-e">❌</td><td class="s-e">❌</td><td class="s-e">❌ Duplicate entry in data</td></tr>
+<tr><td>5</td><td class="eid">2C</td><td class="s-ok">✅ 100%+150FS Le Bandit</td><td class="s-ok">✅ <span class="code">BANDIT150</span></td><td class="s-ok">✅ BANDIT150</td><td class="s-ok">OK</td></tr>
+<tr><td>6</td><td class="eid">2M</td><td class="s-ok">✅ 10% NRF</td><td class="s-ok">✅ <span class="code">SAFE10</span></td><td class="s-ok">✅ SAFE10</td><td class="s-ok">OK</td></tr>
+<tr><td>7</td><td class="eid">2S</td><td class="s-ok">✅ 50% bonus on deposit</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>8</td><td class="eid">3C</td><td class="s-ok">✅ 100%+150FS Chaos Crew II</td><td class="s-ok">✅ <span class="code">CREW150</span></td><td class="s-ok">✅ CREW150</td><td class="s-ok">OK</td></tr>
+<tr><td>9</td><td class="eid">3M</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>10</td><td class="eid">3S</td><td class="s-ok">✅ 50% FreeBets + matchday</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>11</td><td class="eid">4C</td><td class="s-ok">✅ 120%+170FS Stormforged</td><td class="s-ok">✅ <span class="code">STORM170</span></td><td class="s-ok">✅ STORM170</td><td class="s-ok">OK</td></tr>
+<tr><td>12</td><td class="eid">4M</td><td class="s-ok">✅ 100FS Legacy of Dead + 20% NRF</td><td class="s-ok">✅ <span class="code">LEGACY100</span> <span class="code">BETSAFE20</span></td><td class="s-ok">✅ LEGACY100, BETSAFE20</td><td class="s-ok">OK</td></tr>
+<tr><td>13</td><td class="eid">4S</td><td class="s-ok">✅ 50% FreeBets up to €200</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>14</td><td class="eid">5C</td><td class="s-ok">✅ 100%+150FS Rip City</td><td class="s-ok">✅ <span class="code">RIP100CITY</span></td><td class="s-ok">✅ RIP100CITY</td><td class="s-ok">OK</td></tr>
+<tr><td>15</td><td class="eid">5M</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>16</td><td class="eid">5S</td><td class="s-ok">✅ 50% FreeBets up to €200</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>17</td><td class="eid">6C</td><td class="s-ok">✅ 100%+150FS Le Bandit</td><td class="s-ok">✅ <span class="code">BANDIT150</span></td><td class="s-ok">✅ BANDIT150</td><td class="s-ok">OK</td></tr>
+<tr><td>18</td><td class="eid">6M</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>19</td><td class="eid">6S</td><td class="s-ok">✅ 50% FreeBets up to €200</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-w">⚠️ Bonus, no code</td></tr>
+<tr><td>20</td><td class="eid">7C</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>21</td><td class="eid">7M</td><td class="s-ok">✅ 100FS Legacy of Dead + 20% NRF</td><td class="s-ok">✅ <span class="code">LEGACY100</span> <span class="code">BETSAFE20</span></td><td class="s-ok">✅ LEGACY100, BETSAFE20</td><td class="s-ok">OK</td></tr>
+<tr><td>22</td><td class="eid">7S</td><td class="s-ok">✅ 60% FreeBets</td><td class="s-ok">✅ <span class="code">FIREUP60</span></td><td class="s-ok">✅ FIREUP60</td><td class="s-ok">OK</td></tr>
+<tr><td>23</td><td class="eid">8C</td><td class="s-ok">✅ 100%+150FS Chaos Crew II</td><td class="s-ok">✅ <span class="code">CREW150</span></td><td class="s-ok">✅ CREW150</td><td class="s-ok">OK</td></tr>
+<tr><td>24</td><td class="eid">8M</td><td class="s-na">❌ Social proof</td><td class="s-na">❌ —</td><td class="s-na">❌ —</td><td class="s-ok">OK</td></tr>
+<tr><td>25</td><td class="eid">8S</td><td class="s-ok">✅ 60% FreeBets</td><td class="s-ok">✅ <span class="code">FIREUP60</span></td><td class="s-ok">✅ FIREUP60</td><td class="s-ok">OK</td></tr>
+<tr><td>26</td><td class="eid">9C</td><td class="s-ok">✅ 180FS Sweet Bonanza</td><td class="s-ok">✅ <span class="code">SWEET180</span></td><td class="s-ok">✅ SWEET180</td><td class="s-ok">OK</td></tr>
+<tr><td>27</td><td class="eid">9M</td><td class="s-ok">✅ 100FS Legacy of Dead + 20% NRF</td><td class="s-ok">✅ <span class="code">LEGACY100</span> <span class="code">BETSAFE20</span></td><td class="s-ok">✅ LEGACY100, BETSAFE20</td><td class="s-ok">OK</td></tr>
+<tr><td>28</td><td class="eid">9S</td><td class="s-ok">✅ 60% FreeBets</td><td class="s-ok">✅ <span class="code">FIREUP60</span></td><td class="s-ok">✅ FIREUP60</td><td class="s-ok">OK</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== 7. CONSOLIDATED ERRORS ==================== -->
+<div class="section section-anchor" id="errors">
+  <h2>
+    <span data-lang="en" class="active">7. Consolidated Errors &amp; Warnings</span>
+    <span data-lang="ua">7. Зведені помилки та попередження</span>
+    <span data-lang="ru">7. Сводные ошибки и предупреждения</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">27 issues across 4 campaigns. Nutrition #2 and #3 are clean.</span>
+    <span data-lang="ua">27 проблем у 4 кампаніях. Nutrition #2 та #3 чисті.</span>
+    <span data-lang="ru">27 проблем в 4 кампаниях. Nutrition #2 и #3 чистые.</span>
+  </p>
+
+  <!-- Category: Header ↔ Body Mismatch -->
+  <h3 style="color:#f14c4c;font-size:14px;margin:20px 0 10px">
+    <span class="ecat cat-m">MISMATCH</span>
+    <span data-lang="en" class="active"> Header ↔ Body Code Mismatch — 4 issues</span>
+    <span data-lang="ua"> Невідповідність хедер ↔ тіло — 4 проблеми</span>
+    <span data-lang="ru"> Несоответствие хедер ↔ тело — 4 проблемы</span>
+  </h3>
+  <table class="at">
+    <thead><tr><th>#</th><th><span data-lang="en" class="active">Campaign</span><span data-lang="ua">Кампанія</span><span data-lang="ru">Кампания</span></th><th>Email</th><th><span data-lang="en" class="active">Issue</span><span data-lang="ua">Проблема</span><span data-lang="ru">Проблема</span></th></tr></thead>
+    <tbody>
+<tr><td>1</td><td>DEP Retention</td><td class="eid">C3.1</td><td>Header has <span class="code">POWER140</span> but body has no class="promocode" element. Social proof email shouldn't have header code.</td></tr>
+<tr><td>2</td><td>DEP Retention</td><td class="eid">S3.1</td><td>Header has <span class="code">WIN20NRF</span> but body has no promo code. Social proof email with orphan header code.</td></tr>
+<tr><td>3</td><td>DEP Retention</td><td class="eid">S8.1</td><td>Header has <span class="code">WIN20NRF</span> but body has no promo code. Social proof email with orphan header code.</td></tr>
+<tr><td>4</td><td>SU Retention</td><td class="eid">7M</td><td>Body has both <span class="code">CHAOSCTRL80</span> + <span class="code">WIN20NRF</span> but header only contains CHAOSCTRL80. Missing WIN20NRF in data-promocode.</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Category: Bonus Without Code -->
+  <h3 style="color:#cca700;font-size:14px;margin:20px 0 10px">
+    <span class="ecat cat-n">NO CODE</span>
+    <span data-lang="en" class="active"> Bonus Mentioned Without Promo Code — 22 warnings</span>
+    <span data-lang="ua"> Бонус без промокоду — 22 попередження</span>
+    <span data-lang="ru"> Бонус без промокода — 22 предупреждения</span>
+  </h3>
+  <table class="at">
+    <thead><tr><th>#</th><th><span data-lang="en" class="active">Campaign</span><span data-lang="ua">Кампанія</span><span data-lang="ru">Кампания</span></th><th>Email</th><th><span data-lang="en" class="active">Bonus Described</span><span data-lang="ua">Описаний бонус</span><span data-lang="ru">Описанный бонус</span></th></tr></thead>
+    <tbody>
+<tr><td>1</td><td>FTD Retention</td><td class="eid">1C</td><td>100%+50FS Hand of Anubis — no code (auto-apply 2nd deposit?)</td></tr>
+<tr><td>2</td><td>FTD Retention</td><td class="eid">1S</td><td>20% NRF — no code</td></tr>
+<tr><td>3</td><td>FTD Retention</td><td class="eid">2S</td><td>20% NRF — no code</td></tr>
+<tr><td>4</td><td>FTD Retention</td><td class="eid">3C</td><td>140%+50FS Fruit Party — no code</td></tr>
+<tr><td>5</td><td>FTD Retention</td><td class="eid">4C</td><td>110%+50FS Dork Unit — no code</td></tr>
+<tr><td>6</td><td>FTD Retention</td><td class="eid">4S</td><td>25% NRF — no code</td></tr>
+<tr><td>7</td><td>FTD Retention</td><td class="eid">5C</td><td>100%+80FS Sweet Bonanza — no code</td></tr>
+<tr><td>8</td><td>FTD Retention</td><td class="eid">6C</td><td>100%+150FS Tome of Madness — no code</td></tr>
+<tr><td>9</td><td>FTD Retention</td><td class="eid">7S</td><td>20% NRF — no code</td></tr>
+<tr><td>10</td><td>FTD Retention</td><td class="eid">8C</td><td>150%+30FS Stormforged — no code</td></tr>
+<tr><td>11</td><td>SU Retention</td><td class="eid">1C</td><td>100%+150FS welcome pack — auto-apply</td></tr>
+<tr><td>12</td><td>SU Retention</td><td class="eid">1M</td><td>100%+150FS RS + 15% NRF — no code</td></tr>
+<tr><td>13</td><td>SU Retention</td><td class="eid">1S</td><td>15% NRF — no code</td></tr>
+<tr><td>14</td><td>SU Retention</td><td class="eid">2C</td><td>100%+150FS welcome pack — auto-apply</td></tr>
+<tr><td>15</td><td>SU Retention</td><td class="eid">2CFS</td><td>100%+150FS Razor Shark — no code</td></tr>
+<tr><td>16</td><td>SU Retention</td><td class="eid">4CFS</td><td>100%+150FS — no code</td></tr>
+<tr><td>17</td><td>SU Retention</td><td class="eid">10S</td><td>15% NRF — no code</td></tr>
+<tr><td>18</td><td>Welcome Flow</td><td class="eid">2S</td><td>50% bonus on deposit — no code</td></tr>
+<tr><td>19</td><td>Welcome Flow</td><td class="eid">3S</td><td>50% FreeBets + matchday — no code</td></tr>
+<tr><td>20</td><td>Welcome Flow</td><td class="eid">4S</td><td>50% FreeBets up to €200 — no code</td></tr>
+<tr><td>21</td><td>Welcome Flow</td><td class="eid">5S</td><td>50% FreeBets up to €200 — no code</td></tr>
+<tr><td>22</td><td>Welcome Flow</td><td class="eid">6S</td><td>50% FreeBets up to €200 — no code</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Category: Data Errors -->
+  <h3 style="color:#6cb6ff;font-size:14px;margin:20px 0 10px">
+    <span class="ecat cat-d">DATA</span>
+    <span data-lang="en" class="active"> Data File Errors — 1 issue</span>
+    <span data-lang="ua"> Помилки файлу даних — 1 проблема</span>
+    <span data-lang="ru"> Ошибки файла данных — 1 проблема</span>
+  </h3>
+  <table class="at">
+    <thead><tr><th>#</th><th><span data-lang="en" class="active">Campaign</span><span data-lang="ua">Кампанія</span><span data-lang="ru">Кампания</span></th><th>Email</th><th><span data-lang="en" class="active">Issue</span><span data-lang="ua">Проблема</span><span data-lang="ru">Проблема</span></th></tr></thead>
+    <tbody>
+<tr><td>1</td><td>Welcome Flow</td><td class="eid">1S</td><td>Duplicate entry — Email 1S appears twice in the data file with identical content.</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Note about intentional no-code -->
+  <div style="margin-top:20px;padding:16px;background:#1c1c1c;border:1px solid #2d2d2d;border-radius:8px;font-size:12px;color:#888">
+    <strong style="color:#aaa">
+      <span data-lang="en" class="active">ℹ️ Note:</span>
+      <span data-lang="ua">ℹ️ Примітка:</span>
+      <span data-lang="ru">ℹ️ Примечание:</span>
+    </strong>
+    <span data-lang="en" class="active">FTD Retention emails 3S and 6S explicitly state "No code. No hassle." / "no code needed" — these are intentionally code-free and are NOT flagged as issues.</span>
+    <span data-lang="ua">FTD Retention листи 3S та 6S явно вказують "No code. No hassle." / "no code needed" — це навмисно без коду і НЕ позначені як проблеми.</span>
+    <span data-lang="ru">FTD Retention письма 3S и 6S явно указывают "No code. No hassle." / "no code needed" — это намеренно без кода и НЕ отмечены как проблемы.</span>
+  </div>
+</div>
+
+</div><!-- /content -->
+
+<!-- FOOTER -->
+<div class="report-footer">
+  <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:8px">
+    <img class="logo-sm" src="../../assets/pg-logo.svg" alt="PromptGrid">
+    <span style="font-size:13px;font-weight:600;color:#888;letter-spacing:-.3px">PromptGrid</span>
+  </div>
+  <div class="gnb-line" style="margin-bottom:10px"><img src="../../assets/gnb-favicon.svg" alt="GNB"><span>Specially for GNB Agency</span></div>
+  <p>&copy; 2025 PromptGrid &bull; Automation &bull; Precision &bull; Results</p>
+</div>
+
+<!-- SCROLL SPY + LANGUAGE SWITCHER -->
+<script>
+(function(){
+  var LANGS=['ru','ua','en'];
+  var buttons=document.querySelectorAll('[data-set-lang]');
+  var elements=document.querySelectorAll('[data-lang]');
+  function setLang(lang){
+    elements.forEach(function(el){el.classList.toggle('active',el.getAttribute('data-lang')===lang)});
+    buttons.forEach(function(btn){btn.classList.toggle('active',btn.getAttribute('data-set-lang')===lang)});
+    document.documentElement.lang=lang==='ua'?'uk':lang;
+  }
+  buttons.forEach(function(btn){btn.addEventListener('click',function(){setLang(btn.getAttribute('data-set-lang'))})});
+  var nav=document.querySelector('.report-nav');
+  var navLinks=document.querySelectorAll('.nav-link');
+  var anchors=Array.from(document.querySelectorAll('.section-anchor'));
+  function scrollNavToActive(link){
+    var navRect=nav.getBoundingClientRect();
+    var linkRect=link.getBoundingClientRect();
+    var pad=60;
+    if(linkRect.right+pad>navRect.right)nav.scrollBy({left:linkRect.right-navRect.right+pad,behavior:'smooth'});
+    else if(linkRect.left-pad<navRect.left)nav.scrollBy({left:linkRect.left-navRect.left-pad,behavior:'smooth'});
+  }
+  navLinks.forEach(function(link){link.addEventListener('click',function(){setTimeout(function(){scrollNavToActive(link)},50)})});
+  function updateActiveNav(){
+    var atBottom=(window.innerHeight+window.scrollY)>=(document.documentElement.scrollHeight-2);
+    var current=0;
+    if(atBottom){current=anchors.length-1}
+    else{for(var i=anchors.length-1;i>=0;i--){if(anchors[i]&&anchors[i].getBoundingClientRect().top<=80){current=i;break}}}
+    navLinks.forEach(function(link,idx){link.classList.toggle('active',idx===current)});
+    if(navLinks[current])scrollNavToActive(navLinks[current]);
+  }
+  window.addEventListener('scroll',updateActiveNav,{passive:true});
+  updateActiveNav();
+  setLang('en');
+})();
+</script>
+</body>
+</html>
