@@ -14,6 +14,9 @@ LEGACY100	100 FS	Legacy of Dead by Play'n Go
 GUARANTEE25	25% NoRisk Free Bets	
 BETSAFE20	20% NoRisk Freebets	
 
+
+
+
 FTD RETENTION
 Promo Code	Offer	Game (if needed)
 ANUBIS10050	100% + 50 FS	Hand of Anubis by Hacksaw Gaming
@@ -59,9 +62,36 @@ ONLYWIN30	30% No Risk Only Win
 
 
 DEP RETENTION
+Promo Code	Offer	Game (if needed)
+CASHPLUS4	4% CB	
+POWER140	140%	
+KENNEL100	100% + 100 FS	The Dog House Megaways by Pragmatic Play
+FINTASTIC150	100% + 150 FS	Razor Shark by Push Gaming
+CANDYDROP70	130% + 70 FS	Sweet Bonanza by Pragmatic Play
+CHAOSCTRL80	140% + 80 FS	Chaos Crew II by Hacksaw Gaming
+MADNESS16090	160% + 90 FS	Rich Wilde and the Tome of Madness by Play'n Go
+XBOMB150	150 FS	Fire in the Hole xBomb DX1 by Nolimit City
+UNDERWORLD200	200 FS	Hand of Anubis by Hacksaw Gaming
+EARNNRF15X	15% NRF	
+WIN20NRF	20% NRF	
+SECURE25	25% NRF	
+
+
 
 
 SU RETENTION
+Promo Code	Offer	Game (if needed)
+WINSAFE20	20% NRF	
+SURGE170	170%	
+ONLYSAFE30	30% NRF	
+BOOSTER170	170%	
+GEMHUNT200	200 FS	Gems Bonanza by Pragmatic Play
+GIANTPANDA100	140% + 100 FS	Big Bamboo by Push Gaming
+CREWBOOST150	150% + 70 FS	Chaos Crew II by Hacksaw Gaming
+GUNSLINGER160	160% + 80 FS	Wild West Gold by Pragmatic Play
+OUTLAW180	180% + 80 FS	Wanted Dead or a Wild by Hacksaw Gaming
+
+
 
 
 NUTRITION #2
