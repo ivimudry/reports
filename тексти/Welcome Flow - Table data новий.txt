@@ -1495,7 +1495,7 @@ name: Email 2S
 locale: fr-FR
 subject: ⚽ Game’s On — Your Bet Belongs on the Field
 preheader: The action’s heating up. Make your move and back your pick today.
-header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="BOOST50"
 from_id: 3
 utm_bonus_type: sports
 utm_campaign: welcome
