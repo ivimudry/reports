@@ -1,0 +1,17 @@
+$API_KEY = "c46b4da605edbb4694b13a408d6888bd"
+$CAMPAIGN_ID = "1"
+
+$headers = @{ "Authorization" = "Bearer $API_KEY" }
+$allActions = @()
+$start = ""
+
+do {
+    $url = "https://api.customer.io/v1/campaigns/$CAMPAIGN_ID/actions"
+    if ($start) { $url += "?start=$start" }
+    $resp = Invoke-RestMethod -Uri $url -Headers $headers -Method Get
+    $allActions += $resp.actions
+    $start = $resp.next
+} while ($start)
+
+$allActions | Select-Object id, name, type, parent_action_id | Format-Table -AutoSize
+Write-Host "`nTotal actions: $($allActions.Count)"
