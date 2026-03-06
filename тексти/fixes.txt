@@ -6,7 +6,7 @@ $allActions = @()
 $start = ""
 
 do {
-    $url = "https://api.customer.io/v1/campaigns/$CAMPAIGN_ID/actions"
+    $url = "https://api-eu.customer.io/v1/campaigns/$CAMPAIGN_ID/actions"
     if ($start) { $url += "?start=$start" }
     $resp = Invoke-RestMethod -Uri $url -Headers $headers -Method Get
     $allActions += $resp.actions
