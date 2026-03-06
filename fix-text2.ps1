@@ -1,4 +1,6 @@
-$path = "C:\Projects\REPORTS\тексти\Welcome Flow - новий.txt"
+$dir = (Get-ChildItem "C:\Projects\REPORTS" -Directory | Where-Object { $_.Name -match '^\u0442\u0435\u043a\u0441\u0442' })[0].FullName
+$path = (Get-ChildItem $dir -Filter "Welcome Flow*" | Where-Object { $_.Name -notlike "*Table*" })[0].FullName
+Write-Host "Processing: $path"
 $content = [IO.File]::ReadAllText($path)
 $eol = if ($content.Contains("`r`n")) { "`r`n" } else { "`n" }
 $lines = $content -split "`r?`n"
