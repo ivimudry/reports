@@ -1,0 +1,60 @@
+﻿
+id   name    parent lang 
+--   ----    ------ ---- 
+4    Email N             
+1910 Email N        fr-FR
+1912 Email N        fr-FR
+1913 Email N             
+1915 Email N        fr-FR
+1916 Email N             
+1918 Email N        fr-FR
+1919 Email N             
+1921 Email N        fr-FR
+1922 Email N             
+1924 Email N        fr-FR
+1925 Email N             
+1927 Email N        fr-FR
+1928 Email N             
+1930 Email N        fr-FR
+1931 Email N             
+1933 Email N        fr-FR
+1934 Email N             
+1936 Email N        fr-FR
+1937 Email N             
+1941 Email N        fr-FR
+1942 Email N             
+1946 Email N        fr-FR
+1947 Email N             
+1951 Email N        fr-FR
+1952 Email N             
+1957 Email N        fr-FR
+1958 Email N             
+1963 Email N        fr-FR
+1964 Email N             
+1969 Email N        fr-FR
+1970 Email N             
+1975 Email N        fr-FR
+1976 Email N             
+1981 Email N        fr-FR
+1982 Email N             
+1984 Email N        fr-FR
+1985 Email N             
+1989 Email N        fr-FR
+1990 Email N             
+1994 Email N        fr-FR
+1995 Email N             
+1999 Email N        fr-FR
+2000 Email N             
+2005 Email N        fr-FR
+2006 Email N             
+2011 Email N        fr-FR
+2012 Email N             
+2017 Email N        fr-FR
+2018 Email N             
+2023 Email N        fr-FR
+2024 Email N             
+2029 Email N        fr-FR
+2030 Email N             
+
+
+
