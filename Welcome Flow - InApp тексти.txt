@@ -31,15 +31,15 @@ Body: CREW150 is still valid - deposit now for 100% Bonus + 150 Free Spins on Ch
 CTA: CREW150
 
 InApp 1M
-Body: Players won up to €29,343 last week! Use code SAFE10 for a 10% NoRisk FreeBets Bonus on your next bet.
+Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Bet with a safety net.
 CTA: SAFE10
 
 InApp 2M
-Body: Players won up to €29,343 last week! Use code SAFE10 for a 10% NoRisk FreeBets Bonus on your next bet.
+Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Bet with a safety net.
 CTA: SAFE10
 
 InApp 3M
-Body: Players won up to €29,343 last week! Use code SAFE10 for a 10% NoRisk FreeBets Bonus on your next bet.
+Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Bet with a safety net.
 CTA: SAFE10
 
 InApp 4M
