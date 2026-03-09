@@ -3,63 +3,63 @@ Body: Unlock up to €2000 + 250 Free Spins across your first 4 deposits. Start 
 CTA: Claim Bonus
 
 Email 2C
-Body: Use code BANDIT150 on your first deposit — get 100% Bonus + 150 Free Spins on Le Bandit by Hacksaw Gaming.
-CTA: Claim Bonus
+Body: Use code BANDIT150 on your first deposit - get 100% Bonus + 150 Free Spins on Le Bandit by Hacksaw Gaming.
+CTA: BANDIT150
 
 Email 3C
-Body: Use code CREW150 on your first deposit — get 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
-CTA: Claim Bonus
+Body: Use code CREW150 on your first deposit - get 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
+CTA: CREW150
 
 Email 4C
-Body: Use code STORM170 on your first deposit — get 120% Bonus + 170 Free Spins on Stormforged by Hacksaw Gaming.
-CTA: Claim Bonus
+Body: Use code STORM170 on your first deposit - get 120% Bonus + 170 Free Spins on Stormforged by Hacksaw Gaming.
+CTA: STORM170
 
 Email 5C
-Body: Use code RIP100CITY on your first deposit — get 100% Bonus + 150 Free Spins on Rip City by Hacksaw Gaming.
-CTA: Claim Bonus
+Body: Use code RIP100CITY on your first deposit - get 100% Bonus + 150 Free Spins on Rip City by Hacksaw Gaming.
+CTA: RIP100CITY
 
 Email 6C
-Body: Use code BANDIT150 on your first deposit — get 100% Bonus + 150 Free Spins on Le Bandit by Hacksaw Gaming.
-CTA: Claim Bonus
+Body: Use code BANDIT150 on your first deposit - get 100% Bonus + 150 Free Spins on Le Bandit by Hacksaw Gaming.
+CTA: BANDIT150
 
 Email 7C
-Body: Slot wins up to $29,343 last week! No tricks, no codes — just pure play and real wins. Take your shot.
+Body: Slot wins up to $29,343 last week! No tricks, no codes - just pure play and real wins. Take your shot.
 CTA: Spin Now
 
 Email 8C
-Body: Enter code CREW150 on your first deposit — get 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
-CTA: Claim Bonus
+Body: Enter code CREW150 on your first deposit - get 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
+CTA: CREW150
 
 Email 1M
-Body: Get more back from every game with the Cashback Bonus — Slots, Live Casino, or Sports. More play, more back.
+Body: Get more back from every game with the Cashback Bonus - Slots, Live Casino, or Sports. More play, more back.
 CTA: Play Now
 
 Email 2M
 Body: Players won up to $29,343 last week! Use code SAFE10 for a 10% NoRisk FreeBets Bonus on your next bet.
-CTA: Play Now
+CTA: SAFE10
 
 Email 3M
-Body: Real wins last week — up to $42,380! Spin the slots or bet on live sports. One shot could change it all.
+Body: Real wins last week - up to $42,380! Spin the slots or bet on live sports. One shot could change it all.
 CTA: Play Now
 
 Email 4M
 Body: Enter code LEGACY100 for 100 Free Spins on Legacy of Dead. Enter code BETSAFE20 for 20% No Risk Free Bets Bonus.
-CTA: Get Started
+CTA: LEGACY100
 
 Email 5M
-Body: Players won up to $38,210 last week! Slots or sports — there's always something to win. Take your shot.
+Body: Players won up to $38,210 last week! Slots or sports - there's always something to win. Take your shot.
 CTA: Play Now
 
 Email 6M
-Body: Wins up to $47,890 last week! Spin or bet — the next win could have your name on it.
+Body: Wins up to $47,890 last week! Spin or bet - the next win could have your name on it.
 CTA: Play Now
 
 Email 7M
 Body: Use code LEGACY100 for 100 Free Spins on Legacy of Dead, and code BETSAFE20 for 20% NoRisk FreeBets. Your game begins now.
-CTA: Get Started
+CTA: LEGACY100
 
 Email 8M
-Body: Jackpots up to $41,226 dropped last week! Spin or bet — the next win is just one click away.
+Body: Jackpots up to $41,226 dropped last week! Spin or bet - the next win is just one click away.
 CTA: Play Now
 
 Email 1S
@@ -67,11 +67,11 @@ Body: FreeBets on your first 2 deposits: 50% Welcome Bonus up to €200 + 20% No
 CTA: Claim FreeBets
 
 Email 2S
-Body: Use code BOOST50 for a 50% bonus on your next deposit — more balance, more confidence, more wins.
-CTA: Bet Now
+Body: Use code BOOST50 for a 50% bonus on your next deposit - more balance, more confidence, more wins.
+CTA: BOOST50
 
 Email 3S
-Body: Bold odds are live. Get a 50% bonus on your next deposit — more value, more confidence, more action.
+Body: Bold odds are live. Get a 50% bonus on your next deposit - more value, more confidence, more action.
 CTA: Bet Now
 
 Email 4S
@@ -79,7 +79,7 @@ Body: 50% FreeBets Bonus up to €200 on your first deposit. One move. One edge.
 CTA: Claim FreeBets
 
 Email 5S
-Body: 50% Welcome FreeBets Bonus up to €200 on your first deposit. No overthinking — just go.
+Body: 50% Welcome FreeBets Bonus up to €200 on your first deposit. No overthinking - just go.
 CTA: Claim FreeBets
 
 Email 6S
@@ -87,21 +87,21 @@ Body: 50% Welcome FreeBets Bonus up to €200 on your first deposit. Pure moment
 CTA: Claim FreeBets
 
 Email 7S
-Body: Enter code FIREUP60 on your first deposit — get a 60% Welcome FreeBets Bonus. Play it your way.
-CTA: Claim FreeBets
+Body: Enter code FIREUP60 on your first deposit - get a 60% Welcome FreeBets Bonus. Play it your way.
+CTA: FIREUP60
 
 Email 8S
-Body: Use code FIREUP60 on your first deposit — get a 60% Welcome FreeBets Bonus. Smart play from the start.
-CTA: Claim FreeBets
+Body: Use code FIREUP60 on your first deposit - get a 60% Welcome FreeBets Bonus. Smart play from the start.
+CTA: FIREUP60
 
 Email 9C
-Body: Enter code SWEET180 on your first deposit — get 180 Free Spins on Sweet Bonanza by Pragmatic Play.
-CTA: Claim Bonus
+Body: Enter code SWEET180 on your first deposit - get 180 Free Spins on Sweet Bonanza by Pragmatic Play.
+CTA: SWEET180
 
 Email 9M
 Body: Use code LEGACY100 for 100 Free Spins on Legacy of Dead, and code BETSAFE20 for 20% No Risk FreeBets. Two ways to win.
-CTA: Get Started
+CTA: LEGACY100
 
 Email 9S
-Body: Use code FIREUP60 on your first deposit — get a 60% Welcome FreeBets Bonus. Make it bold. Make it count.
-CTA: Claim FreeBets
+Body: Use code FIREUP60 on your first deposit - get a 60% Welcome FreeBets Bonus. Make it bold. Make it count.
+CTA: FIREUP60
