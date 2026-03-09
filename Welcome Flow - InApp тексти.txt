@@ -1,107 +1,107 @@
-Email 1C
+InApp 1C
 Body: Unlock up to €2000 + 250 Free Spins across your first 4 deposits. Start with 100% up to €500 + 150 FS today!
 CTA: Claim Bonus
 
-Email 2C
+InApp 2C
 Body: BANDIT150 - your code for 100% Bonus + 150 Free Spins on Le Bandit by Hacksaw Gaming. Apply on first deposit.
 CTA: BANDIT150
 
-Email 3C
+InApp 3C
 Body: First deposit + CREW150 - 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
 CTA: CREW150
 
-Email 4C
+InApp 4C
 Body: STORM170 gets you 120% Bonus + 170 Free Spins on Stormforged by Hacksaw Gaming. Deposit and activate.
 CTA: STORM170
 
-Email 5C
+InApp 5C
 Body: Drop code RIP100CITY on your first deposit - 100% Bonus + 150 Free Spins on Rip City by Hacksaw Gaming.
 CTA: RIP100CITY
 
-Email 6C
+InApp 6C
 Body: BANDIT150 is live - 100% Bonus + 150 Free Spins on Le Bandit. Deposit and grab them.
 CTA: BANDIT150
 
-Email 7C
+InApp 7C
 Body: BANDIT150 is live - 100% Bonus + 150 Free Spins on Le Bandit. Deposit and grab them.
 CTA: BANDIT150
 
-Email 8C
+InApp 8C
 Body: CREW150 is still valid - deposit now for 100% Bonus + 150 Free Spins on Chaos Crew II.
 CTA: CREW150
 
-Email 1M
+InApp 1M
 Body: Players won up to €29,343 last week! Use code SAFE10 for a 10% NoRisk FreeBets Bonus on your next bet.
 CTA: SAFE10
 
-Email 2M
+InApp 2M
 Body: Players won up to €29,343 last week! Use code SAFE10 for a 10% NoRisk FreeBets Bonus on your next bet.
 CTA: SAFE10
 
-Email 3M
+InApp 3M
 Body: Players won up to €29,343 last week! Use code SAFE10 for a 10% NoRisk FreeBets Bonus on your next bet.
 CTA: SAFE10
 
-Email 4M
+InApp 4M
 Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets.
 CTA: Get Started
 
-Email 5M
+InApp 5M
 Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets.
 CTA: Get Started
 
-Email 6M
+InApp 6M
 Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets.
 CTA: Get Started
 
-Email 7M
+InApp 7M
 Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets.
 CTA: Pick Yours
 
-Email 8M
+InApp 8M
 Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets.
 CTA: Pick Yours
 
-Email 1S
+InApp 1S
 Body: 50% Welcome Bonus up to €200 + 20% NoRisk up to €500 on your first 2 deposits. FreeBets are live.
 CTA: Get FreeBets
 
-Email 2S
+InApp 2S
 Body: BOOST50 gives you 50% extra on your next deposit. Bigger balance, better bets.
 CTA: BOOST50
 
-Email 3S
+InApp 3S
 Body: Top odds are up and a 50% bonus is on the table. Deposit and bet bigger.
 CTA: Bet Now
 
-Email 4S
+InApp 4S
 Body: 50% FreeBets Bonus up to €200 on your first deposit. Straight to the action.
 CTA: Claim FreeBets
 
-Email 5S
+InApp 5S
 Body: 50% Welcome FreeBets Bonus up to €200 - first deposit only. Quick and simple.
 CTA: Grab FreeBets
 
-Email 6S
+InApp 6S
 Body: 50% Welcome FreeBets Bonus up to €200 on your first deposit. Start with an edge.
 CTA: Start Betting
 
-Email 7S
+InApp 7S
 Body: FIREUP60 on your first deposit - 60% Welcome FreeBets Bonus. Deposit and bet.
 CTA: FIREUP60
 
-Email 8S
+InApp 8S
 Body: 60% Welcome FreeBets Bonus is live with FIREUP60 - apply it on your first deposit.
 CTA: FIREUP60
 
-Email 9C
+InApp 9C
 Body: SWEET180 on your first deposit - 180 Free Spins on Sweet Bonanza by Pragmatic Play.
 CTA: SWEET180
 
-Email 9M
+InApp 9M
 Body: Pick your bonus - LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk FreeBets.
 CTA: Claim Now
 
-Email 9S
+InApp 9S
 Body: 60% FreeBets Bonus with FIREUP60 - one deposit and it's yours.
 CTA: FIREUP60
