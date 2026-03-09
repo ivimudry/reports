@@ -7,7 +7,7 @@ Body: BANDIT150 - your code for 100% Bonus + 150 Free Spins on Le Bandit by Hack
 CTA: BANDIT150
 
 Email 3C
-Body: First deposit + CREW150 = 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
+Body: First deposit + CREW150 - 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
 CTA: CREW150
 
 Email 4C
@@ -43,7 +43,7 @@ Body: €42,380 in wins last week - slots and live sports both paid out big. You
 CTA: Try Now
 
 Email 4M
-Body: LEGACY100 = 100 Free Spins on Legacy of Dead. BETSAFE20 = 20% No Risk Free Bets. Two codes, two bonuses.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets.
 CTA: Get Started
 
 Email 5M
@@ -55,7 +55,7 @@ Body: €47,890 in wins dropped last week! Slots and sports keep paying out.
 CTA: Deposit Now
 
 Email 7M
-Body: LEGACY100 for 100 Free Spins on Legacy of Dead + BETSAFE20 for 20% NoRisk FreeBets. Both codes ready to use.
+Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets.
 CTA: Grab Both
 
 Email 8M
@@ -87,7 +87,7 @@ Body: 50% Welcome FreeBets Bonus up to €200 on your first deposit. Start with 
 CTA: Start Betting
 
 Email 7S
-Body: FIREUP60 on your first deposit = 60% Welcome FreeBets Bonus. Deposit and bet.
+Body: FIREUP60 on your first deposit - 60% Welcome FreeBets Bonus. Deposit and bet.
 CTA: FIREUP60
 
 Email 8S
@@ -95,11 +95,11 @@ Body: 60% Welcome FreeBets Bonus is live with FIREUP60 - apply it on your first 
 CTA: FIREUP60
 
 Email 9C
-Body: SWEET180 on your first deposit = 180 Free Spins on Sweet Bonanza by Pragmatic Play.
+Body: SWEET180 on your first deposit - 180 Free Spins on Sweet Bonanza by Pragmatic Play.
 CTA: SWEET180
 
 Email 9M
-Body: Two codes, two rewards - LEGACY100 for 100 Free Spins on Legacy of Dead + BETSAFE20 for 20% No Risk FreeBets.
+Body: Pick your bonus - LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk FreeBets.
 CTA: Claim Now
 
 Email 9S
