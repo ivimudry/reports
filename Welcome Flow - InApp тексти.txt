@@ -1,26 +1,26 @@
 Email 1C
 Body: Unlock up to €2000 + 250 Free Spins across your first 4 deposits. Start with 100% up to €500 + 150 FS today!
-CTA: Claim Your Bonus
+CTA: Claim Bonus
 
 Email 2C
 Body: Use code BANDIT150 on your first deposit — get 100% Bonus + 150 Free Spins on Le Bandit by Hacksaw Gaming.
-CTA: Claim Your Bonus
+CTA: Claim Bonus
 
 Email 3C
 Body: Use code CREW150 on your first deposit — get 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
-CTA: Claim Your Bonus
+CTA: Claim Bonus
 
 Email 4C
 Body: Use code STORM170 on your first deposit — get 120% Bonus + 170 Free Spins on Stormforged by Hacksaw Gaming.
-CTA: Claim Your Bonus
+CTA: Claim Bonus
 
 Email 5C
 Body: Use code RIP100CITY on your first deposit — get 100% Bonus + 150 Free Spins on Rip City by Hacksaw Gaming.
-CTA: Claim Your Bonus
+CTA: Claim Bonus
 
 Email 6C
 Body: Use code BANDIT150 on your first deposit — get 100% Bonus + 150 Free Spins on Le Bandit by Hacksaw Gaming.
-CTA: Claim Your Bonus
+CTA: Claim Bonus
 
 Email 7C
 Body: Slot wins up to $29,343 last week! No tricks, no codes — just pure play and real wins. Take your shot.
@@ -28,7 +28,7 @@ CTA: Spin Now
 
 Email 8C
 Body: Enter code CREW150 on your first deposit — get 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming.
-CTA: Claim Your Bonus
+CTA: Claim Bonus
 
 Email 1M
 Body: Get more back from every game with the Cashback Bonus — Slots, Live Casino, or Sports. More play, more back.
@@ -96,7 +96,7 @@ CTA: Claim FreeBets
 
 Email 9C
 Body: Enter code SWEET180 on your first deposit — get 180 Free Spins on Sweet Bonanza by Pragmatic Play.
-CTA: Claim Your Bonus
+CTA: Claim Bonus
 
 Email 9M
 Body: Use code LEGACY100 for 100 Free Spins on Legacy of Dead, and code BETSAFE20 for 20% No Risk FreeBets. Two ways to win.
