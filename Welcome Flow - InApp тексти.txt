@@ -44,7 +44,7 @@ CTA: Play Now
 
 Email 4M
 Body: Enter code LEGACY100 for 100 Free Spins on Legacy of Dead. Enter code BETSAFE20 for 20% No Risk Free Bets Bonus.
-CTA: LEGACY100
+CTA: Get Started
 
 Email 5M
 Body: Players won up to $38,210 last week! Slots or sports - there's always something to win. Take your shot.
@@ -56,7 +56,7 @@ CTA: Play Now
 
 Email 7M
 Body: Use code LEGACY100 for 100 Free Spins on Legacy of Dead, and code BETSAFE20 for 20% NoRisk FreeBets. Your game begins now.
-CTA: LEGACY100
+CTA: Get Started
 
 Email 8M
 Body: Jackpots up to $41,226 dropped last week! Spin or bet - the next win is just one click away.
@@ -100,7 +100,7 @@ CTA: SWEET180
 
 Email 9M
 Body: Use code LEGACY100 for 100 Free Spins on Legacy of Dead, and code BETSAFE20 for 20% No Risk FreeBets. Two ways to win.
-CTA: LEGACY100
+CTA: Get Started
 
 Email 9S
 Body: Use code FIREUP60 on your first deposit - get a 60% Welcome FreeBets Bonus. Make it bold. Make it count.
