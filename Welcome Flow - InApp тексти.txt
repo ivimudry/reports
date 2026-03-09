@@ -7,7 +7,7 @@ Body: BANDIT150 - your code for 100% Bonus + 150 Free Spins on Le Bandit. Apply 
 CTA: BANDIT150
 
 InApp 3C
-Body: First deposit + CREW150 - 100% Bonus + 150 Free Spins on Chaos Crew II. Deposit and join the crew.
+Body: First deposit + CREW150 - 100% Bonus + 150 Free Spins on Chaos Crew II. Deposit and spin.
 CTA: CREW150
 
 InApp 4C
