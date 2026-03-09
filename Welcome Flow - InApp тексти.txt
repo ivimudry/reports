@@ -43,15 +43,15 @@ Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. De
 CTA: SAFE10
 
 InApp 4M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Deposit and pick one.
 CTA: Get Started
 
 InApp 5M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Deposit and pick one.
 CTA: Get Started
 
 InApp 6M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Deposit and pick one.
 CTA: Get Started
 
 InApp 7M
@@ -99,7 +99,7 @@ Body: SWEET180 on your first deposit - 180 Free Spins on Sweet Bonanza. Deposit 
 CTA: SWEET180
 
 InApp 9M
-Body: Pick your bonus - LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk FreeBets. Deposit to unlock it.
+Body: Pick your bonus - LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Deposit to unlock it.
 CTA: Claim Now
 
 InApp 9S
