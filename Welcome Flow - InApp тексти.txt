@@ -3,19 +3,19 @@ Body: Unlock up to €2000 + 250 Free Spins across your first 4 deposits. Start 
 CTA: Claim Bonus
 
 InApp 2C
-Body: BANDIT150 - your code for 100% Bonus + 150 Free Spins on Le Bandit by Hacksaw Gaming. Apply on first deposit.
+Body: BANDIT150 - your code for 100% Bonus + 150 Free Spins on Le Bandit. Apply on first deposit.
 CTA: BANDIT150
 
 InApp 3C
-Body: First deposit + CREW150 - 100% Bonus + 150 Free Spins on Chaos Crew II by Hacksaw Gaming. Deposit and join the crew. Deposit and join the crew.
+Body: First deposit + CREW150 - 100% Bonus + 150 Free Spins on Chaos Crew II. Deposit and join the crew.
 CTA: CREW150
 
 InApp 4C
-Body: STORM170 gets you 120% Bonus + 170 Free Spins on Stormforged by Hacksaw Gaming. Deposit and activate.
+Body: STORM170 gets you 120% Bonus + 170 Free Spins on Stormforged. Deposit and activate.
 CTA: STORM170
 
 InApp 5C
-Body: Drop code RIP100CITY on your first deposit - 100% Bonus + 150 Free Spins on Rip City by Hacksaw Gaming. Deposit and play. Deposit and play.
+Body: Drop code RIP100CITY on your first deposit - 100% Bonus + 150 Free Spins on Rip City. Deposit and play.
 CTA: RIP100CITY
 
 InApp 6C
@@ -27,7 +27,7 @@ Body: BANDIT150 is live - 100% Bonus + 150 Free Spins on Le Bandit. Deposit and 
 CTA: BANDIT150
 
 InApp 8C
-Body: CREW150 is still valid - deposit now for 100% Bonus + 150 Free Spins on Chaos Crew II.
+Body: CREW150 is still valid - 100% Bonus + 150 Free Spins on Chaos Crew II. Deposit now and claim them.
 CTA: CREW150
 
 InApp 1M
@@ -43,23 +43,23 @@ Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. De
 CTA: SAFE10
 
 InApp 4M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one.
 CTA: Get Started
 
 InApp 5M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one.
 CTA: Get Started
 
 InApp 6M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk Free Bets. Deposit and pick one.
 CTA: Get Started
 
 InApp 7M
-Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Fund your account and choose. Fund your account and choose.
+Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Fund your account and choose.
 CTA: Pick Yours
 
 InApp 8M
-Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Fund your account and choose. Fund your account and choose.
+Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Fund your account and choose.
 CTA: Pick Yours
 
 InApp 1S
@@ -95,11 +95,11 @@ Body: 60% Welcome FreeBets Bonus is live with FIREUP60 - apply it on your first 
 CTA: FIREUP60
 
 InApp 9C
-Body: SWEET180 on your first deposit - 180 Free Spins on Sweet Bonanza by Pragmatic Play. Deposit and start spinning. Deposit and start spinning.
+Body: SWEET180 on your first deposit - 180 Free Spins on Sweet Bonanza. Deposit and start spinning.
 CTA: SWEET180
 
 InApp 9M
-Body: Pick your bonus - LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk FreeBets. Deposit to unlock it. Deposit to unlock it.
+Body: Pick your bonus - LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% No Risk FreeBets. Deposit to unlock it.
 CTA: Claim Now
 
 InApp 9S
