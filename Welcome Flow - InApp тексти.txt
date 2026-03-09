@@ -56,7 +56,7 @@ CTA: Deposit Now
 
 Email 7M
 Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets.
-CTA: Grab Both
+CTA: Pick Yours
 
 Email 8M
 Body: €41,226 in jackpots last week! Slots and sports keep hitting - deposit and get in.
