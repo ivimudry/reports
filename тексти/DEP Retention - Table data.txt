@@ -1,0 +1,423 @@
+name: Email 1C
+locale: Default
+subject: 💥 170% Bonus: Power Up Your Play Today
+preheader: Look what's inside to help you win at the tables
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="SURGE170"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, the floor is yours!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Why play on just your deposit when you can play with <strong>170%</strong> more? We're supercharging your next top-up so you can stay in longer and chase bigger moments.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Enter <strong class="promocode">SURGE170</strong> before making your next deposit to unlock your <strong>170% Bonus</strong> and turn your balance into a real advantage.<br><br>The action is live at <strong>Celsius Casino</strong> — claim your <strong>170% Bonus</strong>, pick your favorite table, and make your move with confidence.</p></td>
+promocode_button_1: SURGE170
+button_text_1: BOOST YOUR BALANCE NOW
+
+name: Email 1C
+locale: fr-FR
+subject: 💥 170% Bonus: Power Up Your Play Today
+preheader: Look what's inside to help you win at the tables
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="SURGE170"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, the floor is yours!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Why play on just your deposit when you can play with <strong>170%</strong> more? We're supercharging your next top-up so you can stay in longer and chase bigger moments.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Enter <strong class="promocode">SURGE170</strong> before making your next deposit to unlock your <strong>170% Bonus</strong> and turn your balance into a real advantage.<br><br>The action is live at <strong>Celsius Casino</strong> — claim your <strong>170% Bonus</strong>, pick your favorite table, and make your move with confidence.</p></td>
+promocode_button_1: SURGE170
+button_text_1: BOOST YOUR BALANCE NOW
+
+name: Email 1S
+locale: Default
+subject: 🥊 20% NoRisk Free Bet: Strike Hard
+preheader: The line is open — your risk-free edge is waiting
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WINSAFE20"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, victory is within reach!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Nothing beats the rush of a winning bet — so we're backing your next move with a <strong>20% NoRisk Free Bet</strong>, built to help you play with confidence.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To activate, enter the promo code <strong class="promocode">WINSAFE20</strong> before making your next deposit. Your <strong>20% NoRisk Free Bet</strong> will be ready to use right away.<br><br>Explore the hottest matchups on <strong>Celsius Sport</strong>, lock in your favorite market, and take your shot while the odds are live.</p></td>
+promocode_button_1: WINSAFE20
+button_text_1: SECURE MY BOOST
+
+name: Email 1S
+locale: fr-FR
+subject: 🥊 20% NoRisk Free Bet: Strike Hard
+preheader: The line is open — your risk-free edge is waiting
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WINSAFE20"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, victory is within reach!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Nothing beats the rush of a winning bet — so we're backing your next move with a <strong>20% NoRisk Free Bet</strong>, built to help you play with confidence.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To activate, enter the promo code <strong class="promocode">WINSAFE20</strong> before making your next deposit. Your <strong>20% NoRisk Free Bet</strong> will be ready to use right away.<br><br>Explore the hottest matchups on <strong>Celsius Sport</strong>, lock in your favorite market, and take your shot while the odds are live.</p></td>
+promocode_button_1: WINSAFE20
+button_text_1: SECURE MY BOOST
+
+name: Email 2C
+locale: Default
+subject: ⚡ 150% + 70 Free Spins: Don't Wait to Grab Them
+preheader: Your next big win is ready — are you?
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="CREWBOOST150"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, the games are waiting!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Why sit on the sidelines when you could be stacking wins? Deposit now and level up with a <strong>150% bonus + 70 Free Spins</strong> on <strong>Chaos Crew II by Hacksaw Gaming</strong>.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To unlock it, add the promo code <strong class="promocode">CREWBOOST150</strong> first, then complete your deposit — your <strong>150% bonus and 70 Free Spins</strong> are ready from the first spin.<br><br>The action at <strong>Celsius Casino</strong> doesn't slow down. Jump into <strong>Chaos Crew II by Hacksaw Gaming</strong> and chase your next big hit.</p></td>
+promocode_button_1: CREWBOOST150
+button_text_1: CLAIM YOUR DOUBLE REWARD
+
+name: Email 2C
+locale: fr-FR
+subject: ⚡ 150% + 70 Free Spins: Don't Wait to Grab Them
+preheader: Your next big win is ready — are you?
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="CREWBOOST150"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, the games are waiting!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Why sit on the sidelines when you could be stacking wins? Deposit now and level up with a <strong>150% bonus + 70 Free Spins</strong> on <strong>Chaos Crew II by Hacksaw Gaming</strong>.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To unlock it, add the promo code <strong class="promocode">CREWBOOST150</strong> first, then complete your deposit — your <strong>150% bonus and 70 Free Spins</strong> are ready from the first spin.<br><br>The action at <strong>Celsius Casino</strong> doesn't slow down. Jump into <strong>Chaos Crew II by Hacksaw Gaming</strong> and chase your next big hit.</p></td>
+promocode_button_1: CREWBOOST150
+button_text_1: CLAIM YOUR DOUBLE REWARD
+
+name: Email 2S
+locale: Default
+subject: ⚽ 20% NoRisk Free Bet: It's Prime Time
+preheader: The match of the day is calling — get in with protection
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WINSAFE20"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Fan" | capitalize }}, the lights are on!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Prime Time is almost here — the biggest match of the day, high tension, and one moment can change everything. Get in before kickoff.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To boost today's action, claim your <strong>20% NoRisk Free Bet</strong>: add the promo code <strong class="promocode">WINSAFE20</strong> first, then complete your deposit to activate your <strong>20% NoRisk Free Bet</strong> protection.<br><br>Top up your bankroll, check the lineups, and make your play on <strong>Celsius Sport</strong> with a safety net behind you.</p></td>
+promocode_button_1: WINSAFE20
+button_text_1: GET MY NORISK BET
+
+name: Email 2S
+locale: fr-FR
+subject: ⚽ 20% NoRisk Free Bet: It's Prime Time
+preheader: The match of the day is calling — get in with protection
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WINSAFE20"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Fan" | capitalize }}, the lights are on!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Prime Time is almost here — the biggest match of the day, high tension, and one moment can change everything. Get in before kickoff.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To boost today's action, claim your <strong>20% NoRisk Free Bet</strong>: add the promo code <strong class="promocode">WINSAFE20</strong> first, then complete your deposit to activate your <strong>20% NoRisk Free Bet</strong> protection.<br><br>Top up your bankroll, check the lineups, and make your play on <strong>Celsius Sport</strong> with a safety net behind you.</p></td>
+promocode_button_1: WINSAFE20
+button_text_1: GET MY NORISK BET
+
+name: Email 4C
+locale: Default
+subject: 💥 160% + 80 Spins: Grab Them and Feel the Rush
+preheader: Catch the perfect timing for your next big win today
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="GUNSLINGER160"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, let's turn up the heat!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">You've got the instinct — now strike while the timing is perfect. Claim a <strong>160% bonus + 80 Free Spins</strong> on <strong>Wild West Gold by Pragmatic Play</strong> to supercharge your next session.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Enter the promo code <strong class="promocode">GUNSLINGER160</strong> before you deposit to unlock your <strong>160% bonus and 80 Free Spins</strong>. Then jump straight into <strong>Wild West Gold by Pragmatic Play</strong>.<br><br>The reels are primed at <strong>Celsius Casino</strong> — ready to start a winning run?</p></td>
+promocode_button_1: GUNSLINGER160
+button_text_1: BOOST YOUR TEMPO NOW
+
+name: Email 4C
+locale: fr-FR
+subject: 💥 160% + 80 Spins: Grab Them and Feel the Rush
+preheader: Catch the perfect timing for your next big win today
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="GUNSLINGER160"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, let's turn up the heat!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">You've got the instinct — now strike while the timing is perfect. Claim a <strong>160% bonus + 80 Free Spins</strong> on <strong>Wild West Gold by Pragmatic Play</strong> to supercharge your next session.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Enter the promo code <strong class="promocode">GUNSLINGER160</strong> before you deposit to unlock your <strong>160% bonus and 80 Free Spins</strong>. Then jump straight into <strong>Wild West Gold by Pragmatic Play</strong>.<br><br>The reels are primed at <strong>Celsius Casino</strong> — ready to start a winning run?</p></td>
+promocode_button_1: GUNSLINGER160
+button_text_1: BOOST YOUR TEMPO NOW
+
+name: Email 4S
+locale: Default
+subject: ⚽ 170% Boost: Your Play, Your Script
+preheader: Take control of the game and write your own story
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="SURGE170"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Coach" | capitalize }}, you call the shots!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Every match has a storyline — and today, you're writing it. To back your read from the first whistle to the final play, we're loading your next session with a <strong>170% deposit bonus</strong>.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Input the promo code <strong class="promocode">SURGE170</strong> ahead of your deposit to unlock your <strong>170% deposit bonus</strong>. Then head to <strong>Celsius Sport</strong>, scan the markets, and build your bet slip your way.<br><br>The board is live — and your advantage is ready. Now script the result.</p></td>
+promocode_button_1: SURGE170
+button_text_1: CLAIM MY BOOST
+
+name: Email 4S
+locale: fr-FR
+subject: ⚽ 170% Boost: Your Play, Your Script
+preheader: Take control of the game and write your own story
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="SURGE170"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Coach" | capitalize }}, you call the shots!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Every match has a storyline — and today, you're writing it. To back your read from the first whistle to the final play, we're loading your next session with a <strong>170% deposit bonus</strong>.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Input the promo code <strong class="promocode">SURGE170</strong> ahead of your deposit to unlock your <strong>170% deposit bonus</strong>. Then head to <strong>Celsius Sport</strong>, scan the markets, and build your bet slip your way.<br><br>The board is live — and your advantage is ready. Now script the result.</p></td>
+promocode_button_1: SURGE170
+button_text_1: CLAIM MY BOOST
+
+name: Email 5C
+locale: Default
+subject: 🎰 170% Bonus: Instant Boost Activated
+preheader: Your path to a big win just got a lot faster
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="BOOSTER170"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, get ready for more!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">When the games are running hot, speed wins. We're instantly loading a <strong>170% bonus</strong> onto your next deposit — built to push your session further, faster. Remember to input <strong class="promocode">BOOSTER170</strong> ahead of your deposit to claim it.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Fuel your account and watch your balance take off at <strong>Celsius Casino</strong>. With <strong>170%</strong> more, you can play longer, press harder, and chase the big multipliers.</p></td>
+promocode_button_1: BOOSTER170
+button_text_1: START WINNING NOW
+
+name: Email 5C
+locale: fr-FR
+subject: 🎰 170% Bonus: Instant Boost Activated
+preheader: Your path to a big win just got a lot faster
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="BOOSTER170"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, get ready for more!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">When the games are running hot, speed wins. We're instantly loading a <strong>170% bonus</strong> onto your next deposit — built to push your session further, faster. Remember to input <strong class="promocode">BOOSTER170</strong> ahead of your deposit to claim it.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Fuel your account and watch your balance take off at <strong>Celsius Casino</strong>. With <strong>170%</strong> more, you can play longer, press harder, and chase the big multipliers.</p></td>
+promocode_button_1: BOOSTER170
+button_text_1: START WINNING NOW
+
+name: Email 5S
+locale: Default
+subject: 🚀 20% NoRisk Bet: Open, Activate, Win
+preheader: Get straight to the heart of the action with no delays
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WINSAFE20"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, no time to waste!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The biggest moments are live — and there's a faster way to jump in with an edge at <strong>Celsius Sport</strong>. No delays, just action with protection behind your play.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Your quick path: check the odds, apply the promo code <strong class="promocode">WINSAFE20</strong> before your deposit, then activate your <strong>20% NoRisk Free Bet</strong>. That's <strong>20% NoRisk Free Bet</strong> protection on your stake — built to keep you confident from first pick to final whistle.<br><br>Three steps. One advantage. Let's get your streak started.</p></td>
+promocode_button_1: WINSAFE20
+button_text_1: ACTIVATE MY NORISK BET
+
+name: Email 5S
+locale: fr-FR
+subject: 🚀 20% NoRisk Bet: Open, Activate, Win
+preheader: Get straight to the heart of the action with no delays
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WINSAFE20"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, no time to waste!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The biggest moments are live — and there's a faster way to jump in with an edge at <strong>Celsius Sport</strong>. No delays, just action with protection behind your play.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Your quick path: check the odds, apply the promo code <strong class="promocode">WINSAFE20</strong> before your deposit, then activate your <strong>20% NoRisk Free Bet</strong>. That's <strong>20% NoRisk Free Bet</strong> protection on your stake — built to keep you confident from first pick to final whistle.<br><br>Three steps. One advantage. Let's get your streak started.</p></td>
+promocode_button_1: WINSAFE20
+button_text_1: ACTIVATE MY NORISK BET
+
+name: Email 6S
+locale: Default
+subject: ⚡ 170% Boost: Unleash the Power
+preheader: Fuel your winning streak with extra firepower
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="BOOSTER170"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, step into the spotlight!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Ready to turn up the intensity? This week's biggest fixtures come with a <strong>170% deposit bonus</strong> to power every pick you make.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To activate your <strong>170% deposit bonus</strong>, enter the promo code <strong class="promocode">BOOSTER170</strong> before topping up — your boost is instantly loaded.<br><br>Whether you're building parlays or locking in sharp singles, the extra power gives you more room to play your strategy at <strong>Celsius Sport</strong>. Take control and let your edge surge with <strong>170%</strong>.</p></td>
+promocode_button_1: BOOSTER170
+button_text_1: CLAIM MY BOOST
+
+name: Email 6S
+locale: fr-FR
+subject: ⚡ 170% Boost: Unleash the Power
+preheader: Fuel your winning streak with extra firepower
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="BOOSTER170"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, step into the spotlight!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Ready to turn up the intensity? This week's biggest fixtures come with a <strong>170% deposit bonus</strong> to power every pick you make.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To activate your <strong>170% deposit bonus</strong>, enter the promo code <strong class="promocode">BOOSTER170</strong> before topping up — your boost is instantly loaded.<br><br>Whether you're building parlays or locking in sharp singles, the extra power gives you more room to play your strategy at <strong>Celsius Sport</strong>. Take control and let your edge surge with <strong>170%</strong>.</p></td>
+promocode_button_1: BOOSTER170
+button_text_1: CLAIM MY BOOST
+
+name: Email 7C
+locale: Default
+subject: ⚡ 160% + 80 Free Spins: Activate and Spin
+preheader: Get straight to the winning part with instant rewards
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="GUNSLINGER160"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, why wait for the fun?</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">We made it instant: you activate, you spin, you chase wins. Your next deposit at <strong>Celsius Casino</strong> unlocks a <strong>160% bonus + 80 Free Spins</strong> on <strong>Wild West Gold by Pragmatic Play</strong>.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Just apply the promo code <strong class="promocode">GUNSLINGER160</strong> before topping up — no delays, no extra steps. Then hit <strong>Wild West Gold by Pragmatic Play</strong> and use your <strong>80 Free Spins</strong> to hunt that next big multiplier.</p></td>
+promocode_button_1: GUNSLINGER160
+button_text_1: ACTIVATE MY BONUS
+
+name: Email 7C
+locale: fr-FR
+subject: ⚡ 160% + 80 Free Spins: Activate and Spin
+preheader: Get straight to the winning part with instant rewards
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="GUNSLINGER160"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, why wait for the fun?</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">We made it instant: you activate, you spin, you chase wins. Your next deposit at <strong>Celsius Casino</strong> unlocks a <strong>160% bonus + 80 Free Spins</strong> on <strong>Wild West Gold by Pragmatic Play</strong>.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Just apply the promo code <strong class="promocode">GUNSLINGER160</strong> before topping up — no delays, no extra steps. Then hit <strong>Wild West Gold by Pragmatic Play</strong> and use your <strong>80 Free Spins</strong> to hunt that next big multiplier.</p></td>
+promocode_button_1: GUNSLINGER160
+button_text_1: ACTIVATE MY BONUS
+
+name: Email 7S
+locale: Default
+subject: ⚡ 20% NoRisk Free Bet: Your Advantage
+preheader: Follow the winning formula from promo to match
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WINSAFE20"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, get the edge you need!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Why leave it to chance when you can play with an edge? Activate your promo, place your bet, and enjoy the match with protection behind your play.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Start by entering the promo code <strong class="promocode">WINSAFE20</strong>, then make your deposit and unlock your <strong>20% NoRisk Free Bet</strong>. Then head to <strong>Celsius Sport</strong> and choose your spot — the derby, the tactical clash, or the must-watch matchup.<br><br>With <strong>20% NoRisk Free Bet</strong> protection, you can trust your instincts and stay in control from kickoff to final whistle.</p></td>
+promocode_button_1: WINSAFE20
+button_text_1: GET MY ADVANTAGE
+
+name: Email 7S
+locale: fr-FR
+subject: ⚡ 20% NoRisk Free Bet: Your Advantage
+preheader: Follow the winning formula from promo to match
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WINSAFE20"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, get the edge you need!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Why leave it to chance when you can play with an edge? Activate your promo, place your bet, and enjoy the match with protection behind your play.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Start by entering the promo code <strong class="promocode">WINSAFE20</strong>, then make your deposit and unlock your <strong>20% NoRisk Free Bet</strong>. Then head to <strong>Celsius Sport</strong> and choose your spot — the derby, the tactical clash, or the must-watch matchup.<br><br>With <strong>20% NoRisk Free Bet</strong> protection, you can trust your instincts and stay in control from kickoff to final whistle.</p></td>
+promocode_button_1: WINSAFE20
+button_text_1: GET MY ADVANTAGE
+
+name: Email 8C
+locale: Default
+subject: 🚀 180% Bonus + 80 Free Spins: Upgrade Your Entry
+preheader: See how to power up your next deposit in just a few clicks
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="OUTLAW180"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Friend" | capitalize }}, it's time to level up!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Don't just join the game — take control. Your next deposit gets a serious upgrade: a <strong>180% power-up + 80 Free Spins</strong> on <strong>Wanted Dead or a Wild by Hacksaw Gaming</strong>, built to launch your session fast.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Start by entering the promo code <strong class="promocode">OUTLAW180</strong>, then make your deposit and jump into <strong>Wanted Dead or a Wild by Hacksaw Gaming</strong> at <strong>Celsius Casino</strong>. Your <strong>180% boost and 80 Free Spins</strong> are ready from the first spin.</p></td>
+promocode_button_1: OUTLAW180
+button_text_1: GET MY POWER-UP NOW
+
+name: Email 8C
+locale: fr-FR
+subject: 🚀 180% Bonus + 80 Free Spins: Upgrade Your Entry
+preheader: See how to power up your next deposit in just a few clicks
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="OUTLAW180"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Friend" | capitalize }}, it's time to level up!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Don't just join the game — take control. Your next deposit gets a serious upgrade: a <strong>180% power-up + 80 Free Spins</strong> on <strong>Wanted Dead or a Wild by Hacksaw Gaming</strong>, built to launch your session fast.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Start by entering the promo code <strong class="promocode">OUTLAW180</strong>, then make your deposit and jump into <strong>Wanted Dead or a Wild by Hacksaw Gaming</strong> at <strong>Celsius Casino</strong>. Your <strong>180% boost and 80 Free Spins</strong> are ready from the first spin.</p></td>
+promocode_button_1: OUTLAW180
+button_text_1: GET MY POWER-UP NOW
+
+name: Email 9C
+locale: Default
+subject: 💎 140% Bonus + 100 Free Spins: Why Wait?
+preheader: Take the lead and secure your extra chances to win big
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="GIANTPANDA100"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Friend" | capitalize }}, make today legendary.</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The "perfect moment" doesn't arrive — you create it. Today, go bigger from the first spin with a <strong>140% bonus + 100 Free Spins</strong> on <strong>Big Bamboo by Push Gaming</strong>. Just add the code <strong class="promocode">GIANTPANDA100</strong> first, then complete your deposit to unlock it.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Step into <strong>Celsius Casino</strong> with a boosted balance and <strong>100 Free Spins</strong> ready to fire. Play longer, push deeper, and chase that jackpot with real momentum.</p></td>
+promocode_button_1: GIANTPANDA100
+button_text_1: GRAB MY BOOST
+
+name: Email 9C
+locale: fr-FR
+subject: 💎 140% Bonus + 100 Free Spins: Why Wait?
+preheader: Take the lead and secure your extra chances to win big
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="GIANTPANDA100"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Friend" | capitalize }}, make today legendary.</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The "perfect moment" doesn't arrive — you create it. Today, go bigger from the first spin with a <strong>140% bonus + 100 Free Spins</strong> on <strong>Big Bamboo by Push Gaming</strong>. Just add the code <strong class="promocode">GIANTPANDA100</strong> first, then complete your deposit to unlock it.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Step into <strong>Celsius Casino</strong> with a boosted balance and <strong>100 Free Spins</strong> ready to fire. Play longer, push deeper, and chase that jackpot with real momentum.</p></td>
+promocode_button_1: GIANTPANDA100
+button_text_1: GRAB MY BOOST
+
+name: Email 9S
+locale: Default
+subject: 🎾 30% NoRisk Bet: Smart Viewing
+preheader: Combine your sports passion with a risk-free edge
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="ONLYSAFE30"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, it's time to play.</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The best way to watch your favorite sport? With skin in the game — and protection on your stake. Today you get <strong>30% NoRisk Free Bet</strong> coverage with <strong class="promocode">ONLYSAFE30</strong>.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Activate the promo, choose your market, and play with confidence: add the code <strong class="promocode">ONLYSAFE30</strong> first, then complete your deposit and unlock your <strong>30% NoRisk Free Bet</strong> protection for today's action.<br><br>At <strong>Celsius Sport</strong>, we bring the lines — you bring the strategy. Place your bet and make this match hit different.</p></td>
+promocode_button_1: ONLYSAFE30
+button_text_1: CLAIM MY NORISK BET
+
+name: Email 9S
+locale: fr-FR
+subject: 🎾 30% NoRisk Bet: Smart Viewing
+preheader: Combine your sports passion with a risk-free edge
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="ONLYSAFE30"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, it's time to play.</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The best way to watch your favorite sport? With skin in the game — and protection on your stake. Today you get <strong>30% NoRisk Free Bet</strong> coverage with <strong class="promocode">ONLYSAFE30</strong>.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Activate the promo, choose your market, and play with confidence: add the code <strong class="promocode">ONLYSAFE30</strong> first, then complete your deposit and unlock your <strong>30% NoRisk Free Bet</strong> protection for today's action.<br><br>At <strong>Celsius Sport</strong>, we bring the lines — you bring the strategy. Place your bet and make this match hit different.</p></td>
+promocode_button_1: ONLYSAFE30
+button_text_1: CLAIM MY NORISK BET
+
+name: Email 10C
+locale: Default
+subject: ⚡ 200 Free Spins: Ready to Spin?
+preheader: Get instant access to your premium slot reward today
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="GEMHUNT200"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Friend" | capitalize }}, your boost is here.</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">You're here for the thrill — so we kept it fast. Your <strong>200 Free Spins</strong> on <strong>Gems Bonanza by Pragmatic Play</strong> are ready with your next deposit. Just enter the promo code <strong class="promocode">GEMHUNT200</strong> before depositing to unlock them and jump straight in.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">No searching, no hassle — just action at <strong>Celsius Casino</strong>. Top up, let the gems drop, and chase that big moment.</p></td>
+promocode_button_1: GEMHUNT200
+button_text_1: START SPINNING NOW
+
+name: Email 10C
+locale: fr-FR
+subject: ⚡ 200 Free Spins: Ready to Spin?
+preheader: Get instant access to your premium slot reward today
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="GEMHUNT200"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Friend" | capitalize }}, your boost is here.</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">You're here for the thrill — so we kept it fast. Your <strong>200 Free Spins</strong> on <strong>Gems Bonanza by Pragmatic Play</strong> are ready with your next deposit. Just enter the promo code <strong class="promocode">GEMHUNT200</strong> before depositing to unlock them and jump straight in.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">No searching, no hassle — just action at <strong>Celsius Casino</strong>. Top up, let the gems drop, and chase that big moment.</p></td>
+promocode_button_1: GEMHUNT200
+button_text_1: START SPINNING NOW
+
+name: Email 10S
+locale: Default
+subject: 💥 30% NoRisk Free Bet: Grab It and Own the Line
+preheader: A smarter way to bet on your favorite sports is right here
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="ONLYSAFE30"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, ready for the kick-off?</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Make your next bet the smart one — with protection built in. Your <strong>30% NoRisk Free Bet</strong> is live now, giving you more freedom to follow your read.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To lock it in, enter the promo code <strong class="promocode">ONLYSAFE30</strong> before making your deposit to activate your <strong>30% NoRisk Free Bet</strong>.<br><br>Head to <strong>Celsius Sport</strong>, scan the top fixtures, pick your winners, and play with a protected stake. Quick, simple, and ready when you are.</p></td>
+promocode_button_1: ONLYSAFE30
+button_text_1: ACTIVATE AND PLAY NOW
+
+name: Email 10S
+locale: fr-FR
+subject: 💥 30% NoRisk Free Bet: Grab It and Own the Line
+preheader: A smarter way to bet on your favorite sports is right here
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="ONLYSAFE30"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, ready for the kick-off?</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Make your next bet the smart one — with protection built in. Your <strong>30% NoRisk Free Bet</strong> is live now, giving you more freedom to follow your read.</p></td>
+text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">To lock it in, enter the promo code <strong class="promocode">ONLYSAFE30</strong> before making your deposit to activate your <strong>30% NoRisk Free Bet</strong>.<br><br>Head to <strong>Celsius Sport</strong>, scan the top fixtures, pick your winners, and play with a protected stake. Quick, simple, and ready when you are.</p></td>
+promocode_button_1: ONLYSAFE30
+button_text_1: ACTIVATE AND PLAY NOW
+
+name: Email 3C
+locale: Default
+subject: 🎡 Escape to the Wins: Last Week's Top Hits
+preheader: Leave the world behind and step into the winner's circle
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="POWER140"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, ready to change the vibe?</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Sometimes you don't need more noise — you need a better rush. At <strong>Celsius Casino</strong>, top players cashed out big last week:<br><br><strong>🏆 Lu••••7 – €52,300<br>🏆 S•••••n – €35,900<br>🏆 Bi•••••t – €19,400</strong><br><br>The tables are calling and the slots are ready.<br>Switch off the stress and switch on the thrill at <strong>Celsius Casino</strong> — your seat is waiting.</p></td>
+button_text_1: START YOUR ESCAPE TODAY
+
+name: Email 3C
+locale: fr-FR
+subject: 🎡 Escape to the Wins: Last Week's Top Hits
+preheader: Leave the world behind and step into the winner's circle
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="POWER140"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, ready to change the vibe?</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Sometimes you don't need more noise — you need a better rush. At <strong>Celsius Casino</strong>, top players cashed out big last week:<br><br><strong>🏆 Lu••••7 – €52,300<br>🏆 S•••••n – €35,900<br>🏆 Bi•••••t – €19,400</strong><br><br>The tables are calling and the slots are ready.<br>Switch off the stress and switch on the thrill at <strong>Celsius Casino</strong> — your seat is waiting.</p></td>
+button_text_1: START YOUR ESCAPE TODAY
+
+name: Email 3S
+locale: Default
+subject: 🏆 Weekly Winners: They Made the Right Call
+preheader: See who dominated the lines this week at Celsius Sport
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WIN20NRF"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, will you be next?</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The last 7 days at <strong>Celsius Sport</strong> were big. Our sharpest bettors called it right and took home huge payouts:<br><br><strong>💰 Str•••••X – €42,810<br>💰 Go•••••er – €31,200<br>💰 Pa•••••ng – €19,450</strong><br><br>They didn't just watch — they made the play.<br>The lines are live for the next matches, so pick your spot and place your bet.<br>Your name could be next on this list.</p></td>
+button_text_1: SEE TODAY'S ODDS
+
+name: Email 3S
+locale: fr-FR
+subject: 🏆 Weekly Winners: They Made the Right Call
+preheader: See who dominated the lines this week at Celsius Sport
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WIN20NRF"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, will you be next?</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The last 7 days at <strong>Celsius Sport</strong> were big. Our sharpest bettors called it right and took home huge payouts:<br><br><strong>💰 Str•••••X – €42,810<br>💰 Go•••••er – €31,200<br>💰 Pa•••••ng – €19,450</strong><br><br>They didn't just watch — they made the play.<br>The lines are live for the next matches, so pick your spot and place your bet.<br>Your name could be next on this list.</p></td>
+button_text_1: SEE TODAY'S ODDS
+
+name: Email 6C
+locale: Default
+subject: 🌟 Join the Elite: This Week's Hall of Fame
+preheader: See who dominated the reels and claim your spot at the top
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, it's your time to shine!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The momentum is unreal — and the biggest wins are happening right now at <strong>Celsius Casino</strong>. Here are the latest champions:<br><br><strong>🏆 Ja••••g – €61,200<br>🏆 Sp••••r – €42,800<br>🏆 Eli••••er – €24,100</strong><br><br>The machines are hot and the cards are dealt — the next headline could be yours.<br>Step in, embrace the thrill, and play at <strong>Celsius Casino</strong>.</p></td>
+button_text_1: START YOUR JOURNEY NOW
+
+name: Email 6C
+locale: fr-FR
+subject: 🌟 Join the Elite: This Week's Hall of Fame
+preheader: See who dominated the reels and claim your spot at the top
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Player" | capitalize }}, it's your time to shine!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The momentum is unreal — and the biggest wins are happening right now at <strong>Celsius Casino</strong>. Here are the latest champions:<br><br><strong>🏆 Ja••••g – €61,200<br>🏆 Sp••••r – €42,800<br>🏆 Eli••••er – €24,100</strong><br><br>The machines are hot and the cards are dealt — the next headline could be yours.<br>Step in, embrace the thrill, and play at <strong>Celsius Casino</strong>.</p></td>
+button_text_1: START YOUR JOURNEY NOW
+
+name: Email 8S
+locale: Default
+subject: 🏆 They Won Big on Sports — Now It's Your Turn
+preheader: See the top payouts of the week and pick your winning match
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WIN20NRF"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, the leaderboard is waiting!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Last week, these players trusted the numbers, hit the right moment, and cashed out big:<br><br><strong>💰 G••••er88 – €45,600<br>💰 O•••••ero – €32,150<br>💰 Be••••rd – €18,700</strong><br><br>Now the board is refreshed and the next matches are live on <strong>Celsius Sport</strong>. The odds are up, the markets are moving, and this is your window.<br><br>Pick your matchup, back your instincts, and make your move — your name should be next on the winner's list.</p></td>
+button_text_1: PICK A MATCH AND BET
+
+name: Email 8S
+locale: fr-FR
+subject: 🏆 They Won Big on Sports — Now It's Your Turn
+preheader: See the top payouts of the week and pick your winning match
+header_html_tag: dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" data-promocode="WIN20NRF"
+text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px;padding-right:20px;padding-bottom:16px;padding-left:20px"><h2 class="es-text-mobile-size-22 es-override-size es-m-txt-c" style="Margin:0;font-family:Montserrat, helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:bold;line-height:28.8px;color:#FFFFFF"><strong>{{ customer.first_name | default:"Champ" | capitalize }}, the leaderboard is waiting!</strong></h2></td>
+text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Last week, these players trusted the numbers, hit the right moment, and cashed out big:<br><br><strong>💰 G••••er88 – €45,600<br>💰 O•••••ero – €32,150<br>💰 Be••••rd – €18,700</strong><br><br>Now the board is refreshed and the next matches are live on <strong>Celsius Sport</strong>. The odds are up, the markets are moving, and this is your window.<br><br>Pick your matchup, back your instincts, and make your move — your name should be next on the winner's list.</p></td>
+button_text_1: PICK A MATCH AND BET
