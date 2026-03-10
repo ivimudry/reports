@@ -187,13 +187,82 @@
 <div class="content">
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 1 — SUMMARY                                        ║ -->
+<!-- ║  SECTION 1 — AUDIT RULES                                    ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-rules" class="section-anchor"></div>
+
+<h2 data-lang="en" class="active">1. Audit Rules</h2>
+<h2 data-lang="ua">1. Правила аудиту</h2>
+<h2 data-lang="ru">1. Правила аудита</h2>
+
+<!-- EN cards -->
+<div class="summary-grid" data-lang="en" style="grid-template-columns:1fr 1fr;">
+  <div class="summary-card">
+    <h3>Wrapper</h3>
+    <div class="label" style="margin-top:8px;">The promo code must be wrapped in a special tag inside the email text body:</div>
+    <div style="margin-top:10px;padding:10px 14px;background:#1e1e1e;border-radius:6px;font-family:monospace;font-size:13px;color:#4ec9b0;word-break:break-all;">
+      &lt;strong class="promocode"&gt;CREWBOOST150&lt;/strong&gt;
+    </div>
+    <div class="label" style="margin-top:8px;">The <strong>Wrapper</strong> column shows ✓ if this tag is present with the correct promo code.</div>
+  </div>
+  <div class="summary-card">
+    <h3>Header</h3>
+    <div class="label" style="margin-top:8px;">The promo code must also be declared in the email HTML header via a data attribute:</div>
+    <div style="margin-top:10px;padding:10px 14px;background:#1e1e1e;border-radius:6px;font-family:monospace;font-size:13px;color:#4ec9b0;word-break:break-all;">
+      data-promocode="CREWBOOST150"
+    </div>
+    <div class="label" style="margin-top:8px;">The <strong>Header</strong> column shows ✓ if this attribute is present with the correct promo code.</div>
+  </div>
+</div>
+
+<!-- UA cards -->
+<div class="summary-grid" data-lang="ua" style="grid-template-columns:1fr 1fr;">
+  <div class="summary-card">
+    <h3>Wrapper</h3>
+    <div class="label" style="margin-top:8px;">Промокод має бути обгорнутий спеціальним тегом у тілі тексту листа:</div>
+    <div style="margin-top:10px;padding:10px 14px;background:#1e1e1e;border-radius:6px;font-family:monospace;font-size:13px;color:#4ec9b0;word-break:break-all;">
+      &lt;strong class="promocode"&gt;CREWBOOST150&lt;/strong&gt;
+    </div>
+    <div class="label" style="margin-top:8px;">Стовпець <strong>Wrapper</strong> показує ✓, якщо цей тег присутній із правильним промокодом.</div>
+  </div>
+  <div class="summary-card">
+    <h3>Header</h3>
+    <div class="label" style="margin-top:8px;">Промокод також має бути оголошений у HTML-заголовку листа через data-атрибут:</div>
+    <div style="margin-top:10px;padding:10px 14px;background:#1e1e1e;border-radius:6px;font-family:monospace;font-size:13px;color:#4ec9b0;word-break:break-all;">
+      data-promocode="CREWBOOST150"
+    </div>
+    <div class="label" style="margin-top:8px;">Стовпець <strong>Header</strong> показує ✓, якщо цей атрибут присутній із правильним промокодом.</div>
+  </div>
+</div>
+
+<!-- RU cards -->
+<div class="summary-grid" data-lang="ru" style="grid-template-columns:1fr 1fr;">
+  <div class="summary-card">
+    <h3>Wrapper</h3>
+    <div class="label" style="margin-top:8px;">Промокод должен быть обёрнут специальным тегом в теле текста письма:</div>
+    <div style="margin-top:10px;padding:10px 14px;background:#1e1e1e;border-radius:6px;font-family:monospace;font-size:13px;color:#4ec9b0;word-break:break-all;">
+      &lt;strong class="promocode"&gt;CREWBOOST150&lt;/strong&gt;
+    </div>
+    <div class="label" style="margin-top:8px;">Столбец <strong>Wrapper</strong> показывает ✓, если этот тег присутствует с правильным промокодом.</div>
+  </div>
+  <div class="summary-card">
+    <h3>Header</h3>
+    <div class="label" style="margin-top:8px;">Промокод также должен быть объявлен в HTML-заголовке письма через data-атрибут:</div>
+    <div style="margin-top:10px;padding:10px 14px;background:#1e1e1e;border-radius:6px;font-family:monospace;font-size:13px;color:#4ec9b0;word-break:break-all;">
+      data-promocode="CREWBOOST150"
+    </div>
+    <div class="label" style="margin-top:8px;">Столбец <strong>Header</strong> показывает ✓, если этот атрибут присутствует с правильным промокодом.</div>
+  </div>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 2 — SUMMARY                                        ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-summary" class="section-anchor"></div>
 
-<h2 data-lang="en" class="active">1. Summary</h2>
-<h2 data-lang="ua">1. Зведення</h2>
-<h2 data-lang="ru">1. Сводка</h2>
+<h2 data-lang="en" class="active">2. Summary</h2>
+<h2 data-lang="ua">2. Зведення</h2>
+<h2 data-lang="ru">2. Сводка</h2>
 
 <!-- EN cards -->
 <div class="summary-grid" data-lang="en">
@@ -258,11 +327,11 @@
 </div>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 2 — WELCOME FLOW                                   ║ -->
+<!-- ║  SECTION 3 — WELCOME FLOW                                   ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-wf" class="section-anchor"></div>
 
-<h2>2. Welcome Flow <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">27 emails (9 groups &times; C / M / S)</span></h2>
+<h2>3. Welcome Flow <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">27 emails (9 groups &times; C / M / S)</span></h2>
 
 <table>
 <tr><th>Name</th><th>Bonus</th><th>Game Name</th><th>Promo Code</th><th>Wrapper</th><th>Header</th><th>Status</th></tr>
@@ -296,11 +365,11 @@
 </table>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 3 — FTD RETENTION FLOW                             ║ -->
+<!-- ║  SECTION 4 — FTD RETENTION FLOW                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-ftd" class="section-anchor"></div>
 
-<h2>3. FTD Retention Flow <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">24 emails (8 groups &times; C / M / S)</span></h2>
+<h2>4. FTD Retention Flow <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">24 emails (8 groups &times; C / M / S)</span></h2>
 
 <table>
 <tr><th>Name</th><th>Bonus</th><th>Game Name</th><th>Promo Code</th><th>Wrapper</th><th>Header</th><th>Status</th></tr>
@@ -331,11 +400,11 @@
 </table>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 4 — DEP RETENTION                                  ║ -->
+<!-- ║  SECTION 5 — DEP RETENTION                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-dep" class="section-anchor"></div>
 
-<h2>4. DEP Retention <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">20 emails (10 Casino + 10 Sports)</span></h2>
+<h2>5. DEP Retention <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">20 emails (10 Casino + 10 Sports)</span></h2>
 
 <table>
 <tr><th>Name</th><th>Bonus</th><th>Game Name</th><th>Promo Code</th><th>Wrapper</th><th>Header</th><th>Status</th></tr>
@@ -362,11 +431,11 @@
 </table>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 5 — SU RETENTION                                   ║ -->
+<!-- ║  SECTION 6 — SU RETENTION                                   ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-su" class="section-anchor"></div>
 
-<h2>5. SU Retention <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">30 emails (10 groups &times; C / M / S)</span></h2>
+<h2>6. SU Retention <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">30 emails (10 groups &times; C / M / S)</span></h2>
 
 <table>
 <tr><th>Name</th><th>Bonus</th><th>Game Name</th><th>Promo Code</th><th>Wrapper</th><th>Header</th><th>Status</th></tr>
@@ -403,11 +472,11 @@
 </table>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 6 — NUTRITION #2                                   ║ -->
+<!-- ║  SECTION 7 — NUTRITION #2                                   ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-n2" class="section-anchor"></div>
 
-<h2>6. Nutrition #2 <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">24 emails (8 groups &times; CL / CS / S)</span></h2>
+<h2>7. Nutrition #2 <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">24 emails (8 groups &times; CL / CS / S)</span></h2>
 
 <table>
 <tr><th>Name</th><th>Bonus</th><th>Game Name</th><th>Promo Code</th><th>Wrapper</th><th>Header</th><th>Status</th></tr>
@@ -438,11 +507,11 @@
 </table>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 7 — NUTRITION #3                                   ║ -->
+<!-- ║  SECTION 8 — NUTRITION #3                                   ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-n3" class="section-anchor"></div>
 
-<h2>7. Nutrition #3 <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">24 emails (8 groups &times; CL / CS / S)</span></h2>
+<h2>8. Nutrition #3 <span style="font-size:13px;color:#888;font-weight:400;margin-left:8px;">24 emails (8 groups &times; CL / CS / S)</span></h2>
 
 <table>
 <tr><th>Name</th><th>Bonus</th><th>Game Name</th><th>Promo Code</th><th>Wrapper</th><th>Header</th><th>Status</th></tr>
@@ -473,7 +542,7 @@
 </table>
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  SECTION 8 — ISSUES                                         ║ -->
+<!-- ║  SECTION 9 — ISSUES                                         ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-issues" class="section-anchor"></div>
 
