@@ -3,11 +3,9 @@
     "total_codes": 121,
     "total_emails": 148,
     "errors": 0,
-    "warnings": 9,
+    "warnings": 0,
     "unused": 65,
-    "type_counts": {
-      "BONUS_NRF_MISMATCH": 9
-    }
+    "type_counts": {}
   },
   "table_data": {
     "WF": {
@@ -507,80 +505,7 @@
       }
     }
   },
-  "issues": [
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "FTD",
-      "email": "Email 3M",
-      "code": "WINBACKNRF20",
-      "detail": "Table: '20% NRF' — 20% NRF not in text"
-    },
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "FTD",
-      "email": "Email 3M",
-      "code": "SAFETYNRF25",
-      "detail": "Table: '25% NRF' — 25% NRF not in text"
-    },
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "FTD",
-      "email": "Email 6M",
-      "code": "WINBACKNRF20",
-      "detail": "Table: '20% NRF' — 20% NRF not in text"
-    },
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "FTD",
-      "email": "Email 6M",
-      "code": "SAFETYNRF25",
-      "detail": "Table: '25% NRF' — 25% NRF not in text"
-    },
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "FTD",
-      "email": "Email 8M",
-      "code": "WINBACKNRF20",
-      "detail": "Table: '20% NRF' — 20% NRF not in text"
-    },
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "FTD",
-      "email": "Email 8M",
-      "code": "SAFETYNRF25",
-      "detail": "Table: '25% NRF' — 25% NRF not in text"
-    },
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "DEP",
-      "email": "Email 2S",
-      "code": "WINSAFE20",
-      "detail": "Table: '20% NRF' — 20% NRF not in text"
-    },
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "DEP",
-      "email": "Email 5S",
-      "code": "WINSAFE20",
-      "detail": "Table: '20% NRF' — 20% NRF not in text"
-    },
-    {
-      "type": "BONUS_NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "DEP",
-      "email": "Email 7S",
-      "code": "WINSAFE20",
-      "detail": "Table: '20% NRF' — 20% NRF not in text"
-    }
-  ],
+  "issues": [],
   "unused_codes": [
     {
       "type": "UNUSED_CODE",
@@ -1054,6 +979,7 @@
         "150 FS",
         "50 FS",
         "50 FS",
+        "250 FS",
         "250 FS"
       ],
       "issues": []
@@ -1099,6 +1025,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "150 FS",
         "150 FS"
       ],
       "issues": []
@@ -1118,6 +1046,9 @@
       "game_in_text": [],
       "bonus_in_text": [
         "10%",
+        "10%",
+        "10%",
+        "10% NRF",
         "10% NRF"
       ],
       "issues": []
@@ -1157,6 +1088,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "150 FS",
         "150 FS"
       ],
       "issues": []
@@ -1200,6 +1133,8 @@
       ],
       "bonus_in_text": [
         "120%",
+        "120%",
+        "170 FS",
         "170 FS"
       ],
       "issues": []
@@ -1225,6 +1160,7 @@
       "bonus_in_text": [
         "20%",
         "100 FS",
+        "100 FS",
         "20% NRF"
       ],
       "issues": []
@@ -1237,6 +1173,7 @@
       "all_codes": [],
       "game_in_text": [],
       "bonus_in_text": [
+        "50%",
         "50%"
       ],
       "issues": []
@@ -1258,6 +1195,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "150 FS",
         "150 FS"
       ],
       "issues": []
@@ -1280,6 +1219,8 @@
       "all_codes": [],
       "game_in_text": [],
       "bonus_in_text": [
+        "50%",
+        "50%",
         "50%"
       ],
       "issues": []
@@ -1299,6 +1240,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "150 FS",
         "150 FS"
       ],
       "issues": []
@@ -1321,6 +1264,7 @@
       "all_codes": [],
       "game_in_text": [],
       "bonus_in_text": [
+        "50%",
         "50%"
       ],
       "issues": []
@@ -1355,7 +1299,13 @@
       ],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20%",
         "100 FS",
+        "100 FS",
+        "100 FS",
+        "20% NRF",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1374,6 +1324,8 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "60%",
+        "60%",
         "60%"
       ],
       "issues": []
@@ -1395,6 +1347,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "150 FS",
         "150 FS"
       ],
       "issues": []
@@ -1423,6 +1377,8 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "60%",
+        "60%",
         "60%"
       ],
       "issues": []
@@ -1441,6 +1397,8 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "180 FS",
+        "180 FS",
         "180 FS"
       ],
       "issues": []
@@ -1465,7 +1423,10 @@
       ],
       "bonus_in_text": [
         "20%",
+        "20%",
         "100 FS",
+        "100 FS",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1484,6 +1445,8 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "60%",
+        "60%",
         "60%"
       ],
       "issues": []
@@ -1530,6 +1493,9 @@
       "bonus_in_text": [
         "20%",
         "20%",
+        "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1565,7 +1531,11 @@
       "bonus_in_text": [
         "100%",
         "20%",
+        "100%",
+        "20%",
         "60 FS",
+        "60 FS",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1586,6 +1556,9 @@
       "bonus_in_text": [
         "20%",
         "20%",
+        "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1608,6 +1581,8 @@
       ],
       "bonus_in_text": [
         "140%",
+        "140%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -1647,27 +1622,18 @@
         "20%",
         "25%",
         "30%",
+        "2%",
+        "3%",
+        "4%",
+        "20%",
+        "25%",
+        "30%",
         "30% NRF",
+        "30% NRF",
+        "4% CB",
         "4% CB"
       ],
-      "issues": [
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "FTD",
-          "email": "Email 3M",
-          "code": "WINBACKNRF20",
-          "detail": "Table: '20% NRF' — 20% NRF not in text"
-        },
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "FTD",
-          "email": "Email 3M",
-          "code": "SAFETYNRF25",
-          "detail": "Table: '25% NRF' — 25% NRF not in text"
-        }
-      ]
+      "issues": []
     },
     {
       "campaign": "FTD",
@@ -1684,6 +1650,9 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1706,6 +1675,8 @@
       ],
       "bonus_in_text": [
         "110%",
+        "110%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -1736,6 +1707,9 @@
       "bonus_in_text": [
         "25%",
         "25%",
+        "25%",
+        "25%",
+        "25% NRF",
         "25% NRF"
       ],
       "issues": []
@@ -1757,6 +1731,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "80 FS",
         "80 FS"
       ],
       "issues": []
@@ -1782,7 +1758,11 @@
       "bonus_in_text": [
         "100%",
         "20%",
+        "100%",
+        "20%",
         "70 FS",
+        "70 FS",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1803,6 +1783,9 @@
       "bonus_in_text": [
         "30%",
         "30%",
+        "30%",
+        "30%",
+        "30% NRF",
         "30% NRF"
       ],
       "issues": []
@@ -1825,6 +1808,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "150 FS",
         "150 FS"
       ],
       "issues": []
@@ -1864,27 +1849,18 @@
         "20%",
         "25%",
         "30%",
+        "2%",
+        "3%",
+        "4%",
+        "20%",
+        "25%",
+        "30%",
         "30% NRF",
+        "30% NRF",
+        "4% CB",
         "4% CB"
       ],
-      "issues": [
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "FTD",
-          "email": "Email 6M",
-          "code": "WINBACKNRF20",
-          "detail": "Table: '20% NRF' — 20% NRF not in text"
-        },
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "FTD",
-          "email": "Email 6M",
-          "code": "SAFETYNRF25",
-          "detail": "Table: '25% NRF' — 25% NRF not in text"
-        }
-      ]
+      "issues": []
     },
     {
       "campaign": "FTD",
@@ -1902,6 +1878,9 @@
       "bonus_in_text": [
         "20%",
         "20%",
+        "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1942,6 +1921,9 @@
       "bonus_in_text": [
         "20%",
         "20%",
+        "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -1963,6 +1945,8 @@
       ],
       "bonus_in_text": [
         "150%",
+        "150%",
+        "30 FS",
         "30 FS"
       ],
       "issues": []
@@ -2002,27 +1986,18 @@
         "20%",
         "25%",
         "30%",
+        "2%",
+        "3%",
+        "4%",
+        "20%",
+        "25%",
+        "30%",
         "30% NRF",
+        "30% NRF",
+        "4% CB",
         "4% CB"
       ],
-      "issues": [
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "FTD",
-          "email": "Email 8M",
-          "code": "WINBACKNRF20",
-          "detail": "Table: '20% NRF' — 20% NRF not in text"
-        },
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "FTD",
-          "email": "Email 8M",
-          "code": "SAFETYNRF25",
-          "detail": "Table: '25% NRF' — 25% NRF not in text"
-        }
-      ]
+      "issues": []
     },
     {
       "campaign": "FTD",
@@ -2040,6 +2015,9 @@
       "bonus_in_text": [
         "30%",
         "30%",
+        "30%",
+        "30%",
+        "30% NRF",
         "30% NRF"
       ],
       "issues": []
@@ -2056,6 +2034,9 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "170%",
+        "170%",
+        "170%",
         "170%"
       ],
       "issues": []
@@ -2071,10 +2052,15 @@
         "CREWBOOST150"
       ],
       "game_in_text": [
+        "Chaos Crew II by Hacksaw Gaming",
         "Chaos Crew II by Hacksaw Gaming"
       ],
       "bonus_in_text": [
         "150%",
+        "150%",
+        "150%",
+        "70 FS",
+        "70 FS",
         "70 FS"
       ],
       "issues": []
@@ -2090,10 +2076,14 @@
         "GUNSLINGER160"
       ],
       "game_in_text": [
+        "Wild West Gold by Pragmatic Play",
         "Wild West Gold by Pragmatic Play"
       ],
       "bonus_in_text": [
         "160%",
+        "160%",
+        "160%",
+        "80 FS",
         "80 FS"
       ],
       "issues": []
@@ -2112,6 +2102,8 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "170%",
+        "170%",
         "170%"
       ],
       "issues": []
@@ -2127,10 +2119,14 @@
         "GUNSLINGER160"
       ],
       "game_in_text": [
+        "Wild West Gold by Pragmatic Play",
         "Wild West Gold by Pragmatic Play"
       ],
       "bonus_in_text": [
         "160%",
+        "160%",
+        "80 FS",
+        "80 FS",
         "80 FS"
       ],
       "issues": []
@@ -2146,10 +2142,15 @@
         "OUTLAW180"
       ],
       "game_in_text": [
+        "Wanted Dead or a Wild by Hacksaw Gaming",
         "Wanted Dead or a Wild by Hacksaw Gaming"
       ],
       "bonus_in_text": [
         "180%",
+        "180%",
+        "180%",
+        "80 FS",
+        "80 FS",
         "80 FS"
       ],
       "issues": []
@@ -2171,6 +2172,9 @@
       ],
       "bonus_in_text": [
         "140%",
+        "140%",
+        "100 FS",
+        "100 FS",
         "100 FS"
       ],
       "issues": []
@@ -2191,6 +2195,7 @@
         "Gems Bonanza by Pragmatic Play"
       ],
       "bonus_in_text": [
+        "200 FS",
         "200 FS"
       ],
       "issues": []
@@ -2208,6 +2213,10 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20%",
+        "20% NRF",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -2223,17 +2232,15 @@
         "WINSAFE20"
       ],
       "game_in_text": [],
-      "bonus_in_text": [],
-      "issues": [
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "DEP",
-          "email": "Email 2S",
-          "code": "WINSAFE20",
-          "detail": "Table: '20% NRF' — 20% NRF not in text"
-        }
-      ]
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20%",
+        "20% NRF",
+        "20% NRF",
+        "20% NRF"
+      ],
+      "issues": []
     },
     {
       "campaign": "DEP",
@@ -2247,6 +2254,8 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "170%",
+        "170%",
         "170%"
       ],
       "issues": []
@@ -2262,17 +2271,15 @@
         "WINSAFE20"
       ],
       "game_in_text": [],
-      "bonus_in_text": [],
-      "issues": [
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "DEP",
-          "email": "Email 5S",
-          "code": "WINSAFE20",
-          "detail": "Table: '20% NRF' — 20% NRF not in text"
-        }
-      ]
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20%",
+        "20% NRF",
+        "20% NRF",
+        "20% NRF"
+      ],
+      "issues": []
     },
     {
       "campaign": "DEP",
@@ -2286,6 +2293,9 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "170%",
+        "170%",
+        "170%",
         "170%"
       ],
       "issues": []
@@ -2301,17 +2311,15 @@
         "WINSAFE20"
       ],
       "game_in_text": [],
-      "bonus_in_text": [],
-      "issues": [
-        {
-          "type": "BONUS_NRF_MISMATCH",
-          "severity": "warning",
-          "campaign": "DEP",
-          "email": "Email 7S",
-          "code": "WINSAFE20",
-          "detail": "Table: '20% NRF' — 20% NRF not in text"
-        }
-      ]
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20%",
+        "20% NRF",
+        "20% NRF",
+        "20% NRF"
+      ],
+      "issues": []
     },
     {
       "campaign": "DEP",
@@ -2328,6 +2336,10 @@
       "game_in_text": [],
       "bonus_in_text": [
         "30%",
+        "30%",
+        "30%",
+        "30% NRF",
+        "30% NRF",
         "30% NRF"
       ],
       "issues": []
@@ -2345,6 +2357,10 @@
       "game_in_text": [],
       "bonus_in_text": [
         "30%",
+        "30%",
+        "30%",
+        "30% NRF",
+        "30% NRF",
         "30% NRF"
       ],
       "issues": []
@@ -2404,6 +2420,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "150 FS",
         "150 FS"
       ],
       "issues": []
@@ -2427,6 +2445,9 @@
       "bonus_in_text": [
         "100%",
         "15%",
+        "100%",
+        "15%",
+        "150 FS",
         "150 FS",
         "15% NRF"
       ],
@@ -2447,6 +2468,9 @@
       "game_in_text": [],
       "bonus_in_text": [
         "15%",
+        "15%",
+        "15%",
+        "15% NRF",
         "15% NRF"
       ],
       "issues": []
@@ -2466,6 +2490,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "150 FS",
         "150 FS"
       ],
       "issues": []
@@ -2486,7 +2512,11 @@
       "bonus_in_text": [
         "100%",
         "4%",
+        "100%",
+        "4%",
         "150 FS",
+        "150 FS",
+        "4% CB",
         "4% CB"
       ],
       "issues": []
@@ -2506,6 +2536,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "4%",
+        "4%",
+        "4%",
         "4% CB"
       ],
       "issues": []
@@ -2524,6 +2556,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "140%",
         "140%"
       ],
       "issues": []
@@ -2547,6 +2580,8 @@
       "bonus_in_text": [
         "140%",
         "15%",
+        "140%",
+        "15%",
         "15% NRF"
       ],
       "issues": []
@@ -2566,6 +2601,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "15%",
+        "15%",
+        "15% NRF",
         "15% NRF"
       ],
       "issues": []
@@ -2585,6 +2622,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "130%",
+        "130%",
+        "70 FS",
         "70 FS"
       ],
       "issues": []
@@ -2604,6 +2643,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "130%",
+        "130%",
+        "70 FS",
         "70 FS"
       ],
       "issues": []
@@ -2623,6 +2664,9 @@
       "game_in_text": [],
       "bonus_in_text": [
         "4%",
+        "4%",
+        "4%",
+        "4% CB",
         "4% CB"
       ],
       "issues": []
@@ -2641,6 +2685,8 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "140%",
+        "140%",
         "140%"
       ],
       "issues": []
@@ -2664,6 +2710,8 @@
       "bonus_in_text": [
         "140%",
         "15%",
+        "140%",
+        "15%",
         "15% NRF"
       ],
       "issues": []
@@ -2683,6 +2731,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "15%",
+        "15%",
+        "15% NRF",
         "15% NRF"
       ],
       "issues": []
@@ -2716,6 +2766,8 @@
       "bonus_in_text": [
         "140%",
         "15%",
+        "140%",
+        "15%",
         "15% NRF"
       ],
       "issues": []
@@ -2735,6 +2787,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "15%",
+        "15%",
+        "15% NRF",
         "15% NRF"
       ],
       "issues": []
@@ -2754,6 +2808,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "140%",
+        "140%",
+        "80 FS",
         "80 FS"
       ],
       "issues": []
@@ -2777,6 +2833,9 @@
       "bonus_in_text": [
         "140%",
         "20%",
+        "140%",
+        "20%",
+        "80 FS",
         "80 FS",
         "20% NRF"
       ],
@@ -2798,6 +2857,8 @@
       "bonus_in_text": [
         "20%",
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -2831,6 +2892,9 @@
       "bonus_in_text": [
         "140%",
         "20%",
+        "140%",
+        "20%",
+        "80 FS",
         "80 FS",
         "20% NRF"
       ],
@@ -2852,6 +2916,8 @@
       "bonus_in_text": [
         "20%",
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -2871,6 +2937,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "160%",
+        "160%",
+        "90 FS",
         "90 FS"
       ],
       "issues": []
@@ -2894,6 +2962,9 @@
       "bonus_in_text": [
         "160%",
         "25%",
+        "160%",
+        "25%",
+        "90 FS",
         "90 FS",
         "25% NRF"
       ],
@@ -2914,6 +2985,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "25%",
+        "25%",
+        "25% NRF",
         "25% NRF"
       ],
       "issues": []
@@ -2947,6 +3020,9 @@
       "bonus_in_text": [
         "160%",
         "25%",
+        "160%",
+        "25%",
+        "90 FS",
         "90 FS",
         "25% NRF"
       ],
@@ -2967,6 +3043,9 @@
       "game_in_text": [],
       "bonus_in_text": [
         "15%",
+        "15%",
+        "15%",
+        "15% NRF",
         "15% NRF"
       ],
       "issues": []
@@ -2988,6 +3067,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3009,6 +3090,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3028,6 +3111,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3067,6 +3152,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3085,6 +3172,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "100%",
         "100%"
       ],
       "issues": []
@@ -3104,6 +3192,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "200%",
+        "200%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3122,6 +3212,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "20%",
         "20%",
         "20% NRF"
       ],
@@ -3154,6 +3245,8 @@
       ],
       "bonus_in_text": [
         "100%",
+        "100%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3173,6 +3266,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3191,6 +3286,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "200%",
         "200%"
       ],
       "issues": []
@@ -3210,6 +3306,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "200%",
+        "200%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3259,6 +3357,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3277,6 +3377,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "210%",
         "210%"
       ],
       "issues": []
@@ -3306,6 +3407,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3325,6 +3428,7 @@
       "game_in_text": [],
       "bonus_in_text": [
         "220%",
+        "220%",
         "220%"
       ],
       "issues": []
@@ -3343,6 +3447,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "100 FS",
         "100 FS"
       ],
       "issues": []
@@ -3362,6 +3467,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3380,6 +3487,8 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "150%",
+        "150%",
         "150%"
       ],
       "issues": []
@@ -3399,6 +3508,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "200%",
+        "200%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3457,6 +3568,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3476,6 +3589,7 @@
       "game_in_text": [],
       "bonus_in_text": [
         "200%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3495,6 +3609,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "200%",
+        "200%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3532,6 +3648,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "170%",
         "170%"
       ],
       "issues": []
@@ -3561,6 +3678,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3609,6 +3728,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "170%",
         "170%"
       ],
       "issues": []
@@ -3628,6 +3748,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "200%",
+        "200%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
@@ -3647,6 +3769,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3666,6 +3790,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "170%",
+        "170%",
+        "30 FS",
         "30 FS"
       ],
       "issues": []
@@ -3685,6 +3811,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "170%",
+        "170%",
+        "30 FS",
         "30 FS"
       ],
       "issues": []
@@ -3704,6 +3832,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "20%",
+        "20%",
+        "20% NRF",
         "20% NRF"
       ],
       "issues": []
@@ -3722,6 +3852,7 @@
       ],
       "game_in_text": [],
       "bonus_in_text": [
+        "170%",
         "170%"
       ],
       "issues": []
@@ -3741,6 +3872,8 @@
       "game_in_text": [],
       "bonus_in_text": [
         "200%",
+        "200%",
+        "50 FS",
         "50 FS"
       ],
       "issues": []
