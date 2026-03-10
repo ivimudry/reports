@@ -1,4 +1,4 @@
-name: Email C1.1
+﻿name: Email 1C
 locale: Default
 subject: 💥 170% Bonus: Power Up Your Play Today
 preheader: Look what's inside to help you win at the tables
@@ -9,7 +9,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: SURGE170
 button_text_1: BOOST YOUR BALANCE NOW
 
-name: Email C2.1
+name: Email 2C
 locale: Default
 subject: ⚡ 150% + 70 Free Spins: Don't Wait to Grab Them
 preheader: Your next big win is ready — are you?
@@ -20,7 +20,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: CREWBOOST150
 button_text_1: CLAIM YOUR DOUBLE REWARD
 
-name: Email C4.1
+name: Email 4C
 locale: Default
 subject: 💥 160% + 80 Spins: Grab Them and Feel the Rush
 preheader: Catch the perfect timing for your next big win today
@@ -31,7 +31,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: GUNSLINGER160
 button_text_1: BOOST YOUR TEMPO NOW
 
-name: Email C5.1
+name: Email 5C
 locale: Default
 subject: 🎰 170% Bonus: Instant Boost Activated
 preheader: Your path to a big win just got a lot faster
@@ -42,7 +42,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: BOOSTER170
 button_text_1: START WINNING NOW
 
-name: Email C7.1
+name: Email 7C
 locale: Default
 subject: ⚡ 160% + 80 Free Spins: Activate and Spin
 preheader: Get straight to the winning part with instant rewards
@@ -53,7 +53,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: GUNSLINGER160
 button_text_1: ACTIVATE MY BONUS
 
-name: Email C8.1
+name: Email 8C
 locale: Default
 subject: 🚀 180% Bonus + 80 Free Spins: Upgrade Your Entry
 preheader: See how to power up your next deposit in just a few clicks
@@ -64,7 +64,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: OUTLAW180
 button_text_1: GET MY POWER-UP NOW
 
-name: Email C9.1
+name: Email 9C
 locale: Default
 subject: 💎 140% Bonus + 100 Free Spins: Why Wait?
 preheader: Take the lead and secure your extra chances to win big
@@ -75,7 +75,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: GIANTPANDA100
 button_text_1: GRAB MY BOOST
 
-name: Email C10.1
+name: Email 10C
 locale: Default
 subject: ⚡ 200 Free Spins: Ready to Spin?
 preheader: Get instant access to your premium slot reward today
@@ -86,7 +86,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: GEMHUNT200
 button_text_1: START SPINNING NOW
 
-name: Email S1.1
+name: Email 1S
 locale: Default
 subject: 🥊 20% NoRisk Free Bet: Strike Hard
 preheader: The line is open — your risk-free edge is waiting
@@ -97,7 +97,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: WINSAFE20
 button_text_1: SECURE MY BOOST
 
-name: Email S2.1
+name: Email 2S
 locale: Default
 subject: ⚽ 20% NoRisk Free Bet: It's Prime Time
 preheader: The match of the day is calling — get in with protection
@@ -108,7 +108,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: WINSAFE20
 button_text_1: GET MY NORISK BET
 
-name: Email S4.1
+name: Email 4S
 locale: Default
 subject: ⚽ 170% Boost: Your Play, Your Script
 preheader: Take control of the game and write your own story
@@ -119,7 +119,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: SURGE170
 button_text_1: CLAIM MY BOOST
 
-name: Email S5.1
+name: Email 5S
 locale: Default
 subject: 🚀 20% NoRisk Bet: Open, Activate, Win
 preheader: Get straight to the heart of the action with no delays
@@ -130,7 +130,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: WINSAFE20
 button_text_1: ACTIVATE MY NORISK BET
 
-name: Email S6.1
+name: Email 6S
 locale: Default
 subject: ⚡ 170% Boost: Unleash the Power
 preheader: Fuel your winning streak with extra firepower
@@ -141,7 +141,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: BOOSTER170
 button_text_1: CLAIM MY BOOST
 
-name: Email S7.1
+name: Email 7S
 locale: Default
 subject: ⚡ 20% NoRisk Free Bet: Your Advantage
 preheader: Follow the winning formula from promo to match
@@ -152,7 +152,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: WINSAFE20
 button_text_1: GET MY ADVANTAGE
 
-name: Email S9.1
+name: Email 9S
 locale: Default
 subject: 🎾 30% NoRisk Bet: Smart Viewing
 preheader: Combine your sports passion with a risk-free edge
@@ -163,7 +163,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: ONLYSAFE30
 button_text_1: CLAIM MY NORISK BET
 
-name: Email S10.1
+name: Email 10S
 locale: Default
 subject: 💥 30% NoRisk Free Bet: Grab It and Own the Line
 preheader: A smarter way to bet on your favorite sports is right here
@@ -174,7 +174,7 @@ text_3: <td align="center" class="es-text-6707" style="padding:0;Margin:0;paddin
 promocode_button_1: ONLYSAFE30
 button_text_1: ACTIVATE AND PLAY NOW
 
-name: Email C3.1
+name: Email 3C
 locale: Default
 subject: 🎡 Escape to the Wins: Last Week's Top Hits
 preheader: Leave the world behind and step into the winner's circle
@@ -183,7 +183,7 @@ text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px
 text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">Sometimes you don't need more noise — you need a better rush. At <strong>Celsius Casino</strong>, top players cashed out big last week:<br><br><strong>🏆 Lu••••7 – €52,300<br>🏆 S•••••n – €35,900<br>🏆 Bi•••••t – €19,400</strong><br><br>The tables are calling and the slots are ready.<br>Switch off the stress and switch on the thrill at <strong>Celsius Casino</strong> — your seat is waiting.</p></td>
 button_text_1: START YOUR ESCAPE TODAY
 
-name: Email C6.1
+name: Email 6C
 locale: Default
 subject: 🌟 Join the Elite: This Week's Hall of Fame
 preheader: See who dominated the reels and claim your spot at the top
@@ -192,7 +192,7 @@ text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px
 text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The momentum is unreal — and the biggest wins are happening right now at <strong>Celsius Casino</strong>. Here are the latest champions:<br><br><strong>🏆 Ja••••g – €61,200<br>🏆 Sp••••r – €42,800<br>🏆 Eli••••er – €24,100</strong><br><br>The machines are hot and the cards are dealt — the next headline could be yours.<br>Step in, embrace the thrill, and play at <strong>Celsius Casino</strong>.</p></td>
 button_text_1: START YOUR JOURNEY NOW
 
-name: Email S3.1
+name: Email 3S
 locale: Default
 subject: 🏆 Weekly Winners: They Made the Right Call
 preheader: See who dominated the lines this week at Celsius Sport
@@ -201,7 +201,7 @@ text_1: <td align="center" class="es-text-6694" style="Margin:0;padding-top:30px
 text_2: <td align="center" class="es-text-1922" style="padding:0;Margin:0;padding-right:20px;padding-bottom:16px;padding-left:20px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#FFFFFF;font-size:14px">The last 7 days at <strong>Celsius Sport</strong> were big. Our sharpest bettors called it right and took home huge payouts:<br><br><strong>💰 Str•••••X – €42,810<br>💰 Go•••••er – €31,200<br>💰 Pa•••••ng – €19,450</strong><br><br>They didn't just watch — they made the play.<br>The lines are live for the next matches, so pick your spot and place your bet.<br>Your name could be next on this list.</p></td>
 button_text_1: SEE TODAY'S ODDS
 
-name: Email S8.1
+name: Email 8S
 locale: Default
 subject: 🏆 They Won Big on Sports — Now It's Your Turn
 preheader: See the top payouts of the week and pick your winning match
