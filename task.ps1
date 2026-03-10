@@ -1,100 +1,55 @@
 $base = "C:\Projects\REPORTS\" + [char]0x0442 + [char]0x0435 + [char]0x043A + [char]0x0441 + [char]0x0442 + [char]0x0438 + " " + [char]0x0441 + [char]0x0442 + [char]0x0430 + [char]0x0440 + [char]0x0456
 
-# ====== TASK 1: SU - Remove CFS emails ======
-$suPath = Join-Path $base "SU Retention - Table data.txt"
-$suLines = [System.IO.File]::ReadAllLines($suPath, [System.Text.Encoding]::UTF8)
+$files = @(
+    @{ Name="DEP Retention"; File="DEP Retention - Table data.txt" },
+    @{ Name="FTD Retention"; File="FTD Retention Flow - Table data.txt" },
+    @{ Name="Nutrition #2"; File="Nutrition #2 - Table data.txt" },
+    @{ Name="Nutrition #3"; File="Nutrition #3 - Table data.txt" },
+    @{ Name="SU Retention"; File="SU Retention - Table data.txt" },
+    @{ Name="Welcome Flow"; File="Welcome Flow - Table data.txt" }
+)
 
-# List all email names first
-Write-Host "=== SU: ALL EMAIL NAMES ==="
-foreach ($line in $suLines) {
-    if ($line -match "^name: Email (.+)$") {
-        Write-Host $Matches[1]
-    }
-}
-
-Write-Host ""
-
-# Filter out CFS email blocks
-$newLines = [System.Collections.ArrayList]::new()
-$skip = $false
-$removedCount = 0
-for ($i = 0; $i -lt $suLines.Count; $i++) {
-    $line = $suLines[$i]
-    if ($line -match "^name: Email \d+CFS$") {
-        $skip = $true
-        $removedCount++
-        continue
-    }
-    if ($skip) {
-        # Skip until next "name:" or end of file
-        if ($line -match "^name: " -or $i -eq $suLines.Count - 1) {
-            $skip = $false
-            # Don't skip this line - it's the start of next email
-            [void]$newLines.Add($line)
+# For each file, parse emails and find ones that have bonus info in text but NO promocode wrapper and NO data-promocode
+foreach ($f in $files) {
+    $path = Join-Path $base $f.File
+    $lines = [System.IO.File]::ReadAllLines($path, [System.Text.Encoding]::UTF8)
+    
+    # Parse into email blocks
+    $emails = @()
+    $current = $null
+    foreach ($line in $lines) {
+        if ($line -match "^name: (.+)$") {
+            if ($current) { $emails += $current }
+            $current = @{ Name=$Matches[1]; Lines=@($line); HasPromoWrapper=$false; HasHeaderPromo=$false; HasPromoBtn=$false; HasBonus=$false; Subject="" }
+        } elseif ($current) {
+            $current.Lines += $line
+            if ($line -match "^subject: (.+)$") { $current.Subject = $Matches[1] }
+            if ($line -match 'class="promocode"') { $current.HasPromoWrapper = $true }
+            if ($line -match 'data-promocode') { $current.HasHeaderPromo = $true }
+            if ($line -match "^promocode_button_1:") { 
+                $val = $line -replace "^promocode_button_1:\s*", ""
+                if ($val.Trim().Length -gt 0) { $current.HasPromoBtn = $true }
+            }
+            # Check for bonus indicators in subject
+            if ($line -match "^subject:" -and ($line -match "bonus|free\s*spin|FS |NRF|FreeBet|cashback|deposit|NoRisk|spins|%")) {
+                $current.HasBonus = $true
+            }
         }
-        # else skip this line (part of CFS block)
-        continue
     }
-    [void]$newLines.Add($line)
-}
-
-# Clean up trailing empty lines between blocks
-$cleaned = [System.Collections.ArrayList]::new()
-$prevEmpty = $false
-foreach ($line in $newLines) {
-    $isEmpty = [string]::IsNullOrWhiteSpace($line)
-    if ($isEmpty -and $prevEmpty) { continue }
-    [void]$cleaned.Add($line)
-    $prevEmpty = $isEmpty
-}
-
-# Write back
-[System.IO.File]::WriteAllLines($suPath, $cleaned, [System.Text.Encoding]::UTF8)
-Write-Host "SU: Removed $removedCount CFS emails"
-Write-Host "SU: Lines before=$($suLines.Count), after=$($cleaned.Count)"
-
-# Verify
-$verify = [System.IO.File]::ReadAllLines($suPath, [System.Text.Encoding]::UTF8)
-Write-Host "=== SU: REMAINING EMAILS ==="
-foreach ($line in $verify) {
-    if ($line -match "^name: Email (.+)$") {
-        Write-Host $Matches[1]
+    if ($current) { $emails += $current }
+    
+    # Find emails with bonus but no promo code
+    $noPromo = $emails | Where-Object { 
+        $_.HasBonus -and (-not $_.HasPromoWrapper) -and (-not $_.HasHeaderPromo) -and (-not $_.HasPromoBtn)
+    }
+    
+    if ($noPromo.Count -gt 0) {
+        Write-Host "=== $($f.Name) ==="
+        foreach ($e in $noPromo) {
+            Write-Host "  $($e.Name) | $($e.Subject)"
+        }
+        Write-Host ""
     }
 }
 
-Write-Host ""
-Write-Host "=============================="
-
-# ====== TASK 2: DEP - Rename C1.1 -> 1C ======
-$depPath = Join-Path $base "DEP Retention - Table data.txt"
-$depLines = [System.IO.File]::ReadAllLines($depPath, [System.Text.Encoding]::UTF8)
-
-Write-Host "=== DEP: BEFORE RENAME ==="
-foreach ($line in $depLines) {
-    if ($line -match "^name: Email (.+)$") {
-        Write-Host $Matches[1]
-    }
-}
-
-# Replace pattern: "Email C1.1" -> "Email 1C", "Email S1.1" -> "Email 1S"
-$depNew = [System.Collections.ArrayList]::new()
-foreach ($line in $depLines) {
-    if ($line -match "^name: Email ([CS])(\d+)\.1$") {
-        $letter = $Matches[1]
-        $num = $Matches[2]
-        $newName = "name: Email ${num}${letter}"
-        [void]$depNew.Add($newName)
-    } else {
-        [void]$depNew.Add($line)
-    }
-}
-[System.IO.File]::WriteAllLines($depPath, $depNew, [System.Text.Encoding]::UTF8)
-
-Write-Host ""
-Write-Host "=== DEP: AFTER RENAME ==="
-$depVerify = [System.IO.File]::ReadAllLines($depPath, [System.Text.Encoding]::UTF8)
-foreach ($line in $depVerify) {
-    if ($line -match "^name: Email (.+)$") {
-        Write-Host $Matches[1]
-    }
-}
+Write-Host "=== DONE ==="
