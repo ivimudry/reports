@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celsius &#8212; Text Audit Report (Old Version)</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/pg-logo.svg">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#181818;color:#d4d4d4;font-family:'Montserrat',sans-serif;font-size:14px;line-height:1.6;max-width:1060px;margin:0 auto;padding:0}
+a{color:#4ec9b0;text-decoration:none}
+div[data-lang],p[data-lang],h1[data-lang]{display:none}
+div[data-lang].active,p[data-lang].active,h1[data-lang].active{display:block}
+span[data-lang]{display:none}
+span[data-lang].active{display:inline}
+.report-header{background:linear-gradient(135deg,#181818 0%,#212121 100%);padding:48px 40px 40px;border-bottom:3px solid #4ec9b0;position:relative}
+.report-header .logo{height:28px;margin-bottom:0}
+.report-header h1{font-size:26px;font-weight:700;color:#fff;margin:0 0 8px 0;letter-spacing:-.5px}
+.report-header .meta{color:#888;font-size:13px;margin:0}
+.report-header .meta span{color:#4ec9b0;font-weight:600}
+.gnb-line{font-size:11px;color:#666;display:flex;align-items:center;gap:5px}
+.gnb-line img{height:14px}
+.report-footer .gnb-line{justify-content:center}
+.lang-switcher{position:absolute;top:20px;right:40px;display:flex;gap:6px}
+.lang-btn{background:#212121;border:1px solid #3a3a3a;border-radius:8px;padding:6px 14px;cursor:pointer;font-size:13px;color:#888;font-family:inherit;font-weight:500;transition:all .2s;display:flex;align-items:center;gap:6px}
+.lang-btn:hover{border-color:#4ec9b0;color:#ccc}
+.lang-btn.active{background:#4ec9b0;color:#181818;border-color:#4ec9b0;font-weight:700}
+.report-nav{position:sticky;top:0;z-index:100;background:rgba(24,24,24,.92);border-bottom:1px solid #2d2d2d;padding:10px 40px;display:flex;gap:6px;backdrop-filter:blur(14px);overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#4ec9b0 #1e1e1e;-webkit-overflow-scrolling:touch}
+.report-nav::before,.report-nav::after{content:'';flex:1 0 0px}
+.report-nav::-webkit-scrollbar{height:5px}
+.report-nav::-webkit-scrollbar-track{background:#1e1e1e;border-radius:3px}
+.report-nav::-webkit-scrollbar-thumb{background:#4ec9b0;border-radius:3px}
+.nav-link{background:transparent;border:1px solid #3a3a3a;border-radius:20px;padding:5px 14px;font-size:12px;font-weight:500;color:#888;text-decoration:none;cursor:pointer;transition:all .25s;font-family:inherit;white-space:nowrap;flex-shrink:0}
+.nav-link:hover{border-color:#4ec9b0;color:#ccc}
+.nav-link.active{background:#4ec9b0;color:#181818;border-color:#4ec9b0;font-weight:700}
+.nav-num{font-weight:700;margin-right:4px;font-size:11px;opacity:.7}
+.section-anchor{scroll-margin-top:56px}
+.content{padding:0 40px 60px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0 40px}
+.card{background:#1c1c1c;border:1px solid #2d2d2d;border-radius:12px;padding:24px;text-align:center}
+.card-value{font-size:36px;font-weight:800;color:#4ec9b0}
+.card-value.warn{color:#cca700}
+.card-label{font-size:12px;color:#888;margin-top:6px;text-transform:uppercase;letter-spacing:.5px}
+.section{margin-bottom:50px}
+.section h2{font-size:20px;font-weight:700;color:#fff;margin-bottom:6px;padding-bottom:12px;border-bottom:2px solid #4ec9b0}
+.section .desc{font-size:13px;color:#888;margin-bottom:16px}
+.at{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:24px}
+.at thead{background:#1a1a1a;position:sticky;top:48px;z-index:10}
+.at th{padding:8px 10px;text-align:left;font-weight:600;color:#aaa;border-bottom:2px solid #2d2d2d;white-space:nowrap;font-size:11px;text-transform:uppercase;letter-spacing:.3px}
+.at td{padding:7px 10px;border-bottom:1px solid #232323;vertical-align:top}
+.at tr:hover{background:#1e1e1e}
+.eid{font-weight:600;color:#fff;white-space:nowrap}
+.s-ok{color:#25b644}
+.s-w{color:#cca700}
+.s-e{color:#f14c4c}
+.s-na{color:#555}
+.code{font-family:Consolas,'Courier New',monospace;font-size:11px;background:#1e1e1e;padding:1px 5px;border-radius:3px;border:1px solid #333;color:#4ec9b0;white-space:nowrap}
+.game{font-size:11px;color:#999;font-style:italic}
+.chk{text-align:center;font-size:14px}
+.note{background:rgba(78,201,176,0.08);border-left:3px solid #4ec9b0;padding:14px 18px;margin:14px 0;border-radius:0 8px 8px 0;font-size:13px;color:#b0b0b0}
+.note strong{color:#4ec9b0}
+.report-footer{text-align:center;padding:40px;border-top:1px solid #2d2d2d;margin-top:40px}
+.report-footer p{font-size:11px;color:#555}
+.logo-sm{height:16px;vertical-align:middle;margin-bottom:0}
+.rule-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0 24px}
+.rule-card{background:#1c1c1c;border:1px solid #2d2d2d;border-radius:10px;padding:18px 20px}
+.rule-card h4{color:#fff;font-size:13px;margin-bottom:8px}
+.rule-card code{font-family:Consolas,monospace;font-size:11px;background:#1e1e1e;padding:2px 6px;border-radius:3px;border:1px solid #333;color:#4ec9b0}
+.rule-card p{font-size:12px;color:#999;margin:4px 0}
+.cdesc{font-size:11px;color:#666;font-style:italic}
+@media(max-width:768px){.cards{grid-template-columns:1fr}.content{padding:0 16px 40px}.report-nav{padding:10px 16px}.at{font-size:11px}.rule-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:6px;">
+    <img class="logo" src="../../assets/pg-logo.svg" alt="PromptGrid">
+    <span style="font-size:22px;font-weight:600;color:#fff;letter-spacing:-0.5px;">PromptGrid</span>
+  </div>
+  <div class="gnb-line" style="margin-bottom:24px;"><img src="../../assets/gnb-favicon.svg" alt="GNB"><span>Specially for GNB Agency</span></div>
+
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-set-lang="en">EN</button>
+    <button class="lang-btn" data-set-lang="ua">UA</button>
+    <button class="lang-btn" data-set-lang="ru">RU</button>
+  </div>
+
+  <h1 data-lang="en" class="active">Celsius &#8212; Text Audit Report (Old Version)</h1>
+  <p class="meta" data-lang="en"><span>Celsius Casino / Celsius Sport</span> &bull; <span>2025</span> &bull; Comprehensive per-email audit of 6 campaigns &middot; 159 emails &middot; Previous file version</p>
+  <h1 data-lang="ua">Celsius &#8212; &#1040;&#1091;&#1076;&#1080;&#1090; &#1090;&#1077;&#1082;&#1089;&#1090;&#1110;&#1074; (&#1057;&#1090;&#1072;&#1088;&#1072; &#1074;&#1077;&#1088;&#1089;&#1110;&#1103;)</h1>
+  <p class="meta" data-lang="ua"><span>Celsius Casino / Celsius Sport</span> &bull; <span>2025</span> &bull; &#1044;&#1077;&#1090;&#1072;&#1083;&#1100;&#1085;&#1080;&#1081; &#1087;&#1086;&#1077;&#1084;&#1077;&#1081;&#1083;&#1086;&#1074;&#1080;&#1081; &#1072;&#1091;&#1076;&#1080;&#1090; 6 &#1082;&#1072;&#1084;&#1087;&#1072;&#1085;&#1110;&#1081; &middot; 159 &#1083;&#1080;&#1089;&#1090;&#1110;&#1074; &middot; &#1055;&#1086;&#1087;&#1077;&#1088;&#1077;&#1076;&#1085;&#1103; &#1074;&#1077;&#1088;&#1089;&#1110;&#1103; &#1092;&#1072;&#1081;&#1083;&#1110;&#1074;</p>
+  <h1 data-lang="ru">Celsius &#8212; &#1040;&#1091;&#1076;&#1080;&#1090; &#1090;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074; (&#1057;&#1090;&#1072;&#1088;&#1072;&#1103; &#1074;&#1077;&#1088;&#1089;&#1080;&#1103;)</h1>
+  <p class="meta" data-lang="ru"><span>Celsius Casino / Celsius Sport</span> &bull; <span>2025</span> &bull; &#1044;&#1077;&#1090;&#1072;&#1083;&#1100;&#1085;&#1099;&#1081; &#1087;&#1086;&#1101;&#1084;&#1077;&#1081;&#1083;&#1086;&#1074;&#1099;&#1081; &#1072;&#1091;&#1076;&#1080;&#1090; 6 &#1082;&#1072;&#1084;&#1087;&#1072;&#1085;&#1080;&#1081; &middot; 159 &#1087;&#1080;&#1089;&#1077;&#1084; &middot; &#1055;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1072;&#1103; &#1074;&#1077;&#1088;&#1089;&#1080;&#1103; &#1092;&#1072;&#1081;&#1083;&#1086;&#1074;</p>
+</div>
+
+<nav class="report-nav">
+  <a class="nav-link active" href="#summary"><span class="nav-num">0</span>
+    <span data-lang="en" class="active">Summary</span><span data-lang="ua">&#1055;&#1110;&#1076;&#1089;&#1091;&#1084;&#1086;&#1082;</span><span data-lang="ru">&#1048;&#1090;&#1086;&#1075;&#1080;</span></a>
+  <a class="nav-link" href="#rules"><span class="nav-num">1</span>
+    <span data-lang="en" class="active">Rules</span><span data-lang="ua">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1072;</span><span data-lang="ru">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1072;</span></a>
+  <a class="nav-link" href="#dep-retention"><span class="nav-num">2</span> DEP Retention</a>
+  <a class="nav-link" href="#ftd-retention"><span class="nav-num">3</span> FTD Retention</a>
+  <a class="nav-link" href="#nutrition-2"><span class="nav-num">4</span> Nutrition #2</a>
+  <a class="nav-link" href="#nutrition-3"><span class="nav-num">5</span> Nutrition #3</a>
+  <a class="nav-link" href="#su-retention"><span class="nav-num">6</span> SU Retention</a>
+  <a class="nav-link" href="#welcome-flow"><span class="nav-num">7</span> Welcome Flow</a>
+</nav>
+
+<div class="content">
+
+<!-- ===================== SUMMARY ===================== -->
+<div class="section section-anchor" id="summary">
+  <h2>
+    <span data-lang="en" class="active">Summary</span>
+    <span data-lang="ua">&#1055;&#1110;&#1076;&#1089;&#1091;&#1084;&#1086;&#1082;</span>
+    <span data-lang="ru">&#1048;&#1090;&#1086;&#1075;&#1080;</span>
+  </h2>
+  <div class="cards">
+    <div class="card">
+      <div class="card-value">159</div>
+      <div class="card-label">
+        <span data-lang="en" class="active">Total Emails</span>
+        <span data-lang="ua">&#1042;&#1089;&#1100;&#1086;&#1075;&#1086; &#1083;&#1080;&#1089;&#1090;&#1110;&#1074;</span>
+        <span data-lang="ru">&#1042;&#1089;&#1077;&#1075;&#1086; &#1087;&#1080;&#1089;&#1077;&#1084;</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-value">120</div>
+      <div class="card-label">
+        <span data-lang="en" class="active">With Promo Code</span>
+        <span data-lang="ua">&#1047; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;</span>
+        <span data-lang="ru">&#1057; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-value s-ok">0</div>
+      <div class="card-label">
+        <span data-lang="en" class="active">Issues Found</span>
+        <span data-lang="ua">&#1047;&#1085;&#1072;&#1081;&#1076;&#1077;&#1085;&#1086; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084;</span>
+        <span data-lang="ru">&#1053;&#1072;&#1081;&#1076;&#1077;&#1085;&#1086; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084;</span>
+      </div>
+    </div>
+  </div>
+  <table class="at">
+    <thead><tr>
+      <th><span data-lang="en" class="active">Campaign</span><span data-lang="ua">&#1050;&#1072;&#1084;&#1087;&#1072;&#1085;&#1110;&#1103;</span><span data-lang="ru">&#1050;&#1072;&#1084;&#1087;&#1072;&#1085;&#1080;&#1103;</span></th>
+      <th><span data-lang="en" class="active">Emails</span><span data-lang="ua">&#1051;&#1080;&#1089;&#1090;&#1110;&#1074;</span><span data-lang="ru">&#1055;&#1080;&#1089;&#1077;&#1084;</span></th>
+      <th><span data-lang="en" class="active">With Promo</span><span data-lang="ua">&#1047; &#1087;&#1088;&#1086;&#1084;&#1086;</span><span data-lang="ru">&#1057; &#1087;&#1088;&#1086;&#1084;&#1086;</span></th>
+      <th><span data-lang="en" class="active">Issues</span><span data-lang="ua">&#1055;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084;&#1080;</span><span data-lang="ru">&#1055;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084;&#1099;</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td>DEP Retention</td><td>20</td><td>16</td><td><span class="s-ok">0</span></td></tr>
+      <tr><td>FTD Retention</td><td>24</td><td>20</td><td><span class="s-ok">0</span></td></tr>
+      <tr><td>Nutrition #2</td><td>24</td><td>17</td><td><span class="s-ok">0</span></td></tr>
+      <tr><td>Nutrition #3</td><td>24</td><td>18</td><td><span class="s-ok">0</span></td></tr>
+      <tr><td>SU Retention</td><td>40</td><td>34</td><td><span class="s-ok">0</span></td></tr>
+      <tr><td>Welcome Flow</td><td>27</td><td>15</td><td><span class="s-ok">0</span></td></tr>
+      <tr style="font-weight:700;border-top:2px solid #2d2d2d"><td>Total</td><td>159</td><td>120</td><td><span class="s-ok">0</span></td></tr>
+    </tbody>
+  </table>
+  <div class="note">
+    <span data-lang="en" class="active"><strong>Note:</strong> French locale (fr-FR) is a copy of Default &#8212; skipped from audit. Only Default locale analysed per email. This report covers the <strong>previous (old) version</strong> of the text files.</span>
+    <span data-lang="ua"><strong>&#1055;&#1088;&#1080;&#1084;&#1110;&#1090;&#1082;&#1072;:</strong> &#1060;&#1088;&#1072;&#1085;&#1094;&#1091;&#1079;&#1100;&#1082;&#1072; &#1083;&#1086;&#1082;&#1072;&#1083;&#1100; (fr-FR) &#8212; &#1082;&#1086;&#1087;&#1110;&#1103; Default, &#1087;&#1088;&#1086;&#1087;&#1091;&#1097;&#1077;&#1085;&#1072;. &#1055;&#1088;&#1086;&#1072;&#1085;&#1072;&#1083;&#1110;&#1079;&#1086;&#1074;&#1072;&#1085;&#1086; &#1083;&#1080;&#1096;&#1077; Default &#1083;&#1086;&#1082;&#1072;&#1083;&#1100;. &#1062;&#1077;&#1081; &#1079;&#1074;&#1110;&#1090; &#1086;&#1093;&#1086;&#1087;&#1083;&#1102;&#1108; <strong>&#1087;&#1086;&#1087;&#1077;&#1088;&#1077;&#1076;&#1085;&#1102; (&#1089;&#1090;&#1072;&#1088;&#1091;) &#1074;&#1077;&#1088;&#1089;&#1110;&#1102;</strong> &#1090;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1080;&#1093; &#1092;&#1072;&#1081;&#1083;&#1110;&#1074;.</span>
+    <span data-lang="ru"><strong>&#1055;&#1088;&#1080;&#1084;&#1077;&#1095;&#1072;&#1085;&#1080;&#1077;:</strong> &#1060;&#1088;&#1072;&#1085;&#1094;&#1091;&#1079;&#1089;&#1082;&#1072;&#1103; &#1083;&#1086;&#1082;&#1072;&#1083;&#1100; (fr-FR) &#8212; &#1082;&#1086;&#1087;&#1080;&#1103; Default, &#1087;&#1088;&#1086;&#1087;&#1091;&#1097;&#1077;&#1085;&#1072;. &#1055;&#1088;&#1086;&#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1072; &#1090;&#1086;&#1083;&#1100;&#1082;&#1086; Default &#1083;&#1086;&#1082;&#1072;&#1083;&#1100;. &#1069;&#1090;&#1086;&#1090; &#1086;&#1090;&#1095;&#1105;&#1090; &#1086;&#1093;&#1074;&#1072;&#1090;&#1099;&#1074;&#1072;&#1077;&#1090; <strong>&#1087;&#1088;&#1077;&#1076;&#1099;&#1076;&#1091;&#1097;&#1091;&#1102; (&#1089;&#1090;&#1072;&#1088;&#1091;&#1102;) &#1074;&#1077;&#1088;&#1089;&#1080;&#1102;</strong> &#1090;&#1077;&#1082;&#1089;&#1090;&#1086;&#1074;&#1099;&#1093; &#1092;&#1072;&#1081;&#1083;&#1086;&#1074;.</span>
+  </div>
+</div>
+
+<!-- ===================== RULES ===================== -->
+<div class="section section-anchor" id="rules">
+  <h2>
+    <span data-lang="en" class="active">1. What We Check &amp; How Statuses Work</span>
+    <span data-lang="ua">1. &#1065;&#1086; &#1084;&#1080; &#1087;&#1077;&#1088;&#1077;&#1074;&#1110;&#1088;&#1103;&#1108;&#1084;&#1086; &amp; &#1103;&#1082; &#1087;&#1088;&#1072;&#1094;&#1102;&#1102;&#1090;&#1100; &#1089;&#1090;&#1072;&#1090;&#1091;&#1089;&#1080;</span>
+    <span data-lang="ru">1. &#1063;&#1090;&#1086; &#1084;&#1099; &#1087;&#1088;&#1086;&#1074;&#1077;&#1088;&#1103;&#1077;&#1084; &amp; &#1082;&#1072;&#1082; &#1088;&#1072;&#1073;&#1086;&#1090;&#1072;&#1102;&#1090; &#1089;&#1090;&#1072;&#1090;&#1091;&#1089;&#1099;</span>
+  </h2>
+  <div class="rule-grid">
+    <div class="rule-card">
+      <h4>
+        <span data-lang="en" class="active">Rule 1 &#8212; Body wrapper</span>
+        <span data-lang="ua">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1086; 1 &#8212; &#1054;&#1073;&#1075;&#1086;&#1088;&#1090;&#1082;&#1072; &#1074; &#1090;&#1110;&#1083;&#1110;</span>
+        <span data-lang="ru">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1086; 1 &#8212; &#1054;&#1073;&#1105;&#1088;&#1090;&#1082;&#1072; &#1074; &#1090;&#1077;&#1083;&#1077;</span>
+      </h4>
+      <p>
+        <span data-lang="en" class="active">Check: <code>&lt;strong class="promocode"&gt;CODE&lt;/strong&gt;</code> around every promo code in the email body text (<code>text_2</code> field).</span>
+        <span data-lang="ua">&#1055;&#1077;&#1088;&#1077;&#1074;&#1110;&#1088;&#1082;&#1072;: <code>&lt;strong class="promocode"&gt;CODE&lt;/strong&gt;</code> &#1085;&#1072;&#1074;&#1082;&#1086;&#1083;&#1086; &#1082;&#1086;&#1078;&#1085;&#1086;&#1075;&#1086; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1091; &#1074; &#1090;&#1110;&#1083;&#1110; &#1083;&#1080;&#1089;&#1090;&#1072; (&#1087;&#1086;&#1083;&#1077; <code>text_2</code>).</span>
+        <span data-lang="ru">&#1055;&#1088;&#1086;&#1074;&#1077;&#1088;&#1082;&#1072;: <code>&lt;strong class="promocode"&gt;CODE&lt;/strong&gt;</code> &#1074;&#1086;&#1082;&#1088;&#1091;&#1075; &#1082;&#1072;&#1078;&#1076;&#1086;&#1075;&#1086; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1072; &#1074; &#1090;&#1077;&#1083;&#1077; &#1087;&#1080;&#1089;&#1100;&#1084;&#1072; (&#1087;&#1086;&#1083;&#1077; <code>text_2</code>).</span>
+      </p>
+      <p>
+        <span data-lang="en" class="active">Column <strong>Wrapper</strong>: <span class="s-ok">&#10004;</span> present &#8212; <span class="s-e">&#10008;</span> missing &#8212; <span class="s-na">&#8212;</span> n/a</span>
+        <span data-lang="ua">&#1050;&#1086;&#1083;&#1086;&#1085;&#1082;&#1072; <strong>Wrapper</strong>: <span class="s-ok">&#10004;</span> &#1108; &#8212; <span class="s-e">&#10008;</span> &#1085;&#1077;&#1084;&#1072;&#1108; &#8212; <span class="s-na">&#8212;</span> n/a</span>
+        <span data-lang="ru">&#1050;&#1086;&#1083;&#1086;&#1085;&#1082;&#1072; <strong>Wrapper</strong>: <span class="s-ok">&#10004;</span> &#1077;&#1089;&#1090;&#1100; &#8212; <span class="s-e">&#10008;</span> &#1085;&#1077;&#1090; &#8212; <span class="s-na">&#8212;</span> n/a</span>
+      </p>
+    </div>
+    <div class="rule-card">
+      <h4>
+        <span data-lang="en" class="active">Rule 2 &#8212; Header data-promocode</span>
+        <span data-lang="ua">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1086; 2 &#8212; Header data-promocode</span>
+        <span data-lang="ru">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1086; 2 &#8212; Header data-promocode</span>
+      </h4>
+      <p>
+        <span data-lang="en" class="active">Check: <code>header_html_tag</code> contains <code>data-promocode="CODE"</code> matching body promo codes.</span>
+        <span data-lang="ua">&#1055;&#1077;&#1088;&#1077;&#1074;&#1110;&#1088;&#1082;&#1072;: <code>header_html_tag</code> &#1084;&#1110;&#1089;&#1090;&#1080;&#1090;&#1100; <code>data-promocode="CODE"</code> &#1074;&#1110;&#1076;&#1087;&#1086;&#1074;&#1110;&#1076;&#1085;&#1086; &#1076;&#1086; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1110;&#1074; &#1091; &#1090;&#1110;&#1083;&#1110;.</span>
+        <span data-lang="ru">&#1055;&#1088;&#1086;&#1074;&#1077;&#1088;&#1082;&#1072;: <code>header_html_tag</code> &#1089;&#1086;&#1076;&#1077;&#1088;&#1078;&#1080;&#1090; <code>data-promocode="CODE"</code> &#1074; &#1089;&#1086;&#1086;&#1090;&#1074;&#1077;&#1090;&#1089;&#1090;&#1074;&#1080;&#1080; &#1089; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1072;&#1084;&#1080; &#1074; &#1090;&#1077;&#1083;&#1077;.</span>
+      </p>
+      <p>
+        <span data-lang="en" class="active">Column <strong>Header</strong>: <span class="s-ok">&#10004;</span> present &#8212; <span class="s-e">&#10008;</span> missing &#8212; <span class="s-w">&#9888;</span> partial &#8212; <span class="s-na">&#8212;</span> n/a</span>
+        <span data-lang="ua">&#1050;&#1086;&#1083;&#1086;&#1085;&#1082;&#1072; <strong>Header</strong>: <span class="s-ok">&#10004;</span> &#1108; &#8212; <span class="s-e">&#10008;</span> &#1085;&#1077;&#1084;&#1072;&#1108; &#8212; <span class="s-w">&#9888;</span> &#1095;&#1072;&#1089;&#1090;&#1082;&#1086;&#1074;&#1086; &#8212; <span class="s-na">&#8212;</span> n/a</span>
+        <span data-lang="ru">&#1050;&#1086;&#1083;&#1086;&#1085;&#1082;&#1072; <strong>Header</strong>: <span class="s-ok">&#10004;</span> &#1077;&#1089;&#1090;&#1100; &#8212; <span class="s-e">&#10008;</span> &#1085;&#1077;&#1090; &#8212; <span class="s-w">&#9888;</span> &#1095;&#1072;&#1089;&#1090;&#1080;&#1095;&#1085;&#1086; &#8212; <span class="s-na">&#8212;</span> n/a</span>
+      </p>
+    </div>
+    <div class="rule-card">
+      <h4>
+        <span data-lang="en" class="active">Rule 3 &#8212; Promo Button (DEP only)</span>
+        <span data-lang="ua">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1086; 3 &#8212; Promo Button (&#1083;&#1080;&#1096;&#1077; DEP)</span>
+        <span data-lang="ru">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1086; 3 &#8212; Promo Button (&#1090;&#1086;&#1083;&#1100;&#1082;&#1086; DEP)</span>
+      </h4>
+      <p>
+        <span data-lang="en" class="active">Check: DEP Retention uses <code>promocode_button_1</code> field instead of body text wrapper.</span>
+        <span data-lang="ua">&#1055;&#1077;&#1088;&#1077;&#1074;&#1110;&#1088;&#1082;&#1072;: DEP Retention &#1074;&#1080;&#1082;&#1086;&#1088;&#1080;&#1089;&#1090;&#1086;&#1074;&#1091;&#1108; &#1087;&#1086;&#1083;&#1077; <code>promocode_button_1</code> &#1079;&#1072;&#1084;&#1110;&#1089;&#1090;&#1100; &#1086;&#1073;&#1075;&#1086;&#1088;&#1090;&#1082;&#1080; &#1074; &#1090;&#1110;&#1083;&#1110;.</span>
+        <span data-lang="ru">&#1055;&#1088;&#1086;&#1074;&#1077;&#1088;&#1082;&#1072;: DEP Retention &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1091;&#1077;&#1090; &#1087;&#1086;&#1083;&#1077; <code>promocode_button_1</code> &#1074;&#1084;&#1077;&#1089;&#1090;&#1086; &#1086;&#1073;&#1105;&#1088;&#1090;&#1082;&#1080; &#1074; &#1090;&#1077;&#1083;&#1077;.</span>
+      </p>
+      <p>
+        <span data-lang="en" class="active">Column <strong>PromoBtn</strong>: <span class="s-ok">&#10004;</span> present &#8212; <span class="s-e">&#10008;</span> missing &#8212; <span class="s-na">&#8212;</span> n/a</span>
+        <span data-lang="ua">&#1050;&#1086;&#1083;&#1086;&#1085;&#1082;&#1072; <strong>PromoBtn</strong>: <span class="s-ok">&#10004;</span> &#1108; &#8212; <span class="s-e">&#10008;</span> &#1085;&#1077;&#1084;&#1072;&#1108; &#8212; <span class="s-na">&#8212;</span> n/a</span>
+        <span data-lang="ru">&#1050;&#1086;&#1083;&#1086;&#1085;&#1082;&#1072; <strong>PromoBtn</strong>: <span class="s-ok">&#10004;</span> &#1077;&#1089;&#1090;&#1100; &#8212; <span class="s-e">&#10008;</span> &#1085;&#1077;&#1090; &#8212; <span class="s-na">&#8212;</span> n/a</span>
+      </p>
+    </div>
+    <div class="rule-card">
+      <h4>
+        <span data-lang="en" class="active">Status Legend</span>
+        <span data-lang="ua">&#1051;&#1077;&#1075;&#1077;&#1085;&#1076;&#1072; &#1089;&#1090;&#1072;&#1090;&#1091;&#1089;&#1110;&#1074;</span>
+        <span data-lang="ru">&#1051;&#1077;&#1075;&#1077;&#1085;&#1076;&#1072; &#1089;&#1090;&#1072;&#1090;&#1091;&#1089;&#1086;&#1074;</span>
+      </h4>
+      <p><span class="s-ok">OK</span> &#8212;
+        <span data-lang="en" class="active">All promo codes correctly placed in body and header</span>
+        <span data-lang="ua">&#1042;&#1089;&#1110; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1080; &#1082;&#1086;&#1088;&#1077;&#1082;&#1090;&#1085;&#1086; &#1088;&#1086;&#1079;&#1084;&#1110;&#1097;&#1077;&#1085;&#1110; &#1074; &#1090;&#1110;&#1083;&#1110; &#1090;&#1072; &#1096;&#1072;&#1087;&#1094;&#1110;</span>
+        <span data-lang="ru">&#1042;&#1089;&#1077; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1099; &#1082;&#1086;&#1088;&#1088;&#1077;&#1082;&#1090;&#1085;&#1086; &#1088;&#1072;&#1079;&#1084;&#1077;&#1097;&#1077;&#1085;&#1099; &#1074; &#1090;&#1077;&#1083;&#1077; &#1080; &#1096;&#1072;&#1087;&#1082;&#1077;</span>
+      </p>
+      <p><span class="s-w">&#9888;</span> &#8212;
+        <span data-lang="en" class="active">Mismatch between body and header promo codes</span>
+        <span data-lang="ua">&#1053;&#1077;&#1074;&#1110;&#1076;&#1087;&#1086;&#1074;&#1110;&#1076;&#1085;&#1110;&#1089;&#1090;&#1100; &#1084;&#1110;&#1078; &#1090;&#1110;&#1083;&#1086;&#1084; &#1110; &#1096;&#1072;&#1087;&#1082;&#1086;&#1102;</span>
+        <span data-lang="ru">&#1053;&#1077;&#1089;&#1086;&#1086;&#1090;&#1074;&#1077;&#1090;&#1089;&#1090;&#1074;&#1080;&#1077; &#1084;&#1077;&#1078;&#1076;&#1091; &#1090;&#1077;&#1083;&#1086;&#1084; &#1080; &#1096;&#1072;&#1087;&#1082;&#1086;&#1081;</span>
+      </p>
+      <p><span class="s-na">&#8212;</span> &#8212;
+        <span data-lang="en" class="active">No promo code in this email &#8212; nothing to check</span>
+        <span data-lang="ua">&#1053;&#1077;&#1084;&#1072;&#1108; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1091; &#8212; &#1085;&#1110;&#1095;&#1086;&#1075;&#1086; &#1087;&#1077;&#1088;&#1077;&#1074;&#1110;&#1088;&#1103;&#1090;&#1080;</span>
+        <span data-lang="ru">&#1053;&#1077;&#1090; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1072; &#8212; &#1085;&#1077;&#1095;&#1077;&#1075;&#1086; &#1087;&#1088;&#1086;&#1074;&#1077;&#1088;&#1103;&#1090;&#1100;</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== DEP RETENTION ===================== -->
+<div class="section section-anchor" id="dep-retention">
+  <h2>
+    <span data-lang="en" class="active">2. DEP Retention &#8212; 20 emails</span>
+    <span data-lang="ua">2. DEP Retention &#8212; 20 &#1083;&#1080;&#1089;&#1090;&#1110;&#1074;</span>
+    <span data-lang="ru">2. DEP Retention &#8212; 20 &#1087;&#1080;&#1089;&#1077;&#1084;</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">16 with promo code, 4 without. All clean &#8212; no issues.</span>
+    <span data-lang="ua">16 &#1079; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 4 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1077; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1084;&#1072;&#1108;.</span>
+    <span data-lang="ru">16 &#1089; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 4 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1105; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1090;.</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th>
+      <th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">&#1041;&#1086;&#1085;&#1091;&#1089;</span><span data-lang="ru">&#1041;&#1086;&#1085;&#1091;&#1089;</span></th>
+      <th><span data-lang="en" class="active">Game</span><span data-lang="ua">&#1043;&#1088;&#1072;</span><span data-lang="ru">&#1048;&#1075;&#1088;&#1072;</span></th>
+      <th><span data-lang="en" class="active">Promo Code</span><span data-lang="ua">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span><span data-lang="ru">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span></th>
+      <th>Header</th>
+      <th>Wrapper</th>
+      <th>PromoBtn</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span><span data-lang="ru">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td>1</td><td class="eid">C1.1</td><td>170% deposit bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">SURGE170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>2</td><td class="eid">S1.1</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINSAFE20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>3</td><td class="eid">C2.1</td><td>150% + 70 FS</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CREWBOOST150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>4</td><td class="eid">S2.1</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINSAFE20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>5</td><td class="eid">C3.1</td><td><span class="cdesc">weekly winners (casino)</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>6</td><td class="eid">S3.1</td><td><span class="cdesc">weekly winners (sports)</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>7</td><td class="eid">C4.1</td><td>160% + 80 FS</td><td><span class="game">Wild West Gold by Pragmatic Play</span></td><td><span class="code">GUNSLINGER160</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>8</td><td class="eid">S4.1</td><td>170% deposit bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">SURGE170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>9</td><td class="eid">C5.1</td><td>170% bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">BOOSTER170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>10</td><td class="eid">S5.1</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINSAFE20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>11</td><td class="eid">C6.1</td><td><span class="cdesc">weekly winners (casino)</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>12</td><td class="eid">S6.1</td><td>170% deposit bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">BOOSTER170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>13</td><td class="eid">C7.1</td><td>160% + 80 FS</td><td><span class="game">Wild West Gold by Pragmatic Play</span></td><td><span class="code">GUNSLINGER160</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>14</td><td class="eid">S7.1</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINSAFE20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>15</td><td class="eid">C8.1</td><td>180% + 80 FS</td><td><span class="game">Wanted Dead or a Wild by Hacksaw Gaming</span></td><td><span class="code">OUTLAW180</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>16</td><td class="eid">S8.1</td><td><span class="cdesc">weekly winners (sports)</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>17</td><td class="eid">C9.1</td><td>140% + 100 FS</td><td><span class="game">Big Bamboo by Push Gaming</span></td><td><span class="code">GIANTPANDA100</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>18</td><td class="eid">S9.1</td><td>30% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">ONLYSAFE30</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>19</td><td class="eid">C10.1</td><td>200 FS</td><td><span class="game">Gems Bonanza by Pragmatic Play</span></td><td><span class="code">GEMHUNT200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>20</td><td class="eid">S10.1</td><td>30% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">ONLYSAFE30</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ===================== FTD RETENTION ===================== -->
+<div class="section section-anchor" id="ftd-retention">
+  <h2>
+    <span data-lang="en" class="active">3. FTD Retention &#8212; 24 emails</span>
+    <span data-lang="ua">3. FTD Retention &#8212; 24 &#1083;&#1080;&#1089;&#1090;&#1110;&#1074;</span>
+    <span data-lang="ru">3. FTD Retention &#8212; 24 &#1087;&#1080;&#1089;&#1077;&#1084;</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">20 with promo code, 4 without. All clean &#8212; no issues.</span>
+    <span data-lang="ua">20 &#1079; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 4 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1077; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1084;&#1072;&#1108;.</span>
+    <span data-lang="ru">20 &#1089; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 4 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1105; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1090;.</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th>
+      <th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">&#1041;&#1086;&#1085;&#1091;&#1089;</span><span data-lang="ru">&#1041;&#1086;&#1085;&#1091;&#1089;</span></th>
+      <th><span data-lang="en" class="active">Game</span><span data-lang="ua">&#1043;&#1088;&#1072;</span><span data-lang="ru">&#1048;&#1075;&#1088;&#1072;</span></th>
+      <th><span data-lang="en" class="active">Promo Code</span><span data-lang="ua">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span><span data-lang="ru">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span></th>
+      <th>Header</th>
+      <th>Wrapper</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span><span data-lang="ru">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td>1</td><td class="eid">1C</td><td>100% + 50 FS</td><td><span class="game">Hand of Anubis by Hacksaw Gaming</span></td><td><span class="code">ANUBIS10050</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>2</td><td class="eid">1M</td><td>100% + 50 FS, 20% NRF</td><td><span class="game">Hand of Anubis by Hacksaw Gaming</span></td><td><span class="code">ANUBIS10050</span> <span class="code">WINBACKNRF20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>3</td><td class="eid">1S</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINBACKNRF20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>4</td><td class="eid">2C</td><td><span class="cdesc">motivational &#8212; come back &amp; spin</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>5</td><td class="eid">2M</td><td>100% + 60 FS, 20% NRF</td><td><span class="game">Dog House Megaways by Pragmatic Play</span></td><td><span class="code">DOG10060</span> <span class="code">WINBACKNRF20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>6</td><td class="eid">2S</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINBACKNRF20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>7</td><td class="eid">3C</td><td>140% + 50 FS</td><td><span class="game">Fruit Party by Pragmatic Play</span></td><td><span class="code">PARTY140</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>8</td><td class="eid">3M</td><td>2%-4% CB, 20%-30% NRF (tiered)</td><td><span class="s-na">&#8212;</span></td><td><span class="code">SAFE2CB2</span> <span class="code">RETURN3CB3</span> <span class="code">BOOST4CB4</span> <span class="code">WINBACKNRF20</span> <span class="code">SAFETYNRF25</span> <span class="code">COVERNRF30</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>9</td><td class="eid">3S</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINBACKNRF20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>10</td><td class="eid">4C</td><td>110% + 50 FS</td><td><span class="game">Dork Unit by Hacksaw Gaming</span></td><td><span class="code">DORK50110</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>11</td><td class="eid">4M</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>12</td><td class="eid">4S</td><td>25% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">SAFETYNRF25</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>13</td><td class="eid">5C</td><td>100% + 80 FS</td><td><span class="game">Sweet Bonanza by Pragmatic Play</span></td><td><span class="code">BONANZA10080</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>14</td><td class="eid">5M</td><td>100% + 70 FS, 20% NRF</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CHAOS10070</span> <span class="code">WINBACKNRF20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>15</td><td class="eid">5S</td><td>30% NoRisk Only Win</td><td><span class="s-na">&#8212;</span></td><td><span class="code">ONLYWIN30</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>16</td><td class="eid">6C</td><td>100% + 150 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">RICH100150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>17</td><td class="eid">6M</td><td>2%-4% CB, 20%-30% NRF (tiered)</td><td><span class="s-na">&#8212;</span></td><td><span class="code">SAFE2CB2</span> <span class="code">RETURN3CB3</span> <span class="code">BOOST4CB4</span> <span class="code">WINBACKNRF20</span> <span class="code">SAFETYNRF25</span> <span class="code">COVERNRF30</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>18</td><td class="eid">6S</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINBACKNRF20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>19</td><td class="eid">7C</td><td><span class="cdesc">motivational &#8212; next deposit, jackpot</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>20</td><td class="eid">7M</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>21</td><td class="eid">7S</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WINBACKNRF20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>22</td><td class="eid">8C</td><td>150% + 30 FS</td><td><span class="game">Stormforged by Hacksaw Gaming</span></td><td><span class="code">FORGED150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>23</td><td class="eid">8M</td><td>2%-4% CB, 20%-30% NRF (tiered)</td><td><span class="s-na">&#8212;</span></td><td><span class="code">SAFE2CB2</span> <span class="code">RETURN3CB3</span> <span class="code">BOOST4CB4</span> <span class="code">WINBACKNRF20</span> <span class="code">SAFETYNRF25</span> <span class="code">COVERNRF30</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>24</td><td class="eid">8S</td><td>30% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">ONLYWIN30</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ===================== NUTRITION #2 ===================== -->
+<div class="section section-anchor" id="nutrition-2">
+  <h2>
+    <span data-lang="en" class="active">4. Nutrition #2 &#8212; 24 emails</span>
+    <span data-lang="ua">4. Nutrition #2 &#8212; 24 &#1083;&#1080;&#1089;&#1090;&#1110;&#1074;</span>
+    <span data-lang="ru">4. Nutrition #2 &#8212; 24 &#1087;&#1080;&#1089;&#1077;&#1084;</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">17 with promo code, 7 without. All clean &#8212; no issues.</span>
+    <span data-lang="ua">17 &#1079; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 7 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1077; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1084;&#1072;&#1108;.</span>
+    <span data-lang="ru">17 &#1089; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 7 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1105; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1090;.</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th>
+      <th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">&#1041;&#1086;&#1085;&#1091;&#1089;</span><span data-lang="ru">&#1041;&#1086;&#1085;&#1091;&#1089;</span></th>
+      <th><span data-lang="en" class="active">Game</span><span data-lang="ua">&#1043;&#1088;&#1072;</span><span data-lang="ru">&#1048;&#1075;&#1088;&#1072;</span></th>
+      <th><span data-lang="en" class="active">Promo Code</span><span data-lang="ua">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span><span data-lang="ru">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span></th>
+      <th>Header</th>
+      <th>Wrapper</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span><span data-lang="ru">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td>1</td><td class="eid">1CL</td><td>100% + 50 FS</td><td><span class="game">Hand of Anubis by Hacksaw Gaming</span></td><td><span class="code">UNDERDOG50</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>2</td><td class="eid">1CS</td><td>100% + 50 FS</td><td><span class="game">Hand of Anubis by Hacksaw Gaming</span></td><td><span class="code">UNDERDOG50</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>3</td><td class="eid">1S</td><td>20% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CLEARSHOT20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>4</td><td class="eid">2CL</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>5</td><td class="eid">2CS</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>6</td><td class="eid">2S</td><td>20% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CLEARSHOT20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>7</td><td class="eid">3CL</td><td>100% LC bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">MATCH100</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>8</td><td class="eid">3CS</td><td>200% + 50 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">OCCULT200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>9</td><td class="eid">3S</td><td>20% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CLEARSHOT20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>10</td><td class="eid">4CL</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>11</td><td class="eid">4CS</td><td>100% + 50 FS</td><td><span class="game">Hand of Anubis by Hacksaw Gaming</span></td><td><span class="code">UNDERDOG50</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>12</td><td class="eid">4S</td><td>20% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CLEARSHOT20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>13</td><td class="eid">5CL</td><td>200% LC bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">ROCKET200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>14</td><td class="eid">5CS</td><td>200% + 50 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">OCCULT200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>15</td><td class="eid">5S</td><td><span class="cdesc">sports winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>16</td><td class="eid">6CL</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>17</td><td class="eid">6CS</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>18</td><td class="eid">6S</td><td>20% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CLEARSHOT20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>19</td><td class="eid">7CL</td><td>210% LC bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">BLAST210</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>20</td><td class="eid">7CS</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>21</td><td class="eid">7S</td><td>20% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CLEARSHOT20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>22</td><td class="eid">8CL</td><td>220% LC bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">BOOSTED220</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>23</td><td class="eid">8CS</td><td>100 FS</td><td><span class="game">Legacy of Dead by Play&#39;n Go</span></td><td><span class="code">PHARAOH100</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>24</td><td class="eid">8S</td><td>20% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CLEARSHOT20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ===================== NUTRITION #3 ===================== -->
+<div class="section section-anchor" id="nutrition-3">
+  <h2>
+    <span data-lang="en" class="active">5. Nutrition #3 &#8212; 24 emails</span>
+    <span data-lang="ua">5. Nutrition #3 &#8212; 24 &#1083;&#1080;&#1089;&#1090;&#1110;&#1074;</span>
+    <span data-lang="ru">5. Nutrition #3 &#8212; 24 &#1087;&#1080;&#1089;&#1077;&#1084;</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">18 with promo code, 6 without. All clean &#8212; no issues.</span>
+    <span data-lang="ua">18 &#1079; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 6 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1077; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1084;&#1072;&#1108;.</span>
+    <span data-lang="ru">18 &#1089; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 6 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1105; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1090;.</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th>
+      <th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">&#1041;&#1086;&#1085;&#1091;&#1089;</span><span data-lang="ru">&#1041;&#1086;&#1085;&#1091;&#1089;</span></th>
+      <th><span data-lang="en" class="active">Game</span><span data-lang="ua">&#1043;&#1088;&#1072;</span><span data-lang="ru">&#1048;&#1075;&#1088;&#1072;</span></th>
+      <th><span data-lang="en" class="active">Promo Code</span><span data-lang="ua">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span><span data-lang="ru">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span></th>
+      <th>Header</th>
+      <th>Wrapper</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span><span data-lang="ru">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td>1</td><td class="eid">1CL</td><td>150% LC bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">VAULT150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>2</td><td class="eid">1CS</td><td>200% + 50 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">OCCULT200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>3</td><td class="eid">1S</td><td>20% NRF up to &euro;500</td><td><span class="s-na">&#8212;</span></td><td><span class="code">STEADY20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>4</td><td class="eid">2CL</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>5</td><td class="eid">2CS</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>6</td><td class="eid">2S</td><td>20% NRF up to &euro;500</td><td><span class="s-na">&#8212;</span></td><td><span class="code">STEADY20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>7</td><td class="eid">3CL</td><td>200% + 50 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">OCCULT200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>8</td><td class="eid">3CS</td><td>200% + 50 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">OCCULT200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>9</td><td class="eid">3S</td><td>20% NRF up to &euro;500</td><td><span class="s-na">&#8212;</span></td><td><span class="code">STEADY20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>10</td><td class="eid">4CL</td><td>170% LC bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">RISEUP170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>11</td><td class="eid">4CS</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>12</td><td class="eid">4S</td><td>20% NRF up to &euro;500</td><td><span class="s-na">&#8212;</span></td><td><span class="code">STEADY20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>13</td><td class="eid">5CL</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>14</td><td class="eid">5CS</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>15</td><td class="eid">5S</td><td><span class="cdesc">sports winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>16</td><td class="eid">6CL</td><td>170% LC bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">RISEUP170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>17</td><td class="eid">6CS</td><td>200% + 50 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">OCCULT200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>18</td><td class="eid">6S</td><td>20% NRF up to &euro;500</td><td><span class="s-na">&#8212;</span></td><td><span class="code">STEADY20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>19</td><td class="eid">7CL</td><td>170% + 30 FS</td><td><span class="game">Wild West Gold by Pragmatic Play</span></td><td><span class="code">COWBOY170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>20</td><td class="eid">7CS</td><td>170% + 30 FS</td><td><span class="game">Wild West Gold by Pragmatic Play</span></td><td><span class="code">COWBOY170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>21</td><td class="eid">7S</td><td>20% NRF up to &euro;500</td><td><span class="s-na">&#8212;</span></td><td><span class="code">STEADY20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>22</td><td class="eid">8CL</td><td>170% LC bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">RISEUP170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>23</td><td class="eid">8CS</td><td>200% + 50 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">OCCULT200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>24</td><td class="eid">8S</td><td>20% NRF up to &euro;500</td><td><span class="s-na">&#8212;</span></td><td><span class="code">STEADY20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ===================== SU RETENTION ===================== -->
+<div class="section section-anchor" id="su-retention">
+  <h2>
+    <span data-lang="en" class="active">6. SU Retention &#8212; 40 emails</span>
+    <span data-lang="ua">6. SU Retention &#8212; 40 &#1083;&#1080;&#1089;&#1090;&#1110;&#1074;</span>
+    <span data-lang="ru">6. SU Retention &#8212; 40 &#1087;&#1080;&#1089;&#1077;&#1084;</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">34 with promo code, 6 without. All clean &#8212; no issues.</span>
+    <span data-lang="ua">34 &#1079; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 6 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1077; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1084;&#1072;&#1108;.</span>
+    <span data-lang="ru">34 &#1089; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 6 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1105; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1090;.</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th>
+      <th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">&#1041;&#1086;&#1085;&#1091;&#1089;</span><span data-lang="ru">&#1041;&#1086;&#1085;&#1091;&#1089;</span></th>
+      <th><span data-lang="en" class="active">Game</span><span data-lang="ua">&#1043;&#1088;&#1072;</span><span data-lang="ru">&#1048;&#1075;&#1088;&#1072;</span></th>
+      <th><span data-lang="en" class="active">Promo Code</span><span data-lang="ua">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span><span data-lang="ru">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span></th>
+      <th>Header</th>
+      <th>Wrapper</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span><span data-lang="ru">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td>1</td><td class="eid">1C</td><td><span class="cdesc">100% + 150 FS (FTD reminder)</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>2</td><td class="eid">1CFS</td><td>150 FS</td><td><span class="game">Fire in the Hole by Nolimit City</span></td><td><span class="code">XBOMB150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>3</td><td class="eid">1M</td><td>100% + 150 FS, 15% NRF</td><td><span class="game">Razor Shark by Push Gaming</span></td><td><span class="code">FINTASTIC150</span> <span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>4</td><td class="eid">1S</td><td>15% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>5</td><td class="eid">2C</td><td><span class="cdesc">100% + 150 FS (FTD reminder)</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>6</td><td class="eid">2CFS</td><td>100% + 150 FS</td><td><span class="game">Razor Shark by Push Gaming</span></td><td><span class="code">FINTASTIC150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>7</td><td class="eid">2M</td><td>100% + 150 FS, 4% CB</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CASHPLUS4</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>8</td><td class="eid">2S</td><td>4% Cashback</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CASHPLUS4</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>9</td><td class="eid">3C</td><td>140% bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">POWER140</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>10</td><td class="eid">3CFS</td><td>150 FS</td><td><span class="game">Fire in the Hole by Nolimit City</span></td><td><span class="code">XBOMB150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>11</td><td class="eid">3M</td><td>140% bonus, 15% NRF</td><td><span class="s-na">&#8212;</span></td><td><span class="code">POWER140</span> <span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>12</td><td class="eid">3S</td><td>15% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>13</td><td class="eid">4C</td><td>130% + 70 FS</td><td><span class="game">Sweet Bonanza by Pragmatic Play</span></td><td><span class="code">CANDYDROP70</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>14</td><td class="eid">4CFS</td><td><span class="cdesc">100% + 150 FS (FTD reminder)</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>15</td><td class="eid">4M</td><td>130% + 70 FS</td><td><span class="game">Sweet Bonanza by Pragmatic Play</span></td><td><span class="code">CANDYDROP70</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>16</td><td class="eid">4S</td><td>4% Cashback</td><td><span class="s-na">&#8212;</span></td><td><span class="code">CASHPLUS4</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>17</td><td class="eid">5C</td><td>140% bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">POWER140</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>18</td><td class="eid">5CFS</td><td>140% bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">POWER140</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>19</td><td class="eid">5M</td><td>140% bonus, 15% NRF</td><td><span class="s-na">&#8212;</span></td><td><span class="code">POWER140</span> <span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>20</td><td class="eid">5S</td><td>15% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>21</td><td class="eid">6C</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>22</td><td class="eid">6CFS</td><td>200 FS</td><td><span class="game">Hand of Anubis by Hacksaw Gaming</span></td><td><span class="code">UNDERWORLD200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>23</td><td class="eid">6M</td><td>140% bonus, 15% NRF</td><td><span class="s-na">&#8212;</span></td><td><span class="code">POWER140</span> <span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>24</td><td class="eid">6S</td><td>15% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>25</td><td class="eid">7C</td><td>140% + 80 FS</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CHAOSCTRL80</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>26</td><td class="eid">7CFS</td><td>140% + 80 FS</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CHAOSCTRL80</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>27</td><td class="eid">7M</td><td>140% + 80 FS, 20% NRF</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CHAOSCTRL80</span> <span class="code">WIN20NRF</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>28</td><td class="eid">7S</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WIN20NRF</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>29</td><td class="eid">8C</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>30</td><td class="eid">8CFS</td><td>200 FS</td><td><span class="game">Hand of Anubis by Hacksaw Gaming</span></td><td><span class="code">UNDERWORLD200</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>31</td><td class="eid">8M</td><td>140% + 80 FS, 20% NRF</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CHAOSCTRL80</span> <span class="code">WIN20NRF</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>32</td><td class="eid">8S</td><td>20% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">WIN20NRF</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>33</td><td class="eid">9C</td><td>160% + 90 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">MADNESS16090</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>34</td><td class="eid">9CFS</td><td>140% + 80 FS</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CHAOSCTRL80</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>35</td><td class="eid">9M</td><td>160% + 90 FS, 25% NRF</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">MADNESS16090</span> <span class="code">SECURE25</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>36</td><td class="eid">9S</td><td>25% NoRisk FreeBet</td><td><span class="s-na">&#8212;</span></td><td><span class="code">SECURE25</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>37</td><td class="eid">10C</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>38</td><td class="eid">10CFS</td><td>160% + 90 FS</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">MADNESS16090</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>39</td><td class="eid">10M</td><td>160% + 90 FS, 25% NRF</td><td><span class="game">Rich Wilde and the Tome of Madness by Play&#39;n Go</span></td><td><span class="code">MADNESS16090</span> <span class="code">SECURE25</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>40</td><td class="eid">10S</td><td>15% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">EARNNRF15X</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ===================== WELCOME FLOW ===================== -->
+<div class="section section-anchor" id="welcome-flow">
+  <h2>
+    <span data-lang="en" class="active">7. Welcome Flow &#8212; 27 emails</span>
+    <span data-lang="ua">7. Welcome Flow &#8212; 27 &#1083;&#1080;&#1089;&#1090;&#1110;&#1074;</span>
+    <span data-lang="ru">7. Welcome Flow &#8212; 27 &#1087;&#1080;&#1089;&#1077;&#1084;</span>
+  </h2>
+  <p class="desc">
+    <span data-lang="en" class="active">15 with promo code, 12 without. All clean &#8212; no issues.</span>
+    <span data-lang="ua">15 &#1079; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 12 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1077; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1084;&#1072;&#1108;.</span>
+    <span data-lang="ru">15 &#1089; &#1087;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;&#1086;&#1084;, 12 &#1073;&#1077;&#1079;. &#1042;&#1089;&#1105; &#1095;&#1080;&#1089;&#1090;&#1086; &#8212; &#1087;&#1088;&#1086;&#1073;&#1083;&#1077;&#1084; &#1085;&#1077;&#1090;.</span>
+  </p>
+  <table class="at">
+    <thead><tr>
+      <th>#</th>
+      <th>Email</th>
+      <th><span data-lang="en" class="active">Bonus</span><span data-lang="ua">&#1041;&#1086;&#1085;&#1091;&#1089;</span><span data-lang="ru">&#1041;&#1086;&#1085;&#1091;&#1089;</span></th>
+      <th><span data-lang="en" class="active">Game</span><span data-lang="ua">&#1043;&#1088;&#1072;</span><span data-lang="ru">&#1048;&#1075;&#1088;&#1072;</span></th>
+      <th><span data-lang="en" class="active">Promo Code</span><span data-lang="ua">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span><span data-lang="ru">&#1055;&#1088;&#1086;&#1084;&#1086;&#1082;&#1086;&#1076;</span></th>
+      <th>Header</th>
+      <th>Wrapper</th>
+      <th><span data-lang="en" class="active">Status</span><span data-lang="ua">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span><span data-lang="ru">&#1057;&#1090;&#1072;&#1090;&#1091;&#1089;</span></th>
+    </tr></thead>
+    <tbody>
+      <tr><td>1</td><td class="eid">1C</td><td>Welcome package (4 deposits)</td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>2</td><td class="eid">1M</td><td>Cashback Bonus (Slots, Live, Sports)</td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>3</td><td class="eid">1S</td><td>50% FreeBets &euro;200 + 20% NRF &euro;500</td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>4</td><td class="eid">2C</td><td>100% + 150 FS</td><td><span class="game">Le Bandit by Hacksaw Gaming</span></td><td><span class="code">BANDIT150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>5</td><td class="eid">2M</td><td>10% NoRisk FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">SAFE10</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>6</td><td class="eid">2S</td><td>50% next deposit bonus</td><td><span class="s-na">&#8212;</span></td><td><span class="code">BOOST50</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>7</td><td class="eid">3C</td><td>100% + 150 FS</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CREW150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>8</td><td class="eid">3M</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>9</td><td class="eid">3S</td><td><span class="cdesc">matchday motivation</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>10</td><td class="eid">4C</td><td>120% + 170 FS</td><td><span class="game">Stormforged by Hacksaw Gaming</span></td><td><span class="code">STORM170</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>11</td><td class="eid">4M</td><td>100 FS + 20% NRF</td><td><span class="game">Legacy of Dead by Play&#39;n Go</span></td><td><span class="code">LEGACY100</span> <span class="code">BETSAFE20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>12</td><td class="eid">4S</td><td>50% FreeBets up to &euro;200</td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>13</td><td class="eid">5C</td><td>100% + 150 FS</td><td><span class="game">Rip City by Hacksaw Gaming</span></td><td><span class="code">RIP100CITY</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>14</td><td class="eid">5M</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>15</td><td class="eid">5S</td><td>50% Welcome FreeBets &euro;200</td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>16</td><td class="eid">6C</td><td>100% + 150 FS</td><td><span class="game">Le Bandit by Hacksaw Gaming</span></td><td><span class="code">BANDIT150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>17</td><td class="eid">6M</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>18</td><td class="eid">6S</td><td>50% Welcome FreeBets &euro;200</td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>19</td><td class="eid">7C</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>20</td><td class="eid">7M</td><td>100 FS + 20% NRF</td><td><span class="game">Legacy of Dead by Play&#39;n Go</span></td><td><span class="code">LEGACY100</span> <span class="code">BETSAFE20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>21</td><td class="eid">7S</td><td>60% Welcome FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">FIREUP60</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>22</td><td class="eid">8C</td><td>100% + 150 FS</td><td><span class="game">Chaos Crew II by Hacksaw Gaming</span></td><td><span class="code">CREW150</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>23</td><td class="eid">8M</td><td><span class="cdesc">weekly winners showcase</span></td><td><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td class="chk"><span class="s-na">&#8212;</span></td><td><span class="s-na">&#8212;</span></td></tr>
+      <tr><td>24</td><td class="eid">8S</td><td>60% Welcome FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">FIREUP60</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>25</td><td class="eid">9C</td><td>180 FS</td><td><span class="game">Sweet Bonanza by Pragmatic Play</span></td><td><span class="code">SWEET180</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>26</td><td class="eid">9M</td><td>100 FS + 20% NRF</td><td><span class="game">Legacy of Dead by Play&#39;n Go</span></td><td><span class="code">LEGACY100</span> <span class="code">BETSAFE20</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+      <tr><td>27</td><td class="eid">9S</td><td>60% Welcome FreeBets</td><td><span class="s-na">&#8212;</span></td><td><span class="code">FIREUP60</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td class="chk"><span class="s-ok">&#10004;</span></td><td><span class="s-ok">OK</span></td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="report-footer">
+  <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:8px">
+    <img class="logo-sm" src="../../assets/pg-logo.svg" alt="PromptGrid">
+    <span style="font-size:13px;font-weight:600;color:#888;letter-spacing:-.3px">PromptGrid</span>
+  </div>
+  <div class="gnb-line" style="margin-bottom:10px"><img src="../../assets/gnb-favicon.svg" alt="GNB"><span>Specially for GNB Agency</span></div>
+  <p>&copy; 2025 PromptGrid &bull; Automation &bull; Precision &bull; Results</p>
+</div>
+
+<script>
+(function(){
+  var buttons=document.querySelectorAll("[data-set-lang]");
+  var elements=document.querySelectorAll("[data-lang]");
+  function setLang(lang){
+    elements.forEach(function(el){el.classList.toggle("active",el.getAttribute("data-lang")===lang)});
+    buttons.forEach(function(btn){btn.classList.toggle("active",btn.getAttribute("data-set-lang")===lang)});
+    document.documentElement.lang=lang==="ua"?"uk":lang;
+  }
+  buttons.forEach(function(btn){btn.addEventListener("click",function(){setLang(btn.getAttribute("data-set-lang"))})});
+  var nav=document.querySelector(".report-nav");
+  var navLinks=document.querySelectorAll(".nav-link");
+  var anchors=Array.from(document.querySelectorAll(".section-anchor"));
+  function scrollNavToActive(link){
+    var navRect=nav.getBoundingClientRect();
+    var linkRect=link.getBoundingClientRect();
+    var pad=60;
+    if(linkRect.right+pad>navRect.right)nav.scrollBy({left:linkRect.right-navRect.right+pad,behavior:"smooth"});
+    else if(linkRect.left-pad<navRect.left)nav.scrollBy({left:linkRect.left-navRect.left-pad,behavior:"smooth"});
+  }
+  navLinks.forEach(function(link){link.addEventListener("click",function(){setTimeout(function(){scrollNavToActive(link)},50)})});
+  function updateActiveNav(){
+    var atBottom=(window.innerHeight+window.scrollY)>=(document.documentElement.scrollHeight-2);
+    var current=0;
+    if(atBottom){current=anchors.length-1}
+    else{for(var i=anchors.length-1;i>=0;i--){if(anchors[i]&&anchors[i].getBoundingClientRect().top<=80){current=i;break}}}
+    navLinks.forEach(function(link,idx){link.classList.toggle("active",idx===current)});
+    if(navLinks[current])scrollNavToActive(navLinks[current]);
+  }
+  window.addEventListener("scroll",updateActiveNav,{passive:true});
+  updateActiveNav();
+  setLang("en");
+})();
+</script>
+</body>
+</html>
