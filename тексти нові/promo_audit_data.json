@@ -1,584 +1,3422 @@
 {
   "total_emails": 148,
-  "total_issues": 72,
+  "total_issues": 65,
+  "by_type": {
+    "NOT_IN_TABLE": 2,
+    "HEADER_ONLY": 12,
+    "WRONG_CAMPAIGN": 51
+  },
   "issues": [
     {
       "campaign": "Welcome Flow",
+      "ref_section": "WELCOME FLOW",
       "email": "Email 2C",
       "type": "NOT_IN_TABLE",
-      "detail_en": "Promo BANDIT150 is not in any reference table",
-      "detail_ua": "Промо BANDIT150 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо BANDIT150 отсутствует в любой справочной таблице"
+      "code": "BANDIT150",
+      "detail_en": "Code BANDIT150 not found in any reference table",
+      "detail_ua": "Код BANDIT150 не знайдено в жодній довідковій таблиці",
+      "detail_ru": "Код BANDIT150 не найден ни в одной справочной таблице"
     },
     {
       "campaign": "Welcome Flow",
-      "email": "Email 4M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (LEGACY100, BETSAFE20) doesn't match code in HTML body (BETSAFE20, LEGACY100)",
-      "detail_ua": "Промокод у header (LEGACY100, BETSAFE20) не відповідає коду в HTML тілі (BETSAFE20, LEGACY100)",
-      "detail_ru": "Промокод в header (LEGACY100, BETSAFE20) не совпадает с кодом в HTML теле (BETSAFE20, LEGACY100)"
-    },
-    {
-      "campaign": "Welcome Flow",
-      "email": "Email 4M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo LEGACY100, BETSAFE20 is not in any reference table",
-      "detail_ua": "Промо LEGACY100, BETSAFE20 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо LEGACY100, BETSAFE20 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "Welcome Flow",
+      "ref_section": "WELCOME FLOW",
       "email": "Email 6C",
       "type": "NOT_IN_TABLE",
-      "detail_en": "Promo BANDIT150 is not in any reference table",
-      "detail_ua": "Промо BANDIT150 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо BANDIT150 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "Welcome Flow",
-      "email": "Email 7M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (LEGACY100, BETSAFE20) doesn't match code in HTML body (BETSAFE20, LEGACY100)",
-      "detail_ua": "Промокод у header (LEGACY100, BETSAFE20) не відповідає коду в HTML тілі (BETSAFE20, LEGACY100)",
-      "detail_ru": "Промокод в header (LEGACY100, BETSAFE20) не совпадает с кодом в HTML теле (BETSAFE20, LEGACY100)"
-    },
-    {
-      "campaign": "Welcome Flow",
-      "email": "Email 7M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo LEGACY100, BETSAFE20 is not in any reference table",
-      "detail_ua": "Промо LEGACY100, BETSAFE20 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо LEGACY100, BETSAFE20 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "Welcome Flow",
-      "email": "Email 9M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (LEGACY100, BETSAFE20) doesn't match code in HTML body (BETSAFE20, LEGACY100)",
-      "detail_ua": "Промокод у header (LEGACY100, BETSAFE20) не відповідає коду в HTML тілі (BETSAFE20, LEGACY100)",
-      "detail_ru": "Промокод в header (LEGACY100, BETSAFE20) не совпадает с кодом в HTML теле (BETSAFE20, LEGACY100)"
-    },
-    {
-      "campaign": "Welcome Flow",
-      "email": "Email 9M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo LEGACY100, BETSAFE20 is not in any reference table",
-      "detail_ua": "Промо LEGACY100, BETSAFE20 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо LEGACY100, BETSAFE20 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 1M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (ANUBIS10050, WINBACKNRF20) doesn't match code in HTML body (ANUBIS10050, WINBACKNRF20)",
-      "detail_ua": "Промокод у header (ANUBIS10050, WINBACKNRF20) не відповідає коду в HTML тілі (ANUBIS10050, WINBACKNRF20)",
-      "detail_ru": "Промокод в header (ANUBIS10050, WINBACKNRF20) не совпадает с кодом в HTML теле (ANUBIS10050, WINBACKNRF20)"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 1M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo ANUBIS10050, WINBACKNRF20 is not in any reference table",
-      "detail_ua": "Промо ANUBIS10050, WINBACKNRF20 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо ANUBIS10050, WINBACKNRF20 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 2M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (WINBACKNRF20, DOG10060) doesn't match code in HTML body (WINBACKNRF20, DOG10060)",
-      "detail_ua": "Промокод у header (WINBACKNRF20, DOG10060) не відповідає коду в HTML тілі (WINBACKNRF20, DOG10060)",
-      "detail_ru": "Промокод в header (WINBACKNRF20, DOG10060) не совпадает с кодом в HTML теле (WINBACKNRF20, DOG10060)"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 2M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo WINBACKNRF20, DOG10060 is not in any reference table",
-      "detail_ua": "Промо WINBACKNRF20, DOG10060 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо WINBACKNRF20, DOG10060 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 3M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) doesn't match code in HTML body (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, BOOST4CB4 , SAFE2CB2)",
-      "detail_ua": "Промокод у header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) не відповідає коду в HTML тілі (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, BOOST4CB4 , SAFE2CB2)",
-      "detail_ru": "Промокод в header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) не совпадает с кодом в HTML теле (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, BOOST4CB4 , SAFE2CB2)"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 3M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 is not in any reference table",
-      "detail_ua": "Промо SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 5M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (WINBACKNRF20, CHAOS10070) doesn't match code in HTML body (WINBACKNRF20, CHAOS10070)",
-      "detail_ua": "Промокод у header (WINBACKNRF20, CHAOS10070) не відповідає коду в HTML тілі (WINBACKNRF20, CHAOS10070)",
-      "detail_ru": "Промокод в header (WINBACKNRF20, CHAOS10070) не совпадает с кодом в HTML теле (WINBACKNRF20, CHAOS10070)"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 5M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo WINBACKNRF20, CHAOS10070 is not in any reference table",
-      "detail_ua": "Промо WINBACKNRF20, CHAOS10070 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо WINBACKNRF20, CHAOS10070 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 6M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) doesn't match code in HTML body (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, SAFE2CB2, BOOST4CB4)",
-      "detail_ua": "Промокод у header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) не відповідає коду в HTML тілі (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, SAFE2CB2, BOOST4CB4)",
-      "detail_ru": "Промокод в header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) не совпадает с кодом в HTML теле (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, SAFE2CB2, BOOST4CB4)"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 6M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 is not in any reference table",
-      "detail_ua": "Промо SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 8M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) doesn't match code in HTML body (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, SAFE2CB2, BOOST4CB4)",
-      "detail_ua": "Промокод у header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) не відповідає коду в HTML тілі (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, SAFE2CB2, BOOST4CB4)",
-      "detail_ru": "Промокод в header (SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30) не совпадает с кодом в HTML теле (WINBACKNRF20, COVERNRF30 , SAFETYNRF25, RETURN3CB3, SAFE2CB2, BOOST4CB4)"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 8M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 is not in any reference table",
-      "detail_ua": "Промо SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 отсутствует в любой справочной таблице"
-    },
-    {
-      "campaign": "FTD Retention Flow",
-      "email": "Email 8S",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (ONLYWIN30) doesn't match code in HTML body (ONLYWIN30.)",
-      "detail_ua": "Промокод у header (ONLYWIN30) не відповідає коду в HTML тілі (ONLYWIN30.)",
-      "detail_ru": "Промокод в header (ONLYWIN30) не совпадает с кодом в HTML теле (ONLYWIN30.)"
+      "code": "BANDIT150",
+      "detail_en": "Code BANDIT150 not found in any reference table",
+      "detail_ua": "Код BANDIT150 не знайдено в жодній довідковій таблиці",
+      "detail_ru": "Код BANDIT150 не найден ни в одной справочной таблице"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 1C",
+      "type": "HEADER_ONLY",
+      "code": "SURGE170",
+      "detail_en": "Code SURGE170 in header but not in HTML body",
+      "detail_ua": "Код SURGE170 є в header але немає в HTML тілі",
+      "detail_ru": "Код SURGE170 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 1C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo SURGE170 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо SURGE170 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо SURGE170 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "SURGE170",
+      "detail_en": "Code SURGE170 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код SURGE170 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код SURGE170 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 2C",
+      "type": "HEADER_ONLY",
+      "code": "CREWBOOST150",
+      "detail_en": "Code CREWBOOST150 in header but not in HTML body",
+      "detail_ua": "Код CREWBOOST150 є в header але немає в HTML тілі",
+      "detail_ru": "Код CREWBOOST150 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 2C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo CREWBOOST150 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо CREWBOOST150 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо CREWBOOST150 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "CREWBOOST150",
+      "detail_en": "Code CREWBOOST150 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код CREWBOOST150 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код CREWBOOST150 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 4C",
+      "type": "HEADER_ONLY",
+      "code": "GUNSLINGER160",
+      "detail_en": "Code GUNSLINGER160 in header but not in HTML body",
+      "detail_ua": "Код GUNSLINGER160 є в header але немає в HTML тілі",
+      "detail_ru": "Код GUNSLINGER160 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 4C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo GUNSLINGER160 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо GUNSLINGER160 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо GUNSLINGER160 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "GUNSLINGER160",
+      "detail_en": "Code GUNSLINGER160 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код GUNSLINGER160 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код GUNSLINGER160 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 5C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo BOOSTER170 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо BOOSTER170 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо BOOSTER170 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "BOOSTER170",
+      "detail_en": "Code BOOSTER170 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код BOOSTER170 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код BOOSTER170 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 7C",
+      "type": "HEADER_ONLY",
+      "code": "GUNSLINGER160",
+      "detail_en": "Code GUNSLINGER160 in header but not in HTML body",
+      "detail_ua": "Код GUNSLINGER160 є в header але немає в HTML тілі",
+      "detail_ru": "Код GUNSLINGER160 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 7C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo GUNSLINGER160 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо GUNSLINGER160 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо GUNSLINGER160 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "GUNSLINGER160",
+      "detail_en": "Code GUNSLINGER160 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код GUNSLINGER160 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код GUNSLINGER160 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 8C",
+      "type": "HEADER_ONLY",
+      "code": "OUTLAW180",
+      "detail_en": "Code OUTLAW180 in header but not in HTML body",
+      "detail_ua": "Код OUTLAW180 є в header але немає в HTML тілі",
+      "detail_ru": "Код OUTLAW180 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 8C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo OUTLAW180 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо OUTLAW180 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо OUTLAW180 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "OUTLAW180",
+      "detail_en": "Code OUTLAW180 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код OUTLAW180 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код OUTLAW180 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 9C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo GIANTPANDA100 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо GIANTPANDA100 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо GIANTPANDA100 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "GIANTPANDA100",
+      "detail_en": "Code GIANTPANDA100 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код GIANTPANDA100 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код GIANTPANDA100 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 10C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo GEMHUNT200 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо GEMHUNT200 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо GEMHUNT200 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "GEMHUNT200",
+      "detail_en": "Code GEMHUNT200 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код GEMHUNT200 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код GEMHUNT200 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 1S",
+      "type": "HEADER_ONLY",
+      "code": "WINSAFE20",
+      "detail_en": "Code WINSAFE20 in header but not in HTML body",
+      "detail_ua": "Код WINSAFE20 є в header але немає в HTML тілі",
+      "detail_ru": "Код WINSAFE20 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 1S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "WINSAFE20",
+      "detail_en": "Code WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 2S",
+      "type": "HEADER_ONLY",
+      "code": "WINSAFE20",
+      "detail_en": "Code WINSAFE20 in header but not in HTML body",
+      "detail_ua": "Код WINSAFE20 є в header але немає в HTML тілі",
+      "detail_ru": "Код WINSAFE20 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 2S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "WINSAFE20",
+      "detail_en": "Code WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 4S",
+      "type": "HEADER_ONLY",
+      "code": "SURGE170",
+      "detail_en": "Code SURGE170 in header but not in HTML body",
+      "detail_ua": "Код SURGE170 є в header але немає в HTML тілі",
+      "detail_ru": "Код SURGE170 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 4S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo SURGE170 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо SURGE170 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо SURGE170 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "SURGE170",
+      "detail_en": "Code SURGE170 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код SURGE170 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код SURGE170 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 5S",
+      "type": "HEADER_ONLY",
+      "code": "WINSAFE20",
+      "detail_en": "Code WINSAFE20 in header but not in HTML body",
+      "detail_ua": "Код WINSAFE20 є в header але немає в HTML тілі",
+      "detail_ru": "Код WINSAFE20 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 5S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "WINSAFE20",
+      "detail_en": "Code WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 6S",
+      "type": "HEADER_ONLY",
+      "code": "BOOSTER170",
+      "detail_en": "Code BOOSTER170 in header but not in HTML body",
+      "detail_ua": "Код BOOSTER170 є в header але немає в HTML тілі",
+      "detail_ru": "Код BOOSTER170 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 6S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo BOOSTER170 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо BOOSTER170 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо BOOSTER170 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "BOOSTER170",
+      "detail_en": "Code BOOSTER170 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код BOOSTER170 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код BOOSTER170 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 7S",
+      "type": "HEADER_ONLY",
+      "code": "WINSAFE20",
+      "detail_en": "Code WINSAFE20 in header but not in HTML body",
+      "detail_ua": "Код WINSAFE20 є в header але немає в HTML тілі",
+      "detail_ru": "Код WINSAFE20 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 7S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "WINSAFE20",
+      "detail_en": "Code WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 9S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo ONLYSAFE30 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо ONLYSAFE30 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо ONLYSAFE30 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "ONLYSAFE30",
+      "detail_en": "Code ONLYSAFE30 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код ONLYSAFE30 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код ONLYSAFE30 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
+      "email": "Email 10S",
+      "type": "HEADER_ONLY",
+      "code": "ONLYSAFE30",
+      "detail_en": "Code ONLYSAFE30 in header but not in HTML body",
+      "detail_ua": "Код ONLYSAFE30 є в header але немає в HTML тілі",
+      "detail_ru": "Код ONLYSAFE30 есть в header но нет в HTML теле"
+    },
+    {
+      "campaign": "DEP Retention",
+      "ref_section": "DEP RETENTION",
       "email": "Email 10S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo ONLYSAFE30 belongs to SU RETENTION but is used in DEP RETENTION",
-      "detail_ua": "Промо ONLYSAFE30 належить до SU RETENTION але використовується в DEP RETENTION",
-      "detail_ru": "Промо ONLYSAFE30 принадлежит SU RETENTION но используется в DEP RETENTION"
+      "code": "ONLYSAFE30",
+      "detail_en": "Code ONLYSAFE30 belongs to SU RETENTION but is used in DEP RETENTION",
+      "detail_ua": "Код ONLYSAFE30 належить до SU RETENTION але використовується в DEP RETENTION",
+      "detail_ru": "Код ONLYSAFE30 принадлежит SU RETENTION но используется в DEP RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 1C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo FINTASTIC150 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо FINTASTIC150 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо FINTASTIC150 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "FINTASTIC150",
+      "detail_en": "Code FINTASTIC150 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код FINTASTIC150 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код FINTASTIC150 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 1M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (FINTASTIC150, EARNNRF15X) doesn't match code in HTML body (FINTASTIC150, EARNNRF15X)",
-      "detail_ua": "Промокод у header (FINTASTIC150, EARNNRF15X) не відповідає коду в HTML тілі (FINTASTIC150, EARNNRF15X)",
-      "detail_ru": "Промокод в header (FINTASTIC150, EARNNRF15X) не совпадает с кодом в HTML теле (FINTASTIC150, EARNNRF15X)"
+      "type": "WRONG_CAMPAIGN",
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 1M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo FINTASTIC150, EARNNRF15X is not in any reference table",
-      "detail_ua": "Промо FINTASTIC150, EARNNRF15X відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо FINTASTIC150, EARNNRF15X отсутствует в любой справочной таблице"
+      "type": "WRONG_CAMPAIGN",
+      "code": "FINTASTIC150",
+      "detail_en": "Code FINTASTIC150 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код FINTASTIC150 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код FINTASTIC150 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 1S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 2C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo FINTASTIC150 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо FINTASTIC150 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо FINTASTIC150 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "FINTASTIC150",
+      "detail_en": "Code FINTASTIC150 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код FINTASTIC150 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код FINTASTIC150 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 2M",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "CASHPLUS4",
+      "detail_en": "Code CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 2S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "CASHPLUS4",
+      "detail_en": "Code CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 3C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "POWER140",
+      "detail_en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 3M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (POWER140, EARNNRF15X) doesn't match code in HTML body (POWER140, EARNNRF15X)",
-      "detail_ua": "Промокод у header (POWER140, EARNNRF15X) не відповідає коду в HTML тілі (POWER140, EARNNRF15X)",
-      "detail_ru": "Промокод в header (POWER140, EARNNRF15X) не совпадает с кодом в HTML теле (POWER140, EARNNRF15X)"
+      "type": "WRONG_CAMPAIGN",
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 3M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo POWER140, EARNNRF15X is not in any reference table",
-      "detail_ua": "Промо POWER140, EARNNRF15X відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо POWER140, EARNNRF15X отсутствует в любой справочной таблице"
+      "type": "WRONG_CAMPAIGN",
+      "code": "POWER140",
+      "detail_en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 3S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 4C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo CANDYDROP70 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо CANDYDROP70 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо CANDYDROP70 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "CANDYDROP70",
+      "detail_en": "Code CANDYDROP70 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код CANDYDROP70 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код CANDYDROP70 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 4M",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo CANDYDROP70 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо CANDYDROP70 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо CANDYDROP70 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "CANDYDROP70",
+      "detail_en": "Code CANDYDROP70 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код CANDYDROP70 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код CANDYDROP70 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 4S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "CASHPLUS4",
+      "detail_en": "Code CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 5C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "POWER140",
+      "detail_en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 5M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (POWER140, EARNNRF15X) doesn't match code in HTML body (POWER140, EARNNRF15X)",
-      "detail_ua": "Промокод у header (POWER140, EARNNRF15X) не відповідає коду в HTML тілі (POWER140, EARNNRF15X)",
-      "detail_ru": "Промокод в header (POWER140, EARNNRF15X) не совпадает с кодом в HTML теле (POWER140, EARNNRF15X)"
+      "type": "WRONG_CAMPAIGN",
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 5M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo POWER140, EARNNRF15X is not in any reference table",
-      "detail_ua": "Промо POWER140, EARNNRF15X відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо POWER140, EARNNRF15X отсутствует в любой справочной таблице"
+      "type": "WRONG_CAMPAIGN",
+      "code": "POWER140",
+      "detail_en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 5S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 6M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (POWER140, EARNNRF15X) doesn't match code in HTML body (POWER140, EARNNRF15X)",
-      "detail_ua": "Промокод у header (POWER140, EARNNRF15X) не відповідає коду в HTML тілі (POWER140, EARNNRF15X)",
-      "detail_ru": "Промокод в header (POWER140, EARNNRF15X) не совпадает с кодом в HTML теле (POWER140, EARNNRF15X)"
+      "type": "WRONG_CAMPAIGN",
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 6M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo POWER140, EARNNRF15X is not in any reference table",
-      "detail_ua": "Промо POWER140, EARNNRF15X відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо POWER140, EARNNRF15X отсутствует в любой справочной таблице"
+      "type": "WRONG_CAMPAIGN",
+      "code": "POWER140",
+      "detail_en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 6S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 7C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo CHAOSCTRL80 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо CHAOSCTRL80 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо CHAOSCTRL80 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "CHAOSCTRL80",
+      "detail_en": "Code CHAOSCTRL80 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код CHAOSCTRL80 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код CHAOSCTRL80 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 7M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (CHAOSCTRL80, WIN20NRF) doesn't match code in HTML body (CHAOSCTRL80, WIN20NRF)",
-      "detail_ua": "Промокод у header (CHAOSCTRL80, WIN20NRF) не відповідає коду в HTML тілі (CHAOSCTRL80, WIN20NRF)",
-      "detail_ru": "Промокод в header (CHAOSCTRL80, WIN20NRF) не совпадает с кодом в HTML теле (CHAOSCTRL80, WIN20NRF)"
+      "type": "WRONG_CAMPAIGN",
+      "code": "CHAOSCTRL80",
+      "detail_en": "Code CHAOSCTRL80 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код CHAOSCTRL80 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код CHAOSCTRL80 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 7M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo CHAOSCTRL80, WIN20NRF is not in any reference table",
-      "detail_ua": "Промо CHAOSCTRL80, WIN20NRF відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо CHAOSCTRL80, WIN20NRF отсутствует в любой справочной таблице"
+      "type": "WRONG_CAMPAIGN",
+      "code": "WIN20NRF",
+      "detail_en": "Code WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 7S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "WIN20NRF",
+      "detail_en": "Code WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 8M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (CHAOSCTRL80, WIN20NRF) doesn't match code in HTML body (CHAOSCTRL80, WIN20NRF)",
-      "detail_ua": "Промокод у header (CHAOSCTRL80, WIN20NRF) не відповідає коду в HTML тілі (CHAOSCTRL80, WIN20NRF)",
-      "detail_ru": "Промокод в header (CHAOSCTRL80, WIN20NRF) не совпадает с кодом в HTML теле (CHAOSCTRL80, WIN20NRF)"
+      "type": "WRONG_CAMPAIGN",
+      "code": "CHAOSCTRL80",
+      "detail_en": "Code CHAOSCTRL80 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код CHAOSCTRL80 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код CHAOSCTRL80 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 8M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo CHAOSCTRL80, WIN20NRF is not in any reference table",
-      "detail_ua": "Промо CHAOSCTRL80, WIN20NRF відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо CHAOSCTRL80, WIN20NRF отсутствует в любой справочной таблице"
+      "type": "WRONG_CAMPAIGN",
+      "code": "WIN20NRF",
+      "detail_en": "Code WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 8S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "WIN20NRF",
+      "detail_en": "Code WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 9C",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo MADNESS16090 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо MADNESS16090 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо MADNESS16090 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "MADNESS16090",
+      "detail_en": "Code MADNESS16090 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код MADNESS16090 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код MADNESS16090 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 9M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (MADNESS16090, SECURE25) doesn't match code in HTML body (SECURE25, MADNESS16090)",
-      "detail_ua": "Промокод у header (MADNESS16090, SECURE25) не відповідає коду в HTML тілі (SECURE25, MADNESS16090)",
-      "detail_ru": "Промокод в header (MADNESS16090, SECURE25) не совпадает с кодом в HTML теле (SECURE25, MADNESS16090)"
+      "type": "WRONG_CAMPAIGN",
+      "code": "MADNESS16090",
+      "detail_en": "Code MADNESS16090 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код MADNESS16090 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код MADNESS16090 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 9M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo MADNESS16090, SECURE25 is not in any reference table",
-      "detail_ua": "Промо MADNESS16090, SECURE25 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо MADNESS16090, SECURE25 отсутствует в любой справочной таблице"
+      "type": "WRONG_CAMPAIGN",
+      "code": "SECURE25",
+      "detail_en": "Code SECURE25 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код SECURE25 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код SECURE25 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 9S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo SECURE25 belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо SECURE25 належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо SECURE25 принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "SECURE25",
+      "detail_en": "Code SECURE25 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код SECURE25 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код SECURE25 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 10M",
-      "type": "MISMATCH_HEADER_HTML",
-      "detail_en": "Promo code in header (MADNESS16090, SECURE25) doesn't match code in HTML body (SECURE25, MADNESS16090)",
-      "detail_ua": "Промокод у header (MADNESS16090, SECURE25) не відповідає коду в HTML тілі (SECURE25, MADNESS16090)",
-      "detail_ru": "Промокод в header (MADNESS16090, SECURE25) не совпадает с кодом в HTML теле (SECURE25, MADNESS16090)"
+      "type": "WRONG_CAMPAIGN",
+      "code": "MADNESS16090",
+      "detail_en": "Code MADNESS16090 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код MADNESS16090 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код MADNESS16090 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 10M",
-      "type": "NOT_IN_TABLE",
-      "detail_en": "Promo MADNESS16090, SECURE25 is not in any reference table",
-      "detail_ua": "Промо MADNESS16090, SECURE25 відсутній у будь-якій довідковій таблиці",
-      "detail_ru": "Промо MADNESS16090, SECURE25 отсутствует в любой справочной таблице"
+      "type": "WRONG_CAMPAIGN",
+      "code": "SECURE25",
+      "detail_en": "Code SECURE25 belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код SECURE25 належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код SECURE25 принадлежит DEP RETENTION но используется в SU RETENTION"
     },
     {
       "campaign": "SU Retention",
+      "ref_section": "SU RETENTION",
       "email": "Email 10S",
       "type": "WRONG_CAMPAIGN",
-      "detail_en": "Promo EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
-      "detail_ua": "Промо EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
-      "detail_ru": "Промо EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+      "code": "EARNNRF15X",
+      "detail_en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+      "detail_ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+      "detail_ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
     }
   ],
+  "campaigns": {
+    "Welcome Flow": {
+      "ref_section": "WELCOME FLOW",
+      "short": "WF",
+      "total": 27,
+      "emails": [
+        {
+          "name": "Email 1C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 1M",
+          "suffix": "M",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": true,
+          "issues": [],
+          "status": "SKIP"
+        },
+        {
+          "name": "Email 1S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 2C",
+          "suffix": "C",
+          "header_codes": [
+            "BANDIT150"
+          ],
+          "html_codes": [
+            "BANDIT150"
+          ],
+          "all_codes": [
+            "BANDIT150"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "BANDIT150",
+              "type": "NOT_IN_TABLE",
+              "en": "Code BANDIT150 not found in any reference table",
+              "ua": "Код BANDIT150 не знайдено в жодній довідковій таблиці",
+              "ru": "Код BANDIT150 не найден ни в одной справочной таблице"
+            }
+          ],
+          "status": "NOT_IN_TABLE"
+        },
+        {
+          "name": "Email 2M",
+          "suffix": "M",
+          "header_codes": [
+            "SAFE10"
+          ],
+          "html_codes": [
+            "SAFE10"
+          ],
+          "all_codes": [
+            "SAFE10"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 2S",
+          "suffix": "S",
+          "header_codes": [
+            "BOOST50"
+          ],
+          "html_codes": [
+            "BOOST50"
+          ],
+          "all_codes": [
+            "BOOST50"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3C",
+          "suffix": "C",
+          "header_codes": [
+            "CREW150"
+          ],
+          "html_codes": [
+            "CREW150"
+          ],
+          "all_codes": [
+            "CREW150"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3M",
+          "suffix": "M",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": true,
+          "issues": [],
+          "status": "SKIP"
+        },
+        {
+          "name": "Email 3S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 4C",
+          "suffix": "C",
+          "header_codes": [
+            "STORM170"
+          ],
+          "html_codes": [
+            "STORM170"
+          ],
+          "all_codes": [
+            "STORM170"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 4M",
+          "suffix": "M",
+          "header_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "html_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "all_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 4S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 5C",
+          "suffix": "C",
+          "header_codes": [
+            "RIP100CITY"
+          ],
+          "html_codes": [
+            "RIP100CITY"
+          ],
+          "all_codes": [
+            "RIP100CITY"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 5M",
+          "suffix": "M",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": true,
+          "issues": [],
+          "status": "SKIP"
+        },
+        {
+          "name": "Email 5S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 6C",
+          "suffix": "C",
+          "header_codes": [
+            "BANDIT150"
+          ],
+          "html_codes": [
+            "BANDIT150"
+          ],
+          "all_codes": [
+            "BANDIT150"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "BANDIT150",
+              "type": "NOT_IN_TABLE",
+              "en": "Code BANDIT150 not found in any reference table",
+              "ua": "Код BANDIT150 не знайдено в жодній довідковій таблиці",
+              "ru": "Код BANDIT150 не найден ни в одной справочной таблице"
+            }
+          ],
+          "status": "NOT_IN_TABLE"
+        },
+        {
+          "name": "Email 6M",
+          "suffix": "M",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": true,
+          "issues": [],
+          "status": "SKIP"
+        },
+        {
+          "name": "Email 6S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 7C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 7M",
+          "suffix": "M",
+          "header_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "html_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "all_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 7S",
+          "suffix": "S",
+          "header_codes": [
+            "FIREUP60"
+          ],
+          "html_codes": [
+            "FIREUP60"
+          ],
+          "all_codes": [
+            "FIREUP60"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8C",
+          "suffix": "C",
+          "header_codes": [
+            "CREW150"
+          ],
+          "html_codes": [
+            "CREW150"
+          ],
+          "all_codes": [
+            "CREW150"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8M",
+          "suffix": "M",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": true,
+          "issues": [],
+          "status": "SKIP"
+        },
+        {
+          "name": "Email 8S",
+          "suffix": "S",
+          "header_codes": [
+            "FIREUP60"
+          ],
+          "html_codes": [
+            "FIREUP60"
+          ],
+          "all_codes": [
+            "FIREUP60"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 9C",
+          "suffix": "C",
+          "header_codes": [
+            "SWEET180"
+          ],
+          "html_codes": [
+            "SWEET180"
+          ],
+          "all_codes": [
+            "SWEET180"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 9M",
+          "suffix": "M",
+          "header_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "html_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "all_codes": [
+            "LEGACY100",
+            "BETSAFE20"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 9S",
+          "suffix": "S",
+          "header_codes": [
+            "FIREUP60"
+          ],
+          "html_codes": [
+            "FIREUP60"
+          ],
+          "all_codes": [
+            "FIREUP60"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        }
+      ]
+    },
+    "FTD Retention Flow": {
+      "ref_section": "FTD RETENTION",
+      "short": "FTD",
+      "total": 23,
+      "emails": [
+        {
+          "name": "Email 1M",
+          "suffix": "M",
+          "header_codes": [
+            "ANUBIS10050",
+            "WINBACKNRF20"
+          ],
+          "html_codes": [
+            "WINBACKNRF20",
+            "ANUBIS10050"
+          ],
+          "all_codes": [
+            "WINBACKNRF20",
+            "ANUBIS10050"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 1S",
+          "suffix": "S",
+          "header_codes": [
+            "WINBACKNRF20"
+          ],
+          "html_codes": [
+            "WINBACKNRF20"
+          ],
+          "all_codes": [
+            "WINBACKNRF20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 2C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 2M",
+          "suffix": "M",
+          "header_codes": [
+            "WINBACKNRF20",
+            "DOG10060"
+          ],
+          "html_codes": [
+            "WINBACKNRF20",
+            "DOG10060"
+          ],
+          "all_codes": [
+            "WINBACKNRF20",
+            "DOG10060"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 2S",
+          "suffix": "S",
+          "header_codes": [
+            "WINBACKNRF20"
+          ],
+          "html_codes": [
+            "WINBACKNRF20"
+          ],
+          "all_codes": [
+            "WINBACKNRF20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3C",
+          "suffix": "C",
+          "header_codes": [
+            "PARTY140"
+          ],
+          "html_codes": [
+            "PARTY140"
+          ],
+          "all_codes": [
+            "PARTY140"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3M",
+          "suffix": "M",
+          "header_codes": [
+            "SAFE2CB2",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFETYNRF25",
+            "COVERNRF30"
+          ],
+          "html_codes": [
+            "SAFETYNRF25",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFE2CB2",
+            "COVERNRF30"
+          ],
+          "all_codes": [
+            "SAFETYNRF25",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFE2CB2",
+            "COVERNRF30"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3S",
+          "suffix": "S",
+          "header_codes": [
+            "WINBACKNRF20"
+          ],
+          "html_codes": [
+            "WINBACKNRF20"
+          ],
+          "all_codes": [
+            "WINBACKNRF20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 4C",
+          "suffix": "C",
+          "header_codes": [
+            "DORK50110"
+          ],
+          "html_codes": [
+            "DORK50110"
+          ],
+          "all_codes": [
+            "DORK50110"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 4M",
+          "suffix": "M",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": true,
+          "issues": [],
+          "status": "SKIP"
+        },
+        {
+          "name": "Email 4S",
+          "suffix": "S",
+          "header_codes": [
+            "SAFETYNRF25"
+          ],
+          "html_codes": [
+            "SAFETYNRF25"
+          ],
+          "all_codes": [
+            "SAFETYNRF25"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 5C",
+          "suffix": "C",
+          "header_codes": [
+            "BONANZA10080"
+          ],
+          "html_codes": [
+            "BONANZA10080"
+          ],
+          "all_codes": [
+            "BONANZA10080"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 5M",
+          "suffix": "M",
+          "header_codes": [
+            "WINBACKNRF20",
+            "CHAOS10070"
+          ],
+          "html_codes": [
+            "WINBACKNRF20",
+            "CHAOS10070"
+          ],
+          "all_codes": [
+            "WINBACKNRF20",
+            "CHAOS10070"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 5S",
+          "suffix": "S",
+          "header_codes": [
+            "ONLYWIN30"
+          ],
+          "html_codes": [
+            "ONLYWIN30"
+          ],
+          "all_codes": [
+            "ONLYWIN30"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 6C",
+          "suffix": "C",
+          "header_codes": [
+            "RICH100150"
+          ],
+          "html_codes": [
+            "RICH100150"
+          ],
+          "all_codes": [
+            "RICH100150"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 6M",
+          "suffix": "M",
+          "header_codes": [
+            "SAFE2CB2",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFETYNRF25",
+            "COVERNRF30"
+          ],
+          "html_codes": [
+            "SAFETYNRF25",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFE2CB2",
+            "COVERNRF30"
+          ],
+          "all_codes": [
+            "SAFETYNRF25",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFE2CB2",
+            "COVERNRF30"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 6S",
+          "suffix": "S",
+          "header_codes": [
+            "WINBACKNRF20"
+          ],
+          "html_codes": [
+            "WINBACKNRF20"
+          ],
+          "all_codes": [
+            "WINBACKNRF20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 7C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 7M",
+          "suffix": "M",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": true,
+          "issues": [],
+          "status": "SKIP"
+        },
+        {
+          "name": "Email 7S",
+          "suffix": "S",
+          "header_codes": [
+            "WINBACKNRF20"
+          ],
+          "html_codes": [
+            "WINBACKNRF20"
+          ],
+          "all_codes": [
+            "WINBACKNRF20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8C",
+          "suffix": "C",
+          "header_codes": [
+            "FORGED150"
+          ],
+          "html_codes": [
+            "FORGED150"
+          ],
+          "all_codes": [
+            "FORGED150"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8M",
+          "suffix": "M",
+          "header_codes": [
+            "SAFE2CB2",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFETYNRF25",
+            "COVERNRF30"
+          ],
+          "html_codes": [
+            "SAFETYNRF25",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFE2CB2",
+            "COVERNRF30"
+          ],
+          "all_codes": [
+            "SAFETYNRF25",
+            "RETURN3CB3",
+            "BOOST4CB4",
+            "WINBACKNRF20",
+            "SAFE2CB2",
+            "COVERNRF30"
+          ],
+          "is_monthly": true,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8S",
+          "suffix": "S",
+          "header_codes": [
+            "ONLYWIN30"
+          ],
+          "html_codes": [
+            "ONLYWIN30"
+          ],
+          "all_codes": [
+            "ONLYWIN30"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        }
+      ]
+    },
+    "DEP Retention": {
+      "ref_section": "DEP RETENTION",
+      "short": "DEP",
+      "total": 20,
+      "emails": [
+        {
+          "name": "Email 1C",
+          "suffix": "C",
+          "header_codes": [
+            "SURGE170"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "SURGE170"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "SURGE170",
+              "type": "HEADER_ONLY",
+              "en": "Code SURGE170 in header but not in HTML body",
+              "ua": "Код SURGE170 є в header але немає в HTML тілі",
+              "ru": "Код SURGE170 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "SURGE170",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code SURGE170 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код SURGE170 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код SURGE170 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 2C",
+          "suffix": "C",
+          "header_codes": [
+            "CREWBOOST150"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "CREWBOOST150"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "CREWBOOST150",
+              "type": "HEADER_ONLY",
+              "en": "Code CREWBOOST150 in header but not in HTML body",
+              "ua": "Код CREWBOOST150 є в header але немає в HTML тілі",
+              "ru": "Код CREWBOOST150 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "CREWBOOST150",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CREWBOOST150 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код CREWBOOST150 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код CREWBOOST150 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 4C",
+          "suffix": "C",
+          "header_codes": [
+            "GUNSLINGER160"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "GUNSLINGER160"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "GUNSLINGER160",
+              "type": "HEADER_ONLY",
+              "en": "Code GUNSLINGER160 in header but not in HTML body",
+              "ua": "Код GUNSLINGER160 є в header але немає в HTML тілі",
+              "ru": "Код GUNSLINGER160 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "GUNSLINGER160",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code GUNSLINGER160 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код GUNSLINGER160 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код GUNSLINGER160 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 5C",
+          "suffix": "C",
+          "header_codes": [
+            "BOOSTER170"
+          ],
+          "html_codes": [
+            "BOOSTER170"
+          ],
+          "all_codes": [
+            "BOOSTER170"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "BOOSTER170",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code BOOSTER170 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код BOOSTER170 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код BOOSTER170 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 7C",
+          "suffix": "C",
+          "header_codes": [
+            "GUNSLINGER160"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "GUNSLINGER160"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "GUNSLINGER160",
+              "type": "HEADER_ONLY",
+              "en": "Code GUNSLINGER160 in header but not in HTML body",
+              "ua": "Код GUNSLINGER160 є в header але немає в HTML тілі",
+              "ru": "Код GUNSLINGER160 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "GUNSLINGER160",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code GUNSLINGER160 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код GUNSLINGER160 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код GUNSLINGER160 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 8C",
+          "suffix": "C",
+          "header_codes": [
+            "OUTLAW180"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "OUTLAW180"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "OUTLAW180",
+              "type": "HEADER_ONLY",
+              "en": "Code OUTLAW180 in header but not in HTML body",
+              "ua": "Код OUTLAW180 є в header але немає в HTML тілі",
+              "ru": "Код OUTLAW180 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "OUTLAW180",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code OUTLAW180 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код OUTLAW180 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код OUTLAW180 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 9C",
+          "suffix": "C",
+          "header_codes": [
+            "GIANTPANDA100"
+          ],
+          "html_codes": [
+            "GIANTPANDA100"
+          ],
+          "all_codes": [
+            "GIANTPANDA100"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "GIANTPANDA100",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code GIANTPANDA100 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код GIANTPANDA100 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код GIANTPANDA100 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 10C",
+          "suffix": "C",
+          "header_codes": [
+            "GEMHUNT200"
+          ],
+          "html_codes": [
+            "GEMHUNT200"
+          ],
+          "all_codes": [
+            "GEMHUNT200"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "GEMHUNT200",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code GEMHUNT200 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код GEMHUNT200 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код GEMHUNT200 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 1S",
+          "suffix": "S",
+          "header_codes": [
+            "WINSAFE20"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "WINSAFE20"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "WINSAFE20",
+              "type": "HEADER_ONLY",
+              "en": "Code WINSAFE20 in header but not in HTML body",
+              "ua": "Код WINSAFE20 є в header але немає в HTML тілі",
+              "ru": "Код WINSAFE20 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "WINSAFE20",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 2S",
+          "suffix": "S",
+          "header_codes": [
+            "WINSAFE20"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "WINSAFE20"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "WINSAFE20",
+              "type": "HEADER_ONLY",
+              "en": "Code WINSAFE20 in header but not in HTML body",
+              "ua": "Код WINSAFE20 є в header але немає в HTML тілі",
+              "ru": "Код WINSAFE20 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "WINSAFE20",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 4S",
+          "suffix": "S",
+          "header_codes": [
+            "SURGE170"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "SURGE170"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "SURGE170",
+              "type": "HEADER_ONLY",
+              "en": "Code SURGE170 in header but not in HTML body",
+              "ua": "Код SURGE170 є в header але немає в HTML тілі",
+              "ru": "Код SURGE170 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "SURGE170",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code SURGE170 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код SURGE170 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код SURGE170 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 5S",
+          "suffix": "S",
+          "header_codes": [
+            "WINSAFE20"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "WINSAFE20"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "WINSAFE20",
+              "type": "HEADER_ONLY",
+              "en": "Code WINSAFE20 in header but not in HTML body",
+              "ua": "Код WINSAFE20 є в header але немає в HTML тілі",
+              "ru": "Код WINSAFE20 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "WINSAFE20",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 6S",
+          "suffix": "S",
+          "header_codes": [
+            "BOOSTER170"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "BOOSTER170"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "BOOSTER170",
+              "type": "HEADER_ONLY",
+              "en": "Code BOOSTER170 in header but not in HTML body",
+              "ua": "Код BOOSTER170 є в header але немає в HTML тілі",
+              "ru": "Код BOOSTER170 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "BOOSTER170",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code BOOSTER170 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код BOOSTER170 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код BOOSTER170 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 7S",
+          "suffix": "S",
+          "header_codes": [
+            "WINSAFE20"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "WINSAFE20"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "WINSAFE20",
+              "type": "HEADER_ONLY",
+              "en": "Code WINSAFE20 in header but not in HTML body",
+              "ua": "Код WINSAFE20 є в header але немає в HTML тілі",
+              "ru": "Код WINSAFE20 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "WINSAFE20",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code WINSAFE20 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код WINSAFE20 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код WINSAFE20 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 9S",
+          "suffix": "S",
+          "header_codes": [
+            "ONLYSAFE30"
+          ],
+          "html_codes": [
+            "ONLYSAFE30"
+          ],
+          "all_codes": [
+            "ONLYSAFE30"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "ONLYSAFE30",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code ONLYSAFE30 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код ONLYSAFE30 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код ONLYSAFE30 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 10S",
+          "suffix": "S",
+          "header_codes": [
+            "ONLYSAFE30"
+          ],
+          "html_codes": [],
+          "all_codes": [
+            "ONLYSAFE30"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "ONLYSAFE30",
+              "type": "HEADER_ONLY",
+              "en": "Code ONLYSAFE30 in header but not in HTML body",
+              "ua": "Код ONLYSAFE30 є в header але немає в HTML тілі",
+              "ru": "Код ONLYSAFE30 есть в header но нет в HTML теле"
+            },
+            {
+              "code": "ONLYSAFE30",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code ONLYSAFE30 belongs to SU RETENTION but is used in DEP RETENTION",
+              "ua": "Код ONLYSAFE30 належить до SU RETENTION але використовується в DEP RETENTION",
+              "ru": "Код ONLYSAFE30 принадлежит SU RETENTION но используется в DEP RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 3C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 6C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 3S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 8S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        }
+      ]
+    },
+    "SU Retention": {
+      "ref_section": "SU RETENTION",
+      "short": "SU",
+      "total": 30,
+      "emails": [
+        {
+          "name": "Email 1C",
+          "suffix": "C",
+          "header_codes": [
+            "FINTASTIC150"
+          ],
+          "html_codes": [
+            "FINTASTIC150"
+          ],
+          "all_codes": [
+            "FINTASTIC150"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "FINTASTIC150",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code FINTASTIC150 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код FINTASTIC150 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код FINTASTIC150 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 1M",
+          "suffix": "M",
+          "header_codes": [
+            "FINTASTIC150",
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "EARNNRF15X",
+            "FINTASTIC150"
+          ],
+          "all_codes": [
+            "EARNNRF15X",
+            "FINTASTIC150"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            },
+            {
+              "code": "FINTASTIC150",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code FINTASTIC150 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код FINTASTIC150 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код FINTASTIC150 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 1S",
+          "suffix": "S",
+          "header_codes": [
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "EARNNRF15X"
+          ],
+          "all_codes": [
+            "EARNNRF15X"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 2C",
+          "suffix": "C",
+          "header_codes": [
+            "FINTASTIC150"
+          ],
+          "html_codes": [
+            "FINTASTIC150"
+          ],
+          "all_codes": [
+            "FINTASTIC150"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "FINTASTIC150",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code FINTASTIC150 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код FINTASTIC150 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код FINTASTIC150 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 2M",
+          "suffix": "M",
+          "header_codes": [
+            "CASHPLUS4"
+          ],
+          "html_codes": [
+            "CASHPLUS4"
+          ],
+          "all_codes": [
+            "CASHPLUS4"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "CASHPLUS4",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 2S",
+          "suffix": "S",
+          "header_codes": [
+            "CASHPLUS4"
+          ],
+          "html_codes": [
+            "CASHPLUS4"
+          ],
+          "all_codes": [
+            "CASHPLUS4"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "CASHPLUS4",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 3C",
+          "suffix": "C",
+          "header_codes": [
+            "POWER140"
+          ],
+          "html_codes": [
+            "POWER140"
+          ],
+          "all_codes": [
+            "POWER140"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "POWER140",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 3M",
+          "suffix": "M",
+          "header_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "all_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            },
+            {
+              "code": "POWER140",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 3S",
+          "suffix": "S",
+          "header_codes": [
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "EARNNRF15X"
+          ],
+          "all_codes": [
+            "EARNNRF15X"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 4C",
+          "suffix": "C",
+          "header_codes": [
+            "CANDYDROP70"
+          ],
+          "html_codes": [
+            "CANDYDROP70"
+          ],
+          "all_codes": [
+            "CANDYDROP70"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "CANDYDROP70",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CANDYDROP70 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код CANDYDROP70 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код CANDYDROP70 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 4M",
+          "suffix": "M",
+          "header_codes": [
+            "CANDYDROP70"
+          ],
+          "html_codes": [
+            "CANDYDROP70"
+          ],
+          "all_codes": [
+            "CANDYDROP70"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "CANDYDROP70",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CANDYDROP70 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код CANDYDROP70 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код CANDYDROP70 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 4S",
+          "suffix": "S",
+          "header_codes": [
+            "CASHPLUS4"
+          ],
+          "html_codes": [
+            "CASHPLUS4"
+          ],
+          "all_codes": [
+            "CASHPLUS4"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "CASHPLUS4",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CASHPLUS4 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код CASHPLUS4 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код CASHPLUS4 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 5C",
+          "suffix": "C",
+          "header_codes": [
+            "POWER140"
+          ],
+          "html_codes": [
+            "POWER140"
+          ],
+          "all_codes": [
+            "POWER140"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "POWER140",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 5M",
+          "suffix": "M",
+          "header_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "all_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            },
+            {
+              "code": "POWER140",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 5S",
+          "suffix": "S",
+          "header_codes": [
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "EARNNRF15X"
+          ],
+          "all_codes": [
+            "EARNNRF15X"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 6C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 6M",
+          "suffix": "M",
+          "header_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "all_codes": [
+            "POWER140",
+            "EARNNRF15X"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            },
+            {
+              "code": "POWER140",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code POWER140 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код POWER140 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код POWER140 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 6S",
+          "suffix": "S",
+          "header_codes": [
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "EARNNRF15X"
+          ],
+          "all_codes": [
+            "EARNNRF15X"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 7C",
+          "suffix": "C",
+          "header_codes": [
+            "CHAOSCTRL80"
+          ],
+          "html_codes": [
+            "CHAOSCTRL80"
+          ],
+          "all_codes": [
+            "CHAOSCTRL80"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "CHAOSCTRL80",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CHAOSCTRL80 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код CHAOSCTRL80 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код CHAOSCTRL80 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 7M",
+          "suffix": "M",
+          "header_codes": [
+            "CHAOSCTRL80",
+            "WIN20NRF"
+          ],
+          "html_codes": [
+            "CHAOSCTRL80",
+            "WIN20NRF"
+          ],
+          "all_codes": [
+            "CHAOSCTRL80",
+            "WIN20NRF"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "CHAOSCTRL80",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CHAOSCTRL80 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код CHAOSCTRL80 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код CHAOSCTRL80 принадлежит DEP RETENTION но используется в SU RETENTION"
+            },
+            {
+              "code": "WIN20NRF",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 7S",
+          "suffix": "S",
+          "header_codes": [
+            "WIN20NRF"
+          ],
+          "html_codes": [
+            "WIN20NRF"
+          ],
+          "all_codes": [
+            "WIN20NRF"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "WIN20NRF",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 8C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 8M",
+          "suffix": "M",
+          "header_codes": [
+            "CHAOSCTRL80",
+            "WIN20NRF"
+          ],
+          "html_codes": [
+            "CHAOSCTRL80",
+            "WIN20NRF"
+          ],
+          "all_codes": [
+            "CHAOSCTRL80",
+            "WIN20NRF"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "CHAOSCTRL80",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code CHAOSCTRL80 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код CHAOSCTRL80 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код CHAOSCTRL80 принадлежит DEP RETENTION но используется в SU RETENTION"
+            },
+            {
+              "code": "WIN20NRF",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 8S",
+          "suffix": "S",
+          "header_codes": [
+            "WIN20NRF"
+          ],
+          "html_codes": [
+            "WIN20NRF"
+          ],
+          "all_codes": [
+            "WIN20NRF"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "WIN20NRF",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code WIN20NRF belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код WIN20NRF належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код WIN20NRF принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 9C",
+          "suffix": "C",
+          "header_codes": [
+            "MADNESS16090"
+          ],
+          "html_codes": [
+            "MADNESS16090"
+          ],
+          "all_codes": [
+            "MADNESS16090"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "MADNESS16090",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code MADNESS16090 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код MADNESS16090 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код MADNESS16090 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 9M",
+          "suffix": "M",
+          "header_codes": [
+            "MADNESS16090",
+            "SECURE25"
+          ],
+          "html_codes": [
+            "MADNESS16090",
+            "SECURE25"
+          ],
+          "all_codes": [
+            "MADNESS16090",
+            "SECURE25"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "MADNESS16090",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code MADNESS16090 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код MADNESS16090 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код MADNESS16090 принадлежит DEP RETENTION но используется в SU RETENTION"
+            },
+            {
+              "code": "SECURE25",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code SECURE25 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код SECURE25 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код SECURE25 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 9S",
+          "suffix": "S",
+          "header_codes": [
+            "SECURE25"
+          ],
+          "html_codes": [
+            "SECURE25"
+          ],
+          "all_codes": [
+            "SECURE25"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "SECURE25",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code SECURE25 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код SECURE25 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код SECURE25 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 10C",
+          "suffix": "C",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 10M",
+          "suffix": "M",
+          "header_codes": [
+            "MADNESS16090",
+            "SECURE25"
+          ],
+          "html_codes": [
+            "MADNESS16090",
+            "SECURE25"
+          ],
+          "all_codes": [
+            "MADNESS16090",
+            "SECURE25"
+          ],
+          "is_monthly": true,
+          "issues": [
+            {
+              "code": "MADNESS16090",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code MADNESS16090 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код MADNESS16090 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код MADNESS16090 принадлежит DEP RETENTION но используется в SU RETENTION"
+            },
+            {
+              "code": "SECURE25",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code SECURE25 belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код SECURE25 належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код SECURE25 принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        },
+        {
+          "name": "Email 10S",
+          "suffix": "S",
+          "header_codes": [
+            "EARNNRF15X"
+          ],
+          "html_codes": [
+            "EARNNRF15X"
+          ],
+          "all_codes": [
+            "EARNNRF15X"
+          ],
+          "is_monthly": false,
+          "issues": [
+            {
+              "code": "EARNNRF15X",
+              "type": "WRONG_CAMPAIGN",
+              "en": "Code EARNNRF15X belongs to DEP RETENTION but is used in SU RETENTION",
+              "ua": "Код EARNNRF15X належить до DEP RETENTION але використовується в SU RETENTION",
+              "ru": "Код EARNNRF15X принадлежит DEP RETENTION но используется в SU RETENTION"
+            }
+          ],
+          "status": "WRONG_CAMPAIGN"
+        }
+      ]
+    },
+    "Nutrition #2": {
+      "ref_section": "NUTRITION #2",
+      "short": "N2",
+      "total": 24,
+      "emails": [
+        {
+          "name": "Email 1CL",
+          "suffix": "CL",
+          "header_codes": [
+            "UNDERDOG50"
+          ],
+          "html_codes": [
+            "UNDERDOG50"
+          ],
+          "all_codes": [
+            "UNDERDOG50"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 1CS",
+          "suffix": "CS",
+          "header_codes": [
+            "UNDERDOG50"
+          ],
+          "html_codes": [
+            "UNDERDOG50"
+          ],
+          "all_codes": [
+            "UNDERDOG50"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 1S",
+          "suffix": "S",
+          "header_codes": [
+            "CLEARSHOT20"
+          ],
+          "html_codes": [
+            "CLEARSHOT20"
+          ],
+          "all_codes": [
+            "CLEARSHOT20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 2CL",
+          "suffix": "CL",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 2CS",
+          "suffix": "CS",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 2S",
+          "suffix": "S",
+          "header_codes": [
+            "CLEARSHOT20"
+          ],
+          "html_codes": [
+            "CLEARSHOT20"
+          ],
+          "all_codes": [
+            "CLEARSHOT20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3CL",
+          "suffix": "CL",
+          "header_codes": [
+            "MATCH100"
+          ],
+          "html_codes": [
+            "MATCH100"
+          ],
+          "all_codes": [
+            "MATCH100"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3CS",
+          "suffix": "CS",
+          "header_codes": [
+            "OCCULT200"
+          ],
+          "html_codes": [
+            "OCCULT200"
+          ],
+          "all_codes": [
+            "OCCULT200"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3S",
+          "suffix": "S",
+          "header_codes": [
+            "CLEARSHOT20"
+          ],
+          "html_codes": [
+            "CLEARSHOT20"
+          ],
+          "all_codes": [
+            "CLEARSHOT20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 4CL",
+          "suffix": "CL",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 4CS",
+          "suffix": "CS",
+          "header_codes": [
+            "UNDERDOG50"
+          ],
+          "html_codes": [
+            "UNDERDOG50"
+          ],
+          "all_codes": [
+            "UNDERDOG50"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 4S",
+          "suffix": "S",
+          "header_codes": [
+            "CLEARSHOT20"
+          ],
+          "html_codes": [
+            "CLEARSHOT20"
+          ],
+          "all_codes": [
+            "CLEARSHOT20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 5CL",
+          "suffix": "CL",
+          "header_codes": [
+            "ROCKET200"
+          ],
+          "html_codes": [
+            "ROCKET200"
+          ],
+          "all_codes": [
+            "ROCKET200"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 5CS",
+          "suffix": "CS",
+          "header_codes": [
+            "OCCULT200"
+          ],
+          "html_codes": [
+            "OCCULT200"
+          ],
+          "all_codes": [
+            "OCCULT200"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 5S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 6CL",
+          "suffix": "CL",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 6CS",
+          "suffix": "CS",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 6S",
+          "suffix": "S",
+          "header_codes": [
+            "CLEARSHOT20"
+          ],
+          "html_codes": [
+            "CLEARSHOT20"
+          ],
+          "all_codes": [
+            "CLEARSHOT20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 7CL",
+          "suffix": "CL",
+          "header_codes": [
+            "BLAST210"
+          ],
+          "html_codes": [
+            "BLAST210"
+          ],
+          "all_codes": [
+            "BLAST210"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 7CS",
+          "suffix": "CS",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 7S",
+          "suffix": "S",
+          "header_codes": [
+            "CLEARSHOT20"
+          ],
+          "html_codes": [
+            "CLEARSHOT20"
+          ],
+          "all_codes": [
+            "CLEARSHOT20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8CL",
+          "suffix": "CL",
+          "header_codes": [
+            "BOOSTED220"
+          ],
+          "html_codes": [
+            "BOOSTED220"
+          ],
+          "all_codes": [
+            "BOOSTED220"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8CS",
+          "suffix": "CS",
+          "header_codes": [
+            "PHARAOH100"
+          ],
+          "html_codes": [
+            "PHARAOH100"
+          ],
+          "all_codes": [
+            "PHARAOH100"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8S",
+          "suffix": "S",
+          "header_codes": [
+            "CLEARSHOT20"
+          ],
+          "html_codes": [
+            "CLEARSHOT20"
+          ],
+          "all_codes": [
+            "CLEARSHOT20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        }
+      ]
+    },
+    "Nutrition #3": {
+      "ref_section": "NUTRITION #3",
+      "short": "N3",
+      "total": 24,
+      "emails": [
+        {
+          "name": "Email 1CL",
+          "suffix": "CL",
+          "header_codes": [
+            "VAULT150"
+          ],
+          "html_codes": [
+            "VAULT150"
+          ],
+          "all_codes": [
+            "VAULT150"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 1CS",
+          "suffix": "CS",
+          "header_codes": [
+            "OCCULT200"
+          ],
+          "html_codes": [
+            "OCCULT200"
+          ],
+          "all_codes": [
+            "OCCULT200"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 1S",
+          "suffix": "S",
+          "header_codes": [
+            "STEADY20"
+          ],
+          "html_codes": [
+            "STEADY20"
+          ],
+          "all_codes": [
+            "STEADY20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 2CL",
+          "suffix": "CL",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 2CS",
+          "suffix": "CS",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 2S",
+          "suffix": "S",
+          "header_codes": [
+            "STEADY20"
+          ],
+          "html_codes": [
+            "STEADY20"
+          ],
+          "all_codes": [
+            "STEADY20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3CL",
+          "suffix": "CL",
+          "header_codes": [
+            "OCCULT200"
+          ],
+          "html_codes": [
+            "OCCULT200"
+          ],
+          "all_codes": [
+            "OCCULT200"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3CS",
+          "suffix": "CS",
+          "header_codes": [
+            "OCCULT200"
+          ],
+          "html_codes": [
+            "OCCULT200"
+          ],
+          "all_codes": [
+            "OCCULT200"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 3S",
+          "suffix": "S",
+          "header_codes": [
+            "STEADY20"
+          ],
+          "html_codes": [
+            "STEADY20"
+          ],
+          "all_codes": [
+            "STEADY20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 4CL",
+          "suffix": "CL",
+          "header_codes": [
+            "RISEUP170"
+          ],
+          "html_codes": [
+            "RISEUP170"
+          ],
+          "all_codes": [
+            "RISEUP170"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 4CS",
+          "suffix": "CS",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 4S",
+          "suffix": "S",
+          "header_codes": [
+            "STEADY20"
+          ],
+          "html_codes": [
+            "STEADY20"
+          ],
+          "all_codes": [
+            "STEADY20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 5CL",
+          "suffix": "CL",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 5CS",
+          "suffix": "CS",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 5S",
+          "suffix": "S",
+          "header_codes": [],
+          "html_codes": [],
+          "all_codes": [],
+          "is_monthly": false,
+          "issues": [],
+          "status": "NO_PROMO"
+        },
+        {
+          "name": "Email 6CL",
+          "suffix": "CL",
+          "header_codes": [
+            "RISEUP170"
+          ],
+          "html_codes": [
+            "RISEUP170"
+          ],
+          "all_codes": [
+            "RISEUP170"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 6CS",
+          "suffix": "CS",
+          "header_codes": [
+            "OCCULT200"
+          ],
+          "html_codes": [
+            "OCCULT200"
+          ],
+          "all_codes": [
+            "OCCULT200"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 6S",
+          "suffix": "S",
+          "header_codes": [
+            "STEADY20"
+          ],
+          "html_codes": [
+            "STEADY20"
+          ],
+          "all_codes": [
+            "STEADY20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 7CL",
+          "suffix": "CL",
+          "header_codes": [
+            "COWBOY170"
+          ],
+          "html_codes": [
+            "COWBOY170"
+          ],
+          "all_codes": [
+            "COWBOY170"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 7CS",
+          "suffix": "CS",
+          "header_codes": [
+            "COWBOY170"
+          ],
+          "html_codes": [
+            "COWBOY170"
+          ],
+          "all_codes": [
+            "COWBOY170"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 7S",
+          "suffix": "S",
+          "header_codes": [
+            "STEADY20"
+          ],
+          "html_codes": [
+            "STEADY20"
+          ],
+          "all_codes": [
+            "STEADY20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8CL",
+          "suffix": "CL",
+          "header_codes": [
+            "RISEUP170"
+          ],
+          "html_codes": [
+            "RISEUP170"
+          ],
+          "all_codes": [
+            "RISEUP170"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8CS",
+          "suffix": "CS",
+          "header_codes": [
+            "OCCULT200"
+          ],
+          "html_codes": [
+            "OCCULT200"
+          ],
+          "all_codes": [
+            "OCCULT200"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        },
+        {
+          "name": "Email 8S",
+          "suffix": "S",
+          "header_codes": [
+            "STEADY20"
+          ],
+          "html_codes": [
+            "STEADY20"
+          ],
+          "all_codes": [
+            "STEADY20"
+          ],
+          "is_monthly": false,
+          "issues": [],
+          "status": "OK"
+        }
+      ]
+    }
+  },
   "ref_sections": {
     "WELCOME FLOW": {
       "BANDIT150 100% + 150 FS": {
