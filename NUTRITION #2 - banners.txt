@@ -20,7 +20,7 @@ banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-20206
 
 name: Email C1.1 UZ
 locale: Default
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771240475729_Email%20S8.1_01KHK2HKDE63A95W5494WQ60TV.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771236888088_Email%20C1.1_01KHJZ43NB9BT6R2TEAQPP626V.png
 
 name: Email C2.1
 locale: Default
@@ -44,7 +44,7 @@ banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-20206
 
 name: Email C2.1 UZ
 locale: Default
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771240475729_Email%20S8.1_01KHK2HKDE63A95W5494WQ60TV.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771236888819_Email%20C2.1_01KHJZ44C6RGPQBP15HKYZSXR7.png
 
 name: Email C3.1
 locale: Default
@@ -68,7 +68,7 @@ banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-20206
 
 name: Email C3.1 UZ
 locale: Default
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771240475729_Email%20S8.1_01KHK2HKDE63A95W5494WQ60TV.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771236889509_Email%20C3.1_01KHJZ4523EAFFT57GQ39J449A.png
 
 name: Email C4.1
 locale: Default
@@ -92,7 +92,7 @@ banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-20206
 
 name: Email C4.1 UZ
 locale: Default
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771240475729_Email%20S8.1_01KHK2HKDE63A95W5494WQ60TV.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771236890267_Email%20C4.1_01KHJZ45SN1DEG54KB0TCWJZS6.png
 
 name: Email C5.1
 locale: Default
@@ -116,7 +116,7 @@ banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-20206
 
 name: Email C5.1 UZ
 locale: Default
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771240475729_Email%20S8.1_01KHK2HKDE63A95W5494WQ60TV.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771236890933_Email%20C5.1_01KHJZ46EGRH5AD97GQMAKZ5BH.png
 
 name: Email C6.1
 locale: Default
@@ -140,7 +140,7 @@ banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-20206
 
 name: Email C6.1 UZ
 locale: Default
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771240475729_Email%20S8.1_01KHK2HKDE63A95W5494WQ60TV.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771236891644_Email%20C6.1_01KHJZ474KX2A8YS0G5M71BG32.png
 
 name: Email C7.1
 locale: Default
@@ -164,7 +164,7 @@ banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-20206
 
 name: Email C7.1 UZ
 locale: Default
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771240475729_Email%20S8.1_01KHK2HKDE63A95W5494WQ60TV.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771236892417_Email%20C7.1_01KHJZ47WT0W0YB2WDT60VGAD3.png
 
 name: Email C8.1
 locale: Default
@@ -188,7 +188,7 @@ banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-20206
 
 name: Email C8.1 UZ
 locale: Default
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771240475729_Email%20S8.1_01KHK2HKDE63A95W5494WQ60TV.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-202060/1771236893114_Email%20C8.1_01KHJZ48JHHM86YBJMQ1VC1K6C.png
 
 name: Email S1.1
 locale: Default
