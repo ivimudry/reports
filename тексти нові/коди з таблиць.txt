@@ -61,7 +61,7 @@ ONLYWIN30	30% No Risk Only Win
 
 
 
-DEP RETENTION
+SU RETENTION
 Promo Code	Offer	Game (if needed)
 CASHPLUS4	4% CB	
 POWER140	140%	
@@ -79,7 +79,7 @@ SECURE25	25% NRF
 
 
 
-SU RETENTION
+DEP RETENTION
 Promo Code	Offer	Game (if needed)
 WINSAFE20	20% NRF	
 SURGE170	170%	
