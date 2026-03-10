@@ -2,14 +2,26 @@
 
 1uz
 
-1en
+2en
 
-1uz
+2uz
 
-1en
+3en
 
-1uz
+3uz
 
-1en
+4en
 
-1uz
+4uz
+
+5en
+
+5uz
+
+6en
+
+6uz
+
+7en
+
+7uz
