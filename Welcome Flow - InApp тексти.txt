@@ -1,107 +1,107 @@
 InApp 1C
-Body: Unlock up to €2000 + 250 Free Spins across your first 4 deposits. Start with 100% up to €500 + 150 FS - deposit today!
+Body: Unlock up to €2000 + 250 Free Spins across your first 4 deposits. Start with 100% up to €500 + 150 FS. Claim your Welcome Bonus now!
 CTA: Claim Bonus
 
 InApp 2C
-Body: BANDIT150 - your code for 100% Bonus + 150 Free Spins on Le Bandit. Apply on first deposit.
+Body: BANDIT150 - your code for 100% Bonus + 150 Free Spins on Le Bandit. Use the code and collect your Free Spins.
 CTA: BANDIT150
 
 InApp 3C
-Body: First deposit + CREW150 - 100% Bonus + 150 Free Spins on Chaos Crew II. Deposit and spin.
+Body: First deposit + CREW150 - 100% Bonus + 150 Free Spins on Chaos Crew II. Enter the code and grab your spins.
 CTA: CREW150
 
 InApp 4C
-Body: STORM170 gets you 120% Bonus + 170 Free Spins on Stormforged. Deposit and activate.
+Body: STORM170 gets you 120% Bonus + 170 Free Spins on Stormforged. Activate your bonus with one top-up.
 CTA: STORM170
 
 InApp 5C
-Body: Drop code RIP100CITY on your first deposit - 100% Bonus + 150 Free Spins on Rip City. Deposit and play.
+Body: Drop code RIP100CITY on your first deposit - 100% Bonus + 150 Free Spins on Rip City. Your 150 Free Spins are one code away.
 CTA: RIP100CITY
 
 InApp 6C
-Body: BANDIT150 is live - 100% Bonus + 150 Free Spins on Le Bandit. Deposit and grab them.
+Body: BANDIT150 is live - 100% Bonus + 150 Free Spins on Le Bandit. Apply the code and take your bonus.
 CTA: BANDIT150
 
 InApp 7C
-Body: BANDIT150 is live - 100% Bonus + 150 Free Spins on Le Bandit. Deposit and grab them.
+Body: BANDIT150 is live - 100% Bonus + 150 Free Spins on Le Bandit. Apply the code and take your bonus.
 CTA: BANDIT150
 
 InApp 8C
-Body: CREW150 is still valid - 100% Bonus + 150 Free Spins on Chaos Crew II. Deposit now and claim them.
+Body: CREW150 is still valid - 100% Bonus + 150 Free Spins on Chaos Crew II. Code still works - your spins are waiting.
 CTA: CREW150
 
 InApp 1M
-Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Deposit now and bet risk-free.
+Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Try the code and bet with zero risk.
 CTA: SAFE10
 
 InApp 2M
-Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Deposit now and bet risk-free.
+Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Try the code and bet with zero risk.
 CTA: SAFE10
 
 InApp 3M
-Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Deposit now and bet risk-free.
+Body: Enter SAFE10 on your first deposit and get a 10% NoRisk FreeBets Bonus. Try the code and bet with zero risk.
 CTA: SAFE10
 
 InApp 4M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Pick a code and unlock your bonus.
 CTA: Get Started
 
 InApp 5M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Pick a code and unlock your bonus.
 CTA: Get Started
 
 InApp 6M
-Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Deposit and pick one.
+Body: Slots or sports - pick your side. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Pick a code and unlock your bonus.
 CTA: Get Started
 
 InApp 7M
-Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Fund your account and choose.
+Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Choose one and score your reward.
 CTA: Pick Yours
 
 InApp 8M
-Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Fund your account and choose.
+Body: Casino or sports - you choose. LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Choose one and score your reward.
 CTA: Pick Yours
 
 InApp 1S
-Body: 50% Welcome Bonus up to €200 + 20% NoRisk up to €500 on your first 2 deposits. Deposit to claim your FreeBets.
+Body: 50% Welcome Bonus up to €200 + 20% NoRisk up to €500 on your first 2 deposits. Your FreeBets are ready - top up now.
 CTA: Get FreeBets
 
 InApp 2S
-Body: BOOST50 gives you 50% extra on your next deposit. Deposit now and level up.
+Body: BOOST50 gives you 50% extra on your next deposit. Apply the code and boost your balance.
 CTA: BOOST50
 
 InApp 3S
-Body: Top odds are up and a 50% bonus is on the table. Deposit and bet bigger.
+Body: Top odds are up and a 50% bonus is on the table. Grab your 50% bonus now.
 CTA: Bet Now
 
 InApp 4S
-Body: 50% FreeBets Bonus up to €200 on your first deposit. Deposit and jump in.
+Body: 50% FreeBets Bonus up to €200 on your first deposit. Get your FreeBets today.
 CTA: Claim FreeBets
 
 InApp 5S
-Body: 50% Welcome FreeBets Bonus up to €200 - first deposit only. One deposit and you're in.
+Body: 50% Welcome FreeBets Bonus up to €200 - first deposit only. Your Welcome FreeBets are one step away.
 CTA: Grab FreeBets
 
 InApp 6S
-Body: 50% Welcome FreeBets Bonus up to €200 on your first deposit. Deposit and get your edge.
+Body: 50% Welcome FreeBets Bonus up to €200 on your first deposit. Secure your FreeBets and hit the odds.
 CTA: Start Betting
 
 InApp 7S
-Body: FIREUP60 on your first deposit - 60% Welcome FreeBets Bonus. Deposit and bet.
+Body: FIREUP60 on your first deposit - 60% Welcome FreeBets Bonus. Use the code and fire up your bets.
 CTA: FIREUP60
 
 InApp 8S
-Body: 60% Welcome FreeBets Bonus is live with FIREUP60 - apply it on your first deposit.
+Body: 60% Welcome FreeBets Bonus is live with FIREUP60 - activate it and unlock your FreeBets.
 CTA: FIREUP60
 
 InApp 9C
-Body: SWEET180 on your first deposit - 180 Free Spins on Sweet Bonanza. Deposit and start spinning.
+Body: SWEET180 on your first deposit - 180 Free Spins on Sweet Bonanza. Drop the code and start spinning.
 CTA: SWEET180
 
 InApp 9M
-Body: Pick your bonus - LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. Deposit to unlock it.
+Body: Pick your bonus - LEGACY100 for 100 Free Spins on Legacy of Dead, or BETSAFE20 for 20% NoRisk FreeBets. One code, one bonus - get it now.
 CTA: Claim Now
 
 InApp 9S
-Body: 60% FreeBets Bonus with FIREUP60 - deposit once and it's all yours.
+Body: 60% FreeBets Bonus with FIREUP60 - the code is ready. Claim your FreeBets.
 CTA: FIREUP60
