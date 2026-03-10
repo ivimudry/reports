@@ -1,20 +1,19 @@
 {
   "summary": {
-    "total_codes_in_table": 121,
+    "total_codes": 121,
     "total_emails": 148,
-    "total_issues": 102,
-    "by_type": {
-      "NRF_MISMATCH": 9,
-      "BONUS_MISMATCH": 3,
-      "UNKNOWN_CODE": 24,
-      "UNUSED_CODE": 66
+    "errors": 0,
+    "warnings": 9,
+    "unused": 65,
+    "type_counts": {
+      "BONUS_NRF_MISMATCH": 9
     }
   },
   "table_data": {
-    "WELCOME FLOW": {
-      "BANDIT150 100% + 150 FS": {
-        "offer": "Le bandit by Hacksaw Gaming",
-        "game": ""
+    "WF": {
+      "BANDIT150": {
+        "offer": "100% + 150 FS",
+        "game": "Le bandit by Hacksaw Gaming"
       },
       "CREW150": {
         "offer": "100% + 150 FS",
@@ -65,7 +64,7 @@
         "game": ""
       }
     },
-    "FTD RETENTION": {
+    "FTD": {
       "ANUBIS10050": {
         "offer": "100% + 50 FS",
         "game": "Hand of Anubis by Hacksaw Gaming"
@@ -219,7 +218,7 @@
         "game": ""
       }
     },
-    "SU RETENTION": {
+    "SU": {
       "CASHPLUS4": {
         "offer": "4% CB",
         "game": ""
@@ -269,7 +268,7 @@
         "game": ""
       }
     },
-    "DEP RETENTION": {
+    "DEP": {
       "WINSAFE20": {
         "offer": "20% NRF",
         "game": ""
@@ -307,7 +306,7 @@
         "game": "Wanted Dead or a Wild by Hacksaw Gaming"
       }
     },
-    "NUTRITION #2": {
+    "N2": {
       "UNDERDOG50": {
         "offer": "100% + 50 FS",
         "game": "Hand of Anubis by Hacksaw Gaming"
@@ -421,7 +420,7 @@
         "game": ""
       }
     },
-    "NUTRITION #3": {
+    "N3": {
       "VAULT150": {
         "offer": "150%",
         "game": ""
@@ -510,2455 +509,3260 @@
   },
   "issues": [
     {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "WF",
-      "email": "Email 2C",
-      "code": "BANDIT150",
-      "detail": "Promo code 'BANDIT150' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "WF",
-      "email": "Email 4M",
-      "code": "LEGACY100, BETSAFE20",
-      "detail": "Promo code 'LEGACY100, BETSAFE20' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "WF",
-      "email": "Email 6C",
-      "code": "BANDIT150",
-      "detail": "Promo code 'BANDIT150' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "WF",
-      "email": "Email 7M",
-      "code": "LEGACY100, BETSAFE20",
-      "detail": "Promo code 'LEGACY100, BETSAFE20' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "WF",
-      "email": "Email 9M",
-      "code": "LEGACY100, BETSAFE20",
-      "detail": "Promo code 'LEGACY100, BETSAFE20' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 1M",
-      "code": "ANUBIS10050, WINBACKNRF20",
-      "detail": "Promo code 'ANUBIS10050, WINBACKNRF20' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 2M",
-      "code": "WINBACKNRF20, DOG10060",
-      "detail": "Promo code 'WINBACKNRF20, DOG10060' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 3M",
-      "code": "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30",
-      "detail": "Promo code 'SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 3M",
-      "code": "BOOST4CB4 ",
-      "detail": "Promo code 'BOOST4CB4 ' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 3M",
-      "code": "COVERNRF30 ",
-      "detail": "Promo code 'COVERNRF30 ' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 5M",
-      "code": "WINBACKNRF20, CHAOS10070",
-      "detail": "Promo code 'WINBACKNRF20, CHAOS10070' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 6M",
-      "code": "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30",
-      "detail": "Promo code 'SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 6M",
-      "code": "COVERNRF30 ",
-      "detail": "Promo code 'COVERNRF30 ' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 8M",
-      "code": "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30",
-      "detail": "Promo code 'SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 8M",
-      "code": "COVERNRF30 ",
-      "detail": "Promo code 'COVERNRF30 ' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "FTD",
-      "email": "Email 8S",
-      "code": "ONLYWIN30.",
-      "detail": "Promo code 'ONLYWIN30.' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "SU",
-      "email": "Email 1M",
-      "code": "FINTASTIC150, EARNNRF15X",
-      "detail": "Promo code 'FINTASTIC150, EARNNRF15X' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "SU",
-      "email": "Email 3M",
-      "code": "POWER140, EARNNRF15X",
-      "detail": "Promo code 'POWER140, EARNNRF15X' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "SU",
-      "email": "Email 5M",
-      "code": "POWER140, EARNNRF15X",
-      "detail": "Promo code 'POWER140, EARNNRF15X' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "SU",
-      "email": "Email 6M",
-      "code": "POWER140, EARNNRF15X",
-      "detail": "Promo code 'POWER140, EARNNRF15X' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "SU",
-      "email": "Email 7M",
-      "code": "CHAOSCTRL80, WIN20NRF",
-      "detail": "Promo code 'CHAOSCTRL80, WIN20NRF' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "SU",
-      "email": "Email 8M",
-      "code": "CHAOSCTRL80, WIN20NRF",
-      "detail": "Promo code 'CHAOSCTRL80, WIN20NRF' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "SU",
-      "email": "Email 9M",
-      "code": "MADNESS16090, SECURE25",
-      "detail": "Promo code 'MADNESS16090, SECURE25' found in email but NOT in any table"
-    },
-    {
-      "type": "UNKNOWN_CODE",
-      "severity": "error",
-      "campaign": "SU",
-      "email": "Email 10M",
-      "code": "MADNESS16090, SECURE25",
-      "detail": "Promo code 'MADNESS16090, SECURE25' found in email but NOT in any table"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "WF",
-      "email": "-",
-      "code": "BANDIT150 100% + 150 FS",
-      "detail": "Code 'BANDIT150 100% + 150 FS' in WF table but not found in any WF email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "WF",
-      "email": "-",
-      "code": "LEVELUP55",
-      "detail": "Code 'LEVELUP55' in WF table but not found in any WF email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "WF",
-      "email": "-",
-      "code": "RELOAD60",
-      "detail": "Code 'RELOAD60' in WF table but not found in any WF email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "WF",
-      "email": "-",
-      "code": "GUARANTEE25",
-      "detail": "Code 'GUARANTEE25' in WF table but not found in any WF email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "RAZOR70110",
-      "detail": "Code 'RAZOR70110' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "FIRE60120",
-      "detail": "Code 'FIRE60120' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "WILD13040",
-      "detail": "Code 'WILD13040' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "LODEAD130",
-      "detail": "Code 'LODEAD130' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "LEBAND65130",
-      "detail": "Code 'LEBAND65130' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "DINO13070",
-      "detail": "Code 'DINO13070' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "GEMS13565",
-      "detail": "Code 'GEMS13565' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "CHAOS140",
-      "detail": "Code 'CHAOS140' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "STACK90140",
-      "detail": "Code 'STACK90140' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "30GOLD145",
-      "detail": "Code '30GOLD145' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "BAMBOO145",
-      "detail": "Code 'BAMBOO145' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "RUSH90145",
-      "detail": "Code 'RUSH90145' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "OLYMPUS150",
-      "detail": "Code 'OLYMPUS150' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "STONE155",
-      "detail": "Code 'STONE155' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "BEAST160",
-      "detail": "Code 'BEAST160' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "POWER150",
-      "detail": "Code 'POWER150' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "RISE155",
-      "detail": "Code 'RISE155' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "CLIMB160",
-      "detail": "Code 'CLIMB160' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "BOOST165",
-      "detail": "Code 'BOOST165' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "BASSSPLASH100",
-      "detail": "Code 'BASSSPLASH100' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "PLINKOPINE110",
-      "detail": "Code 'PLINKOPINE110' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "MUSMYSTERY120",
-      "detail": "Code 'MUSMYSTERY120' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "FTD",
-      "email": "-",
-      "code": "STARLIGHT125",
-      "detail": "Code 'STARLIGHT125' in FTD table but not found in any FTD email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "SU",
-      "email": "-",
-      "code": "KENNEL100",
-      "detail": "Code 'KENNEL100' in SU table but not found in any SU email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "SU",
-      "email": "-",
-      "code": "XBOMB150",
-      "detail": "Code 'XBOMB150' in SU table but not found in any SU email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "SU",
-      "email": "-",
-      "code": "UNDERWORLD200",
-      "detail": "Code 'UNDERWORLD200' in SU table but not found in any SU email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "MEGAPAW65",
-      "detail": "Code 'MEGAPAW65' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "MAYHEM80",
-      "detail": "Code 'MAYHEM80' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "CANDYBLAST90",
-      "detail": "Code 'CANDYBLAST90' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "DORKSQUAD55",
-      "detail": "Code 'DORKSQUAD55' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "DEEPSEA60",
-      "detail": "Code 'DEEPSEA60' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "MINER80",
-      "detail": "Code 'MINER80' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "BULLET90",
-      "detail": "Code 'BULLET90' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "HEIST110",
-      "detail": "Code 'HEIST110' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "DINOREX120",
-      "detail": "Code 'DINOREX120' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "CRYSTAL130",
-      "detail": "Code 'CRYSTAL130' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "RISKLESS10",
-      "detail": "Code 'RISKLESS10' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "WINZONE15",
-      "detail": "Code 'WINZONE15' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "WINLOCK25",
-      "detail": "Code 'WINLOCK25' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "JUMPHIGH120",
-      "detail": "Code 'JUMPHIGH120' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "RISEABOVE125",
-      "detail": "Code 'RISEABOVE125' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "EDGE130",
-      "detail": "Code 'EDGE130' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "MAXED140",
-      "detail": "Code 'MAXED140' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "STORM225",
-      "detail": "Code 'STORM225' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "FLASH230",
-      "detail": "Code 'FLASH230' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N2",
-      "email": "-",
-      "code": "FULLPOWER250",
-      "detail": "Code 'FULLPOWER250' in N2 table but not found in any N2 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "BLITZ160",
-      "detail": "Code 'BLITZ160' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "RAMP180",
-      "detail": "Code 'RAMP180' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "SAFEPLAY10",
-      "detail": "Code 'SAFEPLAY10' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "BACKBET15",
-      "detail": "Code 'BACKBET15' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "NORETURN25",
-      "detail": "Code 'NORETURN25' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "BONBLAST80",
-      "detail": "Code 'BONBLAST80' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "JUICYPARTY100",
-      "detail": "Code 'JUICYPARTY100' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "STACKED150",
-      "detail": "Code 'STACKED150' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "TOMB175",
-      "detail": "Code 'TOMB175' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "KICKBACK2",
-      "detail": "Code 'KICKBACK2' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "ROLLBACK3",
-      "detail": "Code 'ROLLBACK3' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "GRAB4CB",
-      "detail": "Code 'GRAB4CB' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "PAWSPIN80",
-      "detail": "Code 'PAWSPIN80' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "ZEUS90",
-      "detail": "Code 'ZEUS90' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "MUMMY100",
-      "detail": "Code 'MUMMY100' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "UNUSED_CODE",
-      "severity": "info",
-      "campaign": "N3",
-      "email": "-",
-      "code": "SHARKBITE110",
-      "detail": "Code 'SHARKBITE110' in N3 table but not found in any N3 email"
-    },
-    {
-      "type": "NRF_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "FTD",
       "email": "Email 3M",
       "code": "WINBACKNRF20",
-      "detail": "Table offer '20% NRF' — expected 20% NRF not found in email text"
+      "detail": "Table: '20% NRF' — 20% NRF not in text"
     },
     {
-      "type": "NRF_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "FTD",
       "email": "Email 3M",
       "code": "SAFETYNRF25",
-      "detail": "Table offer '25% NRF' — expected 25% NRF not found in email text"
+      "detail": "Table: '25% NRF' — 25% NRF not in text"
     },
     {
-      "type": "NRF_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "FTD",
       "email": "Email 6M",
       "code": "WINBACKNRF20",
-      "detail": "Table offer '20% NRF' — expected 20% NRF not found in email text"
+      "detail": "Table: '20% NRF' — 20% NRF not in text"
     },
     {
-      "type": "NRF_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "FTD",
       "email": "Email 6M",
       "code": "SAFETYNRF25",
-      "detail": "Table offer '25% NRF' — expected 25% NRF not found in email text"
+      "detail": "Table: '25% NRF' — 25% NRF not in text"
     },
     {
-      "type": "NRF_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "FTD",
       "email": "Email 8M",
       "code": "WINBACKNRF20",
-      "detail": "Table offer '20% NRF' — expected 20% NRF not found in email text"
+      "detail": "Table: '20% NRF' — 20% NRF not in text"
     },
     {
-      "type": "NRF_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "FTD",
       "email": "Email 8M",
       "code": "SAFETYNRF25",
-      "detail": "Table offer '25% NRF' — expected 25% NRF not found in email text"
+      "detail": "Table: '25% NRF' — 25% NRF not in text"
     },
     {
-      "type": "BONUS_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "DEP",
       "email": "Email 2S",
       "code": "WINSAFE20",
-      "detail": "Table offer '20% NRF' — expected 20% not found in email text"
+      "detail": "Table: '20% NRF' — 20% NRF not in text"
     },
     {
-      "type": "NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "DEP",
-      "email": "Email 2S",
-      "code": "WINSAFE20",
-      "detail": "Table offer '20% NRF' — expected 20% NRF not found in email text"
-    },
-    {
-      "type": "BONUS_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "DEP",
       "email": "Email 5S",
       "code": "WINSAFE20",
-      "detail": "Table offer '20% NRF' — expected 20% not found in email text"
+      "detail": "Table: '20% NRF' — 20% NRF not in text"
     },
     {
-      "type": "NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "DEP",
-      "email": "Email 5S",
-      "code": "WINSAFE20",
-      "detail": "Table offer '20% NRF' — expected 20% NRF not found in email text"
-    },
-    {
-      "type": "BONUS_MISMATCH",
+      "type": "BONUS_NRF_MISMATCH",
       "severity": "warning",
       "campaign": "DEP",
       "email": "Email 7S",
       "code": "WINSAFE20",
-      "detail": "Table offer '20% NRF' — expected 20% not found in email text"
-    },
-    {
-      "type": "NRF_MISMATCH",
-      "severity": "warning",
-      "campaign": "DEP",
-      "email": "Email 7S",
-      "code": "WINSAFE20",
-      "detail": "Table offer '20% NRF' — expected 20% NRF not found in email text"
+      "detail": "Table: '20% NRF' — 20% NRF not in text"
     }
   ],
-  "email_codes": {
-    "WF": [
-      {
-        "name": "Email 1C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 1M",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 1S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 2C",
-        "header_codes": [
-          "BANDIT150"
-        ],
-        "text_codes": [
-          "BANDIT150"
-        ],
-        "all_codes": [
-          "BANDIT150"
-        ]
-      },
-      {
-        "name": "Email 2M",
-        "header_codes": [
-          "SAFE10"
-        ],
-        "text_codes": [
-          "SAFE10"
-        ],
-        "all_codes": [
-          "SAFE10"
-        ]
-      },
-      {
-        "name": "Email 2S",
-        "header_codes": [
-          "BOOST50"
-        ],
-        "text_codes": [
-          "BOOST50"
-        ],
-        "all_codes": [
-          "BOOST50"
-        ]
-      },
-      {
-        "name": "Email 3C",
-        "header_codes": [
-          "CREW150"
-        ],
-        "text_codes": [
-          "CREW150"
-        ],
-        "all_codes": [
-          "CREW150"
-        ]
-      },
-      {
-        "name": "Email 3M",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 3S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 4C",
-        "header_codes": [
-          "STORM170"
-        ],
-        "text_codes": [
-          "STORM170"
-        ],
-        "all_codes": [
-          "STORM170"
-        ]
-      },
-      {
-        "name": "Email 4M",
-        "header_codes": [
-          "LEGACY100, BETSAFE20"
-        ],
-        "text_codes": [
-          "LEGACY100",
-          "BETSAFE20"
-        ],
-        "all_codes": [
-          "LEGACY100",
-          "BETSAFE20",
-          "LEGACY100, BETSAFE20"
-        ]
-      },
-      {
-        "name": "Email 4S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 5C",
-        "header_codes": [
-          "RIP100CITY"
-        ],
-        "text_codes": [
-          "RIP100CITY"
-        ],
-        "all_codes": [
-          "RIP100CITY"
-        ]
-      },
-      {
-        "name": "Email 5M",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 5S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 6C",
-        "header_codes": [
-          "BANDIT150"
-        ],
-        "text_codes": [
-          "BANDIT150"
-        ],
-        "all_codes": [
-          "BANDIT150"
-        ]
-      },
-      {
-        "name": "Email 6M",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 6S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 7C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 7M",
-        "header_codes": [
-          "LEGACY100, BETSAFE20"
-        ],
-        "text_codes": [
-          "LEGACY100",
-          "BETSAFE20"
-        ],
-        "all_codes": [
-          "LEGACY100",
-          "BETSAFE20",
-          "LEGACY100, BETSAFE20"
-        ]
-      },
-      {
-        "name": "Email 7S",
-        "header_codes": [
-          "FIREUP60"
-        ],
-        "text_codes": [
-          "FIREUP60"
-        ],
-        "all_codes": [
-          "FIREUP60"
-        ]
-      },
-      {
-        "name": "Email 8C",
-        "header_codes": [
-          "CREW150"
-        ],
-        "text_codes": [
-          "CREW150"
-        ],
-        "all_codes": [
-          "CREW150"
-        ]
-      },
-      {
-        "name": "Email 8M",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 8S",
-        "header_codes": [
-          "FIREUP60"
-        ],
-        "text_codes": [
-          "FIREUP60"
-        ],
-        "all_codes": [
-          "FIREUP60"
-        ]
-      },
-      {
-        "name": "Email 9C",
-        "header_codes": [
-          "SWEET180"
-        ],
-        "text_codes": [
-          "SWEET180"
-        ],
-        "all_codes": [
-          "SWEET180"
-        ]
-      },
-      {
-        "name": "Email 9M",
-        "header_codes": [
-          "LEGACY100, BETSAFE20"
-        ],
-        "text_codes": [
-          "LEGACY100",
-          "BETSAFE20"
-        ],
-        "all_codes": [
-          "LEGACY100",
-          "BETSAFE20",
-          "LEGACY100, BETSAFE20"
-        ]
-      },
-      {
-        "name": "Email 9S",
-        "header_codes": [
-          "FIREUP60"
-        ],
-        "text_codes": [
-          "FIREUP60"
-        ],
-        "all_codes": [
-          "FIREUP60"
-        ]
-      }
-    ],
-    "FTD": [
-      {
-        "name": "Email 1M",
-        "header_codes": [
-          "ANUBIS10050, WINBACKNRF20"
-        ],
-        "text_codes": [
-          "WINBACKNRF20",
-          "ANUBIS10050"
-        ],
-        "all_codes": [
-          "ANUBIS10050",
-          "WINBACKNRF20",
-          "ANUBIS10050, WINBACKNRF20"
-        ]
-      },
-      {
-        "name": "Email 1S",
-        "header_codes": [
-          "WINBACKNRF20"
-        ],
-        "text_codes": [
-          "WINBACKNRF20"
-        ],
-        "all_codes": [
-          "WINBACKNRF20"
-        ]
-      },
-      {
-        "name": "Email 2C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 2M",
-        "header_codes": [
-          "WINBACKNRF20, DOG10060"
-        ],
-        "text_codes": [
-          "DOG10060",
-          "WINBACKNRF20"
-        ],
-        "all_codes": [
-          "DOG10060",
-          "WINBACKNRF20",
-          "WINBACKNRF20, DOG10060"
-        ]
-      },
-      {
-        "name": "Email 2S",
-        "header_codes": [
-          "WINBACKNRF20"
-        ],
-        "text_codes": [
-          "WINBACKNRF20"
-        ],
-        "all_codes": [
-          "WINBACKNRF20"
-        ]
-      },
-      {
-        "name": "Email 3C",
-        "header_codes": [
-          "PARTY140"
-        ],
-        "text_codes": [
-          "PARTY140"
-        ],
-        "all_codes": [
-          "PARTY140"
-        ]
-      },
-      {
-        "name": "Email 3M",
-        "header_codes": [
-          "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30"
-        ],
-        "text_codes": [
-          "RETURN3CB3",
-          "BOOST4CB4",
-          "WINBACKNRF20",
-          "SAFE2CB2",
-          "BOOST4CB4 ",
-          "SAFETYNRF25",
-          "COVERNRF30",
-          "COVERNRF30 "
-        ],
-        "all_codes": [
-          "RETURN3CB3",
-          "BOOST4CB4",
-          "WINBACKNRF20",
-          "SAFE2CB2",
-          "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30",
-          "BOOST4CB4 ",
-          "SAFETYNRF25",
-          "COVERNRF30",
-          "COVERNRF30 "
-        ]
-      },
-      {
-        "name": "Email 3S",
-        "header_codes": [
-          "WINBACKNRF20"
-        ],
-        "text_codes": [
-          "WINBACKNRF20"
-        ],
-        "all_codes": [
-          "WINBACKNRF20"
-        ]
-      },
-      {
-        "name": "Email 4C",
-        "header_codes": [
-          "DORK50110"
-        ],
-        "text_codes": [
-          "DORK50110"
-        ],
-        "all_codes": [
-          "DORK50110"
-        ]
-      },
-      {
-        "name": "Email 4M",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 4S",
-        "header_codes": [
-          "SAFETYNRF25"
-        ],
-        "text_codes": [
-          "SAFETYNRF25"
-        ],
-        "all_codes": [
-          "SAFETYNRF25"
-        ]
-      },
-      {
-        "name": "Email 5C",
-        "header_codes": [
-          "BONANZA10080"
-        ],
-        "text_codes": [
-          "BONANZA10080"
-        ],
-        "all_codes": [
-          "BONANZA10080"
-        ]
-      },
-      {
-        "name": "Email 5M",
-        "header_codes": [
-          "WINBACKNRF20, CHAOS10070"
-        ],
-        "text_codes": [
-          "WINBACKNRF20",
-          "CHAOS10070"
-        ],
-        "all_codes": [
-          "WINBACKNRF20",
-          "WINBACKNRF20, CHAOS10070",
-          "CHAOS10070"
-        ]
-      },
-      {
-        "name": "Email 5S",
-        "header_codes": [
-          "ONLYWIN30"
-        ],
-        "text_codes": [
-          "ONLYWIN30"
-        ],
-        "all_codes": [
-          "ONLYWIN30"
-        ]
-      },
-      {
-        "name": "Email 6C",
-        "header_codes": [
-          "RICH100150"
-        ],
-        "text_codes": [
-          "RICH100150"
-        ],
-        "all_codes": [
-          "RICH100150"
-        ]
-      },
-      {
-        "name": "Email 6M",
-        "header_codes": [
-          "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30"
-        ],
-        "text_codes": [
-          "RETURN3CB3",
-          "BOOST4CB4",
-          "WINBACKNRF20",
-          "SAFE2CB2",
-          "SAFETYNRF25",
-          "COVERNRF30",
-          "COVERNRF30 "
-        ],
-        "all_codes": [
-          "RETURN3CB3",
-          "BOOST4CB4",
-          "WINBACKNRF20",
-          "SAFE2CB2",
-          "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30",
-          "SAFETYNRF25",
-          "COVERNRF30",
-          "COVERNRF30 "
-        ]
-      },
-      {
-        "name": "Email 6S",
-        "header_codes": [
-          "WINBACKNRF20"
-        ],
-        "text_codes": [
-          "WINBACKNRF20"
-        ],
-        "all_codes": [
-          "WINBACKNRF20"
-        ]
-      },
-      {
-        "name": "Email 7C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 7M",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 7S",
-        "header_codes": [
-          "WINBACKNRF20"
-        ],
-        "text_codes": [
-          "WINBACKNRF20"
-        ],
-        "all_codes": [
-          "WINBACKNRF20"
-        ]
-      },
-      {
-        "name": "Email 8C",
-        "header_codes": [
-          "FORGED150"
-        ],
-        "text_codes": [
-          "FORGED150"
-        ],
-        "all_codes": [
-          "FORGED150"
-        ]
-      },
-      {
-        "name": "Email 8M",
-        "header_codes": [
-          "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30"
-        ],
-        "text_codes": [
-          "RETURN3CB3",
-          "BOOST4CB4",
-          "WINBACKNRF20",
-          "SAFE2CB2",
-          "SAFETYNRF25",
-          "COVERNRF30",
-          "COVERNRF30 "
-        ],
-        "all_codes": [
-          "RETURN3CB3",
-          "BOOST4CB4",
-          "WINBACKNRF20",
-          "SAFE2CB2",
-          "SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30",
-          "SAFETYNRF25",
-          "COVERNRF30",
-          "COVERNRF30 "
-        ]
-      },
-      {
-        "name": "Email 8S",
-        "header_codes": [
-          "ONLYWIN30"
-        ],
-        "text_codes": [
-          "ONLYWIN30.",
-          "ONLYWIN30"
-        ],
-        "all_codes": [
-          "ONLYWIN30.",
-          "ONLYWIN30"
-        ]
-      }
-    ],
-    "DEP": [
-      {
-        "name": "Email 1C",
-        "header_codes": [
-          "SURGE170"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "SURGE170"
-        ]
-      },
-      {
-        "name": "Email 2C",
-        "header_codes": [
-          "CREWBOOST150"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "CREWBOOST150"
-        ]
-      },
-      {
-        "name": "Email 4C",
-        "header_codes": [
-          "GUNSLINGER160"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "GUNSLINGER160"
-        ]
-      },
-      {
-        "name": "Email 5C",
-        "header_codes": [
-          "BOOSTER170"
-        ],
-        "text_codes": [
-          "BOOSTER170"
-        ],
-        "all_codes": [
-          "BOOSTER170"
-        ]
-      },
-      {
-        "name": "Email 7C",
-        "header_codes": [
-          "GUNSLINGER160"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "GUNSLINGER160"
-        ]
-      },
-      {
-        "name": "Email 8C",
-        "header_codes": [
-          "OUTLAW180"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "OUTLAW180"
-        ]
-      },
-      {
-        "name": "Email 9C",
-        "header_codes": [
-          "GIANTPANDA100"
-        ],
-        "text_codes": [
-          "GIANTPANDA100"
-        ],
-        "all_codes": [
-          "GIANTPANDA100"
-        ]
-      },
-      {
-        "name": "Email 10C",
-        "header_codes": [
-          "GEMHUNT200"
-        ],
-        "text_codes": [
-          "GEMHUNT200"
-        ],
-        "all_codes": [
-          "GEMHUNT200"
-        ]
-      },
-      {
-        "name": "Email 1S",
-        "header_codes": [
-          "WINSAFE20"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "WINSAFE20"
-        ]
-      },
-      {
-        "name": "Email 2S",
-        "header_codes": [
-          "WINSAFE20"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "WINSAFE20"
-        ]
-      },
-      {
-        "name": "Email 4S",
-        "header_codes": [
-          "SURGE170"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "SURGE170"
-        ]
-      },
-      {
-        "name": "Email 5S",
-        "header_codes": [
-          "WINSAFE20"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "WINSAFE20"
-        ]
-      },
-      {
-        "name": "Email 6S",
-        "header_codes": [
-          "BOOSTER170"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "BOOSTER170"
-        ]
-      },
-      {
-        "name": "Email 7S",
-        "header_codes": [
-          "WINSAFE20"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "WINSAFE20"
-        ]
-      },
-      {
-        "name": "Email 9S",
-        "header_codes": [
-          "ONLYSAFE30"
-        ],
-        "text_codes": [
-          "ONLYSAFE30"
-        ],
-        "all_codes": [
-          "ONLYSAFE30"
-        ]
-      },
-      {
-        "name": "Email 10S",
-        "header_codes": [
-          "ONLYSAFE30"
-        ],
-        "text_codes": [],
-        "all_codes": [
-          "ONLYSAFE30"
-        ]
-      },
-      {
-        "name": "Email 3C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 6C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 3S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 8S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      }
-    ],
-    "SU": [
-      {
-        "name": "Email 1C",
-        "header_codes": [
-          "FINTASTIC150"
-        ],
-        "text_codes": [
-          "FINTASTIC150"
-        ],
-        "all_codes": [
-          "FINTASTIC150"
-        ]
-      },
-      {
-        "name": "Email 1M",
-        "header_codes": [
-          "FINTASTIC150, EARNNRF15X"
-        ],
-        "text_codes": [
-          "FINTASTIC150",
-          "EARNNRF15X"
-        ],
-        "all_codes": [
-          "FINTASTIC150",
-          "EARNNRF15X",
-          "FINTASTIC150, EARNNRF15X"
-        ]
-      },
-      {
-        "name": "Email 1S",
-        "header_codes": [
-          "EARNNRF15X"
-        ],
-        "text_codes": [
-          "EARNNRF15X"
-        ],
-        "all_codes": [
-          "EARNNRF15X"
-        ]
-      },
-      {
-        "name": "Email 2C",
-        "header_codes": [
-          "FINTASTIC150"
-        ],
-        "text_codes": [
-          "FINTASTIC150"
-        ],
-        "all_codes": [
-          "FINTASTIC150"
-        ]
-      },
-      {
-        "name": "Email 2M",
-        "header_codes": [
-          "CASHPLUS4"
-        ],
-        "text_codes": [
-          "CASHPLUS4"
-        ],
-        "all_codes": [
-          "CASHPLUS4"
-        ]
-      },
-      {
-        "name": "Email 2S",
-        "header_codes": [
-          "CASHPLUS4"
-        ],
-        "text_codes": [
-          "CASHPLUS4"
-        ],
-        "all_codes": [
-          "CASHPLUS4"
-        ]
-      },
-      {
-        "name": "Email 3C",
-        "header_codes": [
-          "POWER140"
-        ],
-        "text_codes": [
-          "POWER140"
-        ],
-        "all_codes": [
-          "POWER140"
-        ]
-      },
-      {
-        "name": "Email 3M",
-        "header_codes": [
-          "POWER140, EARNNRF15X"
-        ],
-        "text_codes": [
-          "EARNNRF15X",
-          "POWER140"
-        ],
-        "all_codes": [
-          "POWER140",
-          "POWER140, EARNNRF15X",
-          "EARNNRF15X"
-        ]
-      },
-      {
-        "name": "Email 3S",
-        "header_codes": [
-          "EARNNRF15X"
-        ],
-        "text_codes": [
-          "EARNNRF15X"
-        ],
-        "all_codes": [
-          "EARNNRF15X"
-        ]
-      },
-      {
-        "name": "Email 4C",
-        "header_codes": [
-          "CANDYDROP70"
-        ],
-        "text_codes": [
-          "CANDYDROP70"
-        ],
-        "all_codes": [
-          "CANDYDROP70"
-        ]
-      },
-      {
-        "name": "Email 4M",
-        "header_codes": [
-          "CANDYDROP70"
-        ],
-        "text_codes": [
-          "CANDYDROP70"
-        ],
-        "all_codes": [
-          "CANDYDROP70"
-        ]
-      },
-      {
-        "name": "Email 4S",
-        "header_codes": [
-          "CASHPLUS4"
-        ],
-        "text_codes": [
-          "CASHPLUS4"
-        ],
-        "all_codes": [
-          "CASHPLUS4"
-        ]
-      },
-      {
-        "name": "Email 5C",
-        "header_codes": [
-          "POWER140"
-        ],
-        "text_codes": [
-          "POWER140"
-        ],
-        "all_codes": [
-          "POWER140"
-        ]
-      },
-      {
-        "name": "Email 5M",
-        "header_codes": [
-          "POWER140, EARNNRF15X"
-        ],
-        "text_codes": [
-          "EARNNRF15X",
-          "POWER140"
-        ],
-        "all_codes": [
-          "POWER140",
-          "POWER140, EARNNRF15X",
-          "EARNNRF15X"
-        ]
-      },
-      {
-        "name": "Email 5S",
-        "header_codes": [
-          "EARNNRF15X"
-        ],
-        "text_codes": [
-          "EARNNRF15X"
-        ],
-        "all_codes": [
-          "EARNNRF15X"
-        ]
-      },
-      {
-        "name": "Email 6C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 6M",
-        "header_codes": [
-          "POWER140, EARNNRF15X"
-        ],
-        "text_codes": [
-          "EARNNRF15X",
-          "POWER140"
-        ],
-        "all_codes": [
-          "POWER140",
-          "POWER140, EARNNRF15X",
-          "EARNNRF15X"
-        ]
-      },
-      {
-        "name": "Email 6S",
-        "header_codes": [
-          "EARNNRF15X"
-        ],
-        "text_codes": [
-          "EARNNRF15X"
-        ],
-        "all_codes": [
-          "EARNNRF15X"
-        ]
-      },
-      {
-        "name": "Email 7C",
-        "header_codes": [
-          "CHAOSCTRL80"
-        ],
-        "text_codes": [
-          "CHAOSCTRL80"
-        ],
-        "all_codes": [
-          "CHAOSCTRL80"
-        ]
-      },
-      {
-        "name": "Email 7M",
-        "header_codes": [
-          "CHAOSCTRL80, WIN20NRF"
-        ],
-        "text_codes": [
-          "WIN20NRF",
-          "CHAOSCTRL80"
-        ],
-        "all_codes": [
-          "CHAOSCTRL80, WIN20NRF",
-          "WIN20NRF",
-          "CHAOSCTRL80"
-        ]
-      },
-      {
-        "name": "Email 7S",
-        "header_codes": [
-          "WIN20NRF"
-        ],
-        "text_codes": [
-          "WIN20NRF"
-        ],
-        "all_codes": [
-          "WIN20NRF"
-        ]
-      },
-      {
-        "name": "Email 8C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 8M",
-        "header_codes": [
-          "CHAOSCTRL80, WIN20NRF"
-        ],
-        "text_codes": [
-          "WIN20NRF",
-          "CHAOSCTRL80"
-        ],
-        "all_codes": [
-          "CHAOSCTRL80, WIN20NRF",
-          "WIN20NRF",
-          "CHAOSCTRL80"
-        ]
-      },
-      {
-        "name": "Email 8S",
-        "header_codes": [
-          "WIN20NRF"
-        ],
-        "text_codes": [
-          "WIN20NRF"
-        ],
-        "all_codes": [
-          "WIN20NRF"
-        ]
-      },
-      {
-        "name": "Email 9C",
-        "header_codes": [
-          "MADNESS16090"
-        ],
-        "text_codes": [
-          "MADNESS16090"
-        ],
-        "all_codes": [
-          "MADNESS16090"
-        ]
-      },
-      {
-        "name": "Email 9M",
-        "header_codes": [
-          "MADNESS16090, SECURE25"
-        ],
-        "text_codes": [
-          "MADNESS16090",
-          "SECURE25"
-        ],
-        "all_codes": [
-          "MADNESS16090",
-          "SECURE25",
-          "MADNESS16090, SECURE25"
-        ]
-      },
-      {
-        "name": "Email 9S",
-        "header_codes": [
-          "SECURE25"
-        ],
-        "text_codes": [
-          "SECURE25"
-        ],
-        "all_codes": [
-          "SECURE25"
-        ]
-      },
-      {
-        "name": "Email 10C",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 10M",
-        "header_codes": [
-          "MADNESS16090, SECURE25"
-        ],
-        "text_codes": [
-          "MADNESS16090",
-          "SECURE25"
-        ],
-        "all_codes": [
-          "MADNESS16090",
-          "SECURE25",
-          "MADNESS16090, SECURE25"
-        ]
-      },
-      {
-        "name": "Email 10S",
-        "header_codes": [
-          "EARNNRF15X"
-        ],
-        "text_codes": [
-          "EARNNRF15X"
-        ],
-        "all_codes": [
-          "EARNNRF15X"
-        ]
-      }
-    ],
-    "N2": [
-      {
-        "name": "Email 1CL",
-        "header_codes": [
-          "UNDERDOG50"
-        ],
-        "text_codes": [
-          "UNDERDOG50"
-        ],
-        "all_codes": [
-          "UNDERDOG50"
-        ]
-      },
-      {
-        "name": "Email 1CS",
-        "header_codes": [
-          "UNDERDOG50"
-        ],
-        "text_codes": [
-          "UNDERDOG50"
-        ],
-        "all_codes": [
-          "UNDERDOG50"
-        ]
-      },
-      {
-        "name": "Email 1S",
-        "header_codes": [
-          "CLEARSHOT20"
-        ],
-        "text_codes": [
-          "CLEARSHOT20"
-        ],
-        "all_codes": [
-          "CLEARSHOT20"
-        ]
-      },
-      {
-        "name": "Email 2CL",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 2CS",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 2S",
-        "header_codes": [
-          "CLEARSHOT20"
-        ],
-        "text_codes": [
-          "CLEARSHOT20"
-        ],
-        "all_codes": [
-          "CLEARSHOT20"
-        ]
-      },
-      {
-        "name": "Email 3CL",
-        "header_codes": [
-          "MATCH100"
-        ],
-        "text_codes": [
-          "MATCH100"
-        ],
-        "all_codes": [
-          "MATCH100"
-        ]
-      },
-      {
-        "name": "Email 3CS",
-        "header_codes": [
-          "OCCULT200"
-        ],
-        "text_codes": [
-          "OCCULT200"
-        ],
-        "all_codes": [
-          "OCCULT200"
-        ]
-      },
-      {
-        "name": "Email 3S",
-        "header_codes": [
-          "CLEARSHOT20"
-        ],
-        "text_codes": [
-          "CLEARSHOT20"
-        ],
-        "all_codes": [
-          "CLEARSHOT20"
-        ]
-      },
-      {
-        "name": "Email 4CL",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 4CS",
-        "header_codes": [
-          "UNDERDOG50"
-        ],
-        "text_codes": [
-          "UNDERDOG50"
-        ],
-        "all_codes": [
-          "UNDERDOG50"
-        ]
-      },
-      {
-        "name": "Email 4S",
-        "header_codes": [
-          "CLEARSHOT20"
-        ],
-        "text_codes": [
-          "CLEARSHOT20"
-        ],
-        "all_codes": [
-          "CLEARSHOT20"
-        ]
-      },
-      {
-        "name": "Email 5CL",
-        "header_codes": [
-          "ROCKET200"
-        ],
-        "text_codes": [
-          "ROCKET200"
-        ],
-        "all_codes": [
-          "ROCKET200"
-        ]
-      },
-      {
-        "name": "Email 5CS",
-        "header_codes": [
-          "OCCULT200"
-        ],
-        "text_codes": [
-          "OCCULT200"
-        ],
-        "all_codes": [
-          "OCCULT200"
-        ]
-      },
-      {
-        "name": "Email 5S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 6CL",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 6CS",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 6S",
-        "header_codes": [
-          "CLEARSHOT20"
-        ],
-        "text_codes": [
-          "CLEARSHOT20"
-        ],
-        "all_codes": [
-          "CLEARSHOT20"
-        ]
-      },
-      {
-        "name": "Email 7CL",
-        "header_codes": [
-          "BLAST210"
-        ],
-        "text_codes": [
-          "BLAST210"
-        ],
-        "all_codes": [
-          "BLAST210"
-        ]
-      },
-      {
-        "name": "Email 7CS",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 7S",
-        "header_codes": [
-          "CLEARSHOT20"
-        ],
-        "text_codes": [
-          "CLEARSHOT20"
-        ],
-        "all_codes": [
-          "CLEARSHOT20"
-        ]
-      },
-      {
-        "name": "Email 8CL",
-        "header_codes": [
-          "BOOSTED220"
-        ],
-        "text_codes": [
-          "BOOSTED220"
-        ],
-        "all_codes": [
-          "BOOSTED220"
-        ]
-      },
-      {
-        "name": "Email 8CS",
-        "header_codes": [
-          "PHARAOH100"
-        ],
-        "text_codes": [
-          "PHARAOH100"
-        ],
-        "all_codes": [
-          "PHARAOH100"
-        ]
-      },
-      {
-        "name": "Email 8S",
-        "header_codes": [
-          "CLEARSHOT20"
-        ],
-        "text_codes": [
-          "CLEARSHOT20"
-        ],
-        "all_codes": [
-          "CLEARSHOT20"
-        ]
-      }
-    ],
-    "N3": [
-      {
-        "name": "Email 1CL",
-        "header_codes": [
-          "VAULT150"
-        ],
-        "text_codes": [
-          "VAULT150"
-        ],
-        "all_codes": [
-          "VAULT150"
-        ]
-      },
-      {
-        "name": "Email 1CS",
-        "header_codes": [
-          "OCCULT200"
-        ],
-        "text_codes": [
-          "OCCULT200"
-        ],
-        "all_codes": [
-          "OCCULT200"
-        ]
-      },
-      {
-        "name": "Email 1S",
-        "header_codes": [
-          "STEADY20"
-        ],
-        "text_codes": [
-          "STEADY20"
-        ],
-        "all_codes": [
-          "STEADY20"
-        ]
-      },
-      {
-        "name": "Email 2CL",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 2CS",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 2S",
-        "header_codes": [
-          "STEADY20"
-        ],
-        "text_codes": [
-          "STEADY20"
-        ],
-        "all_codes": [
-          "STEADY20"
-        ]
-      },
-      {
-        "name": "Email 3CL",
-        "header_codes": [
-          "OCCULT200"
-        ],
-        "text_codes": [
-          "OCCULT200"
-        ],
-        "all_codes": [
-          "OCCULT200"
-        ]
-      },
-      {
-        "name": "Email 3CS",
-        "header_codes": [
-          "OCCULT200"
-        ],
-        "text_codes": [
-          "OCCULT200"
-        ],
-        "all_codes": [
-          "OCCULT200"
-        ]
-      },
-      {
-        "name": "Email 3S",
-        "header_codes": [
-          "STEADY20"
-        ],
-        "text_codes": [
-          "STEADY20"
-        ],
-        "all_codes": [
-          "STEADY20"
-        ]
-      },
-      {
-        "name": "Email 4CL",
-        "header_codes": [
-          "RISEUP170"
-        ],
-        "text_codes": [
-          "RISEUP170"
-        ],
-        "all_codes": [
-          "RISEUP170"
-        ]
-      },
-      {
-        "name": "Email 4CS",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 4S",
-        "header_codes": [
-          "STEADY20"
-        ],
-        "text_codes": [
-          "STEADY20"
-        ],
-        "all_codes": [
-          "STEADY20"
-        ]
-      },
-      {
-        "name": "Email 5CL",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 5CS",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 5S",
-        "header_codes": [],
-        "text_codes": [],
-        "all_codes": []
-      },
-      {
-        "name": "Email 6CL",
-        "header_codes": [
-          "RISEUP170"
-        ],
-        "text_codes": [
-          "RISEUP170"
-        ],
-        "all_codes": [
-          "RISEUP170"
-        ]
-      },
-      {
-        "name": "Email 6CS",
-        "header_codes": [
-          "OCCULT200"
-        ],
-        "text_codes": [
-          "OCCULT200"
-        ],
-        "all_codes": [
-          "OCCULT200"
-        ]
-      },
-      {
-        "name": "Email 6S",
-        "header_codes": [
-          "STEADY20"
-        ],
-        "text_codes": [
-          "STEADY20"
-        ],
-        "all_codes": [
-          "STEADY20"
-        ]
-      },
-      {
-        "name": "Email 7CL",
-        "header_codes": [
-          "COWBOY170"
-        ],
-        "text_codes": [
-          "COWBOY170"
-        ],
-        "all_codes": [
-          "COWBOY170"
-        ]
-      },
-      {
-        "name": "Email 7CS",
-        "header_codes": [
-          "COWBOY170"
-        ],
-        "text_codes": [
-          "COWBOY170"
-        ],
-        "all_codes": [
-          "COWBOY170"
-        ]
-      },
-      {
-        "name": "Email 7S",
-        "header_codes": [
-          "STEADY20"
-        ],
-        "text_codes": [
-          "STEADY20"
-        ],
-        "all_codes": [
-          "STEADY20"
-        ]
-      },
-      {
-        "name": "Email 8CL",
-        "header_codes": [
-          "RISEUP170"
-        ],
-        "text_codes": [
-          "RISEUP170"
-        ],
-        "all_codes": [
-          "RISEUP170"
-        ]
-      },
-      {
-        "name": "Email 8CS",
-        "header_codes": [
-          "OCCULT200"
-        ],
-        "text_codes": [
-          "OCCULT200"
-        ],
-        "all_codes": [
-          "OCCULT200"
-        ]
-      },
-      {
-        "name": "Email 8S",
-        "header_codes": [
-          "STEADY20"
-        ],
-        "text_codes": [
-          "STEADY20"
-        ],
-        "all_codes": [
-          "STEADY20"
-        ]
-      }
-    ]
-  }
+  "unused_codes": [
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "WF",
+      "code": "LEVELUP55",
+      "detail": "'LEVELUP55' in WF table but not in any WF email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "WF",
+      "code": "RELOAD60",
+      "detail": "'RELOAD60' in WF table but not in any WF email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "WF",
+      "code": "GUARANTEE25",
+      "detail": "'GUARANTEE25' in WF table but not in any WF email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "RAZOR70110",
+      "detail": "'RAZOR70110' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "FIRE60120",
+      "detail": "'FIRE60120' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "WILD13040",
+      "detail": "'WILD13040' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "LODEAD130",
+      "detail": "'LODEAD130' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "LEBAND65130",
+      "detail": "'LEBAND65130' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "DINO13070",
+      "detail": "'DINO13070' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "GEMS13565",
+      "detail": "'GEMS13565' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "CHAOS140",
+      "detail": "'CHAOS140' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "STACK90140",
+      "detail": "'STACK90140' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "30GOLD145",
+      "detail": "'30GOLD145' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "BAMBOO145",
+      "detail": "'BAMBOO145' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "RUSH90145",
+      "detail": "'RUSH90145' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "OLYMPUS150",
+      "detail": "'OLYMPUS150' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "STONE155",
+      "detail": "'STONE155' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "BEAST160",
+      "detail": "'BEAST160' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "POWER150",
+      "detail": "'POWER150' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "RISE155",
+      "detail": "'RISE155' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "CLIMB160",
+      "detail": "'CLIMB160' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "BOOST165",
+      "detail": "'BOOST165' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "BASSSPLASH100",
+      "detail": "'BASSSPLASH100' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "PLINKOPINE110",
+      "detail": "'PLINKOPINE110' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "MUSMYSTERY120",
+      "detail": "'MUSMYSTERY120' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "FTD",
+      "code": "STARLIGHT125",
+      "detail": "'STARLIGHT125' in FTD table but not in any FTD email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "SU",
+      "code": "KENNEL100",
+      "detail": "'KENNEL100' in SU table but not in any SU email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "SU",
+      "code": "XBOMB150",
+      "detail": "'XBOMB150' in SU table but not in any SU email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "SU",
+      "code": "UNDERWORLD200",
+      "detail": "'UNDERWORLD200' in SU table but not in any SU email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "MEGAPAW65",
+      "detail": "'MEGAPAW65' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "MAYHEM80",
+      "detail": "'MAYHEM80' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "CANDYBLAST90",
+      "detail": "'CANDYBLAST90' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "DORKSQUAD55",
+      "detail": "'DORKSQUAD55' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "DEEPSEA60",
+      "detail": "'DEEPSEA60' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "MINER80",
+      "detail": "'MINER80' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "BULLET90",
+      "detail": "'BULLET90' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "HEIST110",
+      "detail": "'HEIST110' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "DINOREX120",
+      "detail": "'DINOREX120' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "CRYSTAL130",
+      "detail": "'CRYSTAL130' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "RISKLESS10",
+      "detail": "'RISKLESS10' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "WINZONE15",
+      "detail": "'WINZONE15' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "WINLOCK25",
+      "detail": "'WINLOCK25' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "JUMPHIGH120",
+      "detail": "'JUMPHIGH120' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "RISEABOVE125",
+      "detail": "'RISEABOVE125' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "EDGE130",
+      "detail": "'EDGE130' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "MAXED140",
+      "detail": "'MAXED140' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "STORM225",
+      "detail": "'STORM225' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "FLASH230",
+      "detail": "'FLASH230' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N2",
+      "code": "FULLPOWER250",
+      "detail": "'FULLPOWER250' in N2 table but not in any N2 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "BLITZ160",
+      "detail": "'BLITZ160' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "RAMP180",
+      "detail": "'RAMP180' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "SAFEPLAY10",
+      "detail": "'SAFEPLAY10' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "BACKBET15",
+      "detail": "'BACKBET15' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "NORETURN25",
+      "detail": "'NORETURN25' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "BONBLAST80",
+      "detail": "'BONBLAST80' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "JUICYPARTY100",
+      "detail": "'JUICYPARTY100' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "STACKED150",
+      "detail": "'STACKED150' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "TOMB175",
+      "detail": "'TOMB175' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "KICKBACK2",
+      "detail": "'KICKBACK2' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "ROLLBACK3",
+      "detail": "'ROLLBACK3' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "GRAB4CB",
+      "detail": "'GRAB4CB' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "PAWSPIN80",
+      "detail": "'PAWSPIN80' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "ZEUS90",
+      "detail": "'ZEUS90' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "MUMMY100",
+      "detail": "'MUMMY100' in N3 table but not in any N3 email"
+    },
+    {
+      "type": "UNUSED_CODE",
+      "severity": "info",
+      "campaign": "N3",
+      "code": "SHARKBITE110",
+      "detail": "'SHARKBITE110' in N3 table but not in any N3 email"
+    }
+  ],
+  "email_audit": [
+    {
+      "campaign": "WF",
+      "email": "Email 1C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "100%",
+        "100%",
+        "200%",
+        "150%",
+        "150 FS",
+        "50 FS",
+        "50 FS",
+        "250 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 1M",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 1S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "50%",
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 2C",
+      "header_codes": [
+        "BANDIT150"
+      ],
+      "text_codes": [
+        "BANDIT150"
+      ],
+      "all_codes": [
+        "BANDIT150"
+      ],
+      "game_in_text": [
+        "Le bandit by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "150 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 2M",
+      "header_codes": [
+        "SAFE10"
+      ],
+      "text_codes": [
+        "SAFE10"
+      ],
+      "all_codes": [
+        "SAFE10"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "10%",
+        "10% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 2S",
+      "header_codes": [
+        "BOOST50"
+      ],
+      "text_codes": [
+        "BOOST50"
+      ],
+      "all_codes": [
+        "BOOST50"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "50%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 3C",
+      "header_codes": [
+        "CREW150"
+      ],
+      "text_codes": [
+        "CREW150"
+      ],
+      "all_codes": [
+        "CREW150"
+      ],
+      "game_in_text": [
+        "Chaos Crew II by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "150 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 3M",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 3S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "50%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 4C",
+      "header_codes": [
+        "STORM170"
+      ],
+      "text_codes": [
+        "STORM170"
+      ],
+      "all_codes": [
+        "STORM170"
+      ],
+      "game_in_text": [
+        "Stormforged by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "120%",
+        "170 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 4M",
+      "header_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "text_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "all_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "game_in_text": [
+        "Legacy of Dead by Play'n Go"
+      ],
+      "bonus_in_text": [
+        "20%",
+        "100 FS",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 4S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "50%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 5C",
+      "header_codes": [
+        "RIP100CITY"
+      ],
+      "text_codes": [
+        "RIP100CITY"
+      ],
+      "all_codes": [
+        "RIP100CITY"
+      ],
+      "game_in_text": [
+        "Rip City by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "150 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 5M",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 5S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "50%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 6C",
+      "header_codes": [
+        "BANDIT150"
+      ],
+      "text_codes": [
+        "BANDIT150"
+      ],
+      "all_codes": [
+        "BANDIT150"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "100%",
+        "150 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 6M",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 6S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "50%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 7C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 7M",
+      "header_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "text_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "all_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "game_in_text": [
+        "Legacy of Dead by Play'n Go"
+      ],
+      "bonus_in_text": [
+        "20%",
+        "100 FS",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 7S",
+      "header_codes": [
+        "FIREUP60"
+      ],
+      "text_codes": [
+        "FIREUP60"
+      ],
+      "all_codes": [
+        "FIREUP60"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "60%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 8C",
+      "header_codes": [
+        "CREW150"
+      ],
+      "text_codes": [
+        "CREW150"
+      ],
+      "all_codes": [
+        "CREW150"
+      ],
+      "game_in_text": [
+        "Chaos Crew II by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "150 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 8M",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 8S",
+      "header_codes": [
+        "FIREUP60"
+      ],
+      "text_codes": [
+        "FIREUP60"
+      ],
+      "all_codes": [
+        "FIREUP60"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "60%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 9C",
+      "header_codes": [
+        "SWEET180"
+      ],
+      "text_codes": [
+        "SWEET180"
+      ],
+      "all_codes": [
+        "SWEET180"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "180 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 9M",
+      "header_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "text_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "all_codes": [
+        "LEGACY100",
+        "BETSAFE20"
+      ],
+      "game_in_text": [
+        "Legacy of Dead by Play'n Go"
+      ],
+      "bonus_in_text": [
+        "20%",
+        "100 FS",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "WF",
+      "email": "Email 9S",
+      "header_codes": [
+        "FIREUP60"
+      ],
+      "text_codes": [
+        "FIREUP60"
+      ],
+      "all_codes": [
+        "FIREUP60"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "60%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 1M",
+      "header_codes": [
+        "ANUBIS10050",
+        "WINBACKNRF20"
+      ],
+      "text_codes": [
+        "ANUBIS10050",
+        "WINBACKNRF20"
+      ],
+      "all_codes": [
+        "ANUBIS10050",
+        "WINBACKNRF20"
+      ],
+      "game_in_text": [
+        "Hand of Anubis by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "20%",
+        "50 FS",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 1S",
+      "header_codes": [
+        "WINBACKNRF20"
+      ],
+      "text_codes": [
+        "WINBACKNRF20"
+      ],
+      "all_codes": [
+        "WINBACKNRF20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 2C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 2M",
+      "header_codes": [
+        "WINBACKNRF20",
+        "DOG10060"
+      ],
+      "text_codes": [
+        "DOG10060",
+        "WINBACKNRF20"
+      ],
+      "all_codes": [
+        "WINBACKNRF20",
+        "DOG10060"
+      ],
+      "game_in_text": [
+        "The Dog House Megaways by Pragmatic Play"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "20%",
+        "60 FS",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 2S",
+      "header_codes": [
+        "WINBACKNRF20"
+      ],
+      "text_codes": [
+        "WINBACKNRF20"
+      ],
+      "all_codes": [
+        "WINBACKNRF20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 3C",
+      "header_codes": [
+        "PARTY140"
+      ],
+      "text_codes": [
+        "PARTY140"
+      ],
+      "all_codes": [
+        "PARTY140"
+      ],
+      "game_in_text": [
+        "Fruit Party by Pragmatic Play",
+        "by Pragmatic Play"
+      ],
+      "bonus_in_text": [
+        "140%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 3M",
+      "header_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "text_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "all_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "2%",
+        "3%",
+        "4%",
+        "20%",
+        "25%",
+        "30%",
+        "30% NRF",
+        "4% CB"
+      ],
+      "issues": [
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "FTD",
+          "email": "Email 3M",
+          "code": "WINBACKNRF20",
+          "detail": "Table: '20% NRF' — 20% NRF not in text"
+        },
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "FTD",
+          "email": "Email 3M",
+          "code": "SAFETYNRF25",
+          "detail": "Table: '25% NRF' — 25% NRF not in text"
+        }
+      ]
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 3S",
+      "header_codes": [
+        "WINBACKNRF20"
+      ],
+      "text_codes": [
+        "WINBACKNRF20"
+      ],
+      "all_codes": [
+        "WINBACKNRF20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 4C",
+      "header_codes": [
+        "DORK50110"
+      ],
+      "text_codes": [
+        "DORK50110"
+      ],
+      "all_codes": [
+        "DORK50110"
+      ],
+      "game_in_text": [
+        "Dork Unit by Hacksaw Gaming",
+        "by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "110%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 4M",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 4S",
+      "header_codes": [
+        "SAFETYNRF25"
+      ],
+      "text_codes": [
+        "SAFETYNRF25"
+      ],
+      "all_codes": [
+        "SAFETYNRF25"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "25%",
+        "25%",
+        "25% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 5C",
+      "header_codes": [
+        "BONANZA10080"
+      ],
+      "text_codes": [
+        "BONANZA10080"
+      ],
+      "all_codes": [
+        "BONANZA10080"
+      ],
+      "game_in_text": [
+        "by Pragmatic Play"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "80 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 5M",
+      "header_codes": [
+        "WINBACKNRF20",
+        "CHAOS10070"
+      ],
+      "text_codes": [
+        "CHAOS10070",
+        "WINBACKNRF20"
+      ],
+      "all_codes": [
+        "WINBACKNRF20",
+        "CHAOS10070"
+      ],
+      "game_in_text": [
+        "Chaos Crew II by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "20%",
+        "70 FS",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 5S",
+      "header_codes": [
+        "ONLYWIN30"
+      ],
+      "text_codes": [
+        "ONLYWIN30"
+      ],
+      "all_codes": [
+        "ONLYWIN30"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "30%",
+        "30%",
+        "30% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 6C",
+      "header_codes": [
+        "RICH100150"
+      ],
+      "text_codes": [
+        "RICH100150"
+      ],
+      "all_codes": [
+        "RICH100150"
+      ],
+      "game_in_text": [
+        "Rich Wilde and the Tome of Madness by Play’n Go",
+        "by Play’n Go"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "150 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 6M",
+      "header_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "text_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "all_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "2%",
+        "3%",
+        "4%",
+        "20%",
+        "25%",
+        "30%",
+        "30% NRF",
+        "4% CB"
+      ],
+      "issues": [
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "FTD",
+          "email": "Email 6M",
+          "code": "WINBACKNRF20",
+          "detail": "Table: '20% NRF' — 20% NRF not in text"
+        },
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "FTD",
+          "email": "Email 6M",
+          "code": "SAFETYNRF25",
+          "detail": "Table: '25% NRF' — 25% NRF not in text"
+        }
+      ]
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 6S",
+      "header_codes": [
+        "WINBACKNRF20"
+      ],
+      "text_codes": [
+        "WINBACKNRF20"
+      ],
+      "all_codes": [
+        "WINBACKNRF20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 7C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 7M",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 7S",
+      "header_codes": [
+        "WINBACKNRF20"
+      ],
+      "text_codes": [
+        "WINBACKNRF20"
+      ],
+      "all_codes": [
+        "WINBACKNRF20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 8C",
+      "header_codes": [
+        "FORGED150"
+      ],
+      "text_codes": [
+        "FORGED150"
+      ],
+      "all_codes": [
+        "FORGED150"
+      ],
+      "game_in_text": [
+        "Stormforged by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "150%",
+        "30 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 8M",
+      "header_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "text_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "all_codes": [
+        "SAFE2CB2",
+        "RETURN3CB3",
+        "BOOST4CB4",
+        "WINBACKNRF20",
+        "SAFETYNRF25",
+        "COVERNRF30"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "2%",
+        "3%",
+        "4%",
+        "20%",
+        "25%",
+        "30%",
+        "30% NRF",
+        "4% CB"
+      ],
+      "issues": [
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "FTD",
+          "email": "Email 8M",
+          "code": "WINBACKNRF20",
+          "detail": "Table: '20% NRF' — 20% NRF not in text"
+        },
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "FTD",
+          "email": "Email 8M",
+          "code": "SAFETYNRF25",
+          "detail": "Table: '25% NRF' — 25% NRF not in text"
+        }
+      ]
+    },
+    {
+      "campaign": "FTD",
+      "email": "Email 8S",
+      "header_codes": [
+        "ONLYWIN30"
+      ],
+      "text_codes": [
+        "ONLYWIN30"
+      ],
+      "all_codes": [
+        "ONLYWIN30"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "30%",
+        "30%",
+        "30% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 1C",
+      "header_codes": [
+        "SURGE170"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "SURGE170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 2C",
+      "header_codes": [
+        "CREWBOOST150"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "CREWBOOST150"
+      ],
+      "game_in_text": [
+        "Chaos Crew II by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "150%",
+        "70 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 4C",
+      "header_codes": [
+        "GUNSLINGER160"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "GUNSLINGER160"
+      ],
+      "game_in_text": [
+        "Wild West Gold by Pragmatic Play"
+      ],
+      "bonus_in_text": [
+        "160%",
+        "80 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 5C",
+      "header_codes": [
+        "BOOSTER170"
+      ],
+      "text_codes": [
+        "BOOSTER170"
+      ],
+      "all_codes": [
+        "BOOSTER170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 7C",
+      "header_codes": [
+        "GUNSLINGER160"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "GUNSLINGER160"
+      ],
+      "game_in_text": [
+        "Wild West Gold by Pragmatic Play"
+      ],
+      "bonus_in_text": [
+        "160%",
+        "80 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 8C",
+      "header_codes": [
+        "OUTLAW180"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "OUTLAW180"
+      ],
+      "game_in_text": [
+        "Wanted Dead or a Wild by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "180%",
+        "80 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 9C",
+      "header_codes": [
+        "GIANTPANDA100"
+      ],
+      "text_codes": [
+        "GIANTPANDA100"
+      ],
+      "all_codes": [
+        "GIANTPANDA100"
+      ],
+      "game_in_text": [
+        "Big Bamboo by Push Gaming"
+      ],
+      "bonus_in_text": [
+        "140%",
+        "100 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 10C",
+      "header_codes": [
+        "GEMHUNT200"
+      ],
+      "text_codes": [
+        "GEMHUNT200"
+      ],
+      "all_codes": [
+        "GEMHUNT200"
+      ],
+      "game_in_text": [
+        "Gems Bonanza by Pragmatic Play"
+      ],
+      "bonus_in_text": [
+        "200 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 1S",
+      "header_codes": [
+        "WINSAFE20"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "WINSAFE20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 2S",
+      "header_codes": [
+        "WINSAFE20"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "WINSAFE20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": [
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "DEP",
+          "email": "Email 2S",
+          "code": "WINSAFE20",
+          "detail": "Table: '20% NRF' — 20% NRF not in text"
+        }
+      ]
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 4S",
+      "header_codes": [
+        "SURGE170"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "SURGE170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 5S",
+      "header_codes": [
+        "WINSAFE20"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "WINSAFE20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": [
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "DEP",
+          "email": "Email 5S",
+          "code": "WINSAFE20",
+          "detail": "Table: '20% NRF' — 20% NRF not in text"
+        }
+      ]
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 6S",
+      "header_codes": [
+        "BOOSTER170"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "BOOSTER170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 7S",
+      "header_codes": [
+        "WINSAFE20"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "WINSAFE20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": [
+        {
+          "type": "BONUS_NRF_MISMATCH",
+          "severity": "warning",
+          "campaign": "DEP",
+          "email": "Email 7S",
+          "code": "WINSAFE20",
+          "detail": "Table: '20% NRF' — 20% NRF not in text"
+        }
+      ]
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 9S",
+      "header_codes": [
+        "ONLYSAFE30"
+      ],
+      "text_codes": [
+        "ONLYSAFE30"
+      ],
+      "all_codes": [
+        "ONLYSAFE30"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "30%",
+        "30% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 10S",
+      "header_codes": [
+        "ONLYSAFE30"
+      ],
+      "text_codes": [],
+      "all_codes": [
+        "ONLYSAFE30"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "30%",
+        "30% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 3C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 6C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 3S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "DEP",
+      "email": "Email 8S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 1C",
+      "header_codes": [
+        "FINTASTIC150"
+      ],
+      "text_codes": [
+        "FINTASTIC150"
+      ],
+      "all_codes": [
+        "FINTASTIC150"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "100%",
+        "150 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 1M",
+      "header_codes": [
+        "FINTASTIC150",
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "FINTASTIC150",
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "FINTASTIC150",
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "100%",
+        "15%",
+        "150 FS",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 1S",
+      "header_codes": [
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "15%",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 2C",
+      "header_codes": [
+        "FINTASTIC150"
+      ],
+      "text_codes": [
+        "FINTASTIC150"
+      ],
+      "all_codes": [
+        "FINTASTIC150"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "100%",
+        "150 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 2M",
+      "header_codes": [
+        "CASHPLUS4"
+      ],
+      "text_codes": [
+        "CASHPLUS4"
+      ],
+      "all_codes": [
+        "CASHPLUS4"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "100%",
+        "4%",
+        "150 FS",
+        "4% CB"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 2S",
+      "header_codes": [
+        "CASHPLUS4"
+      ],
+      "text_codes": [
+        "CASHPLUS4"
+      ],
+      "all_codes": [
+        "CASHPLUS4"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "4%",
+        "4% CB"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 3C",
+      "header_codes": [
+        "POWER140"
+      ],
+      "text_codes": [
+        "POWER140"
+      ],
+      "all_codes": [
+        "POWER140"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "140%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 3M",
+      "header_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "140%",
+        "15%",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 3S",
+      "header_codes": [
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "15%",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 4C",
+      "header_codes": [
+        "CANDYDROP70"
+      ],
+      "text_codes": [
+        "CANDYDROP70"
+      ],
+      "all_codes": [
+        "CANDYDROP70"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "130%",
+        "70 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 4M",
+      "header_codes": [
+        "CANDYDROP70"
+      ],
+      "text_codes": [
+        "CANDYDROP70"
+      ],
+      "all_codes": [
+        "CANDYDROP70"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "130%",
+        "70 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 4S",
+      "header_codes": [
+        "CASHPLUS4"
+      ],
+      "text_codes": [
+        "CASHPLUS4"
+      ],
+      "all_codes": [
+        "CASHPLUS4"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "4%",
+        "4% CB"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 5C",
+      "header_codes": [
+        "POWER140"
+      ],
+      "text_codes": [
+        "POWER140"
+      ],
+      "all_codes": [
+        "POWER140"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "140%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 5M",
+      "header_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "140%",
+        "15%",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 5S",
+      "header_codes": [
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "15%",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 6C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 6M",
+      "header_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "POWER140",
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "140%",
+        "15%",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 6S",
+      "header_codes": [
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "15%",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 7C",
+      "header_codes": [
+        "CHAOSCTRL80"
+      ],
+      "text_codes": [
+        "CHAOSCTRL80"
+      ],
+      "all_codes": [
+        "CHAOSCTRL80"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "140%",
+        "80 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 7M",
+      "header_codes": [
+        "CHAOSCTRL80",
+        "WIN20NRF"
+      ],
+      "text_codes": [
+        "CHAOSCTRL80",
+        "WIN20NRF"
+      ],
+      "all_codes": [
+        "CHAOSCTRL80",
+        "WIN20NRF"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "140%",
+        "20%",
+        "80 FS",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 7S",
+      "header_codes": [
+        "WIN20NRF"
+      ],
+      "text_codes": [
+        "WIN20NRF"
+      ],
+      "all_codes": [
+        "WIN20NRF"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 8C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 8M",
+      "header_codes": [
+        "CHAOSCTRL80",
+        "WIN20NRF"
+      ],
+      "text_codes": [
+        "CHAOSCTRL80",
+        "WIN20NRF"
+      ],
+      "all_codes": [
+        "CHAOSCTRL80",
+        "WIN20NRF"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "140%",
+        "20%",
+        "80 FS",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 8S",
+      "header_codes": [
+        "WIN20NRF"
+      ],
+      "text_codes": [
+        "WIN20NRF"
+      ],
+      "all_codes": [
+        "WIN20NRF"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 9C",
+      "header_codes": [
+        "MADNESS16090"
+      ],
+      "text_codes": [
+        "MADNESS16090"
+      ],
+      "all_codes": [
+        "MADNESS16090"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "160%",
+        "90 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 9M",
+      "header_codes": [
+        "MADNESS16090",
+        "SECURE25"
+      ],
+      "text_codes": [
+        "MADNESS16090",
+        "SECURE25"
+      ],
+      "all_codes": [
+        "MADNESS16090",
+        "SECURE25"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "160%",
+        "25%",
+        "90 FS",
+        "25% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 9S",
+      "header_codes": [
+        "SECURE25"
+      ],
+      "text_codes": [
+        "SECURE25"
+      ],
+      "all_codes": [
+        "SECURE25"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "25%",
+        "25% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 10C",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 10M",
+      "header_codes": [
+        "MADNESS16090",
+        "SECURE25"
+      ],
+      "text_codes": [
+        "MADNESS16090",
+        "SECURE25"
+      ],
+      "all_codes": [
+        "MADNESS16090",
+        "SECURE25"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "160%",
+        "25%",
+        "90 FS",
+        "25% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "SU",
+      "email": "Email 10S",
+      "header_codes": [
+        "EARNNRF15X"
+      ],
+      "text_codes": [
+        "EARNNRF15X"
+      ],
+      "all_codes": [
+        "EARNNRF15X"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "15%",
+        "15% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 1CL",
+      "header_codes": [
+        "UNDERDOG50"
+      ],
+      "text_codes": [
+        "UNDERDOG50"
+      ],
+      "all_codes": [
+        "UNDERDOG50"
+      ],
+      "game_in_text": [
+        "Hand of Anubis by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 1CS",
+      "header_codes": [
+        "UNDERDOG50"
+      ],
+      "text_codes": [
+        "UNDERDOG50"
+      ],
+      "all_codes": [
+        "UNDERDOG50"
+      ],
+      "game_in_text": [
+        "50 Free Spins on Hand of Anubis by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 1S",
+      "header_codes": [
+        "CLEARSHOT20"
+      ],
+      "text_codes": [
+        "CLEARSHOT20"
+      ],
+      "all_codes": [
+        "CLEARSHOT20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 2CL",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 2CS",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 2S",
+      "header_codes": [
+        "CLEARSHOT20"
+      ],
+      "text_codes": [
+        "CLEARSHOT20"
+      ],
+      "all_codes": [
+        "CLEARSHOT20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 3CL",
+      "header_codes": [
+        "MATCH100"
+      ],
+      "text_codes": [
+        "MATCH100"
+      ],
+      "all_codes": [
+        "MATCH100"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "100%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 3CS",
+      "header_codes": [
+        "OCCULT200"
+      ],
+      "text_codes": [
+        "OCCULT200"
+      ],
+      "all_codes": [
+        "OCCULT200"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "200%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 3S",
+      "header_codes": [
+        "CLEARSHOT20"
+      ],
+      "text_codes": [
+        "CLEARSHOT20"
+      ],
+      "all_codes": [
+        "CLEARSHOT20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 4CL",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 4CS",
+      "header_codes": [
+        "UNDERDOG50"
+      ],
+      "text_codes": [
+        "UNDERDOG50"
+      ],
+      "all_codes": [
+        "UNDERDOG50"
+      ],
+      "game_in_text": [
+        "100% bonus plus 50 Free Spins on Hand of Anubis by Hacksaw Gaming"
+      ],
+      "bonus_in_text": [
+        "100%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 4S",
+      "header_codes": [
+        "CLEARSHOT20"
+      ],
+      "text_codes": [
+        "CLEARSHOT20"
+      ],
+      "all_codes": [
+        "CLEARSHOT20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 5CL",
+      "header_codes": [
+        "ROCKET200"
+      ],
+      "text_codes": [
+        "ROCKET200"
+      ],
+      "all_codes": [
+        "ROCKET200"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "200%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 5CS",
+      "header_codes": [
+        "OCCULT200"
+      ],
+      "text_codes": [
+        "OCCULT200"
+      ],
+      "all_codes": [
+        "OCCULT200"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "200%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 5S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 6CL",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 6CS",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 6S",
+      "header_codes": [
+        "CLEARSHOT20"
+      ],
+      "text_codes": [
+        "CLEARSHOT20"
+      ],
+      "all_codes": [
+        "CLEARSHOT20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 7CL",
+      "header_codes": [
+        "BLAST210"
+      ],
+      "text_codes": [
+        "BLAST210"
+      ],
+      "all_codes": [
+        "BLAST210"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "210%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 7CS",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 7S",
+      "header_codes": [
+        "CLEARSHOT20"
+      ],
+      "text_codes": [
+        "CLEARSHOT20"
+      ],
+      "all_codes": [
+        "CLEARSHOT20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 8CL",
+      "header_codes": [
+        "BOOSTED220"
+      ],
+      "text_codes": [
+        "BOOSTED220"
+      ],
+      "all_codes": [
+        "BOOSTED220"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "220%",
+        "220%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 8CS",
+      "header_codes": [
+        "PHARAOH100"
+      ],
+      "text_codes": [
+        "PHARAOH100"
+      ],
+      "all_codes": [
+        "PHARAOH100"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "100 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N2",
+      "email": "Email 8S",
+      "header_codes": [
+        "CLEARSHOT20"
+      ],
+      "text_codes": [
+        "CLEARSHOT20"
+      ],
+      "all_codes": [
+        "CLEARSHOT20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 1CL",
+      "header_codes": [
+        "VAULT150"
+      ],
+      "text_codes": [
+        "VAULT150"
+      ],
+      "all_codes": [
+        "VAULT150"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "150%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 1CS",
+      "header_codes": [
+        "OCCULT200"
+      ],
+      "text_codes": [
+        "OCCULT200"
+      ],
+      "all_codes": [
+        "OCCULT200"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "200%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 1S",
+      "header_codes": [
+        "STEADY20"
+      ],
+      "text_codes": [
+        "STEADY20"
+      ],
+      "all_codes": [
+        "STEADY20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 2CL",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 2CS",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 2S",
+      "header_codes": [
+        "STEADY20"
+      ],
+      "text_codes": [
+        "STEADY20"
+      ],
+      "all_codes": [
+        "STEADY20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 3CL",
+      "header_codes": [
+        "OCCULT200"
+      ],
+      "text_codes": [
+        "OCCULT200"
+      ],
+      "all_codes": [
+        "OCCULT200"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "200%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 3CS",
+      "header_codes": [
+        "OCCULT200"
+      ],
+      "text_codes": [
+        "OCCULT200"
+      ],
+      "all_codes": [
+        "OCCULT200"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "200%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 3S",
+      "header_codes": [
+        "STEADY20"
+      ],
+      "text_codes": [
+        "STEADY20"
+      ],
+      "all_codes": [
+        "STEADY20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 4CL",
+      "header_codes": [
+        "RISEUP170"
+      ],
+      "text_codes": [
+        "RISEUP170"
+      ],
+      "all_codes": [
+        "RISEUP170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 4CS",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 4S",
+      "header_codes": [
+        "STEADY20"
+      ],
+      "text_codes": [
+        "STEADY20"
+      ],
+      "all_codes": [
+        "STEADY20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 5CL",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 5CS",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 5S",
+      "header_codes": [],
+      "text_codes": [],
+      "all_codes": [],
+      "game_in_text": [],
+      "bonus_in_text": [],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 6CL",
+      "header_codes": [
+        "RISEUP170"
+      ],
+      "text_codes": [
+        "RISEUP170"
+      ],
+      "all_codes": [
+        "RISEUP170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 6CS",
+      "header_codes": [
+        "OCCULT200"
+      ],
+      "text_codes": [
+        "OCCULT200"
+      ],
+      "all_codes": [
+        "OCCULT200"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "200%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 6S",
+      "header_codes": [
+        "STEADY20"
+      ],
+      "text_codes": [
+        "STEADY20"
+      ],
+      "all_codes": [
+        "STEADY20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 7CL",
+      "header_codes": [
+        "COWBOY170"
+      ],
+      "text_codes": [
+        "COWBOY170"
+      ],
+      "all_codes": [
+        "COWBOY170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%",
+        "30 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 7CS",
+      "header_codes": [
+        "COWBOY170"
+      ],
+      "text_codes": [
+        "COWBOY170"
+      ],
+      "all_codes": [
+        "COWBOY170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%",
+        "30 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 7S",
+      "header_codes": [
+        "STEADY20"
+      ],
+      "text_codes": [
+        "STEADY20"
+      ],
+      "all_codes": [
+        "STEADY20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 8CL",
+      "header_codes": [
+        "RISEUP170"
+      ],
+      "text_codes": [
+        "RISEUP170"
+      ],
+      "all_codes": [
+        "RISEUP170"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "170%"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 8CS",
+      "header_codes": [
+        "OCCULT200"
+      ],
+      "text_codes": [
+        "OCCULT200"
+      ],
+      "all_codes": [
+        "OCCULT200"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "200%",
+        "50 FS"
+      ],
+      "issues": []
+    },
+    {
+      "campaign": "N3",
+      "email": "Email 8S",
+      "header_codes": [
+        "STEADY20"
+      ],
+      "text_codes": [
+        "STEADY20"
+      ],
+      "all_codes": [
+        "STEADY20"
+      ],
+      "game_in_text": [],
+      "bonus_in_text": [
+        "20%",
+        "20% NRF"
+      ],
+      "issues": []
+    }
+  ]
 }
