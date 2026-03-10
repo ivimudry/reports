@@ -1,4 +1,4 @@
-﻿name: Email 1C
+name: Email 1C
 locale: Default
 subject: 💥 170% Bonus: Power Up Your Play Today
 preheader: Look what's inside to help you win at the tables
