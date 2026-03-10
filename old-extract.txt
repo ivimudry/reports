@@ -1,0 +1,171 @@
+﻿=== DEP Retention - Table data.txt ===
+Email C1.1 | HP=SURGE170 | TP=SURGE170 | PB=SURGE170 | 💥 170% Bonus: Power Up Your Play Today
+Email C2.1 | HP=CREWBOOST150 | TP=CREWBOOST150 | PB=CREWBOOST150 | ⚡ 150% + 70 Free Spins: Don't Wait to Grab Them
+Email C4.1 | HP=GUNSLINGER160 | TP=GUNSLINGER160 | PB=GUNSLINGER160 | 💥 160% + 80 Spins: Grab Them and Feel the Rush
+Email C5.1 | HP=BOOSTER170 | TP=BOOSTER170 | PB=BOOSTER170 | 🎰 170% Bonus: Instant Boost Activated
+Email C7.1 | HP=GUNSLINGER160 | TP=GUNSLINGER160 | PB=GUNSLINGER160 | ⚡ 160% + 80 Free Spins: Activate and Spin
+Email C8.1 | HP=OUTLAW180 | TP=OUTLAW180 | PB=OUTLAW180 | 🚀 180% Bonus + 80 Free Spins: Upgrade Your Entry
+Email C9.1 | HP=GIANTPANDA100 | TP=GIANTPANDA100 | PB=GIANTPANDA100 | 💎 140% Bonus + 100 Free Spins: Why Wait?
+Email C10.1 | HP=GEMHUNT200 | TP=GEMHUNT200 | PB=GEMHUNT200 | ⚡ 200 Free Spins: Ready to Spin?
+Email S1.1 | HP=WINSAFE20 | TP=WINSAFE20 | PB=WINSAFE20 | 🥊 20% NoRisk Free Bet: Strike Hard
+Email S2.1 | HP=WINSAFE20 | TP=WINSAFE20 | PB=WINSAFE20 | ⚽ 20% NoRisk Free Bet: It's Prime Time
+Email S4.1 | HP=SURGE170 | TP=SURGE170 | PB=SURGE170 | ⚽ 170% Boost: Your Play, Your Script
+Email S5.1 | HP=WINSAFE20 | TP=WINSAFE20 | PB=WINSAFE20 | 🚀 20% NoRisk Bet: Open, Activate, Win
+Email S6.1 | HP=BOOSTER170 | TP=BOOSTER170 | PB=BOOSTER170 | ⚡ 170% Boost: Unleash the Power
+Email S7.1 | HP=WINSAFE20 | TP=WINSAFE20 | PB=WINSAFE20 | ⚡ 20% NoRisk Free Bet: Your Advantage
+Email S9.1 | HP=ONLYSAFE30 | TP=ONLYSAFE30, ONLYSAFE30 | PB=ONLYSAFE30 | 🎾 30% NoRisk Bet: Smart Viewing
+Email S10.1 | HP=ONLYSAFE30 | TP=ONLYSAFE30 | PB=ONLYSAFE30 | 💥 30% NoRisk Free Bet: Grab It and Own the Line
+Email C3.1 | HP=- | TP=- | PB=- | 🎡 Escape to the Wins: Last Week's Top Hits
+Email C6.1 | HP=- | TP=- | PB=- | 🌟 Join the Elite: This Week's Hall of Fame
+Email S3.1 | HP=- | TP=- | PB=- | 🏆 Weekly Winners: They Made the Right Call
+Email S8.1 | HP=- | TP=- | PB=- | 🏆 They Won Big on Sports — Now It's Your Turn
+
+=== FTD Retention Flow - Table data.txt ===
+Email 1C | HP=ANUBIS10050 | TP=ANUBIS10050 | PB=- | 🐍 The sands are shifting — unlock 100% + 50 FS
+Email 1M | HP=ANUBIS10050, WINBACKNRF20 | TP=ANUBIS10050, WINBACKNRF20 | PB=- | 🎮 Your Second Step? Casino Bonus or NoRisk Sports Bet
+Email 1S | HP=WINBACKNRF20 | TP=WINBACKNRF20 | PB=- | 🏆 20% NoRisk FreeBet Is Active for You
+Email 2C | HP=- | TP=- | PB=- | 🎯 Your next spin might be the big one
+Email 2M | HP=WINBACKNRF20, DOG10060 | TP=DOG10060, WINBACKNRF20 | PB=- | 🎯 100% + 60 FS or 20% NoRisk FreeBet — Your Choice
+Email 2S | HP=WINBACKNRF20 | TP=WINBACKNRF20 | PB=- | 🎯 Missed Your Bet? Get 20% Back
+Email 3C | HP=PARTY140 | TP=PARTY140 | PB=- | 🍓 140% + 50 FS – Join the Fruit Party
+Email 3M | HP=SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 | TP=SAFE2CB2, RETURN3CB3, BOOST4CB4 , WINBACKNRF20, SAFETYNRF25, COVERNRF30  | PB=- | 🎯 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet
+Email 3S | HP=WINBACKNRF20 | TP=WINBACKNRF20 | PB=- | 🧲 20% NoRisk FreeBet — Stay in the Game
+Email 4C | HP=DORK50110 | TP=DORK50110 | PB=- | 🧁 Go full dork – 110% + 50 FS inside
+Email 4M | HP=- | TP=- | PB=- | 💸 $100,000+ Won Last Week — Will You Join the List?
+Email 4S | HP=SAFETYNRF25 | TP=SAFETYNRF25 | PB=- | 💼 25% NoRisk FreeBet — You’re Covered
+Email 5C | HP=BONANZA10080 | TP=BONANZA10080 | PB=- | 🍭 Get 100% + 80 FS on Sweet Bonanza
+Email 5M | HP=WINBACKNRF20, CHAOS10070 | TP=CHAOS10070, WINBACKNRF20 | PB=- | 🪙 100% + 70 FS or 20% NoRisk FreeBet — Take Your Pick
+Email 5S | HP=ONLYWIN30 | TP=ONLYWIN30 | PB=- | 🏅 30% No Risk Only Win — It’s On
+Email 6C | HP=RICH100150 | TP=RICH100150 | PB=- | 📜 100% + 150 FS – Enter the Tome of Madness
+Email 6M | HP=SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 | TP=SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30  | PB=- | 💰 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet
+Email 6S | HP=WINBACKNRF20 | TP=WINBACKNRF20 | PB=- | 🔁 20% NoRisk FreeBet — Let the Next One Ride
+Email 7C | HP=- | TP=- | PB=- | 🔥 The biggest wins came from Next deposits
+Email 7M | HP=- | TP=- | PB=- | 🎉 Big Wins This Month — Over $120,000 Paid Out
+Email 7S | HP=WINBACKNRF20 | TP=WINBACKNRF20 | PB=- | 🏁 Your 20% NoRisk FreeBet Is Live
+Email 8C | HP=FORGED150 | TP=FORGED150 | PB=- | ⚡ 150% + 30 FS – Unleash the Stormforged power
+Email 8M | HP=SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30 | TP=SAFE2CB2, RETURN3CB3, BOOST4CB4, WINBACKNRF20, SAFETYNRF25, COVERNRF30  | PB=- | 💵 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet
+Email 8S | HP=ONLYWIN30 | TP=ONLYWIN30. | PB=- | 🧲 30% NoRisk FreeBet — Your Edge on the Next Bet
+
+=== Nutrition #2 - Table data.txt ===
+Email 1CL | HP=UNDERDOG50 | TP=UNDERDOG50 | PB=- | 🎰 100% Bonus + 50 Free Spins on Hand of Anubis
+Email 1CS | HP=UNDERDOG50 | TP=UNDERDOG50 | PB=- | 🎰 100% Bonus + 50 Free Spins: Your Second Spin!
+Email 1S | HP=CLEARSHOT20 | TP=CLEARSHOT20 | PB=- | 🏆 20% NoRisk FreeBets up to €500 Waiting
+Email 2CL | HP=- | TP=- | PB=- | 🏆 €325,000 Won Last Week: See the Winners
+Email 2CS | HP=- | TP=- | PB=- | 🏆 €325,000 Won Last Week: Are You Next?
+Email 2S | HP=CLEARSHOT20 | TP=CLEARSHOT20 | PB=- | ⚽ Secure Your Bet: 20% NoRisk FreeBets
+Email 3CL | HP=MATCH100 | TP=MATCH100 | PB=- | 🃏 100% Live Casino Bonus: Double Your Play
+Email 3CS | HP=OCCULT200 | TP=OCCULT200 | PB=- | 🔮 200% Bonus + 50 Free Spins on Tome of Madness
+Email 3S | HP=CLEARSHOT20 | TP=CLEARSHOT20 | PB=- | 🥇 Bet up to €500 Risk-Free: 20% Bonus
+Email 4CL | HP=- | TP=- | PB=- | 🎯 Live Casino Winners: Big Payouts Last Week
+Email 4CS | HP=UNDERDOG50 | TP=UNDERDOG50 | PB=- | 🎯 100% Bonus + 50 FS on Hand of Anubis
+Email 4S | HP=CLEARSHOT20 | TP=CLEARSHOT20 | PB=- | 🏅 20% NoRisk FreeBets: We Got Your Back
+Email 5CL | HP=ROCKET200 | TP=ROCKET200 | PB=- | 💎 200% Live Casino Bonus: Triple Your Balance
+Email 5CS | HP=OCCULT200 | TP=OCCULT200 | PB=- | 📚 200% Bonus + 50 FS: Triple Your Balance!
+Email 5S | HP=- | TP=- | PB=- | 🏟 Big Sports Wins Last Week: See the Scores
+Email 6CL | HP=- | TP=- | PB=- | 🏆 Top 3 Winners Last Week: Check the List
+Email 6CS | HP=- | TP=- | PB=- | 🏆 Huge Jackpot Wins Last Week: Check This Out
+Email 6S | HP=CLEARSHOT20 | TP=CLEARSHOT20 | PB=- | 🎯 20% NoRisk FreeBets: Your Second Chance
+Email 7CL | HP=BLAST210 | TP=BLAST210 | PB=- | 🎩 210% Live Casino Boost: Exclusive Offer
+Email 7CS | HP=- | TP=- | PB=- | 💰 3 Massive Winners Last Week — Why Not You?
+Email 7S | HP=CLEARSHOT20 | TP=CLEARSHOT20 | PB=- | 🏇 Bet Boldly: 20% NoRisk FreeBets Active
+Email 8CL | HP=BOOSTED220 | TP=BOOSTED220 | PB=- | 💥 220% Bonus: Power Up Your Live Session
+Email 8CS | HP=PHARAOH100 | TP=PHARAOH100 | PB=- | 🎰 Claim 100 Free Spins on Legacy of Dead
+Email 8S | HP=CLEARSHOT20 | TP=CLEARSHOT20 | PB=- | 🏆 20% NoRisk FreeBets: Win or Get Refunded
+
+=== Nutrition #3 - Table data.txt ===
+Email 1CL | HP=VAULT150 | TP=VAULT150 | PB=- | 🎲 Boost Your Live Game with 150% Bonus
+Email 1CS | HP=OCCULT200 | TP=OCCULT200 | PB=- | 🎯 200% Bonus + 50 FS: Third Time’s a Charm!
+Email 1S | HP=STEADY20 | TP=STEADY20 | PB=- | 🏆 Ready for Your Third Winning Streak?
+Email 2CL | HP=- | TP=- | PB=- | 🏆 Live Casino Legends: Last Week's Top Wins
+Email 2CS | HP=- | TP=- | PB=- | 🏆 Slot Champions Last Week: Who Won Big?
+Email 2S | HP=STEADY20 | TP=STEADY20 | PB=- | ⚽ Your Next Win Could Be Risk-Free!
+Email 3CL | HP=OCCULT200 | TP=OCCULT200 | PB=- | 🃏 Triple Your Chips + 50 Free Spins!
+Email 3CS | HP=OCCULT200 | TP=OCCULT200 | PB=- | ✨ Go Big: 200% Bonus + 50 Free Spins
+Email 3S | HP=STEADY20 | TP=STEADY20 | PB=- | 🏅 Your Third Deposit Just Got Safer
+Email 4CL | HP=RISEUP170 | TP=RISEUP170 | PB=- | 🎯 170% Boost: Own the Tables Today
+Email 4CS | HP=- | TP=- | PB=- | 🎰 3 Spins, 3 Fortunes: Check the Winners
+Email 4S | HP=STEADY20 | TP=STEADY20 | PB=- | 🏅 Play Fearless: Your Third Deposit is Covered
+Email 5CL | HP=- | TP=- | PB=- | 🏆 Meet Last Week’s Live Casino Champions
+Email 5CS | HP=- | TP=- | PB=- | 💎 Your Name Belongs on the Winner List
+Email 5S | HP=- | TP=- | PB=- | 🏟 See Last Week’s Sports Champions
+Email 6CL | HP=RISEUP170 | TP=RISEUP170 | PB=- | 🎩 170% Boost For Your Next Session
+Email 6CS | HP=OCCULT200 | TP=OCCULT200 | PB=- | 🪄 Magic Deal: 200% Bonus + 50 FS
+Email 6S | HP=STEADY20 | TP=STEADY20 | PB=- | 🎯 Third Deposit? We’ve Got You Covered!
+Email 7CL | HP=COWBOY170 | TP=COWBOY170 | PB=- | 💰 170% Bonus + 30 Free Spins Inside
+Email 7CS | HP=COWBOY170 | TP=COWBOY170 | PB=- | 🎲 Upgraded Bonus: 170% + 30 Free Spins
+Email 7S | HP=STEADY20 | TP=STEADY20 | PB=- | 🏇 Your Third Deposit: Go All The Way
+Email 8CL | HP=RISEUP170 | TP=RISEUP170 | PB=- | 🎲 170% Boost to Rule the Live Casino
+Email 8CS | HP=OCCULT200 | TP=OCCULT200 | PB=- | 🏺 200% Bonus + 50 FS on Tome of Madness
+Email 8S | HP=STEADY20 | TP=STEADY20 | PB=- | 🏆 Play Smart on Your Third Deposit
+
+=== SU Retention - Table data.txt ===
+Email 1C | HP=- | TP=- | PB=- | 🎁 100% Bonus + 150 FS Waiting: Grab It Now!
+Email 1CFS | HP=XBOMB150 | TP=XBOMB150 | PB=- | 🧨 150 Free Spins on Fire in the Hole Waiting
+Email 1M | HP=FINTASTIC150, EARNNRF15X | TP=FINTASTIC150, EARNNRF15X | PB=- | 🎁 Get 100% Bonus + 150 FS + 15% FreeBet!
+Email 1S | HP=EARNNRF15X | TP=EARNNRF15X | PB=- | 🏆 15% NoRisk FreeBets: Your Safety Net is Ready
+Email 2C | HP=- | TP=- | PB=- | 🎰 Claim Your 100% Bonus + 150 FS Today
+Email 2CFS | HP=FINTASTIC150 | TP=FINTASTIC150 | PB=- | 🦈 100% Bonus + 150 FS on Razor Shark
+Email 2M | HP=CASHPLUS4 | TP=CASHPLUS4 | PB=- | 🎮 100% Bonus + 150 FS + 4% Cashback: All Yours
+Email 2S | HP=CASHPLUS4 | TP=CASHPLUS4 | PB=- | 🔁 Claim Your 4% Sports Cashback Today
+Email 3C | HP=POWER140 | TP=POWER140 | PB=- | 💥 Your 140% Deposit Bonus is Ready
+Email 3CFS | HP=XBOMB150 | TP=XBOMB150 | PB=- | 🧨 Claim 150 Free Spins on Fire in the Hole
+Email 3M | HP=POWER140, EARNNRF15X | TP=POWER140, EARNNRF15X | PB=- | 🎯 140% Casino Bonus or 15% FreeBet: You Pick
+Email 3S | HP=EARNNRF15X | TP=EARNNRF15X | PB=- | 🏆 Your 15% NoRisk FreeBet is Waiting
+Email 4C | HP=CANDYDROP70 | TP=CANDYDROP70 | PB=- | 🍭 130% Bonus + 70 FS on Sweet Bonanza
+Email 4CFS | HP=- | TP=- | PB=- | 🎰 Your 100% Bonus + 150 FS Are Ready
+Email 4M | HP=CANDYDROP70 | TP=CANDYDROP70 | PB=- | 🍭 130% + 70 FS on Sweet Bonanza — Or Sports?
+Email 4S | HP=CASHPLUS4 | TP=CASHPLUS4 | PB=- | 🔄 4% Cashback on Every Bet: Active Now
+Email 5C | HP=POWER140 | TP=POWER140 | PB=- | 🎯 140% First Deposit Bonus: Offer Ending Soon?
+Email 5CFS | HP=POWER140 | TP=POWER140 | PB=- | 🎲 140% First Deposit Bonus: Don't Miss Out
+Email 5M | HP=POWER140, EARNNRF15X | TP=POWER140, EARNNRF15X | PB=- | 🎯 140% Casino Bonus or 15% FreeBet?
+Email 5S | HP=EARNNRF15X | TP=EARNNRF15X | PB=- | 🛡️ Protect Your Bets: 15% NoRisk FreeBet
+Email 6C | HP=- | TP=- | PB=- | 💸 Over $100,000 Won Last Week — You In?
+Email 6CFS | HP=UNDERWORLD200 | TP=UNDERWORLD200 | PB=- | 🧲 200 Free Spins on Hand of Anubis
+Email 6M | HP=POWER140, EARNNRF15X | TP=POWER140, EARNNRF15X | PB=- | 🎯 140% Casino Bonus or 15% FreeBet?
+Email 6S | HP=EARNNRF15X | TP=EARNNRF15X | PB=- | 🛡️ Protect Your Bets: 15% NoRisk FreeBet
+Email 7C | HP=CHAOSCTRL80 | TP=CHAOSCTRL80 | PB=- | 🎁 140% Bonus + 80 FS on Chaos Crew II
+Email 7CFS | HP=CHAOSCTRL80 | TP=CHAOSCTRL80 | PB=- | 🎁 140% Bonus + 80 FS on Chaos Crew II
+Email 7M | HP=CHAOSCTRL80, WIN20NRF | TP=CHAOSCTRL80, WIN20NRF | PB=- | 🎁 140% + 80 FS or 20% FreeBet: Your Choice
+Email 7S | HP=WIN20NRF | TP=WIN20NRF | PB=- | 🏁 Start Strong: 20% NoRisk FreeBet Ready
+Email 8C | HP=- | TP=- | PB=- | 💥 Jackpot Hits Keep Coming — Are You Next?
+Email 8CFS | HP=UNDERWORLD200 | TP=UNDERWORLD200 | PB=- | 🪙 Claim 200 Free Spins on Hand of Anubis
+Email 8M | HP=CHAOSCTRL80, WIN20NRF | TP=CHAOSCTRL80, WIN20NRF | PB=- | 🎁 140% + 80 FS or 20% FreeBet: Your Choice
+Email 8S | HP=WIN20NRF | TP=WIN20NRF | PB=- | 🏁 Start Strong: 20% NoRisk FreeBet Ready
+Email 9C | HP=MADNESS16090 | TP=MADNESS16090 | PB=- | 🎁 160% Bonus + 90 FS on Tome of Madness
+Email 9CFS | HP=CHAOSCTRL80 | TP=CHAOSCTRL80 | PB=- | 💎 140% + 80 Free Spins on Chaos Crew II
+Email 9M | HP=MADNESS16090, SECURE25 | TP=MADNESS16090, SECURE25 | PB=- | 🎁 160% + 90 FS or 25% FreeBet: Decide Now
+Email 9S | HP=SECURE25 | TP=SECURE25 | PB=- | 🏆 25% NoRisk FreeBet: Don't Miss This!
+Email 10C | HP=- | TP=- | PB=- | 🎰 Over $90,000 Payouts Last Week — Why Not You?
+Email 10CFS | HP=MADNESS16090 | TP=MADNESS16090 | PB=- | 🎁 160% Bonus + 90 FS on Tome of Madness
+Email 10M | HP=MADNESS16090, SECURE25 | TP=MADNESS16090, SECURE25 | PB=- | 🎁 160% + 90 FS or 25% FreeBet: Decide Now
+Email 10S | HP=EARNNRF15X | TP=EARNNRF15X | PB=- | 🏆 Still Waiting: 15% NoRisk FreeBets
+
+=== Welcome Flow - Table data.txt ===
+Email 1C | HP=- | TP=- | PB=- | 🚀 Your Celsius Adventure Starts Here!
+Email 1M | HP=- | TP=- | PB=- | 🎯 Play Your Way with the Cashback Bonus
+Email 1S | HP=- | TP=- | PB=- | ⚽ Kick Off Your Sports Journey at Celsius
+Email 2C | HP=BANDIT150 | TP=BANDIT150 | PB=- | 🎰 Your First Bonus Is Just One Step Away
+Email 2M | HP=SAFE10 | TP=SAFE10 | PB=- | 🎯 Big Slot Wins & A 10% Safety Net on Your Next Bet
+Email 2S | HP=BOOST50 | TP=BOOST50 | PB=- | ⚽ Game’s On — Your Bet Belongs on the Field
+Email 3C | HP=CREW150 | TP=CREW150 | PB=- | 💥 100% + 150 FS — The Boost That Starts It All
+Email 3M | HP=- | TP=- | PB=- | 🎰 Big jackpots landed last week
+Email 3S | HP=- | TP=- | PB=- | 🏟️ Matchday Energy Is In the Air — You In?
+Email 4C | HP=STORM170 | TP=STORM170 | PB=- | 🎯 120% + 170 Free Spins Are Waiting for You
+Email 4M | HP=LEGACY100, BETSAFE20 | TP=LEGACY100, BETSAFE20 | PB=- | 🎮 100 FS + NoRisk Bets Inside
+Email 4S | HP=- | TP=- | PB=- | 🧤 50% FreeBets On Top
+Email 5C | HP=RIP100CITY | TP=RIP100CITY | PB=- | 🎁 One Code. One Deposit. One Serious Start.
+Email 5M | HP=- | TP=- | PB=- | 🎯 Three Big Wins. Two Ways to Play. One You.
+Email 5S | HP=- | TP=- | PB=- | 🥶 50% FreeBets Come With Your First Move
+Email 6C | HP=BANDIT150 | TP=BANDIT150 | PB=- | 🎯 Time to unlock 100% + 150 FS!
+Email 6M | HP=- | TP=- | PB=- | 🎲 $47,890 winnings this week, are you next?
+Email 6S | HP=- | TP=- | PB=- | 🏁 Your Bet’s Not Live Until You Are
+Email 7C | HP=- | TP=- | PB=- | 💸 Big Slot Wins Last Week — Will You Be Next?
+Email 7M | HP=LEGACY100, BETSAFE20 | TP=LEGACY100, BETSAFE20 | PB=- | 🎯 Don’t miss: 100 Free Spins + 20% NoRisk FreeBets
+Email 7S | HP=FIREUP60 | TP=FIREUP60 | PB=- | 🥊 60% FreeBets On Your First Hit
+Email 8C | HP=CREW150 | TP=CREW150 | PB=- | 🧨 Start Strong: 100% + 150 Free Spins on First Deposit
+Email 8M | HP=- | TP=- | PB=- | 🎯 Jackpots Heating Up To $41,226
+Email 8S | HP=FIREUP60 | TP=FIREUP60 | PB=- | 🏆 One Shot. 60% Extra to Back It.
+Email 9C | HP=SWEET180 | TP=SWEET180 | PB=- | 🎠 180 Free Spins Await!
+Email 9M | HP=LEGACY100, BETSAFE20 | TP=LEGACY100, BETSAFE20 | PB=- | 🎮 Covers Both Sides of the Game
+Email 9S | HP=FIREUP60 | TP=FIREUP60 | PB=- | 🧨 First Bet? 60% Extra Awaits
+
