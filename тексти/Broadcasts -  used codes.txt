@@ -226,3 +226,25 @@ CB9REEF
 CB12SEA		
 CB15BAY		
 
+Broadcasts
+Promo Code	Offer	Game
+HANND50	50 FS	Hand of Midas 2
+CABOOM70	70 FS	Candy Boom
+100CO50	100% + 50 FS	3 Coins
+WOL9G	 90 FS	Starburst
+SANTAFS200	200 FS	Starburst
+HOHO70	70%	-
+ELF90	90%	-
+GIFT100	100%	-
+SNOW110	110% + 60 FS	Le Bandit
+STAR110FS	110 FS	Le Bandit
+STAR120FF	120 FS	Oink Oink Oink
+
+Aff Bonuses
+Promo Code	Offer	Game
+FREAKSPIN25	25  Free Spins 	Gate Of Olympus
+WORLD25	25  Free Spins 	Gate of Olympus
+MANIAC25	25  Free Spins 	Gate of Olympus
+SPICY25	25  Free Spins	Gate of Olympus
+STAKERS25	25  Free Spins	Gate of Olympus
+
