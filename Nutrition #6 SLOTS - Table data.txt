@@ -1,4 +1,4 @@
-name: Email 1.1
+﻿name: Email 1.1
 locale: Default
 subject: 🐠 40 Free Spins are swimming your way
 preheader: The pirate caught a golden fish!
@@ -13,54 +13,6 @@ text_5: Be quick - fortune swims fast.
 Hook your spins and reel in your luck!
 promocode_button_1: BASS40
 button_text_1: CLAIM BONUS
-
-name: Email 1.1
-locale: de-DE
-subject: 🐠 40 Freispiele schwimmen auf dich zu
-preheader: Der Pirat hat den goldenen Fisch gefangen!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Keine Seemannsgeschichte diesmal, Captain – der Pirat hat den goldenen Fisch wirklich an Bord geholt! 🪙
-
-Er zappelte auf dem Deck und flüsterte von Glück und Gold.
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 40 Freispiele, um dein Schicksal in Big Bass Bonanza zu testen.
-text_5: Sei schnell – sonst schwimmt dir das Glück davon.
-
-Angel dir deine Freispiele und hol das Glück an Land!
-promocode_button_1: BASS40
-button_text_1: BONUS SICHERN
-
-name: Email 1.1
-locale: fr-FR
-subject: 🐠 40 tours gratuits nagent vers vous
-preheader: Le pirate a attrapé un poisson d'or !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pas de légende cette fois-ci, Capitaine : le pirate a vraiment attrapé le poisson d’or ! 🪙
-
-Il s’est débattu sur le pont, en murmurant des promesses de chance et d’or.
-
-Saisissez le code lors de votre dépôt et réclamez 40 tours gratuits pour mettre votre destin à l’épreuve sur Big Bass Bonanza.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: BASS40
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 1.1
-locale: nl-NL
-subject: 🐠 40 Gratis Spins zwemmen jouw kant op
-preheader: De piraat heeft een gouden vis gevangen!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Geen zeemansverhaal deze keer, kapitein – de piraat heeft echt de gouden vis gevangen! 🪙
-
-Hij spartelde op het dek en fluisterde over geluk en goud.
-
-Vul code in bij je storting en claim 40 Gratis Spins om je geluk te testen in Big Bass Bonanza.
-text_5: Wees er snel bij – geluk zwemt zo aan je voorbij.
-
-Haak je Free Spins binnen en hengel je geluk naar boven!
-promocode_button_1: BASS40
-button_text_1: BONUS CLAIMEN
 
 name: Email 1.2
 locale: Default
@@ -78,54 +30,6 @@ Hook your spins and reel in your luck!
 promocode_button_1: BASS45
 button_text_1: CLAIM BONUS
 
-name: Email 1.2
-locale: de-DE
-subject: 🐠 45 Freispiele schwimmen auf dich zu
-preheader: Der Pirat hat den goldenen Fisch gefangen!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Keine Seemannsgeschichte diesmal, Captain – der Pirat hat den goldenen Fisch wirklich an Bord geholt! 🪙
-
-Er zappelte auf dem Deck und flüsterte von Glück und Gold.
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 45 Freispiele, um dein Schicksal in Big Bass Bonanza zu testen.
-text_5: Sei schnell – sonst schwimmt dir das Glück davon.
-
-Angel dir deine Freispiele und hol das Glück an Land!
-promocode_button_1: BASS45
-button_text_1: BONUS SICHERN
-
-name: Email 1.2
-locale: fr-FR
-subject: 🐠 45 tours gratuits nagent vers vous
-preheader: Le pirate a attrapé un poisson d'or !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pas de légende cette fois-ci, Capitaine : le pirate a vraiment attrapé le poisson d’or ! 🪙
-
-Il s’est débattu sur le pont, en murmurant des promesses de chance et d’or.
-
-Saisissez le code lors de votre dépôt et réclamez 45 tours gratuits pour mettre votre destin à l’épreuve sur Big Bass Bonanza.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: BASS45
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 1.2
-locale: nl-NL
-subject: 🐠 45 Gratis Spins zwemmen jouw kant op
-preheader: De piraat heeft een gouden vis gevangen!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Geen zeemansverhaal deze keer, kapitein – de piraat heeft echt de gouden vis gevangen! 🪙
-
-Hij spartelde op het dek en fluisterde over geluk en goud.
-
-Vul code in bij je storting en claim 45 Gratis Spins om je geluk te testen in Big Bass Bonanza.
-text_5: Wees er snel bij – geluk zwemt zo aan je voorbij.
-
-Haak je Free Spins binnen en hengel je geluk naar boven!
-promocode_button_1: BASS45
-button_text_1: BONUS CLAIMEN
-
 name: Email 1.3
 locale: Default
 subject: 🐠 50 Free Spins are swimming your way
@@ -141,54 +45,6 @@ text_5: Be quick - fortune swims fast.
 Hook your spins and reel in your luck!
 promocode_button_1: BASS50
 button_text_1: CLAIM BONUS
-
-name: Email 1.3
-locale: de-DE
-subject: 🐠 50 Freispiele schwimmen auf dich zu
-preheader: Der Pirat hat den goldenen Fisch gefangen!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Keine Seemannsgeschichte diesmal, Captain – der Pirat hat den goldenen Fisch wirklich an Bord geholt! 🪙
-
-Er zappelte auf dem Deck und flüsterte von Glück und Gold.
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 50 Freispiele, um dein Schicksal in Big Bass Bonanza zu testen.
-text_5: Sei schnell – sonst schwimmt dir das Glück davon.
-
-Angel dir deine Freispiele und hol das Glück an Land!
-promocode_button_1: BASS50
-button_text_1: BONUS SICHERN
-
-name: Email 1.3
-locale: fr-FR
-subject: 🐠 50 tours gratuits nagent vers vous
-preheader: Le pirate a attrapé un poisson d'or !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pas de légende cette fois-ci, Capitaine : le pirate a vraiment attrapé le poisson d’or ! 🪙
-
-Il s’est débattu sur le pont, en murmurant des promesses de chance et d’or.
-
-Saisissez le code lors de votre dépôt et réclamez 50 tours gratuits pour mettre votre destin à l’épreuve sur Big Bass Bonanza.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: BASS50
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 1.3
-locale: nl-NL
-subject: 🐠 50 Gratis Spins zwemmen jouw kant op
-preheader: De piraat heeft een gouden vis gevangen!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Geen zeemansverhaal deze keer, kapitein – de piraat heeft echt de gouden vis gevangen! 🪙
-
-Hij spartelde op het dek en fluisterde over geluk en goud.
-
-Vul code in bij je storting en claim 50 Gratis Spins om je geluk te testen in Big Bass Bonanza.
-text_5: Wees er snel bij – geluk zwemt zo aan je voorbij.
-
-Haak je Free Spins binnen en hengel je geluk naar boven!
-promocode_button_1: BASS50
-button_text_1: BONUS CLAIMEN
 
 name: Email 2.1
 locale: Default
@@ -206,54 +62,6 @@ Claim your spins before the tide retreats!
 promocode_button_1: GOLD50
 button_text_1: CLAIM BONUS
 
-name: Email 2.1
-locale: de-DE
-subject: 💛 50 Freispiele schwimmen auf dich zu
-preheader: Der Pirat hat den goldenen Fisch gefangen!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Keine Seemannsgeschichte diesmal, Captain – der Pirat hat den goldenen Fisch wirklich an Bord geholt! 🪙
-
-Er zappelte auf dem Deck und flüsterte von Glück und Gold.
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 50 Freispiele, um dein Schicksal in Gold Rush zu testen.
-text_5: Sei schnell – sonst schwimmt dir das Glück davon.
-
-Angel dir deine Freispiele und hol das Glück an Land!
-promocode_button_1: GOLD50
-button_text_1: BONUS SICHERN
-
-name: Email 2.1
-locale: fr-FR
-subject: 💛 50 tours gratuits nagent vers vous
-preheader: Le pirate a attrapé un poisson d'or !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pas de légende cette fois-ci, Capitaine : le pirate a vraiment attrapé le poisson d’or ! 🪙
-
-Il s’est débattu sur le pont, en murmurant des promesses de chance et d’or.
-
-Saisissez le code lors de votre dépôt et réclamez 50 tours gratuits pour mettre votre destin à l’épreuve sur Gold Rush.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: GOLD50
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 2.1
-locale: nl-NL
-subject: 💛 50 Gratis Spins uit de schatkist van de zee
-preheader: Jij bent aan zet, kapitein!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: De zee heeft zo haar stemmingen – en vanavond is ze gul.
-
-Een goudklompje rolt het dek op, nog warm uit de diepte. ⚓
-
-Vul code in bij je storting en ontvang 50 Gratis Spins op Gold Rush.
-text_5: De golven geven je een teken – volg het richting de jackpot.
-
-Claim je Free Spins voordat het tij zich terugtrekt!
-promocode_button_1: GOLD50
-button_text_1: BONUS CLAIMEN
-
 name: Email 2.2
 locale: Default
 subject: 💛 60 Free Spins from the sea’s own chest
@@ -269,54 +77,6 @@ text_5: The waves gave you a sign - follow it toward the jackpot.
 Claim your spins before the tide retreats!
 promocode_button_1: GOLD60
 button_text_1: CLAIM BONUS
-
-name: Email 2.2
-locale: de-DE
-subject: 💛 60 Freispiele schwimmen auf dich zu
-preheader: Der Pirat hat den goldenen Fisch gefangen!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Keine Seemannsgeschichte diesmal, Captain – der Pirat hat den goldenen Fisch wirklich an Bord geholt! 🪙
-
-Er zappelte auf dem Deck und flüsterte von Glück und Gold.
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 60 Freispiele, um dein Schicksal in Gold Rush zu testen.
-text_5: Sei schnell – sonst schwimmt dir das Glück davon.
-
-Angel dir deine Freispiele und hol das Glück an Land!
-promocode_button_1: GOLD60
-button_text_1: BONUS SICHERN
-
-name: Email 2.2
-locale: fr-FR
-subject: 💛 60 tours gratuits nagent vers vous
-preheader: Le pirate a attrapé un poisson d'or !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pas de légende cette fois-ci, Capitaine : le pirate a vraiment attrapé le poisson d’or ! 🪙
-
-Il s’est débattu sur le pont, en murmurant des promesses de chance et d’or.
-
-Saisissez le code lors de votre dépôt et réclamez 60 tours gratuits pour mettre votre destin à l’épreuve sur Gold Rush.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: GOLD60
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 2.2
-locale: nl-NL
-subject: 💛 60 Gratis Spins uit de schatkist van de zee
-preheader: Jij bent aan zet, kapitein!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: De zee heeft zo haar stemmingen – en vanavond is ze gul.
-
-Een goudklompje rolt het dek op, nog warm uit de diepte. ⚓
-
-Vul code in bij je storting en ontvang 60 Gratis Spins op Gold Rush.
-text_5: De golven geven je een teken – volg het richting de jackpot.
-
-Claim je Free Spins voordat het tij zich terugtrekt!
-promocode_button_1: GOLD60
-button_text_1: BONUS CLAIMEN
 
 name: Email 2.3
 locale: Default
@@ -334,54 +94,6 @@ Claim your spins before the tide retreats!
 promocode_button_1: GOLD65
 button_text_1: CLAIM BONUS
 
-name: Email 2.3
-locale: de-DE
-subject: 💛 65 Freispiele schwimmen auf dich zu
-preheader: Der Pirat hat den goldenen Fisch gefangen!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Keine Seemannsgeschichte diesmal, Captain – der Pirat hat den goldenen Fisch wirklich an Bord geholt! 🪙
-
-Er zappelte auf dem Deck und flüsterte von Glück und Gold.
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 65 Freispiele, um dein Schicksal in Gold Rush zu testen.
-text_5: Sei schnell – sonst schwimmt dir das Glück davon.
-
-Angel dir deine Freispiele und hol das Glück an Land!
-promocode_button_1: GOLD65
-button_text_1: BONUS SICHERN
-
-name: Email 2.3
-locale: fr-FR
-subject: 💛 65 tours gratuits nagent vers vous
-preheader: Le pirate a attrapé un poisson d'or !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pas de légende cette fois-ci, Capitaine : le pirate a vraiment attrapé le poisson d’or ! 🪙
-
-Il s’est débattu sur le pont, en murmurant des promesses de chance et d’or.
-
-Saisissez le code lors de votre dépôt et réclamez 65 tours gratuits pour mettre votre destin à l’épreuve sur Gold Rush.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: GOLD65
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 2.3
-locale: nl-NL
-subject: 💛 65 Gratis Spins uit de schatkist van de zee
-preheader: Jij bent aan zet, kapitein!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: De zee heeft zo haar stemmingen – en vanavond is ze gul.
-
-Een goudklompje rolt het dek op, nog warm uit de diepte. ⚓
-
-Vul code in bij je storting en ontvang 65 Gratis Spins op Gold Rush.
-text_5: De golven geven je een teken – volg het richting de jackpot.
-
-Claim je Free Spins voordat het tij zich terugtrekt!
-promocode_button_1: GOLD65
-button_text_1: BONUS CLAIMEN
-
 name: Email 4.1
 locale: Default
 subject: 💥 40 FS + 55% to celebrate the legend
@@ -397,54 +109,6 @@ text_5: The legend’s been caught - and the sea still shimmers with its trail b
 Join the crew and claim your golden catch!
 promocode_button_1: GOLD50
 button_text_1: CLAIM BONUS
-
-name: Email 4.1
-locale: de-DE
-subject: 💥 40 Freispiele + 55 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 40 Freispiele + 55 % Bonus auf Big Bass Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BASS455
-button_text_1: BONUS SICHERN
-
-name: Email 4.1
-locale: fr-FR
-subject: 💥 40 tours gratuits + 55 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 40 tours gratuits et un bonus de 55 % sur Big Bass Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: BASS455
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.1
-locale: nl-NL
-subject: 💥 40 Gratis Spins + 55% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 40 Gratis Spins + 55% bonus op Big Bass Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BASS455
-button_text_1: BONUS CLAIMEN
 
 name: Email 4.2
 locale: Default
@@ -462,54 +126,6 @@ Join the crew and claim your golden catch!
 promocode_button_1: BONZ469
 button_text_1: CLAIM BONUS
 
-name: Email 4.2
-locale: de-DE
-subject: 💥 40 Freispiele + 69 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 40 Freispiele + 69 % Bonus auf Sweet Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BONZ469
-button_text_1: BONUS SICHERN
-
-name: Email 4.2
-locale: fr-FR
-subject: 💥 40 tours gratuits + 69 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 40 tours gratuits et un bonus de 69 % sur Sweet Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: BONZ469
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.2
-locale: nl-NL
-subject: 💥 40 Gratis Spins + 69% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 40 Gratis Spins + 69% bonus op Sweet Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BONZ469
-button_text_1: BONUS CLAIMEN
-
 name: Email 4.3
 locale: Default
 subject: 💥 40 FS + 77% to celebrate the legend
@@ -525,54 +141,6 @@ text_5: The legend’s been caught - and the sea still shimmers with its trail b
 Join the crew and claim your golden catch!
 promocode_button_1: BASS477
 button_text_1: CLAIM BONUS
-
-name: Email 4.3
-locale: de-DE
-subject: 💥 40 Freispiele + 77 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 40 Freispiele + 77 % Bonus auf Big Bass Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BASS477
-button_text_1: BONUS SICHERN
-
-name: Email 4.3
-locale: fr-FR
-subject: 💥 40 tours gratuits + 77 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 40 tours gratuits et un bonus de 77 % sur Big Bass Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: BASS477
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.3
-locale: nl-NL
-subject: 💥 40 Gratis Spins + 77% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 40 Gratis Spins + 77% bonus op Big Bass Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BASS477
-button_text_1: BONUS CLAIMEN
 
 name: Email 4.4
 locale: Default
@@ -590,54 +158,6 @@ Join the crew and claim your golden catch!
 promocode_button_1: BONZ569
 button_text_1: CLAIM BONUS
 
-name: Email 4.4
-locale: de-DE
-subject: 💥 50 Freispiele + 69 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 50 Freispiele + 69 % Bonus auf Sweet Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BONZ569
-button_text_1: BONUS SICHERN
-
-name: Email 4.4
-locale: fr-FR
-subject: 💥 50 tours gratuits + 69 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 50 tours gratuits et un bonus de 69 % sur Sweet Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: BONZ569
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.4
-locale: nl-NL
-subject: 💥 50 Gratis Spins + 69% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 50 Gratis Spins + 69% bonus op Sweet Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BONZ569
-button_text_1: BONUS CLAIMEN
-
 name: Email 4.5
 locale: Default
 subject: 💥 50 FS + 77% to celebrate the legend
@@ -653,54 +173,6 @@ text_5: The legend’s been caught - and the sea still shimmers with its trail b
 Join the crew and claim your golden catch!
 promocode_button_1: BONZ577
 button_text_1: CLAIM BONUS
-
-name: Email 4.5
-locale: de-DE
-subject: 💥 50 Freispiele + 77 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 50 Freispiele + 77 % Bonus auf Sweet Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BONZ577
-button_text_1: BONUS SICHERN
-
-name: Email 4.5
-locale: fr-FR
-subject: 💥 50 tours gratuits + 77 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 50 tours gratuits et un bonus de 77 % sur Sweet Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: BONZ577
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.5
-locale: nl-NL
-subject: 💥 50 Gratis Spins + 77% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 50 Gratis Spins + 77% bonus op Sweet Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BONZ577
-button_text_1: BONUS CLAIMEN
 
 name: Email 4.6
 locale: Default
@@ -718,54 +190,6 @@ Join the crew and claim your golden catch!
 promocode_button_1: BONZ581
 button_text_1: CLAIM BONUS
 
-name: Email 4.6
-locale: de-DE
-subject: 💥 50 Freispiele + 81 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 50 Freispiele + 81 % Bonus auf Sweet Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BONZ581
-button_text_1: BONUS SICHERN
-
-name: Email 4.6
-locale: fr-FR
-subject: 💥 50 tours gratuits + 81 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 50 tours gratuits et un bonus de 81 % sur Sweet Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: BONZ581
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.6
-locale: nl-NL
-subject: 💥 50 Gratis Spins + 81% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 50 Gratis Spins + 81% bonus op Sweet Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BONZ581
-button_text_1: BONUS CLAIMEN
-
 name: Email 4.7
 locale: Default
 subject: 💥 60 FS + 77% to celebrate the legend
@@ -781,54 +205,6 @@ text_5: The legend’s been caught - and the sea still shimmers with its trail b
 Join the crew and claim your golden catch!
 promocode_button_1: BONZ677
 button_text_1: CLAIM BONUS
-
-name: Email 4.7
-locale: de-DE
-subject: 💥 60 Freispiele + 77 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 60 Freispiele + 77 % Bonus auf Sweet Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BONZ677
-button_text_1: BONUS SICHERN
-
-name: Email 4.7
-locale: fr-FR
-subject: 💥 60 tours gratuits + 77 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 60 tours gratuits et un bonus de 77 % sur Sweet Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: BONZ677
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.7
-locale: nl-NL
-subject: 💥 60 Gratis Spins + 77% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 60 Gratis Spins + 77% bonus op Sweet Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BONZ677
-button_text_1: BONUS CLAIMEN
 
 name: Email 4.8
 locale: Default
@@ -846,54 +222,6 @@ Join the crew and claim your golden catch!
 promocode_button_1: BONZ785
 button_text_1: CLAIM BONUS
 
-name: Email 4.8
-locale: de-DE
-subject: 💥 75 Freispiele + 85 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 75 Freispiele + 85 % Bonus auf Sweet Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BONZ785
-button_text_1: BONUS SICHERN
-
-name: Email 4.8
-locale: fr-FR
-subject: 💥 75 tours gratuits + 85 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 75 tours gratuits et un bonus de 85 % sur Sweet Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: BONZ785
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.8
-locale: nl-NL
-subject: 💥 75 Gratis Spins + 85% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 75 Gratis Spins + 85% bonus op Sweet Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BONZ785
-button_text_1: BONUS CLAIMEN
-
 name: Email 4.9
 locale: Default
 subject: 💥 85 FS + 85% to celebrate the legend
@@ -909,54 +237,6 @@ text_5: The legend’s been caught - and the sea still shimmers with its trail b
 Join the crew and claim your golden catch!
 promocode_button_1: GOLD885
 button_text_1: CLAIM BONUS
-
-name: Email 4.9
-locale: de-DE
-subject: 💥 85 Freispiele + 85 % Bonus zur Feier der Legende
-preheader: Der goldene Barsch ist echt – und er ist riesig!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Jahrelang hielt man ihn für einen Mythos – einen Fisch aus purem Gold.
-
-Doch heute haben die Piraten das Gegenteil bewiesen. ⚓
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 85 Freispiele + 85 % Bonus auf Sweet Bonanza.
-text_5: Die Legende wurde gefangen – und das Meer schimmert noch in ihrem Glanz.
-
-Schließ dich der Crew an und sichere dir deinen goldenen Fang!
-promocode_button_1: BONZ885
-button_text_1: BONUS SICHERN
-
-name: Email 4.9
-locale: fr-FR
-subject: 💥 85 tours gratuits + 85 % de bonus pour célébrer la légende
-preheader: Le bar en or est réel – et il est énorme !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Pendant des années, on l’a pris pour un mythe – un poisson fait d’or pur.
-
-Mais aujourd’hui, les pirates ont prouvé le contraire. ⚓
-
-Saisissez le code lors de votre dépôt pour obtenir 85 tours gratuits et un bonus de 85 % sur Sweet Bonanza.
-text_5: La légende a été capturée – et la mer scintille encore sur son passage.
-
-Rejoignez l’équipage et réclamez votre prise dorée !
-promocode_button_1: GOLD885
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 4.9
-locale: nl-NL
-subject: 💥 85 Gratis Spins + 85% om de legende te vieren
-preheader: De gouden baars bestaat echt – en hij is enorm!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Jarenlang noemde men hem een mythe – een vis van puur goud.
-
-Maar vandaag hebben de piraten het tegendeel bewezen. ⚓
-
-Vul code in bij je storting en ontvang 85 Gratis Spins + 85% bonus op Sweet Bonanza.
-text_5: De legende is eindelijk gevangen – en de zee schittert nog na in zijn kielzog.
-
-Sluit je aan bij de crew en claim je gouden vangst!
-promocode_button_1: BONZ885
-button_text_1: BONUS CLAIMEN
 
 name: Email 5.1
 locale: Default
@@ -974,50 +254,6 @@ Claim your Cash Back before the tide turns!
 promocode_button_1: CBF20
 button_text_1: CLAIM BONUS
 
-name: Email 5.1
-locale: de-DE
-subject: 🏴‍☠️ 20 % Cashback treiben auf dich zu
-preheader: Eine Truhe ist ganz von allein herangesegelt!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Der Ausguck entdeckte sie als Erster – eine Truhe, die ganz allein durch die Wellen trieb.
-
-Der Captain zog sie an Bord – das Schloss noch warm von der Sonne. 💰
-
-Gib bei deiner nächsten Einzahlung den Code ein und sichere dir 20 % Cashback.
-text_5: Der Ozean weiß, wen er beschenkt – und diesmal bist du es.
-
-Hol dir dein Cashback, bevor sich die Flut wendet!
-promocode_button_1: CBF20
-button_text_1: BONUS SICHERN
-
-name: Email 5.1
-locale: fr-FR
-subject: 🏴‍☠️ Un cashback de 20 % vogue vers vous
-preheader: Un coffre a accosté tout seul !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: C’est la vigie qui l’a aperçu en premier – un coffre dérivant seul au milieu des vagues.
-
-Le capitaine l’a hissé à bord, son cadenas encore chaud, chauffé par le soleil. 💰
-
-Saisissez le code lors de votre dépôt pour réclamer un cashback de 20 %.
-text_5: L’océan sait à qui offrir ses cadeaux – et cette fois, c’est vous.
-
-Réclamez votre cashback avant que la marée ne tourne !
-promocode_button_1: CBF20
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 5.1
-locale: nl-NL
-subject: 🏴‍☠️ 20% cashback drijft jouw kant op
-preheader: Er kwam een kist aangespoeld!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: De uitkijk zag hem als eerste – een kist die in zijn eentje door de golven dreef. De kapitein trok hem aan boord, het slot nog warm van de zon. 💰 
-
-Vul code in bij je storting en claim 20% cashback.
-text_5: De oceaan weet wie hij wil belonen – en deze keer ben jij het. Claim je cashback voordat het tij keert!
-promocode_button_1: CBF20
-button_text_1: BONUS CLAIMEN
-
 name: Email 7.1
 locale: Default
 subject: 🌕 Get 70 Free Spins under the full moon
@@ -1033,46 +269,6 @@ text_5: Now the amulet glows for you… Power and gold await.
 Spin under the moon to claim your reward!
 promocode_button_1: WOLF491
 button_text_1: CLAIM BONUS
-
-name: Email 7.1
-locale: de-DE
-subject: 🌕 Hol dir 70 Freispiele im Licht des Vollmonds
-preheader: Diese Chance verschwindet mit dem ersten Sonnenlicht…
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Als der Sturm tobte, hielt der Captain das Wolfsamulett hoch – und das Meer gehorchte. Die Winde verneigten sich, die Wellen teilten sich, und das Schiff überstand die Nacht. 
-
-Gib bei deiner nächsten Einzahlung den Code ein und schalte 70 Freispiele auf Wolf Gold frei.
-text_5: Jetzt leuchtet das Amulett für dich. Macht und Gold warten auf dich. Dreh die Walzen im Mondlicht, um deine Belohnung zu holen!
-promocode_button_1: WOLF491
-button_text_1: BONUS SICHERN
-
-name: Email 7.1
-locale: fr-FR
-subject: 🌕 Obtenez 70 tours gratuits sous la pleine lune
-preheader: Cette offre disparaît avec les premiers rayons du soleil…
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Alors que la tempête faisait rage, le capitaine a brandi bien haut l’amulette du loup – et la mer a obéi. 
-
-Les vents se sont inclinés, les vagues se sont ouvertes et le navire a survécu. 
-
-Saisissez le code lors de votre dépôt pour débloquer 70 tours gratuits sur Wolf Gold.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: WOLF491
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 7.1
-locale: nl-NL
-subject: 🌕 Pak 70 Gratis Spins onder de volle maan
-preheader: Ze verdwijnt bij het eerste zonlicht…
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Toen de storm woedde, hield de kapitein het wolvenamulet hoog – en de zee gehoorzaamde. De winden bogen, de golven weken en het schip overleefde. 
-
-Vul code in bij je storting en ontgrendel 70 Gratis Spins op Wolf Gold.
-text_5: Nu gloeit het amulet voor jou… macht en goud wachten op je. Draai onder de volle maan en claim je beloning!
-promocode_button_1: WOLF491
-button_text_1: BONUS CLAIMEN
 
 name: Email 7.2
 locale: Default
@@ -1090,46 +286,6 @@ Spin under the moon to claim your reward!
 promocode_button_1: WOLF433
 button_text_1: CLAIM BONUS
 
-name: Email 7.2
-locale: de-DE
-subject: 🌕 Hol dir 75 Freispiele im Licht des Vollmonds
-preheader: Diese Chance verschwindet mit dem ersten Sonnenlicht…
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Als der Sturm tobte, hielt der Captain das Wolfsamulett hoch – und das Meer gehorchte. Die Winde verneigten sich, die Wellen teilten sich, und das Schiff überstand die Nacht. 
-
-Gib bei deiner nächsten Einzahlung den Code ein und schalte 75 Freispiele auf Wolf Gold frei.
-text_5: Jetzt leuchtet das Amulett für dich. Macht und Gold warten auf dich. Dreh die Walzen im Mondlicht, um deine Belohnung zu holen!
-promocode_button_1: WOLF433
-button_text_1: BONUS SICHERN
-
-name: Email 7.2
-locale: fr-FR
-subject: 🌕 Obtenez 75 tours gratuits sous la pleine lune
-preheader: Cette offre disparaît avec les premiers rayons du soleil…
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Alors que la tempête faisait rage, le capitaine a brandi bien haut l’amulette du loup – et la mer a obéi. 
-
-Les vents se sont inclinés, les vagues se sont ouvertes et le navire a survécu. 
-
-Saisissez le code lors de votre dépôt pour débloquer 75 tours gratuits sur Wolf Gold.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: WOLF433
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 7.2
-locale: nl-NL
-subject: 🌕 Pak 75 Gratis Spins onder de volle maan
-preheader: Ze verdwijnt bij het eerste zonlicht…
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Toen de storm woedde, hield de kapitein het wolvenamulet hoog – en de zee gehoorzaamde. De winden bogen, de golven weken en het schip overleefde. 
-
-Vul code in bij je storting en ontgrendel 75 Gratis Spins op Wolf Gold.
-text_5: Nu gloeit het amulet voor jou… macht en goud wachten op je. Draai onder de volle maan en claim je beloning!
-promocode_button_1: WOLF433
-button_text_1: BONUS CLAIMEN
-
 name: Email 7.3
 locale: Default
 subject: 🌕 Get 95 Free Spins under the full moon
@@ -1145,46 +301,6 @@ text_5: Now the amulet glows for you… Power and gold await.
 Spin under the moon to claim your reward!
 promocode_button_1: WOLF771
 button_text_1: CLAIM BONUS
-
-name: Email 7.3
-locale: de-DE
-subject: 🌕 Hol dir 95 Freispiele im Licht des Vollmonds
-preheader: Diese Chance verschwindet mit dem ersten Sonnenlicht…
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Als der Sturm tobte, hielt der Captain das Wolfsamulett hoch – und das Meer gehorchte. Die Winde verneigten sich, die Wellen teilten sich, und das Schiff überstand die Nacht. 
-
-Gib bei deiner nächsten Einzahlung den Code ein und schalte 95 Freispiele auf Wolf Gold frei.
-text_5: Jetzt leuchtet das Amulett für dich. Macht und Gold warten auf dich. Dreh die Walzen im Mondlicht, um deine Belohnung zu holen!
-promocode_button_1: WOLF771
-button_text_1: BONUS SICHERN
-
-name: Email 7.3
-locale: fr-FR
-subject: 🌕 Obtenez 95 tours gratuits sous la pleine lune
-preheader: Cette offre disparaît avec les premiers rayons du soleil…
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Alors que la tempête faisait rage, le capitaine a brandi bien haut l’amulette du loup – et la mer a obéi. 
-
-Les vents se sont inclinés, les vagues se sont ouvertes et le navire a survécu. 
-
-Saisissez le code lors de votre dépôt pour débloquer 95 tours gratuits sur Wolf Gold.
-text_5: Soyez rapide : la fortune nage vite.
-
-Accrochez vos tours gratuits et faites remonter votre chance !
-promocode_button_1: WOLF771
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 7.3
-locale: nl-NL
-subject: 🌕 Pak 95 Gratis Spins onder de volle maan
-preheader: Ze verdwijnt bij het eerste zonlicht…
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Toen de storm woedde, hield de kapitein het wolvenamulet hoog – en de zee gehoorzaamde. De winden bogen, de golven weken en het schip overleefde. 
-
-Vul code in bij je storting en ontgrendel 95 Gratis Spins op Wolf Gold.
-text_5: Nu gloeit het amulet voor jou… macht en goud wachten op je. Draai onder de volle maan en claim je beloning!
-promocode_button_1: WOLF771
-button_text_1: BONUS CLAIMEN
 
 name: Email 8.1
 locale: Default
@@ -1202,44 +318,6 @@ Claim your Cash Back and ride again!
 promocode_button_1: CBF20
 button_text_1: CLAIM BONUS
 
-name: Email 8.1
-locale: de-DE
-subject: 🌊 20 % Cashback aus der Tiefe zurückgeholt
-preheader: Die Piraten holten zurück, was das Meer ihnen genommen hatte!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Die Piraten jagten dem Sturm bis zum Morgengrauen nach – und fanden, was die Wellen verschlungen hatten. 💰 Gib bei deiner nächsten Einzahlung den Code ein, um 20 % Cashback freizuschalten und einen Teil deiner Verluste zurückzuholen. 
-
-Ein Tropfen Gold nach dem anderen kehrt zurück – ein Teil deiner Verluste wird rückgängig gemacht.
-text_5: Denn selbst das Meer bezahlt seine Schulden. Hol dir dein Cashback und stich wieder in See!
-promocode_button_1: CBF20
-button_text_1: BONUS SICHERN
-
-name: Email 8.1
-locale: fr-FR
-subject: 🌊 Un cashback de 20 % remonté des profondeurs
-preheader: Les pirates ont repris ce que la mer avait volé !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Les pirates ont poursuivi la tempête jusqu’à l’aube – et retrouvé ce que les vagues avaient englouti. 💰 
-
-Saisissez le code pour débloquer un cashback de 20 % et récupérer votre fortune perdue
-text_5: Chaque goutte d’or est rendue, chaque perte effacée. Car même la mer paie ses dettes. Réclamez votre cashback et reprenez le large !
-promocode_button_1: CBF20
-button_text_1: RÉCLAMER LE BONUS
-
-name: Email 8.1
-locale: nl-NL
-subject: 🌊 20% cashback keert terug uit de diepte
-preheader: De piraten haalden terug wat de zee had gestolen!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: De piraten achtervolgden de storm tot aan de dageraad – en vonden wat de golven hadden opgeslokt. 💰 
-
-Vul code in bij je storting en ontgrendel 20% cashback om een deel van je verloren fortuin terug te halen. Een deel van je goud komt terug, een deel van je verlies wordt ongedaan gemaakt.
-text_5: Want zelfs de zee betaalt haar schulden. 
-
-Claim je cashback en zet opnieuw koers!
-promocode_button_1: CBF20
-button_text_1: BONUS CLAIMEN
-
 name: Email 3.1
 locale: Default
 subject: 🌪️ A storm of luck hit three brave sailors
@@ -1255,51 +333,6 @@ HeyHo roared with cheers - luck favors the daring, Captain.
 
 Will the next storm carry your name?
 button_text_1: PLAY NOW
-
-name: Email 3.1
-locale: de-DE
-subject: 🌪️ Ein Sturm des Glücks traf drei mutige Seeleute
-preheader: Das Meer hat diese Woche seine Gewinner gewählt!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Drei mutige Piraten stellten sich dem Sturm … und kehrten reicher zurück als Könige!
-
-C••••d holte sich 20.561 €. 
-Sn•••89 steckte 13.422 € ein. 
-O••65o sicherte sich gewaltige 33.863 € direkt aus der Schatztruhe des Meeres. 💰
-
-Bei HeyHo ertönten Jubelrufe – das Glück steht auf der Seite der Mutigen, Captain. Wird der nächste Sturm deinen Namen tragen?
-button_text_1: JETZT SPIELEN
-
-name: Email 3.1
-locale: fr-FR
-subject: 🌪️ Une tempête de chance a frappé trois pirates courageux
-preheader: La mer a choisi ses gagnants cette semaine !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: Trois pirates courageux ont affronté la tempête… et en sont sortis plus riches que des rois !
-
-C•••d a empoché 20 561 €.
-Sn•••89 a encaissé 13 422 €.
-O••56o a réclamé l’énorme somme de 33 863 €, tout droit sortie du coffre de la mer. 💰
-
-HeyHo a rugi d’acclamations – la chance sourit aux audacieux, Capitaine.
-
-La prochaine tempête portera-t-elle votre nom ?
-button_text_1: JOUER MAINTENANT
-
-name: Email 3.1
-locale: nl-NL
-subject: 🌪️ Een storm van geluk trof drie dappere zeelui
-preheader: De zee heeft deze week haar winnaars gekozen!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: Drie dappere piraten trotseerden de storm… en kwamen rijker terug dan koningen zelf!
-
-C••d streek € 20.561 op.
-Sn•••89 pakte € 13.422 mee.
-O••55o claimde maar liefst € 33.863 rechtstreeks uit de schatkist van de zee. 💰
-Bij HeyHo klonk luid gejuich – geluk staat aan de kant van de durfals, kapitein.
-
-Zal de volgende storm jouw naam dragen?
-button_text_1: SPEEL NU
 
 name: Email 6.1
 locale: Default
@@ -1319,44 +352,3 @@ The sea took many, but blessed a fearless few.
 Who knows whose sails it will fill next?
 button_text_1: PLAY NOW
 
-name: Email 6.1
-locale: de-DE
-subject: 💰 Der Sturm des Glücks fegte durch HeyHo
-preheader: Drei Kapitäne kehrten mit prall gefüllten Taschen zurück!
-text_3: Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}!
-text_4: Die Nacht war dunkel, das Meer wild – und das Glück ruhelos. Bei Tagesanbruch lagen die Decks von drei Piraten voller Gold:
-
-Rn•••y88 – 31.299 € 
-Gs••9t – 29.448 € 
-Eb•••115 – 23.150 €
-
-Das Meer hat viele genommen, aber nur wenige Furchtlose gesegnet. Wer weiß, wessen Segel es als Nächstes füllt?
-button_text_1: JETZT SPIELEN
-
-name: Email 6.1
-locale: fr-FR
-subject: 💰 La tempête de fortune a balayé HeyHo
-preheader: Trois capitaines se sont réveillés les poches pleines !
-text_3: Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} !
-text_4: La nuit était sombre, la mer déchaînée – et la fortune en émoi. À l’aube, les ponts de trois pirates étaient couverts d’or : 
-
-Rny88 – 31 299 € 
-Gst – 29 448 € 
-Eb•••115 – 23 150 €
-
-La mer en a pris beaucoup, mais n’a béni qu’une poignée de téméraires. Qui sait quelles voiles elle remplira ensuite ?
-button_text_1: JOUER MAINTENANT
-
-name: Email 6.1
-locale: nl-NL
-subject: 💰 De storm van fortuin raasde over HeyHo
-preheader: Drie kapiteins kwamen bovendrijven met volle zakken!
-text_3: Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}!
-text_4: De nacht was donker, de zee woest – en het geluk onrustig. Bij zonsopkomst lagen de dekken van drie piraten vol goud: 
-
-Rn•••y88 – € 31.299 
-G••99st – € 29.448 
-Eb•••115 – € 23.150 
-
-De zee nam velen, maar zegende slechts een paar stormharde durfals. Wie weet wiens zeilen ze hierna zal vullen?
-button_text_1: SPEEL NU
