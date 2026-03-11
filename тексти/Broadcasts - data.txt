@@ -23,12 +23,14 @@ min.dep 30 EUR
 wager: x45
 
 Email #5
+PROMOCODE: 
 Day 1
 Сделать ставок на 30 евро и получишь 40 FS on HAND OF MIDAS 2
 wager: x40
 max win 50 EUR
 
 Email #6
+PROMOCODE: 
 Day 2
 Выиграть в суме 20 евро в любых слотах за день и плучишь 
 80 FS ON BOOK OF DEAD 
@@ -37,12 +39,14 @@ max win FS: 50 EUR
 max win cash bonus: 50 EUR
 
 Email #7
+PROMOCODE: 
 Day 3
 Сделать депозит на 25+ евро и получишь бонус ON BIG BASS BONANZA
 wager: x40
 max win 200 EUR
 
 Email #8 success
+PROMOCODE: 
 no-deposit 120 FS on BOOK OF DEAD
 wager: x40
 max win: 100 EUR
@@ -52,14 +56,12 @@ min.dep: 30 EUR
 wager: x40
 
 Email #8 not success
+PROMOCODE: 
 80% up to 350 EUR + 50 FS on 3 Coins
 min.dep: 30 EUR
 wager: x40
 
 Email #9
-Напоминания про лутбоксы
-
-Email #10
 PROMOCODE: 
 65% up to 350 EUR + 60 FS on Big Bass Bonanza
 min.dep 30 EUR
