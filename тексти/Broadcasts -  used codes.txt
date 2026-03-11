@@ -1,4 +1,5 @@
-﻿Promo Code	Offer	Game
+﻿Welcome Flow
+Promo Code	Offer	Game
 WELCOME1	15 FS (quick bonus)	Gates of Olympus
 WELCOME9TZ	250% + 50 FS	Shining Crown
 WELCOMEKQ1	20 FS (quick bonus)	Book of Dead
@@ -7,3 +8,28 @@ WELCOMESD7	250% + 70 FS	Reactoonz 2
 WELCOMEJP6	300% + 80 FS	Gates of Olympus
 WELCO100M	100 FS	Gates of Olympus
 
+DEP Retention
+Promo Code	Offer	Game
+UP100PWR	100%	
+NEXT150GO	150%	
+CBACK10X	10% CB	
+CBACK20X	20% CB	
+OLYM75	75 FS	Gates of Olympus
+SWEETBZ	100 FS	Sweet Bonanza
+RCTNZ150FS	150 FS	Reactoonz 2
+LGD180FS	180 FS	Legacy of Dead
+ROYAL200X	200 FS	Shining Crown
+HEY150	100% + 150 FS	Book of Dead
+50HPLAY100	50% + 100 FS	Gates of Olympus
+
+SU Retention
+Promo Code	Offer	Game
+BIGW325	325%	
+CASB10	10% CB	
+CASB20	20% CB	
+50SWEET	50 FS	Sweet Bonanza
+75OLYMP	75 FS	Gates of Olympus
+SUGGR	120 FS	Sugar Rush 1000
+HPLAY100	50% + 100 FS	Gates of Olympus
+HEY150	100% + 150 FS	Book of Dead
+BBSPLASH50	150% + 150 FS	Big Bass Splash
