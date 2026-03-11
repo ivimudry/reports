@@ -248,3 +248,10 @@ MANIAC25	25  Free Spins 	Gate of Olympus
 SPICY25	25  Free Spins	Gate of Olympus
 STAKERS25	25  Free Spins	Gate of Olympus
 
+Support bonuses
+Bonus name	На какой депозит	Бонус
+SORRY1		100% (от суммы депа)
+
+VIP Bonuses
+Промо код	На какой депозит	Бонус
+PERSONAL BONUS		15% CB
