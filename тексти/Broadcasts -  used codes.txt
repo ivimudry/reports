@@ -1,0 +1,9 @@
+﻿Promo Code	Offer	Game
+WELCOME1	15 FS (quick bonus)	Gates of Olympus
+WELCOME9TZ	250% + 50 FS	Shining Crown
+WELCOMEKQ1	20 FS (quick bonus)	Book of Dead
+WELCOME3FX	200% + 100 FS	Sweet Bonanza
+WELCOMESD7	250% + 70 FS	Reactoonz 2
+WELCOMEJP6	300% + 80 FS	Gates of Olympus
+WELCO100M	100 FS	Gates of Olympus
+
