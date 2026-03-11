@@ -1,1 +1,42 @@
-﻿
+﻿Email #1
+CLAIM YOUR 80% BONUS + 70 FS ON 3 COINS
+Email #2
+GET YOUR 100% BONUS
+Email #3
+CLAIM 100 FS ON STARBURST
+Email #4
+GET 90% BONUS + 90 FS ON BOOK OF DEAD
+Email #5
+COMPLETE DAY 1: CLAIM 40 FS ON HAND OF MIDAS 2
+Текст на баннере (nl-NL): VOLTOOI DAG 1: CLAIM 40 FS OP HAND OF MIDAS 2
+Email #6
+Текст на баннере (EN): COMPLETE DAY 2: GET 80 FS ON BOOK OF DEAD
+Изображение: Баннер “миссии/квест”: бейдж Day 2 + элементы/символы игры Book of Dead.
+Текст на баннере (fr-FR): TERMINEZ LE JOUR 2 : 80 FS SUR BOOK OF DEAD
+Текст на баннере (de-DE): TAG 2 ABSCHLIESSEN: 80 FS BEI BOOK OF DEAD
+Текст на баннере (nl-NL): VOLTOOI DAG 2: 80 FS OP BOOK OF DEAD
+Email #7
+Текст на баннере (EN): COMPLETE DAY 3: CLAIM 100 FS ON BIG BASS BONANZA
+Изображение: Баннер “миссии/квест”: бейдж Day 3 + элементы/символы игры Big Bass Bonanza.
+Текст на баннере (fr-FR): TERMINEZ LE JOUR 3 : RÉCLAMEZ 100 FS SUR BIG BASS BONANZA
+Текст на баннере (de-DE): TAG 3 ABSCHLIESSEN: 100 FS BEI BIG BASS BONANZA HOLEN
+Текст на баннере (nl-NL): VOLTOOI DAG 3: CLAIM 100 FS OP BIG BASS BONANZA
+
+Email #8 success
+Текст на баннере (EN): YOU DID IT: CLAIM 120 FS ON BOOK OF DEAD + 120% BONUS
+Изображение: Баннер “миссии выполнены”: бейдж Completed + элементы/символы игры Book of Dead.
+Текст на баннере (fr-FR): C’EST FAIT : RÉCLAMEZ 120 FS SUR BOOK OF DEAD + BONUS 120%
+Текст на баннере (de-DE): GESCHAFFT: HOL DIR 120 FS BEI BOOK OF DEAD + 120% BONUS
+Текст на баннере (nl-NL): GELUKT: CLAIM 120 FS OP BOOK OF DEAD + 120% BONUS
+Email #8 not success
+Текст на баннере (EN): ALMOST THERE: GET 80% BONUS + 50 FS ON 3 COINS
+Изображение: Баннер “миссии не завершены”: прогресс/незаполненный бейдж + элементы/символы игры 3 Coins.
+Текст на баннере (fr-FR): PRESQUE : OBTENEZ BONUS 80% + 50 FS SUR 3 COINS
+Текст на баннере (de-DE): FAST: HOL DIR 80% BONUS + 50 FS BEI 3 COINS
+Текст на баннере (nl-NL): BIJNA: PAK 80% BONUS + 50 FS OP 3 COINS
+Email #9
+Текст на баннере (EN): CLAIM 65% BONUS + 60 FS ON BIG BASS BONANZA
+Изображение: Баннер в стилистике Big Bass Bonanza, можно использовать элементы/символы из игры.
+Текст на баннере (fr-FR): RÉCLAMEZ 65% DE BONUS + 60 FS SUR BIG BASS BONANZA
+Текст на баннере (de-DE): HOL DIR 65% BONUS + 60 FS BEI BIG BASS BONANZA
+Текст на баннере (nl-NL): CLAIM 65% BONUS + 60 FS OP BIG BASS BONANZA
