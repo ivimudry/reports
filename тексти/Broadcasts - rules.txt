@@ -14,11 +14,24 @@ min.dep 30 EUR
 wager: x35
 
 Email #4
-GET 90% BONUS + 90 FS ON BOOK OF DEAD
+90% up to 350 EUR + 90 FS on Book of Dead
+min.dep 30 EUR
+wager: x45
+
 Email #5
-COMPLETE DAY 1: CLAIM 40 FS ON HAND OF MIDAS 2
+Day 1
+Сделать ставок на 30 евро и получишь 40 FS on HAND OF MIDAS 2
+wager: x40
+max win 50 EUR
+
 Email #6
-COMPLETE DAY 2: GET 80 FS ON BOOK OF DEAD
+Day 2
+Выиграть в суме 20 евро в любых слотах за день и плучишь 
+80 FS ON BOOK OF DEAD 
+wager cash + FS: x40
+max win FS: 50 EUR
+max win cash bonus: 50 EUR
+
 Email #7
 COMPLETE DAY 3: CLAIM 100 FS ON BIG BASS BONANZA
 
