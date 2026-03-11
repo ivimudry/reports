@@ -1,1 +1,120 @@
-﻿
+﻿Email #1
+Subject: 🪙 80% Bonus + 70 Free Spins on 3 Coins
+Preheader: A handful of gold just rolled onto your deck
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The crew pulled three golden coins out of the sand this morning. Still warm, still shining - like they were waiting just for you.
+
+Deposit min. 30 EUR and use code COINS80 to unlock 80% up to 350 EUR + 70 Free Spins on 3 Coins. Wager: x40.
+
+Coins like these don't sit around unclaimed for long - grab yours now and let the reels do the rest!
+CTA: GRAB YOUR BONUS
+
+
+Email #2
+Subject: 💰 100% Bonus up to 350 EUR - All Yours
+Preheader: Your next deposit is about to work twice as hard
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The vault below deck cracked open last night. Nobody expected it - but the gold inside is very real, Captain.
+
+Every coin you put in comes back doubled. Deposit min. 30 EUR and enter code MATCH100 to activate your 100% Bonus up to 350 EUR. Wager: x40.
+
+This kind of deal doesn't wait around - fill your chest before the vault locks shut!
+CTA: DOUBLE YOUR DEPOSIT
+
+
+Email #3
+Subject: ⭐ 100 Free Spins on Starburst Are Calling
+Preheader: Bright lights appeared above the harbor last night
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: Something strange lit up the sky above the port last night - bright flashes of color, one after another. The old sailor on the dock just smiled and said fortune is near.
+
+Deposit min. 30 EUR and apply code STAR100 to claim 100 Free Spins on Starburst. Wager: x35.
+
+The sky doesn't shine for everyone - take your spins and see what the stars drop!
+CTA: CLAIM FREE SPINS
+
+
+Email #4
+Subject: 📜 90% + 90 Free Spins - Book of Dead
+Preheader: An ancient scroll washed up with secrets inside
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: A sealed scroll surfaced after the storm - wrapped in old leather, covered in strange symbols. The crew cracked the seal and found a map pointing straight to hidden riches.
+
+Deposit min. 30 EUR and enter code DEAD90 to unlock 90% up to 350 EUR + 90 Free Spins on Book of Dead. Wager: x45.
+
+Follow the map and uncover the treasure before it disappears again!
+CTA: UNLOCK THE SCROLL
+
+
+Email #5
+Subject: 👑 Complete Today's Task - Get 40 Free Spins
+Preheader: One simple task and the golden reward is yours
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The Captain posted a new task on the mast early this morning. The rules are simple, the reward is golden.
+
+Place at least 30 EUR in bets today and your promo code MIDAS40 activates - granting you 40 Free Spins on Hand of Midas 2. Wager: x40. Max win: 50 EUR.
+
+This one closes tonight - finish the task and let the golden touch do the rest!
+CTA: TAKE THE CHALLENGE
+
+
+Email #6
+Subject: 📖 Win 20 EUR in Slots - Get 80 Free Spins
+Preheader: Today's mission could fill your deck with spins
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: New orders came from the Captain's cabin - today is all about the reels.
+
+Win a total of 20 EUR in any slot games today and promo code DEAD80 goes live - giving you 80 Free Spins on Book of Dead. Wager: x40. Max win FS: 50 EUR. Max win cash bonus: 50 EUR.
+
+The clock's running - hit the slots now and unlock your spins before the day ends!
+CTA: START THE MISSION
+
+
+Email #7
+Subject: 🐟 Deposit 25+ EUR Today - Big Bass Bonanza Bonus
+Preheader: One deposit and the big catch is all yours
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The sea is calm today, the fish are biting hard, and the Captain says this is the perfect moment for a big catch.
+
+Make a deposit of 25 EUR or more today and promo code BASS25 activates - unlocking your bonus on Big Bass Bonanza. Wager: x40. Max win: 200 EUR.
+
+Don't let this one swim away - drop your line and reel in the reward before midnight!
+CTA: DEPOSIT NOW
+
+
+Email #8 success
+Subject: 🏆 120 Free Spins No-Deposit + 120% Bonus
+Preheader: You've earned something truly rare - take a look
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The Captain raised a glass to you - few sailors earn a double reward like this one.
+
+Use code DEAD120 right now for 120 Free Spins on Book of Dead - no deposit needed. Wager: x40. Max win: 100 EUR.
+
+Then deposit min. 30 EUR to add 120% up to 350 EUR on top. Wager: x40.
+
+Two prizes in one chest - crack it open and take what's yours!
+CTA: CLAIM YOUR REWARD
+
+
+Email #8 not success
+Subject: 💎 80% Bonus + 50 Free Spins on 3 Coins
+Preheader: A fresh deal just washed up on your shore
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The tide brought something shiny to the dock this morning - a small chest packed with coins and ready to share its treasure.
+
+Deposit min. 30 EUR and use code COINS50 to get 80% up to 350 EUR + 50 Free Spins on 3 Coins. Wager: x40.
+
+Pop the lid and let the coins roll - your next big win could be just one spin away!
+CTA: GET YOUR BONUS
+
+
+Email #9
+Subject: 🎣 65% + 60 Free Spins on Big Bass Bonanza
+Preheader: The biggest fish of the season is on the hook
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: Word spread fast across the docks this morning - someone spotted the biggest bass anyone has seen in years. Every pirate on the shore grabbed a rod and ran for the water.
+
+Deposit min. 30 EUR and enter code BASS65 to land 65% up to 350 EUR + 60 Free Spins on Big Bass Bonanza. Wager: x40.
+
+Cast your line and pull in the biggest catch of the season - this fish won't wait!
+CTA: CATCH YOUR BONUS
