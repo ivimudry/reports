@@ -52,10 +52,22 @@ Preheader: One simple task and the golden reward is yours
 Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
 Body: The Captain posted a new task on the mast early this morning. The rules are simple, the reward is golden.
 
-Place at least 30 EUR in bets today and your promo code MIDAS40 activates - granting you 40 Free Spins on Hand of Midas 2. Wager: x40. Max win: 50 EUR.
+Place at least 30 EUR in bets today to unlock 40 Free Spins on Hand of Midas 2. Wager: x40. Max win: 50 EUR.
 
-This one closes tonight - finish the task and let the golden touch do the rest!
+This one closes tonight - finish the task and the golden touch is all yours!
 CTA: TAKE THE CHALLENGE
+
+
+Email #5 success
+Subject: 👑 You Did It - 40 Free Spins Unlocked
+Preheader: Your promo code is ready and waiting
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The Captain checked the list and your name is on it - task complete, reward earned.
+
+Use code MIDAS40 to claim your 40 Free Spins on Hand of Midas 2. Wager: x40. Max win: 50 EUR.
+
+The golden touch is yours now - spin the reels and see what Midas has in store!
+CTA: CLAIM YOUR SPINS
 
 
 Email #6
@@ -64,10 +76,22 @@ Preheader: Today's mission could fill your deck with spins
 Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
 Body: New orders came from the Captain's cabin - today is all about the reels.
 
-Win a total of 20 EUR in any slot games today and promo code DEAD80 goes live - giving you 80 Free Spins on Book of Dead. Wager: x40. Max win FS: 50 EUR. Max win cash bonus: 50 EUR.
+Win a total of 20 EUR in any slot games today to unlock 80 Free Spins on Book of Dead. Wager: x40. Max win FS: 50 EUR. Max win cash bonus: 50 EUR.
 
-The clock's running - hit the slots now and unlock your spins before the day ends!
+The clock's running - hit the slots now and earn your spins before the day ends!
 CTA: START THE MISSION
+
+
+Email #6 success
+Subject: 📖 Mission Complete - 80 Free Spins Are Yours
+Preheader: You earned it fair and square - here's the proof
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The reels spoke and you listened - mission accomplished, Captain.
+
+Enter code DEAD80 to collect your 80 Free Spins on Book of Dead. Wager: x40. Max win FS: 50 EUR. Max win cash bonus: 50 EUR.
+
+The ancient pages are open - dive in and claim what the book holds for you!
+CTA: GRAB YOUR SPINS
 
 
 Email #7
@@ -76,10 +100,22 @@ Preheader: One deposit and the big catch is all yours
 Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
 Body: The sea is calm today, the fish are biting hard, and the Captain says this is the perfect moment for a big catch.
 
-Make a deposit of 25 EUR or more today and promo code BASS25 activates - unlocking your bonus on Big Bass Bonanza. Wager: x40. Max win: 200 EUR.
+Make a deposit of 25 EUR or more today to unlock your bonus on Big Bass Bonanza. Wager: x40. Max win: 200 EUR.
 
-Don't let this one swim away - drop your line and reel in the reward before midnight!
+Don't let this one swim away - drop your deposit and the reward is on the hook!
 CTA: DEPOSIT NOW
+
+
+Email #7 success
+Subject: 🐟 Bonus Unlocked - Big Bass Bonanza Awaits
+Preheader: Your deposit came through and so did the bonus
+Greeting: {{ customer.first_name | default:"Brave Adventurer" | capitalize }}
+Body: The deposit landed and the sea delivered - your bonus is ready and waiting, Captain.
+
+Use code BASS25 to activate your bonus on Big Bass Bonanza. Wager: x40. Max win: 200 EUR.
+
+Cast your line now - the big catch of the day has your name on it!
+CTA: REEL IN YOUR BONUS
 
 
 Email #8 success
