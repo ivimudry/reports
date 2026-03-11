@@ -59,6 +59,7 @@ max win: 100 EUR
 120% up to 350 EUR
 min.dep: 30 EUR
 wager: x40
+Тут мається на увазі що користувач виконав умови всіх трьох бонусів з листів 5 6 та 7.
 
 Email #8 not success
 PROMOCODE: COINS50
