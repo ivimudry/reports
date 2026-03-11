@@ -42,7 +42,6 @@ Email #8 success
 no-deposit 120 FS on BOOK OF DEAD
 wager: x40
 max win: 100 EUR
-
 + бонус на депозит:
 120% up to 350 EUR
 min.dep: 30 EUR
@@ -54,4 +53,6 @@ min.dep: 30 EUR
 wager: x40
 
 Email #9
-CLAIM 65% BONUS + 60 FS ON BIG BASS BONANZA
+Напоминания про лутбоксы
+
+Email #10
