@@ -80,6 +80,57 @@ SUGAR90	220% + 90 FS	Big Bass Splash
 OLYGA050	50 FS	Gates of Olympus
 
 Nutrition 2
+Promo Code	Offer	Game
+GIVEMEMORE7XR	15 FS (quick bonus)	Sweet Bonanza
+GIVEMEMOREQ19	250% + 50 FS	Sweet Bonanza
+GIVEMEMORELZ8	20 FS (quick bonus)	Sweet Bonanza
+GIVEMEMOREKD3	200% + 100 FS	Sweet Bonanza
+GIVEMEMOREXA2	250% + 70 FS	Sweet Bonanza
+GIVEMEMOREVNP	300% + 80 FS	Sweet Bonanza
+GIVEMEMORE93K	100% + 60 FS	Sugar Rush 1000
+GIVEMEMOREWT6	120% + 70 FS	Sugar Rush 1000
+GIVEMEMOREBQ5	130% + 50 FS	Sweet Bonanza
+GIVEMEMOREM7J	140% + 50 FS	Sweet Bonanza
+GIVEMEMORED4Y	100% + 40 FS	Sugar Rush 1000
+GIVEMEMOREZC1	110% + 30 FS	Sweet Bonanza
+GIVEMEMORE8UJ	120% + 30 FS	Sweet Bonanza
+GIVEMEMOREFQ0	150% + 50 FS	Sweet Bonanza
+GIVEMEMORET2S	150% + 40 FS	Book of Dead
+RUSH30	160% + 30 FS	Book of Dead
+OLYMPGOLD	160%	-
+GOLDBOOK	165%	-
+RUSH1000	170%	-
+LEGA10	180%	-
+BOOK30	180% + 30 FS	Book of Dead
+
+Nutrition 3
+Promo Code	Offer	Game
+STAR50	50 FS	Starburst
+STAR55	55 FS	Starburst
+STAR60	60 FS	Starburst
+BASS60	60 FS	Big Bass Splash
+STAR70	70 FS	Starburst
+BASS70	70 FS	Big Bass Splash
+BASS75	75 FS	Big Bass Splash
+BASS80	80 FS	Big Bass Splash
+BASS90	90 FS	Big Bass Splash
+BASS110	110 FS	Big Bass Splash
+STAR507	50 FS + 70%	Starburst
+WOLF509	50 FS + 90%	Wolf Gold
+STAR501	50 FS + 100%	Starburst
+WOLF609	60 FS + 90%	Wolf Gold
+WOLF601	60 FS + 100%	Wolf Gold
+WOLF605	60 FS + 105%	Wolf Gold
+WOLF701	70 FS + 100%	Wolf Gold
+WOLF711	70 FS + 110%	Wolf Gold
+WOLF911	90 FS + 110%	Wolf Gold
+BASS101	100 FS + 110%	Big Bass Splash
+CB20	20% CB	-
+
+Nutrition 4
 
 
-Nutri
+Nutrition 5
+
+
+Nutrition 6
