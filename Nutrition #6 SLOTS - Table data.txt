@@ -30,6 +30,22 @@ Claim your spins before the tide retreats!
 promocode_button_1: GOLD50
 button_text_1: CLAIM BONUS
 
+name: Email 3.1
+locale: Default
+subject: 🌪️ A storm of luck hit three brave sailors
+preheader: The sea chose its winners this week!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: Three brave pirates faced the storm… and came out richer than kings themselves!
+
+C•••••d hauled in €20,561
+S••n89 pocketed €13,422
+O•••••o claimed a mighty €33,863 straight from the sea’s chest. 💰
+
+HeyHo roared with cheers - luck favors the daring, Captain.
+
+Will the next storm carry your name?
+button_text_1: PLAY NOW
+
 name: Email 4.1
 locale: Default
 subject: 💥 40 FS + 55% to celebrate the legend
@@ -62,6 +78,24 @@ Claim your Cash Back before the tide turns!
 promocode_button_1: CBF20
 button_text_1: CLAIM BONUS
 
+name: Email 6.1
+locale: Default
+subject: 💰 The storm of fortune swept through HeyHo
+preheader: Three captains rose with pockets full!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: The night was dark, the sea wild - and fortune restless.
+
+By dawn, three pirates had their decks covered in gold:
+
+R••••••ny88 – €31,299
+G••••••st – €29,448
+Eb•••115 – €23,150
+
+The sea took many, but blessed a fearless few.
+
+Who knows whose sails it will fill next?
+button_text_1: PLAY NOW
+
 name: Email 7.1
 locale: Default
 subject: 🌕 Get 70 Free Spins under the full moon
@@ -93,38 +127,3 @@ text_5: Because even the sea pays its debts.
 Claim your Cash Back and ride again!
 promocode_button_1: CBF20
 button_text_1: CLAIM BONUS
-
-name: Email 3.1
-locale: Default
-subject: 🌪️ A storm of luck hit three brave sailors
-preheader: The sea chose its winners this week!
-text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
-text_4: Three brave pirates faced the storm… and came out richer than kings themselves!
-
-C•••••d hauled in €20,561
-S••n89 pocketed €13,422
-O•••••o claimed a mighty €33,863 straight from the sea’s chest. 💰
-
-HeyHo roared with cheers - luck favors the daring, Captain.
-
-Will the next storm carry your name?
-button_text_1: PLAY NOW
-
-name: Email 6.1
-locale: Default
-subject: 💰 The storm of fortune swept through HeyHo
-preheader: Three captains rose with pockets full!
-text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
-text_4: The night was dark, the sea wild - and fortune restless.
-
-By dawn, three pirates had their decks covered in gold:
-
-R••••••ny88 – €31,299
-G••••••st – €29,448
-Eb•••115 – €23,150
-
-The sea took many, but blessed a fearless few.
-
-Who knows whose sails it will fill next?
-button_text_1: PLAY NOW
-
