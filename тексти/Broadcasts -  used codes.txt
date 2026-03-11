@@ -128,9 +128,78 @@ BASS101	100 FS + 110%	Big Bass Splash
 CB20	20% CB	-
 
 Nutrition 4
-
+Promo Code	Offer	Game
+OINK50	50 FS	Oink Oink Oink
+OINK55	55 FS	Oink Oink Oink
+OINK60	60 FS	Oink Oink Oink
+BAND60	60 FS	Le Bandit
+OINK70	70 FS	Oink Oink Oink
+BAND70	70 FS	Le Bandit
+BAND75	75 FS	Le Bandit
+BAND80	80 FS	Le Bandit
+BAND90	90 FS	Le Bandit
+BAND110	110 FS	Le Bandit
+OINK507	50 FS + 70%	Oink Oink Oink
+BOOK509	50 FS + 90%	Book of Dead
+OINK501	50 FS + 100%	Oink Oink Oink
+BOOK609	60 FS + 90%	Book of Dead
+BOOK601	60 FS + 100%	Book of Dead
+BOOK605	60 FS + 105%	Book of Dead
+BOOK701	70 FS + 100%	Book of Dead
+BOOK711	70 FS + 110%	Book of Dead
+BOOK911	90 FS + 110%	Book of Dead
+BAND101	100 FS + 110%	Le Bandit
+CB20D	20% CB	-
 
 Nutrition 5
-
+Promo Code	Offer	Game
+MID45	45 FS	Hand of Midas 2
+MID50	50 FS	Hand of Midas 2
+MID55	55 FS	Hand of Midas 2
+CAND55	55 FS	Candy Boom
+MID65	65 FS	Hand of Midas 2
+CAND65	65 FS	Candy Boom
+CAND70	70 FS	Candy Boom
+CAND75	75 FS	Candy Boom
+CAND80	80 FS	Candy Boom
+CAND100	100 FS	Candy Boom
+MID456	45 FS + 60%	Hand of Midas 2
+COIN457	45 FS + 74%	3 Coins
+MID458	45 FS + 82%	Hand of Midas 2
+COIN557	55 FS + 74%	3 Coins
+COIN558	55 FS + 82%	3 Coins
+COIN556	55 FS + 86%	3 Coins
+COIN658	65 FS + 82%	3 Coins
+COIN659	65 FS + 90%	3 Coins
+COIN809	80 FS + 90%	3 Coins
+CAND909	90 FS + 90%	3 Coins
+CB20E	20% CB	-
 
 Nutrition 6
+Promo Code	Offer	Game
+BASS40	40 FS	Big Bass Bonanza
+BASS45	45 FS	Big Bass Bonanza
+BASS50	50 FS	Big Bass Bonanza
+GOLD50	50 FS	Gold Rush
+BBAS60	60 FS	Big Bass Bonanza
+GOLD60	60 FS	Gold Rush
+GOLD65	65 FS	Gold Rush
+WOLF478	65 FS	Wolf Gold
+GOLD70	70 FS	Gold Rush
+WOLF491	70 FS	Wolf Gold
+GOLD75	75 FS	Gold Rush
+WOLF433	75 FS	Wolf Gold
+GOLD95	95 FS	Gold Rush
+WOLF771	95 FS	Wolf Gold
+BASS455	40 FS + 55%	Big Bass Bonanza
+BONZ469	40 FS + 69%	Sweet Bonanza
+BASS477	40 FS + 77%	Big Bass Bonanza
+BONZ569	50 FS + 69%	Sweet Bonanza
+BONZ577	50 FS + 77%	Sweet Bonanza
+BONZ581	50 FS + 81%	Sweet Bonanza
+BONZ677	60 FS + 77%	Sweet Bonanza
+BONZ685	60 FS + 85%	Sweet Bonanza
+BONZ785	75 FS + 85%	Sweet Bonanza
+GOLD885	85 FS + 85%	Sweet Bonanza
+CBF20	20% CB	-
+
