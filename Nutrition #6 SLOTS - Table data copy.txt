@@ -1,0 +1,129 @@
+﻿name: Email 1.1
+locale: Default
+subject: 🐠 40 Free Spins are swimming your way
+preheader: The pirate caught a golden fish!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: No tale this time, Captain - the pirate really caught the golden fish! 🪙
+
+It flopped on deck, whispering luck and gold.
+
+Enter code when you deposit and claim 40 Free Spins to test your fate in Big Bass Bonanza.
+text_5: Be quick - fortune swims fast.
+
+Hook your spins and reel in your luck!
+promocode_button_1: BASS40
+button_text_1: CLAIM BONUS
+
+name: Email 2.1
+locale: Default
+subject: 💛 50 Free Spins from the sea’s own chest
+preheader: Your move, Captain!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: The sea has moods - and tonight, it’s generous.
+
+A golden nugget rolled onto the deck, still warm from the deep. ⚓
+
+Enter code when you deposit to get 50 Free Spins on Gold Rush.
+text_5: The waves gave you a sign - follow it toward the jackpot.
+
+Claim your spins before the tide retreats!
+promocode_button_1: GOLD50
+button_text_1: CLAIM BONUS
+
+name: Email 3.1
+locale: Default
+subject: 🌪️ A storm of luck hit three brave sailors
+preheader: The sea chose its winners this week!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: Three brave pirates faced the storm… and came out richer than kings themselves!
+
+C•••••d hauled in €20,561
+S••n89 pocketed €13,422
+O•••••o claimed a mighty €33,863 straight from the sea’s chest. 💰
+
+HeyHo roared with cheers - luck favors the daring, Captain.
+
+Will the next storm carry your name?
+button_text_1: PLAY NOW
+
+name: Email 4.1
+locale: Default
+subject: 💥 40 FS + 55% to celebrate the legend
+preheader: The golden bass is real - and it’s huge!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: For years they called it a myth - a fish made of pure gold.
+
+But today, the pirates proved them wrong. ⚓
+
+Use code when you deposit to get 40 Free Spins + 55% on Big Bass Bonanza.
+text_5: The legend’s been caught - and the sea still shimmers with its trail behind.
+
+Join the crew and claim your golden catch!
+promocode_button_1: GOLD50
+button_text_1: CLAIM BONUS
+
+name: Email 5.1
+locale: Default
+subject: 🏴‍☠️ 20% Cash Back floats your way
+preheader: A chest sailed in by itself!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: The lookout spotted it first - a chest drifting on its own through the waves.
+
+The Captain hauled it aboard, the lock still warm from the sun. 💰
+
+Use code when you deposit and claim 20% Cash Back.
+text_5: The ocean knows who to gift - and this time, it’s you.
+
+Claim your Cash Back before the tide turns!
+promocode_button_1: CBF20
+button_text_1: CLAIM BONUS
+
+name: Email 6.1
+locale: Default
+subject: 💰 The storm of fortune swept through HeyHo
+preheader: Three captains rose with pockets full!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: The night was dark, the sea wild - and fortune restless.
+
+By dawn, three pirates had their decks covered in gold:
+
+R••••••ny88 – €31,299
+G••••••st – €29,448
+Eb•••115 – €23,150
+
+The sea took many, but blessed a fearless few.
+
+Who knows whose sails it will fill next?
+button_text_1: PLAY NOW
+
+name: Email 7.1
+locale: Default
+subject: 🌕 Get 70 Free Spins under the full moon
+preheader: It disappears with the sunlight…
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: When the storm raged, Captain held the wolf amulet high - and the sea obeyed. 
+
+The winds bowed, the waves parted, and the ship survived.
+
+Enter code when you deposit to unlock 70 Free Spins on Wolf Gold.
+text_5: Now the amulet glows for you… Power and gold await.
+
+Spin under the moon to claim your reward!
+promocode_button_1: WOLF491
+button_text_1: CLAIM BONUS
+
+name: Email 8.1
+locale: Default
+subject: 🌊 20% Cash Back recovered from the deep
+preheader: The pirates took back what the sea stole!
+text_3: Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!
+text_4: The pirates chased the storm till dawn - and found what the waves had swallowed. 💰
+
+Use code to unlock 20% Cash Back and recover your lost fortune.
+
+Every drop of gold returned, every loss reversed.
+text_5: Because even the sea pays its debts.
+
+Claim your Cash Back and ride again!
+promocode_button_1: CBF20
+button_text_1: CLAIM BONUS
