@@ -28,6 +28,7 @@ Day 1
 Сделать ставок на 30 евро и получишь 40 FS on HAND OF MIDAS 2
 wager: x40
 max win 50 EUR
+Виконати умови бонуса потрібно в день отриманн листа
 
 Email #6
 PROMOCODE: DEAD80
