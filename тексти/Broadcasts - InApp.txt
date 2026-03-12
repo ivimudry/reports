@@ -1,0 +1,63 @@
+InApp #1
+Body: Deposit min. 30 EUR and use code COINS80 to unlock 80% up to 350 EUR + 70 Free Spins on 3 Coins. Wager: x40. Grab the coins before they vanish!
+CTA: COINS80
+
+
+InApp #2
+Body: Deposit min. 30 EUR and enter code MATCH100 to double up with 100% Bonus up to 350 EUR. Wager: x40. Fill your chest while the vault is open!
+CTA: MATCH100
+
+
+InApp #3
+Body: Deposit min. 30 EUR and apply code STAR100 to claim 100 Free Spins on Starburst. Wager: x35. Take your spins and see what the stars drop!
+CTA: STAR100
+
+
+InApp #4
+Body: Deposit min. 30 EUR and enter code DEAD90 to unlock 90% up to 350 EUR + 90 Free Spins on Book of Dead. Wager: x45. Crack the seal and claim the treasure!
+CTA: DEAD90
+
+
+InApp #5
+Body: Place at least 30 EUR in bets today to unlock 40 Free Spins on Hand of Midas 2. Wager: x40. Max win: 50 EUR. Complete the task and the golden touch is yours!
+CTA: TAKE THE CHALLENGE
+
+
+InApp #5 success
+Body: Task complete - use code MIDAS40 to claim your 40 Free Spins on Hand of Midas 2. Wager: x40. Max win: 50 EUR. Spin the reels and see what Midas has in store!
+CTA: MIDAS40
+
+
+InApp #6
+Body: Win a total of 20 EUR in any slot games today to unlock 80 Free Spins on Book of Dead. Wager: x40. Max win FS: 50 EUR. Max win cash bonus: 50 EUR. Hit the slots and earn your spins!
+CTA: START THE MISSION
+
+
+InApp #6 success
+Body: Mission accomplished - enter code DEAD80 to collect your 80 Free Spins on Book of Dead. Wager: x40. Max win FS: 50 EUR. Max win cash bonus: 50 EUR. Dive in and claim what the book holds!
+CTA: DEAD80
+
+
+InApp #7
+Body: Make a deposit of 25 EUR or more today to unlock your bonus on Big Bass Bonanza. Wager: x40. Max win: 200 EUR. Drop your deposit and the reward is on the hook!
+CTA: DEPOSIT NOW
+
+
+InApp #7 success
+Body: Bonus unlocked - use code BASS25 to activate your bonus on Big Bass Bonanza. Wager: x40. Max win: 200 EUR. Cast your line and reel in the big catch!
+CTA: BASS25
+
+
+InApp #8 success
+Body: Use code DEAD120 right now for 120 Free Spins on Book of Dead - no deposit needed. Wager: x40. Max win: 100 EUR. Then deposit min. 30 EUR to add 120% up to 350 EUR on top. Wager: x40. Crack it open and take what's yours!
+CTA: DEAD120
+
+
+InApp #8 not success
+Body: Deposit min. 30 EUR and use code COINS50 to get 80% up to 350 EUR + 50 Free Spins on 3 Coins. Wager: x40. Pop the lid and let the coins roll!
+CTA: COINS50
+
+
+InApp #9
+Body: Deposit min. 30 EUR and enter code BASS65 to land 65% up to 350 EUR + 60 Free Spins on Big Bass Bonanza. Wager: x40. Pull in the biggest catch of the season!
+CTA: BASS65
