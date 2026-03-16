@@ -17,6 +17,7 @@ It is time to make your move.
 Deposit now and take your place in the game.
 May your instincts guide you.
 button_text_1: DEPOSIT AND PLAY NOW
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
 Email #2
 Subject: 💥 Claim your bonus: 100% Bonus Await!
@@ -27,7 +28,7 @@ text_2: Your first deposit at PantherBet doesn't just get you in - it gets you d
 Up to R3 000 in bonus funds on your first deposit.
 Deposit any amount and we match it 100% - more funds, more spins, more chances to win.
 button_text_1: Claim Bonus
-
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
 Email #3
 Subject: ⏳ Your 100% bonus is still waiting
@@ -36,6 +37,7 @@ text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: Your 120% welcome bonus is still active - but not forever.
 Make your first deposit now and start playing with more than double your balance!
 button_text_1: Claim Bonus
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
 Email #4
 Subject: ⚡ 120% on your first deposit!
@@ -46,6 +48,7 @@ text_2: You know what time it is? Time for a BIG bonus!
 Get a 120% bonus up to R3,600 on your first deposit. Enter code ENH1 while making a deposit to claim your reward.
 It’s the one serious head start!
 button_text_1: Claim Bonus
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
 Email #5
 Subject: 🔥 Your 120% bonus is still waiting
@@ -55,6 +58,7 @@ text_2: Your enhanced reward won’t last forever—this is your last call! So, 
 Use code ENH1 and we'll top up your deposit by 120%, giving you up to R3 600 in bonus funds. 
 The offer is on the table; the next move is yours.
 button_text_1: Claim Bonus
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
 Email #6
 Subject: 🏆 Last week's biggest cashouts
