@@ -1,11 +1,11 @@
 Email #1
 Subject: 🎰 Your Welcome Pack is ready!
 Preheader: You're one step away from something big
-text_1:
-Hey [Name],
-There is a reason why the best players choose Pantherbet.
+text_1: Hey [Name],
+text_2: There is a reason why the best players choose Pantherbet.
 It is about the atmosphere, the precision, and the thrill of a successful hunt.
 No distractions - just pure, high-end gaming for those who know what they want.
+
 To mark your arrival, we have prepared a Welcome Pack.
 
 Up to R10 000 + 175 Free Spins across 3 deposits.
