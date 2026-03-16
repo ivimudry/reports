@@ -52,28 +52,27 @@ Subject: 🔥 Your 120% bonus is still waiting
 Preheader: Don't let this one slip through…
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: Your enhanced reward won’t last forever—this is your last call! So, what are you waiting for?
-Use code ENH1 and we'll top up your deposit by 120%, giving you up to R3 600 in bonus funds. The offer is on the table; the next move is yours.
-
-[ Copy promo code ] 
-[ Claim Bonus ]
+Use code ENH1 and we'll top up your deposit by 120%, giving you up to R3 600 in bonus funds. 
+The offer is on the table; the next move is yours.
+Button: Claim Bonus
 
 Email #6
 Subject: 🏆 Last week's biggest cashouts
 Preheader: These Panthers didn't hold back
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-While you're thinking about it, other Panthers are already cashing out. Last week's top three:
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: While you're thinking about it, other Panthers are already cashing out. Last week's top three:
 
 🥇 Ale•••••95 - R27 341
 🥈 Khu••••41 - R22 187
 🥉 Tha•••••••07 - R19 068
 
 Same games you can play right now. They just didn't wait.
-[ Start Playing ]
+Button: Start Playing
+
 Email #7
 Subject: ✈️ 100 Free Spins on Aviator just landed!
 Preheader: Time to fly high!
-text_1:
+text_1: 
 Your 100 Free Spins on Aviator are ready for takeoff! ✈️
 Use code XXXX to fuel up and start winning.
 Don't wait—this offer will be gone before you can say "cash out!"
