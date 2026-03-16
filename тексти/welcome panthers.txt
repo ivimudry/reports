@@ -22,24 +22,20 @@ Email #2
 Subject: 💥 Claim your bonus: 100% Bonus Await!
 Preheader: The time has come…
 text_1: Hey {{customer.first_name | default:"friend"}},
-Your first deposit at PantherBet doesn't just get you in - it gets you double. Make your move today and claim a 100% match bonus from the moment you land.
+text_2: Your first deposit at PantherBet doesn't just get you in - it gets you double. Make your move today and claim a 100% match bonus from the moment you land.
 
-[ REGULAR OFFER ]
 Up to R3 000 in bonus funds on your first deposit.
 Deposit any amount and we match it 100% - more funds, more spins, more chances to win.
-[ Claim Bonus ]
+Button: Claim Bonus
 
 
 Email #3
 Subject: ⏳ Your 100% bonus is still waiting
 Preheader: Don't let this one slip through
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-Your 120% welcome bonus is still active - but not forever.
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Your 120% welcome bonus is still active - but not forever.
 Make your first deposit now and start playing with more than double your balance!
-
-
-[ Claim Bonus ]
+Button: Claim Bonus
 
 Email #4
 Subject: ⚡ 120% on your first deposit!
