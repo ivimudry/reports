@@ -72,25 +72,20 @@ Button: Start Playing
 Email #7
 Subject: ✈️ 100 Free Spins on Aviator just landed!
 Preheader: Time to fly high!
-text_1: 
-Your 100 Free Spins on Aviator are ready for takeoff! ✈️
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Your 100 Free Spins on Aviator are ready for takeoff! ✈️
 Use code XXXX to fuel up and start winning.
 Don't wait—this offer will be gone before you can say "cash out!"
+Button: Claim Bonus
 
-[ Copy promo code ] 
-[ Claim Bonus ]
 Email #8
 Subject: 👨‍✈️ Don’t lose your 100 FS on Aviator!
 Preheader: Time flies…
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-
-
-Time is running out! Your 100 Free Spins on Aviator are about to expire.
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Time is running out! Your 100 Free Spins on Aviator are about to expire.
 Use code XXXX when you deposit to claim them before they're gone for good!
+Button: Claim Bonus
 
-[ Copy promo code ] 
-[ Claim Bonus ]
 Email #9
 Subject: ⛈️ Zeus has granted you 150 Free Spins
 Preheader: Claim them before they strike!
