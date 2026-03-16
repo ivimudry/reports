@@ -1,7 +1,7 @@
 Email #1
 Subject: 🎰 Your Welcome Pack is ready!
 Preheader: You're one step away from something big
-text_1: Hey [Name],
+text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: There is a reason why the best players choose Pantherbet.
 It is about the atmosphere, the precision, and the thrill of a successful hunt.
 
@@ -21,8 +21,7 @@ Button: DEPOSIT AND PLAY NOW
 Email #2
 Subject: 💥 Claim your bonus: 100% Bonus Await!
 Preheader: The time has come…
-text_1:
-Hey [Name],
+text_1: Hey {{customer.first_name | default:"friend"}},
 Your first deposit at PantherBet doesn't just get you in - it gets you double. Make your move today and claim a 100% match bonus from the moment you land.
 
 [ REGULAR OFFER ]
@@ -35,7 +34,7 @@ Email #3
 Subject: ⏳ Your 100% bonus is still waiting
 Preheader: Don't let this one slip through
 text_1:
-Hey [Name],
+Hey {{customer.first_name | default:"friend"}},
 Your 120% welcome bonus is still active - but not forever.
 Make your first deposit now and start playing with more than double your balance!
 
@@ -46,7 +45,7 @@ Email #4
 Subject: ⚡ 120% on your first deposit!
 Preheader: PantherBet rewards those who don't hesitate
 text_1:
-Hey [Name],
+Hey {{customer.first_name | default:"friend"}},
 You know what time it is? Time for a BIG bonus! 
 
 Get a 120% bonus up to R3,600 on your first deposit. Enter code ENH1 while making a deposit to claim your reward.
@@ -57,7 +56,7 @@ Email #5
 Subject: 🔥 Your 120% bonus is still waiting
 Preheader: Don't let this one slip through…
 text_1:
-Hey [Name],
+Hey {{customer.first_name | default:"friend"}},
 
 Your enhanced reward won’t last forever—this is your last call! So, what are you waiting for?
 Use code ENH1 and we'll top up your deposit by 120%, giving you up to R3 600 in bonus funds. The offer is on the table; the next move is yours.
@@ -69,7 +68,7 @@ Email #6
 Subject: 🏆 Last week's biggest cashouts
 Preheader: These Panthers didn't hold back
 text_1:
-Hey [Name],
+Hey {{customer.first_name | default:"friend"}},
 While you're thinking about it, other Panthers are already cashing out. Last week's top three:
 
 🥇 Ale•••••95 - R27 341
@@ -92,7 +91,7 @@ Email #8
 Subject: 👨‍✈️ Don’t lose your 100 FS on Aviator!
 Preheader: Time flies…
 text_1:
-Hey [Name],
+Hey {{customer.first_name | default:"friend"}},
 
 
 Time is running out! Your 100 Free Spins on Aviator are about to expire.
@@ -104,7 +103,7 @@ Email #9
 Subject: ⛈️ Zeus has granted you 150 Free Spins
 Preheader: Claim them before they strike!
 text_1:
-Hey [Name],
+Hey {{customer.first_name | default:"friend"}},
 
 Zeus has spoken!
 
@@ -118,7 +117,7 @@ Email #10
 Subject: ⚡ ️ Olympus is waiting. Your 150 Free Spins are here!
 Preheader: Claim them before they’re gone...
 text_1:
-Hey [Name],
+Hey {{customer.first_name | default:"friend"}},
 
 Don’t make Zeus angry! Grab your 150 Free Spins on Gates of Olympus while you still can.
 Use promo code XXXX with your deposit and take what’s yours!
