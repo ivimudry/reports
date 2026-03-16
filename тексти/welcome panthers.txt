@@ -40,21 +40,18 @@ Button: Claim Bonus
 Email #4
 Subject: ⚡ 120% on your first deposit!
 Preheader: PantherBet rewards those who don't hesitate
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-You know what time it is? Time for a BIG bonus! 
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: You know what time it is? Time for a BIG bonus! 
 
 Get a 120% bonus up to R3,600 on your first deposit. Enter code ENH1 while making a deposit to claim your reward.
 It’s the one serious head start!
-[ Copy promo code ] 
-[ Claim Bonus ]
+Button: Claim Bonus
+
 Email #5
 Subject: 🔥 Your 120% bonus is still waiting
 Preheader: Don't let this one slip through…
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-
-Your enhanced reward won’t last forever—this is your last call! So, what are you waiting for?
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Your enhanced reward won’t last forever—this is your last call! So, what are you waiting for?
 Use code ENH1 and we'll top up your deposit by 120%, giving you up to R3 600 in bonus funds. The offer is on the table; the next move is yours.
 
 [ Copy promo code ] 
