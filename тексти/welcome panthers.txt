@@ -89,26 +89,18 @@ Button: Claim Bonus
 Email #9
 Subject: ⛈️ Zeus has granted you 150 Free Spins
 Preheader: Claim them before they strike!
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-
-Zeus has spoken!
-
-You’ve been granted 150 Free Spins on Gates of Olympus. Use promo code XXXX with your deposit and claim your divine reward today!
-
-[ Copy promo code ]
-[ Claim Bonus ]
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Zeus has spoken!
+You’ve been granted 150 Free Spins on Gates of Olympus. 
+Use promo code XXXX with your deposit and claim your divine reward today!
+Button: Claim Bonus
 
 
 Email #10
 Subject: ⚡ ️ Olympus is waiting. Your 150 Free Spins are here!
 Preheader: Claim them before they’re gone...
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-
-Don’t make Zeus angry! Grab your 150 Free Spins on Gates of Olympus while you still can.
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Don’t make Zeus angry! Grab your 150 Free Spins on Gates of Olympus while you still can.
 Use promo code XXXX with your deposit and take what’s yours!
-
-[ Copy promo code ]
-[ Claim Bonus ]
+Button: Claim Bonus
 
