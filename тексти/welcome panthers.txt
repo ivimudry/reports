@@ -87,7 +87,7 @@ text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Use promo code <strong>XXXX</strong> with your deposit and claim your divine reward today!</p></td>
 button_text_1: CLAIM BONUS
 promocode_button_1: XXXX
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768248774_Welcome_Email_9_01KKYD74ARNJC9K0GFE7PP721C.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773769594630_Welcome_Email_9_01KKYEG6P50QWF4X3KPKSMM7DM.png
 
 name: Email #10
 locale: Default
@@ -98,4 +98,4 @@ text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Use promo code <strong>XXXX</strong> with your deposit and take what's yours!</p></td>
 button_text_1: CLAIM BONUS
 promocode_button_1: XXXX
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768250895_Welcome_Email_10_01KKYD76DPBADQX7AK4EMVB7Z5.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773769597517_Welcome_Email_10_01KKYEG9FS4T8X9RSW00F9TMYY.png
