@@ -37,7 +37,7 @@ locale: Default
 subject: ⏳ Your 100% bonus is still waiting
 preheader: Don't let this one slip through
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: Your 120% welcome bonus is still active - but not forever.
+text_2: Your 100% welcome bonus is still active - but not forever.
 Make your first deposit now and start playing with more than double your balance!
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
