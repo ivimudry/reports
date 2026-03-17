@@ -1,4 +1,4 @@
-Email #1
+name: Email #1
 locale: Default
 subject: 💥 Your 2nd deposit offer is ready to roll!
 preheader:
@@ -12,9 +12,9 @@ Bonus code: PANTHER2
 Bonus code: HIGHROLLER2
 
 Make your next move and keep the streak alive!
-button_text_1: 
+button_text_1: UNLOCK BONUS
 
-Email #2
+name: Email #2
 locale: Default
 subject: 
 preheader: 
@@ -26,7 +26,7 @@ The email looks good, the copy is good too. The only thing - we should change th
 New copy for banner: Your bonus is vanishing... Grab it while you still can!
 
 
-Email #3
+name: Email #3
 locale: Default
 subject: 
 preheader: 
@@ -51,7 +51,7 @@ Just enter code ENH2 on your deposit to fuel up and start winning!
 Banner also needs a new copy: 100 FS on Aviator just landed! Grab your bonus!
 
 
-Email #4
+name: Email #4
 locale: Default
 subject: 
 preheader: 
@@ -61,7 +61,7 @@ button_text_1:
 
 The email looks good, the copy is good too. 
 
-Email #5
+name: Email #5
 locale: Default
 subject: 
 preheader: 
@@ -80,7 +80,7 @@ Hurry - this offer is too delicious to last forever. Grab your spins and start w
 [ Copy promo code ] 
 [ Claim Bonus ]
 
-Email #6
+name: Email #6
 locale: Default
 subject: 
 preheader: 
@@ -97,7 +97,7 @@ Take them while you still can! Enter promo code XXXX and claim your reward today
 [ Copy promo code ] 
 [ Claim Bonus ]
 
-Email #7
+name: Email #7
 locale: Default
 subject: 
 preheader: 
@@ -115,7 +115,7 @@ The sky is the limit - take what’s yours today!
 [ Copy promo code ] 
 [ Claim Bonus ]
 
-Email #8
+name: Email #8
 locale: Default
 subject: 
 preheader: 
