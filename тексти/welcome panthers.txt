@@ -3,20 +3,7 @@ locale: Default
 subject: 🎰 Your Welcome Pack is ready!
 preheader: You're one step away from something big
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: There is a reason why the best players choose Pantherbet.
-It is about the atmosphere, the precision, and the thrill of a successful hunt.
-
-No distractions - just pure, high-end gaming for those who know what they want.
-To mark your arrival, we have prepared a Welcome Pack.
-
-Up to R10 000 + 175 Free Spins across 3 deposits.
-1st deposit: 100% up to R3 000
-2nd deposit: 75% up to R4 000 + 100 FS
-3rd deposit: 100% up to R3 000 + 75 FS
-
-It is time to make your move.
-Deposit now and take your place in the game.
-May your instincts guide you.
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">There is a reason why the best players choose <strong>Pantherbet</strong>.<br>It is about the atmosphere, the precision, and the thrill of a successful hunt.<br><br>No distractions - just pure, high-end gaming for those who know what they want.<br>To mark your arrival, we have prepared a <strong>Welcome Pack</strong>.<br><br>Up to <strong>R10 000</strong> + <strong>175 Free Spins</strong> across 3 deposits.<br>1st deposit: <strong>100%</strong> up to <strong>R3 000</strong><br>2nd deposit: <strong>75%</strong> up to <strong>R4 000</strong> + <strong>100 FS</strong><br>3rd deposit: <strong>100%</strong> up to <strong>R3 000</strong> + <strong>75 FS</strong><br><br>It is time to make your move.<br>Deposit now and take your place in the game.<br>May your instincts guide you.</p></td>
 button_text_1: DEPOSIT AND PLAY NOW
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -25,10 +12,7 @@ locale: Default
 subject: 💥 Claim your bonus: 100% Bonus Await!
 preheader: The time has come…
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: Your first deposit at PantherBet doesn't just get you in - it gets you double. Make your move today and claim a 100% match bonus from the moment you land.
-
-Up to R3 000 in bonus funds on your first deposit.
-Deposit any amount and we match it 100% - more funds, more spins, more chances to win.
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your first deposit at <strong>PantherBet</strong> doesn't just get you in - it gets you double. Make your move today and claim a <strong>100% match bonus</strong> from the moment you land.<br><br>Up to <strong>R3 000</strong> in bonus funds on your first deposit.<br>Deposit any amount and we match it <strong>100%</strong> - more funds, more spins, more chances to win.</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -37,8 +21,7 @@ locale: Default
 subject: ⏳ Your 100% bonus is still waiting
 preheader: Don't let this one slip through
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: Your 120% welcome bonus is still active - but not forever.
-Make your first deposit now and start playing with more than double your balance!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your <strong>120% welcome bonus</strong> is still active - but not forever.<br>Make your first deposit now and start playing with more than double your balance!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -47,10 +30,7 @@ locale: Default
 subject: ⚡ 120% on your first deposit!
 preheader: PantherBet rewards those who don't hesitate
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: You know what time it is? Time for a BIG bonus! 
-
-Get a 120% bonus up to R3,600 on your first deposit. Enter code ENH1 while making a deposit to claim your reward.
-It’s the one serious head start!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">You know what time it is? Time for a BIG bonus!<br><br>Get a <strong>120% bonus</strong> up to <strong>R3,600</strong> on your first deposit. Enter code <strong class="promocode">ENH1</strong> while making a deposit to claim your reward.<br>It's the one serious head start!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -59,9 +39,7 @@ locale: Default
 subject: 🔥 Your 120% bonus is still waiting
 preheader: Don't let this one slip through…
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: Your enhanced reward won’t last forever—this is your last call! So, what are you waiting for?
-Use code ENH1 and we'll top up your deposit by 120%, giving you up to R3 600 in bonus funds. 
-The offer is on the table; the next move is yours.
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your enhanced reward won't last forever - this is your last call! So, what are you waiting for?<br>Use code <strong class="promocode">ENH1</strong> and we'll top up your deposit by <strong>120%</strong>, giving you up to <strong>R3 600</strong> in bonus funds.<br>The offer is on the table; the next move is yours.</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -70,13 +48,7 @@ locale: Default
 subject: 🏆 Last week's biggest cashouts
 preheader: These Panthers didn't hold back
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: While you're thinking about it, other Panthers are already cashing out. Last week's top three:
-
-🥇 Ale•••••95 - R27 341
-🥈 Khu••••41 - R22 187
-🥉 Tha•••••••07 - R19 068
-
-Same games you can play right now. They just didn't wait.
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">While you're thinking about it, other Panthers are already cashing out. Last week's top three:<br><br>🥇 Ale•••••95 - <strong>R27 341</strong><br>🥈 Khu••••41 - <strong>R22 187</strong><br>🥉 Tha•••••••07 - <strong>R19 068</strong><br><br>Same games you can play right now. They just didn't wait.</p></td>
 button_text_1: START PLAYING
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -85,9 +57,7 @@ locale: Default
 subject: ✈️ 100 Free Spins on Aviator just landed!
 preheader: Time to fly high!
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: Your 100 Free Spins on Aviator are ready for takeoff! ✈️
-Use code XXXX to fuel up and start winning.
-Don't wait—this offer will be gone before you can say "cash out!"
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your <strong>100 Free Spins</strong> on <strong>Aviator</strong> are ready for takeoff! ✈️<br>Use code <strong class="promocode">XXXX</strong> to fuel up and start winning.<br>Don't wait - this offer will be gone before you can say "cash out!"</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -96,8 +66,7 @@ locale: Default
 subject: 👨‍✈️ Don’t lose your 100 FS on Aviator!
 preheader: Time flies…
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: Time is running out! Your 100 Free Spins on Aviator are about to expire.
-Use code XXXX when you deposit to claim them before they're gone for good!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Time is running out! Your <strong>100 Free Spins</strong> on <strong>Aviator</strong> are about to expire.<br>Use code <strong class="promocode">XXXX</strong> when you deposit to claim them before they're gone for good!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -106,9 +75,7 @@ locale: Default
 subject: ⛈️ Zeus has granted you 150 Free Spins
 preheader: Claim them before they strike!
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: Zeus has spoken!
-You’ve been granted 150 Free Spins on Gates of Olympus. 
-Use promo code XXXX with your deposit and claim your divine reward today!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Zeus has spoken!<br>You've been granted <strong>150 Free Spins</strong> on <strong>Gates of Olympus</strong>.<br>Use promo code <strong class="promocode">XXXX</strong> with your deposit and claim your divine reward today!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
@@ -117,7 +84,6 @@ locale: Default
 subject: ⚡ ️ Olympus is waiting. Your 150 Free Spins are here!
 preheader: Claim them before they’re gone...
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: Don’t make Zeus angry! Grab your 150 Free Spins on Gates of Olympus while you still can.
-Use promo code XXXX with your deposit and take what’s yours!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Don't make Zeus angry! Grab your <strong>150 Free Spins</strong> on <strong>Gates of Olympus</strong> while you still can.<br>Use promo code <strong class="promocode">XXXX</strong> with your deposit and take what's yours!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
