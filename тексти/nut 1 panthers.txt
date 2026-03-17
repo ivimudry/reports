@@ -42,9 +42,6 @@ Fan of Spribe's Aviator? Get 100 Bonus Spins + 100% up to R4 500 right now.
 Just enter code ENH2 on your deposit to fuel up and start winning!
 button_text_1: CLAIM BONUS
 
-Banner also needs a new copy: 100 FS on Aviator just landed! Grab your bonus!
-
-
 name: Email #4
 locale: Default
 subject: 
