@@ -1,5 +1,7 @@
 Email #1
-
+locale: Default
+subject: 
+preheader: 
 The one you have at the moment looks good. 
 
 Email #2
@@ -25,13 +27,6 @@ Just enter code ENH2 on your deposit to fuel up and start winning!
 
 
 Banner also needs a new copy: 100 FS on Aviator just landed! Grab your bonus!
-
-inApp #3
-✈️ Aviator bonus has landed! Grab 100 Bonus Spins + 100% up to R4 500. Fuel up your account and hit those high multipliers. Ready for takeoff? Deposit and play!
-
-
-SMS #3
-✈️ Fly high! 100% up to R4,500 + 100 FS on Aviator. Ready for takeoff? Use code ENH2 and win now: [Link]
 
 
 Email #4
