@@ -2,15 +2,29 @@ Email #1
 locale: Default
 subject: 
 preheader: 
-The one you have at the moment looks good. 
+Your journey’s just getting started, and we’re here to take it further! Time to enjoy your exclusive second deposit offer:
+
+🎁 75% up to R4 000 + 100 Bonus Spins in Aviator (Spribe)
+Bonus code: PANTHER2
+
+🎁 75% up to R8 000 for highrollers
+Bonus code: HIGHROLLER2
+
+Make your next move and keep the streak alive!
 
 Email #2
+locale: Default
+subject: 
+preheader: 
 
 The email looks good, the copy is good too. The only thing - we should change the copy on the banner.
 New copy for banner: Your bonus is vanishing... Grab it while you still can!
 
 
 Email #3
+locale: Default
+subject: 
+preheader: 
 Subject: 🛩️ 100 Free Spins are ready for takeoff!
 Preheader: Don’t miss out - claim your bonus today
 Body:
@@ -30,10 +44,16 @@ Banner also needs a new copy: 100 FS on Aviator just landed! Grab your bonus!
 
 
 Email #4
+locale: Default
+subject: 
+preheader: 
 
 The email looks good, the copy is good too. 
 
 Email #5
+locale: Default
+subject: 
+preheader: 
 Subject: 🍭 A sweet treat: 150 Free Spins for you!
 Preheader: Grab them before they melt away... 
 Body:
@@ -47,6 +67,9 @@ Hurry - this offer is too delicious to last forever. Grab your spins and start w
 [ Claim Bonus ]
 
 Email #6
+locale: Default
+subject: 
+preheader: 
 Subject: 🧁 Last call for your 150 Sweet Spins!
 Preheader: Claim them before it’s too late…
 Body:
@@ -58,6 +81,9 @@ Take them while you still can! Enter promo code XXXX and claim your reward today
 [ Claim Bonus ]
 
 Email #7
+locale: Default
+subject: 
+preheader: 
 Subject: 🛩️ Radar Alert: 170 Free Spins just landed!
 Preheader: Grab them before they fly off the screen...
 Body:
@@ -70,6 +96,9 @@ The sky is the limit - take what’s yours today!
 [ Claim Bonus ]
 
 Email #8
+locale: Default
+subject: 
+preheader: 
 Subject: 🚨 Your 170 FS are expiring!
 Preheader: Final chance to play Aviator with a bonus
 Body:
