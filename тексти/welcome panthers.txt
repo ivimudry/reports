@@ -1,4 +1,4 @@
-Email #1 - name: Email #1
+name: Email #1
 locale: Default
 subject: 🎰 Your Welcome Pack is ready!
 preheader: You're one step away from something big
@@ -20,7 +20,7 @@ May your instincts guide you.
 button_text_1: DEPOSIT AND PLAY NOW
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #2 - name: Email #2
+name: Email #2
 locale: Default
 subject: 💥 Claim your bonus: 100% Bonus Await!
 preheader: The time has come…
@@ -32,7 +32,7 @@ Deposit any amount and we match it 100% - more funds, more spins, more chances t
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #3 - name: Email #3
+name: Email #3
 locale: Default
 subject: ⏳ Your 100% bonus is still waiting
 preheader: Don't let this one slip through
@@ -42,7 +42,7 @@ Make your first deposit now and start playing with more than double your balance
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #4 - name: Email #4
+name: Email #4
 locale: Default
 subject: ⚡ 120% on your first deposit!
 preheader: PantherBet rewards those who don't hesitate
@@ -54,7 +54,7 @@ It’s the one serious head start!
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #5 - name: Email #5
+name: Email #5
 locale: Default
 subject: 🔥 Your 120% bonus is still waiting
 preheader: Don't let this one slip through…
@@ -65,7 +65,7 @@ The offer is on the table; the next move is yours.
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #6 - name: Email #6
+name: Email #6
 locale: Default
 subject: 🏆 Last week's biggest cashouts
 preheader: These Panthers didn't hold back
@@ -80,7 +80,7 @@ Same games you can play right now. They just didn't wait.
 button_text_1: START PLAYING
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #7 - name: Email #7
+name: Email #7
 locale: Default
 subject: ✈️ 100 Free Spins on Aviator just landed!
 preheader: Time to fly high!
@@ -91,7 +91,7 @@ Don't wait—this offer will be gone before you can say "cash out!"
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #8 - name: Email #8
+name: Email #8
 locale: Default
 subject: 👨‍✈️ Don’t lose your 100 FS on Aviator!
 preheader: Time flies…
@@ -101,7 +101,7 @@ Use code XXXX when you deposit to claim them before they're gone for good!
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #9 - name: Email #9
+name: Email #9
 locale: Default
 subject: ⛈️ Zeus has granted you 150 Free Spins
 preheader: Claim them before they strike!
@@ -112,7 +112,7 @@ Use promo code XXXX with your deposit and claim your divine reward today!
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
-Email #10 - name: Email #10
+name: Email #10
 locale: Default
 subject: ⚡ ️ Olympus is waiting. Your 150 Free Spins are here!
 preheader: Claim them before they’re gone...
