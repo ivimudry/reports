@@ -2,7 +2,7 @@ name: Email #1
 locale: Default
 subject: 🎰 Your Welcome Pack is ready!
 preheader: You're one step away from something big
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">There is a reason why the best players choose <strong>Pantherbet</strong>.<br>It is about the atmosphere, the precision, and the thrill of a successful hunt.<br><br>No distractions - just pure, high-end gaming for those who know what they want.<br>To mark your arrival, we have prepared a <strong>Welcome Pack</strong>.<br><br>Up to <strong>R10 000</strong> + <strong>175 Free Spins</strong> across 3 deposits.<br>1st deposit: <strong>100%</strong> up to <strong>R3 000</strong><br>2nd deposit: <strong>75%</strong> up to <strong>R4 000</strong> + <strong>100 FS</strong><br>3rd deposit: <strong>100%</strong> up to <strong>R3 000</strong> + <strong>75 FS</strong><br><br>It is time to make your move.<br>Deposit now and take your place in the game.<br>May your instincts guide you.</p></td>
 button_text_1: DEPOSIT AND PLAY NOW
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -11,7 +11,7 @@ name: Email #2
 locale: Default
 subject: 💥 Claim your bonus: 100% Bonus Await!
 preheader: The time has come…
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your first deposit at <strong>PantherBet</strong> doesn't just get you in - it gets you double. Make your move today and claim a <strong>100% match bonus</strong> from the moment you land.<br><br>Up to <strong>R3 000</strong> in bonus funds on your first deposit.<br>Deposit any amount and we match it <strong>100%</strong> - more funds, more spins, more chances to win.</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -20,7 +20,7 @@ name: Email #3
 locale: Default
 subject: ⏳ Your 100% bonus is still waiting
 preheader: Don't let this one slip through
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your <strong>120% welcome bonus</strong> is still active - but not forever.<br>Make your first deposit now and start playing with more than double your balance!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -29,7 +29,7 @@ name: Email #4
 locale: Default
 subject: ⚡ 120% on your first deposit!
 preheader: PantherBet rewards those who don't hesitate
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">You know what time it is? Time for a BIG bonus!<br><br>Get a <strong>120% bonus</strong> up to <strong>R3,600</strong> on your first deposit. Enter code <strong class="promocode">ENH1</strong> while making a deposit to claim your reward.<br>It's the one serious head start!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -38,7 +38,7 @@ name: Email #5
 locale: Default
 subject: 🔥 Your 120% bonus is still waiting
 preheader: Don't let this one slip through…
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your enhanced reward won't last forever - this is your last call! So, what are you waiting for?<br>Use code <strong class="promocode">ENH1</strong> and we'll top up your deposit by <strong>120%</strong>, giving you up to <strong>R3 600</strong> in bonus funds.<br>The offer is on the table; the next move is yours.</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -47,7 +47,7 @@ name: Email #6
 locale: Default
 subject: 🏆 Last week's biggest cashouts
 preheader: These Panthers didn't hold back
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">While you're thinking about it, other Panthers are already cashing out. Last week's top three:<br><br>🥇 <strong>Ale•••••95</strong> - <strong>R27 341</strong><br>🥈 <strong>Khu••••41</strong> - <strong>R22 187</strong><br>🥉 <strong>Tha•••••••07</strong> - <strong>R19 068</strong><br><br>Same games you can play right now. They just didn't wait.</p></td>
 button_text_1: START PLAYING
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -56,7 +56,7 @@ name: Email #7
 locale: Default
 subject: ✈️ 100 Free Spins on Aviator just landed!
 preheader: Time to fly high!
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your <strong>100 Free Spins</strong> on <strong>Aviator</strong> are ready for takeoff! ✈️<br>Use code <strong class="promocode">XXXX</strong> to fuel up and start winning.<br>Don't wait - this offer will be gone before you can say "cash out!"</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -65,7 +65,7 @@ name: Email #8
 locale: Default
 subject: 👨‍✈️ Don’t lose your 100 FS on Aviator!
 preheader: Time flies…
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Time is running out! Your <strong>100 Free Spins</strong> on <strong>Aviator</strong> are about to expire.<br>Use code <strong class="promocode">XXXX</strong> when you deposit to claim them before they're gone for good!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -74,7 +74,7 @@ name: Email #9
 locale: Default
 subject: ⛈️ Zeus has granted you 150 Free Spins
 preheader: Claim them before they strike!
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Zeus has spoken!<br>You've been granted <strong>150 Free Spins</strong> on <strong>Gates of Olympus</strong>.<br>Use promo code <strong class="promocode">XXXX</strong> with your deposit and claim your divine reward today!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
@@ -83,7 +83,7 @@ name: Email #10
 locale: Default
 subject: ⚡ ️ Olympus is waiting. Your 150 Free Spins are here!
 preheader: Claim them before they’re gone...
-text_1: Hey {{customer.first_name | default:"friend"}},
+text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
 text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Don't make Zeus angry! Grab your <strong>150 Free Spins</strong> on <strong>Gates of Olympus</strong> while you still can.<br>Use promo code <strong class="promocode">XXXX</strong> with your deposit and take what's yours!</p></td>
 button_text_1: CLAIM BONUS
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
