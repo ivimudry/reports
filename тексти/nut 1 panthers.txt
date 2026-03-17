@@ -3,15 +3,7 @@ locale: Default
 subject: 💥 Your 2nd deposit offer is ready to roll!
 preheader:
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
-text_2: Your journey’s just getting started, and we’re here to take it further! Time to enjoy your exclusive second deposit offer:
-
-🎁 75% up to R4 000 + 100 Bonus Spins in Aviator (Spribe)
-Bonus code: PANTHER2
-
-🎁 75% up to R8 000 for highrollers
-Bonus code: HIGHROLLER2
-
-Make your next move and keep the streak alive!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your journey's just getting started, and we're here to take it further! Time to enjoy your exclusive second deposit offer:<br><br>🎁 <strong>75% up to R4 000 + 100 Bonus Spins</strong> in <strong>Aviator</strong> (Spribe)<br>Bonus code: <strong>PANTHER2</strong><br><br>🎁 <strong>75% up to R8 000</strong> for highrollers<br>Bonus code: <strong>HIGHROLLER2</strong><br><br>Make your next move and keep the streak alive!</p></td>
 button_text_1: UNLOCK BONUS
 
 name: Email #2
@@ -19,15 +11,7 @@ locale: Default
 subject: 🔥 Still haven’t grabbed your 2nd deposit bonuses? 
 preheader: 
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
-text_2: Your second deposit rewards are still waiting!
-
-🎯 75% up to R4 000 + 100 Bonus Spins on Aviator (Spribe)
-Bonus code: PANTHER2
-
-🎯 75% up to R8 000 for highrollers
-Bonus code: HIGHROLLER2
-
-Don’t let this boost pass you by. Your next win could be one step away!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your second deposit rewards are still waiting!<br><br>🎯 <strong>75% up to R4 000 + 100 Bonus Spins</strong> on <strong>Aviator</strong> (Spribe)<br>Bonus code: <strong>PANTHER2</strong><br><br>🎯 <strong>75% up to R8 000</strong> for highrollers<br>Bonus code: <strong>HIGHROLLER2</strong><br><br>Don't let this boost pass you by. Your next win could be one step away!</p></td>
 button_text_1: CLAIM BONUS
 
 name: Email #3
@@ -35,11 +19,7 @@ locale: Default
 subject: 🛩️ 100 Free Spins are ready for takeoff!
 preheader: Don’t miss out - claim your bonus today
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
-text_2: Your boosted reward has landed!
-
-Fan of Spribe's Aviator? Get 100 Bonus Spins + 100% up to R4 500 right now.
-
-Just enter code ENH2 on your deposit to fuel up and start winning!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your boosted reward has landed!<br><br>Fan of Spribe's <strong>Aviator</strong>? Get <strong>100 Bonus Spins + 100% up to R4 500</strong> right now.<br><br>Just enter code <strong>ENH2</strong> on your deposit to fuel up and start winning!</p></td>
 button_text_1: CLAIM BONUS
 
 name: Email #4
@@ -47,27 +27,15 @@ locale: Default
 subject: ⚡️ Just in case you missed it: Enhanced bonus still active!
 preheader: 
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
-text_2: You haven’t claimed your upgraded second deposit bonus yet, and it’s too good to leave behind! Let’s fix that now:
-
-💎 100% up to R4 500 + 100 Bonus Spins on Aviator (Spribe)
-Bonus code: ENH2
-
-💎 75% up to R8 000 for highrollers
-Bonus code: HIGHROLLER2
-
-Take your chance while it’s still hot!
-button_text_1: GRAB NOW 
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">You haven't claimed your upgraded second deposit bonus yet, and it's too good to leave behind! Let's fix that now:<br><br>💎 <strong>100% up to R4 500 + 100 Bonus Spins</strong> on <strong>Aviator</strong> (Spribe)<br>Bonus code: <strong>ENH2</strong><br><br>💎 <strong>75% up to R8 000</strong> for highrollers<br>Bonus code: <strong>HIGHROLLER2</strong><br><br>Take your chance while it's still hot!</p></td>
+button_text_1: GRAB NOW
 
 name: Email #5
 locale: Default
 subject: 🍭 A sweet treat: 150 Free Spins for you!
 preheader: Grab them before they melt away...
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
-text_2: Your sweet reward has arrived! 🍭
-🍬 Claim your 150 Free Spins on Sweet Bonanza using promo code XXXX.
-
-Hurry - this offer is too delicious to last forever. 
-Grab your spins and start winning today!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Your sweet reward has arrived! 🍭<br>🍬 Claim your <strong>150 Free Spins</strong> on <strong>Sweet Bonanza</strong> using promo code <strong>XXXX</strong>.<br><br>Hurry - this offer is too delicious to last forever.<br>Grab your spins and start winning today!</p></td>
 button_text_1: CLAIM BONUS
 
 name: Email #6
@@ -75,11 +43,7 @@ locale: Default
 subject: 🧁 Last call for your 150 Sweet Spins!
 preheader: Claim them before it’s too late…
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
-text_2: Time is running out! 
-Your 150 Free Spins on Sweet Bonanza are almost gone.
-
-Take them while you still can! 
-Enter promo code XXXX and claim your reward today.
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">Time is running out!<br>Your <strong>150 Free Spins</strong> on <strong>Sweet Bonanza</strong> are almost gone.<br><br>Take them while you still can!<br>Enter promo code <strong>XXXX</strong> and claim your reward today.</p></td>
 button_text_1: CLAIM BONUS
 
 name: Email #7
@@ -87,12 +51,7 @@ locale: Default
 subject: 🛩️ Radar Alert: 170 Free Spins just landed!
 preheader: Grab them before they fly off the screen...
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
-text_2: A special delivery has just entered your airspace! 🛰️
-You have 170 Free Spins on Aviator waiting to be claimed. 
-It’s time to take the controls and cash out before the plane flies away.
-
-Enter promo code XXXX when you deposit to unlock your reward.
-The sky is the limit - take what’s yours today!
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">A special delivery has just entered your airspace! 🛰️<br>You have <strong>170 Free Spins</strong> on <strong>Aviator</strong> waiting to be claimed.<br>It's time to take the controls and cash out before the plane flies away.<br><br>Enter promo code <strong>XXXX</strong> when you deposit to unlock your reward.<br>The sky is the limit - take what's yours today!</p></td>
 button_text_1: CLAIM BONUS
 
 name: Email #8
@@ -100,9 +59,5 @@ locale: Default
 subject: 🚨 Your 170 FS are expiring!
 preheader: Final chance to play Aviator with a bonus
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#cccccc;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:"friend"}},</strong></p></td>
-text_2: We’re losing the signal! 📡
-
-Your 170 Free Spins on Aviator are about to expire. 
-
-Use them now or lose them forever.
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">We're losing the signal! 📡<br><br>Your <strong>170 Free Spins</strong> on <strong>Aviator</strong> are about to expire.<br><br>Use them now or lose them forever.</p></td>
 button_text_1: CLAIM BONUS
