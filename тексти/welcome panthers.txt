@@ -48,7 +48,7 @@ locale: Default
 subject: 🏆 Last week's biggest cashouts
 preheader: These Panthers didn't hold back
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">While you're thinking about it, other Panthers are already cashing out. Last week's top three:<br><br>🥇 Ale•••••95 - <strong>R27 341</strong><br>🥈 Khu••••41 - <strong>R22 187</strong><br>🥉 Tha•••••••07 - <strong>R19 068</strong><br><br>Same games you can play right now. They just didn't wait.</p></td>
+text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;letter-spacing:0;color:#cccccc;font-size:14px">While you're thinking about it, other Panthers are already cashing out. Last week's top three:<br><br>🥇 <strong>Ale•••••95</strong> - <strong>R27 341</strong><br>🥈 <strong>Khu••••41</strong> - <strong>R22 187</strong><br>🥉 <strong>Tha•••••••07</strong> - <strong>R19 068</strong><br><br>Same games you can play right now. They just didn't wait.</p></td>
 button_text_1: START PLAYING
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_64554611af08a8bc88c57a2b8a06ff83911acfacf8395ab3c63e43c24478e209/images/banner_2.png
 
