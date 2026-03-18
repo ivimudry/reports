@@ -1,4 +1,7 @@
 Email #1
+
+The one you have at the moment looks good. 
+
 Subject: 💥 Your 2nd deposit offer is ready to roll!
 Preheader: See what we've prepared for your next move
 Body:
@@ -13,7 +16,14 @@ Make your next move and keep the streak alive!
 
 [ UNLOCK BONUS ]
 
+inApp #1
+
+
 Email #2
+
+The email looks good, the copy is good too. The only thing - we should change the copy on the banner.
+New copy for banner: Your bonus is vanishing... Grab it while you still can!
+
 Subject: 🔥 Still haven't grabbed your 2nd deposit bonuses?
 Preheader: They won't wait forever
 Body:
@@ -28,7 +38,39 @@ Don't let this boost pass you by. Your next win could be one step away!
 
 [ CLAIM BONUS ]
 
+inApp #2
+
+
+Email #3
+Subject: 🛩️ 100 Free Spins are ready for takeoff!
+Preheader: Don’t miss out - claim your bonus today
+Body:
+Hey [Name],
+
+
+Your boosted reward has landed!
+
+Fan of Spribe's Aviator? Get 100 Bonus Spins + 100% up to R4 500 right now.
+
+Just enter code ENH2 on your deposit to fuel up and start winning!
+[ Copy promo code ] 
+[ Claim Bonus ]
+
+
+Banner also needs a new copy: 100 FS on Aviator just landed! Grab your bonus!
+
+inApp #3
+✈️ Aviator bonus has landed! Grab 100 Bonus Spins + 100% up to R4 500. Fuel up your account and hit those high multipliers. Ready for takeoff? Deposit and play!
+
+
+SMS #3
+✈️ Fly high! 100% up to R4,500 + 100 FS on Aviator. Ready for takeoff? Use code ENH2 and win now: [Link]
+
+
 Email #4
+
+The email looks good, the copy is good too. 
+
 Subject: ⚡️ Just in case you missed it: Enhanced bonus still active!
 Preheader: Don't leave this upgrade on the table
 Body:
@@ -42,4 +84,68 @@ Bonus code: ENH2
 Take your chance while it's still hot!
 
 [ GRAB NOW ]
+
+inApp #4
+
+
+Email #5
+Subject: 🍭 A sweet treat: 150 Free Spins for you!
+Preheader: Grab them before they melt away... 
+Body:
+Hey [Name],
+
+Your sweet reward has arrived! 🍭
+🍬 Claim your 150 Free Spins on Sweet Bonanza using promo code XXXX.
+Hurry - this offer is too delicious to last forever. Grab your spins and start winning today!
+
+[ Copy promo code ] 
+[ Claim Bonus ]
+
+inApp #5
+🍭 Sweet reward arrived! Claim 150 Free Spins on Sweet Bonanza before they melt away. Use the promo code below 
+
+SMS #5
+🍭 Sweet reward! 150 Free Spins on Sweet Bonanza are waiting. Grab them with code XXXX and win today: [Link]
+
+Email #6
+Subject: 🧁 Last call for your 150 Sweet Spins!
+Preheader: Claim them before it’s too late…
+Body:
+Hey [Name],
+
+Time is running out! Your 150 Free Spins on Sweet Bonanza are almost gone.
+Take them while you still can! Enter promo code XXXX and claim your reward today.
+[ Copy promo code ] 
+[ Claim Bonus ]
+
+inApp #6
+🧁 Last call! Your 150 Free Spins on Sweet Bonanza are about to expire. Grab them before they melt away! Use the promo code below to claim your reward.
+Email #7
+Subject: 🛩️ Radar Alert: 170 Free Spins just landed!
+Preheader: Grab them before they fly off the screen...
+Body:
+A special delivery has just entered your airspace! 🛰️
+You have 170 Free Spins on Aviator waiting to be claimed. It’s time to take the controls and cash out before the plane flies away.
+Enter promo code XXXX when you deposit to unlock your reward.
+The sky is the limit - take what’s yours today!
+
+[ Copy promo code ] 
+[ Claim Bonus ]
+inApp #7
+🛰️ Radar Alert! Grab your 170 Free Spins on Aviator before they fly away! Use the promo code below to claim your bonus.
+Email #8
+Subject: 🚨 Your 170 FS are expiring!
+Preheader: Final chance to play Aviator with a bonus
+Body:
+Hey [Name],
+
+
+We’re losing the signal! 📡
+Your 170 Free Spins on Aviator are about to expire. Use them now or lose them forever.
+
+[ Copy promo code ] 
+[ Claim Bonus ]
+
+inApp #8
+🚨 Losing signal! Your 170 Free Spins on Aviator are expiring. Enter the promo code below to take flight.
 
