@@ -456,12 +456,12 @@
   <tr><th>Поле</th><th>Значение</th><th>Описание</th></tr>
   <tr><td><code>allowedChannels</code></td><td><code>["SMS"]</code></td><td>Канал доставки — только SMS</td></tr>
   <tr><td><code>from</code></td><td><code>"PantherBet"</code></td><td>Имя отправителя (что увидит получатель). Указывается числовой или alphanumeric sender ID</td></tr>
-  <tr><td><code>to[].number</code></td><td><code>{{trigger.phone | remove: '+' | remove: ' ' | ...}}</code></td><td>Номер телефона из тригера, с удалением «+», пробелов, дефисов, скобок и подчёркиваний для формата CM.com</td></tr>
+  <tr><td><code>to[].number</code></td><td><code>{{p}}</code></td><td>Номер телефона из тригера. Очищается от символов <code>+ - ( ) _ . /</code> и пробелов, затем: локальный формат (10 цифр, начинается с 0) → заменяется на <code>0027...</code>; международный → добавляется <code>00</code></td></tr>
   <tr><td><code>minimumNumberOfMessageParts</code></td><td><code>1</code></td><td>Минимум 1 часть SMS</td></tr>
   <tr><td><code>maximumNumberOfMessageParts</code></td><td><code>3</code></td><td>Максимум 3 части SMS</td></tr>
   <tr><td><code>body.type</code></td><td><code>"auto"</code></td><td>Автоопределение кодировки (GSM или Unicode)</td></tr>
   <tr><td><code>body.content</code></td><td><code>{{trigger.message}}</code></td><td>Текст SMS из тригера</td></tr>
-  <tr><td><code>reference</code></td><td><code>cio-{phone}-{timestamp}</code></td><td>Уникальный ID для трекинга в CM.com. Включает очищенный номер и UTC-время отправки (YYYYMMDDHHmmss)</td></tr>
+  <tr><td><code>reference</code></td><td><code>cio-{{p}}-{timestamp}</code></td><td>Уникальный ID для трекинга в CM.com. Включает очищенный номер и UTC-время отправки (YYYYMMDDHHmmss)</td></tr>
 </table>
 </div>
 
@@ -472,12 +472,12 @@
   <tr><th>Поле</th><th>Значення</th><th>Опис</th></tr>
   <tr><td><code>allowedChannels</code></td><td><code>["SMS"]</code></td><td>Канал доставки — тільки SMS</td></tr>
   <tr><td><code>from</code></td><td><code>"PantherBet"</code></td><td>Ім'я відправника (що побачить отримувач). Вказується числовий або alphanumeric sender ID</td></tr>
-  <tr><td><code>to[].number</code></td><td><code>{{trigger.phone | remove: '+' | remove: ' ' | ...}}</code></td><td>Номер телефону з тригера, з видаленням «+», пробілів, дефісів, дужок та підкреслень для формату CM.com</td></tr>
+  <tr><td><code>to[].number</code></td><td><code>{{p}}</code></td><td>Номер телефону з тригера. Очищується від символів <code>+ - ( ) _ . /</code> та пробілів, потім: локальний формат (10 цифр, починається з 0) → замінюється на <code>0027...</code>; міжнародний → додається <code>00</code></td></tr>
   <tr><td><code>minimumNumberOfMessageParts</code></td><td><code>1</code></td><td>Мінімум 1 частина SMS</td></tr>
   <tr><td><code>maximumNumberOfMessageParts</code></td><td><code>3</code></td><td>Максимум 3 частини SMS</td></tr>
   <tr><td><code>body.type</code></td><td><code>"auto"</code></td><td>Автовизначення кодування (GSM або Unicode)</td></tr>
   <tr><td><code>body.content</code></td><td><code>{{trigger.message}}</code></td><td>Текст SMS з тригера</td></tr>
-  <tr><td><code>reference</code></td><td><code>cio-{phone}-{timestamp}</code></td><td>Унікальний ID для трекінгу в CM.com. Включає очищений номер та UTC-час відправки (YYYYMMDDHHmmss)</td></tr>
+  <tr><td><code>reference</code></td><td><code>cio-{{p}}-{timestamp}</code></td><td>Унікальний ID для трекінгу в CM.com. Включає очищений номер та UTC-час відправки (YYYYMMDDHHmmss)</td></tr>
 </table>
 </div>
 
@@ -488,12 +488,12 @@
   <tr><th>Field</th><th>Value</th><th>Description</th></tr>
   <tr><td><code>allowedChannels</code></td><td><code>["SMS"]</code></td><td>Delivery channel — SMS only</td></tr>
   <tr><td><code>from</code></td><td><code>"PantherBet"</code></td><td>Sender name (visible to recipient). Can be numeric or alphanumeric sender ID</td></tr>
-  <tr><td><code>to[].number</code></td><td><code>{{trigger.phone | remove: '+' | remove: ' ' | ...}}</code></td><td>Phone number from trigger, sanitized by removing +, spaces, hyphens, parentheses and underscores for CM.com format</td></tr>
+  <tr><td><code>to[].number</code></td><td><code>{{p}}</code></td><td>Phone number from trigger. Sanitized by removing <code>+ - ( ) _ . /</code> and spaces, then: local format (10 digits, starts with 0) → replaced with <code>0027...</code>; international → prepended with <code>00</code></td></tr>
   <tr><td><code>minimumNumberOfMessageParts</code></td><td><code>1</code></td><td>Minimum 1 SMS part</td></tr>
   <tr><td><code>maximumNumberOfMessageParts</code></td><td><code>3</code></td><td>Maximum 3 SMS parts</td></tr>
   <tr><td><code>body.type</code></td><td><code>"auto"</code></td><td>Auto-detect encoding (GSM or Unicode)</td></tr>
   <tr><td><code>body.content</code></td><td><code>{{trigger.message}}</code></td><td>SMS text from trigger</td></tr>
-  <tr><td><code>reference</code></td><td><code>cio-{phone}-{timestamp}</code></td><td>Unique ID for tracking in CM.com. Includes sanitized phone number and UTC send time (YYYYMMDDHHmmss)</td></tr>
+  <tr><td><code>reference</code></td><td><code>cio-{{p}}-{timestamp}</code></td><td>Unique ID for tracking in CM.com. Includes sanitized phone number and UTC send time (YYYYMMDDHHmmss)</td></tr>
 </table>
 </div>
 
