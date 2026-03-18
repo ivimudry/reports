@@ -1,4 +1,4 @@
-{
+{% assign p = trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_' | remove: '.' | remove: '/' %}{% assign plen = p | size %}{% assign fc = p | slice: 0 %}{% if fc == '0' and plen == 10 %}{% assign p = p | slice: 1, 9 | prepend: '0027' %}{% else %}{% assign p = p | prepend: '00' %}{% endif %}{
     "messages": {
         "msg": [
             {
@@ -6,7 +6,7 @@
                 "from": "PantherBet",
                 "to": [
                     {
-                        "number": "{{trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_' | prepend: '00'}}"
+                        "number": "{{p}}"
                     }
                 ],
                 "minimumNumberOfMessageParts": 1,
@@ -15,7 +15,7 @@
                     "type": "auto",
                     "content": "{{trigger.message}}"
                 },
-                "reference": "cio-{{trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_' | prepend: '00'}}-{{'now' | date: '%Y%m%d%H%M%S'}}"
+                "reference": "cio-{{p}}-{{'now' | date: '%Y%m%d%H%M%S'}}"
             }
         ]
     }
