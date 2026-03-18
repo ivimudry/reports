@@ -418,7 +418,15 @@
 <p>Below is the JSON body configured in the "Send and Receive Data" block in Customer.io. Liquid variables <code>{{trigger.*}}</code> are populated from trigger data:</p>
 </div>
 
-<pre>{
+<pre><span class="liquid">{% assign p = trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_' | remove: '.' | remove: '/' %}</span>
+<span class="liquid">{% assign plen = p | size %}</span>
+<span class="liquid">{% assign fc = p | slice: 0 %}</span>
+<span class="liquid">{% if fc == '0' and plen == 10 %}</span>
+  <span class="liquid">{% assign p = p | slice: 1, 9 | prepend: '0027' %}</span>
+<span class="liquid">{% else %}</span>
+  <span class="liquid">{% assign p = p | prepend: '00' %}</span>
+<span class="liquid">{% endif %}</span>
+{
   <span class="key">"messages"</span>: {
     <span class="key">"msg"</span>: [
       {
@@ -426,7 +434,7 @@
         <span class="key">"from"</span>: <span class="string">"PantherBet"</span>,
         <span class="key">"to"</span>: [
           {
-            <span class="key">"number"</span>: <span class="liquid">"{{trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_'}}"</span>
+            <span class="key">"number"</span>: <span class="liquid">"{{p}}"</span>
           }
         ],
         <span class="key">"minimumNumberOfMessageParts"</span>: <span class="number">1</span>,
@@ -435,7 +443,7 @@
           <span class="key">"type"</span>: <span class="string">"auto"</span>,
           <span class="key">"content"</span>: <span class="liquid">"{{trigger.message}}"</span>
         },
-        <span class="key">"reference"</span>: <span class="liquid">"cio-{{trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_'}}-{{'now' | date: '%Y%m%d%H%M%S'}}"</span>
+        <span class="key">"reference"</span>: <span class="liquid">"cio-{{p}}-{{'now' | date: '%Y%m%d%H%M%S'}}"</span>
       }
     ]
   }
