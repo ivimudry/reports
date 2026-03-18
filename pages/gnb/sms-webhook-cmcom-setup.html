@@ -184,6 +184,7 @@
   <a class="nav-link" href="#sec-5"><span class="nav-num">5.</span><span data-lang="ru" class="active">Триггер данные</span><span data-lang="ua">Тригер дані</span><span data-lang="en">Trigger Data</span></a>
   <a class="nav-link" href="#sec-6"><span class="nav-num">6.</span><span data-lang="ru" class="active">SMS кодировка</span><span data-lang="ua">SMS кодування</span><span data-lang="en">SMS Encoding</span></a>
   <a class="nav-link" href="#sec-7"><span class="nav-num">7.</span><span data-lang="ru" class="active">Статус</span><span data-lang="ua">Статус</span><span data-lang="en">Status</span></a>
+  <a class="nav-link" href="#sec-8"><span class="nav-num">8.</span><span data-lang="ru" class="active">Интеграция</span><span data-lang="ua">Інтеграція</span><span data-lang="en">Integration</span></a>
 </nav>
 
 <div class="content">
@@ -748,6 +749,68 @@
 </div>
 
 
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 8 — SMS INTEGRATION IN CAMPAIGNS                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-8" class="section-anchor"></div>
+
+<!-- RU -->
+<div data-lang="ru" class="active">
+<h2>8. Интеграция SMS в кампании</h2>
+<p>Кампания <strong>SMS TRIGGER WEBHOOK</strong> — это отдельная кампания с одним блоком «Send and Receive Data», которая принимает данные (номер и сообщение) и отправляет их на CM.com. Код вебхука включает валидацию номера телефона.</p>
+
+<h3>8.1 Использование в кампаниях</h3>
+<p>В кампании <strong>Unsuccessful Deposit</strong> вместо стандартных SMS-блоков используются блоки «Send and Receive Data», которые отправляют данные на вебхук SMS TRIGGER WEBHOOK:</p>
+<pre>{
+  <span class="key">"phone"</span>: <span class="liquid">"{{customer.phone}}"</span>,
+  <span class="key">"message"</span>: <span class="string">"PantherBet: Your deposit didn't go through. Try a different method in your Cashier - it only takes a moment."</span>
+}</pre>
+<p>Вебхук принимает данные, валидирует и форматирует номер, затем отправляет SMS через CM.com. Эта система универсальна — может быть подключена к любой кампании.</p>
+
+<h3>8.2 Примечание о Twilio</h3>
+<div class="warn">
+  <strong>Twilio</strong> не используется. Twilio может присутствовать в кампаниях, которые уже существовали в Customer.io до нашего прихода. Для кампаний <strong>Unsuccessful Deposit</strong>, <strong>Welcome Flow</strong> и <strong>Nutrition #1</strong> работают только вебхуки на CM.com.
+</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>8. Інтеграція SMS у кампанії</h2>
+<p>Кампанія <strong>SMS TRIGGER WEBHOOK</strong> — це окрема кампанія з одним блоком «Send and Receive Data», яка приймає дані (номер і повідомлення) та відправляє їх на CM.com. Код вебхука включає валідацію номера телефону.</p>
+
+<h3>8.1 Використання у кампаніях</h3>
+<p>У кампанії <strong>Unsuccessful Deposit</strong> замість стандартних SMS-блоків використовуються блоки «Send and Receive Data», які відправляють дані на вебхук SMS TRIGGER WEBHOOK:</p>
+<pre>{
+  <span class="key">"phone"</span>: <span class="liquid">"{{customer.phone}}"</span>,
+  <span class="key">"message"</span>: <span class="string">"PantherBet: Your deposit didn't go through. Try a different method in your Cashier - it only takes a moment."</span>
+}</pre>
+<p>Вебхук приймає дані, валідує та форматує номер, потім відправляє SMS через CM.com. Ця система універсальна — може бути підключена до будь-якої кампанії.</p>
+
+<h3>8.2 Примітка про Twilio</h3>
+<div class="warn">
+  <strong>Twilio</strong> не використовується. Twilio може бути присутнім у кампаніях, які вже існували в Customer.io до нашого приходу. Для кампаній <strong>Unsuccessful Deposit</strong>, <strong>Welcome Flow</strong> та <strong>Nutrition #1</strong> працюють тільки вебхуки на CM.com.
+</div>
+</div>
+
+<!-- EN -->
+<div data-lang="en">
+<h2>8. SMS Integration in Campaigns</h2>
+<p>The <strong>SMS TRIGGER WEBHOOK</strong> campaign is a standalone campaign with a single "Send and Receive Data" block that receives data (phone number and message) and sends it to CM.com. The webhook code includes phone number validation.</p>
+
+<h3>8.1 Usage in Campaigns</h3>
+<p>In the <strong>Unsuccessful Deposit</strong> campaign, standard SMS blocks have been replaced with "Send and Receive Data" blocks that send data to the SMS TRIGGER WEBHOOK:</p>
+<pre>{
+  <span class="key">"phone"</span>: <span class="liquid">"{{customer.phone}}"</span>,
+  <span class="key">"message"</span>: <span class="string">"PantherBet: Your deposit didn't go through. Try a different method in your Cashier - it only takes a moment."</span>
+}</pre>
+<p>The webhook receives data, validates and formats the phone number, then sends the SMS via CM.com. This system is universal — it can be connected to any campaign.</p>
+
+<h3>8.2 Note on Twilio</h3>
+<div class="warn">
+  <strong>Twilio</strong> is not used. Twilio may still be present in campaigns that already existed in Customer.io before our involvement. For the <strong>Unsuccessful Deposit</strong>, <strong>Welcome Flow</strong>, and <strong>Nutrition #1</strong> campaigns, only CM.com webhooks are used.
+</div>
 </div>
 
 </div><!-- .content -->
