@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:smooth;">
+<head>
+<meta charset="UTF-8">
+<title>GNB Agency — Report: SMS Integration in Campaigns</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/gnb-favicon.svg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  * { box-sizing: border-box; }
+  body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; color: #e0e0e0; line-height: 1.65; background: #0C0C0C; }
+
+  /* ── Header ── */
+  .report-header { background: linear-gradient(135deg, #0C0C0C 0%, #1a1a1a 100%); padding: 48px 40px 40px; border-bottom: 3px solid #EAFF00; position: relative; }
+  .report-header .logo { height: 28px; margin-bottom: 24px; filter: brightness(1.1); }
+  .report-header h1 { font-size: 26px; font-weight: 700; color: #fff; margin: 0 0 8px 0; letter-spacing: -0.5px; }
+  .report-header .meta { color: #888; font-size: 13px; margin: 0; }
+  .report-header .meta span { color: #EAFF00; font-weight: 600; }
+
+  /* ── Language Switcher ── */
+  .lang-switcher { position: absolute; top: 20px; right: 40px; display: flex; gap: 6px; }
+  .lang-btn { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; color: #888; font-family: inherit; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+  .lang-btn:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .lang-btn.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
+
+  /* ── Content ── */
+  .content { padding: 0 40px 48px; }
+  h2 { color: #fff; margin-top: 40px; font-size: 18px; font-weight: 700; border-left: 4px solid #EAFF00; padding-left: 14px; letter-spacing: -0.3px; }
+  h3 { color: #ccc; font-size: 14px; font-weight: 600; margin-top: 20px; }
+  p { color: #b0b0b0; font-size: 14px; }
+  strong { color: #e0e0e0; }
+
+  /* ── Tables ── */
+  table { border-collapse: collapse; width: 100%; margin: 12px 0 24px 0; font-size: 13px; }
+  th { background: #1a1a1a; color: #EAFF00; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #EAFF00; }
+  td { border-bottom: 1px solid #222; padding: 8px 14px; vertical-align: top; color: #ccc; }
+  tr:hover { background: #141414; }
+
+  /* ── Code ── */
+  code { background: #1a1a1a; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #ddd; word-break: break-all; font-family: 'Consolas', 'Monaco', monospace; }
+  pre { background: #111; border: 1px solid #333; border-radius: 8px; padding: 18px 20px; font-size: 13px; color: #ddd; overflow-x: auto; line-height: 1.6; font-family: 'Consolas', 'Monaco', monospace; margin: 12px 0 24px 0; }
+  pre .key { color: #EAFF00; }
+  pre .string { color: #51cf66; }
+  pre .liquid { color: #74c0fc; }
+  pre .number { color: #ff922b; }
+  pre .comment { color: #666; font-style: italic; }
+
+  /* ── Callouts ── */
+  .note { background: #1a1700; border-left: 3px solid #EAFF00; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #b0b0b0; }
+  .note strong { color: #EAFF00; }
+  .warn { background: #1a1510; border-left: 3px solid #f0a030; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c0a878; }
+  .warn strong { color: #f0a030; }
+  .warn code { border-color: #443820; background: #1a1510; color: #ddc090; }
+
+  /* ── Bullets ── */
+  ul { padding-left: 20px; }
+  li { color: #b0b0b0; font-size: 14px; margin-bottom: 6px; }
+  li::marker { color: #EAFF00; }
+
+  /* ── Navigation bar ── */
+  .report-nav { position: sticky; top: 0; z-index: 100; background: rgba(17,17,17,0.92); border-bottom: 1px solid #222; padding: 10px 40px; display: flex; gap: 6px; backdrop-filter: blur(14px); justify-content: center; }
+  .nav-link { background: transparent; border: 1px solid #333; border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 500; color: #888; text-decoration: none; cursor: pointer; transition: all 0.25s; font-family: inherit; white-space: nowrap; }
+  .nav-link:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .nav-link.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
+  .nav-num { font-weight: 700; margin-right: 4px; font-size: 11px; opacity: 0.7; }
+  .nav-link.active .nav-num { opacity: 1; }
+  .section-anchor { scroll-margin-top: 56px; }
+
+  /* ── Footer ── */
+  .report-footer { background: #0C0C0C; border-top: 1px solid #222; padding: 24px 40px; text-align: center; }
+  .report-footer .logo-sm { height: 18px; opacity: 0.85; margin-bottom: 8px; }
+  .report-footer p { font-size: 11px; color: #555; margin: 0; }
+
+  /* ── Language visibility ── */
+  [data-lang] { display: none; }
+  [data-lang].active { display: block; }
+  div.warn[data-lang].active, div.note[data-lang].active { display: block; }
+  span[data-lang].active { display: inline; }
+
+  /* ── Print ── */
+  @media print {
+    .lang-switcher, .report-nav { display: none; }
+    body { background: #fff; color: #222; }
+    .report-header { background: #fff; border-bottom-color: #222; }
+    .report-header h1 { color: #111; }
+    .report-header .meta { color: #666; }
+    .report-header .meta span { color: #111; }
+    .content { padding: 0 20px 20px; }
+    h2 { color: #111; border-left-color: #222; }
+    h3 { color: #333; }
+    p, li { color: #333; }
+    strong { color: #111; }
+    th { background: #111; color: #fff; border-bottom-color: #111; }
+    td { color: #333; border-bottom-color: #ddd; }
+    tr:hover { background: transparent; }
+    code { background: #f4f4f4; border-color: #ddd; color: #333; }
+    pre { background: #f4f4f4; border-color: #ddd; color: #333; }
+    .note { background: #fffbe6; border-left-color: #d4a800; color: #333; }
+    .note strong { color: #d4a800; }
+    .warn { background: #fff8ee; border-left-color: #d48800; color: #664400; }
+    .warn strong { color: #d48800; }
+    .report-footer { border-top-color: #ddd; }
+    .report-footer p { color: #999; }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <img class="logo" src="../../assets/gnb-logo.png" alt="GNB Agency">
+
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-set-lang="en">EN</button>
+    <button class="lang-btn" data-set-lang="ua">UA</button>
+    <button class="lang-btn" data-set-lang="ru">RU</button>
+  </div>
+
+  <h1 data-lang="ru">Интеграция SMS в кампании</h1>
+  <p class="meta" data-lang="ru"><span>Ubuntu Quantum</span> &bull; <span>18 марта 2026</span> &bull; SMS через CM.com webhook</p>
+
+  <h1 data-lang="ua">Інтеграція SMS у кампанії</h1>
+  <p class="meta" data-lang="ua"><span>Ubuntu Quantum</span> &bull; <span>18 березня 2026</span> &bull; SMS через CM.com webhook</p>
+
+  <h1 data-lang="en" class="active">SMS Integration in Campaigns</h1>
+  <p class="meta" data-lang="en" class="active"><span>Ubuntu Quantum</span> &bull; <span>March 18, 2026</span> &bull; SMS via CM.com webhook</p>
+</div>
+
+<nav class="report-nav">
+  <a class="nav-link active" href="#sec-1"><span class="nav-num">1.</span><span data-lang="ru">Вебхук</span><span data-lang="ua">Вебхук</span><span data-lang="en" class="active">Webhook</span></a>
+  <a class="nav-link" href="#sec-2"><span class="nav-num">2.</span><span data-lang="ru">Валидация</span><span data-lang="ua">Валідація</span><span data-lang="en" class="active">Validation</span></a>
+  <a class="nav-link" href="#sec-3"><span class="nav-num">3.</span><span data-lang="ru">Кампании</span><span data-lang="ua">Кампанії</span><span data-lang="en" class="active">Campaigns</span></a>
+  <a class="nav-link" href="#sec-4"><span class="nav-num">4.</span><span data-lang="ru">Примечания</span><span data-lang="ua">Примітки</span><span data-lang="en" class="active">Notes</span></a>
+</nav>
+
+<div class="content">
+
+<!-- ═══════════ SECTION 1 — WEBHOOK ═══════════ -->
+<div id="sec-1" class="section-anchor"></div>
+
+<div data-lang="ru">
+<h2>1. SMS TRIGGER WEBHOOK</h2>
+<p>Отдельная кампания <strong>SMS TRIGGER WEBHOOK</strong> с одним блоком «Send and Receive Data». Принимает номер телефона и текст сообщения, затем отправляет SMS через CM.com API.</p>
+<h3>Код вебхука</h3>
+</div>
+<div data-lang="ua">
+<h2>1. SMS TRIGGER WEBHOOK</h2>
+<p>Окрема кампанія <strong>SMS TRIGGER WEBHOOK</strong> з одним блоком «Send and Receive Data». Приймає номер телефону та текст повідомлення, потім відправляє SMS через CM.com API.</p>
+<h3>Код вебхука</h3>
+</div>
+<div data-lang="en" class="active">
+<h2>1. SMS TRIGGER WEBHOOK</h2>
+<p>A standalone campaign <strong>SMS TRIGGER WEBHOOK</strong> with a single "Send and Receive Data" block. Receives a phone number and message text, then sends an SMS via the CM.com API.</p>
+<h3>Webhook code</h3>
+</div>
+
+<pre><span class="comment">{# Phone number sanitization and formatting #}</span>
+<span class="liquid">{% assign p = trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_' | remove: '.' | remove: '/' %}</span>
+<span class="liquid">{% assign plen = p | size %}</span>
+<span class="liquid">{% assign fc = p | slice: 0 %}</span>
+<span class="liquid">{% if fc == '0' and plen == 10 %}</span>
+  <span class="liquid">{% assign p = p | slice: 1, 9 | prepend: '0027' %}</span>
+<span class="liquid">{% else %}</span>
+  <span class="liquid">{% assign p = p | prepend: '00' %}</span>
+<span class="liquid">{% endif %}</span>
+
+{
+  <span class="key">"messages"</span>: {
+    <span class="key">"msg"</span>: [{
+      <span class="key">"allowedChannels"</span>: [<span class="string">"SMS"</span>],
+      <span class="key">"from"</span>: <span class="string">"PantherBet"</span>,
+      <span class="key">"to"</span>: [{ <span class="key">"number"</span>: <span class="liquid">"{{p}}"</span> }],
+      <span class="key">"minimumNumberOfMessageParts"</span>: <span class="number">1</span>,
+      <span class="key">"maximumNumberOfMessageParts"</span>: <span class="number">3</span>,
+      <span class="key">"body"</span>: { <span class="key">"type"</span>: <span class="string">"auto"</span>, <span class="key">"content"</span>: <span class="liquid">"{{trigger.message}}"</span> },
+      <span class="key">"reference"</span>: <span class="liquid">"cio-{{p}}-{{'now' | date: '%Y%m%d%H%M%S'}}"</span>
+    }]
+  }
+}</pre>
+
+<!-- ═══════════ SECTION 2 — VALIDATION ═══════════ -->
+<div id="sec-2" class="section-anchor"></div>
+
+<div data-lang="ru">
+<h2>2. Валидация номеров</h2>
+<p>Номер телефона из тригера проходит двухэтапную обработку:</p>
+<h3>Этап 1 — Очистка</h3>
+<p>Удаляются символы: <code>+</code> <code>пробел</code> <code>-</code> <code>(</code> <code>)</code> <code>_</code> <code>.</code> <code>/</code></p>
+<h3>Этап 2 — Форматирование</h3>
+<ul>
+  <li><strong>Локальный формат</strong> (10 цифр, начинается с 0): <code>0649095770</code> → <code>0027649095770</code></li>
+  <li><strong>Международный формат</strong> (начинается с 27): <code>27649095770</code> → <code>0027649095770</code></li>
+</ul>
+</div>
+<div data-lang="ua">
+<h2>2. Валідація номерів</h2>
+<p>Номер телефону з тригера проходить двоетапну обробку:</p>
+<h3>Етап 1 — Очищення</h3>
+<p>Видаляються символи: <code>+</code> <code>пробіл</code> <code>-</code> <code>(</code> <code>)</code> <code>_</code> <code>.</code> <code>/</code></p>
+<h3>Етап 2 — Форматування</h3>
+<ul>
+  <li><strong>Локальний формат</strong> (10 цифр, починається з 0): <code>0649095770</code> → <code>0027649095770</code></li>
+  <li><strong>Міжнародний формат</strong> (починається з 27): <code>27649095770</code> → <code>0027649095770</code></li>
+</ul>
+</div>
+<div data-lang="en" class="active">
+<h2>2. Phone Number Validation</h2>
+<p>The phone number from the trigger goes through a two-step process:</p>
+<h3>Step 1 — Sanitization</h3>
+<p>Characters removed: <code>+</code> <code>space</code> <code>-</code> <code>(</code> <code>)</code> <code>_</code> <code>.</code> <code>/</code></p>
+<h3>Step 2 — Formatting</h3>
+<ul>
+  <li><strong>Local format</strong> (10 digits, starts with 0): <code>0649095770</code> → <code>0027649095770</code></li>
+  <li><strong>International format</strong> (starts with 27): <code>27649095770</code> → <code>0027649095770</code></li>
+</ul>
+</div>
+
+<div class="note" data-lang="ru"><strong>CM.com формат:</strong> все номера должны начинаться с <code>00</code> + код страны. Пример: <code>0027649095770</code></div>
+<div class="note" data-lang="ua"><strong>CM.com формат:</strong> усі номери повинні починатися з <code>00</code> + код країни. Приклад: <code>0027649095770</code></div>
+<div class="note" data-lang="en" class="active"><strong>CM.com format:</strong> all numbers must start with <code>00</code> + country code. Example: <code>0027649095770</code></div>
+
+<!-- ═══════════ SECTION 3 — CAMPAIGNS ═══════════ -->
+<div id="sec-3" class="section-anchor"></div>
+
+<div data-lang="ru">
+<h2>3. Использование в кампаниях</h2>
+<p>В кампании <strong>Unsuccessful Deposit</strong> стандартные SMS-блоки заменены на «Send and Receive Data», которые отправляют данные на вебхук SMS TRIGGER WEBHOOK:</p>
+</div>
+<div data-lang="ua">
+<h2>3. Використання у кампаніях</h2>
+<p>У кампанії <strong>Unsuccessful Deposit</strong> стандартні SMS-блоки замінено на «Send and Receive Data», які відправляють дані на вебхук SMS TRIGGER WEBHOOK:</p>
+</div>
+<div data-lang="en" class="active">
+<h2>3. Usage in Campaigns</h2>
+<p>In the <strong>Unsuccessful Deposit</strong> campaign, standard SMS blocks have been replaced with "Send and Receive Data" blocks that send data to the SMS TRIGGER WEBHOOK:</p>
+</div>
+
+<pre>{
+  <span class="key">"phone"</span>: <span class="liquid">"{{customer.phone}}"</span>,
+  <span class="key">"message"</span>: <span class="string">"PantherBet: Your deposit didn't go through. Try a different method in your Cashier - it only takes a moment."</span>
+}</pre>
+
+<div data-lang="ru">
+<p>Вебхук принимает данные, валидирует номер и отправляет SMS через CM.com. Система универсальна — подключается к любой кампании.</p>
+</div>
+<div data-lang="ua">
+<p>Вебхук приймає дані, валідує номер та відправляє SMS через CM.com. Система універсальна — підключається до будь-якої кампанії.</p>
+</div>
+<div data-lang="en" class="active">
+<p>The webhook receives data, validates the number, and sends the SMS via CM.com. The system is universal — it can be connected to any campaign.</p>
+</div>
+
+<!-- ═══════════ SECTION 4 — NOTES ═══════════ -->
+<div id="sec-4" class="section-anchor"></div>
+
+<div data-lang="ru">
+<h2>4. Примечания</h2>
+</div>
+<div data-lang="ua">
+<h2>4. Примітки</h2>
+</div>
+<div data-lang="en" class="active">
+<h2>4. Notes</h2>
+</div>
+
+<div class="warn" data-lang="ru">
+  <strong>Twilio</strong> не используется. Twilio может присутствовать в кампаниях, которые существовали в Customer.io до нашего прихода. Для кампаний <strong>Unsuccessful Deposit</strong>, <strong>Welcome Flow</strong> и <strong>Nutrition #1</strong> работают только вебхуки на CM.com.
+</div>
+<div class="warn" data-lang="ua">
+  <strong>Twilio</strong> не використовується. Twilio може бути присутнім у кампаніях, які існували в Customer.io до нашого приходу. Для кампаній <strong>Unsuccessful Deposit</strong>, <strong>Welcome Flow</strong> та <strong>Nutrition #1</strong> працюють тільки вебхуки на CM.com.
+</div>
+<div class="warn" data-lang="en" class="active">
+  <strong>Twilio</strong> is not used. Twilio may still be present in campaigns that existed in Customer.io before our involvement. For <strong>Unsuccessful Deposit</strong>, <strong>Welcome Flow</strong>, and <strong>Nutrition #1</strong> — only CM.com webhooks are used.
+</div>
+
+</div><!-- .content -->
+
+<div class="report-footer">
+  <img class="logo-sm" src="../../assets/gnb-logo.png" alt="GNB Agency">
+  <p>&copy; 2026 GNB Agency &bull; Retention &bull; Revenue &bull; Results</p>
+</div>
+
+<script>
+(function() {
+  const buttons = document.querySelectorAll('[data-set-lang]');
+  const elements = document.querySelectorAll('[data-lang]');
+
+  function setLang(lang) {
+    elements.forEach(el => {
+      el.classList.toggle('active', el.getAttribute('data-lang') === lang);
+    });
+    buttons.forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-set-lang') === lang);
+    });
+    document.documentElement.lang = lang === 'ua' ? 'uk' : lang;
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => setLang(btn.getAttribute('data-set-lang')));
+  });
+
+  const nav = document.querySelector('.report-nav');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const anchors = Array.from(document.querySelectorAll('.section-anchor'));
+
+  function updateActiveNav() {
+    const atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 2);
+    let current = 0;
+    if (atBottom) {
+      current = anchors.length - 1;
+    } else {
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        if (anchors[i] && anchors[i].getBoundingClientRect().top <= 80) { current = i; break; }
+      }
+    }
+    navLinks.forEach((link, idx) => link.classList.toggle('active', idx === current));
+  }
+
+  window.addEventListener('scroll', updateActiveNav, {passive: true});
+  updateActiveNav();
+  setLang('en');
+})();
+</script>
+
+</body>
+</html>
