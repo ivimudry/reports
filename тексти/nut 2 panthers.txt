@@ -54,8 +54,8 @@ text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: The King of the Gods has descended from Olympus to offer you a choice. 
 Two powerful blessings lie before you - which path to riches will you take?
 
-Get a massive 140% Bonus to play any game you desire!
-Get 100 Free Spins on the legendary Gates of Olympus!
+Get a massive 140% Bonus to play any game you desire! Use code XXXX
+Get 100 Free Spins on the legendary Gates of Olympus! Use code XXXX
 button_text_1: CLAIM BONUS
 
 name: Email #6
@@ -67,8 +67,8 @@ text_2: Thunder rolls and the gates are beginning to shut!
 Your chance to choose between a 140% Bonus or 100 Free Spins on Gates of Olympus is nearly over.
 Don't let Zeus’s favor vanish! Enter your chosen code with your deposit and claim your glory today.
 
-Get a massive 140% Bonus to play any game you desire!
-Get 100 Free Spins on the legendary Gates of Olympus!
+Get a massive 140% Bonus to play any game you desire! Use code XXXX
+Get 100 Free Spins on the legendary Gates of Olympus! Use code XXXX
 button_text_1: CLAIM BONUS
 
 
