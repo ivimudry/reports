@@ -1,4 +1,4 @@
-﻿Email #1
+﻿name: Email #1
 subject: 🎣 Get a 100% Bonus + 75 FS on Big Bass Bonanza today!
 preheader: Ready for a big catch?
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -7,9 +7,9 @@ text_2: Cast your line and get ready for a legendary haul! The fishing season is
 Grab a 100% Bonus up to R3 000 plus 75 Free Spins on Big Bass Bonanza!
 
 Don’t let the big one get away!
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
-Email #2
+name: Email #2
 subject: 🐟 Your 75 Free Spins and 100% Bonus are expiring...
 preheader: Don't let your Big Bass bonus swim away!
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -17,9 +17,9 @@ text_2: The tide is going out! Your 100% Bonus and 75 Free Spins on Big Bass Bon
 
 This is your final cast to hook those massive multipliers before the offer disappears.
 Deposit now and claim your catch before it's too late!
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
-Email #3
+name: Email #3
 subject: 🛶 Upgrade your gear: 130% Bonus + 75 FS!
 preheader: Don’t miss out - claim your bonus today
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -30,9 +30,9 @@ Use promo code ENH3 with your next deposit to get:
 💰 130% Bonus up to R3 500 + 75 Free Spins on Big Bass Bonanza
 
 Don’t wait - the biggest wins are waiting just below the surface!
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
-Email #4
+name: Email #4
 subject: ⏳ Final call! Your 130% fishing bonus is expiring!
 preheader: Claim it before your reward is gone for good
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -40,9 +40,9 @@ text_2: The sun is setting on this offer! Your 130% Bonus and 75 Free Spins are 
 
 Don't get left on the shore - use code ENH3 with your deposit right now to claim your gear and start fishing for glory.
 The big bass won't wait forever!
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
-Email #5
+name: Email #5
 subject: ⚡ 140% Bonus or 100 Free Spins?
 preheader: Choose your divine reward!
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -51,9 +51,9 @@ Two powerful blessings lie before you - which path to riches will you take?
 
 Get a massive 140% Bonus to play any game you desire!
 Get 100 Free Spins on the legendary Gates of Olympus!
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
-Email #6
+name: Email #6
 subject: 🏛️ The Gates of Olympus are closing soon!
 preheader: Last chance to pick your blessing…
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -63,10 +63,10 @@ Don't let Zeus’s favor vanish! Enter your chosen code with your deposit and cl
 
 Get a massive 140% Bonus to play any game you desire!
 Get 100 Free Spins on the legendary Gates of Olympus!
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 
-Email #7
+name: Email #7
 subject: ✨ A stellar reward: 120 Free Spins on Starburst!
 preheader: Reach for the stars
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -76,9 +76,9 @@ We’re giving you 120 Free Spins on the iconic Starburst to light up your night
 
 Use promo code XXXX with your deposit to launch your intergalactic adventure.
 Are you ready to shine?
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
-Email #8
+name: Email #8
 subject: 🌟 Your 120 FS will vanish into space...
 preheader: Don’t let them go!
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -87,4 +87,4 @@ This is your final countdown.
 
 Use promo code XXXX with your deposit to claim your stellar reward before it disappears into a black hole!
 Don’t miss out - the stars are waiting for you.
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
