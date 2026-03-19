@@ -1,26 +1,20 @@
 ﻿Email #1
 subject: 🎣 Get a 100% Bonus + 75 FS on Big Bass Bonanza today!
 preheader: Ready for a big catch?
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-text_1:
-
-Cast your line and get ready for a legendary haul! The fishing season is officially open, and we’ve got the perfect gear for you to land a monster win.
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Cast your line and get ready for a legendary haul! The fishing season is officially open, and we’ve got the perfect gear for you to land a monster win.
 
 Grab a 100% Bonus up to R3 000 plus 75 Free Spins on Big Bass Bonanza!
 
 Don’t let the big one get away!
-
 [ Claim Bonus ]
 
 Email #2
 subject: 🐟 Your 75 Free Spins and 100% Bonus are expiring...
 preheader: Don't let your Big Bass bonus swim away!
-text_1:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: The tide is going out! Your 100% Bonus and 75 Free Spins on Big Bass Bonanza are about to snap the line.
 
-
-The tide is going out! Your 100% Bonus and 75 Free Spins on Big Bass Bonanza are about to snap the line.
 This is your final cast to hook those massive multipliers before the offer disappears.
 [ Copy promo code ] 
 Deposit now and claim your catch before it's too late!
