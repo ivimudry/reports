@@ -90,19 +90,6 @@ Get 100 Free Spins on the legendary Gates of Olympus!
 
 [ Claim Bonus ]
 
-inApp #5
-⚡ Pick your blessing! 
-
-Get a massive 140% Bonus to play any game you desire!
-Get 100 Free Spins on the legendary Gates of Olympus!
-[ Copy promo code ] 
-[ Copy promo code ] 
-
-Grab your bonus now!
-
-SMS #5
-⚡ Zeus offers: 140% Bonus or 100 FS on Gates of Olympus! Use code XXXX or YYYY to win big today: [Link]
-
 Email #6
 Subject: 🏛️ The Gates of Olympus are closing soon!
 Preheader: Last chance to pick your blessing…
@@ -121,15 +108,6 @@ Get 100 Free Spins on the legendary Gates of Olympus!
 [ Copy promo code ] 
 [ Claim Bonus ]
 
-inApp #6
-🏛️ Gates are closing!
-Hey {{customer.first_name | default:"friend"}},
-Get a massive 140% Bonus to play any game you desire!
-Get 100 Free Spins on the legendary Gates of Olympus!
-[ Copy promo code ] 
-[ Copy promo code ] 
-
-Pick your code below and claim your bonus!
 
 Email #7
 Subject: ✨ A stellar reward: 120 Free Spins on Starburst!
@@ -143,10 +121,6 @@ Are you ready to shine?
 
 [ Copy promo code ] 
 [ Claim Bonus ]
-
-inApp #7
-✨ Stellar reward! Grab 120 Free Spins on Starburst and watch the gems align. Use the promo code below!
-
 
 Email #8
 Subject: 🌟 Your 120 FS will vanish into space...
@@ -163,8 +137,3 @@ This is your final countdown. Use promo code XXXX with your deposit to claim you
 Don’t miss out - the stars are waiting for you.
 
 [ Claim Bonus ]
-
-inApp #8
-🚀 Final countdown! Your 120 Free Spins on Starburst are drifting away. Claim them with the code below!
-
-
