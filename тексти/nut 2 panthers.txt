@@ -69,9 +69,8 @@ Get 100 Free Spins on the legendary Gates of Olympus!
 Email #7
 subject: ✨ A stellar reward: 120 Free Spins on Starburst!
 preheader: Reach for the stars
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-Prepare for a journey into deep space! The gems are aligning and a supernova of wins is about to erupt.
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Prepare for a journey into deep space! The gems are aligning and a supernova of wins is about to erupt.
 We’re giving you 120 Free Spins on the iconic Starburst to light up your night!
 Use promo code XXXX with your deposit to launch your intergalactic adventure.
 Are you ready to shine?
