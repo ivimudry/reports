@@ -1,4 +1,5 @@
 ﻿name: Email #1
+locale: Default
 subject: 🎣 Get a 100% Bonus + 75 FS on Big Bass Bonanza today!
 preheader: Ready for a big catch?
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -10,6 +11,7 @@ Don’t let the big one get away!
 button_text_1: CLAIM BONUS
 
 name: Email #2
+locale: Default
 subject: 🐟 Your 75 Free Spins and 100% Bonus are expiring...
 preheader: Don't let your Big Bass bonus swim away!
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -20,6 +22,7 @@ Deposit now and claim your catch before it's too late!
 button_text_1: CLAIM BONUS
 
 name: Email #3
+locale: Default
 subject: 🛶 Upgrade your gear: 130% Bonus + 75 FS!
 preheader: Don’t miss out - claim your bonus today
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -33,6 +36,7 @@ Don’t wait - the biggest wins are waiting just below the surface!
 button_text_1: CLAIM BONUS
 
 name: Email #4
+locale: Default
 subject: ⏳ Final call! Your 130% fishing bonus is expiring!
 preheader: Claim it before your reward is gone for good
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -43,6 +47,7 @@ The big bass won't wait forever!
 button_text_1: CLAIM BONUS
 
 name: Email #5
+locale: Default
 subject: ⚡ 140% Bonus or 100 Free Spins?
 preheader: Choose your divine reward!
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -54,6 +59,7 @@ Get 100 Free Spins on the legendary Gates of Olympus!
 button_text_1: CLAIM BONUS
 
 name: Email #6
+locale: Default
 subject: 🏛️ The Gates of Olympus are closing soon!
 preheader: Last chance to pick your blessing…
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -67,6 +73,7 @@ button_text_1: CLAIM BONUS
 
 
 name: Email #7
+locale: Default
 subject: ✨ A stellar reward: 120 Free Spins on Starburst!
 preheader: Reach for the stars
 text_1: Hey {{customer.first_name | default:"friend"}},
@@ -79,6 +86,7 @@ Are you ready to shine?
 button_text_1: CLAIM BONUS
 
 name: Email #8
+locale: Default
 subject: 🌟 Your 120 FS will vanish into space...
 preheader: Don’t let them go!
 text_1: Hey {{customer.first_name | default:"friend"}},
