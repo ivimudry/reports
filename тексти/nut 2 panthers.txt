@@ -22,28 +22,21 @@ Deposit now and claim your catch before it's too late!
 Email #3
 subject: 🛶 Upgrade your gear: 130% Bonus + 75 FS!
 preheader: Don’t miss out - claim your bonus today
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-
-
-Your boosted reward has landed!
-
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: Your boosted reward has landed!
 The fish are biting, and we’re giving you even better bait! Take your game to the next level with an enhanced reward.
+
 Use promo code ENH3 with your next deposit to get:
 💰 130% Bonus up to R3 500 + 75 Free Spins on Big Bass Bonanza
-[ Copy promo code ] 
-Don’t wait - the biggest wins are waiting just below the surface!
 
+Don’t wait - the biggest wins are waiting just below the surface!
 [ Claim Bonus ]
 
 Email #4
 subject: ⏳ Final call! Your 130% fishing bonus is expiring!
 preheader: Claim it before your reward is gone for good
-text_1:
-Hey {{customer.first_name | default:"friend"}},
-
-
-The sun is setting on this offer! Your 130% Bonus and 75 Free Spins are almost out of reach.
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: The sun is setting on this offer! Your 130% Bonus and 75 Free Spins are almost out of reach.
 Don't get left on the shore - use code ENH3 with your deposit right now to claim your gear and start fishing for glory.
 [ Copy promo code ] 
 The big bass won't wait forever!
