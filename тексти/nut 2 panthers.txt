@@ -123,6 +123,7 @@ Get 100 Free Spins on the legendary Gates of Olympus!
 
 inApp #6
 🏛️ Gates are closing!
+Hey {{customer.first_name | default:"friend"}},
 Get a massive 140% Bonus to play any game you desire!
 Get 100 Free Spins on the legendary Gates of Olympus!
 [ Copy promo code ] 
@@ -134,6 +135,7 @@ Email #7
 Subject: ✨ A stellar reward: 120 Free Spins on Starburst!
 Preheader: Reach for the stars
 Body:
+Hey {{customer.first_name | default:"friend"}},
 Prepare for a journey into deep space! The gems are aligning and a supernova of wins is about to erupt.
 We’re giving you 120 Free Spins on the iconic Starburst to light up your night!
 Use promo code XXXX with your deposit to launch your intergalactic adventure.
