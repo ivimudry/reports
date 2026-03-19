@@ -1,9 +1,9 @@
 ﻿Email #1
-Subject: 🎣 Get a 100% Bonus + 75 FS on Big Bass Bonanza today!
-Preheader: Ready for a big catch?
-Body:
+subject: 🎣 Get a 100% Bonus + 75 FS on Big Bass Bonanza today!
+preheader: Ready for a big catch?
+text_1:
 Hey {{customer.first_name | default:"friend"}},
-
+text_1:
 
 Cast your line and get ready for a legendary haul! The fishing season is officially open, and we’ve got the perfect gear for you to land a monster win.
 
@@ -14,9 +14,9 @@ Don’t let the big one get away!
 [ Claim Bonus ]
 
 Email #2
-Subject: 🐟 Your 75 Free Spins and 100% Bonus are expiring...
-Preheader: Don't let your Big Bass bonus swim away!
-Body:
+subject: 🐟 Your 75 Free Spins and 100% Bonus are expiring...
+preheader: Don't let your Big Bass bonus swim away!
+text_1:
 Hey {{customer.first_name | default:"friend"}},
 
 
@@ -28,9 +28,9 @@ Deposit now and claim your catch before it's too late!
 [ Claim Bonus ]
 
 Email #3
-Subject: 🛶 Upgrade your gear: 130% Bonus + 75 FS!
-Preheader: Don’t miss out - claim your bonus today
-Body:
+subject: 🛶 Upgrade your gear: 130% Bonus + 75 FS!
+preheader: Don’t miss out - claim your bonus today
+text_1:
 Hey {{customer.first_name | default:"friend"}},
 
 
@@ -45,9 +45,9 @@ Don’t wait - the biggest wins are waiting just below the surface!
 [ Claim Bonus ]
 
 Email #4
-Subject: ⏳ Final call! Your 130% fishing bonus is expiring!
-Preheader: Claim it before your reward is gone for good
-Body:
+subject: ⏳ Final call! Your 130% fishing bonus is expiring!
+preheader: Claim it before your reward is gone for good
+text_1:
 Hey {{customer.first_name | default:"friend"}},
 
 
@@ -59,9 +59,9 @@ The big bass won't wait forever!
 [ Claim Bonus ]
 
 Email #5
-Subject: ⚡ 140% Bonus or 100 Free Spins?
-Preheader: Choose your divine reward!
-Body:
+subject: ⚡ 140% Bonus or 100 Free Spins?
+preheader: Choose your divine reward!
+text_1:
 Hey {{customer.first_name | default:"friend"}},
 
 The King of the Gods has descended from Olympus to offer you a choice. Two powerful blessings lie before you - which path to riches will you take?
@@ -74,9 +74,9 @@ Get 100 Free Spins on the legendary Gates of Olympus!
 [ Claim Bonus ]
 
 Email #6
-Subject: 🏛️ The Gates of Olympus are closing soon!
-Preheader: Last chance to pick your blessing…
-Body:
+subject: 🏛️ The Gates of Olympus are closing soon!
+preheader: Last chance to pick your blessing…
+text_1:
 Hey {{customer.first_name | default:"friend"}},
 
 Thunder rolls and the gates are beginning to shut! Your chance to choose between a 140% Bonus or 100 Free Spins on Gates of Olympus is nearly over.
@@ -93,9 +93,9 @@ Get 100 Free Spins on the legendary Gates of Olympus!
 
 
 Email #7
-Subject: ✨ A stellar reward: 120 Free Spins on Starburst!
-Preheader: Reach for the stars
-Body:
+subject: ✨ A stellar reward: 120 Free Spins on Starburst!
+preheader: Reach for the stars
+text_1:
 Hey {{customer.first_name | default:"friend"}},
 Prepare for a journey into deep space! The gems are aligning and a supernova of wins is about to erupt.
 We’re giving you 120 Free Spins on the iconic Starburst to light up your night!
@@ -106,9 +106,9 @@ Are you ready to shine?
 [ Claim Bonus ]
 
 Email #8
-Subject: 🌟 Your 120 FS will vanish into space...
-Preheader: Don’t let them go!
-Body:
+subject: 🌟 Your 120 FS will vanish into space...
+preheader: Don’t let them go!
+text_1:
 Hey {{customer.first_name | default:"friend"}},
 
 
