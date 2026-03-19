@@ -39,24 +39,18 @@ text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: The sun is setting on this offer! Your 130% Bonus and 75 Free Spins are almost out of reach.
 
 Don't get left on the shore - use code ENH3 with your deposit right now to claim your gear and start fishing for glory.
-[ Copy promo code ] 
 The big bass won't wait forever!
-
 [ Claim Bonus ]
 
 Email #5
 subject: ⚡ 140% Bonus or 100 Free Spins?
 preheader: Choose your divine reward!
-text_1:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
+text_2: The King of the Gods has descended from Olympus to offer you a choice. 
+Two powerful blessings lie before you - which path to riches will you take?
 
-The King of the Gods has descended from Olympus to offer you a choice. Two powerful blessings lie before you - which path to riches will you take?
 Get a massive 140% Bonus to play any game you desire!
 Get 100 Free Spins on the legendary Gates of Olympus!
-[ Copy promo code ] 
-[ Copy promo code ] 
-
-
 [ Claim Bonus ]
 
 Email #6
