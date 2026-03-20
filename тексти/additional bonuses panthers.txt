@@ -17,7 +17,7 @@ Available until March 22nd only - deposit now and land your big catch!
 Button (CTA): CLAIM BONUS
 
 InApp #1
-Body: 🎣 Weekend reload is live! Get a 60% Bonus + 60 Free Spins on Big Bass Bonanza. Available March 20-22 only. Deposit and reel in the rewards!
+Body: 🐟 Weekend reload is live! Get a 60% Bonus + 60 Free Spins on Big Bass Bonanza. Available March 20-22 only. Deposit and reel in the rewards!
 Button (CTA): CLAIM BONUS
 
 SMS #1
@@ -45,7 +45,7 @@ Take the controls and grab your spins today!
 Button (CTA): GRAB SPINS
 
 InApp #2
-Body: ✈️ Mid-week treat! 100 Free Spins on Aviator are yours. Available March 24-25 only. Take off and claim your reward now!
+Body: 🚀 Mid-week treat! 100 Free Spins on Aviator are yours. Available March 24-25 only. Take off and claim your reward now!
 Button (CTA): GRAB SPINS
 
 
@@ -70,7 +70,7 @@ Step through the gates and seize your bonus now!
 Button (CTA): UNLOCK BONUS
 
 InApp #3
-Body: ⚡ Weekend reload is back! 70% Bonus + 50 Free Spins on Gates of Olympus. Available March 27-29 only. Deposit and unlock your divine reward!
+Body: 🔱 Weekend reload is back! 70% Bonus + 50 Free Spins on Gates of Olympus. Available March 27-29 only. Deposit and unlock your divine reward!
 Button (CTA): UNLOCK BONUS
 
 SMS #3
@@ -98,5 +98,5 @@ Make your move and secure your bonus before it vanishes!
 Button (CTA): GET BONUS
 
 InApp #4
-Body: 🔥 Flash bonus alert! 60% up to R1 000 on your deposit. Available today only - grab it before midnight!
+Body: 💥 Flash bonus alert! 60% up to R1 000 on your deposit. Available today only - grab it before midnight!
 Button (CTA): GET BONUS
