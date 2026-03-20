@@ -20,7 +20,7 @@ Body: Weekend reload is live! Get a 60% Bonus + 60 Free Spins on Big Bass Bonanz
 Button (CTA): CLAIM BONUS
 
 SMS #1
-Body: PantherBet: Weekend Reload! 60% Bonus + 60 FS on Big Bass Bonanza. Available Mar 20-22 only. Don't miss out!
+Body: PantherBet: Weekend Reload! 60% Bonus + 60 FS on Big Bass Bonanza. Available Mar 20-22 only. Don't miss out! [Link]
 
 
 ========================================
@@ -29,7 +29,7 @@ BONUS 2: Mid Week Bonus (March 24-25)
 T&C: Max bonus R1 000, wager x40, min dep R50, 2 days
 ========================================
 
-Email #1
+Email #2
 Subject: ✈️ 100 Free Spins on Aviator - your mid-week boost!
 Preheader: Take flight before this offer lands elsewhere...
 Greeting: Hey {{customer.first_name | default:"friend"}},
@@ -42,7 +42,7 @@ This offer is live for two days only: March 24-25.
 Take the controls and grab your spins today!
 Button (CTA): GRAB SPINS
 
-InApp #1
+InApp #2
 Body: Mid-week treat! 100 Free Spins on Aviator are yours. Available March 24-25 only. Take off and claim your reward now!
 Button (CTA): GRAB SPINS
 
@@ -53,7 +53,7 @@ BONUS 3: Weekend Reload (March 27-29)
 T&C: Max bonus R1 000, wager x40, min dep R100, 3 days
 ========================================
 
-Email #1
+Email #3
 Subject: ⚡ 70% Bonus + 50 Free Spins - the gods demand action!
 Preheader: Zeus won't keep the gates open forever...
 Greeting: Hey {{customer.first_name | default:"friend"}},
@@ -66,11 +66,11 @@ Offer ends March 29th.
 Step through the gates and seize your bonus now!
 Button (CTA): UNLOCK BONUS
 
-InApp #1
+InApp #3
 Body: Weekend reload is back! 70% Bonus + 50 Free Spins on Gates of Olympus. Available March 27-29 only. Deposit and unlock your divine reward!
 Button (CTA): UNLOCK BONUS
 
-SMS #1
+SMS #3
 Body: PantherBet: Weekend Reload! 70% Bonus + 50 FS on Gates of Olympus. Mar 27-29 only. Grab yours now!
 
 
@@ -80,7 +80,7 @@ BONUS 4: One Day Bonus (March 31)
 T&C: Max bonus R1 000, wager x35, min dep R50, 1 day only
 ========================================
 
-Email #1
+Email #4
 Subject: 🔥 60% Bonus up to R1 000 - today only!
 Preheader: One day. One chance. Don't blink...
 Greeting: Hey {{customer.first_name | default:"friend"}},
@@ -93,6 +93,6 @@ When the clock hits midnight, it's gone.
 Make your move and secure your bonus before it vanishes!
 Button (CTA): GET BONUS
 
-InApp #1
+InApp #4
 Body: Flash bonus alert! 60% up to R1 000 on your deposit. Available today only - grab it before midnight!
 Button (CTA): GET BONUS
