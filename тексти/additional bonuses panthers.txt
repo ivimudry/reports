@@ -12,15 +12,15 @@ Greeting: Hey {{customer.first_name | default:"friend"}},
 Body: The fishing season never stops at PantherBet!
 This weekend, deposit and unlock a 60% Bonus + 60 Free Spins on Big Bass Bonanza.
 
-Cast your line and hook those wild multipliers - every spin could reel in serious cash.
+Cast your line and hook those wild multipliers - each reel could pull in serious cash.
 The water is warm, the bass are biting, and the bonus is loaded.
 Available until March 22nd only.
 
-Drop your deposit now and land the biggest catch of the week!
+Drop your deposit and land the biggest catch of the week!
 Button (CTA): CLAIM BONUS
 
 InApp #1
-Body: 🐟 The bass are biting! Score a 60% Bonus + 60 Free Spins on Big Bass Bonanza. Available March 20-22 only. Deposit and reel in the rewards!
+Body: 🐟 The bass are biting! Score a 60% Bonus + 60 Free Spins on Big Bass Bonanza. Available March 20-22 only. Top up and reel in the rewards!
 Button (CTA): CLAIM BONUS
 
 SMS #1
@@ -44,7 +44,7 @@ Buckle up and watch the multiplier climb - the higher you fly, the bigger you wi
 No ceiling, no limits, just pure altitude and pure rewards.
 This offer is live for two days only: March 24-25.
 
-Hit the runway, deposit now and take off with your spins before the window closes!
+Hit the runway, top up your balance and take off with your spins before the window closes!
 Button (CTA): GRAB SPINS
 
 InApp #2
@@ -66,14 +66,14 @@ Greeting: Hey {{customer.first_name | default:"friend"}},
 Body: Thunder rolls across the sky and the gates have opened once again!
 Deposit now to unlock a 70% Bonus + 50 Free Spins on Gates of Olympus.
 
-The power of the gods is behind every spin - lightning strikes, the reels shake, and golden wins pour down from above.
+The power of the gods is behind every single spin - lightning strikes, the reels shake, and golden wins pour down from above.
 This divine offer runs until March 29th only.
 
-Step through the gates and claim your heavenly reward before Zeus shuts them for good!
+Step through the gates and claim your heavenly reward before Zeus locks them shut!
 Button (CTA): UNLOCK BONUS
 
 InApp #3
-Body: 🔱 The gates are open! 70% Bonus + 50 Free Spins on Gates of Olympus. Available March 27-29 only. Deposit and unlock your divine reward!
+Body: 🔱 The gates are open! 70% Bonus + 50 Free Spins on Gates of Olympus. Available March 27-29 only. Claim your divine reward now!
 Button (CTA): UNLOCK BONUS
 
 SMS #3
@@ -95,10 +95,10 @@ Body: This is not a drill - your one-day flash bonus is here!
 Deposit today and get a 60% Bonus up to R1 000 straight to your balance.
 
 No second chances, no extensions, no coming back tomorrow.
-When the clock hits midnight, this deal disappears for good.
+When the clock hits midnight, this deal disappears without a trace.
 The panther moves fast and so should you.
 
-Lock in your deposit now and walk away with the bonus before the day ends!
+Lock in your deposit and walk away with the bonus before the day ends!
 Button (CTA): GET BONUS
 
 InApp #4
