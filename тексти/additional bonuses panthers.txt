@@ -8,7 +8,11 @@ Email #1
 Subject: 🎣 60% Bonus + 60 Free Spins - weekend reload is here!
 Preheader: Your catch of the week is waiting...
 Greeting: Hey {{customer.first_name | default:"friend"}},
-Body: The fishing season never stops at PantherBet! This weekend, grab a 60% Bonus + 60 Free Spins on Big Bass Bonanza. Cast your line, hook those multipliers and reel in some serious cash. Available until March 22nd only - deposit now and land your big catch!
+Body: The fishing season never stops at PantherBet!
+This weekend, grab a 60% Bonus + 60 Free Spins on Big Bass Bonanza.
+
+Cast your line, hook those multipliers and reel in some serious cash.
+Available until March 22nd only - deposit now and land your big catch!
 Button (CTA): CLAIM BONUS
 
 InApp #1
@@ -29,7 +33,13 @@ Email #1
 Subject: ✈️ 100 Free Spins on Aviator - your mid-week boost!
 Preheader: Take flight before this offer lands elsewhere...
 Greeting: Hey {{customer.first_name | default:"friend"}},
-Body: Need a lift this week? We've loaded 100 Free Spins on Aviator just for you. Buckle up and watch the multiplier climb - the higher you fly, the bigger you win. This offer is live for two days only: March 24-25. Take the controls and grab your spins today!
+Body: Need a lift this week?
+We've loaded 100 Free Spins on Aviator just for you.
+
+Buckle up and watch the multiplier climb - the higher you fly, the bigger you win.
+This offer is live for two days only: March 24-25.
+
+Take the controls and grab your spins today!
 Button (CTA): GRAB SPINS
 
 InApp #1
@@ -47,7 +57,13 @@ Email #1
 Subject: ⚡ 70% Bonus + 50 Free Spins - the gods demand action!
 Preheader: Zeus won't keep the gates open forever...
 Greeting: Hey {{customer.first_name | default:"friend"}},
-Body: Thunder rolls across the sky - your weekend reload has arrived! Get a 70% Bonus + 50 Free Spins on Gates of Olympus. The power of the gods is behind every spin, and the golden wins are within reach. Offer ends March 29th. Step through the gates and seize your bonus now!
+Body: Thunder rolls across the sky - your weekend reload has arrived!
+Get a 70% Bonus + 50 Free Spins on Gates of Olympus.
+
+The power of the gods is behind every spin, and the golden wins are within reach.
+Offer ends March 29th.
+
+Step through the gates and seize your bonus now!
 Button (CTA): UNLOCK BONUS
 
 InApp #1
@@ -68,7 +84,13 @@ Email #1
 Subject: 🔥 60% Bonus up to R1 000 - today only!
 Preheader: One day. One chance. Don't blink...
 Greeting: Hey {{customer.first_name | default:"friend"}},
-Body: This is not a drill - your one-day flash bonus is here! Get a 60% Bonus up to R1 000 on your deposit. No second chances, no extensions. When the clock hits midnight, it's gone. Make your move and secure your bonus before it vanishes!
+Body: This is not a drill - your one-day flash bonus is here!
+Get a 60% Bonus up to R1 000 on your deposit.
+
+No second chances, no extensions.
+When the clock hits midnight, it's gone.
+
+Make your move and secure your bonus before it vanishes!
 Button (CTA): GET BONUS
 
 InApp #1
