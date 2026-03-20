@@ -10,7 +10,7 @@ Subject: 🎣 60% Bonus + 60 Free Spins This Weekend!
 Preheader: Your catch of the week is waiting...
 Greeting: Hey {{customer.first_name | default:"friend"}},
 Body: The fishing season never stops at PantherBet!
-This weekend, deposit and unlock a 60% Bonus + 60 Free Spins on Big Bass Bonanza.
+This weekend, deposit and activate a 60% Bonus + 60 Free Spins on Big Bass Bonanza.
 
 Cast your line and hook those wild multipliers - each reel could pull in serious cash.
 The water is warm, the bass are biting, and the bonus is loaded.
@@ -41,7 +41,7 @@ Greeting: Hey {{customer.first_name | default:"friend"}},
 Body: Need a lift this week? We've loaded 100 Free Spins on Aviator just for you.
 
 Buckle up and watch the multiplier climb - the higher you fly, the bigger you win.
-No ceiling, no limits, just pure altitude and pure rewards.
+Zero limits, all altitude, all rewards.
 This offer is live for two days only: March 24-25.
 
 Hit the runway, top up your balance - your spins are fuelled and ready for takeoff!
@@ -94,7 +94,7 @@ Greeting: Hey {{customer.first_name | default:"friend"}},
 Body: This is not a drill - your one-day flash bonus is here!
 Deposit today and get a 60% Bonus up to R1 000 straight to your balance.
 
-No second chances, no extensions, no coming back tomorrow.
+Forget second chances - there are none.
 When the clock hits midnight, this deal disappears without a trace.
 The panther moves fast and so should you.
 
