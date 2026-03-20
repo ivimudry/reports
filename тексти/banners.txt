@@ -583,3 +583,60 @@ Visual:
 Use Pantherbet brand colors. Use a fishing-style game character with a strong urgency feel. No button. Do not mention the game title on the banner.
 
 Additional Bonuses:
+
+
+Email #1
+Banner text:
+Reel in your 60% bonus + 60 FS!
+CTA button:
+CLAIM BONUS
+Visual:
+Use Pantherbet brand colors. Use a fishing-style game character integrated naturally into the Pantherbet setting. Do not mention the game title on the banner.
+
+inApp #1
+Banner text:
+Reel in your 60% bonus + 60 FS!
+Visual:
+Use Pantherbet brand colors. Use a fishing-style game character integrated naturally into the Pantherbet setting. No button. Do not mention the game title on the banner.
+
+Email #2
+Banner text:
+Grab your 100 Free Spins!
+CTA button:
+CLAIM BONUS
+Visual:
+Use Pantherbet brand colors. Use a flight-style game character integrated into the Pantherbet setting. Do not mention the game title on the banner.
+
+inApp #2
+Banner text:
+Grab your 100 Free Spins!
+Visual:
+Use Pantherbet brand colors. Use a flight-style game character integrated into the Pantherbet setting. No button. Do not mention the game title on the banner.
+
+Email #3
+Banner text:
+Unlock your 70% bonus + 50 FS!
+CTA button:
+CLAIM BONUS
+Visual:
+Use Pantherbet brand colors. Use a mythic / thunder-style game character integrated into the Pantherbet setting. The brand panther can also be included. Do not mention the game title on the banner.
+
+inApp #3
+Banner text:
+Unlock your 70% bonus + 50 FS!
+Visual:
+Use Pantherbet brand colors. Use a mythic / thunder-style game character integrated into the Pantherbet setting. No button. Do not mention the game title on the banner.
+
+Email #4
+Banner text:
+Flash deal - grab your 60% bonus!
+CTA button:
+CLAIM BONUS
+Visual:
+Use Pantherbet brand colors and the brand panther. Keep the visual bold, urgent, and reward-focused.
+
+inApp #4
+Banner text:
+Flash deal - grab your 60% bonus!
+Visual:
+Use Pantherbet brand colors and the brand panther. No button. Keep the visual bold, urgent, and reward-focused.
