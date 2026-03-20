@@ -6,18 +6,21 @@ T&C: Max bonus R1 000, wager x40, min dep R50, 3 days
 ========================================
 
 Email #1
-Subject: 🎣 60% Bonus + 60 Free Spins - weekend reload is here!
+Subject: 🎣 60% Bonus + 60 Free Spins This Weekend!
 Preheader: Your catch of the week is waiting...
 Greeting: Hey {{customer.first_name | default:"friend"}},
 Body: The fishing season never stops at PantherBet!
-This weekend, grab a 60% Bonus + 60 Free Spins on Big Bass Bonanza.
+This weekend, deposit and unlock a 60% Bonus + 60 Free Spins on Big Bass Bonanza.
 
-Cast your line, hook those multipliers and reel in some serious cash.
-Available until March 22nd only - deposit now and land your big catch!
+Cast your line and hook those wild multipliers - every spin could reel in serious cash.
+The water is warm, the bass are biting, and the bonus is loaded.
+Available until March 22nd only.
+
+Drop your deposit now and land the biggest catch of the week!
 Button (CTA): CLAIM BONUS
 
 InApp #1
-Body: 🐟 Weekend reload is live! Get a 60% Bonus + 60 Free Spins on Big Bass Bonanza. Available March 20-22 only. Deposit and reel in the rewards!
+Body: 🐟 The bass are biting! Score a 60% Bonus + 60 Free Spins on Big Bass Bonanza. Available March 20-22 only. Deposit and reel in the rewards!
 Button (CTA): CLAIM BONUS
 
 SMS #1
@@ -32,16 +35,16 @@ T&C: Max bonus R1 000, wager x40, min dep R50, 2 days
 ========================================
 
 Email #2
-Subject: ✈️ 100 Free Spins on Aviator - your mid-week boost!
+Subject: ✈️ 100 Free Spins on Aviator - Mid-Week Boost!
 Preheader: Take flight before this offer lands elsewhere...
 Greeting: Hey {{customer.first_name | default:"friend"}},
-Body: Need a lift this week?
-We've loaded 100 Free Spins on Aviator just for you.
+Body: Need a lift this week? We've loaded 100 Free Spins on Aviator just for you.
 
 Buckle up and watch the multiplier climb - the higher you fly, the bigger you win.
+No ceiling, no limits, just pure altitude and pure rewards.
 This offer is live for two days only: March 24-25.
 
-Take the controls and grab your spins today!
+Hit the runway, deposit now and take off with your spins before the window closes!
 Button (CTA): GRAB SPINS
 
 InApp #2
@@ -57,20 +60,20 @@ T&C: Max bonus R1 000, wager x40, min dep R100, 3 days
 ========================================
 
 Email #3
-Subject: ⚡ 70% Bonus + 50 Free Spins - the gods demand action!
+Subject: ⚡ 70% Bonus + 50 Free Spins - Divine Power!
 Preheader: Zeus won't keep the gates open forever...
 Greeting: Hey {{customer.first_name | default:"friend"}},
-Body: Thunder rolls across the sky - your weekend reload has arrived!
-Get a 70% Bonus + 50 Free Spins on Gates of Olympus.
+Body: Thunder rolls across the sky and the gates have opened once again!
+Deposit now to unlock a 70% Bonus + 50 Free Spins on Gates of Olympus.
 
-The power of the gods is behind every spin, and the golden wins are within reach.
-Offer ends March 29th.
+The power of the gods is behind every spin - lightning strikes, the reels shake, and golden wins pour down from above.
+This divine offer runs until March 29th only.
 
-Step through the gates and seize your bonus now!
+Step through the gates and claim your heavenly reward before Zeus shuts them for good!
 Button (CTA): UNLOCK BONUS
 
 InApp #3
-Body: 🔱 Weekend reload is back! 70% Bonus + 50 Free Spins on Gates of Olympus. Available March 27-29 only. Deposit and unlock your divine reward!
+Body: 🔱 The gates are open! 70% Bonus + 50 Free Spins on Gates of Olympus. Available March 27-29 only. Deposit and unlock your divine reward!
 Button (CTA): UNLOCK BONUS
 
 SMS #3
@@ -85,16 +88,17 @@ T&C: Max bonus R1 000, wager x35, min dep R50, 1 day only
 ========================================
 
 Email #4
-Subject: 🔥 60% Bonus up to R1 000 - today only!
+Subject: 🔥 60% Bonus up to R1 000 - Today Only!
 Preheader: One day. One chance. Don't blink...
 Greeting: Hey {{customer.first_name | default:"friend"}},
 Body: This is not a drill - your one-day flash bonus is here!
-Get a 60% Bonus up to R1 000 on your deposit.
+Deposit today and get a 60% Bonus up to R1 000 straight to your balance.
 
-No second chances, no extensions.
-When the clock hits midnight, it's gone.
+No second chances, no extensions, no coming back tomorrow.
+When the clock hits midnight, this deal disappears for good.
+The panther moves fast and so should you.
 
-Make your move and secure your bonus before it vanishes!
+Lock in your deposit now and walk away with the bonus before the day ends!
 Button (CTA): GET BONUS
 
 InApp #4
