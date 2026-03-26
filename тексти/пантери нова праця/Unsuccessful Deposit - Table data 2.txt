@@ -1,10 +1,40 @@
+name: Email 1
+locale: Default
+subject: ⚡ Your deposit didn't go through
+preheader: Let's get you back on track
+Body: Hi, {{ customer.first_name | default:"there" | capitalize }}!
+We noticed your recent deposit didn't complete - but don't worry, it happens and there's an easy fix. 
 
+If you continue to experiencing trouble making your deposit you could try using one of the alternatives below.
+
+Often, simply switching your payment method does the trick. Head back to the Cashier and give it another go - your next big win could be just one deposit away.
+
+If you run into any issues, our support team is ready to help via live chat on our website or at support@pantherbet.co.za.
+
+Best,
+The PantherBet Team
+
+name: Email 2
+locale: Default
+subject: 🔔 Your deposit is still pending
+preheader: A quick switch could solve it
+Body: Hi, {{ customer.first_name | default:"there" | capitalize }}!
+text_2: It looks like your deposit hasn’t completed yet. This can happen for a few common reasons, such as connection timeouts, app switching, or account limits — especially on mobile.
+
+Before trying again, we suggest trying one of the alternative methods below.
+text_3: Most payment issues are resolved instantly by choosing an alternative method. We've made it easy to switch - just head to your Cashier.
+
+Need help? Reach out via live chat or email us at support@pantherbet.co.za - we're here for you.
+
+Best,
+
+The PantherBet Team
 
 name: Email 3
 locale: Default
 subject: RE: Deposit not completing
 preheader: We'd love to help you sort this out
-text_1: Hi, {{ customer.first_name | default:"there" | capitalize }}!
+Body: Hi, {{ customer.first_name | default:"there" | capitalize }}!
 text_2: We see your deposit hasn't gone through yet, and we'd like to personally help you get it resolved.
 
 Our team will find the best alternative for you - whether that's MasterCard, VISA, EasyPay, Vouchers, ApplePay, or Bank Transfer. We'll make sure you're set up and ready to play.
@@ -19,7 +49,7 @@ name: Email 4
 locale: Default
 subject: 🎯 Don't let a payment hiccup stop you
 preheader: You're closer than you think
-text_1: Hi, {{ customer.first_name | default:"there" | capitalize }}!
+Body: Hi, {{ customer.first_name | default:"there" | capitalize }}!
 text_2: We know your deposit hasn't gone through yet - and we don't want you to miss out on the action.
 
 If anything blocks you, reach out via live chat or email support@pantherbet.co.za - we'll get you sorted immediately.
