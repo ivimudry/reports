@@ -2,7 +2,7 @@ SMS 1
 PantherBet: Your deposit didn't go through. Try a different method in your Cashier - it only takes a moment. Retry now: [https://games.pantherbet.co.za/?fast-deposit=modal]
 
 SMS 3
-PantherBet: Still having trouble depositing? Reach our support team via livechat on our website - we'll help you get it sorted. Chat with us: [https://pantherbet.co.za]
+PantherBet: Still having trouble depositing? Reach our support team via livechat on our website - we'll help you get it sorted. Chat with us: [https://games.pantherbet.co.za/support]
 
 SMS 4
 PantherBet: Don't let a payment hiccup stop you - switch your method in the Cashier and get back in the game! Deposit here: [https://games.pantherbet.co.za/?fast-deposit=modal]
