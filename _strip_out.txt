@@ -1,0 +1,14 @@
+
+welcome - Table data.txt:
+  Kept 80 fields, removed 122 fields
+  Removed types: banner_src, button_text_1, facebook_src, from_id, instagram_src, logo_src, preheader, promocode_button_1, subject, text_1, text_2, text_3, text_5, text_6
+
+nut 1 - Table data.txt:
+  Kept 64 fields, removed 104 fields
+  Removed types: banner_src, button_text_1, facebook_src, from_id, instagram_src, logo_src, preheader, promocode_button_1, subject, text_1, text_2, text_3, text_6
+
+nut 2 - Table data.txt:
+  Kept 64 fields, removed 96 fields
+  Removed types: banner_src, button_text_1, facebook_src, from_id, instagram_src, logo_src, preheader, promocode_button_1, subject, text_1, text_2, text_3, text_5, text_6
+
+Done
