@@ -1,0 +1,29 @@
+
+
+name: Email 3
+locale: Default
+subject: RE: Deposit not completing
+preheader: We'd love to help you sort this out
+text_1: Hi, {{ customer.first_name | default:"there" | capitalize }}!
+text_2: We see your deposit hasn't gone through yet, and we'd like to personally help you get it resolved.
+
+Our team will find the best alternative for you - whether that's MasterCard, VISA, EasyPay, Vouchers, ApplePay, or Bank Transfer. We'll make sure you're set up and ready to play.
+
+You can reach us instantly via the live chat on our website or simply reply to this email 
+
+Best,
+
+The PantherBet Team
+
+name: Email 4
+locale: Default
+subject: 🎯 Don't let a payment hiccup stop you
+preheader: You're closer than you think
+text_1: Hi, {{ customer.first_name | default:"there" | capitalize }}!
+text_2: We know your deposit hasn't gone through yet - and we don't want you to miss out on the action.
+
+If anything blocks you, reach out via live chat or email support@pantherbet.co.za - we'll get you sorted immediately.
+
+Best,
+
+The PantherBet Team
