@@ -3,9 +3,8 @@ Subject: 🍒50 Free Spins inside
 Preheader: Get juicy wins!
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: The sun is out, the music is up, and slots are bursting with flavor! 🍓
-We’re inviting you to the ultimate cluster-winning fiesta. We’ve got 50 Free Spins on Fruit Party waiting for you!
-
-[ Copy promo code ] 
+We’re inviting you to the ultimate cluster-winning fiesta. 
+We’ve got 50 Free Spins on Fruit Party waiting for you! 
 
 Don’t let these rewards get overripe - claim your spins now and let the good times roll!
 
