@@ -1,5 +1,5 @@
 name: Email #1
-locale: default
+locale: Default
 Subject: 🍒 50 Free Spins inside
 Preheader: Get juicy wins!
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -9,7 +9,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #2
-locale: default
+locale: Default
 Subject: ✨ Reach for the stars with 100 Free Spins!
 Preheader: Your dazzling reward is ready
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -19,7 +19,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #3
-locale: default
+locale: Default
 Subject: 🍓 Get juicy: 70% Bonus + 80 Free Spins are here!
 Preheader: Turn up the flavor
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -29,7 +29,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #4
-locale: default
+locale: Default
 Subject: ✈️ Your cockpit is ready: 100 Free Spins inside!
 Preheader: Take control and fly high
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -39,7 +39,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #5
-locale: default
+locale: Default
 Subject: ⏳ Your 100 FS are taking off...
 Preheader: Final boarding call!
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -49,7 +49,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #6
-locale: default
+locale: Default
 Subject: 🚀 Boost your balance by 120%!
 Preheader: More funds, more chances to win
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -59,7 +59,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #7
-locale: default
+locale: Default
 Subject: 🔥 Your 120% boost is expiring
 Preheader: Last chance to claim your extra bonus funds
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -69,7 +69,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #8
-locale: default
+locale: Default
 Subject: 🍬 A sugar-coated reward: 100% + 80 Free Spins!
 Preheader: Get a sweet deal on Sugar Rush
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -79,7 +79,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #9
-locale: default
+locale: Default
 Subject: 🍰 Your 80 bonus spins are almost gone...
 Preheader: Don't let this sweet deal melt away!
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -89,7 +89,7 @@ text_3: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #10
-locale: default
+locale: Default
 Subject: 🐠 130% Bonus or 120 Free Spins? Pick your tackle
 Preheader: Which one will you hook?
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
@@ -97,7 +97,7 @@ text_2: <td align="center" class="es-text-1167" style="padding:20px;Margin:0"><p
 button_text_1: CLAIM BONUS
 
 name: Email #11
-locale: default
+locale: Default
 Subject: 🪼 Don't let the big one get away!
 Preheader: Last chance to choose your bonus
 text_1: <td align="center" class="es-text-1118" style="padding:0;Margin:0;padding-right:20px;padding-left:20px;padding-top:20px"><p class="es-text-mobile-size-12 es-override-size" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px"><strong style="font-weight:700 !important">Hey {{customer.first_name | default:&quot;friend&quot;}},</strong></p></td>
