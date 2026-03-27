@@ -93,7 +93,8 @@ name: Email #9
 Subject: 🍰 Your 80 bonus spins are almost gone...
 Preheader: Don’t let this sweet deal melt away!
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: The candy store is closing soon! Your 100% Bonus and 80 Free Spins on Sugar Rush are about to disappear.
+text_2: The candy store is closing soon! 
+Your 100% Bonus and 80 Free Spins on Sugar Rush are about to disappear.
 
 Use promo code XXXX with your deposit right now to claim your treats before they’re gone for good!
 Don’t let your sugary rewards melt away. 
@@ -103,15 +104,14 @@ name: Email #10
 Subject: 🐠130% Bonus or 120 Free Spins? Pick your tackle
 Preheader: Which one will you hook?
 text_1: Hey {{customer.first_name | default:"friend"}},
-text_2: The fish are jumping and the weather is perfect for a big win! But every fisherman has their own style - so we’re letting you choose your own bait.
+text_2: The fish are jumping and the weather is perfect for a big win! 
+But every fisherman has their own style - so we’re letting you choose your own bait.
+
 Which reward are you reeling in today?
 Get a huge 130% Bonus to use on any game!
 Get 120 Free Spins on Big Bass Splash!
-[ Copy promo code ] 
-[ Copy promo code ] 
 
 Cast your line and claim your favorite reward before the tide turns!
-
 button_text_1: CLAIM BONUS
 
 name: Email #11
@@ -120,10 +120,8 @@ Preheader: Last chance to choose your bonus
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: This is your final chance to pick between a 130% Bonus or 120 Free Spins on Big Bass Splash.
 
-
 Get a huge 130% Bonus to use on any game!
 Get 120 Free Spins on Big Bass Splash!
-[ Copy promo code ] 
-[ Copy promo code ] 
 
 The offer is expiring soon- don’t get left on the shore. 
+button_text_1: CLAIM BONUS
