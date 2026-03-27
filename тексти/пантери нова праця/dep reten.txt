@@ -16,8 +16,6 @@ Don’t let these rewards get overripe - claim your spins now and let the good t
 name: Email #2
 Subject: ✨ Reach for the stars with 100 Free Spins!
 Preheader: Your dazzling reward is ready
-
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 
@@ -34,7 +32,6 @@ Don’t let this offer drift away into deep space - claim your spins now and sta
 name: Email #3
 Subject: 🍓 Get juicy: 70% Bonus + 80 Free Spins are here!
 Preheader: Turn up the flavor
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 The sun is out and the clusters are ready to pop! 🍍
@@ -55,7 +52,6 @@ Don’t let this offer get overripe - grab your bonus now and watch those fruits
 name: Email #4
 Subject: ✈️ Your cockpit is ready: 100 Free Spins inside!
 Preheader: Take control and fly high
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 
@@ -72,7 +68,6 @@ Keep your finger on the button - it’s time to fly!
 name: Email #5
 Subject: ⏳ Your 100 FS are taking off...
 Preheader:  Final boarding call!
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 
@@ -87,7 +82,6 @@ The plane is leaving - are you on board?
 name: Email #6
 Subject: 🚀 Boost your balance by 120%!
 Preheader: More funds, more chances to win
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 
@@ -102,7 +96,6 @@ The move is yours - make it a big one!
 name: Email #7
 Subject: 🔥 Your 120% boost is expiring
 Preheader: Last chance to claim your extra bonus funds
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 
@@ -116,7 +109,6 @@ Grab it while it’s still on the table!
 name: Email #8
 Subject: 🍬 A sugar-coated reward: 100% + 80 Free Spins!
 Preheader: Get a sweet deal on Sugar Rush
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 Ready for a sugar rush? We’re serving up a delicious treat that’s too sweet to resist!
@@ -129,7 +121,6 @@ Start spinning and watch those multipliers explode!
 name: Email #9
 Subject: 🍰 Your 80 bonus spins are almost gone...
 Preheader: Don’t let this sweet deal melt away!
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 The candy store is closing soon! Your 100% Bonus and 80 Free Spins on Sugar Rush are about to disappear.
@@ -159,7 +150,6 @@ Cast your line and claim your favorite reward before the tide turns!
 name: Email #11
 Subject: 🪼 Don't let the big one get away!
 Preheader: Last chance to choose your bonus
-Body:
 text_1: Hey {{customer.first_name | default:"friend"}},
 
 
