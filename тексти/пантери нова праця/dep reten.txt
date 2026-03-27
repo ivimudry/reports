@@ -62,9 +62,7 @@ name: Email #5
 Subject: ⏳ Your 100 FS are taking off...
 Preheader:  Final boarding call!
 text_1: Hey {{customer.first_name | default:"friend"}},
-
-
-This is the final call at the gate! Your 100 Free Spins on Aviator are taxiing to the runway and will be gone shortly.
+text_2: This is the final call at the gate! Your 100 Free Spins on Aviator are taxiing to the runway and will be gone shortly.
 Use promo code XXXX with your deposit right now to claim your spins and reach new heights.
 [ Copy promo code ] 
 The plane is leaving - are you on board?
@@ -76,9 +74,7 @@ name: Email #6
 Subject: 🚀 Boost your balance by 120%!
 Preheader: More funds, more chances to win
 text_1: Hey {{customer.first_name | default:"friend"}},
-
-
-Why settle for less when you can have more? Get a 120% Deposit Bonus right now!
+text_2: Why settle for less when you can have more? Get a 120% Deposit Bonus right now!
 Use promo code XXXX when you top up to claim your extra funds.
 
 [ Copy promo code ] 
@@ -90,9 +86,7 @@ name: Email #7
 Subject: 🔥 Your 120% boost is expiring
 Preheader: Last chance to claim your extra bonus funds
 text_1: Hey {{customer.first_name | default:"friend"}},
-
-
-Time is running out to supercharge your deposit. Your 120% Bonus is waiting, but not for long!
+text_2: Time is running out to supercharge your deposit. Your 120% Bonus is waiting, but not for long!
 Enter promo code XXXX with your deposit before the offer vanishes.
 [ Copy promo code ] 
 Grab it while it’s still on the table!
@@ -103,8 +97,7 @@ name: Email #8
 Subject: 🍬 A sugar-coated reward: 100% + 80 Free Spins!
 Preheader: Get a sweet deal on Sugar Rush
 text_1: Hey {{customer.first_name | default:"friend"}},
-
-Ready for a sugar rush? We’re serving up a delicious treat that’s too sweet to resist!
+text_2: Ready for a sugar rush? We’re serving up a delicious treat that’s too sweet to resist!
 Get a 100% Bonus PLUS 80 Free Spins on the colorful Sugar Rush slot.
 Use promo code XXXX with your next deposit to unlock this candy-filled reward.
 [ Copy promo code ] 
@@ -115,8 +108,7 @@ name: Email #9
 Subject: 🍰 Your 80 bonus spins are almost gone...
 Preheader: Don’t let this sweet deal melt away!
 text_1: Hey {{customer.first_name | default:"friend"}},
-
-The candy store is closing soon! Your 100% Bonus and 80 Free Spins on Sugar Rush are about to disappear.
+text_2: The candy store is closing soon! Your 100% Bonus and 80 Free Spins on Sugar Rush are about to disappear.
 Use promo code XXXX with your deposit right now to claim your treats before they’re gone for good!
 
 [ Copy promo code ] 
@@ -129,7 +121,7 @@ name: Email #10
 Subject: 🐠130% Bonus or 120 Free Spins? Pick your tackle
 Preheader: Which one will you hook?
 text_1: Hey {{customer.first_name | default:"friend"}},
-The fish are jumping and the weather is perfect for a big win! But every fisherman has their own style - so we’re letting you choose your own bait.
+text_2: The fish are jumping and the weather is perfect for a big win! But every fisherman has their own style - so we’re letting you choose your own bait.
 Which reward are you reeling in today?
 Get a huge 130% Bonus to use on any game!
 Get 120 Free Spins on Big Bass Splash!
@@ -144,9 +136,7 @@ name: Email #11
 Subject: 🪼 Don't let the big one get away!
 Preheader: Last chance to choose your bonus
 text_1: Hey {{customer.first_name | default:"friend"}},
-
-
-This is your final chance to pick between a 130% Bonus or 120 Free Spins on Big Bass Splash.
+text_2: This is your final chance to pick between a 130% Bonus or 120 Free Spins on Big Bass Splash.
 
 
 Get a huge 130% Bonus to use on any game!
