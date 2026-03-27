@@ -6,8 +6,8 @@ text_2: The sun is out, the music is up, and slots are bursting with flavor! �
 We’re inviting you to the ultimate cluster-winning fiesta. 
 We’ve got 50 Free Spins on Fruit Party waiting for you! 
 
-Use promo code FRUITS50 with your deposit to claim your spins.
-Don't let these rewards get overripe - let the good times roll!
+Enter promo code FRUITS50 when you deposit and let the good times roll!
+Don't let these rewards get overripe - spin now!
 button_text_1: CLAIM BONUS
 
 name: Email #2
@@ -18,8 +18,8 @@ text_2: Ready for an intergalactic adventure? 🚀
 The cosmic gems are aligning, and a supernova of wins is about to erupt! We’re giving you a stellar head start with 100 Free Spins on the iconic Starburst.
 It’s time to light up the night and watch those expanding wilds lead you to big wins!
 
-Use promo code STAR110 with your deposit to claim your spins.
-Don't let this offer drift away into deep space - start your journey to the stars!
+Apply promo code STAR110 at the cashier to unlock your spins.
+This offer won't orbit forever - launch your session now!
 button_text_1: CLAIM BONUS
 
 name: Email #3
@@ -33,8 +33,8 @@ Your Juicy Reward:
 💰 70% Bonus up to R4 500
 🍒 80 Free Spins on Fruit Party
 
-Use promo code FRU7080 with your deposit to grab your bonus.
-Don't let this offer get overripe - watch those fruits multiply into big wins!
+Drop promo code FRU7080 with your next top-up to activate the deal.
+These fruits won't stay fresh for long - pick your wins today!
 button_text_1: CLAIM BONUS
 
 name: Email #4
