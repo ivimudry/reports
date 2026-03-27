@@ -26,12 +26,12 @@ Preheader: Turn up the flavor
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: The sun is out and the clusters are ready to pop! 🍍
 It’s time for a sweet session on Fruit Party, and we’ve got the perfect combo to get you started!
+
 Your Juicy Reward:
 💰 70% Bonus up to R4 500
 🍒 80 Free Spins on Fruit Party
 
 Don’t let this offer get overripe - grab your bonus now and watch those fruits multiply into big wins!
-
 button_text_1: CLAIM BONUS
 
 name: Email #4
@@ -40,12 +40,9 @@ Preheader: Take control and fly high
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: It’s time to take your seat in the cockpit and chase those high multipliers.
 We’ve fueled your account with 100 Free Spins on Aviator.
-Use promo code XXXX with your deposit to get your boarding pass and start your ascent.
 
-[ Copy promo code ] 
-
+Use promo code XXXX with your deposit to get your boarding pass and start your ascent. 
 Keep your finger on the button - it’s time to fly!
-
 button_text_1: CLAIM BONUS
 
 name: Email #5
@@ -53,10 +50,9 @@ Subject: ⏳ Your 100 FS are taking off...
 Preheader:  Final boarding call!
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: This is the final call at the gate! Your 100 Free Spins on Aviator are taxiing to the runway and will be gone shortly.
-Use promo code XXXX with your deposit right now to claim your spins and reach new heights.
-[ Copy promo code ] 
-The plane is leaving - are you on board?
 
+Use promo code XXXX with your deposit right now to claim your spins and reach new heights.
+The plane is leaving - are you on board?
 button_text_1: CLAIM BONUS
 
 
@@ -66,8 +62,6 @@ Preheader: More funds, more chances to win
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: Why settle for less when you can have more? Get a 120% Deposit Bonus right now!
 Use promo code XXXX when you top up to claim your extra funds.
-
-[ Copy promo code ] 
 The move is yours - make it a big one!
 
 button_text_1: CLAIM BONUS
