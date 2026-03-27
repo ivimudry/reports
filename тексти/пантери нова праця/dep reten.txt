@@ -6,7 +6,8 @@ text_2: The sun is out, the music is up, and slots are bursting with flavor! �
 We’re inviting you to the ultimate cluster-winning fiesta. 
 We’ve got 50 Free Spins on Fruit Party waiting for you! 
 
-Don’t let these rewards get overripe - claim your spins now and let the good times roll!
+Use promo code FRUITS50 with your deposit to claim your spins.
+Don't let these rewards get overripe - let the good times roll!
 button_text_1: CLAIM BONUS
 
 name: Email #2
@@ -17,7 +18,8 @@ text_2: Ready for an intergalactic adventure? 🚀
 The cosmic gems are aligning, and a supernova of wins is about to erupt! We’re giving you a stellar head start with 100 Free Spins on the iconic Starburst.
 It’s time to light up the night and watch those expanding wilds lead you to big wins!
 
-Don’t let this offer drift away into deep space - claim your spins now and start your journey to the stars!
+Use promo code STAR110 with your deposit to claim your spins.
+Don't let this offer drift away into deep space - start your journey to the stars!
 button_text_1: CLAIM BONUS
 
 name: Email #3
@@ -31,7 +33,8 @@ Your Juicy Reward:
 💰 70% Bonus up to R4 500
 🍒 80 Free Spins on Fruit Party
 
-Don’t let this offer get overripe - grab your bonus now and watch those fruits multiply into big wins!
+Use promo code FRU7080 with your deposit to grab your bonus.
+Don't let this offer get overripe - watch those fruits multiply into big wins!
 button_text_1: CLAIM BONUS
 
 name: Email #4
@@ -41,7 +44,7 @@ text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: It’s time to take your seat in the cockpit and chase those high multipliers.
 We’ve fueled your account with 100 Free Spins on Aviator.
 
-Use promo code XXXX with your deposit to get your boarding pass and start your ascent. 
+Use promo code AVI100 with your deposit to get your boarding pass and start your ascent. 
 Keep your finger on the button - it’s time to fly!
 button_text_1: CLAIM BONUS
 
@@ -51,7 +54,7 @@ Preheader:  Final boarding call!
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: This is the final call at the gate! Your 100 Free Spins on Aviator are taxiing to the runway and will be gone shortly.
 
-Use promo code XXXX with your deposit right now to claim your spins and reach new heights.
+Use promo code AVI100 with your deposit right now to claim your spins and reach new heights.
 The plane is leaving - are you on board?
 button_text_1: CLAIM BONUS
 
@@ -63,7 +66,7 @@ text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: Why settle for less when you can have more? 
 Get a 120% Deposit Bonus right now!
 
-Use promo code XXXX when you top up to claim your extra funds.
+Use promo code STAG120 when you top up to claim your extra funds.
 The move is yours - make it a big one!
 button_text_1: CLAIM BONUS
 
@@ -74,7 +77,7 @@ text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: Time is running out to supercharge your deposit. 
 Your 120% Bonus is waiting, but not for long!
 
-Enter promo code XXXX with your deposit before the offer vanishes.
+Enter promo code STAG120 with your deposit before the offer vanishes.
 Grab it while it’s still on the table!
 button_text_1: CLAIM BONUS
 
@@ -85,7 +88,7 @@ text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: Ready for a sugar rush? We’re serving up a delicious treat that’s too sweet to resist!
 Get a 100% Bonus PLUS 80 Free Spins on the colorful Sugar Rush slot.
 
-Use promo code XXXX with your next deposit to unlock this candy-filled reward.
+Use promo code SR180 with your next deposit to unlock this candy-filled reward.
 Start spinning and watch those multipliers explode!
 button_text_1: CLAIM BONUS
 
@@ -96,7 +99,7 @@ text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: The candy store is closing soon! 
 Your 100% Bonus and 80 Free Spins on Sugar Rush are about to disappear.
 
-Use promo code XXXX with your deposit right now to claim your treats before they’re gone for good!
+Use promo code SR180 with your deposit right now to claim your treats before they're gone for good!
 Don’t let your sugary rewards melt away. 
 button_text_1: CLAIM BONUS
 
@@ -108,8 +111,8 @@ text_2: The fish are jumping and the weather is perfect for a big win!
 But every fisherman has their own style - so we’re letting you choose your own bait.
 
 Which reward are you reeling in today?
-Get a huge 130% Bonus to use on any game!
-Get 120 Free Spins on Big Bass Splash!
+Get a huge 130% Bonus to use on any game - use promo code STAG130!
+Get 120 Free Spins on Big Bass Splash - use promo code BBSPL120!
 
 Cast your line and claim your favorite reward before the tide turns!
 button_text_1: CLAIM BONUS
@@ -120,8 +123,8 @@ Preheader: Last chance to choose your bonus
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: This is your final chance to pick between a 130% Bonus or 120 Free Spins on Big Bass Splash.
 
-Get a huge 130% Bonus to use on any game!
-Get 120 Free Spins on Big Bass Splash!
+Get a huge 130% Bonus to use on any game - use promo code STAG130!
+Get 120 Free Spins on Big Bass Splash - use promo code BBSPL120!
 
 The offer is expiring soon- don’t get left on the shore. 
 button_text_1: CLAIM BONUS
