@@ -20,7 +20,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768422028_Nutrition1_Email1_01KKYDCDGE6RV7Y2ZRZ37H0E28.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638043062_DEP%20Retention_Email1_01KMRAQ5A2A9KJAWC4EZ4SY0AV.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
@@ -49,7 +49,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768427075_Nutrition1_Email2_01KKYDCJFQZXETE6EAJ74BZWRC.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638044062_DEP%20Retention_Email2_01KMRAQ68K38T1X89JWFFT5VC4.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2
@@ -78,7 +78,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768431550_Nutrition1_Email3_01KKYDCPYEDABVEFYKTJHZJ0G9.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638046719_DEP%20Retention_Email3_01KMRAQ8VJY2NNDMKRQ4PEZY0V.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3
@@ -107,7 +107,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768431550_Nutrition1_Email3_01KKYDCPYEDABVEFYKTJHZJ0G9.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638047720_DEP%20Retention_Email4_01KMRAQ9TX3KS0828XXYEM1FKV.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4
@@ -136,7 +136,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768450674_Nutrition1_Email5_01KKYDD9H0PGGQXH8KGSP98DPE.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638048612_DEP%20Retention_Email5_01KMRAQAPN5RZWGFD0GZXFSD5C.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5
@@ -165,7 +165,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768454672_Nutrition1_Email6_01KKYDDDGZBNJNMY1F09N82AM2.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638049461_DEP%20Retention_Email6_01KMRAQBH3CXZ8YPY6KDR1SDF9.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6
@@ -194,7 +194,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768457344_Nutrition1_Email7_01KKYDDG0S8PA2PT8A5E533N1C.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638050300_DEP%20Retention_Email7_01KMRAQCBAR9G5PNT8AW4S790P.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7
@@ -223,7 +223,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768459014_Nutrition1_Email8_01KKYDDHN06ZD8H9MGNYS9A5SC.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638052228_DEP%20Retention_Email9_01KMRAQE7QP0EF6BQ2CGB4T4TT.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8&utm_campaign=nut1&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8
@@ -279,7 +279,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768217142_Welcome_Email_1_01KKYD67AMGEMBKX5X7MM02PFM.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638053146_DEP%20Retention_Email10_01KMRAQF4CBMSY4PQC80VAD28K.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
@@ -306,7 +306,7 @@ button_text_1: CLAIM BONUS
 button_href_1: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1729842995519_logo_01JB1ATRM3Y5AWG1D881E9QVEM.png
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773768217142_Welcome_Email_1_01KKYD67AMGEMBKX5X7MM02PFM.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774638053959_DEP%20Retention_Email11_01KMRAQFXR0EZ7Q32NV2NF0W8X.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
 instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1&utm_campaign=welcome&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
