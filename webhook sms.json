@@ -1,4 +1,4 @@
-{% assign p = trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_' | remove: '.' | remove: '/' %}{% assign plen = p | size %}{% assign fc = p | slice: 0 %}{% if fc == '0' and plen == 10 %}{% assign p = p | slice: 1, 9 | prepend: '0027' %}{% else %}{% assign p = p | prepend: '00' %}{% endif %}{
+{% assign p = trigger.phone | remove: '+' | remove: ' ' | remove: '-' | remove: '(' | remove: ')' | remove: '_' | remove: '.' | remove: '/' %}{% assign plen = p | size %}{% assign fc = p | slice: 0 %}{% assign f2 = p | slice: 0, 2 %}{% assign f4 = p | slice: 0, 4 %}{% if fc == '0' and plen == 10 %}{% assign p = p | slice: 1, 9 | prepend: '0027' %}{% elsif f2 == '27' and plen == 12 %}{% assign p = p | slice: 3, 9 | prepend: '0027' %}{% elsif f4 != '0027' %}{% assign p = p | prepend: '00' %}{% endif %}{
     "messages": {
         "msg": [
             {
