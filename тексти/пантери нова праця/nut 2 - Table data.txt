@@ -22,9 +22,9 @@ logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773921492085_Nutrition2_Email3_01KM2ZBR08KEMTFKMK5FCNY804.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3
-instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+instagram_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641460523_instagram_01KMRDZEP6HYXCD2BQJ20W0DKK.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3
-facebook_src: https://cdn-icons-png.flaticon.com/512/5968/5968764.png
+facebook_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641459919_facebook_01KMRDZE38DQ1ANZTDX2WN5QTR.png
 facebook_href: https://www.facebook.com/share/1GfKVBAET9/?mibextid=wwXIfr&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3
 
 name: Email #4
@@ -51,9 +51,9 @@ logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773921492891_Nutrition2_Email4_01KM2ZBRSWF85NMP9W1HHMW1M0.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4
-instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+instagram_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641460523_instagram_01KMRDZEP6HYXCD2BQJ20W0DKK.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4
-facebook_src: https://cdn-icons-png.flaticon.com/512/5968/5968764.png
+facebook_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641459919_facebook_01KMRDZE38DQ1ANZTDX2WN5QTR.png
 facebook_href: https://www.facebook.com/share/1GfKVBAET9/?mibextid=wwXIfr&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4
 
 name: Email #7
@@ -80,9 +80,9 @@ logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773921495434_Nutrition2_Email7_01KM2ZBV93560HX27B87ZT4APE.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7
-instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+instagram_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641460523_instagram_01KMRDZEP6HYXCD2BQJ20W0DKK.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7
-facebook_src: https://cdn-icons-png.flaticon.com/512/5968/5968764.png
+facebook_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641459919_facebook_01KMRDZE38DQ1ANZTDX2WN5QTR.png
 facebook_href: https://www.facebook.com/share/1GfKVBAET9/?mibextid=wwXIfr&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7
 
 name: Email #8
@@ -109,9 +109,9 @@ logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773921496284_Nutrition2_Email8_01KM2ZBW3MQ69KCV7HE9Q97S0Z.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8
-instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+instagram_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641460523_instagram_01KMRDZEP6HYXCD2BQJ20W0DKK.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8
-facebook_src: https://cdn-icons-png.flaticon.com/512/5968/5968764.png
+facebook_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641459919_facebook_01KMRDZE38DQ1ANZTDX2WN5QTR.png
 facebook_href: https://www.facebook.com/share/1GfKVBAET9/?mibextid=wwXIfr&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8
 
 name: Email #1
@@ -136,9 +136,9 @@ logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773921490371_Nutrition2_Email1_01KM2ZBPBM7TYBD2N81XHDC436.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
-instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+instagram_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641460523_instagram_01KMRDZEP6HYXCD2BQJ20W0DKK.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
-facebook_src: https://cdn-icons-png.flaticon.com/512/5968/5968764.png
+facebook_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641459919_facebook_01KMRDZE38DQ1ANZTDX2WN5QTR.png
 facebook_href: https://www.facebook.com/share/1GfKVBAET9/?mibextid=wwXIfr&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1
 
 name: Email #2
@@ -163,9 +163,9 @@ logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773921491288_Nutrition2_Email2_01KM2ZBQ7C1FJ2F1T9N3RZ8TAN.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2
-instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+instagram_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641460523_instagram_01KMRDZEP6HYXCD2BQJ20W0DKK.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2
-facebook_src: https://cdn-icons-png.flaticon.com/512/5968/5968764.png
+facebook_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641459919_facebook_01KMRDZE38DQ1ANZTDX2WN5QTR.png
 facebook_href: https://www.facebook.com/share/1GfKVBAET9/?mibextid=wwXIfr&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2
 
 name: Email #5
@@ -190,9 +190,9 @@ logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773921493738_Nutrition2_Email5_01KM2ZBSKXQ5EH6QFE7RHX1THF.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5
-instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+instagram_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641460523_instagram_01KMRDZEP6HYXCD2BQJ20W0DKK.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5
-facebook_src: https://cdn-icons-png.flaticon.com/512/5968/5968764.png
+facebook_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641459919_facebook_01KMRDZE38DQ1ANZTDX2WN5QTR.png
 facebook_href: https://www.facebook.com/share/1GfKVBAET9/?mibextid=wwXIfr&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5
 
 name: Email #6
@@ -217,7 +217,7 @@ logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/
 logo_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1773921494609_Nutrition2_Email6_01KM2ZBTFBS9WA6Q8NET9MR3PK.png
 banner_href: https://games.pantherbet.co.za/?fast-deposit=modal&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6
-instagram_src: https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+instagram_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641460523_instagram_01KMRDZEP6HYXCD2BQJ20W0DKK.png
 instagram_href: https://www.instagram.com/pantherbet_za?igsh=cmozYTJxNG5td3Zn&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6
-facebook_src: https://cdn-icons-png.flaticon.com/512/5968/5968764.png
+facebook_src: https://userimg-assets-eu.customeriomail.com/images/client-env-169267/1774641459919_facebook_01KMRDZE38DQ1ANZTDX2WN5QTR.png
 facebook_href: https://www.facebook.com/share/1GfKVBAET9/?mibextid=wwXIfr&utm_campaign=nutrition2&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6
