@@ -2,7 +2,7 @@ name: Email #1
 Subject: 🍒50 Free Spins inside
 Preheader: Get juicy wins!
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 The sun is out, the music is up, and slots are bursting with flavor! 🍓
 We’re inviting you to the ultimate cluster-winning fiesta. We’ve got 50 Free Spins on Fruit Party waiting for you!
@@ -18,7 +18,7 @@ Subject: ✨ Reach for the stars with 100 Free Spins!
 Preheader: Your dazzling reward is ready
 
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 
 Ready for an intergalactic adventure? 🚀
@@ -35,7 +35,7 @@ name: Email #3
 Subject: 🍓 Get juicy: 70% Bonus + 80 Free Spins are here!
 Preheader: Turn up the flavor
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 The sun is out and the clusters are ready to pop! 🍍
 
@@ -56,7 +56,7 @@ name: Email #4
 Subject: ✈️ Your cockpit is ready: 100 Free Spins inside!
 Preheader: Take control and fly high
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 
 It’s time to take your seat in the cockpit and chase those high multipliers.
@@ -73,7 +73,7 @@ name: Email #5
 Subject: ⏳ Your 100 FS are taking off...
 Preheader:  Final boarding call!
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 
 This is the final call at the gate! Your 100 Free Spins on Aviator are taxiing to the runway and will be gone shortly.
@@ -88,7 +88,7 @@ name: Email #6
 Subject: 🚀 Boost your balance by 120%!
 Preheader: More funds, more chances to win
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 
 Why settle for less when you can have more? Get a 120% Deposit Bonus right now!
@@ -103,7 +103,7 @@ name: Email #7
 Subject: 🔥 Your 120% boost is expiring
 Preheader: Last chance to claim your extra bonus funds
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 
 Time is running out to supercharge your deposit. Your 120% Bonus is waiting, but not for long!
@@ -117,7 +117,7 @@ name: Email #8
 Subject: 🍬 A sugar-coated reward: 100% + 80 Free Spins!
 Preheader: Get a sweet deal on Sugar Rush
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 Ready for a sugar rush? We’re serving up a delicious treat that’s too sweet to resist!
 Get a 100% Bonus PLUS 80 Free Spins on the colorful Sugar Rush slot.
@@ -130,7 +130,7 @@ name: Email #9
 Subject: 🍰 Your 80 bonus spins are almost gone...
 Preheader: Don’t let this sweet deal melt away!
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 The candy store is closing soon! Your 100% Bonus and 80 Free Spins on Sugar Rush are about to disappear.
 Use promo code XXXX with your deposit right now to claim your treats before they’re gone for good!
@@ -144,7 +144,7 @@ Don’t let your sugary rewards melt away.
 name: Email #10
 Subject: 🐠130% Bonus or 120 Free Spins? Pick your tackle
 Preheader: Which one will you hook?
-Body:
+text_1: Hey {{customer.first_name | default:"friend"}},
 The fish are jumping and the weather is perfect for a big win! But every fisherman has their own style - so we’re letting you choose your own bait.
 Which reward are you reeling in today?
 Get a huge 130% Bonus to use on any game!
@@ -160,7 +160,7 @@ name: Email #11
 Subject: 🪼 Don't let the big one get away!
 Preheader: Last chance to choose your bonus
 Body:
-Hey {{customer.first_name | default:"friend"}},
+text_1: Hey {{customer.first_name | default:"friend"}},
 
 
 This is your final chance to pick between a 130% Bonus or 120 Free Spins on Big Bass Splash.
