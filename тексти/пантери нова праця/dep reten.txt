@@ -7,8 +7,7 @@ We’re inviting you to the ultimate cluster-winning fiesta.
 We’ve got 50 Free Spins on Fruit Party waiting for you! 
 
 Don’t let these rewards get overripe - claim your spins now and let the good times roll!
-
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #2
 Subject: ✨ Reach for the stars with 100 Free Spins!
@@ -18,30 +17,22 @@ text_2: Ready for an intergalactic adventure? 🚀
 The cosmic gems are aligning, and a supernova of wins is about to erupt! We’re giving you a stellar head start with 100 Free Spins on the iconic Starburst.
 It’s time to light up the night and watch those expanding wilds lead you to big wins!
 
-[ Copy promo code ] 
-
 Don’t let this offer drift away into deep space - claim your spins now and start your journey to the stars!
-
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #3
 Subject: 🍓 Get juicy: 70% Bonus + 80 Free Spins are here!
 Preheader: Turn up the flavor
 text_1: Hey {{customer.first_name | default:"friend"}},
 text_2: The sun is out and the clusters are ready to pop! 🍍
-
 It’s time for a sweet session on Fruit Party, and we’ve got the perfect combo to get you started!
-
 Your Juicy Reward:
 💰 70% Bonus up to R4 500
 🍒 80 Free Spins on Fruit Party
 
-
-[ Copy promo code ] 
-
 Don’t let this offer get overripe - grab your bonus now and watch those fruits multiply into big wins!
 
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #4
 Subject: ✈️ Your cockpit is ready: 100 Free Spins inside!
@@ -55,7 +46,7 @@ Use promo code XXXX with your deposit to get your boarding pass and start your a
 
 Keep your finger on the button - it’s time to fly!
 
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #5
 Subject: ⏳ Your 100 FS are taking off...
@@ -66,7 +57,7 @@ Use promo code XXXX with your deposit right now to claim your spins and reach ne
 [ Copy promo code ] 
 The plane is leaving - are you on board?
 
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 
 name: Email #6
@@ -79,7 +70,7 @@ Use promo code XXXX when you top up to claim your extra funds.
 [ Copy promo code ] 
 The move is yours - make it a big one!
 
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #7
 Subject: 🔥 Your 120% boost is expiring
@@ -90,7 +81,7 @@ Enter promo code XXXX with your deposit before the offer vanishes.
 [ Copy promo code ] 
 Grab it while it’s still on the table!
 
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #8
 Subject: 🍬 A sugar-coated reward: 100% + 80 Free Spins!
@@ -101,7 +92,7 @@ Get a 100% Bonus PLUS 80 Free Spins on the colorful Sugar Rush slot.
 Use promo code XXXX with your next deposit to unlock this candy-filled reward.
 [ Copy promo code ] 
 Start spinning and watch those multipliers explode!
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #9
 Subject: 🍰 Your 80 bonus spins are almost gone...
@@ -114,7 +105,7 @@ Use promo code XXXX with your deposit right now to claim your treats before they
 
 Don’t let your sugary rewards melt away. 
 
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #10
 Subject: 🐠130% Bonus or 120 Free Spins? Pick your tackle
@@ -129,7 +120,7 @@ Get 120 Free Spins on Big Bass Splash!
 
 Cast your line and claim your favorite reward before the tide turns!
 
-[ Claim Bonus ]
+button_text_1: CLAIM BONUS
 
 name: Email #11
 Subject: 🪼 Don't let the big one get away!
