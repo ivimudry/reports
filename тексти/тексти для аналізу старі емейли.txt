@@ -44,10 +44,17 @@ Don't miss your chance to blast off with a massive win!
 Button: DEPOSIT NOW
 
 Email #4
-Subject: 
-Preheader: 
+Subject: Missions are over, but a bonus awaits you!
+Preheader: We saved something special just for you.
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+The Daily Missions have ended. Even if you didn’t complete all of them, we still want to reward you!
+
+Deposit at least 45 AUD and receive:
+120% bonus up to 525 AUD + 120 Free Spins
+
+Jump back in and make the next win yours!
+Button: PLAY NOW
 
 Email #5
 Subject: 
