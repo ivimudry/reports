@@ -44,7 +44,11 @@ Button: PLAY NOW
 
 InApp #7
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Daily Missions have begun!
+Bet 45 AUD + in slots today and get
+40 Free Spins.
+Complete missions through March 19 to earn a special Sunday reward.
+Button: START NOW
 
 InApp #8
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -52,11 +56,16 @@ Button:
 
 InApp #9
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Don't let the weekend end without a win.
+Deposit and grab a 90% bonus up to 350 EUR + 90 FS before it expires tonight!
+Button: DEPOSIT NOW
 
 InApp #10
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Weekend Mode: ON!🥂
+
+Make your Saturday & Sunday legendary. We’re giving you a 90% Bonus + 90 FS to keep the reels spinning!
+Button: CLAIM BONUS
 
 InApp #11
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
