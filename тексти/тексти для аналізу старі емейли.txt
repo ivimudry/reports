@@ -315,7 +315,16 @@ Email #23
 Subject: 🎁 Welcome Gift: 120% bonus on your first deposit!
 Preheader: Grab your boost and start your winning journey at Oshi.
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+We noticed you’ve joined the Oshi family, but the real fun hasn’t started yet! There is a world of excitement waiting for you, and we want to make your first experience truly legendary.
+
+We’ve prepared a massive boost to get you into the action:
+🔥 120% Bonus up to 1500 AUD
+
+Deposit 30 AUD or more using the code START120 and watch your balance grow.
+
+Your seat at the winner's table is waiting!
+Button: CLAIM MY BONUS
 
 Email #24
 Subject: 
