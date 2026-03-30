@@ -1,10 +1,13 @@
 InApp #1
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button:
+Your Weekend Boost is almost gone! ⏰
+
+There’s not much time left - claim your 65% Bonus up to 350 EUR + 60 FS on Big Bass Bonanza before the weekend ends today.
+Button:CLAIM BONUS
 
 InApp #2
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Button: CLAIM BONUS
 
 InApp #3
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
