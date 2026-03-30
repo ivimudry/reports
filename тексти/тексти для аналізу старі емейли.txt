@@ -145,16 +145,30 @@ Email #11
 Subject: ⏳ Don't let your 100% bonus slip away...
 Preheader: Use your boost before it expires tonight
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+Sunday’s winding down, and the Weekend Boost is about to clock out.
+
+⚡️ Don't let the week start without one last power-up. ⚡️
+
+Use DOUBLE350 on your next deposit to score a 100% bonus up to 350 EUR.
+
+The clock's ticking grab it before it’s gone!
+Button: GET MY BONUS
 
 Email #12
-Subject: 
-Preheader: 
+Subject: 🔥 Grab a 100% Weekend Bonus!
+Preheader: Your weekend upgrade has arrived!
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+The week has come to an end, and now it's time to kick things off with an incredible Oshi boost!
+
+Get your weekend off to a great start - make a deposit of 45 AUD or more with bonus code DOUBLE350 and grab a 100% bonus up to 350EUR.
+
+Jump into the games you love and let the weekend adventure begin!
+Button: GET MY BONUS
 
 Email #13
-Subject: 
+Subject: Missions are over, but a bonus awaits you!
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
