@@ -297,29 +297,23 @@ Subject: 🎡 Spin the Lucky Wheel and Test Your Luck!
 Preheader: Pick your wheel and see what reward awaits.
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-
 The Lucky Wheel is still live on Oshi!
-
 Pick your wheel, make a deposit with the matching bonus code, spin, and see what luck brings your way.
 
 Silver Wheel – win up to 7500 AUD
 Deposit: 30 AUD
 Bonus code: SILVER
 
- 
-
 Gold Wheel – win up to 15000 AUD
 Deposit: 45 AUD
 Bonus code: GOLD
-
- 
 
 Your reward is waiting!
 Button: SPIN & WIN
 
 Email #23
-Subject: 
-Preheader: 
+Subject: 🎁 Welcome Gift: 120% bonus on your first deposit!
+Preheader: Grab your boost and start your winning journey at Oshi.
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
