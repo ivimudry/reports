@@ -1,6 +1,7 @@
+
 Subject: 🐟 Your 60% Bonus + 60 FS are slipping away!
 Preheader: Last Chance to Claim Your Weekend Boost
-Body: Hello there!
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 The weekend is almost over, so now’s the time to grab your Weekend Boost before it’s gone!
 
@@ -8,4 +9,16 @@ Deposit 30 EUR or more today to claim a 65% bonus up to 350 EUR + 60 Free Spins 
 
 Jump into the action now and make the most of your Sunday before the weekend ends!
 
-GET MY BONUS
+Button: GET MY BONUS
+
+Subject: 🐟 Your 60% Bonus + 60 FS are slipping away!
+Preheader: Last Chance to Claim Your Weekend Boost
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The weekend is almost over, so now’s the time to grab your Weekend Boost before it’s gone!
+
+Deposit 30 EUR or more today to claim a 65% bonus up to 350 EUR + 60 Free Spins on Big Bass Bonanza.
+
+Jump into the action now and make the most of your Sunday before the weekend ends!
+
+Button: GET MY BONUS
