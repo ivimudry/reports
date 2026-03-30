@@ -1,0 +1,105 @@
+Email #1 - EGG60350 (01.04.2026)
+
+Subject: 🍬 60% Bonus + 60 Free Spins - Easter Surprise!
+Preheader: A sweet reward is hiding inside for you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Easter has arrived at Oshi, and we've hidden a sweet surprise just for you!
+
+Deposit 30 EUR or more and use bonus code EGG60350 to claim a 60% bonus up to 350 EUR + 60 Free Spins on Sweet Bonanza.
+
+The candy reels are loaded and ready to pay out. Crack open your Easter egg and start winning today!
+Button: CLAIM MY TREAT
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available once on April 1 (UTC TZ)
+Free spins will be issued on "Sweet Bonanza". If this game is not available in your region, spins will be credited on "Elvis Frog TRUEWAYS", "Elvis Frog in Vegas", "Gemhalla", "Lady Wolf Moon", "Gold Rush with Johnny Cash".
+
+---
+
+Email #2 - BUNNY350 (02.04.2026)
+
+Subject: 🐰 100% Bonus up to 350 EUR - Easter Drop!
+Preheader: The bunny left something big in your basket
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The Easter Bunny made a stop at Oshi and dropped something special into your basket!
+
+Use bonus code BUNNY350 on your next deposit to grab a massive 100% bonus up to 350 EUR. That means double the balance and double the fun at the tables and reels.
+
+Hop over to your favourite games and make the most of this holiday reward!
+Button: GET MY BONUS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available once on April 2 (UTC TZ)
+
+---
+
+Email #3 - CHICK150 (03.04.2026)
+
+Subject: 🐥 150 Free Spins on Sugar Rush - Easter Freebie!
+Preheader: Something colorful just hatched for you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This Easter, a freshly hatched reward is ready and waiting just for you at Oshi!
+
+Make a deposit and use bonus code CHICK150 to unlock 150 Free Spins on Sugar Rush. Watch the reels fill up with colorful candy and turn every spin into a chance for something sweet.
+
+Grab your spins and enjoy the sugar-coated fun before this Easter egg is gone!
+Button: SPIN NOW
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available once on April 3 (UTC TZ)
+Free spins will be issued on "Sugar Rush". If this game is not available in your region, spins will be credited on "Elvis Frog TRUEWAYS", "Elvis Frog in Vegas", "Gemhalla", "Lady Wolf Moon", "Gold Rush with Johnny Cash".
+
+---
+
+Email #4 - GATES80350 (04.04.2026)
+
+Subject: ⚡ 80% Bonus + 60 FS - Easter at Olympus!
+Preheader: Open the gates to your Easter fortune
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This Easter, even the gods of Olympus are feeling generous!
+
+Deposit 30 EUR or more with bonus code GATES80350 to claim an 80% bonus up to 350 EUR + 60 Free Spins on Gates of Olympus. Let Zeus light the way to your next big win.
+
+Step through the gates and seize your Easter reward before it vanishes!
+Button: UNLOCK MY REWARD
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available once on April 4 (UTC TZ)
+Free spins will be issued on "Gates of Olympus". If this game is not available in your region, spins will be credited on "Elvis Frog TRUEWAYS", "Elvis Frog in Vegas", "Gemhalla", "Lady Wolf Moon", "Gold Rush with Johnny Cash".
+
+---
+
+Email #5 - STACKUP120K (05.04.2026)
+
+Subject: 🏆 120% up to 1000 EUR - Easter Tournament Starts!
+Preheader: The biggest Easter competition just kicked off
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The Oshi Easter Tournament is officially here, and we're kicking it off with a powerful head start just for you!
+
+Use bonus code STACKUP120K on your deposit to claim a massive 120% bonus up to 1000 EUR. Stack your balance, climb the leaderboard, and compete for the top prizes all season long.
+
+The race is on - get in now and make your first move count!
+Button: JOIN THE TOURNAMENT
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available once on April 5 (UTC TZ)
