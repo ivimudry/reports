@@ -12,10 +12,16 @@ Jump into the action now and make the most of your Sunday before the weekend end
 Button: GET MY BONUS
 
 Email #2
-Subject: 
-Preheader: 
+Subject: ⚡️ Weekend Boost - 65% up to 350 EUR + 60 FS
+Preheader: Your weekend upgrade has arrived!
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+The weekend is here, and it’s the perfect moment to boost your play with a special reward from Oshi!
+
+Deposit 30 EUR or more to claim a 65% bonus up to 350 EUR + 60 Free Spins on Big Bass Bonanza.
+
+Jump into the action today and enjoy an extra splash of excitement with every spin!
+Button: GET MY BONUS
 
 Email #3
 Subject: 
