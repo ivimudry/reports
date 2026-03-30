@@ -83,73 +83,73 @@ Preheader:
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #14
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #15
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #16
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #17
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #18
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #19
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #20
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #21
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #22
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #23
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #24
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
-Email #
+Email #25
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
