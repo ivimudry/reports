@@ -172,23 +172,3 @@ Love is in the air and so is your special bonus!
 Enjoy 80% up to 525 AUD + 60 FS.
 Deposit 45 AUD and use code LOVE80.
 Button: CLAIM NOW
-
-InApp #26
-Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
-
-InApp #27
-Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
-
-InApp #28
-Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
-
-InApp #29
-Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
-
-InApp #30
-Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
