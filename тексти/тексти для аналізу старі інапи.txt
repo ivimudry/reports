@@ -22,15 +22,25 @@ Button: OPEN NOW
 
 InApp #4
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Daily Missions are finished, but a reward is waiting.
+Deposit 45 AUD + and get
+120% up to 525 AUD + 120 FS.
 Button: PLAY NOW
 
 InApp #5
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Mission 3 is live!
+Deposit 37 AUD +, use code WIN100 and receive 100 Free Spins.
+Finish all missions to secure tomorrow’s reward.
+Button: COMPLETE NOW
 
 InApp #6
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Mission 2 is live.
+Win 30 AUD in slots and receive
+15 AUD cash + 50 FS.
+Keep spinning to unlock the final reward!
+Button: PLAY NOW
 
 InApp #7
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
