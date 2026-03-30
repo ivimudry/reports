@@ -227,6 +227,15 @@ Finish the month strong 🔥 Daily Missions start today
 Preheader: 
 Complete 3 missions to unlock your reward
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Let’s wrap up the month with a bang!
+
+Complete daily missions from February 26 to 28 and unlock a special reward this Sunday.
+
+Mission 1 (today only):
+Place real bets of at least 45 AUD in slots and receive 40 Free Spins.
+
+Stay in the game for the next two days to claim the final prize!
 Button: PLAY NOW
 
 Email #18
