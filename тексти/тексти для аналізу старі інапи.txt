@@ -139,15 +139,26 @@ Button: START NOW
 
 InApp #21
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Don't let the weekend end without a win.
+Use code WKND70 with your 30 AUD deposit and grab a 70% bonus up to 450 AUD
++ 30 FS before it expires tonight!
 Button: DEPOSIT NOW
 
 InApp #22
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Kick off your Friday with a win!
+Deposit 30 AUD with code WKND70 to get a 70% bonus up to 450 AUD + 30 FS.
+Button: CLAIM BONUS
+
 
 InApp #23
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+🔋Midweek Boost Is On
+Shake off the midweek blues with a
+75% bonus up to 375 AUD
+Place a deposit of 30 AUD and use code FUN75 to activate.
+Boost your balance right now!
+Button: GET BONUS
 
 InApp #24
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
