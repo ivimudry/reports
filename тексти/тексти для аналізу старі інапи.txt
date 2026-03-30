@@ -7,15 +7,22 @@ Button:CLAIM BONUS
 
 InApp #2
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your Weekend Boost is here!🎣
+
+Turn up the action this weekend with a 65% Bonus up to 350 EUR + 60 FS on Big Bass Bonanza!
 Button: CLAIM BONUS
 
 InApp #3
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Ready for a cosmic surprise?
+Pick your box (Stellar, Universe, or Spectrum), use the matching code with your deposit, and reveal a prize worth up to 5,250 AUD !
+
+Your galaxy of rewards is just one deposit away.
+Button: OPEN NOW
 
 InApp #4
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Button: PLAY NOW
 
 InApp #5
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
