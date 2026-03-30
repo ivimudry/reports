@@ -81,15 +81,25 @@ Button: CLAIM BONUS
 
 InApp #13
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+✨ Stellar reward!
+
+Get 100 Free Spins on Starburst and watch the gems align. Launch your winning adventure now. Claim your bonus!
+Button: GET BONUS
 
 InApp #14
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Ready for a cosmic surprise?
+Pick your box, use the matching code with your deposit, and reveal a prize worth up to 5,250 AUD !
+
+Your galaxy of rewards is just one deposit away.
+Button: OPEN NOW
 
 InApp #15
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Last chance: 100% Weekend Boost! ⚡️
+
+Use code DOUBLE350 to get 100% bonus up to 350 EUR. The clock is ticking — don't let your reward slip away!
+Button: CLAIM BONUS
 
 InApp #16
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
