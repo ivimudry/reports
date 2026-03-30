@@ -1,186 +1,119 @@
 InApp #1
-Subject: 🐟 Your 60% Bonus + 60 FS are slipping away!
-Preheader: Last Chance to Claim Your Weekend Boost
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-
-The weekend is almost over, so now’s the time to grab your Weekend Boost before it’s gone!
-
-Deposit 30 EUR or more today to claim a 65% bonus up to 350 EUR + 60 Free Spins on Big Bass Bonanza.
-
-Jump into the action now and make the most of your Sunday before the weekend ends!
-
-Button: GET MY BONUS
+Button:
 
 InApp #2
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #3
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #4
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #5
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #6
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #7
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #8
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #9
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #10
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #11
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #12
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #13
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #14
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #15
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #16
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #17
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #18
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #19
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #20
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #21
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #22
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #23
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #24
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #25
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #26
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #27
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #28
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #29
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
 InApp #30
-Subject: 
-Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
