@@ -251,8 +251,8 @@ Dive into your favourite games today and see where the weekend takes you!
 Button: GET MY BONUS
 
 Email #19
-Subject: 
-Preheader: 
+Subject: Midweek blues? Turn your mood into a 75% boost
+Preheader: Don’t wait for Friday to feel the rush
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Feeling the midweek blues? The weekend is just around the corner – but the excitement can start right now.
@@ -264,11 +264,11 @@ Here’s how to get it:
 • Bonus Code: FUN75
 
 Don’t wait for Friday to feel the rush. Brighten your week, boost your balance, and make today count.
-Button: 
+Button: CLAIM NOW
 
 Email #20
-Subject: 
-Preheader: 
+Subject: Last Chance 💖 80% Bonus + 60 Free Spins
+Preheader: Your Valentine bonus is still waiting, but not for long
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
