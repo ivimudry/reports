@@ -185,22 +185,17 @@ Email #14
 Subject: Final mission 🏁 Complete it & claim the reward
 Preheader: One last step before your special bonus.
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+
 You’re one step away from the finish line!
 
- 
-
 ⚔️ Mission 3:
-
-Deposit 37 AUD or more, use code WIN100 and receive
-
-100 Free Spins.
-
+Deposit 37 AUD or more, use code WIN100 and receive 100 Free Spins.
 
 Complete all three missions to receive your special reward tomorrow!
 Button: PLAY NOW
 
 Email #15
-Subject: 
+Subject: Final mission 🏁 Complete it & claim the reward
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
