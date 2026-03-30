@@ -281,8 +281,8 @@ Don’t miss your chance, this Valentine’s offer is about to expire!
 Button: CLAIM BONUS NOW
 
 Email #21
-Subject: 
-Preheader: 
+Subject: Valentine’s Treat 💘 80% Bonus + 60 Free Spins
+Preheader: It all starts with great chemistry and a little extra on your spins
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Valentine’s Day is all about great chemistry, and we’ve prepared a match you’ll love!
@@ -293,10 +293,29 @@ Make a minimum deposit of 45 AUD , use your exclusive bonus code LOVE80, and let
 Button: SPIN WITH LOVE
 
 Email #22
-Subject: 
-Preheader: 
+Subject: 🎡 Spin the Lucky Wheel and Test Your Luck!
+Preheader: Pick your wheel and see what reward awaits.
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+
+The Lucky Wheel is still live on Oshi!
+
+Pick your wheel, make a deposit with the matching bonus code, spin, and see what luck brings your way.
+
+Silver Wheel – win up to 7500 AUD
+Deposit: 30 AUD
+Bonus code: SILVER
+
+ 
+
+Gold Wheel – win up to 15000 AUD
+Deposit: 45 AUD
+Bonus code: GOLD
+
+ 
+
+Your reward is waiting!
+Button: SPIN & WIN
 
 Email #23
 Subject: 
