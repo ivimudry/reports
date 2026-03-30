@@ -239,15 +239,31 @@ Stay in the game for the next two days to claim the final prize!
 Button: PLAY NOW
 
 Email #18
-Subject: 
-Preheader: 
+Subject: Grab a 70% Bonus + 30 FS to kick off the fun!
+Preheader: Your weekend upgrade has arrived! 🚀
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+The week is over, and it’s time to turn up the excitement with a massive Oshi boost!
+
+To start your weekend right, deposit 30 AUD or more using bonus code WKND70 to claim a 70% bonus up to 450 AUD + 30 Free Spins.
+
+Dive into your favourite games today and see where the weekend takes you!
+Button: GET MY BONUS
 
 Email #19
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Feeling the midweek blues? The weekend is just around the corner – but the excitement can start right now.
+
+Make your week more rewarding with our 75% bonus up to 375 AUD  and add some extra thrill to your game.✨
+
+Here’s how to get it:
+• Minimum deposit: 30 AUD
+• Bonus Code: FUN75
+
+Don’t wait for Friday to feel the rush. Brighten your week, boost your balance, and make today count.
 Button: 
 
 Email #20
