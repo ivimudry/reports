@@ -87,13 +87,28 @@ Email #7
 Subject: 💥 Daily Missions start today
 Preheader: Complete 3 missions to unlock your reward
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+Complete daily missions from March 19 to 21 and unlock a special reward this Sunday.
+
+Mission 1 (today only):
+Place real bets of at least 45 AUD in slots and receive 40 Free Spins.
+
+Stay in the game for the next two days to claim the final prize!
+Button: PLAY NOW
 
 Email #8
-Subject: 
-Preheader: 
+Subject: ❤️‍🔥 Enjoy this cozy weekend with 90% + 90 FS
+Preheader: Your weekend upgrade has arrived!
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+Do you feel that November chill? Let's turn it into warm wins! 
+
+For a limited time this weekend, get 90% bonus up to 350 EUR + 90 free spins when you deposit 30 EUR and use code DEAD90FS
+
+We’ve lowered the wagering requirement to just x45.
+
+Light a candle, grab a hot drink, and let the reels do the rest.
+Button: GET MY BONUS
 
 Email #9
 Subject: 
