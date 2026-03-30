@@ -1,0 +1,42 @@
+01.04 | Easter promos | 60% + 60 FS | EGG60350
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Easter treats are here! 🐣
+Deposit 30 EUR+ with code EGG60350 and get a 60% bonus up to 350 EUR + 60 Free Spins on Sweet Bonanza.
+Button: CLAIM BONUS
+
+---
+
+02.04 | Easter promos | 100% up to 350 EUR | BUNNY350
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+The Easter Bunny brought you a gift! 🐰
+Use code BUNNY350 on your deposit to grab a 100% bonus up to 350 EUR. Double the fun, double the wins!
+Button: GET BONUS
+
+---
+
+03.04 | Easter promos | 150 FS | CHICK150
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+A colorful Easter surprise just hatched! 🐥
+Deposit and use code CHICK150 to unlock 150 Free Spins on Sugar Rush.
+Button: SPIN NOW
+
+---
+
+04.04 | Easter promos | 80% + 60 FS | GATES80350
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+The gods of Olympus have an Easter gift for you! ⚡
+Deposit 30 EUR+ with code GATES80350 and claim an 80% bonus up to 350 EUR + 60 Free Spins on Gates of Olympus.
+Button: CLAIM BONUS
+
+---
+
+05.04 | Easter Tournament | 120% up to 1000 EUR | STACKUP120K
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Easter Tournament is live! 🏆
+Use code STACKUP120K on your deposit and get a massive 120% bonus up to 1000 EUR. Stack up and compete for the top!
+Button: JOIN NOW
