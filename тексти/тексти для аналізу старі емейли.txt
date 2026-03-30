@@ -270,13 +270,27 @@ Email #20
 Subject: Last Chance 💖 80% Bonus + 60 Free Spins
 Preheader: Your Valentine bonus is still waiting, but not for long
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+Valentine’s Day may be over, but your special bonus is still waiting.
+
+Enjoy an 80% bonus up to 525 AUD plus 60 Free Spins.
+
+Deposit 45 AUD , apply the bonus code LOVE80, and end the celebration on a winning note. 
+
+Don’t miss your chance, this Valentine’s offer is about to expire!
+Button: CLAIM BONUS NOW
 
 Email #21
 Subject: 
 Preheader: 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+Valentine’s Day is all about great chemistry, and we’ve prepared a match you’ll love!
+
+Enjoy an 80% bonus up to 525 AUD plus 60 Free Spins to add extra excitement to your favourite games.
+
+Make a minimum deposit of 45 AUD , use your exclusive bonus code LOVE80, and let the spins do the flirting!
+Button: SPIN WITH LOVE
 
 Email #22
 Subject: 
