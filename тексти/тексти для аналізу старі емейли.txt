@@ -111,14 +111,18 @@ Light a candle, grab a hot drink, and let the reels do the rest.
 Button: GET MY BONUS
 
 Email #9
-Subject: 
-Preheader: 
+Subject: ⭐ 100 Free Spins on Starburst
+Preheader: Light Up Your Weekend
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+The week is over, and it’s time to light up your weekend with a stellar reward from Oshi!
+
+To make your play even brighter, use bonus code 100STARS and claim 100 Free Spins on Starburst.
+Button: PLAY NOW
 
 Email #10
-Subject: 
-Preheader: 
+Subject: 🎁 Your mystery Lootbox!
+Preheader: Grab your boost before it goes...
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
