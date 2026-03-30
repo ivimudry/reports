@@ -69,11 +69,15 @@ Button: CLAIM BONUS
 
 InApp #11
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Deposit €30+ with code DEAD90FS and get a 90% bonus up to €350 + 90 FS. Make your weekend count!
+Button: CLAIM BONUS
 
 InApp #12
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+🚀 Final countdown!
+
+Your 100 Free Spins on Starburst are drifting away. Claim them before they vanish into space!
+Button: CLAIM BONUS
 
 InApp #13
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
