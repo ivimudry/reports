@@ -124,11 +124,26 @@ Email #10
 Subject: 🎁 Your mystery Lootbox!
 Preheader: Grab your boost before it goes...
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+
+The galaxy of rewards is still open! Ready to see what’s inside? The path to your prize is simple:
+
+1. Pick your box and make a matching deposit.
+2. Use the code.
+3. Open your Lootbox and claim your reward!
+
+Your Options:
+✨ Stellar: Deposit 45 AUD and use code Stellar for up to 200 FS
+
+🌌 Universe: Deposit 112.5 AUD and use code Universe for up to 3,750 AUD
+
+🌈 Spectrum: Deposit 225 AUD and use code Spectrum for up to 5,250 AUD
+
+Don't miss your chance to blast off with a massive win!
+Button: DEPOSIT NOW
 
 Email #11
-Subject: 
-Preheader: 
+Subject: ⏳ Don't let your 100% bonus slip away...
+Preheader: Use your boost before it expires tonight
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Button: 
 
