@@ -34,7 +34,7 @@ Button: CLAIM BONUS
 
 ---
 
-05.04 | Easter Tournament | 120% up to 1000 EUR | STACKUP120K
+05.04 | First day of  Easter Tournament | 120% up to 1000 EUR | STACKUP120K
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Easter Tournament is live! 🏆
