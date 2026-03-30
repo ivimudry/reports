@@ -162,11 +162,16 @@ Button: GET BONUS
 
 InApp #24
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Your Valentine’s bonus is almost gone.
+Use code LOVE80, deposit 45 AUD and enjoy 80% up to 525 AUD plus 60 Free Spins before it expires.
+Button: DEPOSIT NOW
 
 InApp #25
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Love is in the air and so is your special bonus!
+Enjoy 80% up to 525 AUD + 60 FS.
+Deposit 45 AUD and use code LOVE80.
+Button: CLAIM NOW
 
 InApp #26
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
