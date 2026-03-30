@@ -103,15 +103,23 @@ Button: CLAIM BONUS
 
 InApp #16
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Deposit €30+ with code DOUBLE350 and get a 100% bonus up to €350. Make your weekend count!
+Button: CLAIM BONUS
 
 InApp #17
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Daily Missions are finished, but a reward is waiting.
+Deposit 45 AUD + and get
+50% up to 525 AUD + 50 FS.
+Use code: WIN50
+Button: PLAY NOW
 
 InApp #18
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Button: 
+Mission 3 is live!
+Deposit 37 AUD +, use code WIN100 and receive 100 Free Spins.
+Finish all missions to secure tomorrow’s reward.
+Button: COMPLETE NOW
 
 InApp #19
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
