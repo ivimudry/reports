@@ -13,8 +13,8 @@ Die Walzen sind geladen und warten auf dich. Knack dein Osterei und räum noch h
 Button: BELOHNUNG HOLEN
 
 Terms&Conditions:
-Wager: x40
-Min. Einzahlung: 30 EUR
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
 Der Bonus ist einmalig am 1. April verfügbar (UTC TZ)
 
 ---
@@ -34,8 +34,8 @@ Starte jetzt deine Lieblingsspiele und mach das Beste aus diesem Feiertags-Gesch
 Button: BONUS SICHERN
 
 Terms&Conditions:
-Wager: x40
-Min. Einzahlung: 30 EUR
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
 Der Bonus ist einmalig am 2. April verfügbar (UTC TZ)
 
 ---
@@ -55,8 +55,8 @@ Schnapp dir deine Freispiele und genieße den zuckersüßen Spaß, bevor dieses 
 Button: JETZT DREHEN
 
 Terms&Conditions:
-Wager: x40
-Min. Einzahlung: 30 EUR
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
 Der Bonus ist einmalig am 3. April verfügbar (UTC TZ)
 
 ---
@@ -76,8 +76,8 @@ Schreite durch die Tore und ergreife deine Oster-Belohnung, bevor sie verschwind
 Button: BELOHNUNG FREISCHALTEN
 
 Terms&Conditions:
-Wager: x40
-Min. Einzahlung: 30 EUR
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
 Der Bonus ist einmalig am 4. April verfügbar (UTC TZ)
 
 ---
@@ -97,6 +97,6 @@ Das Rennen läuft - steig jetzt ein und mach deinen ersten Zug!
 Button: AM TURNIER TEILNEHMEN
 
 Terms&Conditions:
-Wager: x40
-Min. Einzahlung: 30 EUR
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
 Der Bonus ist einmalig am 5. April verfügbar (UTC TZ)
