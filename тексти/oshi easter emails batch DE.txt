@@ -1,0 +1,102 @@
+01.04 | Easter promos | 60% + 60 FS | EGG60350
+
+Subject: 🍬 60% Bonus + 60 Freispiele - Oster-Überraschung!
+Preheader: Eine süße Belohnung wartet auf dich
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Ostern ist bei Oshi angekommen, und wir haben eine süße Überraschung für dich versteckt!
+
+Zahle 30 EUR oder mehr ein und nutze den Bonuscode EGG60350, um dir einen 60% Bonus bis zu 350 EUR + 60 Freispiele bei Sweet Bonanza zu sichern.
+
+Die Walzen sind geladen und warten auf dich. Knack dein Osterei und räum noch heute ab!
+Button: BELOHNUNG HOLEN
+
+Terms&Conditions:
+Wager: x40
+Min. Einzahlung: 30 EUR
+Der Bonus ist einmalig am 1. April verfügbar (UTC TZ)
+
+---
+
+02.04 | Easter promos | 100% up to 350 EUR | BUNNY350
+
+Subject: 🐰 100% Bonus bis zu 350 EUR - Oster-Geschenk!
+Preheader: Der Osterhase hat etwas Großes in dein Nest gelegt
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Der Osterhase war bei Oshi zu Besuch und hat etwas Besonderes in dein Nest gelegt!
+
+Nutze den Bonuscode BUNNY350 bei deiner nächsten Einzahlung und sichere dir einen satten 100% Bonus bis zu 350 EUR. Das bedeutet doppeltes Guthaben und doppelter Spielspaß an den Walzen.
+
+Starte jetzt deine Lieblingsspiele und mach das Beste aus diesem Feiertags-Geschenk!
+Button: BONUS SICHERN
+
+Terms&Conditions:
+Wager: x40
+Min. Einzahlung: 30 EUR
+Der Bonus ist einmalig am 2. April verfügbar (UTC TZ)
+
+---
+
+03.04 | Easter promos | 150 FS | CHICK150
+
+Subject: 🐥 150 Freispiele bei Sugar Rush - Oster-Geschenk!
+Preheader: Etwas Buntes ist gerade für dich geschlüpft
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Dieses Ostern wartet eine frisch geschlüpfte Belohnung nur auf dich bei Oshi!
+
+Zahle ein und nutze den Bonuscode CHICK150, um 150 Freispiele bei Sugar Rush freizuschalten. Sieh zu, wie sich die Walzen mit bunten Süßigkeiten füllen und jede Drehung zur Gewinnchance wird.
+
+Schnapp dir deine Freispiele und genieße den zuckersüßen Spaß, bevor dieses Osterei weg ist!
+Button: JETZT DREHEN
+
+Terms&Conditions:
+Wager: x40
+Min. Einzahlung: 30 EUR
+Der Bonus ist einmalig am 3. April verfügbar (UTC TZ)
+
+---
+
+04.04 | Easter promos | 80% + 60 FS | GATES80350
+
+Subject: ⚡ 80% Bonus + 60 Freispiele - Ostern auf dem Olymp!
+Preheader: Die Tore zu deinem Oster-Gewinn stehen offen
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Dieses Ostern zeigen sich sogar die Götter des Olymp großzügig!
+
+Zahle 30 EUR oder mehr ein und nutze den Bonuscode GATES80350, um dir einen 80% Bonus bis zu 350 EUR + 60 Freispiele bei Gates of Olympus zu sichern. Lass Zeus dir den Weg zum nächsten großen Gewinn leuchten.
+
+Schreite durch die Tore und ergreife deine Oster-Belohnung, bevor sie verschwindet!
+Button: BELOHNUNG FREISCHALTEN
+
+Terms&Conditions:
+Wager: x40
+Min. Einzahlung: 30 EUR
+Der Bonus ist einmalig am 4. April verfügbar (UTC TZ)
+
+---
+
+05.04 | First day of Easter Tournament | 120% up to 1000 EUR | STACKUP120K
+
+Subject: 🏆 120% bis zu 1000 EUR - Das Oster-Turnier beginnt!
+Preheader: Der größte Oster-Wettbewerb hat gerade begonnen
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Das große Oshi-Oster-Turnier ist offiziell gestartet, und wir geben dir einen kraftvollen Vorsprung!
+
+Nutze den Bonuscode STACKUP120K bei deiner Einzahlung und sichere dir einen gewaltigen 120% Bonus bis zu 1000 EUR. Fülle dein Guthaben auf, klettere in der Rangliste nach oben und kämpfe um die besten Preise der Saison.
+
+Das Rennen läuft - steig jetzt ein und mach deinen ersten Zug!
+Button: AM TURNIER TEILNEHMEN
+
+Terms&Conditions:
+Wager: x40
+Min. Einzahlung: 30 EUR
+Der Bonus ist einmalig am 5. April verfügbar (UTC TZ)
