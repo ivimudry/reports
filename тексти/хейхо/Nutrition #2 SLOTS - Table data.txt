@@ -557,3 +557,363 @@ banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3
 banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 1.1
+locale: Default
+subject: 🦈 Snag a 150% Boost on Your Next Deposit
+preheader: More gold for your third voyage!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150% on next deposit!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Two wins already and your name’s making waves. Now it’s time to go further - add 20 € or more to your balance and grab a <b>150% bonus</b> for your third adventure.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">More funds mean bigger plays and bigger chances.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Don’t let this moment drift away - claim your bonus now.<br></h3></td>
+button_text_1: PLAY NOW
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_efa47970bab952a194be6a65f7c73b75dbfff97ce3d34fe1e25bc6686b28fd12/images/heyho27.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 1.1
+locale: de-DE
+subject: 🦈 Hol dir 150 % Bonus auf deine nächste Einzahlung
+preheader: Mehr Gold für deine dritte Reise!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % auf die nächste Einzahlung!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Zwei Siege schon – dein Name macht die Runde. Jetzt ist es Zeit, noch weiter zu gehen: Zahle 20 € oder mehr ein und sichere dir einen <b>150 %-Bonus</b> für dein drittes Abenteuer.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Mehr Guthaben bedeutet größere Einsätze und größere Chancen.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Lass diesen Moment nicht verstreichen – hol dir jetzt deinen Bonus.</h3></td>
+button_text_1: JETZT EINZAHLEN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_df37ed0a6d8d6476bf794d443265b1e0e119d34b0f82d731066278bb2133cad5/images/heyho27.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 1.1
+locale: fr-FR
+subject: 🦈 Profitez de 150 % de bonus sur votre prochain dépôt
+preheader: Plus d’or pour votre troisième voyage !
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % sur le prochain dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Deux victoires déjà – votre nom se fait entendre. Il est temps d’aller plus loin : déposez 20 € ou plus et recevez un <b>bonus de 150 %</b> pour votre troisième aventure.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Plus de fonds, c’est plus de mises et plus de chances de gagner.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Ne laissez pas passer cette occasion – réclamez votre bonus dès maintenant.</h3></td>
+button_text_1: FAIRE UN DÉPÔT
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2c4001b60fd93fed87f3839484735a3cf67a975c72747501e94c08086b46b020/images/heyho27.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 1.1
+locale: nl-NL
+subject: 🦈 Pak 150% bonus op je volgende storting
+preheader: Meer goud voor je derde avontuur!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150% op je volgende storting!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Twee overwinningen op rij – je naam gaat al rond. Tijd om verder te gaan: stort 20 € of meer en ontvang een <b>150 % bonus</b> voor je derde avontuur.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Meer saldo betekent grotere inzetten en meer winkansen.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Laat dit moment niet voorbijgaan – claim nu je bonus.</h3></td>
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d1cd90335aba1e70bc4e2ae9f0304e810d775d891847ec5887dc4ee811cba71d/images/heyho27.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_1_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.1
+locale: Default
+subject: 🏹 Claim 150% for Your Third Voyage
+preheader: More gold awaits your third deposit!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150% on next deposit!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Two rounds done, and the next one could be even bigger. Make a third deposit of <b>20 € or more</b> and enjoy a <b>150% bonus</b> to boost your balance before you start.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra funds give you the power to aim for larger jackpots.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Act now - opportunities like this don’t last forever.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+button_text_1: PLAY NOW
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_efa47970bab952a194be6a65f7c73b75dbfff97ce3d34fe1e25bc6686b28fd12/images/heyho28.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.1
+locale: de-DE
+subject: 🏹 Hol dir 150 % für deine dritte Reise
+preheader: Mehr Gold für deine dritte Einzahlung wartet!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % auf die nächste Einzahlung!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Zwei Runden geschafft – die nächste könnte noch größer sein. Tätige eine dritte Einzahlung von <b>20 € oder mehr</b> und genieße einen <b>150 %-Bonus</b>, um dein Guthaben zu stärken, bevor du startest.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Mehr Geld gibt dir die Chance auf höhere Jackpots.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Handle jetzt – solche Gelegenheiten dauern nicht ewig.</h3></td>
+button_text_1: JETZT EINZAHLEN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_df37ed0a6d8d6476bf794d443265b1e0e119d34b0f82d731066278bb2133cad5/images/heyho28.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.1
+locale: fr-FR
+subject: 🏹 Obtenez 150 % pour votre troisième voyage
+preheader: Plus d’or vous attend pour votre troisième dépôt !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % sur le prochain dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Deux tours déjà – le prochain pourrait être encore plus grand. Faites un troisième dépôt de <b>20 € ou plus</b> et recevez un <b>bonus de 150 %</b> pour augmenter votre solde avant de jouer.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Plus de fonds signifie viser des jackpots plus élevés.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Agissez vite – ces occasions ne durent pas éternellement.</h3></td>
+button_text_1: FAIRE UN DÉPÔT
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2c4001b60fd93fed87f3839484735a3cf67a975c72747501e94c08086b46b020/images/heyho27.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.1
+locale: nl-NL
+subject: 🏹 Pak 150% voor je derde avontuur
+preheader: Meer goud wacht op je derde storting!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150% op je volgende storting!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Twee rondes voltooid – de volgende kan nog groter zijn. Doe een derde storting van <b>20 € of meer</b> en krijg een <b>150 % bonus</b> om je saldo te boosten voordat je begint.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Meer saldo betekent meer kans op hogere jackpots.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Grijp nu je kans – zulke aanbiedingen blijven niet lang.</h3></td>
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d1cd90335aba1e70bc4e2ae9f0304e810d775d891847ec5887dc4ee811cba71d/images/heyho28.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_3_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.1
+locale: Default
+subject: 🌟 Three Big Wins – Could You Be Next?
+preheader: See last week’s jackpots and plot your course!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">See last week’s jackpots and plot your course!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify">Last week was full of big moments at <b>HeyHo Casino</b>:</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><strong>🦈 Ale*****s</strong> – €23,441 on <strong>Sweet Bonanza</strong></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><strong>🦈Wil*****64</strong> – €16,623 on <strong>Book of Dead</strong></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><strong>🦈Bar******s</strong> – €11,936 on <strong>Big Bass Splash</strong></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify">Your turn could be next - reload your balance and take your shot at the next big win.</p></td>
+button_text_1: PLAY NOW
+button_href_1: https://heyhocasino.com/en/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_27690b8484f0d4216098dfcea7f9d8b340d6ceca934657a102a6eb5c86ed08da/images/heyho21_O6b.png
+banner_href: https://heyhocasino.com/en/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.1
+locale: de-DE
+subject: 🌟 Drei große Gewinne – bist du der Nächste?
+preheader: Sieh dir die Jackpots der letzten Woche an und setz die Segel!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">Sieh dir die Jackpots der letzten Woche an und setz die Segel!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify">Die letzte Woche war voller großer Momente bei <b>HeyHo Casino</b>:</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify">🦈🦈 Ale******s – 23 441 € sur Sweet Bonanza<br>🦈 Wi******64 – 16 623 € sur Book of Dead<br>🦈 Bar******s – 11 936 € sur Big Bass Splash<br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:justify">Jetzt bist du an der Reihe – lade dein Guthaben auf und nutze deine Chance auf den nächsten großen Gewinn.</p></td>
+button_text_1: JETZT EINZAHLEN
+button_href_1: https://heyhocasino.com/de/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_7c8610070670a2e6766adba17a5c5b60d46a68d2fac279e8a92f8914a086790e/images/heyho21.png
+banner_href: https://heyhocasino.com/de/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.1
+locale: fr-FR
+subject: 🌟 Trois grands gagnants – serez-vous le prochain ?
+preheader: Découvrez les jackpots de la semaine dernière et tracez votre cap !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">Découvrez les jackpots de la semaine dernière et tracez votre cap !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">La semaine dernière a été riche en grands moments au <b>HeyHo Casino</b>:</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">🦈 Ale******s – 23 441 € sur<strong> Sweet Bonanza</strong><br>🦈 Wi******64 – 16 623 € sur <strong>Book of Dead</strong><br>🦈 Bar******s – 11 936 € sur <strong>Big Bass Splash</strong></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">C’est peut-être votre tour – rechargez votre solde et visez le prochain gros gain.</h3></td>
+button_text_1: FAIRE UN DÉPÔT
+button_href_1: https://heyhocasino.com/fr/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e8ebe3a631a6f863c38b06ba95eb3c531d98366e2cbe18ec894c0eb1cdf508c2/images/heyho21.png
+banner_href: https://heyhocasino.com/fr/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.1
+locale: nl-NL
+subject: 🌟 Drie grote winnaars – ben jij de volgende?
+preheader: Bekijk de jackpots van vorige week en bepaal je koers!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">Bekijk de jackpots van vorige week en bepaal je koers!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Vorige week zat vol grote momenten bij <b>HeyHo Casino</b>:</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">🦈 Ale******s – €23.441 op <strong>Sweet Bonanza</strong><br>🦈 Wi******64 – €16.623 op <strong>Book of Dead</strong><br>🦈 Bar******s – €11.936 op <strong>Big Bass Splash</strong><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Jij kunt de volgende zijn – laad je saldo op en ga voor de volgende grote winst.<br></h3></td>
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_8b9bd12ae3115e244681e9196106846ef1f3b4c5d21f6baab3ed92cae486c433/images/heyho21.png
+banner_href: https://heyhocasino.com/nl/games/hot?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_4_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.1
+locale: Default
+subject: ⚔️ Boost Yer Gold – 150% Bonus Awaits
+preheader: Top up today and raise your balance!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150% on next deposit!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Two games down, the third is calling. Deposit <b>20 € or more</b> and claim a <b>150% bonus</b> before you spin again.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">More credit means more room to play and more ways to win.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Grab your bonus today - before it slips away.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+button_text_1: PLAY NOW
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_efa47970bab952a194be6a65f7c73b75dbfff97ce3d34fe1e25bc6686b28fd12/images/heyho29.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.1
+locale: de-DE
+subject: ⚔️ Fülle deine Schatztruhe – 150 % Bonus wartet
+preheader: Zahle heute ein und erhöhe dein Guthaben!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % auf die nächste Einzahlung!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Zwei Spiele vorbei, das dritte ruft. Zahle <b>20 € oder mehr</b> ein und sichere dir einen <b>150 %-Bonus</b>, bevor du erneut drehst.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Mehr Guthaben bedeutet mehr Spielraum und mehr Gewinnchancen.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Hol dir deinen Bonus noch heute – bevor er verschwindet.</h3></td>
+button_text_1: JETZT EINZAHLEN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_df37ed0a6d8d6476bf794d443265b1e0e119d34b0f82d731066278bb2133cad5/images/heyho29.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.1
+locale: fr-FR
+subject: ⚔️ Remplissez votre bourse – 150 % de bonus vous attendent
+preheader: Déposez aujourd’hui et augmentez votre balance !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % sur le prochain dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Deux parties terminées, la troisième vous appelle. Déposez <b>20 € ou plus</b> et obtenez un <b>bonus de 150 %</b> avant de rejouer.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Plus de crédit signifie plus de liberté et plus de chances de gagner.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Profitez-en dès aujourd’hui – avant qu’il ne disparaisse.</h3></td>
+button_text_1: FAIRE UN DÉPÔT
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2c4001b60fd93fed87f3839484735a3cf67a975c72747501e94c08086b46b020/images/heyho29.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.1
+locale: nl-NL
+subject: ⚔️ Vergroot je goud – 150% bonus ligt klaar
+preheader: Stort vandaag en verhoog je balans!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150% op je volgende storting!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Twee spellen achter de rug, het derde roept. Stort <b>20 € of meer</b> en ontvang een <b>150 % bonus</b> voordat je opnieuw draait.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Meer saldo betekent meer speelruimte en meer winkansen.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Pak je bonus vandaag – voordat hij verdwijnt.</h3></td>
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d1cd90335aba1e70bc4e2ae9f0304e810d775d891847ec5887dc4ee811cba71d/images/heyho29.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_5_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.1
+locale: Default
+subject: 🔑 Unlock 150% Bonus on Your Next Voyage
+preheader: Add fresh gold to fuel deposit number three!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150% on next deposit!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Two wins in the log, and the crew is already talking about your lucky streak. The Captain now offers a new boost: add <strong>20 € or more</strong> and grab a <strong>150 % bonus</strong> to power up your third run.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Ready to collect your bounty? Hit the button and set course for more treasure!<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+button_text_1: PLAY NOW
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_efa47970bab952a194be6a65f7c73b75dbfff97ce3d34fe1e25bc6686b28fd12/images/heyho30.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.1
+locale: de-DE
+subject: 🔑 Schalte 150 % Bonus für deine nächste Reise frei
+preheader: Frisches Gold für die dritte Einzahlung!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % auf die nächste Einzahlung!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Zwei erfolgreiche Runden schon – jetzt ist es Zeit, weiterzugehen. Zahle 20 € oder mehr ein und erhalte einen <strong>150 %-Bonus</strong>, bevor du deine nächste Sitzung startest.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Mehr Guthaben, mehr Möglichkeiten – die Wahl liegt bei dir. Hol es dir jetzt, solange es verfügbar ist.</h3></td>
+button_text_1: JETZT EINZAHLEN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_df37ed0a6d8d6476bf794d443265b1e0e119d34b0f82d731066278bb2133cad5/images/heyho30.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.1
+locale: fr-FR
+subject: 🔑 Débloquez 150 % de bonus pour votre prochaine aventure
+preheader: De l’or frais pour votre troisième dépôt !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % sur ton prochain dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Deux sessions réussies déjà – il est temps d’aller plus loin. Déposez 20 € ou plus et recevez un <strong>bonus de 150 %</strong> avant de commencer votre prochaine partie.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Plus de fonds, plus de possibilités – à vous de jouer. Prenez-le maintenant tant qu’il est encore là.</h3></td>
+button_text_1: FAIRE UN DÉPÔT
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition_7_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition_7_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2c4001b60fd93fed87f3839484735a3cf67a975c72747501e94c08086b46b020/images/heyho30.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition_7_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.1
+locale: nl-NL
+subject: 🔑 Ontgrendel 150 % bonus voor je volgende avontuur
+preheader: Vers goud voor je derde storting!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % op je volgende storting!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Twee succesvolle rondes achter de rug – tijd om verder te gaan. Stort 20 € of meer en krijg een <strong>150 % bonus</strong> voordat je je volgende sessie start.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Meer saldo, meer mogelijkheden – de keuze is aan jou. Pak het nu zolang het er is.</h3></td>
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d1cd90335aba1e70bc4e2ae9f0304e810d775d891847ec5887dc4ee811cba71d/images/heyho30.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_7_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
