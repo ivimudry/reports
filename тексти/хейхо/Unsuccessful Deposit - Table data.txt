@@ -8,16 +8,16 @@ text_2: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_3: <td align="left" class="es-text-5335" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Use promo code:</p></td>
 text_4: <td align="left" class="es-text-7676" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">If anything blocks you, reply to this email or reach our team via the live chat on the website — we’ll help immediately. And if your bank placed a temporary hold, it usually releases automatically based on their internal policy.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br>Thanks,<br>HeyHo Support</p></td>
 button_text_1: COMPLETE DEPOSIT
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 promocode_button_1: GIVEMEMORELZ8
 button_text_3: CONTACT SUPPORT
 button_href_3: https://heyhocasino.com/en/page/contact-us?token={{customer.auth_token}}
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 pirat_girl_src: https://ebhum.stripocdn.email/content/guids/CABINET_31eec63497f35e55604f709c6f08e80da9c65bcf0bc94796e88ab46fb9dc7ada/images/chatgpt_image_feb_6_2026_01_33_19_pm_1.png
 pirat_girl_href: https://heyhocasino.com/en/page/contact-us?token={{customer.auth_token}}
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 
 name: Email 4
 locale: de-DE
@@ -29,16 +29,16 @@ text_2: <td align="left" class="es-text-1280" style="padding:0;Margin:0"><p styl
 text_3: <td align="left" class="es-text-5335" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Nutze den Promo-Code:</p></td>
 text_4: <td align="left" class="es-text-1486" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Wenn etwas nicht funktioniert, antworte auf diese E-Mail oder kontaktiere unser Team über den Live-Chat auf der Website — wir helfen sofort. Und falls deine Bank eine vorübergehende Reservierung gesetzt hat, wird sie in der Regel automatisch gemäß den Richtlinien deiner Bank wieder freigegeben.<br><br>Danke,<br>HeyHo Support</p></td>
 button_text_1: EINZAHLUNG ABSCHLIESSEN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 promocode_button_1: GIVEMEMORELZ8
 button_text_3: KONTAKTIERE DEN SUPPORT
 button_href_3: https://heyhocasino.com/de/page/contact-us?token={{customer.auth_token}}
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 pirat_girl_src: https://ebhum.stripocdn.email/content/guids/CABINET_66fe036b656b01345450b2ed0cd098ea5858977b1f04511fe39b26c2ac938795/images/chatgpt_image_feb_6_2026_01_33_19_pm_1_6yk.png
 pirat_girl_href: https://heyhocasino.com/de/page/contact-us?token={{customer.auth_token}}
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 
 name: Email 4
 locale: fr-FR
@@ -50,16 +50,16 @@ text_2: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_3: <td align="left" class="es-text-5335" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Utilisez le code promo :</p></td>
 text_4: <td align="left" class="es-text-6818" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Si vous rencontrez le moindre problème, répondez à cet e-mail ou contactez notre équipe via le chat en direct sur le site — nous vous aiderons tout de suite. Et si votre banque a placé une préautorisation temporaire, elle est généralement levée automatiquement selon ses conditions.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br>Merci,&nbsp;<br>L’équipe support HeyHo</p></td>
 button_text_1: COMPLÉTER LE DÉPÔT
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 promocode_button_1: GIVEMEMORELZ8
 button_text_3: CONTACTER LE SUPPORT
 button_href_3: https://heyhocasino.com/fr/page/contact-us?token={{customer.auth_token}}
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 pirat_girl_src: https://ebhum.stripocdn.email/content/guids/CABINET_27a9b5bd33c409eaf12c4a9d7e3973b1dee137f26f7b920c96994419ac541494/images/chatgpt_image_feb_6_2026_01_33_19_pm_1_iFx.png
 pirat_girl_href: https://heyhocasino.com/fr/page/contact-us?token={{customer.auth_token}}
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 
 name: Email 4
 locale: nl-NL
@@ -71,16 +71,16 @@ text_2: <td align="left" class="es-text-1280" style="padding:0;Margin:0"><p styl
 text_3: <td align="left" class="es-text-5335" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Gebruik promotiecode:</p></td>
 text_4: <td align="left" class="es-text-4671" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Loop je ergens tegenaan? Antwoord op deze e-mail of neem contact op via de live chat op onze website — we helpen je meteen. Als je bank een tijdelijke reservering heeft geplaatst, wordt die meestal automatisch vrijgegeven volgens het beleid van je bank.<br><br>Bedankt,<br>HeyHo Support</p></td>
 button_text_1: STORTING VOLTOOIEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 promocode_button_1: GIVEMEMORELZ8
 button_text_3: CONTACT MET SUPPORT
 button_href_3: https://heyhocasino.com/nl/page/contact-us?token={{customer.auth_token}}
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 pirat_girl_src: https://ebhum.stripocdn.email/content/guids/CABINET_5185ef508b95b549d29d6742b3e6560152c23fc08c7acf845bc50c96d615c117/images/chatgpt_image_feb_6_2026_01_33_19_pm_1_d9f.png
 pirat_girl_href: https://heyhocasino.com/nl/page/contact-us?token={{customer.auth_token}}
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=GIVEMEMORELZ8#modal=Wallet
 
 name: Email 1
 locale: Default
