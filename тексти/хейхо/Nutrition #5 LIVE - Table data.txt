@@ -10,17 +10,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The deeper you go, the richer the echoes.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Venture in and let your fortune multiply!</p></td>
 promocode_button_1: CUTLS70
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1.1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1#modal=Wallet
 button_text_2: PLAY NOW
-button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1.1#modal=Wallet
+button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1.1#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_c2ee3138928047a171ee9da3c7f40f20932c117c71f24fb686960e3a4a2b3471/images/heyho2.png
-banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1.1#modal=Wallet
+banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/monkey_lHj.png
-monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1.1#modal=Wallet
+monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=1#modal=Wallet
 
 name: Email 1.1
 locale: de-DE
@@ -34,17 +34,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Je tiefer du vordringst, desto voller hallt es von den Wänden.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Wag dich hinein und lass dein Glück anwachsen</p></td>
 promocode_button_1: CUTLS70
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1.1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1#modal=Wallet
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1.1#modal=Wallet
+button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1.1#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_4282e701714bda4cdebc226307ef95b6d42f1b8a8ef73d5a71590a66d9d263f3/images/heyho2.png
-banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1.1#modal=Wallet
+banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/monkey_WE6.png
-monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1.1#modal=Wallet
+monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=1#modal=Wallet
 
 name: Email 1.1
 locale: fr-FR
@@ -58,17 +58,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Plus vous avancez, plus les échos se font riches.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Osez l’exploration et tentez de multiplier votre chance !</p></td>
 promocode_button_1: CUTLS70
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1.1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1#modal=Wallet
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1.1#modal=Wallet
+button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1.1#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_8245dc77678ac0cf66c6bd2d7b35ab3add5adcf04d52f1241bb2c88f23aefc24/images/heyho2_8ZZ.png
-banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1.1#modal=Wallet
+banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/monkey_wm8.png
-monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1.1#modal=Wallet
+monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=1#modal=Wallet
 
 name: Email 1.1
 locale: nl-NL
@@ -82,17 +82,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hoe dieper je gaat, hoe rijker de echo’s klinken.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Waag je naar binnen en laat je speelbudget groeien!</p></td>
 promocode_button_1: CUTLS70
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1.1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1#modal=Wallet
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1.1#modal=Wallet
+button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1.1#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_6a8cd6662edb5497d7327ec225b9c301dd2e32b2a877034912949c36954d950a/images/heyho2.png
-banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1.1#modal=Wallet
+banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/monkey_Ovy.png
-monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1.1#modal=Wallet
+monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=1#modal=Wallet
 
 name: Email 2.1
 locale: Default
@@ -106,17 +106,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">When fortune moves on its own, the wise captain doesn’t wait - he collects.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Grab your gold and make it grow!</p></td>
 promocode_button_1: CUTLS70
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2.1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2#modal=Wallet
 button_text_2: PLAY NOW
-button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2.1#modal=Wallet
+button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2.1#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_c2ee3138928047a171ee9da3c7f40f20932c117c71f24fb686960e3a4a2b3471/images/heyho2.png
-banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2.1#modal=Wallet
+banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/monkey_lHj.png
-monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2.1#modal=Wallet
+monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=2#modal=Wallet
 
 name: Email 2.1
 locale: de-DE
@@ -130,17 +130,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Wenn das Glück von allein kommt, wartet der kluge Kapitän nicht – er schlägt zu.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hol dir deinen Gewinn und lass ihn wachsen!</p></td>
 promocode_button_1: CUTLS70
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2.1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2#modal=Wallet
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2.1#modal=Wallet
+button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2.1#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_4282e701714bda4cdebc226307ef95b6d42f1b8a8ef73d5a71590a66d9d263f3/images/heyho2.png
-banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2.1#modal=Wallet
+banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/monkey_WE6.png
-monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2.1#modal=Wallet
+monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=2#modal=Wallet
 
 name: Email 2.1
 locale: fr-FR
@@ -154,17 +154,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Quand la fortune vient d’elle-même, le capitaine avisé n’attend pas — il en profite.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Activez votre bonus dès maintenant !</p></td>
 promocode_button_1: CUTLS70
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2.1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2#modal=Wallet
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2.1#modal=Wallet
+button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2.1#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_8245dc77678ac0cf66c6bd2d7b35ab3add5adcf04d52f1241bb2c88f23aefc24/images/heyho2_8ZZ.png
-banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2.1#modal=Wallet
+banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/monkey_wm8.png
-monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2.1#modal=Wallet
+monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=2#modal=Wallet
 
 name: Email 2.1
 locale: nl-NL
@@ -178,17 +178,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Als het geluk naar je toe komt, wacht een slimme kapitein niet — hij incasseert.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Claim je bonus en laat je saldo groeien!</p></td>
 promocode_button_1: CUTLS70
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2.1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2#modal=Wallet
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2.1#modal=Wallet
+button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2.1#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_6a8cd6662edb5497d7327ec225b9c301dd2e32b2a877034912949c36954d950a/images/heyho2.png
-banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2.1#modal=Wallet
+banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/monkey_Ovy.png
-monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2.1#modal=Wallet
+monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CUTLS70&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=2#modal=Wallet
 
 name: Email 3.1
 locale: Default
@@ -202,17 +202,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The chest is open, the map’s complete - and your name shines on the gold.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Claim your treasure and sail forward!</p></td>
 promocode_button_1: CB9REEF
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3.1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3#modal=Wallet
 button_text_2: PLAY NOW
-button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3.1#modal=Wallet
+button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3.1#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_eed8998f1a528644a66679b00d2bb63b9d47a957d1d80b09745616a84adee832/images/heyho32.png
-banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3.1#modal=Wallet
+banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/monkey_lHj.png
-monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3.1#modal=Wallet
+monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=3#modal=Wallet
 
 name: Email 3.1
 locale: de-DE
@@ -226,17 +226,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die Truhe ist offen, die Karte vollständig – und dein Name ist ins Gold eingraviert.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hol dir deinen Schatz und segle weiter!</p></td>
 promocode_button_1: CB9REEF
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3.1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3#modal=Wallet
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3.1#modal=Wallet
+button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3.1#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_622a33ce9903087b0166199cc9ef0422eb207575efc2356582bec5b0d09c7a80/images/heyho32.png
-banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3.1#modal=Wallet
+banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/monkey_WE6.png
-monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3.1#modal=Wallet
+monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=3#modal=Wallet
 
 name: Email 3.1
 locale: fr-FR
@@ -250,17 +250,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Le coffre est ouvert, la carte est complète — et votre nom brille sur l’or.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Réclamez votre trésor et mettez le cap droit devant !</p></td>
 promocode_button_1: CB9REEF
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3.1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3#modal=Wallet
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3.1#modal=Wallet
+button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3.1#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_002937ed7c7b8cb42582f59496144f6967f5679748efb9fc749bb9ea7c6a1c39/images/heyho32.png
-banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3.1#modal=Wallet
+banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/monkey_wm8.png
-monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3.1#modal=Wallet
+monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=3#modal=Wallet
 
 name: Email 3.1
 locale: nl-NL
@@ -274,17 +274,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">De kist staat open, de kaart is compleet — en jouw naam schittert op het goud.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Claim je schat en zet koers vooruit!</p></td>
 promocode_button_1: CB9REEF
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3.1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3#modal=Wallet
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3.1#modal=Wallet
+button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3.1#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_1cb845cc0ccc92cffd44a14a27c05555f471fab8c888e2996e29d5f4be7a49b4/images/heyho32.png
-banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3.1#modal=Wallet
+banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/monkey_Ovy.png
-monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3.1#modal=Wallet
+monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB9REEF&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=3#modal=Wallet
 
 name: Email 4.1
 locale: Default
@@ -298,17 +298,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The deal’s done, the ink still fresh - take your cut before the sea changes its mind.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Seal your fate and collect your gold!</p></td>
 promocode_button_1: PLANK80
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4.1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4#modal=Wallet
 button_text_2: PLAY NOW
-button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4.1#modal=Wallet
+button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4.1#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_788c8193abcadc3015468dc163d8f0a2083d358dce61128a9b5576c4e204555a/images/heyho22.png
-banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4.1#modal=Wallet
+banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/monkey_lHj.png
-monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4.1#modal=Wallet
+monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=4#modal=Wallet
 
 name: Email 4.1
 locale: de-DE
@@ -322,17 +322,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Der Deal ist besiegelt, die Tinte noch frisch – nimm deinen Anteil, bevor die See es sich anders überlegt.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Besiegle dein Schicksal und hol dir dein Gold.</p></td>
 promocode_button_1: PLANK80
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4.1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4#modal=Wallet
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4.1#modal=Wallet
+button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4.1#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3d108bb4491b1da09e82597072d37a2dc8c8cb6c3539b3b06bd9b54a8c7e43b7/images/heyho22.png
-banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4.1#modal=Wallet
+banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/monkey_WE6.png
-monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4.1#modal=Wallet
+monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=4#modal=Wallet
 
 name: Email 4.1
 locale: fr-FR
@@ -346,17 +346,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Le pacte est scellé, l’encre encore fraîche — prenez votre part avant que la mer ne se ravise.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Scellez votre destin et activez votre bonus !</p></td>
 promocode_button_1: PLANK80
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4.1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4#modal=Wallet
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4.1#modal=Wallet
+button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4.1#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_1bd4ea61c39b4aeef2ab6c72afaa96fa1f5a02f839ddb9c88ff0f897977ee5bc/images/heyho22.png
-banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4.1#modal=Wallet
+banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/monkey_wm8.png
-monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4.1#modal=Wallet
+monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=4#modal=Wallet
 
 name: Email 4.1
 locale: nl-NL
@@ -370,17 +370,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">De deal is rond, de inkt nog nat — claim je deel voordat de zee van gedachten verandert.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br> Bevestig je lot en verzamel je goud!</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p></td>
 promocode_button_1: PLANK80
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4.1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4#modal=Wallet
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4.1#modal=Wallet
+button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4.1#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_25bd6250d3e2ffc8d3b5c5de383ebc0b403ad6028aa3f7d5efac801578a3151f/images/heyho22.png
-banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4.1#modal=Wallet
+banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/monkey_Ovy.png
-monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4.1#modal=Wallet
+monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=4#modal=Wallet
 
 name: Email 5.1
 locale: Default
@@ -394,17 +394,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The sand still glows, the wind hums treasure’s tune - don’t let another crew claim it first.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Claim your bonus and complete the hunt!</p></td>
 promocode_button_1: PLANK80
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5.1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5#modal=Wallet
 button_text_2: PLAY NOW
-button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5.1#modal=Wallet
+button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5.1#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_788c8193abcadc3015468dc163d8f0a2083d358dce61128a9b5576c4e204555a/images/heyho22.png
-banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5.1#modal=Wallet
+banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/monkey_lHj.png
-monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5.1#modal=Wallet
+monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=5#modal=Wallet
 
 name: Email 5.1
 locale: de-DE
@@ -418,17 +418,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Der Sand glüht noch, der Wind summt das Lied des Schatzes – lass keine andere Crew dir zuvorkommen.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hol dir den Bonus und beende die Jagd!</p></td>
 promocode_button_1: PLANK80
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5.1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5#modal=Wallet
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5.1#modal=Wallet
+button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5.1#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3d108bb4491b1da09e82597072d37a2dc8c8cb6c3539b3b06bd9b54a8c7e43b7/images/heyho22.png
-banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5.1#modal=Wallet
+banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/monkey_WE6.png
-monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5.1#modal=Wallet
+monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=5#modal=Wallet
 
 name: Email 5.1
 locale: fr-FR
@@ -442,17 +442,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Le sable luit encore, le vent fredonne un air de trésor — ne laissez pas un autre équipage s’en emparer avant vous.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Réclamez votre bonus et concluez la chasse au trésor !</p></td>
 promocode_button_1: PLANK80
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5.1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5#modal=Wallet
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5.1#modal=Wallet
+button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5.1#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0668d2a4cf3bfa5ad13e2b537d2dfb15f8cd847b67c10e561d1805125924c91c/images/heyho22.png
-banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5.1#modal=Wallet
+banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/monkey_wm8.png
-monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5.1#modal=Wallet
+monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=5#modal=Wallet
 
 name: Email 5.1
 locale: nl-NL
@@ -466,17 +466,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Het zand gloeit nog, de wind neuriet het lied van de schat — laat geen andere bemanning je voor zijn.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br>&nbsp;Claim je bonus en maak de jacht af!</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p></td>
 promocode_button_1: PLANK80
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5.1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5#modal=Wallet
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5.1#modal=Wallet
+button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5.1#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_25bd6250d3e2ffc8d3b5c5de383ebc0b403ad6028aa3f7d5efac801578a3151f/images/heyho22.png
-banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5.1#modal=Wallet
+banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/monkey_Ovy.png
-monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5.1#modal=Wallet
+monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=PLANK80&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=5#modal=Wallet
 
 name: Email 6.1
 locale: Default
@@ -490,17 +490,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The sea gives, the sea returns - and tonight, it’s on your side.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Reclaim your treasure and sail forward!</p></td>
 promocode_button_1: CB12SEA
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6.1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6#modal=Wallet
 button_text_2: PLAY NOW
-button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6.1#modal=Wallet
+button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6.1#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_8bc26488a78e415dde605ed965a8502853798e471dd7cbf20cf16a8a19f4f66f/images/heyho33.png
-banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6.1#modal=Wallet
+banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/monkey_lHj.png
-monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6.1#modal=Wallet
+monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=6#modal=Wallet
 
 name: Email 6.1
 locale: de-DE
@@ -514,17 +514,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Das Meer nimmt, das Meer gibt – und heute ist es auf deiner Seite.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hol dir deinen Schatz und segle weiter!</p></td>
 promocode_button_1: CB12SEA
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6.1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6#modal=Wallet
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6.1#modal=Wallet
+button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6.1#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_53fb9d3fab002eacce5f44e22d6eae3e2680f31796773097ad9def53a72b77d4/images/heyho33.png
-banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6.1#modal=Wallet
+banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/monkey_WE6.png
-monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6.1#modal=Wallet
+monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=6#modal=Wallet
 
 name: Email 6.1
 locale: fr-FR
@@ -538,17 +538,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">La mer prend, la mer rend — et ce soir, elle est de votre côté.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Réclamez votre trésor et mettez le cap droit devant !</p></td>
 promocode_button_1: CB12SEA
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6.1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6#modal=Wallet
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6.1#modal=Wallet
+button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6.1#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dca2dad4afdf64f27badb573241b183fc8d6d68fa7a37aa68cc6b16a79e3fac2/images/heyho33.png
-banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6.1#modal=Wallet
+banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/monkey_wm8.png
-monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6.1#modal=Wallet
+monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=6#modal=Wallet
 
 name: Email 6.1
 locale: nl-NL
@@ -562,17 +562,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">De zee neemt en de zee geeft — en vanavond staat ze aan jouw kant.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Pak je schat terug en zet koers vooruit!</p></td>
 promocode_button_1: CB12SEA
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6.1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6#modal=Wallet
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6.1#modal=Wallet
+button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6.1#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_06946156995b3a6b45bb5d14590323ed89d887c27d591de4f5383559720f597b/images/heyho33.png
-banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6.1#modal=Wallet
+banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/monkey_Ovy.png
-monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6.1#modal=Wallet
+monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB12SEA&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=6#modal=Wallet
 
 name: Email 7.1
 locale: Default
@@ -586,17 +586,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The air hums with ancient power - take what’s rightfully yours before it fades.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Descend and collect your treasure!</p></td>
 promocode_button_1: REEF90
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7.1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7#modal=Wallet
 button_text_2: PLAY NOW
-button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7.1#modal=Wallet
+button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7.1#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_150b1805a4dde6275eb8504f8b870a85a8159b423aee32c6b2d5640ac4d3cc37/images/heyho23.png
-banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7.1#modal=Wallet
+banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/monkey_lHj.png
-monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7.1#modal=Wallet
+monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=7#modal=Wallet
 
 name: Email 7.1
 locale: de-DE
@@ -610,17 +610,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die Luft summt vor uralter Kraft – nimm dir, was dir zusteht, bevor die Chance vergeht.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Steig hinab und hol dir deinen Schatz!</p></td>
 promocode_button_1: REEF90
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7.1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7#modal=Wallet
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7.1#modal=Wallet
+button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7.1#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_f12ca591bea97ccc47170c46cdc04368d284c633551b8a99757b32017495fa15/images/heyho23.png
-banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7.1#modal=Wallet
+banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/monkey_WE6.png
-monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7.1#modal=Wallet
+monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=7#modal=Wallet
 
 name: Email 7.1
 locale: fr-FR
@@ -634,17 +634,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">L’air vibre d’une puissance ancestrale — agissez avant que tout ne s’évanouisse.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Descendez et activez votre bonus !</p></td>
 promocode_button_1: REEF90
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7.1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7#modal=Wallet
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7.1#modal=Wallet
+button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7.1#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_44b085d98b362d60124685aaf1727e5cf5c42695e89948c12e1e2d8c1bfb219f/images/heyho23.png
-banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7.1#modal=Wallet
+banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/monkey_wm8.png
-monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7.1#modal=Wallet
+monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=7#modal=Wallet
 
 name: Email 7.1
 locale: nl-NL
@@ -658,17 +658,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">De lucht zoemt van oeroude kracht — pak wat van jou is voordat het vervliegt.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br>&nbsp;Daal af en verzamel je schat!</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p></td>
 promocode_button_1: REEF90
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7.1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7#modal=Wallet
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7.1#modal=Wallet
+button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7.1#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e22161fb7cce6cefdc030bd0589bf3cc147c7b0b4230fa813a7d1537f084eef9/images/heyho23.png
-banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7.1#modal=Wallet
+banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/monkey_Ovy.png
-monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7.1#modal=Wallet
+monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=REEF90&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=7#modal=Wallet
 
 name: Email 8.1
 locale: Default
@@ -682,17 +682,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The chest is open, the map’s complete - and your name shines on the gold.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Claim your treasure and sail forward!</p></td>
 promocode_button_1: CB15BAY
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8.1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8#modal=Wallet
 button_text_2: PLAY NOW
-button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8.1#modal=Wallet
+button_href_2: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8.1#modal=Wallet
+logo_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_f00142a1f41179d8bb79ded6c9b22d83c1e1118e95572ee560c86b045da3207f/images/fxcvxv.png
-banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8.1#modal=Wallet
+banner_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/monkey_lHj.png
-monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8.1#modal=Wallet
+monkey_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_2aad943b621af1cdefa6189874bc726d6ace9e0b3a13216dd1026167ee58bd43/images/image_kj0.png
-logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/en?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=en&utm_email=8#modal=Wallet
 
 name: Email 8.1
 locale: de-DE
@@ -706,17 +706,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Selbst die Tiefen konnten nicht festhalten, was dir wirklich gehört.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hol dir deinen Schatz und stich erneut in See!</p></td>
 promocode_button_1: CB15BAY
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8.1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8#modal=Wallet
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8.1#modal=Wallet
+button_href_2: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8.1#modal=Wallet
+logo_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b919b9e7fd4368849257bb459fb66348abfc3f603f50ba88cab545fb80c7af7f/images/lkjnbvc.png
-banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8.1#modal=Wallet
+banner_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/monkey_WE6.png
-monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8.1#modal=Wallet
+monkey_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_150e08dda88d964bc863b3fde18375da2b2e930a96304eb633f6cc942b4cc97c/images/image_qV2.png
-logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/de?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=de&utm_email=8#modal=Wallet
 
 name: Email 8.1
 locale: fr-FR
@@ -730,17 +730,17 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Même les abysses n’ont pas pu garder ce qui vous appartient vraiment.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Réclamez votre trésor et reprenez la mer !</p></td>
 promocode_button_1: CB15BAY
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8.1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8#modal=Wallet
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8.1#modal=Wallet
+button_href_2: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8.1#modal=Wallet
+logo_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_bbe12fc2ba2cb91ca0ea1e2cb4e6a24a46145246a530fd528c87131a41d456cb/images/8uytre.png
-banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8.1#modal=Wallet
+banner_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/monkey_wm8.png
-monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8.1#modal=Wallet
+monkey_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a77d47d83d951cffbce5700d556db2177c3866c3c8a2b7a64e387040d04c565/images/image_re7.png
-logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=fr&utm_email=8#modal=Wallet
 
 name: Email 8.1
 locale: nl-NL
@@ -754,14 +754,14 @@ text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p st
 text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Zelfs de diepte kon niet vasthouden wat echt van jou is.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Claim je schat en zet opnieuw zeil!</p></td>
 promocode_button_1: CB15BAY
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8.1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8#modal=Wallet
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8.1#modal=Wallet
+button_href_2: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8#modal=Wallet
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8.1#modal=Wallet
+logo_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8#modal=Wallet
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_fa118531cc5415a3f0d88e4f0523c3395bfd78b46685f7c92ecb895b269e1c12/images/lkmnb.png
-banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8.1#modal=Wallet
+banner_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8#modal=Wallet
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/monkey_Ovy.png
-monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8.1#modal=Wallet
+monkey_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8#modal=Wallet
 logo_botom_src: https://ebhum.stripocdn.email/content/guids/CABINET_3a5402634b1c4ae7a424b95ecc2c04b20b4400624990e0f15634b45c5b549ad6/images/image_8qV.png
-logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8.1#modal=Wallet
+logo_botom_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&promo-code=CB15BAY&utm_campaign=nutrition5&utm_bonus_type=live&utm_source=customerio&utm_medium=email&utm_language=nl&utm_email=8#modal=Wallet
