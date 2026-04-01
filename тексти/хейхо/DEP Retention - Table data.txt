@@ -17,7 +17,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho7_ymm.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1L
 locale: de-DE
@@ -34,10 +36,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho7_UPW.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1L
 locale: fr-FR
@@ -54,10 +59,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho7_bij.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1L
 locale: nl-NL
@@ -74,10 +82,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho7_UGH.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1S
 locale: Default
@@ -94,10 +105,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho11_SME.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1S
 locale: de-DE
@@ -114,10 +128,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho11_i1Z.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1S
 locale: fr-FR
@@ -134,10 +151,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho11_78K.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1S
 locale: nl-NL
@@ -154,10 +174,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho11_HS3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2L
 locale: Default
@@ -174,10 +197,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/bonus_11.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2L
 locale: de-DE
@@ -194,10 +220,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/bonus_11.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2L
 locale: fr-FR
@@ -214,10 +243,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/bonus_11.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2L
 locale: nl-NL
@@ -234,10 +266,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/bonus_11.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2S
 locale: Default
@@ -254,10 +289,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/bonus_11_bAR.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2S
 locale: de-DE
@@ -274,10 +312,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/bonus_11_OWH.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2S
 locale: fr-FR
@@ -294,10 +335,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/bonus_11_y2X.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2S
 locale: nl-NL
@@ -314,10 +358,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/bonus_11_YMM.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3S
 locale: Default
@@ -334,10 +381,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3S
 locale: de-DE
@@ -354,10 +404,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3S
 locale: fr-FR
@@ -374,10 +427,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3S
 locale: nl-NL
@@ -394,10 +450,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4L
 locale: Default
@@ -414,10 +473,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4L
 locale: de-DE
@@ -434,10 +496,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4L
 locale: fr-FR
@@ -454,10 +519,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4L
 locale: nl-NL
@@ -474,10 +542,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4S
 locale: Default
@@ -494,10 +565,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho4_l4a.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4S
 locale: de-DE
@@ -514,10 +588,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho4_X4b.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4S
 locale: fr-FR
@@ -534,10 +611,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho4_g9z.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4S
 locale: nl-NL
@@ -554,10 +634,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho4_xgY.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5L
 locale: Default
@@ -574,10 +657,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho71_KoV.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5L
 locale: de-DE
@@ -594,10 +680,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho71_Wrn.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5L
 locale: fr-FR
@@ -614,10 +703,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho71_srr.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5L
 locale: nl-NL
@@ -634,10 +726,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho71_iYB.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5S
 locale: Default
@@ -654,10 +749,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho7_jGu.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5S
 locale: de-DE
@@ -674,10 +772,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho7_b2j.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5S
 locale: fr-FR
@@ -694,10 +795,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho7_MRV.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5S
 locale: nl-NL
@@ -714,10 +818,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho7_tbr.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6S
 locale: Default
@@ -734,10 +841,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho10_BWz.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6S
 locale: de-DE
@@ -754,10 +864,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho10.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6S
 locale: fr-FR
@@ -774,10 +887,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho10.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6S
 locale: nl-NL
@@ -794,10 +910,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho10.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7L
 locale: Default
@@ -814,10 +933,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho74_KRF.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7L
 locale: de-DE
@@ -834,10 +956,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho74_qAF.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7L
 locale: fr-FR
@@ -854,10 +979,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho74_vPn.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7L
 locale: nl-NL
@@ -874,10 +1002,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho74_Ck9.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7S
 locale: Default
@@ -894,10 +1025,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho6_X7t.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7S
 locale: de-DE
@@ -914,10 +1048,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho6_UUN.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7S
 locale: fr-FR
@@ -934,10 +1071,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho6_Z59.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7S
 locale: nl-NL
@@ -954,10 +1094,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho6_Noo.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8L
 locale: Default
@@ -974,10 +1117,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho4_l4a.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8L
 locale: de-DE
@@ -994,10 +1140,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho4_X4b.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8L
 locale: fr-FR
@@ -1014,10 +1163,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho4_g9z.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8L
 locale: nl-NL
@@ -1034,10 +1186,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho4_xgY.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8S
 locale: Default
@@ -1054,10 +1209,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho71_uNq.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8S
 locale: de-DE
@@ -1074,10 +1232,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho71_Wrn.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8S
 locale: fr-FR
@@ -1094,10 +1255,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho71_srr.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8S
 locale: nl-NL
@@ -1114,10 +1278,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho71_iYB.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 9L
 locale: Default
@@ -1134,10 +1301,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho7_wV1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 9L
 locale: de-DE
@@ -1154,10 +1324,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho7_LUf.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 9L
 locale: fr-FR
@@ -1174,10 +1347,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho7_f6O.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 9L
 locale: nl-NL
@@ -1194,10 +1370,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho7_o7m.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 9S
 locale: Default
@@ -1214,10 +1393,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho41_L7d.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 9S
 locale: de-DE
@@ -1234,10 +1416,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho41_xzg.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 9S
 locale: fr-FR
@@ -1254,10 +1439,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho41_mCd.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 9S
 locale: nl-NL
@@ -1274,10 +1462,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho41.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 10L
 locale: Default
@@ -1294,10 +1485,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho74_iWa.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 10L
 locale: de-DE
@@ -1314,10 +1508,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho74_aVK.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 10L
 locale: fr-FR
@@ -1334,10 +1531,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho74_rqy.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 10L
 locale: nl-NL
@@ -1354,10 +1554,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho74_Nwr.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 10S
 locale: Default
@@ -1374,10 +1577,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d91e88fe0091f48225d3c785b164cca7e1d418a9d97067a20725c2b621946ecf/images/heyho74_iWa.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 10S
 locale: de-DE
@@ -1394,10 +1600,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_87c3c744dfd1df83c018b637f279ff976b476a181021d85eacb7d2b20d5fe554/images/heyho74_qAF.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 10S
 locale: fr-FR
@@ -1414,10 +1623,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_3b32a490b9114e1f41ab95be9ee2621d37bab9702c1ad3906d6af4253f1e2b63/images/heyho74_rqy.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 10S
 locale: nl-NL
@@ -1434,10 +1646,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho74_Nwr.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3L
 locale: Default
@@ -1452,10 +1667,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_25879546f14988b5233ed68d735cee519da98c8e8087a5376306a254e8966990/images/eng1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3L
 locale: de-DE
@@ -1470,10 +1688,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b6e8d7f831ccc3958c41b1269c95b1bf108b525a8bc9cd0b56e7b35bd24e865f/images/ger1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3L
 locale: fr-FR
@@ -1488,10 +1709,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_193bdd1b7c25296717e356160de5afe28801c1e4f73edc90593fe8356d8c284f/images/fr1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3L
 locale: nl-NL
@@ -1506,10 +1730,13 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_de4234e49e4c64a098e163b271ae992fdab40bca17b560181cf86aa772095da2/images/nl1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6L
 locale: Default
@@ -1524,10 +1751,13 @@ button_href_1:
 button_text_2: Play now
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_25879546f14988b5233ed68d735cee519da98c8e8087a5376306a254e8966990/images/eng1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6L
 locale: de-DE
@@ -1542,10 +1772,13 @@ button_href_1:
 button_text_2: JETZT SPIELEN
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b6e8d7f831ccc3958c41b1269c95b1bf108b525a8bc9cd0b56e7b35bd24e865f/images/ger1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6L
 locale: fr-FR
@@ -1560,10 +1793,13 @@ button_href_1:
 button_text_2: JOUER MAINTENANT
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_193bdd1b7c25296717e356160de5afe28801c1e4f73edc90593fe8356d8c284f/images/fr1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6L
 locale: nl-NL
@@ -1578,7 +1814,9 @@ button_href_1:
 button_text_2: SPEEL NU
 button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_de4234e49e4c64a098e163b271ae992fdab40bca17b560181cf86aa772095da2/images/nl1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
-bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+monkey_href:
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.pngbottom_logo_href:

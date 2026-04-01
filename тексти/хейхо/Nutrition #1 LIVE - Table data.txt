@@ -17,7 +17,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2f0d01bd9c735c25ba37950a971b2177f8c4cd09b7f633b48c2c238e073a0665/images/100.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1.1
 locale: de-DE
@@ -38,7 +40,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_6796513b620327267a7a23b80007d540d6fcf94234f804b36bedff4566c306a7/images/100_1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1.1
 locale: fr-FR
@@ -59,7 +63,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e03a64fade747f7f102228b26ff26e9fac1096c371c1bf264b016ccd986efbdc/images/100_1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 1.1
 locale: nl-NL
@@ -80,7 +86,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_abd782780dde93898432292489e9e742b9bc93feffdde3bc0bbbb65cabe50d56/images/100_1.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2.1
 locale: Default
@@ -101,7 +109,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_069faaf54ba926e4d14f60bcc256e75a5f593566256f7c27963d4aaac923c7e8/images/heyho93.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2.1
 locale: de-DE
@@ -122,7 +132,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_21626471487fd1cc73b05be88cd42f19f0a59f285d58a1213debf60fb3352b71/images/heyho93.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2.1
 locale: fr-FR
@@ -143,7 +155,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_34f93c0ac3a060c3552d7a6ce9a1912a74e023cb9089900b43c11adfbdb404b6/images/heyho93.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2.1
 locale: nl-NL
@@ -164,7 +178,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_ef66f409eb2eeaa8196309c2c3401462bfded7377038ea42753d8a126a167918/images/heyho93.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2.2
 locale: Default
@@ -185,7 +201,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_654eeda8e0c895e21a0c888b6de7d4bd4ac405319c6fea6d0f9de68228e288bc/images/heyho94.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2.2
 locale: de-DE
@@ -206,7 +224,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_895c21df7bb20fc15ad391b883db348704a478079845072c76bdf1bc2d83acd3/images/heyho94.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2.2
 locale: fr-FR
@@ -227,7 +247,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_c4cd9027b190d45a6a313ff6e4e27b43c73cbf48f3ad35e2b36b9581c0e85219/images/heyho94.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 2.2
 locale: nl-NL
@@ -248,7 +270,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_7c7ea28a22f4a1a1d99bd8e30b8c7262ec2391b47f40b80d50a8355da58e0de1/images/heyho94.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3.1
 locale: Default
@@ -269,7 +293,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_7ff08247b4455e3fa7d31f0827c674dcfbdbb92a201fafa2c6141b4c5a0e0e8a/images/heyho3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3.1
 locale: de-DE
@@ -290,7 +316,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_4ef3624e3f4e900cddec30c9bbfdfe87f955dc793064e818138733ce44faaf42/images/heyho3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3.1
 locale: fr-FR
@@ -311,7 +339,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_258795ac9703ec1667a76c6d5048bf8d62fc8ba5599978ac4f35e27adfed6d4c/images/heyho3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3.1
 locale: nl-NL
@@ -332,7 +362,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dee192c9f7c4e3cf2c2bbc972c344c8b3a2160717abe25de5b126fe9e1893d61/images/heyho3.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3.2
 locale: Default
@@ -353,7 +385,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2fe2d59e11f5aad0b24da842311894de3d1dd81a323eba37179233f564a1a741/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3.2
 locale: de-DE
@@ -374,7 +408,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e01a01ee7c9a2b2402ab81befdb63bc1c1fe0883775d4b26ed06610b28b4c57a/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3.2
 locale: fr-FR
@@ -395,7 +431,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_abce64ff355ce44ab41b76fe3f7327ef032702e398260d156ab0cdf3e95e884e/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 3.2
 locale: nl-NL
@@ -416,7 +454,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_363e7fdc11641e5dfdb44b045f9906caa2117cd9a29ed5eac292f6dc65e1a418/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4.1
 locale: Default
@@ -437,7 +477,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_7a1fd27a149943574518d6a452fc4191ca549135f185f7b83fdcbcc40d41ba51/images/heyho94.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4.1
 locale: de-DE
@@ -458,7 +500,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_8e76c6c43131873e5b1b22eebb62e7a13ca3bc0e25f1d9cd223ba6cd08bf5ad7/images/heyho94.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4.1
 locale: fr-FR
@@ -479,7 +523,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_81b6e4be1e644a5ab9ff6457c7a5faa90ee965b5d39b299d5a529d1e4791029c/images/heyho94.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4.1
 locale: nl-NL
@@ -500,7 +546,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_c5a240d8552b386289a505a6ebc9e6418f491fbf2824bf1b2065e479447d0d16/images/heyho94.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4.2
 locale: Default
@@ -521,7 +569,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_f53b7d37cf37b32049d72b8b5dcac496a7ffa33574ef698a212999e9c4c19585/images/heyho95.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4.2
 locale: de-DE
@@ -542,7 +592,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_5a1f75e28e2af95388b55c31df663192f9f306c2cd5647ccbeb28e3abcaf5fc2/images/heyho95.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4.2
 locale: fr-FR
@@ -563,7 +615,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b3ede1972618b336901f06ea0e764ce96121c9eaa5e75020d3fce24c2111b505/images/heyho95.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 4.2
 locale: nl-NL
@@ -584,7 +638,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2fdd15d90aa463c25d66672454d8f17adc3e766bf113f3d8c66b0513f1334c8e/images/heyho95.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5.1
 locale: Default
@@ -605,7 +661,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_575e2e914db383c7582d238556b984976558026ce03bb10096345ea0ad4b6441/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5.1
 locale: de-DE
@@ -626,7 +684,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dc00c2b619ad78072cb093d21c99fb8bf3f1b95abdb92090267df780d461265e/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5.1
 locale: fr-FR
@@ -647,7 +707,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b76216929fb1adf7ef5f9a19b40a8a5fbca2a0b28e2804345ee852ce5ac45fa2/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5.1
 locale: nl-NL
@@ -668,7 +730,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dd3ccdbe7d79d70f8fbd5b7aa4946f9a2e8940e69eef1c256fd53d6055dd6e29/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5.2
 locale: Default
@@ -689,7 +753,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a36f82fb0d0baa92becea727cc53d4e796a5c41c98676efc5095accf02d28024/images/heyho32.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5.2
 locale: de-DE
@@ -710,7 +776,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_511196873de05f7a96d47f7e53d5ce84a4a8f82da96158641d0b9c68cb650bd0/images/heyho32.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5.2
 locale: fr-FR
@@ -731,7 +799,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_f72d1366f9eb6808bbe8af53b1ba4114c0f858800666dccdf0848d0eaf6fc0c6/images/heyho32.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 5.2
 locale: nl-NL
@@ -752,7 +822,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_96d771f71c76decb18167cb2cbf29a0bcfa072fb010de4aa8ebb8f396948ef23/images/heyho32.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6.1
 locale: Default
@@ -773,7 +845,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_fd27b3669915126a4e8e12c69a08f8115298da490e20c51a10cde08fb9a12ae6/images/heyho95.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6.1
 locale: de-DE
@@ -794,7 +868,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d423bec135c0de8eb27d05f693ef8dcd2b0acc495df7f00006af58816d0a8f32/images/heyho95.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6.1
 locale: fr-FR
@@ -815,7 +891,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_70c525858fd9f18e3aad23253321d7deb4690538078e1757e632d7f224184d97/images/heyho95.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6.1
 locale: nl-NL
@@ -836,7 +914,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_50308a9bcf6186011045f11ec23d95b9c9e00e19a172649feea2791ee3cc6b49/images/heyho95.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6.2
 locale: Default
@@ -857,7 +937,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b3ea43cb962a431bb6eb9985100c918479e8fc00b937511c21a675f7bcf737fe/images/heyho96.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6.2
 locale: de-DE
@@ -878,7 +960,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9c882e03b778fd1d91c4c3764c5879524fa582e0eefb9c56738029c329fa9992/images/heyho96.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6.2
 locale: fr-FR
@@ -899,7 +983,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_92e5590dfb3620296528deca818137c905a2975934d1d6dffb36742d9c7a03e5/images/heyho96.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 6.2
 locale: nl-NL
@@ -920,7 +1006,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e6715d616096061e1b6bc5916dcf99f4273de1c576f36277ead1e586a4ce5cac/images/heyho96.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7.1
 locale: Default
@@ -941,7 +1029,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_575e2e914db383c7582d238556b984976558026ce03bb10096345ea0ad4b6441/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7.1
 locale: de-DE
@@ -962,7 +1052,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dc00c2b619ad78072cb093d21c99fb8bf3f1b95abdb92090267df780d461265e/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7.1
 locale: fr-FR
@@ -983,7 +1075,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b76216929fb1adf7ef5f9a19b40a8a5fbca2a0b28e2804345ee852ce5ac45fa2/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7.1
 locale: nl-NL
@@ -1004,7 +1098,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dd3ccdbe7d79d70f8fbd5b7aa4946f9a2e8940e69eef1c256fd53d6055dd6e29/images/heyho31.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7.2
 locale: Default
@@ -1025,7 +1121,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_397e94df3fad31eea474bfe2d3482a1b472a6aa2c86d95db63a2dc1b23147e9f/images/heyho32.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7.2
 locale: de-DE
@@ -1046,7 +1144,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b200644038f190982ce25495fc385c17d3522f6b130fa23ef8f6b18fa403f73b/images/heyho32.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7.2
 locale: fr-FR
@@ -1067,7 +1167,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a789084bd87f2260669785e58ad21e187505dce449dd7294a0f2c2ec3ac4977a/images/heyho32.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 7.2
 locale: nl-NL
@@ -1088,7 +1190,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a731eca703b48ffe3d9b619b6f6805cfed1e758303df49eb287cabb32470fe02/images/heyho32.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8.1
 locale: Default
@@ -1109,7 +1213,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_fcc331da564491a21c09d0f93b774a00c5206eef3ef81fe9aaf236bb1331324c/images/heyho26.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8.1
 locale: de-DE
@@ -1130,7 +1236,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d57c15b9df262696f528b356dc3e0d2af0ae163f10b77fb3f5fcbb37f2f472f7/images/heyho26.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8.1
 locale: fr-FR
@@ -1151,7 +1259,9 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_564cba24f37189c0f3507624186dba5f232f5a168971830b3063ce01e14adc6b/images/heyho26.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+monkey_href:
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+bottom_logo_href:
 
 name: Email 8.1
 locale: nl-NL
@@ -1172,4 +1282,5 @@ logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_338e991c2f0738af725dac89f38ec2f811efc024ca516bdbe896d34f2096a475/images/heyho26.png
 banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
-bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+monkey_href:
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.pngbottom_logo_href:
