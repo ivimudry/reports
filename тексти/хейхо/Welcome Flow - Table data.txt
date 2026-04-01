@@ -1,0 +1,863 @@
+name: Email 3
+locale: Default
+subject: 🎰 Set Sail for 15 Free Spins
+preheader: Login and start spinning!
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>You've got<br>15 Free Spins!</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Captain, fresh plunder is in sight! Make a <strong style="color:#ffa300">20 €</strong>+ deposit, enter code <strong style="color:#ffa300">WELCOME1</strong>, and we will load <strong style="color:#ffa300">15 Free Spins</strong> on <strong style="color:#ffa300">Gates of Olympus</strong> into your account.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Spin the reels, chase the golden symbols, and keep whatever treasure you uncover. This offer stays afloat for 48 hours - after that the tide carries it away.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Raise the anchor and claim your spins before the wind changes.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284913577_Email%203_01KCZCJ91ZDGKX18VR5D1V1SNM.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=en
+
+name: Email 3
+locale: de-DE
+subject: 🎰 Setz die Segel für 15 Freispiele!
+preheader: Melde dich an und leg los!
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Du hast<br>15 Freispiele erhalten!</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Kapitän, frische Beute in Sicht! Zahle <strong style="color:#ffa300">20 €</strong> oder mehr ein, gib den Code <strong style="color:#ffa300">WELCOME1</strong> ein, und wir laden <strong style="color:#ffa300">15 Freispiele</strong> auf <strong style="color:#ffa300">Gates of Olympus</strong> auf dein Konto.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Dreh die Walzen, jag den goldenen Symbolen hinterher und behalte jeden Schatz, den du findest. Dieses Angebot bleibt 48 Stunden lang an der Oberfläche - danach trägt es die Flut davon.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Lichte den Anker und sichere dir deine Spins, bevor sich der Wind dreht.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284947174_Email%203_01KCZCK9VW9CRASD3759Z52SPS.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=de
+
+name: Email 3
+locale: fr-FR
+subject: 🎰 Mettez les voiles pour 15 tours gratuits !
+preheader: Connectez‑vous et commencez à tourner !
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Vous avez<br>15 tours gratuits !</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Capitaine, un nouveau butin est en vue ! Déposez <strong style="color:#ffa300">20 €</strong> ou plus, saisissez le code <strong style="color:#ffa300">WELCOME1</strong>, et nous créditerons <strong style="color:#ffa300">15 tours gratuits</strong> sur <strong style="color:#ffa300">Gates of Olympus</strong> sur votre compte.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Faites tourner les rouleaux, traquez les symboles dorés et gardez tous les trésors découverts. Cette offre reste à flot pendant 48 heures - après quoi la marée l’emporte.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Levez l’ancre et réclamez vos tours avant que le vent ne tourne.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284983585_Email%203_01KCZCMDDR51K9P0QT6E6DTTMG.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=fr
+
+name: Email 3
+locale: nl-NL
+subject: 🎰 Zet koers voor 15 gratis spins!
+preheader: Log in en begin met draaien!
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Je hebt<br>15 gratis spins!</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Kapitein, verse buit in zicht! Stort <strong style="color:#ffa300">€20</strong>+, voer code&nbsp;<strong style="color:#ffa300">WELCOME1</strong> in, en wij zetten <strong style="color:#ffa300">15 gratis spins</strong> op <strong style="color:#ffa300">Gates of Olympus</strong> op je account.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Laat de rollen draaien, jaag op de gouden symbolen en houd elke schat die je ontdekt. Dit aanbod blijft 48 uur drijven - daarna voert het tij het weg.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hijs het anker en claim je spins voordat de wind draait.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285024350_Email%203_01KCZCNN7NETMGBBAKG0C94TN7.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=3&utm_language=nl
+
+name: Email 5
+locale: Default
+subject: 🍭 15 FS on Gates of Olympus
+preheader: Your sweet bonus is anchored and ready to set sail
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>15 FS on Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The tide is rising, sailor! Make a qualifying deposit, enter code <strong style="color:#ffa300">WELCOME1</strong>, and we will load <strong style="color:#ffa300">15 Free Spins</strong> on the <strong style="color:#ffa300">Gates of Olympus</strong> into your account.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Spin through hidden coves, uncover bright coins, and keep whatever treasure you reel in. This quick bonus drifts away in 48 hours - once the wind shifts, the offer is gone.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Secure your deck, chart a course to the reels, and let fortune echo across your bow.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284915698_Email%205_01KCZCJB4B5QKBE5QX1E6PV6AN.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=en
+
+name: Email 5
+locale: de-DE
+subject: 🍭 15 FS auf Gates of Olympus
+preheader: Dein süßer Bonus ist verankert und bereit, in See zu stechen
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>15 FS auf Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die Flut steigt, Matrose! Tätige eine qualifizierende Einzahlung, gib den Code <strong style="color:#ffa300">WELCOME1</strong> ein, und wir laden <strong style="color:#ffa300">15 Freispiele</strong> auf <strong style="color:#ffa300">Gates of Olympus</strong> auf dein Konto.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Dreh dich durch verborgene Buchten, entdecke glänzende Münzen und behalte jeden Schatz, den du an Land ziehst. Dieser schnelle Bonus treibt nach 48 Stunden davon - sobald der Wind dreht, ist das Angebot verschwunden.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sichere dein Deck, setze Kurs auf die Walzen und lass das Glück über deinen Bug widerhallen.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284949106_Email%205_01KCZCKBR8XF553QMVQD5TW0DW.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=de
+
+name: Email 5
+locale: fr-FR
+subject: 🍭 15 FS sur Gates of Olympus
+preheader: Votre bonus sucré est à l’ancre, prêt à prendre le large
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>15 FS sur Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">La marée monte, marin ! Effectuez un dépôt admissible, saisissez le code <strong style="color:#ffa300">WELCOME1</strong>, et nous créditerons <strong style="color:#ffa300">15 tours gratuits</strong> sur <strong style="color:#ffa300">Gates of Olympus</strong> sur votre compte.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Explorez des criques cachées, découvrez des pièces étincelantes et gardez chaque trésor que vous pêchez. Ce bonus éclair dérive au bout de 48 heures - dès que le vent tourne, l’offre disparaît.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sécurisez votre pont, tracez la route vers les rouleaux et laissez la fortune résonner à votre proue.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284985552_Email%205_01KCZCMFB9BND0CGEZZM60YQVP.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=fr
+
+name: Email 5
+locale: nl-NL
+subject: 🍭 15 FS op Gates of Olympus
+preheader: Je zoete bonus ligt voor anker en staat klaar om uit te varen
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>15 FS op Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Het tij stijgt, matroos! Doe een kwalificerende storting, gebruik de code <strong style="color:#ffa300">WELCOME1</strong> en we zetten <strong style="color:#ffa300">15 gratis spins</strong> op <strong style="color:#ffa300">Gates of Olympus</strong> op je account.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Snijd door verborgen baaien, ontdek glinsterende munten en houd iedere schat die je binnensleept. Deze snelle bonus drijft na 48 uur weg - zodra de wind draait, is het aanbod voorbij.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Zet je dek vast, koers naar de rollen en laat het fortuin over je boeg weerklinken.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285026239_Email%205_01KCZCNQ2QVQCGFD4APWKFMRFS.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=5&utm_language=nl
+
+name: Email 6
+locale: Default
+subject: 🦜 Boost Your First Voyage - 250% Bonus + 50 FS
+preheader: Chart a new course and uncover free spins on Shining Crown
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% Bonus + 50 FS</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The map to your first treasure is clear. Make your opening deposit of <strong style="color:#ffa300">20 €</strong> or more, enter code <strong style="color:#ffa300">WELCOME9TZ</strong>, and unlock a <strong style="color:#ffa300">250%</strong> bonus plus <strong style="color:#ffa300">50 Free Spins</strong> on the <strong style="color:#ffa300">Shining Crown</strong>.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">This reward is the next milestone in your Welcome Pack, designed to set your reels spinning and your balance growing. Navigate dazzling islands, uncover glittering symbols, and keep every coin you claim. The current is steady now, but the offer slips away in 48 hours.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hoist the sails and seize your share of the bounty.</p></td>
+promocode_button_1: WELCOME9TZ
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284916713_Email%206_01KCZCJC3X34Z3WE40Q6JCKPYQ.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=en
+
+name: Email 6
+locale: de-DE
+subject: 🦜 Erhöhe deine erste Reise - 250% Bonus + 50 FS
+preheader: Setze einen neuen Kurs und entdecke Freispiele auf Shining Crown
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% Bonus + 50 FS</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die Karte zu deinem ersten Schatz ist klar. Zahle <strong style="color:#ffa300">20 €</strong> oder mehr ein, gib den Code <strong style="color:#ffa300">WELCOME9TZ</strong> ein und schalte einen <strong style="color:#ffa300">250%</strong> Bonus plus <strong style="color:#ffa300">50 Freispiele</strong> auf <strong style="color:#ffa300">Shining Crown</strong> frei.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Diese Belohnung ist der nächste Meilenstein deines Willkommenspakets - sie bringt deine Walzen in Schwung und lässt dein Guthaben wachsen. Navigiere zu funkelnden Inseln, entdecke glitzernde Symbole und behalte jede Münze, die du einsammelst. Die Strömung ist jetzt ruhig, doch das Angebot verschwindet in 48 Stunden.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hisse die Segel und sichere dir deinen Anteil an der Beute.</p></td>
+promocode_button_1: WELCOME9TZ
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284950141_Email%206_01KCZCKCRKHJVE2XF6SCRHVF98.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=de
+
+name: Email 6
+locale: fr-FR
+subject: 🦜 Boostez votre premier voyage - bonus de 250 % + 50 FS
+preheader: Tracez une nouvelle route et décrochez des tours gratuits sur Shining Crown
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250 % bonus + 50 FS</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">La carte de votre premier trésor est claire. Effectuez un dépôt de <strong style="color:#ffa300">20 €</strong> ou plus, saisissez le code <strong style="color:#ffa300">WELCOME9TZ</strong>&nbsp;et débloquez un bonus de <strong style="color:#ffa300">250 %</strong> ainsi que <strong style="color:#ffa300">50 tours gratuits</strong> sur <strong style="color:#ffa300">Shining Crown</strong>.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Cette récompense est la prochaine étape de votre pack de bienvenue - elle est conçue pour faire tourner les rouleaux et faire croître votre solde. Naviguez entre des îles étincelantes, découvrez des symboles scintillants et gardez chaque pièce que vous remportez. Le courant est stable à présent, mais l’offre disparaît dans 48 heures.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hissez les voiles et saisissez votre part du butin.</p></td>
+promocode_button_1: WELCOME9TZ
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284986588_Email%206_01KCZCMGBMT57XAZTD6JQR2BDC.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=fr
+
+name: Email 6
+locale: nl-NL
+subject: 🦜 Versterk je eerste reis - 250% bonus + 50 FS
+preheader: Zet een nieuwe koers en ontdek vandaag gratis spins op Shining Crown
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% bonus + 50 FS</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">De kaart naar je eerste schat is duidelijk. Stort <strong style="color:#ffa300">€20</strong> of meer, voer code <strong style="color:#ffa300">WELCOME9TZ</strong> in en ontgrendel een <strong style="color:#ffa300">250%</strong> bonus plus <strong style="color:#ffa300">50 gratis spins</strong> op <strong style="color:#ffa300">Shining Crown</strong>.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Deze beloning is de volgende mijlpaal in je welkomstpakket - bedoeld om je rollen te laten draaien en je saldo te laten groeien. Navigeer langs fonkelende eilanden, ontdek glinsterende symbolen en houd elke munt die je binnenhaalt. De stroom is nu kalm, maar het aanbod verdwijnt over 48 uur.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hijs de zeilen en grijp jouw deel van de buit.</p></td>
+promocode_button_1: WELCOME9TZ
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285027225_Email%206_01KCZCNR1G2KDZP7PYJA10ASV4.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=6&utm_language=nl
+
+name: Email 8
+locale: Default
+subject: ⚓ 15 Free Spins on Gates of Olympus Await You
+preheader: A quick bonus is secured in your cabin - set sail when ready.
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>15 Free Spins on Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">A fresh breeze of fortune has blown across HeyHo Casino, and it carries a gift: <strong style="color:#ffa300">15 Free Spins</strong> on the <strong style="color:#ffa300">Gates of Olympus</strong>. Claim them by making a <strong style="color:#ffa300">20 €</strong>+ deposit and entering code <strong style="color:#ffa300">WELCOME1</strong> before the tide turns.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Spin through bright reefs of symbols, gather glittering coins, and pocket every prize you uncover. This quick bonus remains in port for just 48 hours, then slips over the horizon.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Raise your anchor, chart a course to the reels, and let the voyage begin.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284918794_Email%208_01KCZCJE4ZX5SHN01WQH2FTTZK.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=en
+
+name: Email 8
+locale: de-DE
+subject: ⚓ 15 Freispiele auf Gates of Olympus warten auf dich
+preheader: Ein schneller Bonus ist in deiner Kabine gesichert – stich in See, wenn du bereit bist.
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>15 Freispiele auf Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Eine frische Brise des Glücks hat bei HeyHo Casino angelegt und bringt dir ein Geschenk: <strong style="color:#ffa300">15 Freispiele</strong> auf Gates of Olympus. Sichere sie dir, indem du eine Einzahlung von <strong style="color:#ffa300">20 €</strong> oder mehr tätigst und den Code <strong style="color:#ffa300">WELCOME1</strong> eingibst, bevor die Flut sich wendet.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Drehe durch leuchtende Riffe voller Symbole, sammle glitzernde Münzen und behalte jeden Preis, den du findest. Dieser schnelle Bonus bleibt nur 48 Stunden im Hafen, dann verschwindet er hinter dem Horizont.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Lichte den Anker, setze Kurs auf die Walzen und lass die Reise beginnen.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284952189_Email%208_01KCZCKERKY5F58AQNWATSKJQJ.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=de
+
+name: Email 8
+locale: fr-FR
+subject: ⚓ 15 tours gratuits sur Gates of Olympus vous attendent
+preheader: Un bonus rapide est arrimé dans votre cabine – prenez la mer quand vous voulez.
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>15 tours gratuits sur Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Une brise de fortune vient de souffler sur HeyHo Casino, apportant un cadeau : <strong style="color:#ffa300">15 tours gratuits</strong> sur Gates of Olympus. Obtenez‑les en effectuant un dépôt de <strong style="color:#ffa300">20 €</strong> ou plus et en saisissant le code <strong style="color:#ffa300">WELCOME1</strong> avant que la marée ne tourne.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Parcourez des récifs lumineux de symboles, récoltez des pièces scintillantes et gardez chaque récompense trouvée. Ce bonus éclair reste à quai pendant seulement 48 heures, puis disparaît à l’horizon.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Levez l’ancre, tracez votre route vers les rouleaux et que le voyage commence.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284988584_Email%208_01KCZCMJ9ZKNEJ5YQFASW5R5P0.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=fr
+
+name: Email 8
+locale: nl-NL
+subject: ⚓ 15 gratis spins op Gates of Olympus wachten op jou
+preheader: Een snelle bonus ligt klaar in je hut – vertrek zodra je wilt.
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>15 gratis spins op Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Een frisse bries van geluk is over HeyHo Casino geblazen en brengt een cadeau: <strong style="color:#ffa300">15 gratis spins</strong> op Gates of Olympus. Claim ze door een storting van <strong style="color:#ffa300">€20</strong> of meer te doen en de code <strong style="color:#ffa300">WELCOME1</strong> in te voeren voordat het tij keert.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Draai door heldere riffen vol symbolen, verzamel fonkelende munten en houd elke prijs die je vindt. Deze snelle bonus blijft slechts 48 uur in de haven, daarna verdwijnt hij achter de horizon.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hijs het anker, zet koers naar de rollen en laat de reis beginnen.</p></td>
+promocode_button_1: WELCOME1
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285029401_Email%208_01KCZCNT5HABVD0ZRK7A7PJ01H.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=8&utm_language=nl
+
+name: Email 9
+locale: Default
+subject: 🎁 Boost Your First Voyage - 250% + 50 FS on Shining Crown
+preheader: Your Welcome Pack upgrade is waiting to power up launch day spins.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% + 50 FS on Shining Crown</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Every great journey starts with a spark of momentum. Today, that spark is a <strong style="color:#ffa300">250%</strong> bonus plus <strong style="color:#ffa300">50 Free Spins</strong> on the <strong style="color:#ffa300">Shining Crown</strong>. Make a deposit of <strong style="color:#ffa300">20 €</strong> or more, enter code <strong style="color:#ffa300">WELCOME9TZ</strong>, and watch your balance surge as extra spins drop anchor in your account.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">This reward is the next waypoint in your Welcome Pack, crafted to give your maiden voyage the lift it deserves. The reels are primed, the current is calm, but the offer drifts away in 48 hours.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Secure your deck and chart a course toward hidden treasure - your adventure begins with a single click below.</p></td>
+promocode_button_1: WELCOME9TZ
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284919861_Email%209_01KCZCJF6CVSWAS4ANYY1916A3.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=en
+
+name: Email 9
+locale: de-DE
+subject: 🎁 Erhöhe deine erste Reise - 250% Bonus + 50 FS auf Shining Crown
+preheader: Dein Willkommenspaket‑Upgrade wartet, um die Spins am Launch‑Tag zu beflügeln.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% Bonus + 50 FS auf Shining Crown</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Jede große Reise beginnt mit einem Funken Schwung. Heute ist dieser Funke ein <strong style="color:#ffa300">250%</strong>‑Bonus plus <strong style="color:#ffa300">50 Freispiele</strong> auf Shining Crown. Zahle <strong style="color:#ffa300">20 €</strong> oder mehr ein, gib den Code <strong style="color:#ffa300">WELCOME9TZ</strong> ein und sieh zu, wie dein Guthaben wächst, während zusätzliche Spins in deinem Konto vor Anker gehen.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Diese Belohnung ist der nächste Wegpunkt in deinem Willkommenspaket - sie gibt deiner Jungfernfahrt den nötigen Auftrieb. Die Walzen sind bereit, die Strömung ist ruhig, doch das Angebot treibt in 48 Stunden davon.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sichere dein Deck und setze Kurs auf verborgene Schätze - dein Abenteuer beginnt mit einem Klick unten.</p></td>
+promocode_button_1: WELCOME9TZ
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284953274_Email%209_01KCZCKFTCXG97VPYVWADVJ6P0.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=de
+
+name: Email 9
+locale: fr-FR
+subject: 🎁 Boostez votre premier voyage - bonus de 250 % + 50 FS sur Shining Crown
+preheader: Votre mise à niveau du pack de bienvenue est prête à dynamiser vos spins du jour de lancement.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250 % bonus + 50 FS sur Shining Crown</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Chaque grande aventure commence par une étincelle d’élan. Aujourd’hui, cette étincelle, c’est un bonus de <strong style="color:#ffa300">250 %</strong> et <strong style="color:#ffa300">50 tours gratuits</strong> sur Shining Crown. Effectuez un dépôt de <strong style="color:#ffa300">20 €</strong> ou plus, saisissez le code <strong style="color:#ffa300">WELCOME9TZ</strong> et regardez votre solde grimper tandis que des spins supplémentaires jettent l’ancre sur votre compte.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Cette récompense est la prochaine étape de votre pack de bienvenue - elle donne à votre voyage inaugural l’élan qu’il mérite. Les rouleaux sont prêts, le courant est calme, mais l’offre disparaît dans 48 heures.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sécurisez votre pont et tracez la route vers des trésors cachés - votre aventure commence par un simple clic ci-dessous.</p></td>
+promocode_button_1: WELCOME9TZ
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284989668_Email%209_01KCZCMKBTAJ5K3MBHTT4H0W4B.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=fr
+
+name: Email 9
+locale: nl-NL
+subject: 🎁 Versterk je eerste reis - 250% bonus + 50 FS op Shining Crown
+preheader: Je upgrade van het welkomstpakket staat klaar om de spins op lanceringdag te boosten.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% bonus + 50 FS op Shining Crown</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Elke grote tocht begint met een vonk momentum. Vandaag is die vonk een <strong style="color:#ffa300">250%</strong>‑bonus plus <strong style="color:#ffa300">50 gratis spins</strong> op Shining Crown. Stort <strong style="color:#ffa300">€20</strong> of meer, voer de code <strong style="color:#ffa300">WELCOME9TZ</strong> in en zie hoe je saldo stijgt terwijl extra spins in je account voor anker gaan.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Deze beloning is het volgende waypoint in je welkomstpakket - bedoeld om je maiden voyage de lift te geven die hij verdient. De rollen staan klaar, de stroom is kalm, maar het aanbod verdwijnt over 48 uur.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Zet je dek vast en vaar richting verborgen schatten - je avontuur begint met één klik hieronder.</p></td>
+promocode_button_1: WELCOME9TZ
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285030422_Email%209_01KCZCNV5GATSTQJ8HR4C4V0RQ.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=9&utm_language=nl
+
+name: Email 11
+locale: Default
+subject: 🚀 20 Free Spins on Book of Dead Ready to Launch
+preheader: A quick bonus is waiting in your hold.
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>20 Free Spins on Book of Dead</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Fair winds bring swift rewards. Make a <strong style="color:#ffa300">20 €</strong>+ deposit, enter code <strong style="color:#ffa300">WELCOMEKQ1</strong>, and we will load <strong style="color:#ffa300">20 Free Spins</strong> on the <strong style="color:#ffa300">Book of Dead</strong> into your account.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Set the reels rolling through bright reefs of symbols, gather shimmering coins, and keep every treasure you uncover. This quick bonus remains in port for just 48 hours before the current carries it away.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Secure your deck, chart a course to the reels, and start your voyage to new riches right now.</p></td>
+promocode_button_1: WELCOMEKQ1
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284921658_Email%2011_01KCZCJGYGMBCYQ21HR7TJPEM9.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=en
+
+name: Email 11
+locale: de-DE
+subject: 🚀 20 Freispiele auf Book of Dead startklar
+preheader: Ein schneller Bonus wartet im Laderaum.
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>20 Freispiele auf Book of Dead</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Günstige Winde bringen schnelle Belohnungen. Zahle <strong style="color:#ffa300">20 €</strong> oder mehr ein, gib den Code <strong style="color:#ffa300">WELCOMEKQ1</strong> ein, und wir laden <strong style="color:#ffa300">20 Freispiele</strong> auf Book of Dead auf dein Konto.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Lass die Walzen durch leuchtende Riffe voller Symbole rollen, sammle schimmernde Münzen und behalte jeden Schatz, den du findest. Dieser schnelle Bonus bleibt nur 48 Stunden im Hafen, bevor ihn die Strömung davonträgt.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sichere dein Deck, setze Kurs auf die Walzen und beginne jetzt deine Reise zu neuen Reichtümern.</p></td>
+promocode_button_1: WELCOMEKQ1
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284955474_Email%2011_01KCZCKJ00W35SET7EZ23YQCDA.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=de
+
+name: Email 11
+locale: fr-FR
+subject: 🚀 20 tours gratuits sur Book of Dead prêts au décollage
+preheader: Un bonus rapide vous attend dans la cale.
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>20 tours gratuits sur Book of Dead</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Des vents favorables apportent des récompenses rapides. Déposez <strong style="color:#ffa300">20 €</strong> ou plus, saisissez le code <strong style="color:#ffa300">WELCOMEKQ1</strong>, et nous créditerons <strong style="color:#ffa300">20 tours gratuits</strong> sur Book of Dead sur votre compte.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Faites tourner les rouleaux à travers des récifs éclatants de symboles, récoltez des pièces étincelantes et gardez chaque trésor découvert. Ce bonus éclair reste à quai pendant seulement 48 heures avant que le courant ne l’emporte.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sécurisez votre pont, tracez votre route vers les rouleaux et commencez dès maintenant votre voyage vers de nouvelles richesses.</p></td>
+promocode_button_1: WELCOMEKQ1
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284991619_Email%2011_01KCZCMN8VE1NV6BTP1HDPJH6H.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=fr
+
+name: Email 11
+locale: nl-NL
+subject: 🚀 20 gratis spins op Book of Dead klaar voor lancering
+preheader: Een snelle bonus wacht in je ruim
+from_id: 6
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>20 gratis spins op Book of Dead</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Goede wind brengt snelle beloningen. Stort <strong style="color:#ffa300">€20</strong> of meer, voer code <strong style="color:#ffa300">WELCOMEKQ1</strong> in en wij zetten <strong style="color:#ffa300">20 gratis spins</strong> op Book of Dead op je account.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Laat de rollen door heldere riffen van symbolen draaien, verzamel glinsterende munten en houd elke schat die je vindt. Deze snelle bonus blijft slechts 48 uur in de haven voordat de stroom hem wegvoert.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Zet je dek vast, koers naar de rollen en begin nu je reis naar nieuwe rijkdommen.</p></td>
+promocode_button_1: WELCOMEKQ1
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285032356_Email%2011_01KCZCNX1WVXYN671VPJRN0F97.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=11&utm_language=nl
+
+name: Email 12
+locale: Default
+subject: 🎉 200% Bonus + 100 Free Spins Await You
+preheader: Boost your Welcome Pack with extra spins on Sweet Bonanza
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>200% Bonus + 100 Free Spins</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Ready for a head start on your maiden voyage? Top up your account with <strong style="color:#ffa300">20 €</strong> or more, enter code <strong style="color:#ffa300">WELCOME3FX</strong>, and unlock a <strong style="color:#ffa300">200%</strong> bonus plus <strong style="color:#ffa300">100 Free Spins</strong> on the <strong style="color:#ffa300">Sweet Bonanza</strong>.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">This is the strongest wind in your Welcome Pack, built to push your balance forward and shower the deck with coins. Spin through bright reels, scoop up shimmering prizes, and keep whatever treasure you haul in. The current is steady now, but the offer drifts off in 48 hours.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hoist your sails and claim what’s waiting just off the bow.</p></td>
+promocode_button_1: WELCOME3FX
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284922726_Email%2012_01KCZCJHZWG5DZBW2X07QMQSZD.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=en
+
+name: Email 12
+locale: de-DE
+subject: 🎉 200% Bonus + 100 Freispiele warten auf dich
+preheader: Bring dein Willkommenspaket mit extra Spins auf Sweet Bonanza voran
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>200% Bonus + 100 Freispiele</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Bereit für einen Vorsprung auf deiner Jungfernfahrt? Lade dein Konto mit <strong style="color:#ffa300">20 €</strong> oder mehr auf, gib den Code <strong style="color:#ffa300">WELCOME3FX</strong> ein und schalte einen <strong style="color:#ffa300">200%</strong> Bonus plus <strong style="color:#ffa300">100 Freispiele</strong> auf <strong style="color:#ffa300">Sweet Bonanza</strong> frei.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Dies ist der stärkste Wind in deinem Willkommenspaket – er treibt dein Guthaben voran und überschüttet das Deck mit Münzen. Dreh über leuchtende Walzen, schnapp dir schimmernde Preise und behalte jeden Schatz, den du einsammelst. Die Strömung ist gerade ruhig, doch das Angebot treibt in 48 Stunden davon.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hisse die Segel und sichere dir, was direkt vor dem Bug wartet.</p></td>
+promocode_button_1: WELCOME3FX
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284963017_Email%2012_01KCZCKSAWDK0P8DQJ6TDMYMXW.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=de
+
+name: Email 12
+locale: fr-FR
+subject: 🎉 Bonus de 200 % + 100 tours gratuits vous attendent
+preheader: Boostez votre pack de bienvenue avec des tours supplémentaires sur Sweet Bonanza
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>200 % bonus + 100 tours gratuits</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Prêt à prendre de l'avance pour votre voyage inaugural ? Approvisionnez votre compte de <strong style="color:#ffa300">20 €</strong> ou plus, saisissez le code <strong style="color:#ffa300">WELCOME3FX</strong> et débloquez un bonus de <strong style="color:#ffa300">200 %</strong> et <strong style="color:#ffa300">100 tours gratuits</strong> sur <strong style="color:#ffa300">Sweet Bonanza</strong>.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">C'est le vent le plus puissant de votre pack de bienvenue - il propulse votre solde et couvre le pont de pièces. Faites tourner les rouleaux éclatants, ramassez des prix scintillants et gardez chaque trésor que vous récupérez. Le courant est stable pour l'instant, mais l'offre disparaît dans 48 heures.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hissez les voiles et réclamez ce qui vous attend juste devant l'étrave.</p></td>
+promocode_button_1: WELCOME3FX
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284992671_Email%2012_01KCZCMP9NBQJSZTQEHF8K8S7D.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=fr
+
+name: Email 12
+locale: nl-NL
+subject: 🎉 200% bonus + 100 gratis spins wachten op jou
+preheader: Boost je welkomstpakket met extra spins op Sweet Bonanza.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>200% bonus + 100 gratis spins</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Klaar voor een vliegende start op je maiden voyage? Stort <strong style="color:#ffa300">€20</strong> of meer, voer de code <strong style="color:#ffa300">WELCOME3FX</strong> in en ontgrendel een <strong style="color:#ffa300">200%</strong> bonus plus <strong style="color:#ffa300">100 gratis spins</strong> op <strong style="color:#ffa300">Sweet Bonanza</strong>.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Dit is de sterkste wind in je welkomstpakket - bedoeld om je saldo vooruit te stuwen en het dek te vullen met munten. Draai over heldere rollen, pak glinsterende prijzen en houd elke schat die je binnenhaalt.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">De stroom is nu kalm, maar het aanbod verdwijnt over 48 uur.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Hijs de zeilen en claim wat al voor de boeg ligt.</p></td>
+promocode_button_1: WELCOME3FX
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285033384_Email%2012_01KCZCNY21XA891FYJWS1WRM6N.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=12&utm_language=nl
+
+name: Email 13
+locale: Default
+subject: ⚡ Power Up: 250% Bonus + 70 Free Spins
+preheader: Add 70 spins to your Welcome Pack today.
+from_id: 5
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% Bonus + 70 Free Spins</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Your maiden voyage can sail farther with fresh wind in the sails. Deposit <strong style="color:#ffa300">20 €</strong> or more, enter code <strong style="color:#ffa300">WELCOMESD7</strong>, and unlock a <strong style="color:#ffa300">250%</strong> bonus plus <strong style="color:#ffa300">70 Free Spins</strong> on the <strong style="color:#ffa300">Reactoonz 2</strong> slot.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">This offer is the next waypoint in your Welcome Pack, designed to lift your balance and drop extra spins into your hold. Navigate bright reels, scoop glittering coins, and keep every prize you uncover. The sea is calm for now, but this chance drifts over the horizon in 48 hours.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Secure your deck and set a course for new treasure before the tide turns.</p></td>
+promocode_button_1: WELCOMESD7
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284923661_Email%2013_01KCZCJJX3W1SVXVEHZP5W0QTY.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=en
+
+name: Email 13
+locale: de-DE
+subject: ⚡ Power‑Boost: 250% Bonus + 70 Freispiele
+preheader: Ergänze dein Willkommenspaket heute mit 70 Spins.
+from_id: 5
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% Bonus + 70 Freispiele</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Deine Jungfernfahrt kann mit frischem Wind in den Segeln noch weiter gehen. Zahle <strong style="color:#ffa300">20 €</strong> oder mehr ein, gib den Code <strong style="color:#ffa300">WELCOMESD7</strong> ein und schalte einen <strong style="color:#ffa300">250%</strong> Bonus plus <strong style="color:#ffa300">70 Freispiele</strong> auf Reactoonz 2 frei.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Dieses Angebot ist der nächste Wegpunkt in deinem Willkommenspaket – es hebt dein Guthaben an und lädt zusätzliche Spins in deinen Laderaum. Navigiere über leuchtende Walzen, sammle glitzernde Münzen und behalte jeden Preis, den du findest. Das Meer ist derzeit ruhig, aber diese Chance verschwindet in 48 Stunden über den Horizont.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sichere dein Deck und setze Kurs auf neue Schätze, bevor die Flut sich wendet.</p></td>
+promocode_button_1: WELCOMESD7
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284963941_Email%2013_01KCZCKT7TW8WND3MH1ASFQXDZ.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=de
+
+name: Email 13
+locale: fr-FR
+subject: ⚡ Boostez votre jeu : bonus de 250 % + 70 tours gratuits
+preheader: Ajoutez dès aujourd’hui 70 tours à votre pack de bienvenue.
+from_id: 5
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250 % bonus + 70 tours gratuits</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Votre voyage inaugural peut aller plus loin avec du vent frais dans les voiles. Déposez <strong style="color:#ffa300">20 €</strong> ou plus, saisissez le code <strong style="color:#ffa300">WELCOMESD7</strong> et débloquez un bonus de <strong style="color:#ffa300">250 %</strong> ainsi que <strong style="color:#ffa300">70 tours gratuits</strong> sur Reactoonz 2.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Cette offre est la prochaine étape de votre pack de bienvenue – conçue pour booster votre solde et charger votre cale de tours supplémentaires. Naviguez entre les rouleaux lumineux, ramassez des pièces scintillantes et gardez chaque récompense trouvée. La mer est calme pour l’instant, mais cette chance disparaît dans 48 heures à l’horizon.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sécurisez votre pont et mettez le cap sur de nouveaux trésors avant que la marée ne tourne.</p></td>
+promocode_button_1: WELCOMESD7
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284993675_Email%2013_01KCZCMQ93EHRJ0RJQPEY7GVVK.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=fr
+
+name: Email 13
+locale: nl-NL
+subject: ⚡ Power-up: 250% bonus + 70 gratis spins
+preheader: Voeg vandaag nog 70 spins toe aan je welkomstpakket
+from_id: 5
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>250% bonus + 70 gratis spins</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Je maiden voyage kan verder reiken met een frisse wind in de zeilen. Stort <strong style="color:#ffa300">€20</strong> of meer, gebruik de code <strong style="color:#ffa300">WELCOMESD7</strong>, en ontgrendel een <strong style="color:#ffa300">250%</strong> bonus plus <strong style="color:#ffa300">70 gratis spins</strong> op Reactoonz 2.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Deze aanbieding is de volgende halte in je welkomstpakket – ontworpen om je saldo een boost te geven en extra spins in je ruim te laten landen. Navigeer over heldere rollen, verzamel fonkelende munten en houd elke prijs die je vindt. De zee is nu kalm, maar dit aanbod verdwijnt over 48 uur achter de horizon.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Zet je dek vast en vaar richting nieuwe schatten voordat het tij keert.</p></td>
+promocode_button_1: WELCOMESD7
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285034382_Email%2013_01KCZCNZ1694Y8BN4NEH6WKME9.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=13&utm_language=nl
+
+name: Email 15
+locale: Default
+subject: 🎆 Triple Your Treasure - 300% + 80 FS on Gates of Olympus
+preheader: Extra spins are standing by to launch your maiden voyage.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>300% + 80 FS on Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Your Welcome Pack is ready for its biggest lift yet. Make a <strong style="color:#ffa300">20 €</strong>+ deposit, enter code <strong style="color:#ffa300">WELCOMEJP6</strong>, and unlock a <strong style="color:#ffa300">300%</strong> bonus plus <strong style="color:#ffa300">80 Free Spins</strong> on the <strong style="color:#ffa300">Gates of Olympus</strong> slot.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">The boost triples your balance, while the spins give you extra chances to net shimmering prizes on every reel. This offer powers the very first leg of your journey and disappears in 48 hours when the tide carries it off.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Secure the deck, plot a course for <strong style="color:#ffa300">Gates of Olympus</strong>, and let fortune fill your hold. Your legend starts with one confident click below.</p></td>
+promocode_button_1: WELCOMEJP6
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=en
+button_text_2: PLAY NOW
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=en
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=en
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284925758_Email%2015_01KCZCJMYMDYCZQ1QBSS0RAPFS.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=en
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=en
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=en
+
+name: Email 15
+locale: de-DE
+subject: 🎆 Verdreifache deinen Schatz – 300% + 80 FS auf Gates of Olympus
+preheader: Extra-Spins stehen bereit, um deine Jungfernfahrt zu starten.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>300% + 80 Freispiele auf Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Dein Willkommenspaket ist bereit für seinen größten Schub. Zahle <strong style="color:#ffa300">20 €</strong> oder mehr ein, gib den Code <strong style="color:#ffa300">WELCOMEJP6</strong> ein und schalte einen <strong style="color:#ffa300">300%</strong> Bonus plus <strong style="color:#ffa300">80 Freispiele</strong> auf <strong style="color:#ffa300">Gates of Olympus</strong> frei.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Dieser Boost verdreifacht dein Guthaben, und die Spins geben dir zusätzliche Chancen, schimmernde Preise auf jeder Walze zu landen. Dieses Angebot treibt den allerersten Abschnitt deiner Reise an – und verschwindet in 48 Stunden, wenn die Flut es davonträgt.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sichere dein Deck, setze Kurs auf <strong style="color:#ffa300">Gates of Olympus</strong> und lass das Glück deinen Laderaum füllen. Deine Legende beginnt mit einem mutigen Klick unten.</p></td>
+promocode_button_1: WELCOMEJP6
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=de
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=de
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284966007_Email%2015_01KCZCKW8DHBB2361E8CQ4PDYK.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=de
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=de
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=de
+
+name: Email 15
+locale: fr-FR
+subject: 🎆 Triplez votre trésor – bonus de 300 % + 80 FS sur Gates of Olympus
+preheader: Des tours supplémentaires sont prêts à lancer votre voyage inaugural.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>300 % + 80 tours gratuits sur Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Votre pack de bienvenue est prêt pour son plus grand envol. Déposez <strong style="color:#ffa300">20 €</strong> ou plus, saisissez le code <strong style="color:#ffa300">WELCOMEJP6</strong>, et débloquez un bonus de <strong style="color:#ffa300">300 %</strong> ainsi que <strong style="color:#ffa300">80 tours gratuits</strong> sur <strong style="color:#ffa300">Gates of Olympus</strong>.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Ce boost triple votre solde, et les tours vous offrent des chances supplémentaires de décrocher des prix étincelants à chaque spin. Cette offre propulse le tout premier segment de votre voyage – et disparaît dans 48 heures, emportée par la marée.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sécurisez votre pont, tracez votre route vers <strong style="color:#ffa300">Gates of Olympus</strong>, et laissez la fortune remplir votre cale. Votre légende commence par un simple clic audacieux.</p></td>
+promocode_button_1: WELCOMEJP6
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=fr
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=fr
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766284995741_Email%2015_01KCZCMS9JDTDHJ4Q8NJGRDDDV.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=fr
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=fr
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=fr
+
+name: Email 15
+locale: nl-NL
+subject: 🎆 Verdriedubbel je schat – 300% + 80 FS op Gates of Olympus
+preheader: Extra spins staan klaar om je maiden voyage te lanceren.
+from_id: 7
+text_1: <td align="center" class="es-text-1723" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4></td>
+text_2: <td align="center" class="es-text-5210" style="padding:0;Margin:0"><h4 class="es-m-txt-c es-override-size es-text-mobile-size-18" style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>300% + 80 gratis spins op Gates of Olympus</strong></h4></td>
+text_3: <td align="center" class="es-text-5439" style="padding:0;Margin:0"><p class="es-override-size es-text-mobile-size-16" style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><strong>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!</strong></p></td>
+text_4: <td align="center" class="es-text-1280" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Je welkomstpakket staat klaar voor zijn grootste boost tot nu toe. Stort <strong style="color:#ffa300">€20</strong> of meer, gebruik de code <strong style="color:#ffa300">WELCOMEJP6</strong>, en ontgrendel een <strong style="color:#ffa300">300%</strong> bonus plus <strong style="color:#ffa300">80 gratis spins</strong> op <strong style="color:#ffa300">Gates of Olympus</strong>.</p></td>
+text_5: <td align="center" class="es-text-4543" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Deze boost verdrievoudigt je saldo, terwijl de spins je extra kansen geven om schitterende prijzen op elke rol binnen te halen. Dit aanbod geeft kracht aan het allereerste stuk van je reis – en verdwijnt over 48 uur wanneer het tij het meeneemt.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px"><br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:21.6px;letter-spacing:0;color:#FFFFFF;font-size:18px">Zet je dek vast, zet koers naar <strong style="color:#ffa300">Gates of Olympus</strong> en laat het fortuin je ruim vullen. Jouw legende begint met één gedurfde klik hieronder.</p></td>
+promocode_button_1: WELCOMEJP6
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=nl
+logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=nl
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766285036439_Email%2015_01KCZCP11FQ6T7VR6XXAS876NN.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=nl
+monkey_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808766531_monkey_01KH66TYYFXKY0AKFW6E5E28TA.png
+monkey_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=nl
+logo_botom_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1770808675362_logo_01KH66R5Y4HMZPT22DEQ88CPZK.png
+logo_botom_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=welcome&utm_source=email&utm_email=15&utm_language=nl
