@@ -58,6 +58,82 @@ def parse_file(filepath):
     return defaults
 
 
+KNOWN_GAMES = [
+    'Gates of Olympus 1000', 'Gates of Olympus',
+    'Sweet Bonanza 1000', 'Sweet Bonanza Xmas', 'Sweet Bonanza',
+    'Sugar Rush 1000', 'Sugar Rush',
+    'Big Bass Splash', 'Big Bass Bonanza', 'Big Bass',
+    'Book of Dead',
+    'Hand of Midas 2', 'Hand of Midas',
+    'Starlight Princess 1000', 'Starlight Princess',
+    'Wolf Gold',
+    'Fruit Party 2', 'Fruit Party',
+    'Razor Shark',
+    'Fire Joker',
+    'Starburst XXXtreme', 'Starburst',
+    'Legacy of Dead',
+    'Rise of Olympus',
+    'Reactoonz 2', 'Reactoonz',
+    'The Dog House Megaways', 'The Dog House',
+    'Buffalo King Megaways', 'Buffalo King',
+    'Eye of Horus',
+    'Wanted Dead or a Wild',
+    'Wild West Gold',
+    'Mustang Gold',
+    "Jammin' Jars 2", "Jammin' Jars",
+    'Gold Rush',
+    'Madame Destiny Megaways', 'Madame Destiny',
+    'Gems Bonanza',
+    'Power of Thor Megaways',
+    'Great Rhino Megaways', 'Great Rhino',
+    'Floating Dragon',
+    'Might of Ra',
+    'Book of Fallen',
+    'Lucky Fisherman',
+    'Shining Crown',
+    'Cleocatra',
+    'Candy Boom',
+    'Oink Oink Oink',
+    'Le Bandit',
+    'Zeus vs Hades',
+    'Wisdom of Athena',
+    'Golden Glyph 3', 'Golden Glyph',
+    'Thunder Screech',
+    'Sizzling Eggs',
+    'Queenie',
+    '5 Lions Megaways',
+    'Piranha Pays',
+]
+
+
+def extract_game(search_text):
+    """Extract game name from text using known game list + fallback patterns."""
+    # First try exact known game names (longest first to match "Sugar Rush 1000" before "Sugar Rush")
+    for g in KNOWN_GAMES:
+        if g.lower() in search_text.lower():
+            return g
+
+    # Fallback: "on/in/for [Capitalized Game Name]" after spins context
+    m = re.search(
+        r'(?:Spins?|FS)\s+(?:on|in|for|at)\s+([A-Z][A-Za-z0-9\s\'\-:]+?)(?:\s*[.!,;?\n]|\s+into|\s+on\s)',
+        search_text
+    )
+    if m:
+        return m.group(1).strip().rstrip('.')
+
+    # Subject: "XX FS on GameName"
+    m = re.search(
+        r'(?:FS|Free Spins?)\s+(?:on|in|for)\s+(.+?)$',
+        search_text.split('\n')[0], re.IGNORECASE
+    )
+    if m:
+        val = m.group(1).strip().rstrip('.').rstrip('!')
+        if len(val) < 50:
+            return val
+
+    return ''
+
+
 def extract_info(rec):
     """Extract bonus, promo code, game name from a record."""
     name = rec.get('name', '')
@@ -74,58 +150,40 @@ def extract_info(rec):
     # Promo code: prefer promocode_button_1, then search in texts
     promo = rec.get('promocode_button_1', '').strip()
     if not promo:
-        # Search for promo code patterns in text (usually ALL CAPS, 4+ chars)
-        promo_matches = re.findall(r'\b(?:code\s+|enter\s+|gib\s+|voer\s+.*?in\s+)(\b[A-Z][A-Z0-9]{3,}\b)', full_text, re.IGNORECASE)
+        promo_matches = re.findall(
+            r'\b(?:code\s+|enter\s+|gib\s+|voer\s+.*?in\s+)([A-Z][A-Z0-9]{3,})\b',
+            full_text, re.IGNORECASE
+        )
         if promo_matches:
             promo = promo_matches[0].upper()
 
-    # Game name extraction
-    game = ''
-    # Common patterns: "on [Game Name]", "in [Game Name]", "for [Game Name]"
-    game_patterns = [
-        r'(?:on|in|for|at)\s+((?:Gates of Olympus|Sweet Bonanza|Sugar Rush|Book of Dead|Big Bass|Hand of Midas|Starlight Princess|Wolf Gold|Fruit Party|John Hunter|Razor Shark|Fire Joker|Starburst|Gonzo.s Quest|Dead or Alive|Legacy of Dead|Rise of Olympus|Reactoonz|The Dog House|Tombstone|Buffalo King|Eye of Horus|Aztec Magic|Wanted Dead|Wild West Gold|Mustang Gold|Jammin.? Jars|Lucky Monk|Pirate Ship|Gold Rush|Madame Destiny|Gems Bonanza|Power of Thor|Great Rhino|Bigger Bass|Crystal Caverns|Habanero|Valley of the Gods|Floating Dragon|Might of Ra|Mental|Hot Pepper|Joker Bombs|Phoenix Forge|Book of Fallen|Wild Depths|Lucky Fisherman|Octobeer Fortunes|Buffalo Trail|Spirit of Adventure|Thunder Screech|Sizzling Eggs|Queenie|Wild Celebrity Bus|Golden Glyph|Gates of Gatot Kaca|Wisdom of Athena|Big Bass Splash|Sugar Supreme|Zeus vs Hades|Olympus Thunder|Sweet PowerNudge|Candy Village|The Great Stick-Up|5 Lions Megaways|Cleocatra|Gold Oasis|Piranha Pays)[^\.,;!?\n]*)',
-        r'(?:Free Spins?|FS)\s+(?:on|in|for|at)\s+([A-Z][A-Za-z0-9\s\':]+?)(?:\s*[.!,;]|\s+into|\s+on your|\s+slot)',
-        r'(?:on|in)\s+the\s+([A-Z][A-Za-z0-9\s\':]+?)\s+slot',
-    ]
-    
-    # Also look in subject line
+    # Game name
     search_text = subject + ' ' + full_text
-    
-    for pattern in game_patterns:
-        gm = re.search(pattern, search_text, re.IGNORECASE)
-        if gm:
-            game = gm.group(1).strip().rstrip('.')
-            break
-    
-    if not game:
-        # Try a more general pattern: "on [Capitalized Words]" after FS/Spins
-        gm = re.search(r'(?:Spins?|FS)\s+(?:on|in|for)\s+([A-Z][A-Za-z0-9\s\'\-:]+?)(?:\s*[.!,;?\n]|\s+into|\s+on\s)', search_text)
-        if gm:
-            game = gm.group(1).strip().rstrip('.')
-        else:
-            # Try subject: "XX FS on GameName" or "XX Free Spins on GameName"
-            gm = re.search(r'(?:FS|Free Spins?|Freispiele|tours gratuits|gratis spins)\s+(?:on|in|for|auf|op|pour)\s+(.+?)$', subject, re.IGNORECASE)
-            if gm:
-                game = gm.group(1).strip().rstrip('.')
+    game = extract_game(search_text)
 
     # Bonus extraction
     bonus = ''
     bonus_parts = []
 
-    # Free spins
-    fs_match = re.search(r'(\d+)\s*(?:Free Spins?|FS|Freispiele|tours gratuits|gratis spins)', search_text, re.IGNORECASE)
-    if fs_match:
-        bonus_parts.append(f"{fs_match.group(1)} FS")
-
-    # Percentage bonus (deposit match)
-    pct_match = re.search(r'(\d+)%\s*(?:deposit|bonus|match|Einzahlung|Bonus)', search_text, re.IGNORECASE)
-    if pct_match:
-        bonus_parts.insert(0, f"{pct_match.group(1)}%")
-
-    # Cashback
-    cb_match = re.search(r'(\d+)%\s*Cashback', search_text, re.IGNORECASE)
+    # Cash Back / Cashback
+    cb_match = re.search(r'(\d+)%\s*Cash\s*back', search_text, re.IGNORECASE)
     if cb_match:
         bonus_parts = [f"{cb_match.group(1)}% Cashback"]
+    else:
+        # Percentage bonus (deposit match) — look for patterns like "120%", "get 120%"
+        pct_match = re.search(
+            r'(?:get|grab|claim|deposit.*?|unlock|receive|revealed)?\s*(\d{2,3})%(?!\s*Cash)',
+            search_text, re.IGNORECASE
+        )
+        if pct_match:
+            pct_val = pct_match.group(1)
+            if int(pct_val) >= 50:  # likely a deposit bonus, not a small number
+                bonus_parts.append(f"{pct_val}%")
+
+        # Free spins
+        fs_match = re.search(r'(\d+)\s*(?:Free Spins?|FS|Freispiele|tours gratuits|gratis spins)', search_text, re.IGNORECASE)
+        if fs_match:
+            bonus_parts.append(f"{fs_match.group(1)} FS")
 
     # "up to" bonus amounts
     upto_match = re.search(r'(?:up to|bis zu|tot)\s*[€]?\s*(\d[\d,]*)', search_text, re.IGNORECASE)
@@ -135,14 +193,13 @@ def extract_info(rec):
         if upto_match and 'Cashback' not in bonus:
             bonus += f" (up to €{upto_match.group(1)})"
     else:
-        # No standard bonus found — create short description from subject
+        # No standard bonus — short description from subject
         desc = subject
-        # Remove emoji
-        desc = re.sub(r'[\U0001F300-\U0001FFFF]', '', desc).strip()
+        desc = re.sub(r'[\U0001F300-\U0001FFFF\u200D\u2600-\u26FF\u2700-\u27BF\uFE0F]', '', desc).strip()
         if desc:
             bonus = desc
         else:
-            bonus = preheader or "—"
+            bonus = preheader or '—'
 
     return {
         'name': name,
