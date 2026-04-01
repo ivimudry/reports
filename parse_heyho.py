@@ -113,13 +113,31 @@ def extract_game(search_text):
         if g.lower() in search_text.lower():
             return g
 
+    # Noise words that are definitely NOT game names
+    noise = {'ahoy', 'your', 'next', 'deposit', 'this', 'wild', 'the', 'a', 'an',
+             'into', 'account', 'second', 'third', 'first', 'brave', 'ready', 'launch',
+             'await', 'last', 'week', 'extra', 'credit', 'extends', 'play', 'clean',
+             'boost', 'thank', 'you', 'with'}
+
+    def _is_valid_game(val):
+        words = val.lower().split()
+        if len(words) == 0:
+            return False
+        if all(w in noise for w in words):
+            return False
+        if len(val) > 40:
+            return False
+        return True
+
     # Fallback: "on/in/for [Capitalized Game Name]" after spins context
     m = re.search(
         r'(?:Spins?|FS)\s+(?:on|in|for|at)\s+([A-Z][A-Za-z0-9\s\'\-:]+?)(?:\s*[.!,;?\n]|\s+into|\s+on\s)',
         search_text
     )
     if m:
-        return m.group(1).strip().rstrip('.')
+        val = m.group(1).strip().rstrip('.')
+        if _is_valid_game(val):
+            return val
 
     # Subject: "XX FS on GameName"
     m = re.search(
@@ -128,7 +146,7 @@ def extract_game(search_text):
     )
     if m:
         val = m.group(1).strip().rstrip('.').rstrip('!')
-        if len(val) < 50:
+        if _is_valid_game(val):
             return val
 
     return ''
