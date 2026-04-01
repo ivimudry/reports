@@ -9,13 +9,13 @@ text_3: <td align="center" class="es-text-7701" style="padding:0;Margin:0"><h3 c
 text_4: <td align="center" class="es-text-6051" style="padding:0;Margin:0"><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">How to claim: open the cashier, make your third deposit, enter code. We credit the bonus before your first hand.</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Top up your third time and lock 80%.</h2><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
 promocode_button_1: SKLL100
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_fbc3348768d7a0932f95b62d2cb498bb28b08849467c2a3964f7b4ce09f33987/images/heyho24.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -30,13 +30,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">So bekommst du den Bonus: Kasse öffnen, Dritte Einzahlung tätigen, Code eingeben</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Wir schreiben den Bonus gut, bevor dein erster Einsatz startet.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Zahle zum dritten Mal ein und sichere dir 80 %.</p></td>
 promocode_button_1: SKLL100
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_36144db079ed5dd3d730dff3c98c1968a98202d3791c5ab800a95bf2f2c900a2/images/heyho24.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -51,13 +51,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px"><strong>Comment en profiter : O</strong>uvrez la caisse, Effectuez votre troisième dépôt, Saisissez le code.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Nous créditons le bonus <strong>avant votre première mise</strong>.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Rechargez pour la troisième fois et activez <strong>80 %</strong>.</p></td>
 promocode_button_1: SKLL100
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_ef6048d230573207a0bc0415df3763400ff6c2bce7e50000ba69cd265f33fb95/images/heyho24.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -72,13 +72,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Zo claim je het: Open de kassa, Doe je derde storting, Voer de code in.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">We boeken de bonus bij vóór je eerste inzet.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Stort voor de derde keer en pak 80%.</p></td>
 promocode_button_1: SKLL100
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_89d2e0be33bbf36dc43ded97ddafd4f2f2f9e5a5fed9ec09f2b6e6c99129dd2e/images/heyho24.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -93,13 +93,13 @@ text_3: <td align="center" class="es-text-7701" style="padding:0;Margin:0"><h3 c
 text_4: <td align="center" class="es-text-6051" style="padding:0;Margin:0"><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Enter code at the cashier. Bonus credits on deposit - you act on the very next hand.</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Deposit for 85% - attack now.</h2><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
 promocode_button_1: BUCC105
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e7058f7d9be315097ec8f662869971e218930f86d9f973f28278d97972e39384/images/heyho25_JrP.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -114,13 +114,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Code an der Kasse eingeben. Der Bonus wird bei der Einzahlung gutgeschrieben – du spielst schon in der nächsten Hand.<br> Einzahlen für <strong>85 %</strong> – jetzt angreifen.</h3></td>
 promocode_button_1: BUCC105
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_6658f1b1efffb9dd1b2662e76b7dac592f35c435f9b2ea4345843049fc846df6/images/heyho25.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -135,13 +135,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Saisissez le code à la caisse. Le bonus est crédité sur le dépôt — vous jouez dès la main suivante.<br> Déposez pour <strong>85 %</strong> — attaquez maintenant.</h3></td>
 promocode_button_1: BUCC105
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_5a21822544293fdfee25898cf415e81a9775f48af7ce8421bfa2f21bc0c84371/images/heyho25.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -156,13 +156,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Voer de code in bij de kassa. De bonus wordt bij de storting bijgeschreven — je speelt al bij de volgende hand.<br> Stort voor <strong>85%</strong> — val nu aan.</h3></td>
 promocode_button_1: BUCC105
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_7b7896bd584108fbc433ec08931234b99d3d16105e52424199287053c31ad63b/images/heyho25.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -177,13 +177,13 @@ text_3: <td align="center" class="es-text-7701" style="padding:0;Margin:0"><h3 c
 text_4: <td align="center" class="es-text-6051" style="padding:0;Margin:0"><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Enter code at the cashier. Bonus credits on deposit - you act on the very next hand.</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Deposit for 90% - attack now.</h2><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
 promocode_button_1: KEEL110
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_51aba3148dad37b1d86b6f63474c267e52622f009b66c1735a21334f1fb8ad55/images/heyho9.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -198,13 +198,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Code an der Kasse eingeben. Der Bonus wird bei der Einzahlung gutgeschrieben – du spielst schon in der nächsten Hand.<br> Einzahlen für <strong>90 %</strong> – jetzt angreifen.</h3></td>
 promocode_button_1: KEEL110
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0268968cbac3ca277bd859335e44c8dbdd6dcf4f0feeabe3e02529d26565f3f8/images/heyho9.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -219,13 +219,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Saisissez le code à la caisse. Le bonus est crédité sur le dépôt — vous jouez dès la main suivante.<br> Déposez pour <strong>90 %</strong> — attaquez maintenant.</h3></td>
 promocode_button_1: KEEL110
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_ed3a7e0ef157ebe077cc5fe5b0ed22ee8fd3cca3677d0a0abd7ee4b71acc3c79/images/heyho9.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -240,13 +240,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-f
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Voer de code in bij de kassa. De bonus wordt bij de storting bijgeschreven — je speelt al bij de volgende hand.<br> Stort voor <strong>90%</strong> — val nu aan.</h3></td>
 promocode_button_1: KEEL110
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_4ee13e5cb8ba24eb063a9a196996e0fa52cab789b5fad50996e20fc0c169f6e9/images/heyho9.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -261,13 +261,13 @@ text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><h2 cla
 text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Bad streaks bite less when part of it comes back.&nbsp;</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Use code and keep control until the sea calms.</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Turn on 6% CB and stay afloat.</h2></td>
 promocode_button_1: CB6MAP
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a2158d7fca45acfbde8772beeefa2b039834a06b91498150805b34cbb1386dc3/images/heyho31.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -282,13 +282,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Schlechte Serien tun weniger weh, wenn ein Teil zurückkommt.<br> Code eingeben und die Kontrolle behalten, bis sich die See beruhigt.<br> <strong>6 %</strong> Cashback aktivieren und über Wasser bleiben.</h3></td>
 promocode_button_1: CB6MAP
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a52168dc228fc1b02bbf31e3181d63180bd96e612f7a630ed5ab5c264a7ef876/images/heyho31.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -303,13 +303,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Les mauvaises séries piquent moins quand une partie revient.<br> Saisissez le code et gardez le contrôle jusqu’à ce que la mer se calme.<br> Activez <strong>6 %</strong> de cashback et restez à flot.</h3></td>
 promocode_button_1: CB6MAP
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_99eaa83b4eb0e0bec3440ee9f3c8af63ecab599988e6b94a2abb4ef4227cee88/images/heyho31.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -324,13 +324,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Slechte reeksen doen minder pijn als er een deel terugkomt.<br> Voer de code in en houd de controle tot de zee kalmeert.<br> Zet <strong>6%</strong> cashback aan en blijf boven water.</h3></td>
 promocode_button_1: CB6MAP
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_63a3b1471d95348768726814690c1e0fabea3591eff8c0cbbe923594c6a5ed85/images/heyho31.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -345,13 +345,13 @@ text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><h2 cla
 text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Bad streaks bite less when part of it comes back.&nbsp;</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Use code and keep control until the sea calms.</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Turn on 9% CB and stay afloat.</h2></td>
 promocode_button_1: CB9REEF
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b89422e609c8787b4d96f624014a5da50d8cc049bb77448a632b99ed9efbbd93/images/heyho32.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -366,13 +366,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Schlechte Serien tun weniger weh, wenn ein Teil zurückkommt.<br> Code eingeben und die Kontrolle behalten, bis sich die See beruhigt.<br> <strong>9 %</strong> Cashback aktivieren und über Wasser bleiben.</h3></td>
 promocode_button_1: CB9REEF
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_5a26cb6653ca00ce5780f65a98c01485c76910a1e9885ee8ef1229aba921ecb4/images/heyho32.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -387,13 +387,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Les mauvaises séries piquent moins quand une partie revient.<br> Saisissez le code et gardez le contrôle jusqu’à ce que la mer se calme.<br> Activez <strong>9 %</strong> de cashback et restez à flot.</h3></td>
 promocode_button_1: CB9REEF
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2ffc5afa33164ed4a07f5efb7fd012846e2d589d1f9ac787a46bde1cbc14e51c/images/heyho32.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -408,13 +408,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Slechte reeksen doen minder pijn als er een deel terugkomt.<br> Voer de code in en houd de controle tot de zee kalmeert.<br> Zet <strong>9%</strong> cashback aan en blijf boven water.</h3></td>
 promocode_button_1: CB9REEF
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_4595f155d99f4a8abfbed67dcaa51222ad79026296d28d91e7b978e6a7c53b5f/images/heyho32.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -429,13 +429,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Apply code on deposit three - the bonus credits right away, so you act the moment you sit.</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Make deposit #3 and claim 90%.</h2></td>
 promocode_button_1: KEEL110
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_bcca346019e6cbdb2531b0601f75b5657cff838e3dba312c7c0951cc98c075ab/images/heyho9.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -450,13 +450,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px"><strong>So sicherst du dir den Bonus:</strong> Kasse öffnen → <strong>dritte Einzahlung</strong> tätigen → Code eingeben.<br> Der Bonus wird <strong>sofort</strong> gutgeschrieben – du kannst direkt in der nächsten Hand agieren.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Einzahlung Nr. 3 tätigen und <strong>90 %</strong> sichern.</p></td>
 promocode_button_1: KEEL110
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_90ee1fb0c9c640d5356b095fb5c186e9b4141ae5aacdfb9ac91019d1f6e1b024/images/heyho9.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -471,13 +471,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px"><strong>Comment en profiter :</strong> ouvrez la caisse → effectuez votre <strong>troisième dépôt</strong> → saisissez le code.<br> Le bonus est crédité <strong>immédiatement</strong>, vous jouez dès que vous vous installez.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Effectuez votre 3ᵉ dépôt et réclamez <strong>90 %</strong>.</p></td>
 promocode_button_1: KEEL110
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_cfd0ff5d6cf389af807389484f05b759b220ea787fad7f4ba076c5cde4d6e831/images/heyho9.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -492,13 +492,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px"><strong>Zo claim je het:</strong> kassa openen → <strong>derde storting</strong> doen → code invoeren.<br> De bonus wordt <strong>direct</strong> bijgeschreven, dus je kunt meteen spelen bij de volgende hand.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Stort voor de derde keer en pak <strong>90%</strong>.</p></td>
 promocode_button_1: KEEL110
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_db6e78c67478edd3c0fefff6be0b2000ee17249d14892223f6aa2d1f65f025f5/images/heyho9.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -513,13 +513,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Apply code on deposit three - the bonus credits right away, so you act the moment you sit.</h2><h2 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Make deposit #3 and claim 95%.</h2></td>
 promocode_button_1: FLAG115
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_ec73066ed0bc6405b82224fdb15d9f60931b58ecd7406a12c29e31bbc20484cc/images/heyho91.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -534,13 +534,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px"><strong>So sicherst du dir den Bonus:</strong> Kasse öffnen → <strong>dritte Einzahlung</strong> tätigen → Code eingeben.<br> Der Bonus wird <strong>sofort</strong> gutgeschrieben – du kannst direkt in der nächsten Hand agieren.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Einzahlung Nr. 3 tätigen und <strong>95 %</strong> sichern.</p></td>
 promocode_button_1: FLAG115
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a882ba6a8ef67d20857f2303b4adc53db4671fde94b45a7f5a22f33263caf365/images/heyho91.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -555,13 +555,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px"><strong>Comment en profiter :</strong> ouvrez la caisse → effectuez votre <strong>troisième dépôt</strong> → saisissez le code.<br> Le bonus est crédité <strong>immédiatement</strong>, vous jouez dès que vous vous installez.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Effectuez votre 3ᵉ dépôt et réclamez <strong>95 %</strong>.</p></td>
 promocode_button_1: FLAG115
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_6a46a5384d4881cf7beee9f43d729d0c37422120c604be5b91caeb6dfafd59db/images/heyho91.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -576,13 +576,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px"><strong>Zo claim je het:</strong> kassa openen → <strong>derde storting</strong> doen → code invoeren.<br> De bonus wordt <strong>direct</strong> bijgeschreven, dus je kunt meteen spelen bij de volgende hand.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Stort voor de derde keer en pak <strong>95%</strong>.</p></td>
 promocode_button_1: FLAG115
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_24cf70c82af030f6e9fc2ed7dccc6772ce4e7fe317546a6538470e573fa25a75/images/heyho91.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -597,13 +597,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">That payback gives you room for the next move - pace the table, wait for your spot, push when the tide turns.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Activate 9% CB with a deposit.</p></td>
 promocode_button_1: CB9REEF
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_5a89b437309738164fb2c3712d58eb60da74bedda171500622f450b6141edb68/images/heyho32.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -618,13 +618,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Diese Rückzahlung gibt dir Luft für den nächsten Zug – Tempo am Tisch halten, auf deine Chance warten, zuschlagen, wenn die Strömung dreht.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Aktiviere <strong>9 %</strong> Cashback mit einer Einzahlung.</p></td>
 promocode_button_1: CB9REEF
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_6eae1362a92ebadc452c1cddbba1eab7bc34431028ec5bbef831f975cd670544/images/heyho32.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -639,13 +639,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Ce retour vous donne de la marge pour le prochain coup : dosez le rythme, attendez votre fenêtre, poussez quand la marée change.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Activez <strong>9 %</strong> de cashback avec un dépôt.</p></td>
 promocode_button_1: CB9REEF
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0c1403ddf20a34695f78156b6d512b034d1e594ed14afc79d618b8989f0bbdc4/images/heyho32.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -660,13 +660,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die terugbetaling geeft je ruimte voor je volgende zet – houd het tempo aan tafel, wacht op je moment, duw door als het tij keert.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Activeer <strong>9%</strong> cashback met een storting.</p></td>
 promocode_button_1: CB9REEF
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2402ca2495d42f5f511907ac03969a13854d16b66d0b772f9f2a72e1cc3f53d1/images/heyho32.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -681,13 +681,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">That payback gives you room for the next move - pace the table, wait for your spot, push when the tide turns.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Activate 12% CB with a deposit.</p></td>
 promocode_button_1: CB12SEA
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9a24283887cd218346228c6f4d5590eab1e4d71882358b6e2feb640241206b48/images/heyho33.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -702,13 +702,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Diese Rückzahlung gibt dir Luft für den nächsten Zug – Tempo am Tisch halten, auf deine Chance warten, zuschlagen, wenn die Strömung dreht.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Aktiviere <strong>12 %</strong> Cashback mit einer Einzahlung.</p></td>
 promocode_button_1: CB12SEA
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_f4494988ac3cff53ea83f79396aed7c26c87cac5a175580cd80b1a464e64eb51/images/heyho33.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -723,13 +723,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Ce retour vous donne de la marge pour le prochain coup : dosez le rythme, attendez votre fenêtre, poussez quand la marée change.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Activez <strong>12 %</strong> de cashback avec un dépôt.</p></td>
 promocode_button_1: CB12SEA
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_c7c9b1ba6a30c9444f94a4eb4ff21a82d22e5cc60bfe28761fb9f25769eb8525/images/heyho33.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -744,13 +744,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die terugbetaling geeft je ruimte voor je volgende zet – houd het tempo aan tafel, wacht op je moment, duw door als het tij keert.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Activeer <strong>12%</strong> cashback met een storting.</p></td>
 promocode_button_1: CB12SEA
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_74af56bf81e6458095968fdc4e21be54804405a88894da4a8c4eae51734d0f1a/images/heyho33.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -765,13 +765,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="left" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Enter code at the cashier. Bonus applies on deposit, so you can act right away.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Lock 90% on deposit three.</p></td>
 promocode_button_1: KEEL110
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_68f609c74b8ff500955e0041e3add3ca67d268080797f86aeafc58f64a9bc922/images/heyho9.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -786,13 +786,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Code an der Kasse eingeben. Der Bonus gilt auf die Einzahlung – du kannst sofort handeln.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sichere dir <strong>90 %</strong> bei Einzahlung Nummer drei.</p></td>
 promocode_button_1: KEEL110
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b97c7f764ae79a7b3490921a3f7944e8a977998d08dcae50d2983ea5ecdf29f0/images/heyho9.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -807,13 +807,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Saisissez le code à la caisse. Le bonus s’applique sur le dépôt — vous pouvez agir immédiatement.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Verrouillez <strong>90 %</strong> sur votre troisième dépôt.</p></td>
 promocode_button_1: KEEL110
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_507b4d7ee28fa49c4e8f2311e79ccd4387df49f1bd5a6798041fa147d88ed44a/images/heyho9.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -828,13 +828,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Voer de code in bij de kassa. De bonus geldt op de storting, dus je kunt meteen handelen.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Pak <strong>90%</strong> bij storting nummer drie.</p></td>
 promocode_button_1: KEEL110
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0860a68eff550b6b91b29f96c94c6e305f167aa69269d95aad6952d93e4b69a4/images/heyho9.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -849,13 +849,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="left" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Enter code at the cashier. Bonus applies on deposit, so you can act right away.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Lock 95% on deposit three.</p></td>
 promocode_button_1: FLAG115
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_4471f69fa4dd5a237279bd4b6948410d481ad7b3aa02063a212f4fe0adfa4e56/images/heyho91.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -870,13 +870,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Code an der Kasse eingeben. Der Bonus gilt auf die Einzahlung – du kannst sofort handeln.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sichere dir <strong>95 %</strong> bei Einzahlung Nummer drei.</p></td>
 promocode_button_1: FLAG115
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_c540024735115ed339bcb693a0e63fec3859a55453d5ffb55da7e1a40c6c3389/images/heyho91.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -891,13 +891,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Saisissez le code à la caisse. Le bonus s’applique sur le dépôt — vous pouvez agir immédiatement.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Verrouillez <strong>95 %</strong> sur votre troisième dépôt.</p></td>
 promocode_button_1: FLAG115
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b9676e938dd83d076071e75c0b7b35136498e6406d3fa70b85f4f4ddd8de7809/images/heyho91.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -912,13 +912,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Voer de code in bij de kassa. De bonus geldt op de storting, dus je kunt meteen handelen.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Pak <strong>95%</strong> bij storting nummer drie.</p></td>
 promocode_button_1: FLAG115
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_5f35ab32f05537d06a0c207d5ca9feecedec13b599f94253d2d427604714cc5a/images/heyho91.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -933,13 +933,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Reload fast, pick your mark, and strike again without losing pace.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Top up now and trigger 9% back.</p></td>
 promocode_button_1: CB9REEF
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_f1f71884c046197cd2028c2555acf2a8958cc6e537151adc9eec88fdd3d0b102/images/heyho32.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -954,13 +954,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Schnell nachladen, Ziel wählen und erneut zuschlagen, ohne das Tempo zu verlieren.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Jetzt einzahlen und <strong>9 %</strong> Cashback aktivieren.</p></td>
 promocode_button_1: CB9REEF
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_6e902fccb13659eb8f3d16a43d8cfbb99d3e351ca80deb21e221069533e0fa05/images/heyho32.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -975,13 +975,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Rechargez vite, choisissez votre cible et repartez à l’assaut sans perdre le rythme.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Déposez maintenant et activez <strong>9 %</strong> de cashback.</p></td>
 promocode_button_1: CB9REEF
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_176c09a058b43858e52709f1ded8a2bbc07553f6e941036fb59b3d159e77b18b/images/heyho32.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -996,13 +996,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Snel herladen, kies je mark en sla opnieuw toe zonder tempo te verliezen.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Stort nu en activeer <strong>9%</strong> cashback.</p></td>
 promocode_button_1: CB9REEF
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dc3197c0441067c5b9813b97078e8bed2704793b0a578c4d89f81b576754ac7f/images/heyho32.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -1017,13 +1017,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Reload fast, pick your mark, and strike again without losing pace.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Top up now and trigger 12% back.</p></td>
 promocode_button_1: CB12SEA
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_5dd720eef48646035ee84915a35dd5f942f40f31c554dc8d6108ed2ce6c81920/images/heyho33.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -1038,13 +1038,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Schnell nachladen, Ziel wählen und erneut zuschlagen, ohne das Tempo zu verlieren.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Jetzt einzahlen und <strong>12 %</strong> Cashback aktivieren.</p></td>
 promocode_button_1: CB12SEA
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_bc7a02d7e37b02b49010469d9cd9c65291821e4e7906d5732dcb45798010318f/images/heyho33.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -1059,13 +1059,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Rechargez vite, choisissez votre cible et repartez à l’assaut sans perdre le rythme.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Déposez maintenant et activez <strong>12 %</strong> de cashback.</p></td>
 promocode_button_1: CB12SEA
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_96051a5bb140b1a1c76b6217a662f446774ff10cfef7be584b885415c09d2c59/images/heyho33.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -1080,13 +1080,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Snel herladen, kies je mark en sla opnieuw toe zonder tempo te verliezen.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Stort nu en activeer <strong>12%</strong> cashback.</p></td>
 promocode_button_1: CB12SEA
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9b07f093418ba656e764c77eb86916afb225540d10f4d577f6d5b11a226b5446/images/heyho33.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -1101,13 +1101,13 @@ text_3: <td align="center" class="es-text-5184" style="padding:0;Margin:0"><p st
 text_4: <td align="left" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Use code at the cashier and start with a boosted stack.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Come aboard and grab +95%.</p></td>
 promocode_button_1: FLAG115
 button_text_1: CLAIM BONUS
-button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=en
+button_href_1:
 button_text_2: Play now
-button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=en
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=en
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_8c12a26a2c37de844d5c6d7b15a06dfbb4d373d9c990bdb48dbd7675901bcf6e/images/heyho91.png
-banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=en
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -1122,13 +1122,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Code an der Kasse eingeben und mit größerem Chipstapel starten.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Komm an Bord und schnapp dir <strong>95 %</strong>.</p></td>
 promocode_button_1: FLAG115
 button_text_1: BONUS SICHERN
-button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=de
+button_href_1:
 button_text_2: JETZT SPIELEN
-button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=de
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=de
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_30139a9ecb55a2dced539a7c1cc61cf483c5c579c9324cd5331435ad9d376da1/images/heyho91.png
-banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=de
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -1143,13 +1143,13 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Saisissez le code à la caisse et commencez avec une pile de jetons plus fournie.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Montez à bord et profitez de <strong>95 %</strong>.</p></td>
 promocode_button_1: FLAG115
 button_text_1: RÉCLAMER LE BONUS
-button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=fr
+button_href_1:
 button_text_2: JOUER MAINTENANT
-button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=fr
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=fr
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2683221c33ba2ea722d3ec377b86778b795535caf5a0bb16317fa3b1b2402954/images/heyho91.png
-banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=fr
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
 
@@ -1164,12 +1164,12 @@ text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-lin
 text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Voer de code in bij de kassa en start met een grotere stapel fiches.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Kom aan boord en pak <strong>95%</strong>.</p></td>
 promocode_button_1: FLAG115
 button_text_1: BONUS CLAIMEN
-button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=nl
+button_href_1:
 button_text_2: SPEEL NU
-button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=nl
+button_href_2:
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
-logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=nl
+logo_href:
 banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_ba68f5e8fb09498abf6c135791c31fb6f8d8784a18facd53fe379aeded7fb982/images/heyho91.png
-banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition2&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=nl
+banner_href:
 monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
 bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
