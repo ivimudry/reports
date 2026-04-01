@@ -1,0 +1,559 @@
+name: Email 2.1
+locale: Default
+subject: 💎 140% + 50 Free Spins Await Your Voyage
+preheader: Bonus gold and 50 spins ready for you!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">140% + 50 Free Spins</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"> You’ve already made two deposits - now the next prize is within reach. Add <b>20 € or more</b>, enter code <b>GIVEMEMOREM7J</b>, and claim a <b>140% bonus plus 50 Free Spins</b> on <b>Sweet Bonanza</b>.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra credit gives you more shots, and the spins could open the way to serious wins.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">You’ve got <b>48 hours</b> - make your move before the tide turns.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+promocode_button_1: GIVEMEMOREM7J
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a9e4fe5b14d73c23de84fc0e66d7901e9a69dc220aa46a05509d8eb87accb9af/images/heyho6.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.1
+locale: de-DE
+subject: 💎 140 % + 50 Freispiele warten auf deine Reise
+preheader: Bonusgold und 50 Freispiele sind bereit für dich!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">140 % + 50 Freispiele</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Du hast bereits zwei Einzahlungen gemacht – jetzt ist der nächste Preis in Reichweite. Zahle <b>20 € oder mehr ein</b>, gib den Code <b>GIVEMEMOREM7J</b> ein und sichere dir <b>140 % Bonus plus 50 Freispiele</b> auf <b>Sweet Bonanza</b>.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Zusätzliches Guthaben bedeutet mehr Chancen, und die Spins könnten den Weg zu großen Gewinnen öffnen.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Du hast <b>48 Stunden</b> – nutze die Gelegenheit, bevor sie vergeht.<br></h3></td>
+promocode_button_1: GIVEMEMOREM7J
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_13a4cb0c29566566f9280c770de72ec0d3afa6aba2a7ea50ee2ba087c50a72ef/images/heyho6.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.1
+locale: fr-FR
+subject: 💎 140 % + 50 Free Spins vous attendent pour le voyage
+preheader: De l’or bonus et 50 tours gratuits rien que pour vous !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">140 % + 50 Free Spins</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Vous avez déjà effectué deux dépôts – le prochain gain est à portée de main. Déposez <b>20 € ou plus</b>, entrez le code <b>GIVEMEMOREM7J</b> et recevez un bonus de <b>140 % plus 50 tours</b> gratuits sur <b>Sweet Bonanza</b>.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Plus de crédit, c’est plus de chances, et les spins peuvent ouvrir la voie à de gros gains.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Vous avez <b>48 heures</b> – profitez-en avant que la marée ne tourne.<br></h3></td>
+promocode_button_1: GIVEMEMOREM7J
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0dbf32731e13783e90513e2fdcb7d253460ce58934c0249d44ea3af007747b28/images/heyho6.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.1
+locale: nl-NL
+subject: 💎 140% + 50 Free Spins wachten op jouw volgende reis
+preheader: Bonusgoud en 50 spins liggen klaar voor je!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">140% + 50 Gratis Spins</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Je hebt al twee stortingen gedaan – nu is de volgende prijs binnen handbereik. Stort <b>20 € of meer</b>, voer de code <b>GIVEMEMOREM7J</b> in en ontvang <b>140 % bonus plus 50 gratis spins</b> op <b>Sweet Bonanza</b>.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra saldo betekent meer kansen, en de spins kunnen de weg openen naar grote winsten.<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify"><br>Je hebt <b>48 uur</b> – pak het voordat het tij keert.<br></h3></td>
+promocode_button_1: GIVEMEMOREM7J
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9df8f41cf87fa25af803178497277c30cebb9a24f5d8c426fab90600bad1716c/images/heyho6.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_2_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.1
+locale: Default
+subject: 🍬 Sweeten Your Loot – 100% + 40 Free Spins
+preheader: Sugar Rush 1000 is calling - grab your spins
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">100% + 40 FS on next deposit!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Make your next move sweet - deposit 20 €+, enter code <strong>GIVEMEMORED4Y</strong>, and get a 100% bonus plus <strong>40 Free Spins on Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">More balance for bigger bets. Extra spins for more chances at candy‑coated jackpots. Offer ends soon - don’t miss out.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+promocode_button_1: GIVEMEMORED4Y
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a9e4fe5b14d73c23de84fc0e66d7901e9a69dc220aa46a05509d8eb87accb9af/images/heyho8_l7v.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.1
+locale: de-DE
+subject: 🍬 Versüße deinen Gewinn – 100 % + 40 Freispiele
+preheader: Sugar Rush 1000 ruft – hol dir deine Spins!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">100% + 40 FS auf die nächste Einzahlung!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Mach deinen nächsten Zug süß – zahle 20 € oder mehr ein, gib den Code <strong>GIVEMEMOREWT6</strong> ein und erhalte <strong>100 % Bonus plus 40 Freispiele auf Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Mehr Guthaben für größere Einsätze. Extra Spins für mehr Chancen auf zuckersüße Jackpots. Angebot endet bald – verpasse es nicht.</h3></td>
+promocode_button_1: GIVEMEMOREWT6
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_13a4cb0c29566566f9280c770de72ec0d3afa6aba2a7ea50ee2ba087c50a72ef/images/heyho8.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.1
+locale: fr-FR
+subject: 🍬 Adoucissez vos gains – 100 % + 40 tours gratuits
+preheader: Sugar Rush 1000 vous appelle – prenez vos spins !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">100% + 40 FS sur ton prochain dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Rendez votre prochain coup encore plus sucré – déposez 20 € ou plus, entrez le code <strong>GIVEMEMOREWT6</strong> et recevez <strong>100 % de bonus plus 40 tours gratuits sur Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Plus de solde pour des mises plus importantes. Des tours en plus pour plus de jackpots sucrés. L’offre se termine bientôt – ne la manquez pas.</h3></td>
+promocode_button_1: GIVEMEMOREWT6
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0dbf32731e13783e90513e2fdcb7d253460ce58934c0249d44ea3af007747b28/images/heyho8.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.1
+locale: nl-NL
+subject: 🍬 Maak je winst zoet – 100 % + 40 gratis spins
+preheader: Sugar Rush 1000 roept – pak je spins
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">100% + 40 FS op je volgende storting!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Maak je volgende zet zoet – stort 20 € of meer, voer de code <strong>GIVEMEMOREWT6</strong> in en krijg<strong> 100 % bonus plus 40 gratis spins op Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Meer saldo voor grotere inzetten. Extra spins voor meer kans op zoete jackpots. Aanbod eindigt binnenkort – mis het niet.</h3></td>
+promocode_button_1: GIVEMEMOREWT6
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9df8f41cf87fa25af803178497277c30cebb9a24f5d8c426fab90600bad1716c/images/heyho8.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.2
+locale: Default
+subject: 🍬 Sweeten Your Loot – 100% + 60 Free Spins
+preheader: Sugar Rush 1000 is calling - grab your spins
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">100% + 60 FS on next deposit!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Make your next move sweet - deposit 20 €+, enter code <strong>GIVEMEMORE93K</strong>, and get a 100% bonus plus <strong>60 Free Spins on Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">More balance for bigger bets. Extra spins for more chances at candy‑coated jackpots. Offer ends soon - don’t miss out.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+promocode_button_1: GIVEMEMORE93K
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a9e4fe5b14d73c23de84fc0e66d7901e9a69dc220aa46a05509d8eb87accb9af/images/heyho2.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.2
+locale: de-DE
+subject: 🍬 Versüße deinen Gewinn – 100 % + 60 Freispiele
+preheader: Sugar Rush 1000 ruft – hol dir deine Spins!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">100% + 60 FS auf die nächste Einzahlung!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Mach deinen nächsten Zug süß – zahle 20 € oder mehr ein, gib den Code <strong>GIVEMEMORE93K</strong> ein und erhalte <strong>100 % Bonus plus 60 Freispiele auf Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Mehr Guthaben für größere Einsätze. Extra Spins für mehr Chancen auf zuckersüße Jackpots. Angebot endet bald – verpasse es nicht.</h3></td>
+promocode_button_1: GIVEMEMORE93K
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_13a4cb0c29566566f9280c770de72ec0d3afa6aba2a7ea50ee2ba087c50a72ef/images/heyho2.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.2
+locale: fr-FR
+subject: 🍬 Adoucissez vos gains – 100 % + 60 tours gratuits
+preheader: Sugar Rush 1000 vous appelle – prenez vos spins !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">100% + 60 FS sur ton prochain dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Rendez votre prochain coup encore plus sucré – déposez 20 € ou plus, entrez le code <strong>GIVEMEMORE93K</strong> et recevez <strong>100 % de bonus plus 60 tours gratuits sur Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Plus de solde pour des mises plus importantes. Des tours en plus pour plus de jackpots sucrés. L’offre se termine bientôt – ne la manquez pas.</h3></td>
+promocode_button_1: GIVEMEMORE93K
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0dbf32731e13783e90513e2fdcb7d253460ce58934c0249d44ea3af007747b28/images/heyho2.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.2
+locale: nl-NL
+subject: 🍬 Maak je winst zoet – 100 % + 40 gratis spins
+preheader: Sugar Rush 1000 roept – pak je spins
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">100% + 60 FS op je volgende storting!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Maak je volgende zet zoet – stort 20 € of meer, voer de code <strong>GIVEMEMORE93K</strong> in en krijg<strong> 100 % bonus plus 60 gratis spins op Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Meer saldo voor grotere inzetten. Extra spins voor meer kans op zoete jackpots. Aanbod eindigt binnenkort – mis het niet.</h3></td>
+promocode_button_1: GIVEMEMORE93K
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9df8f41cf87fa25af803178497277c30cebb9a24f5d8c426fab90600bad1716c/images/heyho2.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.3
+locale: Default
+subject: 🍬 Sweeten Your Loot – 120% + 70 Free Spins
+preheader: Sugar Rush 1000 is calling - grab your spins
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">120% + 70 FS on next deposit!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Make your next move sweet - deposit 20 €+, enter code <strong>GIVEMEMOREWT6</strong>, and get a 120% bonus plus <strong>70 Free Spins on Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">More balance for bigger bets. Extra spins for more chances at candy‑coated jackpots. Offer ends soon - don’t miss out.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+promocode_button_1: GIVEMEMOREWT6
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a9e4fe5b14d73c23de84fc0e66d7901e9a69dc220aa46a05509d8eb87accb9af/images/heyho3.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.3
+locale: de-DE
+subject: 🍬 Versüße deinen Gewinn – 120 % + 70 Freispiele
+preheader: Sugar Rush 1000 ruft – hol dir deine Spins!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">120% + 70 FS auf die nächste Einzahlung!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Mach deinen nächsten Zug süß – zahle 20 € oder mehr ein, gib den Code <strong>GIVEMEMOREWT6</strong> ein und erhalte <strong>120 % Bonus plus 70 Freispiele auf Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Mehr Guthaben für größere Einsätze. Extra Spins für mehr Chancen auf zuckersüße Jackpots. Angebot endet bald – verpasse es nicht.</h3></td>
+promocode_button_1: GIVEMEMOREWT6
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_13a4cb0c29566566f9280c770de72ec0d3afa6aba2a7ea50ee2ba087c50a72ef/images/heyho3.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.3
+locale: fr-FR
+subject: 🍬 Adoucissez vos gains – 120 % + 70 tours gratuits
+preheader: Sugar Rush 1000 vous appelle – prenez vos spins !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">120% + 70 FS sur ton prochain dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Rendez votre prochain coup encore plus sucré – déposez 20 € ou plus, entrez le code <strong>GIVEMEMOREWT6</strong> et recevez <strong>120 % de bonus plus 70 tours gratuits sur Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Plus de solde pour des mises plus importantes. Des tours en plus pour plus de jackpots sucrés. L’offre se termine bientôt – ne la manquez pas.</h3></td>
+promocode_button_1: GIVEMEMOREWT6
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0dbf32731e13783e90513e2fdcb7d253460ce58934c0249d44ea3af007747b28/images/heyho3.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.3
+locale: nl-NL
+subject: 🍬 Maak je winst zoet – 120 % + 70 gratis spins
+preheader: Sugar Rush 1000 roept – pak je spins
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">120% + 70 FS op je volgende storting!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Maak je volgende zet zoet – stort 20 € of meer, voer de code <strong>GIVEMEMOREWT6</strong> in en krijg<strong> 120 % bonus plus 70 gratis spins op Sugar Rush 1000.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Meer saldo voor grotere inzetten. Extra spins voor meer kans op zoete jackpots. Aanbod eindigt binnenkort – mis het niet.</h3></td>
+promocode_button_1: GIVEMEMOREWT6
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9df8f41cf87fa25af803178497277c30cebb9a24f5d8c426fab90600bad1716c/images/heyho3.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_6_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.1
+locale: Default
+subject: 🔮 Spin Ancient Riches – 150% + 40 FS
+preheader: Book of Dead opens only for bold players
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150% + 40 Free Spins on your next deposit</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Two deposits in and still chasing the win? Top up, enter code <strong>GIVEMEMORET2S</strong>, and take a <strong>150% bonus plus 40 Free Spins</strong> on Book of Dead</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra credit extends your play, while the spins can reveal hidden treasures. You’ve got 48 hours - start spinning today.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+promocode_button_1: GIVEMEMORET2S
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a9e4fe5b14d73c23de84fc0e66d7901e9a69dc220aa46a05509d8eb87accb9af/images/heyho13_LkC.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.1
+locale: de-DE
+subject: 🔮 Drehe uralte Reichtümer – 150 % + 40 Freispiele
+preheader: Book of Dead öffnet sich nur für mutige Spieler
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % + 40 Freispiele</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Zwei Einzahlungen und immer noch auf der Jagd? Lade dein Konto auf, gib den Code <strong>GIVEMEMORET2S</strong> ein und erhalte <strong>150 % Bonus plus 40 Freispiele auf Book of Dead.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra Guthaben verlängert dein Spiel, während die Spins verborgene Schätze enthüllen können. Du hast 48 Stunden – starte noch heute.</h3></td>
+promocode_button_1: GIVEMEMORET2S
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_13a4cb0c29566566f9280c770de72ec0d3afa6aba2a7ea50ee2ba087c50a72ef/images/heyho13.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.1
+locale: fr-FR
+subject: 🔮 Faites tourner les richesses anciennes – 150 % + 40 tours gratuits
+preheader: Book of Dead ne s’ouvre qu’aux joueurs audacieux
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % + 40 tours gratuits</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Deux dépôts déjà et toujours en quête de victoire ? Rechargez, entrez le code <strong>GIVEMEMORET2S</strong> et recevez un bonus de <strong>150 % plus 40 tours gratuits sur Book of Dead.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Du crédit supplémentaire pour prolonger le jeu, et des spins qui peuvent révéler des trésors cachés. Vous avez 48 heures – commencez à jouer dès aujourd’hui.</h3></td>
+promocode_button_1: GIVEMEMORET2S
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0dbf32731e13783e90513e2fdcb7d253460ce58934c0249d44ea3af007747b28/images/heyho13.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.1
+locale: nl-NL
+subject: 🔮 Draai aan oude rijkdommen – 150 % + 40 gratis spins
+preheader: Book of Dead opent alleen voor moedige spelers
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">150 % + 40 gratis spins</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Twee stortingen gedaan en nog steeds op jacht naar winst? Laad je account op, voer de code <strong>GIVEMEMORET2S</strong> in en ontvang <strong>150 % bonus plus 40 gratis spins op Book of Dead.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra saldo verlengt je speeltijd, terwijl de spins verborgen schatten kunnen onthullen. Je hebt 48 uur – begin vandaag nog.</h3></td>
+promocode_button_1: GIVEMEMORET2S
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9df8f41cf87fa25af803178497277c30cebb9a24f5d8c426fab90600bad1716c/images/heyho13.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.2
+locale: Default
+subject: 🔮 Spin Ancient Riches - 160% + 30 FS
+preheader: Book of Dead opens only for bold players
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">160% + 30 Free Spins on your next dep</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Two deposits in and still chasing the win? Top up, enter code <strong>RUSH30</strong>, and take a <strong>160% bonus plus 30 Free Spins</strong> on Book of Dead</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra credit extends your play, while the spins can reveal hidden treasures. You’ve got 48 hours - start spinning today.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+promocode_button_1: RUSH30
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a9e4fe5b14d73c23de84fc0e66d7901e9a69dc220aa46a05509d8eb87accb9af/images/heyho15.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.2
+locale: de-DE
+subject: 🔮 Drehe uralte Reichtümer - 160 % + 30 Freispiele
+preheader: Book of Dead öffnet sich nur für mutige Spieler
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">160 % + 30 Freispiele</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Zwei Einzahlungen und immer noch auf der Jagd? Lade dein Konto auf, gib den Code <strong>RUSH30</strong> ein und erhalte <strong>160 % Bonus plus 30 Freispiele auf Book of Dead.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra Guthaben verlängert dein Spiel, während die Spins verborgene Schätze enthüllen können. Du hast 48 Stunden – starte noch heute.</h3></td>
+promocode_button_1: RUSH30
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_13a4cb0c29566566f9280c770de72ec0d3afa6aba2a7ea50ee2ba087c50a72ef/images/heyho15.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.2
+locale: fr-FR
+subject: 🔮 Faites tourner les richesses anciennes - 160 % + 30 tours gratuits
+preheader: Book of Dead ne s’ouvre qu’aux joueurs audacieux
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">160 % + 30 tours gratuits</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Deux dépôts déjà et toujours en quête de victoire ? Rechargez, entrez le code <strong>RUSH30</strong> et recevez un bonus de <strong>160 % plus 30 tours gratuits sur Book of Dead.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Du crédit supplémentaire pour prolonger le jeu, et des spins qui peuvent révéler des trésors cachés. Vous avez 48 heures – commencez à jouer dès aujourd’hui.</h3></td>
+promocode_button_1: RUSH30
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0dbf32731e13783e90513e2fdcb7d253460ce58934c0249d44ea3af007747b28/images/heyho15.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.2
+locale: nl-NL
+subject: 🔮 Draai aan oude rijkdommen - 160 % + 30 gratis spins
+preheader: Book of Dead opent alleen voor moedige spelers
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">160 % + 30 gratis spins</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Twee stortingen gedaan en nog steeds op jacht naar winst? Laad je account op, voer de code <strong>RUSH30</strong> in en ontvang <strong>160 % bonus plus 30 gratis spins op Book of Dead.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra saldo verlengt je speeltijd, terwijl de spins verborgen schatten kunnen onthullen. Je hebt 48 uur – begin vandaag nog.</h3></td>
+promocode_button_1: RUSH30
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9df8f41cf87fa25af803178497277c30cebb9a24f5d8c426fab90600bad1716c/images/heyho15.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.3
+locale: Default
+subject: 🔮 Spin Ancient Riches - 180% + 30 FS
+preheader: Book of Dead opens only for bold players
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">180% + 30 Free Spins on your next dep</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Two deposits in and still chasing the win? Top up, enter code <strong>BOOK30</strong>, and take a <strong>180% bonus plus 30 Free Spins</strong> on Book of Dead</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra credit extends your play, while the spins can reveal hidden treasures. You’ve got 48 hours - start spinning today.</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify;display:none"><br></h3></td>
+promocode_button_1: BOOK30
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a9e4fe5b14d73c23de84fc0e66d7901e9a69dc220aa46a05509d8eb87accb9af/images/heyho17.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.3
+locale: de-DE
+subject: 🔮 Drehe uralte Reichtümer - 180 % + 30 Freispiele
+preheader: Book of Dead öffnet sich nur für mutige Spieler
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">180 % + 30 Freispiele</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Zwei Einzahlungen und immer noch auf der Jagd? Lade dein Konto auf, gib den Code <strong>BOOK30</strong> ein und erhalte <strong>180 % Bonus plus 30 Freispiele auf Book of Dead.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra Guthaben verlängert dein Spiel, während die Spins verborgene Schätze enthüllen können. Du hast 48 Stunden – starte noch heute.</h3></td>
+promocode_button_1: BOOK30
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_13a4cb0c29566566f9280c770de72ec0d3afa6aba2a7ea50ee2ba087c50a72ef/images/heyho17.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.3
+locale: fr-FR
+subject: 🔮 Faites tourner les richesses anciennes - 180 % + 30 tours gratuits
+preheader: Book of Dead ne s’ouvre qu’aux joueurs audacieux
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">180 % + 30 tours gratuits</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Deux dépôts déjà et toujours en quête de victoire ? Rechargez, entrez le code <strong>BOOK30</strong> et recevez un bonus de <strong>160 % plus 30 tours gratuits sur Book of Dead.</strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Du crédit supplémentaire pour prolonger le jeu, et des spins qui peuvent révéler des trésors cachés. Vous avez 48 heures – commencez à jouer dès aujourd’hui.</h3></td>
+promocode_button_1: BOOK30
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_0dbf32731e13783e90513e2fdcb7d253460ce58934c0249d44ea3af007747b28/images/heyho17.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.3
+locale: nl-NL
+subject: 🔮 Draai aan oude rijkdommen - 180 % + 30 gratis spins
+preheader: Book of Dead opent alleen voor moedige spelers
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#f0ffff"><strong style="color:#EDA201">180 % + 30 gratis spins</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Twee stortingen gedaan en nog steeds op jacht naar winst? Laad je account op, voer de code <strong>BOOK30</strong> in en ontvang <strong>180 % bonus plus 30 gratis spins</strong> op Book of Dead.<strong></strong></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:justify">Extra saldo verlengt je speeltijd, terwijl de spins verborgen schatten kunnen onthullen. Je hebt 48 uur – begin vandaag nog.</h3></td>
+promocode_button_1: BOOK30
+button_text_1: NU STORTEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_107983d29bc2ddb3d2622eb924f9939f4a5d08d777acd02d7eb1e6f7840af9ff/images/heyho17.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_source=customerio&utm_medium=email&utm_campaign=nutrition2_8_nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
