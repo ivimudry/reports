@@ -2,70 +2,70 @@ name: In-App Message 1.1
 locale: Default
 text_1: <td>⭐️ Get 150% bonus ⭐️</td>
 text_2: <td>On your first deposit</td>
-button_href_1: https://heyhocasino.com/en/wallet/deposit
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=1#modal=Wallet
 button_text_1: CLAIM BONUS
-image_1_href: https://heyhocasino.com/en/wallet/deposit
+image_1_href: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=1#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1765996451927_heyho29_01KCPSEYH5D37B8D186HD6RCFY.png
 
 name: In-App Message 1.1
 locale: de-DE
 text_1: <td>⭐️ Holen Sie sich 150 % Bonus ⭐️</td>
 text_2: <td>Auf Ihre erste Einzahlung</td>
-button_href_1: https://heyhocasino.com/de/wallet/deposit
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=1#modal=Wallet
 button_text_1: BONUS AKTIVIEREN
-image_1_href: https://heyhocasino.com/de/wallet/deposit
+image_1_href: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=1#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766264562794_INAPP_NUTR_2_01KCYS4RR1XVAXFGFVDDQA21NJ.png
 
 name: In-App Message 1.1
 locale: fr-FR
 text_1: <td>⭐️ Obtenez 150% de bonus ⭐️</td>
 text_2: <td>Sur votre premier dépôt</td>
-button_href_1: https://heyhocasino.com/en/wallet/deposit
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=1#modal=Wallet
 button_text_1: ACTIVER LE BONUS
-image_1_href: https://heyhocasino.com/en/wallet/deposit
+image_1_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=1#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766264563745_INAPP_NUTR_2_1_01KCYS4SP4X3RBTRGXG2Q4ETZQ.png
 
 name: In-App Message 1.1
 locale: nl-NL
 text_1: <td>⭐️ Krijg 150% bonus ⭐️</td>
 text_2: <td>Op je eerste storting</td>
-button_href_1: https://heyhocasino.com/en/wallet/deposit
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=1#modal=Wallet
 button_text_1: BONUS ACTIVEREN
-image_1_href: https://heyhocasino.com/en/wallet/deposit
+image_1_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=1#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766264599936_INAPP_NUTR_2_2_01KCYS5X0RVTZQS0VRFDE775M2.png
 
 name: In-App Message 3.1
 locale: Default
 text_1: <td>🔥 Get 150% bonus 🔥</td>
 text_2: <td>On your first deposit</td>
-button_href_1: https://heyhocasino.com/en/wallet/deposit
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=3#modal=Wallet
 button_text_1: CLAIM BONUS
-image_1_href: https://heyhocasino.com/en/wallet/deposit
+image_1_href: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=3#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766266008109_2_01KCYTGW67ZXPDRXBP4DH7A2FD.png
 
 name: In-App Message 3.1
 locale: de-DE
 text_1: <td>🔥 150 % Bonus erhalten 🔥</td>
 text_2: <td>Auf Ihre erste Einzahlung</td>
-button_href_1: https://heyhocasino.com/de/wallet/deposit
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=3#modal=Wallet
 button_text_1: BONUS AKTIVIEREN
-image_1_href: https://heyhocasino.com/de/wallet/deposit
+image_1_href: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=3#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766266009015_3_01KCYTGX2FK7EVMC71C27H6GT5.png
 
 name: In-App Message 3.1
 locale: fr-FR
 text_1: <td>🔥 Obtenez 150 % de bonus 🔥</td>
 text_2: <td>Sur votre premier dépôt</td>
-button_href_1: https://heyhocasino.com/fr/wallet/deposit
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=3#modal=Wallet
 button_text_1: ACTIVER LE BONUS
-image_1_href: https://heyhocasino.com/fr/wallet/deposit
+image_1_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=3#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308606437_Email%203.1_01KD035AVGCHC3491TJFNTZ0WF.png
 
 name: In-App Message 3.1
 locale: nl-NL
 text_1: <td>🔥 Krijg 150% bonus 🔥</td>
 text_2: <td>Op uw eerste storting</td>
-button_href_1: https://heyhocasino.com/nl/wallet/deposit
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=3#modal=Wallet
 button_text_1: BONUS ACTIVEREN
-image_1_href: https://heyhocasino.com/nl/wallet/deposit
+image_1_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition2&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=3#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766266010654_5_01KCYTGYNW6QEAECK1Z1STCVVN.png
