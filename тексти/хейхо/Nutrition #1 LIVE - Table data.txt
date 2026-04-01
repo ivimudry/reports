@@ -1,0 +1,1175 @@
+name: Email 1.1
+locale: Default
+subject: 🏴‍☠️ Two voices, one treasure - 100% on next dep
+preheader: Pick your route and double your gold!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>100% bonus on deposit</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center">The map shows two paths, and both look hot. ⛵</h3><p style="Margin:0;mso-line-height-rule:exactly;font-family:Inter, sans-serif;line-height:27px;letter-spacing:0;color:#ffffff;font-size:18px;text-align:center">Pick any course - your next deposit at HeyHo doubles to 100%.&nbsp;</p><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center">More fuel, more games, more chances to strike. 🧭</h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center">Load your balance and play!<br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
+promocode_button_1: CREW120
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2f0d01bd9c735c25ba37950a971b2177f8c4cd09b7f633b48c2c238e073a0665/images/100.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 1.1
+locale: de-DE
+subject: 🏴‍☠️ Zwei Routen, ein Schatz – 100 % auf deine nächste Einzahlung.
+preheader: Wähle deinen Kurs und verdopple dein Gold!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>100 % Bonus auf deine Einzahlung! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Die Karte zeigt zwei Routen — beide sehen vielversprechend aus. ⛵<br> Wähle deinen Kurs: Deine nächste Einzahlung bei HeyHo erhält <strong>100 %</strong> Bonus.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Mehr Treibstoff, mehr Spiele, mehr Chancen zu gewinnen. 🧭<br> Lade dein Guthaben auf und spiel los!</h3></td>
+promocode_button_1: CREW120
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_6796513b620327267a7a23b80007d540d6fcf94234f804b36bedff4566c306a7/images/100_1.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 1.1
+locale: fr-FR
+subject: 🏴‍☠️ Deux routes, un trésor — 100 % sur votre prochain dépôt.
+preheader: Choisissez votre cap et doublez votre or !
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Bonus de 100 % sur votre dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">La carte montre deux routes — toutes deux prometteuses. ⛵<br> Choisissez votre cap : votre prochain dépôt chez HeyHo bénéficie d’un bonus de <strong>100 %</strong>.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Plus de carburant, plus de jeux, plus de chances de gagner. 🧭<br> Alimentez votre solde et jouez !</h3></td>
+promocode_button_1: CREW120
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e03a64fade747f7f102228b26ff26e9fac1096c371c1bf264b016ccd986efbdc/images/100_1.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 1.1
+locale: nl-NL
+subject: 🏴‍☠️ Twee routes, één schat – 100% op je volgende storting.
+preheader: Kies je koers en verdubbel je goud!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>100% bonus op je storting! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">De kaart toont twee routes — allebei veelbelovend. ⛵<br> Kies je koers: je volgende storting bij HeyHo krijgt <strong>100%</strong> bonus.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Meer brandstof, meer spellen, meer kansen om te winnen. 🧭<br> Vul je saldo aan en speel!</h3></td>
+promocode_button_1: CREW120
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_abd782780dde93898432292489e9e742b9bc93feffdde3bc0bbbb65cabe50d56/images/100_1.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=1&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.1
+locale: Default
+subject: 🌊 Shore of legends gives you 110% more to play
+preheader: Raise the flag and unlock the treasure!
+from_id: 6
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>110% bonus on deposit</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><h3 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center">Blackbeard left marks on this coast - compass lines, a skull, a dune. 🧭 Your next deposit at HeyHo gets a 110% bonus when you enter code.</h3><h3 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><h3 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center">⚓ Move first, strike fast, and let the chest pay for your voyage.</h3><h3 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
+promocode_button_1: KRKN130
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_069faaf54ba926e4d14f60bcc256e75a5f593566256f7c27963d4aaac923c7e8/images/heyho93.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.1
+locale: de-DE
+subject: 🌊 Die Küste der Legenden schenkt dir 110 % mehr zum Spielen.
+preheader: Hiss die Flagge und öffne die Schatztruhe!
+from_id: 6
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>110 % Bonus auf deine Einzahlung! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Blackbeard hat an dieser Küste Spuren hinterlassen – Kompasslinien, ein Schädel, eine Düne. 🧭<br> Deine nächste Einzahlung bei HeyHo bringt dir <strong>110 %</strong> Bonus, wenn du den Code eingibst.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">⚓ Handle zuerst, schlag schnell zu und lass die Truhe deine Reise bezahlen.</h3></td>
+promocode_button_1: KRKN130
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_21626471487fd1cc73b05be88cd42f19f0a59f285d58a1213debf60fb3352b71/images/heyho93.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.1
+locale: fr-FR
+subject: 🌊 La côte des légendes vous donne 110 % de plus pour jouer.
+preheader: Levez le pavillon et ouvrez le coffre !
+from_id: 6
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Bonus de 110 % sur votre dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Barbe Noire a laissé des marques sur cette côte — lignes de compas, un crâne, une dune. 🧭<br> Votre prochain dépôt chez HeyHo reçoit <strong>110 %</strong> de bonus lorsque vous saisissez le code.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">⚓ Agissez vite, frappez fort et laissez le coffre payer votre voyage.</h3></td>
+promocode_button_1: KRKN130
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_34f93c0ac3a060c3552d7a6ce9a1912a74e023cb9089900b43c11adfbdb404b6/images/heyho93.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.1
+locale: nl-NL
+subject: 🌊 De kust van legendes geeft je 110% extra om te spelen.
+preheader: Hijs de vlag en open de schatkist!
+from_id: 6
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>110% bonus op je storting! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Blackbeard heeft op deze kust sporen achtergelaten – kompaslijnen, een schedel, een duin. 🧭<br> Doe je volgende storting bij HeyHo en ontvang <strong>110%</strong> bonus met de code.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">⚓ Neem het initiatief, sla snel toe en laat de kist je reis betalen.</h3></td>
+promocode_button_1: KRKN130
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_ef66f409eb2eeaa8196309c2c3401462bfded7377038ea42753d8a126a167918/images/heyho93.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.2
+locale: Default
+subject: 🌊 Shore of legends gives you 115% more to play
+preheader: Raise the flag and unlock the treasure!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>115% bonus on deposit</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><h3 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center">Blackbeard left marks on this coast - compass lines, a skull, a dune. 🧭 Your next deposit at HeyHo gets a 115% bonus when you enter code.</h3><h3 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><h3 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center">⚓ Move first, strike fast, and let the chest pay for your voyage.</h3><h3 class="es-text-mobile-size-18" style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff;text-align:center;display:none"><br></h3></td>
+promocode_button_1: SABR135
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_654eeda8e0c895e21a0c888b6de7d4bd4ac405319c6fea6d0f9de68228e288bc/images/heyho94.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.2
+locale: de-DE
+subject: 🌊 Die Küste der Legenden schenkt dir 115 % mehr zum Spielen.
+preheader: Hiss die Flagge und öffne die Schatztruhe!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>115 % Bonus auf deine Einzahlung! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Blackbeard hat an dieser Küste Spuren hinterlassen – Kompasslinien, ein Schädel, eine Düne. 🧭<br> Deine nächste Einzahlung bei HeyHo bringt dir <strong>115 %</strong> Bonus, wenn du den Code eingibst.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">⚓ Handle zuerst, schlag schnell zu und lass die Truhe deine Reise bezahlen.</h3></td>
+promocode_button_1: SABR135
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_895c21df7bb20fc15ad391b883db348704a478079845072c76bdf1bc2d83acd3/images/heyho94.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.2
+locale: fr-FR
+subject: 🌊 La côte des légendes vous donne 115 % de plus pour jouer.
+preheader: Levez le pavillon et ouvrez le coffre !
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Bonus de 115 % sur votre dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Barbe Noire a laissé des marques sur cette côte — lignes de compas, un crâne, une dune. 🧭<br> Votre prochain dépôt chez HeyHo reçoit <strong>115 %</strong> de bonus lorsque vous saisissez le code.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">⚓ Agissez vite, frappez fort et laissez le coffre payer votre voyage.</h3></td>
+promocode_button_1: SABR135
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_c4cd9027b190d45a6a313ff6e4e27b43c73cbf48f3ad35e2b36b9581c0e85219/images/heyho94.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 2.2
+locale: nl-NL
+subject: 🌊 De kust van legendes geeft je 115% extra om te spelen.
+preheader: Hijs de vlag en open de schatkist!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>115% bonus op je storting! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Blackbeard heeft op deze kust sporen achtergelaten – kompaslijnen, een schedel, een duin. 🧭<br> Doe je volgende storting bij HeyHo en ontvang <strong>115%</strong> bonus met de code.</h3></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">⚓ Neem het initiatief, sla snel toe en laat de kist je reis betalen.</h3></td>
+promocode_button_1: SABR135
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_7c7ea28a22f4a1a1d99bd8e30b8c7262ec2391b47f40b80d50a8355da58e0de1/images/heyho94.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=2&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.1
+locale: Default
+subject: 🌴 Island gold returns - 4% Cash Back
+preheader: Shake the trees and get coins back!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>4% CashBack</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">They say coins grow here like fruit. 🌞 Play at HeyHo and get 4% Cash Back on your journey.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Enter code at the cashier before you sail. When the dust settles, part of your spend comes back to you. 🪙</p></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Keep the hunt alive with steady gold in the pouch.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Shake the palms - activate code and play.</p></td>
+promocode_button_1: CB4RUM
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_7ff08247b4455e3fa7d31f0827c674dcfbdbb92a201fafa2c6141b4c5a0e0e8a/images/heyho3.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.1
+locale: de-DE
+subject: 🌴 Inselgold ist zurück – 4 % Cashback
+preheader: Schüttle die Palmen und hol dir Münzen zurück!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>4 % Cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Man sagt, hier wachsen Münzen wie Früchte. 🌞 Spiel bei HeyHo und sichere dir <strong>4 %</strong> Cashback auf deiner Reise.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Gib den Code an der Kasse ein, bevor du in See stichst. Am Ende kommt ein Teil deiner Einsätze zu dir zurück. 🪙</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Halte die Jagd am Laufen – mit stetigem Gold im Beutel.<br> Schüttle die Palmen – Code aktivieren und losspielen.</h3></td>
+promocode_button_1: CB4RUM
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_4ef3624e3f4e900cddec30c9bbfdfe87f955dc793064e818138733ce44faaf42/images/heyho3.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.1
+locale: fr-FR
+subject: 🌴 L’or de l’île revient — cashback de 4 %
+preheader: Secouez les palmiers et récupérez des pièces !
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Cashback de 4 % ! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">On dit que les pièces poussent ici comme des fruits. 🌞 Jouez chez HeyHo et récupérez <strong>4 %</strong> de cashback tout au long de votre voyage.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Saisissez le code à la caisse avant d’embarquer. Au final, une partie de vos mises vous revient. 🪙</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Gardez la chasse au trésor vivante avec un flux régulier de pièces dans votre bourse.<br> Secouez les palmiers — activez le code et jouez.</h3></td>
+promocode_button_1: CB4RUM
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_258795ac9703ec1667a76c6d5048bf8d62fc8ba5599978ac4f35e27adfed6d4c/images/heyho3.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.1
+locale: nl-NL
+subject: 🌴 Eilandgoud keert terug – 4% cashback
+preheader: Schud de palmen en krijg munten terug!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>4% cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Ze zeggen dat munten hier groeien als fruit. 🌞 Speel bij HeyHo en ontvang <strong>4%</strong> cashback tijdens je reis.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Voer de code in bij de kassa vóór je uitvaart. Achteraf komt een deel van je inzetten naar je terug. 🪙</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Houd de jacht gaande met een gestage stroom goud in de buidel.<br> Schud de palmen – activeer de code en speel.</h3></td>
+promocode_button_1: CB4RUM
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dee192c9f7c4e3cf2c2bbc972c344c8b3a2160717abe25de5b126fe9e1893d61/images/heyho3.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.2
+locale: Default
+subject: 🌴 Island gold returns - 6% Cash Back
+preheader: Shake the trees and get coins back!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>6% CashBack</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">They say coins grow here like fruit. 🌞 Play at HeyHo and get 6% Cash Back on your journey.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Enter code at the cashier before you sail. When the dust settles, part of your spend comes back to you. 🪙</p></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Keep the hunt alive with steady gold in the pouch.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Shake the palms - activate code and play.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2fe2d59e11f5aad0b24da842311894de3d1dd81a323eba37179233f564a1a741/images/heyho31.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.2
+locale: de-DE
+subject: 🌴 Inselgold ist zurück – 6 % Cashback
+preheader: Schüttle die Palmen und hol dir Münzen zurück!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>6 % Cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Man sagt, hier wachsen Münzen wie Früchte. 🌞 Spiel bei HeyHo und sichere dir 6<strong> %</strong> Cashback auf deiner Reise.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Gib den Code an der Kasse ein, bevor du in See stichst. Am Ende kommt ein Teil deiner Einsätze zu dir zurück. 🪙</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Halte die Jagd am Laufen – mit stetigem Gold im Beutel.<br> Schüttle die Palmen – Code aktivieren und losspielen.</h3></td>
+promocode_button_1: CB6MAP
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e01a01ee7c9a2b2402ab81befdb63bc1c1fe0883775d4b26ed06610b28b4c57a/images/heyho31.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.2
+locale: fr-FR
+subject: 🌴 L’or de l’île revient — cashback de 6 %
+preheader: Secouez les palmiers et récupérez des pièces !
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Cashback de 6 % ! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">On dit que les pièces poussent ici comme des fruits. 🌞 Jouez chez HeyHo et récupérez 6<strong> %</strong> de cashback tout au long de votre voyage.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Saisissez le code à la caisse avant d’embarquer. Au final, une partie de vos mises vous revient. 🪙</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Gardez la chasse au trésor vivante avec un flux régulier de pièces dans votre bourse.<br> Secouez les palmiers — activez le code et jouez.</h3></td>
+promocode_button_1: CB6MAP
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_abce64ff355ce44ab41b76fe3f7327ef032702e398260d156ab0cdf3e95e884e/images/heyho31.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 3.2
+locale: nl-NL
+subject: 🌴 Eilandgoud keert terug – 6% cashback
+preheader: Schud de palmen en krijg munten terug!
+from_id: 7
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>6% cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Ze zeggen dat munten hier groeien als fruit. 🌞 Speel bij HeyHo en ontvang 6<strong>%</strong> cashback tijdens je reis.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Voer de code in bij de kassa vóór je uitvaart. Achteraf komt een deel van je inzetten naar je terug. 🪙</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Houd de jacht gaande met een gestage stroom goud in de buidel.<br> Schud de palmen – activeer de code en speel.</h3></td>
+promocode_button_1: CB6MAP
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_363e7fdc11641e5dfdb44b045f9906caa2117cd9a29ed5eac292f6dc65e1a418/images/heyho31.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=3&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.1
+locale: Default
+subject: 🌵 Sands revealed 115% on next dep
+preheader: Aztec gold is real!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>115% on deposit</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Under hot dunes, the gold finally showed. 🌞</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">At HeyHo, your next deposit gives 115% more for the live tables.</p></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Enter code at the cashier, sit down, and raise your stake with ancient luck. ⚓</p></td>
+promocode_button_1: SABR135
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_7a1fd27a149943574518d6a452fc4191ca549135f185f7b83fdcbcc40d41ba51/images/heyho94.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.1
+locale: de-DE
+subject: 🌵 Die Dünen enthüllen: 115 % auf deine nächste Einzahlung
+preheader: Aztekengold ist echt!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>115 % Bonus auf deine Einzahlung! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Unter heißen Dünen kam das Gold endlich zum Vorschein. 🌞</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Bei HeyHo bringt dir deine nächste Einzahlung <strong>115 %</strong> Bonus für die Live-Tische.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Gib den Code an der Kasse ein. Nimm Platz und erhöhe deinen Einsatz mit uraltem Glück. ⚓</h3></td>
+promocode_button_1: SABR135
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_8e76c6c43131873e5b1b22eebb62e7a13ca3bc0e25f1d9cd223ba6cd08bf5ad7/images/heyho94.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.1
+locale: fr-FR
+subject: 🌵 Les sables dévoilent 115 % sur votre prochain dépôt
+preheader: L’or aztèque est bien réel !
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Bonus de 115 % sur votre dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sous les dunes brûlantes, l’or s’est enfin révélé. 🌞</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Chez HeyHo, votre prochain dépôt vous offre <strong>115 %</strong> de bonus pour les tables en direct.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Saisissez le code à la caisse, installez-vous et augmentez vos mises avec la chance ancestrale. ⚓</h3></td>
+promocode_button_1: SABR135
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_81b6e4be1e644a5ab9ff6457c7a5faa90ee965b5d39b299d5a529d1e4791029c/images/heyho94.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.1
+locale: nl-NL
+subject: 🌵 De woestijn onthult: 115% op je volgende storting
+preheader: Azteeks goud is echt!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>115% bonus op je storting! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Onder hete duinen kwam het goud eindelijk tevoorschijn. 🌞</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Bij HeyHo geeft je volgende storting <strong>115%</strong> bonus voor de live tafels.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Voer de code in bij de kassa, neem plaats en verhoog je inzet met oeroud geluk. ⚓</h3></td>
+promocode_button_1: SABR135
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_c5a240d8552b386289a505a6ebc9e6418f491fbf2824bf1b2065e479447d0d16/images/heyho94.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.2
+locale: Default
+subject: 🌵 Sands revealed 120% on next dep
+preheader: Aztec gold is real!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>120% on deposit</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Under hot dunes, the gold finally showed. 🌞</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">At HeyHo, your next deposit gives 120% more for the live tables.</p></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Enter code at the cashier, sit down, and raise your stake with ancient luck. ⚓</p></td>
+promocode_button_1: MAP140
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_f53b7d37cf37b32049d72b8b5dcac496a7ffa33574ef698a212999e9c4c19585/images/heyho95.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.2
+locale: de-DE
+subject: 🌵 Die Dünen enthüllen: 120 % auf deine nächste Einzahlung
+preheader: Aztekengold ist echt!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>120 % Bonus auf deine Einzahlung! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Unter heißen Dünen kam das Gold endlich zum Vorschein. 🌞</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Bei HeyHo bringt dir deine nächste Einzahlung <strong>120 %</strong> Bonus für die Live-Tische.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Gib den Code an der Kasse ein. Nimm Platz und erhöhe deinen Einsatz mit uraltem Glück. ⚓</h3></td>
+promocode_button_1: MAP140
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_5a1f75e28e2af95388b55c31df663192f9f306c2cd5647ccbeb28e3abcaf5fc2/images/heyho95.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.2
+locale: fr-FR
+subject: 🌵 Les sables dévoilent 120 % sur votre prochain dépôt
+preheader: L’or aztèque est bien réel !
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Bonus de 120 % sur votre dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Sous les dunes brûlantes, l’or s’est enfin révélé. 🌞</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Chez HeyHo, votre prochain dépôt vous offre <strong>120 %</strong> de bonus pour les tables en direct.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Saisissez le code à la caisse, installez-vous et augmentez vos mises avec la chance ancestrale. ⚓</h3></td>
+promocode_button_1: MAP140
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b3ede1972618b336901f06ea0e764ce96121c9eaa5e75020d3fce24c2111b505/images/heyho95.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 4.2
+locale: nl-NL
+subject: 🌵 De woestijn onthult: 120% op je volgende storting
+preheader: Azteeks goud is echt!
+from_id: 5
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>120% bonus op je storting! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Onder hete duinen kwam het goud eindelijk tevoorschijn. 🌞</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Bij HeyHo geeft je volgende storting <strong>120%</strong> bonus voor de live tafels.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Voer de code in bij de kassa, neem plaats en verhoog je inzet met oeroud geluk. ⚓</h3></td>
+promocode_button_1: MAP140
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_2fdd15d90aa463c25d66672454d8f17adc3e766bf113f3d8c66b0513f1334c8e/images/heyho95.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=4&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.1
+locale: Default
+subject: 🏴‍☠️ 6% Cash Back from the blood-bought chest
+preheader: But… no swords needed this time…
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>6% CashBack</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">The sand’s still red where the last crew fell. ⚓</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">You don’t need to fight for this one. Just play live at HeyHo.</p></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Enter code for 6% Cash Back — steady, fair, clean. 🏴‍☠️</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">The gold once spilled for is yours by code, not by blade.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_575e2e914db383c7582d238556b984976558026ce03bb10096345ea0ad4b6441/images/heyho31.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.1
+locale: de-DE
+subject: 🏴‍☠️ 6 % Cashback – aus der blutig erkämpften Truhe
+preheader: Aber … diesmal brauchst du kein Schwert.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>6 % Cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Der Sand ist noch rot, wo die letzte Crew fiel. ⚓<br> Für diesen Schatz musst du nicht kämpfen: Spiel live bei HeyHo.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Gib den Code ein und hol dir <strong>6 %</strong> Cashback — verlässlich, fair, transparent. 🏴‍☠️</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Gold, das einst mit der Klinge erobert wurde, gehört dir jetzt per Code – nicht mit der Klinge.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dc00c2b619ad78072cb093d21c99fb8bf3f1b95abdb92090267df780d461265e/images/heyho31.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.1
+locale: fr-FR
+subject: 🏴‍☠️ 6 % de cashback — du coffre conquis dans le sang
+preheader: Mais… pas besoin d’épées cette fois…
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Cashback de 6 % ! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Le sable est encore rouge là où le dernier équipage est tombé. ⚓<br> Pour celui-ci, nul besoin de combattre : jouez en live chez HeyHo.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Saisissez le code et obtenez <strong>6 %</strong> de cashback — régulier, net, équitable. 🏴‍☠️</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">L’or autrefois gagné à la lame se débloque par un code, pas par l’épée.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b76216929fb1adf7ef5f9a19b40a8a5fbca2a0b28e2804345ee852ce5ac45fa2/images/heyho31.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.1
+locale: nl-NL
+subject: 🏴‍☠️ 6% cashback — uit de met bloed veroverde kist
+preheader: Maar… deze keer zijn geen zwaarden nodig.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>6% cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Het zand is nog rood waar de laatste bemanning viel. ⚓<br> Voor deze hoef je niet te vechten: speel live bij HeyHo.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Voer de code in voor <strong>6%</strong> cashback — stabiel, eerlijk, helder. 🏴‍☠️</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Het goud dat ooit met staal werd veroverd is nu van jou via een code — niet via het zwaard.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dd3ccdbe7d79d70f8fbd5b7aa4946f9a2e8940e69eef1c256fd53d6055dd6e29/images/heyho31.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.2
+locale: Default
+subject: 🏴‍☠️ 9% Cash Back from the blood-bought chest
+preheader: But… no swords needed this time…
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>9% CashBack</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">The sand’s still red where the last crew fell. ⚓</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">You don’t need to fight for this one. Just play live at HeyHo.</p></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Enter code for 9% Cash Back — steady, fair, clean. 🏴‍☠️</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">The gold once spilled for is yours by code, not by blade.</p></td>
+promocode_button_1: CB9REEF
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a36f82fb0d0baa92becea727cc53d4e796a5c41c98676efc5095accf02d28024/images/heyho32.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.2
+locale: de-DE
+subject: 🏴‍☠️ 9 % Cashback – aus der blutig erkämpften Truhe
+preheader: Aber … diesmal brauchst du kein Schwert.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>9 % Cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Der Sand ist noch rot, wo die letzte Crew fiel. ⚓<br> Für diesen Schatz musst du nicht kämpfen: Spiel live bei HeyHo.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Gib den Code ein und hol dir <strong>9 %</strong> Cashback — verlässlich, fair, transparent. 🏴‍☠️</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Gold, das einst mit der Klinge erobert wurde, gehört dir jetzt per Code – nicht mit der Klinge.</p></td>
+promocode_button_1: CB9REEF
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_511196873de05f7a96d47f7e53d5ce84a4a8f82da96158641d0b9c68cb650bd0/images/heyho32.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.2
+locale: fr-FR
+subject: 🏴‍☠️ 9 % de cashback — du coffre conquis dans le sang
+preheader: Mais… pas besoin d’épées cette fois…
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Cashback de 9 % ! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Le sable est encore rouge là où le dernier équipage est tombé. ⚓<br> Pour celui-ci, nul besoin de combattre : jouez en live chez HeyHo.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Saisissez le code et obtenez <strong>9 %</strong> de cashback — régulier, net, équitable. 🏴‍☠️</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">L’or autrefois gagné à la lame se débloque par un code, pas par l’épée.</p></td>
+promocode_button_1: CB9REEF
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_f72d1366f9eb6808bbe8af53b1ba4114c0f858800666dccdf0848d0eaf6fc0c6/images/heyho32.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 5.2
+locale: nl-NL
+subject: 🏴‍☠️ 9% cashback — uit de met bloed veroverde kist
+preheader: Maar… deze keer zijn geen zwaarden nodig.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>9% cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Het zand is nog rood waar de laatste bemanning viel. ⚓<br> Voor deze hoef je niet te vechten: speel live bij HeyHo.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Voer de code in voor <strong>9%</strong> cashback — stabiel, eerlijk, helder. 🏴‍☠️</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Het goud dat ooit met staal werd veroverd is nu van jou via een code — niet via het zwaard.</p></td>
+promocode_button_1: CB9REEF
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_96d771f71c76decb18167cb2cbf29a0bcfa072fb010de4aa8ebb8f396948ef23/images/heyho32.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=5&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.1
+locale: Default
+subject: 🗡️ A ship of silver, a captain with 120%
+preheader: One deposit. One code. One prize worth the risk.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>120% on deposit</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">The signal fires lit, the chase begun. 🌊</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Deposit now, use code, and claim 120% at HeyHo to lead your crew to victory.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Every round, every bet — your battle for silver plays out live. ⚓</p></td>
+text_4: <td align="left" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Strike first &amp; sail proud!</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Lead the charge - apply code and take 120% on the next dep!</p></td>
+promocode_button_1: MAP140
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_fd27b3669915126a4e8e12c69a08f8115298da490e20c51a10cde08fb9a12ae6/images/heyho95.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.1
+locale: de-DE
+subject: 🗡️ Ein Schiff aus Silber, ein Kapitän mit 120 % Bonus
+preheader: Eine Einzahlung. Ein Code. Ein Preis, der das Risiko wert ist.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>120 % Bonus auf deine Einzahlung! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die Signalfeuer brennen, die Jagd hat begonnen. 🌊<br> Zahle jetzt ein, gib den Code ein und sichere dir <strong>120 %</strong> bei HeyHo, um deine Crew zum Sieg zu führen.<br> Jede Runde, jeder Einsatz – dein Kampf um Silber spielt sich live ab. ⚓</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Schlag zuerst zu und segle mit Stolz!<br> Führe den Angriff – gib den Code ein und hol dir <strong>120 %</strong> auf deine nächste Einzahlung!</h3></td>
+promocode_button_1: MAP140
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d423bec135c0de8eb27d05f693ef8dcd2b0acc495df7f00006af58816d0a8f32/images/heyho95.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.1
+locale: fr-FR
+subject: 🗡️ Un navire d’argent, un capitaine à 120 %
+preheader: Un dépôt. Un code. Un gain qui en vaut la peine.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Bonus de 120 % sur votre dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Les feux de signal s’allument, la chasse commence. 🌊<br> Déposez maintenant, saisissez le code et réclamez <strong>120 %</strong> chez HeyHo pour mener votre équipage à la victoire.<br> À chaque manche, à chaque mise — votre bataille pour l’argent se joue en direct. ⚓</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Frappez les premiers et voguez fièrement !<br> Menez l’assaut — appliquez le code et obtenez <strong>120 %</strong> sur votre prochain dépôt !</h3></td>
+promocode_button_1: MAP140
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_70c525858fd9f18e3aad23253321d7deb4690538078e1757e632d7f224184d97/images/heyho95.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.1
+locale: nl-NL
+subject: 🗡️ Een schip van zilver, een kapitein met 120% bonus
+preheader: Eén storting. Eén code. Eén prijs die het waard is.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>120% bonus op je storting! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">De seinvuren branden, de achtervolging is begonnen. 🌊<br> Stort nu, gebruik de code en pak <strong>120%</strong> bij HeyHo om je crew naar de winst te leiden.<br> Elke ronde, elke inzet — jouw strijd om zilver speelt zich live af. ⚓</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Sla als eerste toe en vaar met trots!<br> Leid de aanval — voer de code in en pak <strong>120%</strong> op je volgende storting!</h3></td>
+promocode_button_1: MAP140
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_50308a9bcf6186011045f11ec23d95b9c9e00e19a172649feea2791ee3cc6b49/images/heyho95.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.2
+locale: Default
+subject: 🗡️ A ship of silver, a captain with 125%
+preheader: One deposit. One code. One prize worth the risk.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>125% on deposit</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">The signal fires lit, the chase begun. 🌊</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Deposit now, use code, and claim 125% at HeyHo to lead your crew to victory.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Every round, every bet — your battle for silver plays out live. ⚓</p></td>
+text_4: <td align="left" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Strike first &amp; sail proud!</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Lead the charge - apply code and take 125% on the next dep!</p></td>
+promocode_button_1: RAID145
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b3ea43cb962a431bb6eb9985100c918479e8fc00b937511c21a675f7bcf737fe/images/heyho96.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.2
+locale: de-DE
+subject: 🗡️ Ein Schiff aus Silber, ein Kapitän mit 125 % Bonus
+preheader: Eine Einzahlung. Ein Code. Ein Preis, der das Risiko wert ist.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>125 % Bonus auf deine Einzahlung! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die Signalfeuer brennen, die Jagd hat begonnen. 🌊<br> Zahle jetzt ein, gib den Code ein und sichere dir <strong>125 %</strong> bei HeyHo, um deine Crew zum Sieg zu führen.<br> Jede Runde, jeder Einsatz – dein Kampf um Silber spielt sich live ab. ⚓</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Schlag zuerst zu und segle mit Stolz!<br> Führe den Angriff – gib den Code ein und hol dir <strong>125 %</strong> auf deine nächste Einzahlung!</h3></td>
+promocode_button_1: RAID145
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_9c882e03b778fd1d91c4c3764c5879524fa582e0eefb9c56738029c329fa9992/images/heyho96.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.2
+locale: fr-FR
+subject: 🗡️ Un navire d’argent, un capitaine à 125 %
+preheader: Un dépôt. Un code. Un gain qui en vaut la peine.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Bonus de 125 % sur votre dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Les feux de signal s’allument, la chasse commence. 🌊<br> Déposez maintenant, saisissez le code et réclamez <strong>125 %</strong> chez HeyHo pour mener votre équipage à la victoire.<br> À chaque manche, à chaque mise — votre bataille pour l’argent se joue en direct. ⚓</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Frappez les premiers et voguez fièrement !<br> Menez l’assaut — appliquez le code et obtenez <strong>125 %</strong> sur votre prochain dépôt !</h3></td>
+promocode_button_1: RAID145
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_92e5590dfb3620296528deca818137c905a2975934d1d6dffb36742d9c7a03e5/images/heyho96.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 6.2
+locale: nl-NL
+subject: 🗡️ Een schip van zilver, een kapitein met 125% bonus
+preheader: Eén storting. Eén code. Eén prijs die het waard is.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>125% bonus op je storting! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">De seinvuren branden, de achtervolging is begonnen. 🌊<br> Stort nu, gebruik de code en pak <strong>125%</strong> bij HeyHo om je crew naar de winst te leiden.<br> Elke ronde, elke inzet — jouw strijd om zilver speelt zich live af. ⚓</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Sla als eerste toe en vaar met trots!<br> Leid de aanval — voer de code in en pak <strong>125%</strong> op je volgende storting!</h3></td>
+promocode_button_1: RAID145
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_e6715d616096061e1b6bc5916dcf99f4273de1c576f36277ead1e586a4ce5cac/images/heyho96.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=6&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.1
+locale: Default
+subject: 🧜‍♀️ 6% Cash Back. Her emerald pact pays you back
+preheader: Follow the green glow!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>6% CashBack</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">The legend says her emeralds test every captain. 💎</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Face the tables with a plan: use code for 6% Cash Back.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">If a hand turns rough, part of your coin returns. 🌊</p></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Choose skill over noise — the Witch respects that.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Use code code and get 6% Cash Back.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_575e2e914db383c7582d238556b984976558026ce03bb10096345ea0ad4b6441/images/heyho31.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.1
+locale: de-DE
+subject: 🧜‍♀️ 6 % Cashback. Ihr Smaragd-Pakt zahlt dir etwas zurück
+preheader: Folge dem grünen Schein!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>6 % Cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die Legende sagt, ihre Smaragde prüfen jeden Kapitän. 💎<br> Stell dich den Tischen mit Plan: Gib den Code ein und hol dir <strong>6 %</strong> Cashback.<br> Wenn eine Hand gegen dich läuft, kommt ein Teil deiner Einsätze zurück. 🌊</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Setz auf Können statt Lärm — die Hexe respektiert das.<br> Code eingeben und <strong>6 %</strong> Cashback sichern.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dc00c2b619ad78072cb093d21c99fb8bf3f1b95abdb92090267df780d461265e/images/heyho31.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.1
+locale: fr-FR
+subject: 🧜‍♀️ 6 % de cashback. Son pacte d’émeraude vous paie en retour
+preheader: Suivez l’éclat vert !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Cashback de 6 % ! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">La légende dit que ses émeraudes mettent chaque capitaine à l’épreuve. 💎<br> Affrontez les tables avec un plan : utilisez le code pour obtenir <strong>6 %</strong> de cashback.<br> Si une main tourne mal, une partie de vos mises vous revient. 🌊</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Choisissez l’adresse plutôt que le vacarme — la Sorcière respecte cela.<br> Activez le code et recevez <strong>6 %</strong> de cashback.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b76216929fb1adf7ef5f9a19b40a8a5fbca2a0b28e2804345ee852ce5ac45fa2/images/heyho31.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.1
+locale: nl-NL
+subject: 🧜‍♀️ 6% cashback. Haar smaragd-pact betaalt je terug
+preheader: Volg de groene gloed!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>6% cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">De legende zegt dat haar smaragden elke kapitein testen. 💎<br> Ga naar de tafels met een plan: gebruik de code voor <strong>6%</strong> cashback.<br> Als een hand tegenzit, komt een deel van je inzet terug. 🌊</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Kies voor kunde boven kabaal — de Heks respecteert dat.<br> Voer de code in en ontvang <strong>6%</strong> cashback.</p></td>
+promocode_button_1: CB6MAP
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_dd3ccdbe7d79d70f8fbd5b7aa4946f9a2e8940e69eef1c256fd53d6055dd6e29/images/heyho31.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.2
+locale: Default
+subject: 🧜‍♀️ 9% Cash Back. Her emerald pact pays you back
+preheader: Follow the green glow!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>9% CashBack</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">The legend says her emeralds test every captain. 💎</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Face the tables with a plan: use code for 9% Cash Back.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">If a hand turns rough, part of your coin returns. 🌊</p></td>
+text_4: <td align="center" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Choose skill over noise — the Witch respects that.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Use code code and get 9% Cash Back.</p></td>
+promocode_button_1: CB9REEF
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_397e94df3fad31eea474bfe2d3482a1b472a6aa2c86d95db63a2dc1b23147e9f/images/heyho32.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.2
+locale: de-DE
+subject: 🧜‍♀️ 9 % Cashback. Ihr Smaragd-Pakt zahlt dir etwas zurück
+preheader: Folge dem grünen Schein!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>9 % Cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Die Legende sagt, ihre Smaragde prüfen jeden Kapitän. 💎<br> Stell dich den Tischen mit Plan: Gib den Code ein und hol dir <strong>9 %</strong> Cashback.<br> Wenn eine Hand gegen dich läuft, kommt ein Teil deiner Einsätze zurück. 🌊</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Setz auf Können statt Lärm — die Hexe respektiert das.<br> Code eingeben und <strong>9 %</strong> Cashback sichern.</p></td>
+promocode_button_1: CB9REEF
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_b200644038f190982ce25495fc385c17d3522f6b130fa23ef8f6b18fa403f73b/images/heyho32.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.2
+locale: fr-FR
+subject: 🧜‍♀️ 9 % de cashback. Son pacte d’émeraude vous paie en retour
+preheader: Suivez l’éclat vert !
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Cashback de 9 % ! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">La légende dit que ses émeraudes mettent chaque capitaine à l’épreuve. 💎<br> Affrontez les tables avec un plan : utilisez le code pour obtenir <strong>9 %</strong> de cashback.<br> Si une main tourne mal, une partie de vos mises vous revient. 🌊</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Choisissez l’adresse plutôt que le vacarme — la Sorcière respecte cela.<br> Activez le code et recevez <strong>9 %</strong> de cashback.</p></td>
+promocode_button_1: CB9REEF
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a789084bd87f2260669785e58ad21e187505dce449dd7294a0f2c2ec3ac4977a/images/heyho32.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 7.2
+locale: nl-NL
+subject: 🧜‍♀️ 9% cashback. Haar smaragd-pact betaalt je terug
+preheader: Volg de groene gloed!
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>9% cashback! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">De legende zegt dat haar smaragden elke kapitein testen. 💎<br> Ga naar de tafels met een plan: gebruik de code voor <strong>9%</strong> cashback.<br> Als een hand tegenzit, komt een deel van je inzet terug. 🌊</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">Kies voor kunde boven kabaal — de Heks respecteert dat.<br> Voer de code in en ontvang <strong>9%</strong> cashback.</p></td>
+promocode_button_1: CB9REEF
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_a731eca703b48ffe3d9b619b6f6805cfed1e758303df49eb287cabb32470fe02/images/heyho32.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=7&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.1
+locale: Default
+subject: 🌶️ Attack them for 130%
+preheader: The air burns with spice
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><b>130% on deposit</b><strong>!</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b>Ahoy, {{ customer.first_name | default:"Brave Adventurer" | capitalize }}!&nbsp;</b></p></td>
+text_3: <td align="left" class="es-text-5184" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">“Hold the wind. Wait for their tack”, the captain nods. 🌊</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">At HeyHo, load 130% extra on your next deposit with code.</p></td>
+text_4: <td align="left" class="es-text-2870" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Take over the trade ship and get 130% on the next deposit!&nbsp;<br></p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px;text-align:center">Use your code.</p></td>
+promocode_button_1: HOOK150
+button_text_1: CLAIM BONUS
+button_href_1: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=en
+button_text_2: Play now
+button_href_2: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=en
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=en
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_fcc331da564491a21c09d0f93b774a00c5206eef3ef81fe9aaf236bb1331324c/images/heyho26.png
+banner_href: https://heyhocasino.com/en/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=en
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.1
+locale: de-DE
+subject: 🌶️ Angriff für 130 %
+preheader: Die Luft brennt vor Schärfe.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoi!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>130 % Bonus auf deine Einzahlung! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoi, {{ customer.first_name | default:"Tapferer Abenteurer" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">„Haltet den Wind. Wartet auf ihre Wende“, nickt der Kapitän. 🌊<br> Bei HeyHo lädst du mit dem Code <strong>130 %</strong> extra auf deine nächste Einzahlung.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Übernimm das Handelsschiff und hol dir <strong>130 %</strong> auf die nächste Einzahlung!<br> Code eingeben und loslegen.</h3></td>
+promocode_button_1: HOOK150
+button_text_1: BONUS SICHERN
+button_href_1: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=de
+button_text_2: JETZT SPIELEN
+button_href_2: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=de
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=de
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_d57c15b9df262696f528b356dc3e0d2af0ae163f10b77fb3f5fcbb37f2f472f7/images/heyho26.png
+banner_href: https://heyhocasino.com/de/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=de
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.1
+locale: fr-FR
+subject: 🌶️ À l’abordage pour 130 %
+preheader: L’air brûle d’épices.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy !</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>Bonus de 130 % sur votre dépôt !</strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Aventurier intrépide" | capitalize }} ! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">« Tenez le vent. Attendez leur virement de bord », dit le capitaine en hochant la tête. 🌊<br> Chez HeyHo, votre prochain dépôt reçoit <strong>130 %</strong> supplémentaires avec le code.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Prenez le navire marchand et obtenez <strong>130 %</strong> sur votre prochain dépôt !<br> Saisissez votre code et jouez.</h3></td>
+promocode_button_1: HOOK150
+button_text_1: RÉCLAMER LE BONUS
+button_href_1: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=fr
+button_text_2: JOUER MAINTENANT
+button_href_2: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=fr
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=fr
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_564cba24f37189c0f3507624186dba5f232f5a168971830b3063ce01e14adc6b/images/heyho26.png
+banner_href: https://heyhocasino.com/fr/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=fr
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+
+name: Email 8.1
+locale: nl-NL
+subject: 🌶️ Val aan voor 130%
+preheader: De lucht brandt van de pit.
+from_id: 4
+text_1: <td align="center" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffffff">Ahoy!</h4><h4 style="Margin:0;font-family:Inter, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:24px;font-style:normal;font-weight:normal;line-height:28.8px;color:#ffa300"><strong>130% bonus op je storting! </strong></h4></td>
+text_2: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:30px;letter-spacing:0;color:#ffa300;font-size:20px"><b> Ahoy, {{ customer.first_name | default:"Dappere Avonturier" | capitalize }}! </b></p></td>
+text_3: <td align="center" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;letter-spacing:0;color:#FFFFFF;font-size:18px">‘Houd de wind vast. Wacht op hun overstag,’ knikt de kapitein. 🌊<br> Bij HeyHo laad je met de code <strong>130%</strong> extra op je volgende storting.</p></td>
+text_4: <td align="center" style="padding:0;Margin:0"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:18px;font-style:normal;font-weight:normal;line-height:21.6px;color:#ffffff">Neem het handelsschip over en pak <strong>130%</strong> op je volgende storting!<br> Voer je code in en speel.</h3></td>
+promocode_button_1: HOOK150
+button_text_1: BONUS CLAIMEN
+button_href_1: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=nl
+button_text_2: SPEEL NU
+button_href_2: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=nl
+logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
+logo_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=nl
+banner_src: https://ebhum.stripocdn.email/content/guids/CABINET_338e991c2f0738af725dac89f38ec2f811efc024ca516bdbe896d34f2096a475/images/heyho26.png
+banner_href: https://heyhocasino.com/nl/wallet/deposit?utm_campaign=nutrition1&utm_source=email&utm_bonus_type=live&utm_email=8&utm_language=nl
+monkey_src: https://ebhum.stripocdn.email/content/guids/CABINET_4e08007d84231b2e207162a288190c89a51a014630e383a628a9dfe4f8742b32/images/monkey.png
+bottom_logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_556c8644661afa2b569f2f96063eae531e3340236b181a89fee69f1ca169be84/images/image.png
