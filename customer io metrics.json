@@ -54,7 +54,7 @@ function refreshCIO() {
  *          unsubscribed, spammed, failed, attempted, suppressed,
  *          human_opened, human_clicked, prefetch_opened
  *
- * @param {number} campaignId  Campaign or Newsletter ID
+ * @param {number} campaignId  Newsletter ID
  * @param {string} metric      Metric name
  * @customfunction
  */
