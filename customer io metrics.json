@@ -43,16 +43,7 @@ function refreshCIO() {
 
 // ── Main function ───────────────────────────────────────────
 /**
- * =CIO(123; "sent")       → number
- * =CIO(123; "name")       → campaign name
- * =CIO(123; "type")       → email / in_app / push / sms
- * =CIO(123; "status")     → draft / sent
- * =CIO(123; "date")       → first actual send date
- * =CIO(123; "created")    → creation date
- *
- * Metrics: sent, delivered, opened, clicked, bounced, converted,
- *          unsubscribed, spammed, failed, attempted, suppressed,
- *          human_opened, human_clicked, prefetch_opened
+ * Fetches Customer.io newsletter data. Metric: "name" | "type" | "status" | "date" | "created" | "sent" | "delivered" | "opened" | "clicked" | "bounced" | "converted" | "unsubscribed" | "spammed" | "failed" | "attempted" | "suppressed" | "human_opened" | "human_clicked" | "prefetch_opened"
  *
  * @param {number} campaignId  Newsletter ID
  * @param {string} metric      Metric name
