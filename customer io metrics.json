@@ -6,39 +6,79 @@ var CIO_BASE    = 'https://api.customer.io/v1';
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu('CIO')
-    .addItem('🔄 Refresh Data', 'refreshCIO')
+    .addItem('🔄 Refresh All Data', 'refreshAllCIO')
+    .addItem('🔄 Refresh Row Range...', 'refreshRangeCIO')
     .addToUi();
 }
 
-function refreshCIO() {
+function refreshAllCIO() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  var range = sheet.getDataRange();
-  var formulas = range.getFormulas();
-  var cells = [];
-
-  for (var r = 0; r < formulas.length; r++) {
-    for (var c = 0; c < formulas[r].length; c++) {
-      if (formulas[r][c].toUpperCase().indexOf('CIO(') !== -1) {
-        cells.push({ row: r + 1, col: c + 1, formula: formulas[r][c] });
-      }
-    }
-  }
+  var cells = _findCIOCells(sheet, 1, sheet.getLastRow());
 
   if (cells.length === 0) {
     SpreadsheetApp.getUi().alert('No CIO() formulas found.');
     return;
   }
 
+  _refreshCells(sheet, cells);
+  SpreadsheetApp.getUi().alert('✅ Refreshed ' + cells.length + ' cells!');
+}
+
+function refreshRangeCIO() {
+  var ui = SpreadsheetApp.getUi();
+
+  var fromResp = ui.prompt('Refresh Row Range', 'From row:', ui.ButtonSet.OK_CANCEL);
+  if (fromResp.getSelectedButton() !== ui.Button.OK) return;
+
+  var toResp = ui.prompt('Refresh Row Range', 'To row:', ui.ButtonSet.OK_CANCEL);
+  if (toResp.getSelectedButton() !== ui.Button.OK) return;
+
+  var fromRow = parseInt(fromResp.getResponseText(), 10);
+  var toRow   = parseInt(toResp.getResponseText(), 10);
+
+  if (isNaN(fromRow) || isNaN(toRow) || fromRow < 1 || toRow < fromRow) {
+    ui.alert('❌ Invalid range. "From" must be ≤ "To" and both must be ≥ 1.');
+    return;
+  }
+
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var cells = _findCIOCells(sheet, fromRow, toRow);
+
+  if (cells.length === 0) {
+    ui.alert('No CIO() formulas found in rows ' + fromRow + '-' + toRow + '.');
+    return;
+  }
+
+  _refreshCells(sheet, cells);
+  ui.alert('✅ Refreshed ' + cells.length + ' cells (rows ' + fromRow + '-' + toRow + ')!');
+}
+
+function _findCIOCells(sheet, fromRow, toRow) {
+  var lastCol = sheet.getLastColumn();
+  if (lastCol === 0) return [];
+  var numRows = toRow - fromRow + 1;
+  var range = sheet.getRange(fromRow, 1, numRows, lastCol);
+  var formulas = range.getFormulas();
+  var cells = [];
+
+  for (var r = 0; r < formulas.length; r++) {
+    for (var c = 0; c < formulas[r].length; c++) {
+      if (formulas[r][c].toUpperCase().indexOf('CIO(') !== -1) {
+        cells.push({ row: fromRow + r, col: c + 1, formula: formulas[r][c] });
+      }
+    }
+  }
+  return cells;
+}
+
+function _refreshCells(sheet, cells) {
   for (var i = 0; i < cells.length; i++) {
     sheet.getRange(cells[i].row, cells[i].col).clearContent();
   }
   SpreadsheetApp.flush();
-
   for (var i = 0; i < cells.length; i++) {
     sheet.getRange(cells[i].row, cells[i].col).setFormula(cells[i].formula);
   }
-
-  SpreadsheetApp.getUi().alert('✅ Refreshed ' + cells.length + ' cells!');
 }
 
 // ── Main function ───────────────────────────────────────────
