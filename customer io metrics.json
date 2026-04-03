@@ -27,17 +27,15 @@ function refreshAllCIO() {
 function refreshRangeCIO() {
   var ui = SpreadsheetApp.getUi();
 
-  var fromResp = ui.prompt('Refresh Row Range', 'From row:', ui.ButtonSet.OK_CANCEL);
-  if (fromResp.getSelectedButton() !== ui.Button.OK) return;
+  var resp = ui.prompt('Refresh Row Range', 'Enter range (e.g. 5-30):', ui.ButtonSet.OK_CANCEL);
+  if (resp.getSelectedButton() !== ui.Button.OK) return;
 
-  var toResp = ui.prompt('Refresh Row Range', 'To row:', ui.ButtonSet.OK_CANCEL);
-  if (toResp.getSelectedButton() !== ui.Button.OK) return;
+  var parts = resp.getResponseText().split('-');
+  var fromRow = parseInt(parts[0], 10);
+  var toRow   = parseInt(parts[1], 10);
 
-  var fromRow = parseInt(fromResp.getResponseText(), 10);
-  var toRow   = parseInt(toResp.getResponseText(), 10);
-
-  if (isNaN(fromRow) || isNaN(toRow) || fromRow < 1 || toRow < fromRow) {
-    ui.alert('❌ Invalid range. "From" must be ≤ "To" and both must be ≥ 1.');
+  if (parts.length !== 2 || isNaN(fromRow) || isNaN(toRow) || fromRow < 1 || toRow < fromRow) {
+    ui.alert('❌ Invalid format. Use "from-to", e.g. 5-30');
     return;
   }
 
