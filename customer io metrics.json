@@ -1,0 +1,172 @@
+// ── Config ──────────────────────────────────────────────────
+var CIO_APP_KEY = 'API_KEY_HERE';
+var CIO_BASE    = 'https://api.customer.io/v1';
+
+// ── Custom menu ─────────────────────────────────────────────
+function onOpen() {
+  SpreadsheetApp.getUi()
+    .createMenu('CIO')
+    .addItem('🔄 Refresh Data', 'refreshCIO')
+    .addToUi();
+}
+
+function refreshCIO() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var range = sheet.getDataRange();
+  var formulas = range.getFormulas();
+  var cells = [];
+
+  for (var r = 0; r < formulas.length; r++) {
+    for (var c = 0; c < formulas[r].length; c++) {
+      if (formulas[r][c].toUpperCase().indexOf('CIO(') !== -1) {
+        cells.push({ row: r + 1, col: c + 1, formula: formulas[r][c] });
+      }
+    }
+  }
+
+  if (cells.length === 0) {
+    SpreadsheetApp.getUi().alert('No CIO() formulas found.');
+    return;
+  }
+
+  for (var i = 0; i < cells.length; i++) {
+    sheet.getRange(cells[i].row, cells[i].col).clearContent();
+  }
+  SpreadsheetApp.flush();
+
+  for (var i = 0; i < cells.length; i++) {
+    sheet.getRange(cells[i].row, cells[i].col).setFormula(cells[i].formula);
+  }
+
+  SpreadsheetApp.getUi().alert('✅ Refreshed ' + cells.length + ' cells!');
+}
+
+// ── Main function ───────────────────────────────────────────
+/**
+ * =CIO(123; "sent")       → number
+ * =CIO(123; "name")       → campaign name
+ * =CIO(123; "type")       → email / in_app / push / sms
+ * =CIO(123; "status")     → draft / sent
+ * =CIO(123; "date")       → first actual send date
+ * =CIO(123; "created")    → creation date
+ *
+ * Metrics: sent, delivered, opened, clicked, bounced, converted,
+ *          unsubscribed, spammed, failed, attempted, suppressed,
+ *          human_opened, human_clicked, prefetch_opened
+ *
+ * @param {number} campaignId  Campaign or Newsletter ID
+ * @param {string} metric      Metric name
+ * @customfunction
+ */
+function CIO(campaignId, metric) {
+  if (!campaignId || !metric) return '';
+  metric = String(metric).toLowerCase().trim();
+
+  if (metric === 'name' || metric === 'created' || metric === 'type' || metric === 'status') {
+    return _fetchInfo(campaignId, metric);
+  }
+
+  if (metric === 'date') {
+    return _fetchSendDate(campaignId);
+  }
+
+  return _fetchMetric(campaignId, metric);
+}
+
+// ── Metrics ─────────────────────────────────────────────────
+function _fetchMetric(campaignId, metric) {
+  var result = _fetchMetricsRaw(campaignId);
+  if (result.error) return result.error;
+
+  var m = result.data.metric || result.data;
+  var series = (m.series || {})[metric];
+  if (!series) return 'unknown metric';
+
+  var total = 0;
+  for (var i = 0; i < series.length; i++) total += series[i];
+  return total;
+}
+
+// ── Send date (first day with actual sends) ─────────────────
+function _fetchSendDate(campaignId) {
+  var result = _fetchMetricsRaw(campaignId);
+  if (result.error) return result.error;
+
+  var m = result.data.metric || result.data;
+  var sentSeries = (m.series || {}).sent;
+  if (!sentSeries) return '';
+
+  var firstIdx = -1;
+  for (var i = 0; i < sentSeries.length; i++) {
+    if (sentSeries[i] > 0) { firstIdx = i; break; }
+  }
+  if (firstIdx === -1) return '';
+
+  var startStr = (result.data.start || '').replace(' +0000 UTC', 'Z').replace(' ', 'T');
+  var startMs  = new Date(startStr).getTime();
+  var dayMs    = 86400000;
+  var sendMs   = startMs + (firstIdx * dayMs) + (12 * 3600000);
+
+  return Utilities.formatDate(new Date(sendMs), 'Europe/Berlin', 'dd.MM.yyyy');
+}
+
+// ── Campaign/Newsletter info ────────────────────────────────
+function _fetchInfo(campaignId, field) {
+  var endpoints = [
+    '/campaigns/' + campaignId,
+    '/newsletters/' + campaignId
+  ];
+
+  for (var e = 0; e < endpoints.length; e++) {
+    var res = UrlFetchApp.fetch(CIO_BASE + endpoints[e], {
+      headers: { 'Authorization': 'Bearer ' + CIO_APP_KEY },
+      muteHttpExceptions: true
+    });
+    var code = res.getResponseCode();
+    if (code === 401) return 'ERR invalid API key';
+    if (code === 301) return 'ERR wrong datacenter';
+    if (code === 200) {
+      var json = JSON.parse(res.getContentText());
+      var c = json.campaign || json.newsletter || json;
+
+      if (field === 'name')    return c.name || '';
+      if (field === 'type')    return c.type || '';
+      if (field === 'status') {
+        if (c.sent_at) return 'Sent/Sending';
+        return 'Draft/Scheduled';
+      }
+      if (field === 'created') return c.created ? _tsToDate(c.created) : '';
+      return '';
+    }
+  }
+
+  return 'ERR not found (ID: ' + campaignId + ')';
+}
+
+// ── Raw metrics fetch (shared) ──────────────────────────────
+function _fetchMetricsRaw(campaignId) {
+  var endpoints = [
+    '/campaigns/' + campaignId + '/metrics?version=2',
+    '/newsletters/' + campaignId + '/metrics?version=2'
+  ];
+
+  for (var e = 0; e < endpoints.length; e++) {
+    var res = UrlFetchApp.fetch(CIO_BASE + endpoints[e], {
+      headers: { 'Authorization': 'Bearer ' + CIO_APP_KEY },
+      muteHttpExceptions: true
+    });
+    var code = res.getResponseCode();
+    if (code === 401) return { error: 'ERR invalid API key' };
+    if (code === 301) return { error: 'ERR wrong datacenter' };
+    if (code === 200) {
+      return { data: JSON.parse(res.getContentText()) };
+    }
+  }
+
+  return { error: 'ERR not found (ID: ' + campaignId + ')' };
+}
+
+function _tsToDate(unix) {
+  var d = new Date(unix * 1000);
+  return Utilities.formatDate(d, 'Europe/Berlin', 'dd.MM.yyyy');
+}

@@ -163,6 +163,126 @@ Zahle ein und nutze den Code CHICK150, um 150 Freispiele bei Sugar Rush freizusc
 Button: JETZT DREHEN
 
 
+========== 03.04 | Easter promos | 120% up to 350 EUR | SCAR120 ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🐣 120% up to 350 EUR - Easter Bonus Boost!
+Preheader: A golden egg is waiting in your account
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Easter keeps getting better at Oshi! Today we've got a golden bonus just for you.
+
+Deposit 30 EUR or more and use bonus code SCAR120 to unlock a 120% bonus up to 350 EUR. Stack up your balance and hit your favourite games with extra power.
+
+Crack the golden egg and boost your Easter play right now!
+Button: BOOST MY BALANCE
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+FS face value: 0.1 EUR
+Max win: 100 EUR
+The bonus is available once on April 3 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: 🐣 120% bis zu 350 EUR - Oster-Bonus-Boost!
+Preheader: Ein goldenes Ei wartet in deinem Konto
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Ostern wird bei Oshi immer besser! Heute haben wir einen goldenen Bonus nur für dich.
+
+Zahle 30 EUR oder mehr ein und nutze den Bonuscode SCAR120, um dir einen 120% Bonus bis zu 350 EUR zu sichern. Lade dein Guthaben auf und starte deine Lieblingsspiele mit extra Power.
+
+Knack das goldene Ei und power dein Osterspiel jetzt auf!
+Button: GUTHABEN BOOSTEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+FS-Nennwert: 0,1 EUR
+Max. Gewinn: 100 EUR
+Der Bonus ist einmalig am 3. April verfügbar (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+A golden Easter egg just for you! 🐣
+Deposit 30 EUR+ with code SCAR120 and get a 120% bonus up to 350 EUR. Boost your balance today!
+Button: CLAIM BONUS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Ein goldenes Osterei nur für dich! 🐣
+Zahle 30 EUR+ ein, nutze den Code SCAR120 und sichere dir 120% Bonus bis zu 350 EUR. Boost dein Guthaben heute!
+Button: BONUS HOLEN
+
+
+========== 03.04 | First day of Easter Tournament ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🏆 Grand Easter Heist - 500,000 EUR Up for Grabs!
+Preheader: Play Endorphina slots and climb the leaderboard
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The Grand Easter Heist kicks off today at Oshi! A massive 500,000 EUR prize pool is waiting for the best players.
+
+Play any of the 25 eligible Endorphina slots and earn points with every spin. For every 1 EUR you bet, you get 10 tournament points. The more you play, the higher you climb.
+
+Top prize is 20,000 EUR and there are 15,000 winning spots in total. The tournament runs from April 3 to April 8.
+
+Hit the slots now and grab your spot on the leaderboard!
+Button: JOIN THE HEIST
+
+Terms&Conditions:
+Min. bet: 0.2 EUR
+Prize pool: 500,000 EUR
+Top 1: 20,000 EUR | Top 2: 10,000 EUR | Top 3: 7,000 EUR
+Tournament: April 3-8, 2026 (UTC+2)
+
+--- EMAIL (DE) ---
+
+Subject: 🏆 Grand Easter Heist - 500.000 EUR zu gewinnen!
+Preheader: Spiele Endorphina-Slots und klettere in der Rangliste
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Der Grand Easter Heist startet heute bei Oshi! Ein riesiger Preispool von 500.000 EUR wartet auf die besten Spieler.
+
+Spiele eines der 25 teilnehmenden Endorphina-Slots und sammle Punkte mit jedem Spin. Für jeden 1 EUR Einsatz bekommst du 10 Turnierpunkte. Je mehr du spielst, desto höher steigst du.
+
+Der Hauptpreis beträgt 20.000 EUR und insgesamt gibt es 15.000 Gewinnplätze. Das Turnier läuft vom 3. bis 8. April.
+
+Dreh jetzt die Walzen und sichere dir deinen Platz in der Rangliste!
+Button: AM HEIST TEILNEHMEN
+
+Terms&Conditions:
+Min. Einsatz: 0,2 EUR
+Preispool: 500.000 EUR
+Platz 1: 20.000 EUR | Platz 2: 10.000 EUR | Platz 3: 7.000 EUR
+Turnier: 3.-8. April 2026 (UTC+2)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+The Grand Easter Heist is live! 🏆
+500,000 EUR prize pool across 25 Endorphina slots. Play, earn points, win big. Top prize: 20,000 EUR!
+Button: PLAY NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Der Grand Easter Heist ist gestartet! 🏆
+500.000 EUR Preispool auf 25 Endorphina-Slots. Spiele, sammle Punkte, gewinne groß. Hauptpreis: 20.000 EUR!
+Button: JETZT SPIELEN
+
+
 ========== 04.04 | Easter promos | 80% + 60 FS | GATES80350 ==========
 
 --- EMAIL (EN) ---
@@ -218,21 +338,21 @@ Zahle 30 EUR+ ein, nutze den Code GATES80350 und sichere dir 80% Bonus bis zu 35
 Button: BONUS HOLEN
 
 
-========== 05.04 | First day of Easter Tournament | 120% up to 1000 EUR | STACKUP120K ==========
+========== 05.04 | Easter promos | 120% up to 1000 EUR | STACKUP120K ==========
 
 --- EMAIL (EN) ---
 
-Subject: 🏆 120% up to 1000 EUR - Easter Tournament Starts!
-Preheader: The biggest Easter competition just kicked off
+Subject: ✨ 120% up to 1000 EUR - Easter's Biggest Gift!
+Preheader: We saved the best surprise for last
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-The Oshi Easter Tournament is officially here, and we're kicking it off with a powerful head start just for you!
+We saved the best Easter surprise for the very end. This is the biggest bonus of the week and it's all yours!
 
-Use bonus code STACKUP120K on your deposit to claim a massive 120% bonus up to 1000 EUR. Stack your balance, climb the leaderboard, and compete for the top prizes all season long.
+Deposit 30 EUR or more and use bonus code STACKUP120K to unlock a huge 120% bonus up to 1000 EUR. More balance means more spins, more rounds and more chances to win big.
 
-The race is on - get in now and make your first move count!
-Button: JOIN THE TOURNAMENT
+This is your moment - enter your code and take the bonus before Easter wraps up!
+Button: GRAB BONUS
 
 Terms&Conditions:
 Wager: x40
@@ -241,17 +361,17 @@ The bonus is available once on April 5 (UTC TZ)
 
 --- EMAIL (DE) ---
 
-Subject: 🏆 120% bis zu 1000 EUR - Das Oster-Turnier beginnt!
-Preheader: Der größte Oster-Wettbewerb hat gerade begonnen
+Subject: ✨ 120% bis zu 1000 EUR - Osterns größtes Geschenk!
+Preheader: Wir haben die beste Überraschung für zuletzt aufgehoben
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Das große Oshi-Oster-Turnier ist offiziell gestartet, und wir geben dir einen kraftvollen Vorsprung!
+Wir haben die beste Oster-Überraschung fürs Finale aufgehoben. Das ist der größte Bonus der Woche und er gehört ganz dir!
 
-Nutze den Bonuscode STACKUP120K bei deiner Einzahlung und sichere dir einen gewaltigen 120% Bonus bis zu 1000 EUR. Fülle dein Guthaben auf, klettere in der Rangliste nach oben und kämpfe um die besten Preise der Saison.
+Zahle 30 EUR oder mehr ein und nutze den Bonuscode STACKUP120K, um dir einen riesigen 120% Bonus bis zu 1000 EUR zu sichern. Mehr Guthaben heißt mehr Spins, mehr Runden und mehr Gewinnchancen.
 
-Das Rennen läuft - steig jetzt ein und mach deinen ersten Zug!
-Button: AM TURNIER TEILNEHMEN
+Das ist dein Moment - gib deinen Code ein und sichere dir den Bonus, bevor Ostern vorbei ist!
+Button: BONUS SICHERN
 
 Terms&Conditions:
 Umsatz: x40
@@ -261,13 +381,13 @@ Der Bonus ist einmalig am 5. April verfügbar (UTC TZ)
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Easter Tournament is live! 🏆
-Use code STACKUP120K on your deposit and get a massive 120% bonus up to 1000 EUR. Stack up and compete for the top!
-Button: JOIN NOW
+Easter's biggest bonus is here! ✨
+Deposit 30 EUR+ with code STACKUP120K and unlock a massive 120% bonus up to 1000 EUR. Don't miss the grand finale!
+Button: GRAB BONUS
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-Das Oster-Turnier ist gestartet! 🏆
-Nutze den Code STACKUP120K bei deiner Einzahlung und sichere dir satte 120% Bonus bis zu 1000 EUR. Fülle dein Guthaben und kämpfe um die Spitze!
-Button: JETZT TEILNEHMEN
+Der größte Oster-Bonus ist da! ✨
+Zahle 30 EUR+ ein, nutze den Code STACKUP120K und sichere dir satte 120% Bonus bis zu 1000 EUR. Verpasse das große Finale nicht!
+Button: BONUS HOLEN
