@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:smooth;">
+<head>
+<meta charset="UTF-8">
+<title>GNB Agency — Oshi Casino: CRM Implementation Plan</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/gnb-favicon.svg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  * { box-sizing: border-box; }
+  body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; color: #e0e0e0; line-height: 1.65; background: #0C0C0C; }
+
+  /* ── Header ── */
+  .report-header { background: linear-gradient(135deg, #0C0C0C 0%, #1a1a1a 100%); padding: 48px 40px 40px; border-bottom: 3px solid #EAFF00; position: relative; }
+  .report-header .logo { height: 28px; margin-bottom: 24px; filter: brightness(1.1); }
+  .report-header h1 { font-size: 26px; font-weight: 700; color: #fff; margin: 0 0 8px 0; letter-spacing: -0.5px; }
+  .report-header .meta { color: #888; font-size: 13px; margin: 0; }
+  .report-header .meta span { color: #EAFF00; font-weight: 600; }
+
+  /* ── Language Switcher ── */
+  .lang-switcher { position: absolute; top: 20px; right: 40px; display: flex; gap: 6px; }
+  .lang-btn { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 6px 14px; cursor: pointer; font-size: 13px; color: #888; font-family: inherit; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; }
+  .lang-btn:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .lang-btn.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
+
+  /* ── Content ── */
+  .content { padding: 0 40px 48px; }
+  h2 { color: #fff; margin-top: 40px; font-size: 18px; font-weight: 700; border-left: 4px solid #EAFF00; padding-left: 14px; letter-spacing: -0.3px; }
+  h3 { color: #ccc; font-size: 14px; font-weight: 600; margin-top: 20px; }
+  p { color: #b0b0b0; font-size: 14px; }
+  strong { color: #e0e0e0; }
+
+  /* ── Tables ── */
+  table { border-collapse: collapse; width: 100%; margin: 12px 0 24px 0; font-size: 13px; }
+  th { background: #1a1a1a; color: #EAFF00; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 2px solid #EAFF00; }
+  td { border-bottom: 1px solid #222; padding: 8px 14px; vertical-align: top; color: #ccc; }
+  tr:hover { background: #141414; }
+  .old { color: #ff6b6b; }
+  .new { color: #51cf66; font-weight: 600; }
+
+  /* ── Code ── */
+  code { background: #1a1a1a; border: 1px solid #333; padding: 2px 6px; border-radius: 4px; font-size: 12px; color: #ddd; word-break: break-all; font-family: 'Consolas', 'Monaco', monospace; }
+
+  /* ── Summary cards ── */
+  .summary-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .summary-grid.four { grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .summary-card { background: #141414; border: 1px solid #222; border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
+  .summary-card:hover { border-color: #EAFF00; }
+  .summary-card h3 { margin: 0 0 4px 0; color: #fff; font-size: 14px; font-weight: 600; }
+  .summary-card .count { font-size: 28px; font-weight: 800; color: #EAFF00; letter-spacing: -1px; }
+  .summary-card .label { font-size: 12px; color: #888; margin-top: 2px; }
+
+  /* ── Flow diagram ── */
+  .flow-diagram { display: flex; align-items: center; justify-content: center; gap: 0; margin: 28px 0; flex-wrap: wrap; }
+  .flow-step { background: #141414; border: 1px solid #333; border-radius: 12px; padding: 16px 20px; text-align: center; min-width: 120px; transition: border-color 0.2s; }
+  .flow-step:hover { border-color: #EAFF00; }
+  .flow-step .step-icon { font-size: 28px; margin-bottom: 6px; }
+  .flow-step .step-name { font-size: 12px; font-weight: 700; color: #fff; }
+  .flow-step .step-detail { font-size: 10px; color: #888; margin-top: 3px; }
+  .flow-step.existing { border-color: #51cf66; }
+  .flow-step.new-camp { border-color: #ff922b; border-style: dashed; }
+  .flow-arrow { font-size: 22px; color: #EAFF00; padding: 0 6px; flex-shrink: 0; }
+
+  /* ── Callouts ── */
+  .note { background: #1a1700; border-left: 3px solid #EAFF00; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #b0b0b0; }
+  .note strong { color: #EAFF00; }
+  .warn { background: #1a1510; border-left: 3px solid #f0a030; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #c0a878; }
+  .warn strong { color: #f0a030; }
+  .warn code { border-color: #443820; background: #1a1510; color: #ddc090; }
+  .info { background: #101a1a; border-left: 3px solid #74c0fc; padding: 14px 18px; margin: 14px 0; border-radius: 0 8px 8px 0; font-size: 13px; color: #90b8c8; }
+  .info strong { color: #74c0fc; }
+
+  /* ── Phase badge ── */
+  .phase-badge { display: inline-block; background: #EAFF00; color: #0C0C0C; font-weight: 800; font-size: 11px; padding: 3px 10px; border-radius: 6px; margin-right: 8px; letter-spacing: 0.5px; }
+  .phase-badge.refactor { background: #51cf66; }
+  .phase-badge.new-b { background: #ff922b; }
+  .phase-badge.foundation { background: #74c0fc; }
+
+  /* ── Status tags ── */
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-right: 4px; }
+  .tag-exists { background: #1a2a1a; color: #51cf66; border: 1px solid #2a3a2a; }
+  .tag-new { background: #2a1a0a; color: #ff922b; border: 1px solid #3a2a1a; }
+  .tag-refactor { background: #1a1a2a; color: #74c0fc; border: 1px solid #2a2a3a; }
+
+  /* ── Timeline ── */
+  .timeline { position: relative; padding-left: 28px; margin: 16px 0; }
+  .timeline::before { content: ''; position: absolute; left: 8px; top: 0; bottom: 0; width: 2px; background: #333; }
+  .tl-item { position: relative; margin-bottom: 20px; }
+  .tl-item::before { content: ''; position: absolute; left: -24px; top: 4px; width: 12px; height: 12px; border-radius: 50%; border: 2px solid #EAFF00; background: #0C0C0C; }
+  .tl-item.done::before { background: #51cf66; border-color: #51cf66; }
+  .tl-item .tl-title { font-weight: 700; color: #fff; font-size: 14px; }
+  .tl-item .tl-desc { color: #888; font-size: 12px; margin-top: 2px; }
+  .tl-item .tl-week { color: #EAFF00; font-size: 11px; font-weight: 600; }
+
+  /* ── Footer ── */
+  .report-footer { background: #0C0C0C; border-top: 1px solid #222; padding: 24px 40px; text-align: center; }
+  .report-footer .logo-sm { height: 18px; opacity: 0.85; margin-bottom: 8px; }
+  .report-footer p { font-size: 11px; color: #555; margin: 0; }
+
+  /* ── Bullets ── */
+  ul { padding-left: 20px; }
+  li { color: #b0b0b0; font-size: 14px; margin-bottom: 6px; }
+  li::marker { color: #EAFF00; }
+
+  /* ── Navigation bar ── */
+  .report-nav { position: sticky; top: 0; z-index: 100; background: rgba(17,17,17,0.92); border-bottom: 1px solid #222; padding: 10px 40px; display: flex; gap: 6px; backdrop-filter: blur(14px); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: #EAFF00 #1a1a1a; -webkit-overflow-scrolling: touch; }
+  .report-nav::before, .report-nav::after { content: ''; flex: 1 0 0px; }
+  .report-nav::-webkit-scrollbar { height: 5px; }
+  .report-nav::-webkit-scrollbar-track { background: #1a1a1a; border-radius: 3px; }
+  .report-nav::-webkit-scrollbar-thumb { background: #EAFF00; border-radius: 3px; }
+  .report-nav::-webkit-scrollbar-thumb:hover { background: #d4e000; }
+  .nav-link { background: transparent; border: 1px solid #333; border-radius: 20px; padding: 5px 14px; font-size: 12px; font-weight: 500; color: #888; text-decoration: none; cursor: pointer; transition: all 0.25s; font-family: inherit; white-space: nowrap; flex-shrink: 0; }
+  .nav-link:hover { border-color: #EAFF00; color: #e0e0e0; }
+  .nav-link.active { background: #EAFF00; color: #0C0C0C; border-color: #EAFF00; font-weight: 700; }
+  .nav-num { font-weight: 700; margin-right: 4px; font-size: 11px; opacity: 0.7; }
+  .nav-link.active .nav-num { opacity: 1; }
+  .section-anchor { scroll-margin-top: 56px; }
+
+  /* ── Language visibility ── */
+  [data-lang] { display: none; }
+  [data-lang].active { display: block; }
+  table[data-lang].active { display: table; }
+  .summary-grid[data-lang].active { display: grid; }
+  .flow-diagram[data-lang].active { display: flex; }
+  div.warn[data-lang].active, div.note[data-lang].active, div.info[data-lang].active { display: block; }
+  span[data-lang].active { display: inline; }
+
+  /* ── Print ── */
+  @media print {
+    .lang-switcher, .report-nav { display: none; }
+    body { background: #fff; color: #222; }
+    .report-header { background: #fff; border-bottom-color: #222; }
+    .report-header h1 { color: #111; }
+    .report-header .meta { color: #666; }
+    .report-header .meta span { color: #111; }
+    .content { padding: 0 20px 20px; }
+    h2 { color: #111; border-left-color: #222; }
+    h3 { color: #333; }
+    p, li { color: #333; }
+    strong { color: #111; }
+    th { background: #111; color: #fff; border-bottom-color: #111; }
+    td { color: #333; border-bottom-color: #ddd; }
+    tr:hover { background: transparent; }
+    code { background: #f4f4f4; border-color: #ddd; color: #333; }
+    .summary-card { background: #f9f9f9; border-color: #ddd; }
+    .summary-card:hover { border-color: #ddd; }
+    .summary-card h3 { color: #111; }
+    .summary-card .count { color: #111; }
+    .flow-step { background: #f9f9f9; border-color: #ddd; }
+    .flow-arrow { color: #333; }
+    .note { background: #fffbe6; border-left-color: #d4a800; color: #333; }
+    .note strong { color: #d4a800; }
+    .warn { background: #fff8ee; border-left-color: #d48800; color: #664400; }
+    .warn strong { color: #d48800; }
+    .info { background: #f0f8ff; border-left-color: #4488cc; color: #224466; }
+    .info strong { color: #4488cc; }
+    .report-footer { border-top-color: #ddd; }
+    .report-footer p { color: #999; }
+  }
+</style>
+</head>
+<body>
+
+<div class="report-header">
+  <img class="logo" src="../../assets/gnb-logo.png" alt="GNB Agency">
+  <div class="lang-switcher">
+    <button class="lang-btn active" data-set-lang="en">EN</button>
+    <button class="lang-btn" data-set-lang="ua">UA</button>
+    <button class="lang-btn" data-set-lang="ru">RU</button>
+  </div>
+
+  <h1 data-lang="en" class="active">Oshi Casino — CRM Implementation Plan</h1>
+  <p class="meta" data-lang="en" class="active"><span>Oshi Casino</span> &bull; <span>April 4, 2026</span> &bull; Full CRM lifecycle architecture — Customer.io</p>
+
+  <h1 data-lang="ua">Oshi Casino — План реалізації CRM</h1>
+  <p class="meta" data-lang="ua"><span>Oshi Casino</span> &bull; <span>4 квітня 2026</span> &bull; Повна CRM lifecycle архітектура — Customer.io</p>
+
+  <h1 data-lang="ru">Oshi Casino — План реализации CRM</h1>
+  <p class="meta" data-lang="ru"><span>Oshi Casino</span> &bull; <span>4 апреля 2026</span> &bull; Полная CRM lifecycle архитектура — Customer.io</p>
+</div>
+
+<nav class="report-nav">
+  <a class="nav-link active" href="#sec-overview"><span class="nav-num">1.</span><span data-lang="en" class="active">Overview</span><span data-lang="ua">Огляд</span><span data-lang="ru">Обзор</span></a>
+  <a class="nav-link" href="#sec-phase0"><span class="nav-num">2.</span><span data-lang="en" class="active">Foundation</span><span data-lang="ua">Фундамент</span><span data-lang="ru">Фундамент</span></a>
+  <a class="nav-link" href="#sec-phase1"><span class="nav-num">3.</span><span data-lang="en" class="active">Welcome</span><span data-lang="ua">Welcome</span><span data-lang="ru">Welcome</span></a>
+  <a class="nav-link" href="#sec-phase2"><span class="nav-num">4.</span><span data-lang="en" class="active">Payment Declined</span><span data-lang="ua">Payment Declined</span><span data-lang="ru">Payment Declined</span></a>
+  <a class="nav-link" href="#sec-phase3"><span class="nav-num">5.</span><span data-lang="en" class="active">Nutrition #1</span><span data-lang="ua">Nutrition #1</span><span data-lang="ru">Nutrition #1</span></a>
+  <a class="nav-link" href="#sec-phase4"><span class="nav-num">6.</span><span data-lang="en" class="active">Nutrition #2</span><span data-lang="ua">Nutrition #2</span><span data-lang="ru">Nutrition #2</span></a>
+  <a class="nav-link" href="#sec-phase5"><span class="nav-num">7.</span><span data-lang="en" class="active">Nutrition #3</span><span data-lang="ua">Nutrition #3</span><span data-lang="ru">Nutrition #3</span></a>
+  <a class="nav-link" href="#sec-phase6"><span class="nav-num">8.</span><span data-lang="en" class="active">Behavioral</span><span data-lang="ua">Behavioral</span><span data-lang="ru">Behavioral</span></a>
+  <a class="nav-link" href="#sec-phase7"><span class="nav-num">9.</span><span data-lang="en" class="active">Retention</span><span data-lang="ua">Retention</span><span data-lang="ru">Retention</span></a>
+  <a class="nav-link" href="#sec-phase8"><span class="nav-num">10.</span><span data-lang="en" class="active">Churn</span><span data-lang="ua">Churn</span><span data-lang="ru">Churn</span></a>
+  <a class="nav-link" href="#sec-phase9"><span class="nav-num">11.</span><span data-lang="en" class="active">Birthday</span><span data-lang="ua">Birthday</span><span data-lang="ru">Birthday</span></a>
+  <a class="nav-link" href="#sec-timeline"><span class="nav-num">12.</span><span data-lang="en" class="active">Timeline</span><span data-lang="ua">Таймлайн</span><span data-lang="ru">Таймлайн</span></a>
+</nav>
+
+<div class="content">
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 1 — OVERVIEW                                       ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-overview" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2>1. Overview</h2>
+<p>Complete CRM lifecycle implementation plan for <strong>Oshi Casino</strong> in <strong>Customer.io</strong>. The architecture consists of <strong>10 interconnected flows</strong> covering the full player journey from registration to dormant archive.</p>
+<p>Strategy: <strong>refactor 4 existing campaigns first</strong>, then build 6 new ones. Each phase has clear dependencies and EXIT conditions linking to the next flow.</p>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>1. Огляд</h2>
+<p>Повний план реалізації CRM lifecycle для <strong>Oshi Casino</strong> в <strong>Customer.io</strong>. Архітектура складається з <strong>10 пов'язаних потоків</strong>, що покривають весь шлях гравця від реєстрації до архіву.</p>
+<p>Стратегія: <strong>спочатку переробити 4 існуючі кампанії</strong>, потім побудувати 6 нових. Кожна фаза має чіткі залежності та EXIT-умови, що ведуть до наступного потоку.</p>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2>1. Обзор</h2>
+<p>Полный план реализации CRM lifecycle для <strong>Oshi Casino</strong> в <strong>Customer.io</strong>. Архитектура состоит из <strong>10 взаимосвязанных потоков</strong>, покрывающих весь путь игрока от регистрации до архива.</p>
+<p>Стратегия: <strong>сначала переработать 4 существующие кампании</strong>, затем построить 6 новых. Каждая фаза имеет чёткие зависимости и EXIT-условия, ведущие к следующему потоку.</p>
+</div>
+
+<!-- Summary cards — EN -->
+<div class="summary-grid four" data-lang="en" class="active">
+  <div class="summary-card">
+    <h3>Total Flows</h3>
+    <div class="count">10</div>
+    <div class="label">CIO campaigns to build</div>
+  </div>
+  <div class="summary-card">
+    <h3>Existing</h3>
+    <div class="count" style="color:#51cf66;">4</div>
+    <div class="label">to refactor</div>
+  </div>
+  <div class="summary-card">
+    <h3>New</h3>
+    <div class="count" style="color:#ff922b;">6</div>
+    <div class="label">to build from scratch</div>
+  </div>
+  <div class="summary-card">
+    <h3>Channels</h3>
+    <div class="count">3</div>
+    <div class="label">Email + In-App + SMS</div>
+  </div>
+</div>
+
+<!-- Summary cards — UA -->
+<div class="summary-grid four" data-lang="ua">
+  <div class="summary-card">
+    <h3>Усього потоків</h3>
+    <div class="count">10</div>
+    <div class="label">CIO кампаній до побудови</div>
+  </div>
+  <div class="summary-card">
+    <h3>Існуючі</h3>
+    <div class="count" style="color:#51cf66;">4</div>
+    <div class="label">на переробку</div>
+  </div>
+  <div class="summary-card">
+    <h3>Нові</h3>
+    <div class="count" style="color:#ff922b;">6</div>
+    <div class="label">з нуля</div>
+  </div>
+  <div class="summary-card">
+    <h3>Канали</h3>
+    <div class="count">3</div>
+    <div class="label">Email + In-App + SMS</div>
+  </div>
+</div>
+
+<!-- Summary cards — RU -->
+<div class="summary-grid four" data-lang="ru">
+  <div class="summary-card">
+    <h3>Всего потоков</h3>
+    <div class="count">10</div>
+    <div class="label">CIO кампаний к построению</div>
+  </div>
+  <div class="summary-card">
+    <h3>Существующие</h3>
+    <div class="count" style="color:#51cf66;">4</div>
+    <div class="label">на переработку</div>
+  </div>
+  <div class="summary-card">
+    <h3>Новые</h3>
+    <div class="count" style="color:#ff922b;">6</div>
+    <div class="label">с нуля</div>
+  </div>
+  <div class="summary-card">
+    <h3>Каналы</h3>
+    <div class="count">3</div>
+    <div class="label">Email + In-App + SMS</div>
+  </div>
+</div>
+
+<!-- Player Journey Flow — all languages -->
+<div data-lang="en" class="active"><h3>Player Lifecycle Flow</h3></div>
+<div data-lang="ua"><h3>Потік життєвого циклу гравця</h3></div>
+<div data-lang="ru"><h3>Поток жизненного цикла игрока</h3></div>
+
+<div class="flow-diagram" data-lang="en" class="active">
+  <div class="flow-step existing"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">Refactor</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step existing"><div class="step-icon">🥇</div><div class="step-name">Nutrition #1</div><div class="step-detail">Refactor</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step existing"><div class="step-icon">🥈</div><div class="step-name">Nutrition #2</div><div class="step-detail">Refactor</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">🏆</div><div class="step-name">Nutrition #3</div><div class="step-detail">New</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">New</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">New (4 tiers)</div></div>
+</div>
+<div class="flow-diagram" data-lang="ua">
+  <div class="flow-step existing"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">Переробка</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step existing"><div class="step-icon">🥇</div><div class="step-name">Nutrition #1</div><div class="step-detail">Переробка</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step existing"><div class="step-icon">🥈</div><div class="step-name">Nutrition #2</div><div class="step-detail">Переробка</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">🏆</div><div class="step-name">Nutrition #3</div><div class="step-detail">Новий</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">Новий</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">Новий (4 тіри)</div></div>
+</div>
+<div class="flow-diagram" data-lang="ru">
+  <div class="flow-step existing"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">Переработка</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step existing"><div class="step-icon">🥇</div><div class="step-name">Nutrition #1</div><div class="step-detail">Переработка</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step existing"><div class="step-icon">🥈</div><div class="step-name">Nutrition #2</div><div class="step-detail">Переработка</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">🏆</div><div class="step-name">Nutrition #3</div><div class="step-detail">Новая</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">Новая</div></div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-step new-camp"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">Новая (4 тира)</div></div>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 2 — PHASE 0: FOUNDATION                            ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase0" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge foundation">PHASE 0</span> Foundation — Events, Attributes &amp; Segments</h2>
+<p>Before any campaign work, the backend team must implement events and the CRM team must configure attributes and segments in Customer.io.</p>
+
+<h3>2.1 Required Events (Backend → Customer.io)</h3>
+<table>
+  <tr><th>Event</th><th>Key Attributes</th><th>Used In</th></tr>
+  <tr><td><code>registration</code></td><td>—</td><td>Welcome</td></tr>
+  <tr><td><code>first_deposit</code></td><td><code>amount</code>, <code>currency</code></td><td>Welcome EXIT → Nutrition #1</td></tr>
+  <tr><td><code>deposit_made</code></td><td><code>deposit_number</code>, <code>amount</code></td><td>Nutrition #1/#2/#3</td></tr>
+  <tr><td><code>deposit_failed</code></td><td><code>error_type</code></td><td>Payment Declined</td></tr>
+  <tr><td><code>balance_low</code></td><td><code>balance</code>, <code>currency</code></td><td>Nutrition #1/#2, Behavioral, Retention</td></tr>
+  <tr><td><code>session_ended</code></td><td><code>games_played</code>, <code>balance</code>, <code>duration</code></td><td>Nutrition #1, Behavioral, Retention</td></tr>
+  <tr><td><code>wagering_completed</code></td><td><code>bonus_id</code></td><td>Nutrition #2, Behavioral, Retention</td></tr>
+  <tr><td><code>withdrawal_cancelled</code></td><td><code>amount</code></td><td>Churn Prevention, Behavioral</td></tr>
+  <tr><td><code>big_win</code></td><td><code>amount</code>, <code>game</code></td><td>Retention</td></tr>
+  <tr><td><code>birthday</code></td><td>—</td><td>Birthday, Retention</td></tr>
+  <tr><td><code>self_exclusion_limit_set</code></td><td><code>limit_type</code></td><td>Churn Prevention</td></tr>
+  <tr><td><code>kyc_started</code> / <code>kyc_completed</code></td><td>—</td><td>Churn Prevention</td></tr>
+  <tr><td><code>churn_risk_score</code></td><td><code>score</code>, <code>level</code></td><td>Churn Prevention</td></tr>
+</table>
+
+<h3>2.2 Profile Attributes</h3>
+<table>
+  <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+  <tr><td><code>deposit_count</code></td><td>Number</td><td>Total deposits made</td></tr>
+  <tr><td><code>total_deposited</code></td><td>Number</td><td>Lifetime deposit amount</td></tr>
+  <tr><td><code>last_deposit_date</code></td><td>Timestamp</td><td>Date of latest deposit</td></tr>
+  <tr><td><code>last_login_date</code></td><td>Timestamp</td><td>Date of latest login</td></tr>
+  <tr><td><code>vip_tier</code></td><td>String</td><td>Standard / Silver / Gold / Platinum / Diamond</td></tr>
+  <tr><td><code>welcome_status</code></td><td>String</td><td>in_progress / complete / incomplete</td></tr>
+  <tr><td><code>bonus_abuse_flag</code></td><td>Boolean</td><td>Flagged for bonus abuse</td></tr>
+  <tr><td><code>active_bonus</code></td><td>Boolean</td><td>Currently has active bonus</td></tr>
+  <tr><td><code>deposit_frequency_trend</code></td><td>Number</td><td>% change in deposit frequency (7d vs 30d)</td></tr>
+  <tr><td><code>session_duration_trend</code></td><td>Number</td><td>% change in session duration (7d vs 30d)</td></tr>
+  <tr><td><code>birthday_date</code></td><td>Date</td><td>Player birthday</td></tr>
+  <tr><td><code>preferred_games</code></td><td>String</td><td>Most played game category</td></tr>
+  <tr><td><code>favorite_slots</code></td><td>String</td><td>Most played slot title</td></tr>
+</table>
+
+<h3>2.3 Segments</h3>
+<table>
+  <tr><th>Segment</th><th>Condition</th><th>Used In</th></tr>
+  <tr><td>Registered No Deposit</td><td><code>deposit_count = 0</code></td><td>Welcome</td></tr>
+  <tr><td>Nutrition #1</td><td><code>deposit_count = 1</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #1</td></tr>
+  <tr><td>Nutrition #2</td><td><code>deposit_count = 2</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #2</td></tr>
+  <tr><td>Nutrition #3</td><td><code>deposit_count = 3</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #3</td></tr>
+  <tr><td>Active Players</td><td><code>welcome_status = complete</code> AND <code>last_login &lt; 7d</code></td><td>Retention</td></tr>
+  <tr><td>At Risk</td><td><code>last_login 7–13d ago</code></td><td>Churn Prevention</td></tr>
+  <tr><td>Reactivation Tier 1–4</td><td><code>inactive 7d / 14d / 30d / 60d+</code></td><td>Reactivation</td></tr>
+  <tr><td>Product Inactive</td><td>Opens emails but no sessions last 14d</td><td>Retention</td></tr>
+  <tr><td>Dormant</td><td><code>90d+ no activity</code></td><td>Archive</td></tr>
+  <tr><td>VIP Tiers</td><td>Per <code>vip_tier</code> value</td><td>Birthday, Retention</td></tr>
+</table>
+
+<div class="warn">
+  <strong>Blocker:</strong> Without implemented events from the backend, no campaign can function. Coordinate with the development team to prioritize event implementation.
+</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge foundation">ФАЗА 0</span> Фундамент — Events, Attributes &amp; Segments</h2>
+<p>Перш ніж працювати з кампаніями, бекенд-команда має імплементувати events, а CRM-команда — налаштувати атрибути та сегменти в Customer.io.</p>
+
+<h3>2.1 Необхідні Events (Backend → Customer.io)</h3>
+<table>
+  <tr><th>Event</th><th>Ключові атрибути</th><th>Використовується в</th></tr>
+  <tr><td><code>registration</code></td><td>—</td><td>Welcome</td></tr>
+  <tr><td><code>first_deposit</code></td><td><code>amount</code>, <code>currency</code></td><td>Welcome EXIT → Nutrition #1</td></tr>
+  <tr><td><code>deposit_made</code></td><td><code>deposit_number</code>, <code>amount</code></td><td>Nutrition #1/#2/#3</td></tr>
+  <tr><td><code>deposit_failed</code></td><td><code>error_type</code></td><td>Payment Declined</td></tr>
+  <tr><td><code>balance_low</code></td><td><code>balance</code>, <code>currency</code></td><td>Nutrition #1/#2, Behavioral, Retention</td></tr>
+  <tr><td><code>session_ended</code></td><td><code>games_played</code>, <code>balance</code>, <code>duration</code></td><td>Nutrition #1, Behavioral, Retention</td></tr>
+  <tr><td><code>wagering_completed</code></td><td><code>bonus_id</code></td><td>Nutrition #2, Behavioral, Retention</td></tr>
+  <tr><td><code>withdrawal_cancelled</code></td><td><code>amount</code></td><td>Churn Prevention, Behavioral</td></tr>
+  <tr><td><code>big_win</code></td><td><code>amount</code>, <code>game</code></td><td>Retention</td></tr>
+  <tr><td><code>birthday</code></td><td>—</td><td>Birthday, Retention</td></tr>
+  <tr><td><code>self_exclusion_limit_set</code></td><td><code>limit_type</code></td><td>Churn Prevention</td></tr>
+  <tr><td><code>kyc_started</code> / <code>kyc_completed</code></td><td>—</td><td>Churn Prevention</td></tr>
+  <tr><td><code>churn_risk_score</code></td><td><code>score</code>, <code>level</code></td><td>Churn Prevention</td></tr>
+</table>
+
+<h3>2.2 Profile Attributes</h3>
+<table>
+  <tr><th>Атрибут</th><th>Тип</th><th>Опис</th></tr>
+  <tr><td><code>deposit_count</code></td><td>Number</td><td>Загальна кількість депозитів</td></tr>
+  <tr><td><code>total_deposited</code></td><td>Number</td><td>Сума депозитів за весь час</td></tr>
+  <tr><td><code>last_deposit_date</code></td><td>Timestamp</td><td>Дата останнього депозиту</td></tr>
+  <tr><td><code>last_login_date</code></td><td>Timestamp</td><td>Дата останнього логіну</td></tr>
+  <tr><td><code>vip_tier</code></td><td>String</td><td>Standard / Silver / Gold / Platinum / Diamond</td></tr>
+  <tr><td><code>welcome_status</code></td><td>String</td><td>in_progress / complete / incomplete</td></tr>
+  <tr><td><code>bonus_abuse_flag</code></td><td>Boolean</td><td>Позначений за зловживання бонусами</td></tr>
+  <tr><td><code>active_bonus</code></td><td>Boolean</td><td>Зараз має активний бонус</td></tr>
+  <tr><td><code>deposit_frequency_trend</code></td><td>Number</td><td>% зміна частоти депозитів (7d vs 30d)</td></tr>
+  <tr><td><code>session_duration_trend</code></td><td>Number</td><td>% зміна тривалості сесій (7d vs 30d)</td></tr>
+  <tr><td><code>birthday_date</code></td><td>Date</td><td>День народження гравця</td></tr>
+  <tr><td><code>preferred_games</code></td><td>String</td><td>Найбільш граний тип ігор</td></tr>
+  <tr><td><code>favorite_slots</code></td><td>String</td><td>Найбільш граний слот</td></tr>
+</table>
+
+<h3>2.3 Сегменти</h3>
+<table>
+  <tr><th>Сегмент</th><th>Умова</th><th>Використовується в</th></tr>
+  <tr><td>Registered No Deposit</td><td><code>deposit_count = 0</code></td><td>Welcome</td></tr>
+  <tr><td>Nutrition #1</td><td><code>deposit_count = 1</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #1</td></tr>
+  <tr><td>Nutrition #2</td><td><code>deposit_count = 2</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #2</td></tr>
+  <tr><td>Nutrition #3</td><td><code>deposit_count = 3</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #3</td></tr>
+  <tr><td>Active Players</td><td><code>welcome_status = complete</code> AND <code>last_login &lt; 7d</code></td><td>Retention</td></tr>
+  <tr><td>At Risk</td><td><code>last_login 7–13d тому</code></td><td>Churn Prevention</td></tr>
+  <tr><td>Reactivation Tier 1–4</td><td><code>inactive 7d / 14d / 30d / 60d+</code></td><td>Reactivation</td></tr>
+  <tr><td>Product Inactive</td><td>Відкриває emails, але без сесій 14d</td><td>Retention</td></tr>
+  <tr><td>Dormant</td><td><code>90d+ без активності</code></td><td>Archive</td></tr>
+  <tr><td>VIP Tiers</td><td>По значенню <code>vip_tier</code></td><td>Birthday, Retention</td></tr>
+</table>
+
+<div class="warn">
+  <strong>Блокер:</strong> Без імплементованих events з бекенду жодна кампанія не зможе працювати. Координуйте з командою розробки для пріоритизації імплементації events.
+</div>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge foundation">ФАЗА 0</span> Фундамент — Events, Attributes &amp; Segments</h2>
+<p>Прежде чем работать с кампаниями, бэкенд-команда должна реализовать events, а CRM-команда — настроить атрибуты и сегменты в Customer.io.</p>
+
+<h3>2.1 Необходимые Events (Backend → Customer.io)</h3>
+<table>
+  <tr><th>Event</th><th>Ключевые атрибуты</th><th>Используется в</th></tr>
+  <tr><td><code>registration</code></td><td>—</td><td>Welcome</td></tr>
+  <tr><td><code>first_deposit</code></td><td><code>amount</code>, <code>currency</code></td><td>Welcome EXIT → Nutrition #1</td></tr>
+  <tr><td><code>deposit_made</code></td><td><code>deposit_number</code>, <code>amount</code></td><td>Nutrition #1/#2/#3</td></tr>
+  <tr><td><code>deposit_failed</code></td><td><code>error_type</code></td><td>Payment Declined</td></tr>
+  <tr><td><code>balance_low</code></td><td><code>balance</code>, <code>currency</code></td><td>Nutrition #1/#2, Behavioral, Retention</td></tr>
+  <tr><td><code>session_ended</code></td><td><code>games_played</code>, <code>balance</code>, <code>duration</code></td><td>Nutrition #1, Behavioral, Retention</td></tr>
+  <tr><td><code>wagering_completed</code></td><td><code>bonus_id</code></td><td>Nutrition #2, Behavioral, Retention</td></tr>
+  <tr><td><code>withdrawal_cancelled</code></td><td><code>amount</code></td><td>Churn Prevention, Behavioral</td></tr>
+  <tr><td><code>big_win</code></td><td><code>amount</code>, <code>game</code></td><td>Retention</td></tr>
+  <tr><td><code>birthday</code></td><td>—</td><td>Birthday, Retention</td></tr>
+  <tr><td><code>self_exclusion_limit_set</code></td><td><code>limit_type</code></td><td>Churn Prevention</td></tr>
+  <tr><td><code>kyc_started</code> / <code>kyc_completed</code></td><td>—</td><td>Churn Prevention</td></tr>
+  <tr><td><code>churn_risk_score</code></td><td><code>score</code>, <code>level</code></td><td>Churn Prevention</td></tr>
+</table>
+
+<h3>2.2 Profile Attributes</h3>
+<table>
+  <tr><th>Атрибут</th><th>Тип</th><th>Описание</th></tr>
+  <tr><td><code>deposit_count</code></td><td>Number</td><td>Общее количество депозитов</td></tr>
+  <tr><td><code>total_deposited</code></td><td>Number</td><td>Сумма депозитов за всё время</td></tr>
+  <tr><td><code>last_deposit_date</code></td><td>Timestamp</td><td>Дата последнего депозита</td></tr>
+  <tr><td><code>last_login_date</code></td><td>Timestamp</td><td>Дата последнего входа</td></tr>
+  <tr><td><code>vip_tier</code></td><td>String</td><td>Standard / Silver / Gold / Platinum / Diamond</td></tr>
+  <tr><td><code>welcome_status</code></td><td>String</td><td>in_progress / complete / incomplete</td></tr>
+  <tr><td><code>bonus_abuse_flag</code></td><td>Boolean</td><td>Отмечен за злоупотребление бонусами</td></tr>
+  <tr><td><code>active_bonus</code></td><td>Boolean</td><td>Сейчас имеет активный бонус</td></tr>
+  <tr><td><code>deposit_frequency_trend</code></td><td>Number</td><td>% изменение частоты депозитов (7d vs 30d)</td></tr>
+  <tr><td><code>session_duration_trend</code></td><td>Number</td><td>% изменение длительности сессий (7d vs 30d)</td></tr>
+  <tr><td><code>birthday_date</code></td><td>Date</td><td>День рождения игрока</td></tr>
+  <tr><td><code>preferred_games</code></td><td>String</td><td>Наиболее играемый тип игр</td></tr>
+  <tr><td><code>favorite_slots</code></td><td>String</td><td>Наиболее играемый слот</td></tr>
+</table>
+
+<h3>2.3 Сегменты</h3>
+<table>
+  <tr><th>Сегмент</th><th>Условие</th><th>Используется в</th></tr>
+  <tr><td>Registered No Deposit</td><td><code>deposit_count = 0</code></td><td>Welcome</td></tr>
+  <tr><td>Nutrition #1</td><td><code>deposit_count = 1</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #1</td></tr>
+  <tr><td>Nutrition #2</td><td><code>deposit_count = 2</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #2</td></tr>
+  <tr><td>Nutrition #3</td><td><code>deposit_count = 3</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #3</td></tr>
+  <tr><td>Active Players</td><td><code>welcome_status = complete</code> AND <code>last_login &lt; 7d</code></td><td>Retention</td></tr>
+  <tr><td>At Risk</td><td><code>last_login 7–13d назад</code></td><td>Churn Prevention</td></tr>
+  <tr><td>Reactivation Tier 1–4</td><td><code>inactive 7d / 14d / 30d / 60d+</code></td><td>Reactivation</td></tr>
+  <tr><td>Product Inactive</td><td>Открывает emails, но без сессий 14d</td><td>Retention</td></tr>
+  <tr><td>Dormant</td><td><code>90d+ без активности</code></td><td>Archive</td></tr>
+  <tr><td>VIP Tiers</td><td>По значению <code>vip_tier</code></td><td>Birthday, Retention</td></tr>
+</table>
+
+<div class="warn">
+  <strong>Блокер:</strong> Без реализованных events с бэкенда ни одна кампания не сможет работать. Координируйте с командой разработки для приоритизации реализации events.
+</div>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 3 — PHASE 1: WELCOME (REFACTOR)                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase1" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge refactor">PHASE 1</span> Welcome Campaign <span class="tag tag-exists">EXISTS</span> <span class="tag tag-refactor">REFACTOR</span></h2>
+<p>Entry point for all new players. Refactor the existing campaign to match the 3-phase structure with escalating bonuses.</p>
+
+<h3>3.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>registration</code></td></tr>
+  <tr><td>EXIT (success)</td><td>Event: <code>first_deposit</code> → enters <strong>Nutrition #1</strong></td></tr>
+  <tr><td>EXIT (timeout)</td><td>Day 14 without FTD → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Duration</td><td>14 days max</td></tr>
+</table>
+
+<h3>3.2 Three Phases</h3>
+<table>
+  <tr><th>Phase</th><th>Timing</th><th>Messages</th><th>Bonus Escalation</th></tr>
+  <tr><td><strong>Immediate</strong></td><td>0 – 2 hours</td><td>Email #1 (welcome) + In-App</td><td>100% up to 500 EUR + 200 FS</td></tr>
+  <tr><td><strong>Value Demo</strong></td><td>2 hours – Day 3</td><td>Email #2, #3 (game guides, Lootwheel)</td><td>100% → 125%</td></tr>
+  <tr><td><strong>Urgency</strong></td><td>Day 4 – Day 14</td><td>Email #4–#8 (FOMO, last chance)</td><td>125% → 150% → 160%</td></tr>
+</table>
+
+<h3>3.3 Behavioral Triggers Inside Welcome</h3>
+<ul>
+  <li><strong>Browsing without deposit</strong> — player visits games/lobby but hasn't deposited → In-App popup with deposit CTA</li>
+  <li><strong>Abandoned registration</strong> — email verified but profile incomplete → reminder email</li>
+</ul>
+
+<h3>3.4 Implementation Steps</h3>
+<table>
+  <tr><th>#</th><th>Action</th><th>Priority</th></tr>
+  <tr><td>1</td><td>Document current Welcome campaign structure</td><td class="new">High</td></tr>
+  <tr><td>2</td><td>Restructure into 3 phases (Immediate / Value Demo / Urgency)</td><td class="new">High</td></tr>
+  <tr><td>3</td><td>Build 8 email templates with escalating bonuses</td><td class="new">High</td></tr>
+  <tr><td>4</td><td>Add In-App messages for browsing-without-deposit trigger</td><td>Medium</td></tr>
+  <tr><td>5</td><td>Configure EXIT conditions: FTD → Nutrition #1, Day 14 → Reactivation</td><td class="new">High</td></tr>
+  <tr><td>6</td><td>Set <code>welcome_status = in_progress</code> on entry</td><td class="new">High</td></tr>
+  <tr><td>7</td><td>QA: test all paths and timing</td><td class="new">High</td></tr>
+</table>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge refactor">ФАЗА 1</span> Welcome Campaign <span class="tag tag-exists">ІСНУЄ</span> <span class="tag tag-refactor">ПЕРЕРОБКА</span></h2>
+<p>Вхідна точка для всіх нових гравців. Переробити існуючу кампанію під 3-фазну структуру з ескалацією бонусів.</p>
+
+<h3>3.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значення</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>registration</code></td></tr>
+  <tr><td>EXIT (успіх)</td><td>Event: <code>first_deposit</code> → переходить до <strong>Nutrition #1</strong></td></tr>
+  <tr><td>EXIT (таймаут)</td><td>День 14 без FTD → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Тривалість</td><td>Максимум 14 днів</td></tr>
+</table>
+
+<h3>3.2 Три фази</h3>
+<table>
+  <tr><th>Фаза</th><th>Час</th><th>Повідомлення</th><th>Ескалація бонусів</th></tr>
+  <tr><td><strong>Immediate</strong></td><td>0 – 2 години</td><td>Email #1 (welcome) + In-App</td><td>100% до 500 EUR + 200 FS</td></tr>
+  <tr><td><strong>Value Demo</strong></td><td>2 години – День 3</td><td>Email #2, #3 (гайди по іграх, Lootwheel)</td><td>100% → 125%</td></tr>
+  <tr><td><strong>Urgency</strong></td><td>День 4 – День 14</td><td>Email #4–#8 (FOMO, last chance)</td><td>125% → 150% → 160%</td></tr>
+</table>
+
+<h3>3.3 Behavioral Triggers всередині Welcome</h3>
+<ul>
+  <li><strong>Browsing without deposit</strong> — гравець заходить на ігри/лобі, але не депозитив → In-App popup з CTA на депозит</li>
+  <li><strong>Abandoned registration</strong> — email верифікований, але профіль не завершений → нагадування email</li>
+</ul>
+
+<h3>3.4 Кроки реалізації</h3>
+<table>
+  <tr><th>#</th><th>Дія</th><th>Пріоритет</th></tr>
+  <tr><td>1</td><td>Задокументувати поточну структуру Welcome кампанії</td><td class="new">Високий</td></tr>
+  <tr><td>2</td><td>Реструктуризація на 3 фази (Immediate / Value Demo / Urgency)</td><td class="new">Високий</td></tr>
+  <tr><td>3</td><td>Створити 8 email-шаблонів з ескалацією бонусів</td><td class="new">Високий</td></tr>
+  <tr><td>4</td><td>Додати In-App повідомлення для триґера browsing-without-deposit</td><td>Середній</td></tr>
+  <tr><td>5</td><td>Налаштувати EXIT-умови: FTD → Nutrition #1, День 14 → Reactivation</td><td class="new">Високий</td></tr>
+  <tr><td>6</td><td>Встановити <code>welcome_status = in_progress</code> при вході</td><td class="new">Високий</td></tr>
+  <tr><td>7</td><td>QA: тест усіх шляхів та часу</td><td class="new">Високий</td></tr>
+</table>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge refactor">ФАЗА 1</span> Welcome Campaign <span class="tag tag-exists">СУЩЕСТВУЕТ</span> <span class="tag tag-refactor">ПЕРЕРАБОТКА</span></h2>
+<p>Входная точка для всех новых игроков. Переработать существующую кампанию под 3-фазную структуру с эскалацией бонусов.</p>
+
+<h3>3.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значение</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>registration</code></td></tr>
+  <tr><td>EXIT (успех)</td><td>Event: <code>first_deposit</code> → переходит в <strong>Nutrition #1</strong></td></tr>
+  <tr><td>EXIT (таймаут)</td><td>День 14 без FTD → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Длительность</td><td>Максимум 14 дней</td></tr>
+</table>
+
+<h3>3.2 Три фазы</h3>
+<table>
+  <tr><th>Фаза</th><th>Время</th><th>Сообщения</th><th>Эскалация бонусов</th></tr>
+  <tr><td><strong>Immediate</strong></td><td>0 – 2 часа</td><td>Email #1 (welcome) + In-App</td><td>100% до 500 EUR + 200 FS</td></tr>
+  <tr><td><strong>Value Demo</strong></td><td>2 часа – День 3</td><td>Email #2, #3 (гайды по играм, Lootwheel)</td><td>100% → 125%</td></tr>
+  <tr><td><strong>Urgency</strong></td><td>День 4 – День 14</td><td>Email #4–#8 (FOMO, last chance)</td><td>125% → 150% → 160%</td></tr>
+</table>
+
+<h3>3.3 Behavioral Triggers внутри Welcome</h3>
+<ul>
+  <li><strong>Browsing without deposit</strong> — игрок заходит на игры/лобби, но не депозитит → In-App popup с CTA на депозит</li>
+  <li><strong>Abandoned registration</strong> — email верифицирован, но профиль не завершён → напоминание email</li>
+</ul>
+
+<h3>3.4 Шаги реализации</h3>
+<table>
+  <tr><th>#</th><th>Действие</th><th>Приоритет</th></tr>
+  <tr><td>1</td><td>Задокументировать текущую структуру Welcome кампании</td><td class="new">Высокий</td></tr>
+  <tr><td>2</td><td>Реструктуризация на 3 фазы (Immediate / Value Demo / Urgency)</td><td class="new">Высокий</td></tr>
+  <tr><td>3</td><td>Создать 8 email-шаблонов с эскалацией бонусов</td><td class="new">Высокий</td></tr>
+  <tr><td>4</td><td>Добавить In-App сообщения для триггера browsing-without-deposit</td><td>Средний</td></tr>
+  <tr><td>5</td><td>Настроить EXIT-условия: FTD → Nutrition #1, День 14 → Reactivation</td><td class="new">Высокий</td></tr>
+  <tr><td>6</td><td>Установить <code>welcome_status = in_progress</code> при входе</td><td class="new">Высокий</td></tr>
+  <tr><td>7</td><td>QA: тест всех путей и тайминга</td><td class="new">Высокий</td></tr>
+</table>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 4 — PHASE 2: PAYMENT DECLINED (REFACTOR)           ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase2" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge refactor">PHASE 2</span> Payment Declined <span class="tag tag-exists">EXISTS</span> <span class="tag tag-refactor">REFACTOR</span></h2>
+<p>Handles failed deposit attempts. Refactor to add error-type routing with context-specific responses.</p>
+
+<h3>4.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>deposit_failed</code> (with <code>error_type</code>)</td></tr>
+  <tr><td>EXIT (success)</td><td>Successful deposit → return to previous flow</td></tr>
+  <tr><td>EXIT (max attempts)</td><td>3 failed attempts → exit, cool-down 24h</td></tr>
+</table>
+
+<h3>4.2 Error Type Routing</h3>
+<table>
+  <tr><th>Error Type</th><th>In-App Message</th><th>Action</th></tr>
+  <tr><td><code>processor_gateway</code></td><td>"Technical issue, try again in a few minutes"</td><td>Retry link, alternative methods</td></tr>
+  <tr><td><code>3ds_auth</code></td><td>"3D Secure verification failed"</td><td>Instructions, bank contact suggestion</td></tr>
+  <tr><td><code>card_declined</code></td><td>"Card declined by your bank"</td><td>Alternative payment methods</td></tr>
+  <tr><td><code>wrong_card</code></td><td>"Card details incorrect"</td><td>Re-enter card details</td></tr>
+  <tr><td><code>crypto_failed</code></td><td>"Crypto transaction failed"</td><td>Check wallet balance, retry</td></tr>
+  <tr><td><code>deposit_limit</code></td><td>"You've reached your deposit limit"</td><td>RG-compliant: show limit info, no bonus push</td></tr>
+</table>
+
+<h3>4.3 Incentive</h3>
+<ul>
+  <li>After 1st failed attempt: 5 FS retry bonus (except <code>deposit_limit</code>)</li>
+  <li>After 2nd failed attempt: 10 FS retry bonus (except <code>deposit_limit</code>)</li>
+  <li>Anti-spam: max 3 In-App messages per 24h cycle</li>
+</ul>
+
+<div class="info">
+  <strong>RG Compliance:</strong> <code>deposit_limit</code> error type must NEVER include bonus incentives. Show responsible gambling information and limit management tools instead.
+</div>
+
+<h3>4.4 Implementation Steps</h3>
+<table>
+  <tr><th>#</th><th>Action</th><th>Priority</th></tr>
+  <tr><td>1</td><td>Verify <code>deposit_failed</code> event sends <code>error_type</code></td><td class="new">High</td></tr>
+  <tr><td>2</td><td>Build True/False Branch for each of 6 error types</td><td class="new">High</td></tr>
+  <tr><td>3</td><td>Create 6 context-specific In-App templates</td><td class="new">High</td></tr>
+  <tr><td>4</td><td>Add retry bonus logic (5 FS → 10 FS)</td><td>Medium</td></tr>
+  <tr><td>5</td><td>Implement anti-spam: max 3 per 24h</td><td class="new">High</td></tr>
+  <tr><td>6</td><td>Separate RG-compliant path for deposit_limit</td><td class="new">High</td></tr>
+</table>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge refactor">ФАЗА 2</span> Payment Declined <span class="tag tag-exists">ІСНУЄ</span> <span class="tag tag-refactor">ПЕРЕРОБКА</span></h2>
+<p>Обробка невдалих спроб депозиту. Переробити з додаванням маршрутизації за типом помилки з контекстними відповідями.</p>
+
+<h3>4.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значення</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>deposit_failed</code> (з <code>error_type</code>)</td></tr>
+  <tr><td>EXIT (успіх)</td><td>Успішний депозит → повернення до попереднього потоку</td></tr>
+  <tr><td>EXIT (макс. спроби)</td><td>3 невдалі спроби → вихід, cool-down 24 год</td></tr>
+</table>
+
+<h3>4.2 Маршрутизація за типом помилки</h3>
+<table>
+  <tr><th>Тип помилки</th><th>In-App повідомлення</th><th>Дія</th></tr>
+  <tr><td><code>processor_gateway</code></td><td>"Технічна проблема, спробуйте через кілька хвилин"</td><td>Посилання на retry, альтернативні методи</td></tr>
+  <tr><td><code>3ds_auth</code></td><td>"Верифікація 3D Secure не пройшла"</td><td>Інструкції, пропозиція зв'язатися з банком</td></tr>
+  <tr><td><code>card_declined</code></td><td>"Картка відхилена вашим банком"</td><td>Альтернативні методи оплати</td></tr>
+  <tr><td><code>wrong_card</code></td><td>"Дані картки невірні"</td><td>Повторне введення даних картки</td></tr>
+  <tr><td><code>crypto_failed</code></td><td>"Крипто-транзакція не вдалась"</td><td>Перевірити баланс гаманця, retry</td></tr>
+  <tr><td><code>deposit_limit</code></td><td>"Ви досягли ліміту депозиту"</td><td>RG-compliant: інфо про ліміт, без бонус-пушу</td></tr>
+</table>
+
+<h3>4.3 Стимулювання</h3>
+<ul>
+  <li>Після 1-ї невдалої спроби: 5 FS бонус для retry (крім <code>deposit_limit</code>)</li>
+  <li>Після 2-ї невдалої спроби: 10 FS бонус для retry (крім <code>deposit_limit</code>)</li>
+  <li>Anti-spam: макс 3 In-App повідомлення на 24 год цикл</li>
+</ul>
+
+<div class="info">
+  <strong>RG Compliance:</strong> Тип помилки <code>deposit_limit</code> НІКОЛИ не має включати бонусні стимули. Показувати інформацію про відповідальну гру та інструменти управління лімітами.
+</div>
+
+<h3>4.4 Кроки реалізації</h3>
+<table>
+  <tr><th>#</th><th>Дія</th><th>Пріоритет</th></tr>
+  <tr><td>1</td><td>Перевірити що <code>deposit_failed</code> event передає <code>error_type</code></td><td class="new">Високий</td></tr>
+  <tr><td>2</td><td>Побудувати True/False Branch для кожного з 6 типів помилок</td><td class="new">Високий</td></tr>
+  <tr><td>3</td><td>Створити 6 контекстних In-App шаблонів</td><td class="new">Високий</td></tr>
+  <tr><td>4</td><td>Додати логіку retry бонуса (5 FS → 10 FS)</td><td>Середній</td></tr>
+  <tr><td>5</td><td>Імплементувати anti-spam: макс 3 на 24 год</td><td class="new">Високий</td></tr>
+  <tr><td>6</td><td>Окремий RG-compliant шлях для deposit_limit</td><td class="new">Високий</td></tr>
+</table>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge refactor">ФАЗА 2</span> Payment Declined <span class="tag tag-exists">СУЩЕСТВУЕТ</span> <span class="tag tag-refactor">ПЕРЕРАБОТКА</span></h2>
+<p>Обработка неудачных попыток депозита. Переработать с добавлением маршрутизации по типу ошибки с контекстными ответами.</p>
+
+<h3>4.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значение</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>deposit_failed</code> (с <code>error_type</code>)</td></tr>
+  <tr><td>EXIT (успех)</td><td>Успешный депозит → возврат в предыдущий поток</td></tr>
+  <tr><td>EXIT (макс. попытки)</td><td>3 неудачных попытки → выход, cool-down 24ч</td></tr>
+</table>
+
+<h3>4.2 Маршрутизация по типу ошибки</h3>
+<table>
+  <tr><th>Тип ошибки</th><th>In-App сообщение</th><th>Действие</th></tr>
+  <tr><td><code>processor_gateway</code></td><td>"Техническая проблема, попробуйте через несколько минут"</td><td>Ссылка на retry, альтернативные методы</td></tr>
+  <tr><td><code>3ds_auth</code></td><td>"Верификация 3D Secure не пройдена"</td><td>Инструкции, предложение связаться с банком</td></tr>
+  <tr><td><code>card_declined</code></td><td>"Карта отклонена вашим банком"</td><td>Альтернативные методы оплаты</td></tr>
+  <tr><td><code>wrong_card</code></td><td>"Данные карты неверны"</td><td>Повторный ввод данных карты</td></tr>
+  <tr><td><code>crypto_failed</code></td><td>"Крипто-транзакция не удалась"</td><td>Проверить баланс кошелька, retry</td></tr>
+  <tr><td><code>deposit_limit</code></td><td>"Вы достигли лимита депозита"</td><td>RG-compliant: инфо о лимите, без бонус-пуша</td></tr>
+</table>
+
+<h3>4.3 Стимулирование</h3>
+<ul>
+  <li>После 1-й неудачной попытки: 5 FS бонус для retry (кроме <code>deposit_limit</code>)</li>
+  <li>После 2-й неудачной попытки: 10 FS бонус для retry (кроме <code>deposit_limit</code>)</li>
+  <li>Anti-spam: макс 3 In-App сообщения за 24ч цикл</li>
+</ul>
+
+<div class="info">
+  <strong>RG Compliance:</strong> Тип ошибки <code>deposit_limit</code> НИКОГДА не должен включать бонусные стимулы. Показывать информацию об ответственной игре и инструменты управления лимитами.
+</div>
+
+<h3>4.4 Шаги реализации</h3>
+<table>
+  <tr><th>#</th><th>Действие</th><th>Приоритет</th></tr>
+  <tr><td>1</td><td>Проверить что <code>deposit_failed</code> event передаёт <code>error_type</code></td><td class="new">Высокий</td></tr>
+  <tr><td>2</td><td>Построить True/False Branch для каждого из 6 типов ошибок</td><td class="new">Высокий</td></tr>
+  <tr><td>3</td><td>Создать 6 контекстных In-App шаблонов</td><td class="new">Высокий</td></tr>
+  <tr><td>4</td><td>Добавить логику retry бонуса (5 FS → 10 FS)</td><td>Средний</td></tr>
+  <tr><td>5</td><td>Реализовать anti-spam: макс 3 за 24ч</td><td class="new">Высокий</td></tr>
+  <tr><td>6</td><td>Отдельный RG-compliant путь для deposit_limit</td><td class="new">Высокий</td></tr>
+</table>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 5 — PHASE 3: NUTRITION #1 (REFACTOR)               ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase3" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge refactor">PHASE 3</span> Nutrition #1 — Post-FTD → 2nd Deposit <span class="tag tag-exists">EXISTS</span> <span class="tag tag-refactor">REFACTOR</span></h2>
+<p>Nurtures first-time depositors toward their 2nd deposit. Currently exists — refactor to align with the new flow architecture.</p>
+
+<h3>5.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>first_deposit</code> (from Welcome EXIT)</td></tr>
+  <tr><td>EXIT (success)</td><td>2nd deposit made → enters <strong>Nutrition #2</strong></td></tr>
+  <tr><td>EXIT (timeout)</td><td>Day 10 without 2nd deposit → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Duration</td><td>10 days max</td></tr>
+</table>
+
+<h3>5.2 Timed Sequence</h3>
+<table>
+  <tr><th>Day</th><th>Channel</th><th>Message</th></tr>
+  <tr><td>Day 2</td><td>Email</td><td>Congratulations on FTD + explore games guide</td></tr>
+  <tr><td>Day 3</td><td>Email + In-App</td><td>2nd deposit offer: match bonus</td></tr>
+  <tr><td>Day 5</td><td>Email</td><td>Feature highlight (tournaments, Lootwheel)</td></tr>
+  <tr><td>Day 7</td><td>Email + In-App</td><td>Reminder: your bonus is waiting</td></tr>
+  <tr><td>Day 10</td><td>Email</td><td>Last chance for 2nd deposit offer</td></tr>
+</table>
+
+<h3>5.3 Behavioral Triggers</h3>
+<ul>
+  <li><code>balance_low</code> (balance &lt; $5) → In-App: "Top up to keep playing!" + deposit link</li>
+  <li><code>session_ended</code> with zero balance → Email: "Your next adventure awaits" + reload offer</li>
+</ul>
+
+<h3>5.4 At Each Step: Check "Made 2nd deposit?"</h3>
+<p>Before every message: True/False Branch → if 2nd deposit made, EXIT to Nutrition #2 immediately. Don't wait for next scheduled step.</p>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge refactor">ФАЗА 3</span> Nutrition #1 — Post-FTD → 2-й депозит <span class="tag tag-exists">ІСНУЄ</span> <span class="tag tag-refactor">ПЕРЕРОБКА</span></h2>
+<p>Супроводжує гравців після першого депозиту до другого. Зараз існує — переробити для узгодження з новою архітектурою потоків.</p>
+
+<h3>5.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значення</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>first_deposit</code> (з Welcome EXIT)</td></tr>
+  <tr><td>EXIT (успіх)</td><td>2-й депозит зроблений → переходить до <strong>Nutrition #2</strong></td></tr>
+  <tr><td>EXIT (таймаут)</td><td>День 10 без 2-го депозиту → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Тривалість</td><td>Максимум 10 днів</td></tr>
+</table>
+
+<h3>5.2 Часова послідовність</h3>
+<table>
+  <tr><th>День</th><th>Канал</th><th>Повідомлення</th></tr>
+  <tr><td>День 2</td><td>Email</td><td>Вітаємо з FTD + гайд по іграх</td></tr>
+  <tr><td>День 3</td><td>Email + In-App</td><td>Пропозиція 2-го депозиту: match бонус</td></tr>
+  <tr><td>День 5</td><td>Email</td><td>Особливості (турніри, Lootwheel)</td></tr>
+  <tr><td>День 7</td><td>Email + In-App</td><td>Нагадування: ваш бонус чекає</td></tr>
+  <tr><td>День 10</td><td>Email</td><td>Остання можливість для 2-го депозиту</td></tr>
+</table>
+
+<h3>5.3 Behavioral Triggers</h3>
+<ul>
+  <li><code>balance_low</code> (баланс &lt; $5) → In-App: "Поповніть, щоб грати далі!" + посилання на депозит</li>
+  <li><code>session_ended</code> з нульовим балансом → Email: "Ваша наступна пригода чекає" + offer на поповнення</li>
+</ul>
+
+<h3>5.4 На кожному кроці: перевірка "Зробив 2-й депозит?"</h3>
+<p>Перед кожним повідомленням: True/False Branch → якщо 2-й депозит зроблений, EXIT до Nutrition #2 негайно. Не чекати наступного запланованого кроку.</p>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge refactor">ФАЗА 3</span> Nutrition #1 — Post-FTD → 2-й депозит <span class="tag tag-exists">СУЩЕСТВУЕТ</span> <span class="tag tag-refactor">ПЕРЕРАБОТКА</span></h2>
+<p>Сопровождает игроков после первого депозита ко второму. Сейчас существует — переработать для согласования с новой архитектурой потоков.</p>
+
+<h3>5.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значение</th></tr>
+  <tr><td>Trigger</td><td>Event: <code>first_deposit</code> (из Welcome EXIT)</td></tr>
+  <tr><td>EXIT (успех)</td><td>2-й депозит сделан → переходит в <strong>Nutrition #2</strong></td></tr>
+  <tr><td>EXIT (таймаут)</td><td>День 10 без 2-го депозита → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Длительность</td><td>Максимум 10 дней</td></tr>
+</table>
+
+<h3>5.2 Временна́я последовательность</h3>
+<table>
+  <tr><th>День</th><th>Канал</th><th>Сообщение</th></tr>
+  <tr><td>День 2</td><td>Email</td><td>Поздравляем с FTD + гайд по играм</td></tr>
+  <tr><td>День 3</td><td>Email + In-App</td><td>Предложение 2-го депозита: match бонус</td></tr>
+  <tr><td>День 5</td><td>Email</td><td>Особенности (турниры, Lootwheel)</td></tr>
+  <tr><td>День 7</td><td>Email + In-App</td><td>Напоминание: ваш бонус ждёт</td></tr>
+  <tr><td>День 10</td><td>Email</td><td>Последний шанс для 2-го депозита</td></tr>
+</table>
+
+<h3>5.3 Behavioral Triggers</h3>
+<ul>
+  <li><code>balance_low</code> (баланс &lt; $5) → In-App: "Пополните, чтобы продолжить!" + ссылка на депозит</li>
+  <li><code>session_ended</code> с нулевым балансом → Email: "Ваше следующее приключение ждёт" + offer на пополнение</li>
+</ul>
+
+<h3>5.4 На каждом шаге: проверка "Сделал 2-й депозит?"</h3>
+<p>Перед каждым сообщением: True/False Branch → если 2-й депозит сделан, EXIT в Nutrition #2 немедленно. Не ждать следующего запланированного шага.</p>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 6 — PHASE 4: NUTRITION #2 (REFACTOR)               ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase4" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge refactor">PHASE 4</span> Nutrition #2 — Post-2nd → 3rd Deposit <span class="tag tag-exists">EXISTS</span> <span class="tag tag-refactor">REFACTOR</span></h2>
+<p>Guides players from their 2nd deposit to the 3rd. Currently exists — refactor to include behavioral triggers and proper EXIT routing.</p>
+
+<h3>6.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Trigger</td><td>2nd deposit made (from Nutrition #1 EXIT)</td></tr>
+  <tr><td>EXIT (success)</td><td>3rd deposit → enters <strong>Nutrition #3</strong></td></tr>
+  <tr><td>EXIT (timeout)</td><td>Day 10 without 3rd deposit → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Duration</td><td>10 days max</td></tr>
+</table>
+
+<h3>6.2 Offer</h3>
+<div class="note">
+  <strong>3rd Deposit Bonus:</strong> 50% up to 1,000 EUR + 100 Free Spins
+</div>
+
+<h3>6.3 Timed Sequence</h3>
+<table>
+  <tr><th>Day</th><th>Channel</th><th>Message</th></tr>
+  <tr><td>Day 1</td><td>Email + In-App</td><td>3rd deposit offer reveal</td></tr>
+  <tr><td>Day 2</td><td>Email</td><td>Game recommendations based on play history</td></tr>
+  <tr><td>Day 4</td><td>Email + In-App</td><td>Social proof: "Players like you love..."</td></tr>
+  <tr><td>Day 7</td><td>Email</td><td>Countdown: offer expires soon</td></tr>
+  <tr><td>Day 10</td><td>Email + In-App</td><td>Final call</td></tr>
+</table>
+
+<h3>6.4 Behavioral Triggers</h3>
+<ul>
+  <li><code>balance_low</code> → In-App: reload offer with 3rd deposit bonus reminder</li>
+  <li><code>wagering_completed</code> → Immediate In-App: "Bonus cleared! Ready for your next one?"</li>
+</ul>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge refactor">ФАЗА 4</span> Nutrition #2 — Post-2nd → 3-й депозит <span class="tag tag-exists">ІСНУЄ</span> <span class="tag tag-refactor">ПЕРЕРОБКА</span></h2>
+<p>Веде гравців від 2-го депозиту до 3-го. Зараз існує — переробити з додаванням behavioral triggers та правильної EXIT маршрутизації.</p>
+
+<h3>6.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значення</th></tr>
+  <tr><td>Trigger</td><td>2-й депозит зроблений (з Nutrition #1 EXIT)</td></tr>
+  <tr><td>EXIT (успіх)</td><td>3-й депозит → переходить до <strong>Nutrition #3</strong></td></tr>
+  <tr><td>EXIT (таймаут)</td><td>День 10 без 3-го депозиту → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Тривалість</td><td>Максимум 10 днів</td></tr>
+</table>
+
+<h3>6.2 Пропозиція</h3>
+<div class="note">
+  <strong>Бонус 3-го депозиту:</strong> 50% до 1,000 EUR + 100 Free Spins
+</div>
+
+<h3>6.3 Часова послідовність</h3>
+<table>
+  <tr><th>День</th><th>Канал</th><th>Повідомлення</th></tr>
+  <tr><td>День 1</td><td>Email + In-App</td><td>Розкриття пропозиції 3-го депозиту</td></tr>
+  <tr><td>День 2</td><td>Email</td><td>Рекомендації ігор на основі історії</td></tr>
+  <tr><td>День 4</td><td>Email + In-App</td><td>Social proof: "Гравці як ви обирають..."</td></tr>
+  <tr><td>День 7</td><td>Email</td><td>Зворотній відлік: пропозиція скоро закінчується</td></tr>
+  <tr><td>День 10</td><td>Email + In-App</td><td>Остаточний дзвінок</td></tr>
+</table>
+
+<h3>6.4 Behavioral Triggers</h3>
+<ul>
+  <li><code>balance_low</code> → In-App: пропозиція поповнення з нагадуванням про бонус 3-го депозиту</li>
+  <li><code>wagering_completed</code> → Негайний In-App: "Бонус відіграний! Готові до наступного?"</li>
+</ul>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge refactor">ФАЗА 4</span> Nutrition #2 — Post-2nd → 3-й депозит <span class="tag tag-exists">СУЩЕСТВУЕТ</span> <span class="tag tag-refactor">ПЕРЕРАБОТКА</span></h2>
+<p>Ведёт игроков от 2-го депозита к 3-му. Сейчас существует — переработать с добавлением behavioral triggers и правильной EXIT маршрутизации.</p>
+
+<h3>6.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значение</th></tr>
+  <tr><td>Trigger</td><td>2-й депозит сделан (из Nutrition #1 EXIT)</td></tr>
+  <tr><td>EXIT (успех)</td><td>3-й депозит → переходит в <strong>Nutrition #3</strong></td></tr>
+  <tr><td>EXIT (таймаут)</td><td>День 10 без 3-го депозита → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Длительность</td><td>Максимум 10 дней</td></tr>
+</table>
+
+<h3>6.2 Предложение</h3>
+<div class="note">
+  <strong>Бонус 3-го депозита:</strong> 50% до 1,000 EUR + 100 Free Spins
+</div>
+
+<h3>6.3 Временна́я последовательность</h3>
+<table>
+  <tr><th>День</th><th>Канал</th><th>Сообщение</th></tr>
+  <tr><td>День 1</td><td>Email + In-App</td><td>Раскрытие предложения 3-го депозита</td></tr>
+  <tr><td>День 2</td><td>Email</td><td>Рекомендации игр на основе истории</td></tr>
+  <tr><td>День 4</td><td>Email + In-App</td><td>Social proof: "Игроки как вы выбирают..."</td></tr>
+  <tr><td>День 7</td><td>Email</td><td>Обратный отсчёт: предложение скоро истекает</td></tr>
+  <tr><td>День 10</td><td>Email + In-App</td><td>Финальный звонок</td></tr>
+</table>
+
+<h3>6.4 Behavioral Triggers</h3>
+<ul>
+  <li><code>balance_low</code> → In-App: предложение пополнения с напоминанием о бонусе 3-го депозита</li>
+  <li><code>wagering_completed</code> → Немедленный In-App: "Бонус отыгран! Готовы к следующему?"</li>
+</ul>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 7 — PHASE 5: NUTRITION #3 (NEW)                    ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase5" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge new-b">PHASE 5</span> Nutrition #3 — Grand Finale → 4th Deposit <span class="tag tag-new">NEW</span></h2>
+<p>The final welcome-series campaign. Converts 3-deposit players into fully onboarded active players.</p>
+
+<h3>7.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Trigger</td><td>3rd deposit made (from Nutrition #2 EXIT)</td></tr>
+  <tr><td>EXIT (success)</td><td>4th deposit → set <code>welcome_status = complete</code> → <strong>Active Retention</strong></td></tr>
+  <tr><td>EXIT (timeout)</td><td>Day 10 without 4th deposit → set <code>welcome_status = incomplete</code> → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Duration</td><td>10 days max</td></tr>
+</table>
+
+<h3>7.2 Grand Finale Offer</h3>
+<div class="note">
+  <strong>4th Deposit Bonus:</strong> 125% up to 1,500 EUR + 150 Free Spins — the biggest welcome offer
+</div>
+
+<h3>7.3 Timed Sequence</h3>
+<table>
+  <tr><th>Day</th><th>Channel</th><th>Message</th></tr>
+  <tr><td>Day 1</td><td>Email + In-App</td><td>"Grand Finale" offer reveal — biggest bonus yet</td></tr>
+  <tr><td>Day 3</td><td>Email</td><td>VIP program preview, loyalty benefits</td></tr>
+  <tr><td>Day 5</td><td>Email + In-App</td><td>Exclusive games / new releases</td></tr>
+  <tr><td>Day 7</td><td>Email</td><td>Countdown: Grand Finale expires soon</td></tr>
+  <tr><td>Day 10</td><td>Email + In-App</td><td>Final call — last chance for maximum bonus</td></tr>
+</table>
+
+<h3>7.4 Key Transition</h3>
+<p>This is the <strong>most critical EXIT point</strong> in the entire system:</p>
+<ul>
+  <li><strong>4th deposit made</strong> → <code>welcome_status = complete</code> → player moves to <strong>Active Retention</strong> as a fully onboarded player</li>
+  <li><strong>No 4th deposit by Day 10</strong> → <code>welcome_status = incomplete</code> → player enters <strong>Reactivation Tier 1</strong> with recovery attempts</li>
+</ul>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge new-b">ФАЗА 5</span> Nutrition #3 — Grand Finale → 4-й депозит <span class="tag tag-new">НОВИЙ</span></h2>
+<p>Фінальна кампанія welcome-серії. Конвертує гравців з 3 депозитами у повністю онбоарджених активних гравців.</p>
+
+<h3>7.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значення</th></tr>
+  <tr><td>Trigger</td><td>3-й депозит зроблений (з Nutrition #2 EXIT)</td></tr>
+  <tr><td>EXIT (успіх)</td><td>4-й депозит → встановити <code>welcome_status = complete</code> → <strong>Active Retention</strong></td></tr>
+  <tr><td>EXIT (таймаут)</td><td>День 10 без 4-го депозиту → встановити <code>welcome_status = incomplete</code> → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Тривалість</td><td>Максимум 10 днів</td></tr>
+</table>
+
+<h3>7.2 Grand Finale пропозиція</h3>
+<div class="note">
+  <strong>Бонус 4-го депозиту:</strong> 125% до 1,500 EUR + 150 Free Spins — найбільший welcome offer
+</div>
+
+<h3>7.3 Часова послідовність</h3>
+<table>
+  <tr><th>День</th><th>Канал</th><th>Повідомлення</th></tr>
+  <tr><td>День 1</td><td>Email + In-App</td><td>"Grand Finale" — найбільший бонус ще</td></tr>
+  <tr><td>День 3</td><td>Email</td><td>Превью VIP програми, loyalty переваги</td></tr>
+  <tr><td>День 5</td><td>Email + In-App</td><td>Ексклюзивні ігри / нові релізи</td></tr>
+  <tr><td>День 7</td><td>Email</td><td>Зворотній відлік: Grand Finale скоро закінчується</td></tr>
+  <tr><td>День 10</td><td>Email + In-App</td><td>Остаточний дзвінок — останній шанс на максимальний бонус</td></tr>
+</table>
+
+<h3>7.4 Ключовий перехід</h3>
+<p>Це <strong>найкритичніша EXIT-точка</strong> у всій системі:</p>
+<ul>
+  <li><strong>4-й депозит зроблений</strong> → <code>welcome_status = complete</code> → гравець переходить до <strong>Active Retention</strong> як повністю онбоарджений</li>
+  <li><strong>Без 4-го депозиту до Дня 10</strong> → <code>welcome_status = incomplete</code> → гравець потрапляє в <strong>Reactivation Tier 1</strong></li>
+</ul>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge new-b">ФАЗА 5</span> Nutrition #3 — Grand Finale → 4-й депозит <span class="tag tag-new">НОВАЯ</span></h2>
+<p>Финальная кампания welcome-серии. Конвертирует игроков с 3 депозитами в полностью онбордженных активных игроков.</p>
+
+<h3>7.1 Trigger &amp; EXIT</h3>
+<table>
+  <tr><th>Параметр</th><th>Значение</th></tr>
+  <tr><td>Trigger</td><td>3-й депозит сделан (из Nutrition #2 EXIT)</td></tr>
+  <tr><td>EXIT (успех)</td><td>4-й депозит → установить <code>welcome_status = complete</code> → <strong>Active Retention</strong></td></tr>
+  <tr><td>EXIT (таймаут)</td><td>День 10 без 4-го депозита → установить <code>welcome_status = incomplete</code> → <strong>Reactivation Tier 1</strong></td></tr>
+  <tr><td>Длительность</td><td>Максимум 10 дней</td></tr>
+</table>
+
+<h3>7.2 Grand Finale предложение</h3>
+<div class="note">
+  <strong>Бонус 4-го депозита:</strong> 125% до 1,500 EUR + 150 Free Spins — самый большой welcome offer
+</div>
+
+<h3>7.3 Временна́я последовательность</h3>
+<table>
+  <tr><th>День</th><th>Канал</th><th>Сообщение</th></tr>
+  <tr><td>День 1</td><td>Email + In-App</td><td>"Grand Finale" — самый большой бонус</td></tr>
+  <tr><td>День 3</td><td>Email</td><td>Превью VIP-программы, loyalty преимущества</td></tr>
+  <tr><td>День 5</td><td>Email + In-App</td><td>Эксклюзивные игры / новые релизы</td></tr>
+  <tr><td>День 7</td><td>Email</td><td>Обратный отсчёт: Grand Finale скоро истекает</td></tr>
+  <tr><td>День 10</td><td>Email + In-App</td><td>Финальный звонок — последний шанс на максимальный бонус</td></tr>
+</table>
+
+<h3>7.4 Ключевой переход</h3>
+<p>Это <strong>самая критическая EXIT-точка</strong> во всей системе:</p>
+<ul>
+  <li><strong>4-й депозит сделан</strong> → <code>welcome_status = complete</code> → игрок переходит в <strong>Active Retention</strong> как полностью онбордженный</li>
+  <li><strong>Без 4-го депозита к Дню 10</strong> → <code>welcome_status = incomplete</code> → игрок попадает в <strong>Reactivation Tier 1</strong></li>
+</ul>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 8 — PHASE 6: BEHAVIORAL TRIGGERS (NEW)             ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase6" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge new-b">PHASE 6</span> Event-Triggered Behavioral Campaigns <span class="tag tag-new">NEW</span></h2>
+<p>Master behavioral trigger routing logic. These are <strong>parallel campaigns</strong> that run alongside all other flows — the "glue" of the entire system.</p>
+
+<h3>8.1 Trigger Map</h3>
+<table>
+  <tr><th>Event</th><th>Routing Logic</th><th>Response</th></tr>
+  <tr><td><code>balance_low</code></td><td>Check segment: Nutrition #1 / #2 / Active</td><td>Segment-specific reload offer via In-App</td></tr>
+  <tr><td><code>session_ended</code></td><td>Multi-step: played games? → won? → balance?</td><td>Contextual email/In-App based on outcomes</td></tr>
+  <tr><td><code>wagering_completed</code></td><td>Immediate</td><td>"Bonus cleared! Reload offer" via In-App</td></tr>
+  <tr><td><code>birthday</code></td><td>Check <code>vip_tier</code></td><td>VIP-tiered gift (25 FS → personalized)</td></tr>
+  <tr><td><code>withdrawal_cancelled</code></td><td>Immediate</td><td>Retention FS + "Keep playing!" In-App</td></tr>
+  <tr><td><code>inactivity_7d</code></td><td>Check current flow</td><td>If not in Nutrition → Reactivation Tier 1 entry</td></tr>
+  <tr><td><code>inactivity_14d</code></td><td>Escalate</td><td>Reactivation Tier 2 entry</td></tr>
+</table>
+
+<h3>8.2 Frequency Capping</h3>
+<div class="warn">
+  <strong>Critical:</strong> Max 1 behavioral trigger message per player per 24 hours. Without this, players in multiple flows can receive 5+ messages/day.
+</div>
+
+<h3>8.3 Safeguards</h3>
+<ul>
+  <li>Check <code>bonus_abuse_flag</code> before sending any bonus offer</li>
+  <li>Check <code>active_bonus</code> — don't offer new bonus if one is active</li>
+  <li>Respect suppression lists and unsubscribe preferences</li>
+</ul>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge new-b">ФАЗА 6</span> Event-Triggered Behavioral Campaigns <span class="tag tag-new">НОВИЙ</span></h2>
+<p>Головна логіка маршрутизації behavioral triggers. Це <strong>паралельні кампанії</strong>, що працюють разом з усіма іншими потоками — "клей" всієї системи.</p>
+
+<h3>8.1 Карта тригерів</h3>
+<table>
+  <tr><th>Event</th><th>Логіка маршрутизації</th><th>Відповідь</th></tr>
+  <tr><td><code>balance_low</code></td><td>Перевірити сегмент: Nutrition #1 / #2 / Active</td><td>Сегмент-специфічний offer через In-App</td></tr>
+  <tr><td><code>session_ended</code></td><td>Multi-step: грав? → виграв? → баланс?</td><td>Контекстний email/In-App за результатами</td></tr>
+  <tr><td><code>wagering_completed</code></td><td>Негайно</td><td>"Бонус відіграний! Offer на поповнення" через In-App</td></tr>
+  <tr><td><code>birthday</code></td><td>Перевірити <code>vip_tier</code></td><td>VIP-тірований подарунок (25 FS → персональний)</td></tr>
+  <tr><td><code>withdrawal_cancelled</code></td><td>Негайно</td><td>Retention FS + "Продовжуйте грати!" In-App</td></tr>
+  <tr><td><code>inactivity_7d</code></td><td>Перевірити поточний потік</td><td>Якщо не в Nutrition → вхід у Reactivation Tier 1</td></tr>
+  <tr><td><code>inactivity_14d</code></td><td>Ескалація</td><td>Вхід у Reactivation Tier 2</td></tr>
+</table>
+
+<h3>8.2 Frequency Capping</h3>
+<div class="warn">
+  <strong>Критично:</strong> Макс 1 behavioral trigger повідомлення на гравця на 24 години. Без цього гравці в кількох потоках можуть отримувати 5+ повідомлень/день.
+</div>
+
+<h3>8.3 Запобіжники</h3>
+<ul>
+  <li>Перевірити <code>bonus_abuse_flag</code> перед відправкою будь-якого бонус-offer</li>
+  <li>Перевірити <code>active_bonus</code> — не пропонувати новий бонус, якщо один вже активний</li>
+  <li>Поважати списки пригнічення та налаштування відписки</li>
+</ul>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge new-b">ФАЗА 6</span> Event-Triggered Behavioral Campaigns <span class="tag tag-new">НОВАЯ</span></h2>
+<p>Главная логика маршрутизации behavioral triggers. Это <strong>параллельные кампании</strong>, работающие вместе со всеми другими потоками — «клей» всей системы.</p>
+
+<h3>8.1 Карта триггеров</h3>
+<table>
+  <tr><th>Event</th><th>Логика маршрутизации</th><th>Ответ</th></tr>
+  <tr><td><code>balance_low</code></td><td>Проверить сегмент: Nutrition #1 / #2 / Active</td><td>Сегмент-специфичный offer через In-App</td></tr>
+  <tr><td><code>session_ended</code></td><td>Multi-step: играл? → выиграл? → баланс?</td><td>Контекстный email/In-App по результатам</td></tr>
+  <tr><td><code>wagering_completed</code></td><td>Немедленно</td><td>"Бонус отыгран! Offer на пополнение" через In-App</td></tr>
+  <tr><td><code>birthday</code></td><td>Проверить <code>vip_tier</code></td><td>VIP-тирированный подарок (25 FS → персональный)</td></tr>
+  <tr><td><code>withdrawal_cancelled</code></td><td>Немедленно</td><td>Retention FS + "Продолжайте играть!" In-App</td></tr>
+  <tr><td><code>inactivity_7d</code></td><td>Проверить текущий поток</td><td>Если не в Nutrition → вход в Reactivation Tier 1</td></tr>
+  <tr><td><code>inactivity_14d</code></td><td>Эскалация</td><td>Вход в Reactivation Tier 2</td></tr>
+</table>
+
+<h3>8.2 Frequency Capping</h3>
+<div class="warn">
+  <strong>Критично:</strong> Макс 1 behavioral trigger сообщение на игрока за 24 часа. Без этого игроки в нескольких потоках могут получать 5+ сообщений/день.
+</div>
+
+<h3>8.3 Предохранители</h3>
+<ul>
+  <li>Проверить <code>bonus_abuse_flag</code> перед отправкой любого бонус-предложения</li>
+  <li>Проверить <code>active_bonus</code> — не предлагать новый бонус, если один уже активен</li>
+  <li>Уважать списки подавления и настройки отписки</li>
+</ul>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 9 — PHASE 7: RETENTION & REACTIVATION (NEW)        ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase7" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge new-b">PHASE 7</span> Retention &amp; Reactivation <span class="tag tag-new">NEW</span></h2>
+<p>Two-part system: <strong>Active Retention</strong> keeps engaged players, <strong>Reactivation</strong> (4 tiers) recovers lapsing players.</p>
+
+<h3>9.1 Active Retention — 8 Triggers</h3>
+<table>
+  <tr><th>Trigger</th><th>Channel</th><th>Message</th></tr>
+  <tr><td>Session End</td><td>In-App + Email</td><td>Personalized recap + next session teaser</td></tr>
+  <tr><td>Birthday</td><td>Email + In-App</td><td>VIP-tiered birthday gift</td></tr>
+  <tr><td>Big Win</td><td>In-App</td><td>Celebration + "Play more" CTA</td></tr>
+  <tr><td>Weekly Loyalty</td><td>Email</td><td>Points summary, cashback, recommendations</td></tr>
+  <tr><td>Balance Low</td><td>In-App</td><td>Reload offer with personalized amount</td></tr>
+  <tr><td>Wagering Completed</td><td>In-App</td><td>Next bonus offer</td></tr>
+  <tr><td>New Game Launch</td><td>Email</td><td>Based on preferred_games/favorite_slots</td></tr>
+  <tr><td>Tournament Reminder</td><td>Email + In-App</td><td>Upcoming/active tournaments</td></tr>
+</table>
+
+<h3>9.2 Reactivation — 4 Tiers</h3>
+<table>
+  <tr><th>Tier</th><th>Inactive Period</th><th>Offer</th><th>Channels</th></tr>
+  <tr><td><strong>Tier 1</strong></td><td>7 days</td><td>50% reload + 25 FS</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Tier 2</strong></td><td>14 days</td><td>75% + 50 FS</td><td>Email + In-App + SMS</td></tr>
+  <tr><td><strong>Tier 3</strong></td><td>30 days</td><td>100% + 100 FS</td><td>Email + SMS + personalized</td></tr>
+  <tr><td><strong>Tier 4</strong></td><td>60+ days</td><td>Exclusive VIP-based</td><td>All channels + manual outreach</td></tr>
+</table>
+
+<h3>9.3 Product Inactive Segment</h3>
+<p>Special handling for players who <strong>open emails but don't play</strong> (last 14 days). These get email-only engagement with game previews and no-deposit-required content (free games, articles, tournament spectating).</p>
+
+<h3>9.4 Dormant Archive</h3>
+<p>90+ days without any activity → move to <strong>Dormant</strong> segment. Receive max 1 email/month. After 180 days, stop all communication.</p>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge new-b">ФАЗА 7</span> Retention &amp; Reactivation <span class="tag tag-new">НОВИЙ</span></h2>
+<p>Двочастинна система: <strong>Active Retention</strong> утримує залучених гравців, <strong>Reactivation</strong> (4 тіри) повертає тих, хто відходить.</p>
+
+<h3>9.1 Active Retention — 8 тригерів</h3>
+<table>
+  <tr><th>Тригер</th><th>Канал</th><th>Повідомлення</th></tr>
+  <tr><td>Session End</td><td>In-App + Email</td><td>Персоналізований recap + тізер наступної сесії</td></tr>
+  <tr><td>Birthday</td><td>Email + In-App</td><td>VIP-тірований подарунок на день народження</td></tr>
+  <tr><td>Big Win</td><td>In-App</td><td>Привітання + CTA "Грай далі"</td></tr>
+  <tr><td>Weekly Loyalty</td><td>Email</td><td>Підсумок балів, кешбек, рекомендації</td></tr>
+  <tr><td>Balance Low</td><td>In-App</td><td>Offer на поповнення з персональною сумою</td></tr>
+  <tr><td>Wagering Completed</td><td>In-App</td><td>Наступний бонус offer</td></tr>
+  <tr><td>New Game Launch</td><td>Email</td><td>На основі preferred_games/favorite_slots</td></tr>
+  <tr><td>Tournament Reminder</td><td>Email + In-App</td><td>Майбутні/активні турніри</td></tr>
+</table>
+
+<h3>9.2 Reactivation — 4 тіри</h3>
+<table>
+  <tr><th>Тір</th><th>Період неактивності</th><th>Пропозиція</th><th>Канали</th></tr>
+  <tr><td><strong>Tier 1</strong></td><td>7 днів</td><td>50% reload + 25 FS</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Tier 2</strong></td><td>14 днів</td><td>75% + 50 FS</td><td>Email + In-App + SMS</td></tr>
+  <tr><td><strong>Tier 3</strong></td><td>30 днів</td><td>100% + 100 FS</td><td>Email + SMS + персональний</td></tr>
+  <tr><td><strong>Tier 4</strong></td><td>60+ днів</td><td>Ексклюзивний VIP-based</td><td>Усі канали + ручне</td></tr>
+</table>
+
+<h3>9.3 Product Inactive сегмент</h3>
+<p>Спеціальна обробка для гравців, які <strong>відкривають emails, але не грають</strong> (останні 14 днів). Отримують тільки email з превью ігор та контентом без необхідності депозиту.</p>
+
+<h3>9.4 Dormant Archive</h3>
+<p>90+ днів без активності → перехід до сегменту <strong>Dormant</strong>. Макс 1 email/місяць. Після 180 днів — повна зупинка комунікацій.</p>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge new-b">ФАЗА 7</span> Retention &amp; Reactivation <span class="tag tag-new">НОВАЯ</span></h2>
+<p>Двухчастная система: <strong>Active Retention</strong> удерживает вовлечённых игроков, <strong>Reactivation</strong> (4 тира) возвращает уходящих.</p>
+
+<h3>9.1 Active Retention — 8 триггеров</h3>
+<table>
+  <tr><th>Триггер</th><th>Канал</th><th>Сообщение</th></tr>
+  <tr><td>Session End</td><td>In-App + Email</td><td>Персонализированный recap + тизер следующей сессии</td></tr>
+  <tr><td>Birthday</td><td>Email + In-App</td><td>VIP-тирированный подарок на день рождения</td></tr>
+  <tr><td>Big Win</td><td>In-App</td><td>Поздравление + CTA "Играй дальше"</td></tr>
+  <tr><td>Weekly Loyalty</td><td>Email</td><td>Итог баллов, кешбэк, рекомендации</td></tr>
+  <tr><td>Balance Low</td><td>In-App</td><td>Offer на пополнение с персональной суммой</td></tr>
+  <tr><td>Wagering Completed</td><td>In-App</td><td>Следующий бонус offer</td></tr>
+  <tr><td>New Game Launch</td><td>Email</td><td>На основе preferred_games/favorite_slots</td></tr>
+  <tr><td>Tournament Reminder</td><td>Email + In-App</td><td>Предстоящие/активные турниры</td></tr>
+</table>
+
+<h3>9.2 Reactivation — 4 тира</h3>
+<table>
+  <tr><th>Тир</th><th>Период неактивности</th><th>Предложение</th><th>Каналы</th></tr>
+  <tr><td><strong>Tier 1</strong></td><td>7 дней</td><td>50% reload + 25 FS</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Tier 2</strong></td><td>14 дней</td><td>75% + 50 FS</td><td>Email + In-App + SMS</td></tr>
+  <tr><td><strong>Tier 3</strong></td><td>30 дней</td><td>100% + 100 FS</td><td>Email + SMS + персональный</td></tr>
+  <tr><td><strong>Tier 4</strong></td><td>60+ дней</td><td>Эксклюзивный VIP-based</td><td>Все каналы + ручное</td></tr>
+</table>
+
+<h3>9.3 Product Inactive сегмент</h3>
+<p>Специальная обработка для игроков, которые <strong>открывают emails, но не играют</strong> (последние 14 дней). Получают только email с превью игр и контентом без необходимости депозита.</p>
+
+<h3>9.4 Dormant Archive</h3>
+<p>90+ дней без активности → переход в сегмент <strong>Dormant</strong>. Макс 1 email/месяц. После 180 дней — полная остановка коммуникаций.</p>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 10 — PHASE 8: CHURN PREVENTION (NEW)               ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase8" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge new-b">PHASE 8</span> Churn Prevention <span class="tag tag-new">NEW</span></h2>
+<p>Proactive intervention before players churn. Monitors 6 risk signals and responds with targeted actions.</p>
+
+<h3>10.1 Risk Signals &amp; Responses</h3>
+<table>
+  <tr><th>Signal</th><th>Detection</th><th>Response</th><th>Channel</th></tr>
+  <tr><td><strong>Withdrawal cancelled</strong></td><td>Event: <code>withdrawal_cancelled</code></td><td>Retention FS, "Keep your winnings working!"</td><td>In-App</td></tr>
+  <tr><td><strong>Self-exclusion limits</strong></td><td>Event: <code>self_exclusion_limit_set</code></td><td>RG-compliant acknowledgment, support resources</td><td>Email</td></tr>
+  <tr><td><strong>Deposit frequency ↓50%</strong></td><td>Attribute: <code>deposit_frequency_trend &lt; -50</code></td><td>Proactive offer, "We miss you" personalization</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Session duration ↓50%</strong></td><td>Attribute: <code>session_duration_trend &lt; -50</code></td><td>New games, tournament push, engagement content</td><td>Email + In-App</td></tr>
+  <tr><td><strong>KYC incomplete 7d</strong></td><td>No <code>kyc_completed</code> within 7d of <code>kyc_started</code></td><td>Step-by-step guide, support chat link</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Churn risk score HIGH</strong></td><td>Event: <code>churn_risk_score</code> level = HIGH</td><td>VIP team escalation, exclusive offer</td><td>All channels</td></tr>
+</table>
+
+<h3>10.2 Safeguards</h3>
+<ul>
+  <li>Check <code>bonus_abuse_flag</code> — no bonus offers for flagged players</li>
+  <li>Check <code>active_bonus</code> — no stacking</li>
+  <li>Self-exclusion signals → <strong>NEVER</strong> send bonus incentives, only RG support</li>
+</ul>
+
+<h3>10.3 EXIT Conditions</h3>
+<table>
+  <tr><th>Outcome</th><th>Next Flow</th></tr>
+  <tr><td>Player re-engages (deposit or 2+ sessions)</td><td>→ Active Retention</td></tr>
+  <tr><td>No response within signal-specific window</td><td>→ Reactivation Tier (based on inactivity)</td></tr>
+</table>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge new-b">ФАЗА 8</span> Churn Prevention <span class="tag tag-new">НОВИЙ</span></h2>
+<p>Проактивне втручання до того, як гравці churнуть. Моніторить 6 ризик-сигналів і реагує цілеспрямованими діями.</p>
+
+<h3>10.1 Ризик-сигнали та відповіді</h3>
+<table>
+  <tr><th>Сигнал</th><th>Виявлення</th><th>Відповідь</th><th>Канал</th></tr>
+  <tr><td><strong>Withdrawal cancelled</strong></td><td>Event: <code>withdrawal_cancelled</code></td><td>Retention FS, "Тримайте свої виграші в грі!"</td><td>In-App</td></tr>
+  <tr><td><strong>Self-exclusion limits</strong></td><td>Event: <code>self_exclusion_limit_set</code></td><td>RG-compliant підтвердження, ресурси підтримки</td><td>Email</td></tr>
+  <tr><td><strong>Deposit frequency ↓50%</strong></td><td>Атрибут: <code>deposit_frequency_trend &lt; -50</code></td><td>Проактивний offer, персоналізація "Ми сумуємо"</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Session duration ↓50%</strong></td><td>Атрибут: <code>session_duration_trend &lt; -50</code></td><td>Нові ігри, турніри, engagement контент</td><td>Email + In-App</td></tr>
+  <tr><td><strong>KYC incomplete 7d</strong></td><td>Без <code>kyc_completed</code> протягом 7d після <code>kyc_started</code></td><td>Покроковий гайд, посилання на чат підтримки</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Churn risk score HIGH</strong></td><td>Event: <code>churn_risk_score</code> level = HIGH</td><td>Ескалація VIP-команді, ексклюзивний offer</td><td>Усі канали</td></tr>
+</table>
+
+<h3>10.2 Запобіжники</h3>
+<ul>
+  <li>Перевірити <code>bonus_abuse_flag</code> — без бонусів для позначених гравців</li>
+  <li>Перевірити <code>active_bonus</code> — без стекінгу</li>
+  <li>Self-exclusion сигнали → <strong>НІКОЛИ</strong> не відправляти бонусні стимули, тільки RG підтримку</li>
+</ul>
+
+<h3>10.3 EXIT-умови</h3>
+<table>
+  <tr><th>Результат</th><th>Наступний потік</th></tr>
+  <tr><td>Гравець повертається (депозит або 2+ сесії)</td><td>→ Active Retention</td></tr>
+  <tr><td>Без відповіді у сигнал-специфічному вікні</td><td>→ Reactivation Tier (за неактивністю)</td></tr>
+</table>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge new-b">ФАЗА 8</span> Churn Prevention <span class="tag tag-new">НОВАЯ</span></h2>
+<p>Проактивное вмешательство до того, как игроки уйдут. Мониторит 6 риск-сигналов и реагирует целевыми действиями.</p>
+
+<h3>10.1 Риск-сигналы и ответы</h3>
+<table>
+  <tr><th>Сигнал</th><th>Обнаружение</th><th>Ответ</th><th>Канал</th></tr>
+  <tr><td><strong>Withdrawal cancelled</strong></td><td>Event: <code>withdrawal_cancelled</code></td><td>Retention FS, "Держите свои выигрыши в игре!"</td><td>In-App</td></tr>
+  <tr><td><strong>Self-exclusion limits</strong></td><td>Event: <code>self_exclusion_limit_set</code></td><td>RG-compliant подтверждение, ресурсы поддержки</td><td>Email</td></tr>
+  <tr><td><strong>Deposit frequency ↓50%</strong></td><td>Атрибут: <code>deposit_frequency_trend &lt; -50</code></td><td>Проактивный offer, персонализация "Мы скучаем"</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Session duration ↓50%</strong></td><td>Атрибут: <code>session_duration_trend &lt; -50</code></td><td>Новые игры, турниры, engagement контент</td><td>Email + In-App</td></tr>
+  <tr><td><strong>KYC incomplete 7d</strong></td><td>Без <code>kyc_completed</code> в течение 7d после <code>kyc_started</code></td><td>Пошаговый гайд, ссылка на чат поддержки</td><td>Email + In-App</td></tr>
+  <tr><td><strong>Churn risk score HIGH</strong></td><td>Event: <code>churn_risk_score</code> level = HIGH</td><td>Эскалация VIP-команде, эксклюзивный offer</td><td>Все каналы</td></tr>
+</table>
+
+<h3>10.2 Предохранители</h3>
+<ul>
+  <li>Проверить <code>bonus_abuse_flag</code> — без бонусов для отмеченных игроков</li>
+  <li>Проверить <code>active_bonus</code> — без стекинга</li>
+  <li>Self-exclusion сигналы → <strong>НИКОГДА</strong> не отправлять бонусные стимулы, только RG поддержку</li>
+</ul>
+
+<h3>10.3 EXIT-условия</h3>
+<table>
+  <tr><th>Результат</th><th>Следующий поток</th></tr>
+  <tr><td>Игрок возвращается (депозит или 2+ сессии)</td><td>→ Active Retention</td></tr>
+  <tr><td>Без ответа в сигнал-специфичном окне</td><td>→ Reactivation Tier (по неактивности)</td></tr>
+</table>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 11 — PHASE 9: BIRTHDAY (NEW)                       ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-phase9" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2><span class="phase-badge new-b">PHASE 9</span> Birthday Lifecycle <span class="tag tag-new">NEW</span></h2>
+<p>Standalone birthday campaign with VIP-tiered rewards. Runs independently from Retention birthday trigger.</p>
+
+<h3>11.1 VIP-Tiered Birthday Gifts</h3>
+<table>
+  <tr><th>VIP Tier</th><th>Gift</th><th>Timing</th></tr>
+  <tr><td>Standard</td><td>25 Free Spins</td><td>Day before + birthday day</td></tr>
+  <tr><td>Silver</td><td>50 FS + $10 bonus</td><td>Day before + birthday day</td></tr>
+  <tr><td>Gold</td><td>100 FS + $25 bonus</td><td>Day before + birthday day</td></tr>
+  <tr><td>Platinum</td><td>150 FS + $50 bonus + exclusive tournament entry</td><td>Day before + birthday day</td></tr>
+  <tr><td>Diamond</td><td>Personalized bonus + VIP manager outreach</td><td>Day before + birthday day + follow-up</td></tr>
+</table>
+
+<h3>11.2 Timing</h3>
+<ul>
+  <li><strong>Day before birthday:</strong> Email — "Tomorrow is your special day! 🎂"</li>
+  <li><strong>Birthday day:</strong> Email + In-App — Gift activation + celebration</li>
+  <li><strong>Diamond only:</strong> Day after — VIP manager personal message</li>
+</ul>
+
+<h3>11.3 Requirements</h3>
+<ul>
+  <li>Attribute: <code>birthday_date</code> must be set on profile</li>
+  <li>Segment-based campaign with <code>birthday_date</code> filter</li>
+  <li>Suppress if player is in Dormant segment</li>
+</ul>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2><span class="phase-badge new-b">ФАЗА 9</span> Birthday Lifecycle <span class="tag tag-new">НОВИЙ</span></h2>
+<p>Окрема birthday кампанія з VIP-тірованими нагородами. Працює незалежно від Retention birthday тригера.</p>
+
+<h3>11.1 VIP-тіровані подарунки на день народження</h3>
+<table>
+  <tr><th>VIP Tier</th><th>Подарунок</th><th>Час</th></tr>
+  <tr><td>Standard</td><td>25 Free Spins</td><td>День до + день народження</td></tr>
+  <tr><td>Silver</td><td>50 FS + $10 бонус</td><td>День до + день народження</td></tr>
+  <tr><td>Gold</td><td>100 FS + $25 бонус</td><td>День до + день народження</td></tr>
+  <tr><td>Platinum</td><td>150 FS + $50 бонус + ексклюзивний турнір</td><td>День до + день народження</td></tr>
+  <tr><td>Diamond</td><td>Персональний бонус + VIP manager</td><td>День до + день народження + follow-up</td></tr>
+</table>
+
+<h3>11.2 Таймінг</h3>
+<ul>
+  <li><strong>День до дня народження:</strong> Email — "Завтра ваш особливий день!"</li>
+  <li><strong>День народження:</strong> Email + In-App — Активація подарунка + привітання</li>
+  <li><strong>Тільки Diamond:</strong> Наступний день — особисте повідомлення VIP manager</li>
+</ul>
+
+<h3>11.3 Вимоги</h3>
+<ul>
+  <li>Атрибут: <code>birthday_date</code> має бути встановлений у профілі</li>
+  <li>Кампанія на основі сегментів з фільтром <code>birthday_date</code></li>
+  <li>Пригнічувати якщо гравець у сегменті Dormant</li>
+</ul>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2><span class="phase-badge new-b">ФАЗА 9</span> Birthday Lifecycle <span class="tag tag-new">НОВАЯ</span></h2>
+<p>Отдельная birthday кампания с VIP-тирированными наградами. Работает независимо от Retention birthday триггера.</p>
+
+<h3>11.1 VIP-тирированные подарки на день рождения</h3>
+<table>
+  <tr><th>VIP Tier</th><th>Подарок</th><th>Время</th></tr>
+  <tr><td>Standard</td><td>25 Free Spins</td><td>День до + день рождения</td></tr>
+  <tr><td>Silver</td><td>50 FS + $10 бонус</td><td>День до + день рождения</td></tr>
+  <tr><td>Gold</td><td>100 FS + $25 бонус</td><td>День до + день рождения</td></tr>
+  <tr><td>Platinum</td><td>150 FS + $50 бонус + эксклюзивный турнир</td><td>День до + день рождения</td></tr>
+  <tr><td>Diamond</td><td>Персональный бонус + VIP manager</td><td>День до + день рождения + follow-up</td></tr>
+</table>
+
+<h3>11.2 Тайминг</h3>
+<ul>
+  <li><strong>День до дня рождения:</strong> Email — "Завтра ваш особенный день!"</li>
+  <li><strong>День рождения:</strong> Email + In-App — Активация подарка + поздравление</li>
+  <li><strong>Только Diamond:</strong> Следующий день — личное сообщение VIP manager</li>
+</ul>
+
+<h3>11.3 Требования</h3>
+<ul>
+  <li>Атрибут: <code>birthday_date</code> должен быть установлен в профиле</li>
+  <li>Кампания на основе сегментов с фильтром <code>birthday_date</code></li>
+  <li>Подавлять если игрок в сегменте Dormant</li>
+</ul>
+</div>
+
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║  SECTION 12 — TIMELINE                                      ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+<div id="sec-timeline" class="section-anchor"></div>
+
+<!-- EN -->
+<div data-lang="en" class="active">
+<h2>12. Implementation Timeline</h2>
+<p>Recommended execution order. Each phase depends on the previous one being complete.</p>
+
+<div class="timeline">
+  <div class="tl-item">
+    <div class="tl-week">Week 1–2</div>
+    <div class="tl-title"><span class="phase-badge foundation">PHASE 0</span> Foundation</div>
+    <div class="tl-desc">Events implementation (backend), profile attributes setup, segments creation in CIO</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 2–3</div>
+    <div class="tl-title"><span class="phase-badge refactor">PHASE 1</span> Welcome Campaign — Refactor</div>
+    <div class="tl-desc">Restructure into 3 phases, 8 emails, behavioral triggers, EXIT conditions</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 3</div>
+    <div class="tl-title"><span class="phase-badge refactor">PHASE 2</span> Payment Declined — Refactor</div>
+    <div class="tl-desc">6 error-type routing, In-App templates, retry bonus logic, RG compliance</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 3–4</div>
+    <div class="tl-title"><span class="phase-badge refactor">PHASE 3</span> Nutrition #1 — Refactor</div>
+    <div class="tl-desc">Align with new EXIT architecture, add behavioral triggers</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 4</div>
+    <div class="tl-title"><span class="phase-badge refactor">PHASE 4</span> Nutrition #2 — Refactor</div>
+    <div class="tl-desc">Add wagering_completed trigger, EXIT to Nutrition #3</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 4–5</div>
+    <div class="tl-title"><span class="phase-badge new-b">PHASE 5</span> Nutrition #3 — New Build</div>
+    <div class="tl-desc">Grand Finale flow, welcome_status completion logic</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 5–6</div>
+    <div class="tl-title"><span class="phase-badge new-b">PHASE 6</span> Behavioral Triggers — New Build</div>
+    <div class="tl-desc">Master routing, frequency capping, safeguards</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 6–8</div>
+    <div class="tl-title"><span class="phase-badge new-b">PHASE 7</span> Retention &amp; Reactivation — New Build</div>
+    <div class="tl-desc">8 retention triggers, 4 reactivation tiers, Dormant archive</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 8–9</div>
+    <div class="tl-title"><span class="phase-badge new-b">PHASE 8</span> Churn Prevention — New Build</div>
+    <div class="tl-desc">6 risk signals, proactive interventions, RG compliance</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Week 9</div>
+    <div class="tl-title"><span class="phase-badge new-b">PHASE 9</span> Birthday Lifecycle — New Build</div>
+    <div class="tl-desc">VIP-tiered gifts, day-before + birthday emails</div>
+  </div>
+</div>
+
+<div class="note">
+  <strong>Start here:</strong> 1) Document existing 4 campaigns in CIO. 2) Coordinate with backend team on event implementation. 3) Begin Welcome refactor as soon as <code>registration</code> and <code>first_deposit</code> events are confirmed.
+</div>
+</div>
+
+<!-- UA -->
+<div data-lang="ua">
+<h2>12. Таймлайн реалізації</h2>
+<p>Рекомендована послідовність виконання. Кожна фаза залежить від завершення попередньої.</p>
+
+<div class="timeline">
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 1–2</div>
+    <div class="tl-title"><span class="phase-badge foundation">ФАЗА 0</span> Фундамент</div>
+    <div class="tl-desc">Імплементація events (бекенд), налаштування profile атрибутів, створення сегментів в CIO</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 2–3</div>
+    <div class="tl-title"><span class="phase-badge refactor">ФАЗА 1</span> Welcome Campaign — Переробка</div>
+    <div class="tl-desc">Реструктуризація на 3 фази, 8 emails, behavioral triggers, EXIT-умови</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 3</div>
+    <div class="tl-title"><span class="phase-badge refactor">ФАЗА 2</span> Payment Declined — Переробка</div>
+    <div class="tl-desc">6 error-type маршрутизація, In-App шаблони, retry бонус логіка, RG compliance</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 3–4</div>
+    <div class="tl-title"><span class="phase-badge refactor">ФАЗА 3</span> Nutrition #1 — Переробка</div>
+    <div class="tl-desc">Узгодження з новою EXIT архітектурою, додавання behavioral triggers</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 4</div>
+    <div class="tl-title"><span class="phase-badge refactor">ФАЗА 4</span> Nutrition #2 — Переробка</div>
+    <div class="tl-desc">Додавання wagering_completed тригера, EXIT до Nutrition #3</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 4–5</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 5</span> Nutrition #3 — Нова</div>
+    <div class="tl-desc">Grand Finale потік, логіка завершення welcome_status</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 5–6</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 6</span> Behavioral Triggers — Нова</div>
+    <div class="tl-desc">Головна маршрутизація, frequency capping, запобіжники</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 6–8</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 7</span> Retention &amp; Reactivation — Нова</div>
+    <div class="tl-desc">8 retention тригерів, 4 reactivation тіри, Dormant archive</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 8–9</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 8</span> Churn Prevention — Нова</div>
+    <div class="tl-desc">6 ризик-сигналів, проактивні втручання, RG compliance</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Тиждень 9</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 9</span> Birthday Lifecycle — Нова</div>
+    <div class="tl-desc">VIP-тіровані подарунки, email за день до + в день народження</div>
+  </div>
+</div>
+
+<div class="note">
+  <strong>Почніть тут:</strong> 1) Задокументувати існуючі 4 кампанії в CIO. 2) Координувати з бекенд-командою по імплементації events. 3) Почати переробку Welcome як тільки events <code>registration</code> та <code>first_deposit</code> підтверджені.
+</div>
+</div>
+
+<!-- RU -->
+<div data-lang="ru">
+<h2>12. Таймлайн реализации</h2>
+<p>Рекомендованная последовательность выполнения. Каждая фаза зависит от завершения предыдущей.</p>
+
+<div class="timeline">
+  <div class="tl-item">
+    <div class="tl-week">Неделя 1–2</div>
+    <div class="tl-title"><span class="phase-badge foundation">ФАЗА 0</span> Фундамент</div>
+    <div class="tl-desc">Реализация events (бэкенд), настройка profile атрибутов, создание сегментов в CIO</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 2–3</div>
+    <div class="tl-title"><span class="phase-badge refactor">ФАЗА 1</span> Welcome Campaign — Переработка</div>
+    <div class="tl-desc">Реструктуризация на 3 фазы, 8 emails, behavioral triggers, EXIT-условия</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 3</div>
+    <div class="tl-title"><span class="phase-badge refactor">ФАЗА 2</span> Payment Declined — Переработка</div>
+    <div class="tl-desc">6 error-type маршрутизация, In-App шаблоны, retry бонус логика, RG compliance</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 3–4</div>
+    <div class="tl-title"><span class="phase-badge refactor">ФАЗА 3</span> Nutrition #1 — Переработка</div>
+    <div class="tl-desc">Согласование с новой EXIT архитектурой, добавление behavioral triggers</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 4</div>
+    <div class="tl-title"><span class="phase-badge refactor">ФАЗА 4</span> Nutrition #2 — Переработка</div>
+    <div class="tl-desc">Добавление wagering_completed триггера, EXIT в Nutrition #3</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 4–5</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 5</span> Nutrition #3 — Новая</div>
+    <div class="tl-desc">Grand Finale поток, логика завершения welcome_status</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 5–6</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 6</span> Behavioral Triggers — Новая</div>
+    <div class="tl-desc">Главная маршрутизация, frequency capping, предохранители</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 6–8</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 7</span> Retention &amp; Reactivation — Новая</div>
+    <div class="tl-desc">8 retention триггеров, 4 reactivation тира, Dormant archive</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 8–9</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 8</span> Churn Prevention — Новая</div>
+    <div class="tl-desc">6 риск-сигналов, проактивные вмешательства, RG compliance</div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-week">Неделя 9</div>
+    <div class="tl-title"><span class="phase-badge new-b">ФАЗА 9</span> Birthday Lifecycle — Новая</div>
+    <div class="tl-desc">VIP-тирированные подарки, email за день до + в день рождения</div>
+  </div>
+</div>
+
+<div class="note">
+  <strong>Начните здесь:</strong> 1) Задокументировать существующие 4 кампании в CIO. 2) Координировать с бэкенд-командой по реализации events. 3) Начать переработку Welcome как только events <code>registration</code> и <code>first_deposit</code> подтверждены.
+</div>
+</div>
+
+</div><!-- .content -->
+
+<div class="report-footer">
+  <img class="logo-sm" src="../../assets/gnb-logo.png" alt="GNB Agency">
+  <p>&copy; 2026 GNB Agency &bull; Retention &bull; Revenue &bull; Results</p>
+</div>
+
+<script>
+(function() {
+  const buttons = document.querySelectorAll('[data-set-lang]');
+  const elements = document.querySelectorAll('[data-lang]');
+
+  function setLang(lang) {
+    elements.forEach(el => {
+      if (el.getAttribute('data-lang') === lang) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
+    });
+    buttons.forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-set-lang') === lang);
+    });
+    document.documentElement.lang = lang === 'ua' ? 'uk' : lang;
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => setLang(btn.getAttribute('data-set-lang')));
+  });
+
+  // ── Scroll spy ──
+  const nav = document.querySelector('.report-nav');
+  const navLinks = document.querySelectorAll('.nav-link');
+  const anchors = Array.from(document.querySelectorAll('.section-anchor'));
+
+  function scrollNavToActive(link) {
+    const navRect = nav.getBoundingClientRect();
+    const linkRect = link.getBoundingClientRect();
+    const pad = 60;
+    if (linkRect.right + pad > navRect.right) {
+      nav.scrollBy({ left: linkRect.right - navRect.right + pad, behavior: 'smooth' });
+    } else if (linkRect.left - pad < navRect.left) {
+      nav.scrollBy({ left: linkRect.left - navRect.left - pad, behavior: 'smooth' });
+    }
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      setTimeout(() => scrollNavToActive(link), 50);
+    });
+  });
+
+  function updateActiveNav() {
+    const atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 2);
+    let current = 0;
+    if (atBottom) {
+      current = anchors.length - 1;
+    } else {
+      const offset = 80;
+      for (let i = anchors.length - 1; i >= 0; i--) {
+        if (anchors[i] && anchors[i].getBoundingClientRect().top <= offset) {
+          current = i;
+          break;
+        }
+      }
+    }
+    navLinks.forEach((link, idx) => {
+      link.classList.toggle('active', idx === current);
+    });
+    if (navLinks[current]) scrollNavToActive(navLinks[current]);
+  }
+
+  window.addEventListener('scroll', updateActiveNav, {passive: true});
+  updateActiveNav();
+
+  setLang('en');
+})();
+</script>
+
+</body>
+</html>
