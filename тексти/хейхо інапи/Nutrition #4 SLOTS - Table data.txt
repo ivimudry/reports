@@ -1,95 +1,95 @@
 name: In-App Message 1.1
 locale: Default
 text_1: <td>🔥Krijg 100% Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=1#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_inapp=1#modal=Wallet
 button_text_1: ACTIVEER
-image_1_href: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=1#modal=Wallet
+image_1_href: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_inapp=1#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308995258_Email%201.1_01KD03H6JAFQG625CWDNPE01YV.png
 
 name: In-App Message 1.1
 locale: de-DE
 text_1: <td>🔥Holen Sie sich 100 % Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=1#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_inapp=1#modal=Wallet
 button_text_1: BONUS AKTIVIEREN
-image_1_href: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=1#modal=Wallet
+image_1_href: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_inapp=1#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308881728_Email%201.1_01KD03DQPDZ091194KGMY85R7A.png
 
 name: In-App Message 1.1
 locale: fr-FR
 text_1: <td>🔥Obtenez 100% de bonus 🔥</td>
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=1#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_inapp=1#modal=Wallet
 button_text_1: ACTIVER LE BONUS
-image_1_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=1#modal=Wallet
+image_1_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_inapp=1#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308940432_Email%201.1_01KD03FH1018BNG449CGX14AQX.png
 
 name: In-App Message 1.1
 locale: nl-NL
 text_1: <td>🔥Krijg 100% Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=1#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_inapp=1#modal=Wallet
 button_text_1: ACTIVEER
-image_1_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=1#modal=Wallet
+image_1_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_inapp=1#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308995258_Email%201.1_01KD03H6JAFQG625CWDNPE01YV.png
 
 name: In-App Message 3.1
 locale: Default
 text_1: <td>🔥Krijg 100% Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=3#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_inapp=3#modal=Wallet
 button_text_1: ACTIVEER
-image_1_href: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=3#modal=Wallet
+image_1_href: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_inapp=3#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308995258_Email%201.1_01KD03H6JAFQG625CWDNPE01YV.png
 
 name: In-App Message 3.1
 locale: de-DE
 text_1: <td>🔥Holen Sie sich 100 % Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=3#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_inapp=3#modal=Wallet
 button_text_1: BONUS AKTIVIEREN
-image_1_href: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=3#modal=Wallet
+image_1_href: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_inapp=3#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308881728_Email%201.1_01KD03DQPDZ091194KGMY85R7A.png
 
 name: In-App Message 3.1
 locale: fr-FR
 text_1: <td>🔥Obtenez 100% de bonus 🔥</td>
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=3#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_inapp=3#modal=Wallet
 button_text_1: ACTIVER LE BONUS
-image_1_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=3#modal=Wallet
+image_1_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_inapp=3#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308940432_Email%201.1_01KD03FH1018BNG449CGX14AQX.png
 
 name: In-App Message 3.1
 locale: nl-NL
 text_1: <td>🔥Krijg 100% Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=3#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_inapp=3#modal=Wallet
 button_text_1: ACTIVEER
-image_1_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=3#modal=Wallet
+image_1_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_inapp=3#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308995258_Email%201.1_01KD03H6JAFQG625CWDNPE01YV.png
 
 name: In-App Message 5.1
 locale: Default
 text_1: <td>🔥Krijg 100% Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=5#modal=Wallet
+button_href_1: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_inapp=5#modal=Wallet
 button_text_1: ACTIVEER
-image_1_href: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_email=5#modal=Wallet
+image_1_href: https://heyhocasino.com/en?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=en&utm_inapp=5#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308995258_Email%201.1_01KD03H6JAFQG625CWDNPE01YV.png
 
 name: In-App Message 5.1
 locale: de-DE
 text_1: <td>🔥Holen Sie sich 100 % Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=5#modal=Wallet
+button_href_1: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_inapp=5#modal=Wallet
 button_text_1: BONUS AKTIVIEREN
-image_1_href: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_email=5#modal=Wallet
+image_1_href: https://heyhocasino.com/de?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=de&utm_inapp=5#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308881728_Email%201.1_01KD03DQPDZ091194KGMY85R7A.png
 
 name: In-App Message 5.1
 locale: fr-FR
 text_1: <td>🔥Obtenez 100% de bonus 🔥</td>
-button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=5#modal=Wallet
+button_href_1: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_inapp=5#modal=Wallet
 button_text_1: ACTIVER LE BONUS
-image_1_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_email=5#modal=Wallet
+image_1_href: https://heyhocasino.com/fr?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=fr&utm_inapp=5#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308940432_Email%201.1_01KD03FH1018BNG449CGX14AQX.png
 
 name: In-App Message 5.1
 locale: nl-NL
 text_1: <td>🔥Krijg 100% Bonus 🔥</td>
-button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=5#modal=Wallet
+button_href_1: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_inapp=5#modal=Wallet
 button_text_1: ACTIVEER
-image_1_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_email=5#modal=Wallet
+image_1_href: https://heyhocasino.com/nl?token={{customer.auth_token}}&utm_campaign=nutrition4&utm_bonus_type=slots&utm_source=customerio&utm_medium=inapp&utm_language=nl&utm_inapp=5#modal=Wallet
 image_1_src: https://userimg-assets-eu.customeriomail.com/images/client-env-173929/1766308995258_Email%201.1_01KD03H6JAFQG625CWDNPE01YV.png
