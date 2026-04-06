@@ -447,53 +447,53 @@
 
 <h3>2.1 Required Events (Backend → Customer.io)</h3>
 <table>
-  <tr><th>Event</th><th>Key Attributes</th><th>Used In</th></tr>
-  <tr><td><code>registration</code></td><td>—</td><td>Welcome</td></tr>
-  <tr><td><code>first_deposit</code></td><td><code>amount</code>, <code>currency</code></td><td>Welcome EXIT → Nutrition #1</td></tr>
-  <tr><td><code>deposit_made</code></td><td><code>deposit_number</code>, <code>amount</code></td><td>Nutrition #1/#2/#3</td></tr>
-  <tr><td><code>deposit_failed</code></td><td><code>error_type</code></td><td>Payment Declined</td></tr>
-  <tr><td><code>balance_low</code></td><td><code>balance</code>, <code>currency</code></td><td>Nutrition #1/#2, Behavioral, Retention</td></tr>
-  <tr><td><code>session_ended</code></td><td><code>games_played</code>, <code>balance</code>, <code>duration</code></td><td>Nutrition #1, Behavioral, Retention</td></tr>
-  <tr><td><code>wagering_completed</code></td><td><code>bonus_id</code></td><td>Nutrition #2, Behavioral, Retention</td></tr>
-  <tr><td><code>withdrawal_cancelled</code></td><td><code>amount</code></td><td>Churn Prevention, Behavioral</td></tr>
-  <tr><td><code>big_win</code></td><td><code>amount</code>, <code>game</code></td><td>Retention</td></tr>
-  <tr><td><code>birthday</code></td><td>—</td><td>Birthday, Retention</td></tr>
-  <tr><td><code>self_exclusion_limit_set</code></td><td><code>limit_type</code></td><td>Churn Prevention</td></tr>
-  <tr><td><code>kyc_started</code> / <code>kyc_completed</code></td><td>—</td><td>Churn Prevention</td></tr>
-  <tr><td><code>churn_risk_score</code></td><td><code>score</code>, <code>level</code></td><td>Churn Prevention</td></tr>
+  <tr><th>Event</th><th>Key Attributes</th><th>Used In</th><th>CIO Status</th></tr>
+  <tr><td><code>registration</code></td><td>—</td><td>Welcome</td><td><span class="cio-running">✓ EXISTS</span> as <code>confirmation_instructions</code></td></tr>
+  <tr><td><code>first_deposit</code></td><td><code>amount</code>, <code>currency</code></td><td>Welcome EXIT → Nutrition #1</td><td><span class="cio-draft">⚠ NO EVENT</span> — use <code>deposit_made</code> + <code>lifetime_deposit_count_total = 1</code></td></tr>
+  <tr><td><code>deposit_made</code></td><td><code>deposit_number</code>, <code>amount</code></td><td>Nutrition #1/#2/#3</td><td><span class="cio-running">✓ EXISTS</span> — same name</td></tr>
+  <tr><td><code>deposit_failed</code></td><td><code>error_type</code></td><td>Payment Declined</td><td><span class="cio-running">✓ EXISTS</span> as <code>deposit_canceled</code></td></tr>
+  <tr><td><code>balance_low</code></td><td><code>balance</code>, <code>currency</code></td><td>Nutrition #1/#2, Behavioral, Retention</td><td><span class="cio-draft">✗ CREATE</span> — backend must implement</td></tr>
+  <tr><td><code>session_ended</code></td><td><code>games_played</code>, <code>balance</code>, <code>duration</code></td><td>Nutrition #1, Behavioral, Retention</td><td><span class="cio-draft">✗ CREATE</span> — backend must implement</td></tr>
+  <tr><td><code>wagering_completed</code></td><td><code>bonus_id</code></td><td>Nutrition #2, Behavioral, Retention</td><td><span class="cio-draft">✗ CREATE</span> — backend must implement</td></tr>
+  <tr><td><code>withdrawal_cancelled</code></td><td><code>amount</code></td><td>Churn Prevention, Behavioral</td><td><span class="cio-running">✓ EXISTS</span> as <code>cashout_canceled</code></td></tr>
+  <tr><td><code>big_win</code></td><td><code>amount</code>, <code>game</code></td><td>Retention</td><td><span class="cio-draft">✗ CREATE</span> — backend must implement</td></tr>
+  <tr><td><code>birthday</code></td><td>—</td><td>Birthday, Retention</td><td><span class="cio-running">✓ EXISTS</span> — same name + <code>date_of_birth</code> attr</td></tr>
+  <tr><td><code>self_exclusion_limit_set</code></td><td><code>limit_type</code></td><td>Churn Prevention</td><td><span class="cio-running">⚠ COVERED</span> — <code>user_limit_created</code> (4 limit events)</td></tr>
+  <tr><td><code>kyc_started</code> / <code>kyc_completed</code></td><td>—</td><td>Churn Prevention</td><td><span class="cio-draft">✗ CREATE</span> — backend must implement</td></tr>
+  <tr><td><code>churn_risk_score</code></td><td><code>score</code>, <code>level</code></td><td>Churn Prevention</td><td><span class="cio-running">⚠ COVERED</span> — [TECH] campaign updates <code>risk_status</code></td></tr>
 </table>
 
 <h3>2.2 Profile Attributes</h3>
 <table>
-  <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
-  <tr><td><code>deposit_count</code></td><td>Number</td><td>Total deposits made</td></tr>
-  <tr><td><code>total_deposited</code></td><td>Number</td><td>Lifetime deposit amount</td></tr>
-  <tr><td><code>last_deposit_date</code></td><td>Timestamp</td><td>Date of latest deposit</td></tr>
-  <tr><td><code>last_login_date</code></td><td>Timestamp</td><td>Date of latest login</td></tr>
-  <tr><td><code>vip_tier</code></td><td>String</td><td>Standard / Silver / Gold / Platinum / Diamond</td></tr>
-  <tr><td><code>welcome_status</code></td><td>String</td><td>in_progress / complete / incomplete</td></tr>
-  <tr><td><code>bonus_abuse_flag</code></td><td>Boolean</td><td>Flagged for bonus abuse</td></tr>
-  <tr><td><code>active_bonus</code></td><td>Boolean</td><td>Currently has active bonus</td></tr>
-  <tr><td><code>deposit_frequency_trend</code></td><td>Number</td><td>% change in deposit frequency (7d vs 30d)</td></tr>
-  <tr><td><code>session_duration_trend</code></td><td>Number</td><td>% change in session duration (7d vs 30d)</td></tr>
-  <tr><td><code>birthday_date</code></td><td>Date</td><td>Player birthday</td></tr>
-  <tr><td><code>preferred_games</code></td><td>String</td><td>Most played game category</td></tr>
-  <tr><td><code>favorite_slots</code></td><td>String</td><td>Most played slot title</td></tr>
+  <tr><th>Attribute</th><th>Type</th><th>Description</th><th>CIO Status</th></tr>
+  <tr><td><code>deposit_count</code></td><td>Number</td><td>Total deposits made</td><td><span class="cio-running">✓ EXISTS</span> as <code>lifetime_deposit_count_total</code></td></tr>
+  <tr><td><code>total_deposited</code></td><td>Number</td><td>Lifetime deposit amount</td><td><span class="cio-draft">⚠ VERIFY</span> — check CIO dashboard</td></tr>
+  <tr><td><code>last_deposit_date</code></td><td>Timestamp</td><td>Date of latest deposit</td><td><span class="cio-running">⚠ IMPLIED</span> — reactivation uses "days since deposit"</td></tr>
+  <tr><td><code>last_login_date</code></td><td>Timestamp</td><td>Date of latest login</td><td><span class="cio-running">✓ EXISTS</span> — <code>login_activity_status</code> tracked</td></tr>
+  <tr><td><code>vip_tier</code></td><td>String</td><td>Standard / Silver / Gold / Platinum / Diamond</td><td><span class="cio-running">✓ EXISTS</span> — VIP Tier 1–5 segments active</td></tr>
+  <tr><td><code>welcome_status</code></td><td>String</td><td>in_progress / complete / incomplete</td><td><span class="cio-draft">✗ CREATE</span> — does not exist</td></tr>
+  <tr><td><code>bonus_abuse_flag</code></td><td>Boolean</td><td>Flagged for bonus abuse</td><td><span class="cio-running">✓ EXISTS</span> — TAG 'BA' (segment #200049)</td></tr>
+  <tr><td><code>active_bonus</code></td><td>Boolean</td><td>Currently has active bonus</td><td><span class="cio-draft">⚠ VERIFY</span> — check CIO dashboard</td></tr>
+  <tr><td><code>deposit_frequency_trend</code></td><td>Number</td><td>% change in deposit frequency (7d vs 30d)</td><td><span class="cio-draft">✗ CREATE</span> — backend must calculate</td></tr>
+  <tr><td><code>session_duration_trend</code></td><td>Number</td><td>% change in session duration (7d vs 30d)</td><td><span class="cio-draft">✗ CREATE</span> — backend must calculate</td></tr>
+  <tr><td><code>birthday_date</code></td><td>Date</td><td>Player birthday</td><td><span class="cio-running">✓ EXISTS</span> as <code>date_of_birth</code></td></tr>
+  <tr><td><code>preferred_games</code></td><td>String</td><td>Most played game category</td><td><span class="cio-draft">⚠ VERIFY</span> — check CIO dashboard</td></tr>
+  <tr><td><code>favorite_slots</code></td><td>String</td><td>Most played slot title</td><td><span class="cio-draft">⚠ VERIFY</span> — check CIO dashboard</td></tr>
 </table>
 
 <h3>2.3 Segments</h3>
 <table>
-  <tr><th>Segment</th><th>Condition</th><th>Used In</th></tr>
-  <tr><td>Registered No Deposit</td><td><code>deposit_count = 0</code></td><td>Welcome</td></tr>
-  <tr><td>Nutrition #1</td><td><code>deposit_count = 1</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #1</td></tr>
-  <tr><td>Nutrition #2</td><td><code>deposit_count = 2</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #2</td></tr>
-  <tr><td>Nutrition #3</td><td><code>deposit_count = 3</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #3</td></tr>
-  <tr><td>Active Players</td><td><code>welcome_status = complete</code> AND <code>last_login &lt; 7d</code></td><td>Retention</td></tr>
-  <tr><td>At Risk</td><td><code>last_login 7–13d ago</code></td><td>Churn Prevention</td></tr>
-  <tr><td>Reactivation Tier 1–4</td><td><code>inactive 7d / 14d / 30d / 60d+</code></td><td>Reactivation</td></tr>
-  <tr><td>Product Inactive</td><td>Opens emails but no sessions last 14d</td><td>Retention</td></tr>
-  <tr><td>Dormant</td><td><code>90d+ no activity</code></td><td>Archive</td></tr>
-  <tr><td>VIP Tiers</td><td>Per <code>vip_tier</code> value</td><td>Birthday, Retention</td></tr>
+  <tr><th>Segment</th><th>Condition</th><th>Used In</th><th>CIO Status</th></tr>
+  <tr><td>Registered No Deposit</td><td><code>deposit_count = 0</code></td><td>Welcome</td><td><span class="cio-running">✓ EXISTS</span> — #200007 "Confirmed Not Deposited", #200083</td></tr>
+  <tr><td>Nutrition #1 (seg_1)</td><td><code>deposit_count = 1</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #1</td><td><span class="cio-running">⚠ PARTIAL</span> — seg_1 (#256004) exists, add <code>welcome_status</code></td></tr>
+  <tr><td>Nutrition #2 (seg_2)</td><td><code>deposit_count = 2</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #2</td><td><span class="cio-running">⚠ PARTIAL</span> — seg_2 (#256005) exists, add <code>welcome_status</code></td></tr>
+  <tr><td>Nutrition #3 (seg_3)</td><td><code>deposit_count = 3</code> AND <code>welcome_status = in_progress</code></td><td>Nutrition #3</td><td><span class="cio-running">⚠ PARTIAL</span> — seg_3 (#256035) exists, add <code>welcome_status</code></td></tr>
+  <tr><td>Active Players</td><td><code>welcome_status = complete</code> AND <code>last_login &lt; 7d</code></td><td>Retention</td><td><span class="cio-draft">✗ CREATE</span> — <code>welcome_status</code> system needed first</td></tr>
+  <tr><td>At Risk</td><td><code>last_login 7–13d ago</code></td><td>Churn Prevention</td><td><span class="cio-running">✓ EXISTS</span> — risk segments #256264–256268</td></tr>
+  <tr><td>Reactivation Tier 1–4</td><td><code>inactive 7d / 14d / 30d / 60d+</code></td><td>Reactivation</td><td><span class="cio-running">⚠ PARTIAL</span> — #256037 single segment, split into 4 tiers</td></tr>
+  <tr><td>Product Inactive</td><td>Opens emails but no sessions last 14d</td><td>Retention</td><td><span class="cio-draft">✗ CREATE</span></td></tr>
+  <tr><td>Dormant</td><td><code>90d+ no activity</code></td><td>Archive</td><td><span class="cio-running">⚠ PARTIAL</span> — #200058 "Inactive" + #255857 exist</td></tr>
+  <tr><td>VIP Tiers</td><td>Per <code>vip_tier</code> value</td><td>Birthday, Retention</td><td><span class="cio-running">✓ EXISTS</span> — #200108–200112, #256040–256043</td></tr>
 </table>
 
 <div class="warn">
