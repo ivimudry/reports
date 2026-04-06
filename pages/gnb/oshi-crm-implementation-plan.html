@@ -378,6 +378,188 @@
   <div class="flow-step optimize"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">Существует (4 тира)</div></div>
 </div>
 
+<!-- Full Lifecycle SVG Diagram -->
+<div data-lang="en" class="active"><h3>Complete CRM Architecture</h3></div>
+<div data-lang="ua"><h3>Повна CRM архітектура</h3></div>
+<div data-lang="ru"><h3>Полная CRM архитектура</h3></div>
+
+<div class="svg-diagram">
+<svg viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowY" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#EAFF00"/></marker>
+    <marker id="arrowG" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#51cf66"/></marker>
+    <marker id="arrowO" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#ff922b"/></marker>
+    <marker id="arrowP" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#b197fc"/></marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#ff6b6b"/></marker>
+    <filter id="glow"><feGaussianBlur stdDeviation="2" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="520" rx="16" fill="#0a0a0a" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="480" y="30" text-anchor="middle" fill="#555" font-size="11" font-weight="500" letter-spacing="2">PLAYER LIFECYCLE ARCHITECTURE</text>
+
+  <!-- ═══ MAIN FLOW (horizontal) ═══ -->
+
+  <!-- Registration trigger -->
+  <rect x="30" y="70" width="100" height="56" rx="8" fill="#141414" stroke="#74c0fc" stroke-width="2"/>
+  <text x="80" y="93" text-anchor="middle" fill="#74c0fc" font-size="10" font-weight="700">TRIGGER</text>
+  <text x="80" y="112" text-anchor="middle" fill="#e0e0e0" font-size="11" font-weight="600">Registration</text>
+
+  <!-- Arrow reg → welcome -->
+  <line x1="130" y1="98" x2="155" y2="98" stroke="#EAFF00" stroke-width="2" marker-end="url(#arrowY)"/>
+
+  <!-- PHASE 1: Welcome -->
+  <rect x="160" y="60" width="120" height="76" rx="10" fill="#141414" stroke="#b197fc" stroke-width="2"/>
+  <text x="220" y="82" text-anchor="middle" fill="#b197fc" font-size="9" font-weight="700">PHASE 1</text>
+  <text x="220" y="98" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Welcome</text>
+  <text x="220" y="114" text-anchor="middle" fill="#b197fc" font-size="9">4 chains running</text>
+  <text x="220" y="128" text-anchor="middle" fill="#888" font-size="8">14 days max</text>
+
+  <!-- Arrow welcome → nutrition1 -->
+  <line x1="280" y1="98" x2="305" y2="98" stroke="#EAFF00" stroke-width="2" marker-end="url(#arrowY)"/>
+  <text x="292" y="90" text-anchor="middle" fill="#51cf66" font-size="8" font-weight="600">FTD</text>
+
+  <!-- PHASE 3: Nutrition #1 -->
+  <rect x="310" y="60" width="120" height="76" rx="10" fill="#141414" stroke="#ff922b" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="370" y="82" text-anchor="middle" fill="#ff922b" font-size="9" font-weight="700">PHASE 3</text>
+  <text x="370" y="98" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Nutrition #1</text>
+  <text x="370" y="114" text-anchor="middle" fill="#ff922b" font-size="9">NEW — build</text>
+  <text x="370" y="128" text-anchor="middle" fill="#888" font-size="8">FTD → 2nd dep</text>
+
+  <!-- Arrow n1 → n2 -->
+  <line x1="430" y1="98" x2="455" y2="98" stroke="#EAFF00" stroke-width="2" marker-end="url(#arrowY)"/>
+  <text x="442" y="90" text-anchor="middle" fill="#51cf66" font-size="8" font-weight="600">2nd</text>
+
+  <!-- PHASE 4: Nutrition #2 -->
+  <rect x="460" y="60" width="120" height="76" rx="10" fill="#141414" stroke="#ff922b" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="520" y="82" text-anchor="middle" fill="#ff922b" font-size="9" font-weight="700">PHASE 4</text>
+  <text x="520" y="98" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Nutrition #2</text>
+  <text x="520" y="114" text-anchor="middle" fill="#ff922b" font-size="9">NEW — build</text>
+  <text x="520" y="128" text-anchor="middle" fill="#888" font-size="8">2nd → 3rd dep</text>
+
+  <!-- Arrow n2 → n3 -->
+  <line x1="580" y1="98" x2="605" y2="98" stroke="#EAFF00" stroke-width="2" marker-end="url(#arrowY)"/>
+  <text x="592" y="90" text-anchor="middle" fill="#51cf66" font-size="8" font-weight="600">3rd</text>
+
+  <!-- PHASE 5: Nutrition #3 -->
+  <rect x="610" y="60" width="120" height="76" rx="10" fill="#141414" stroke="#ff922b" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="670" y="82" text-anchor="middle" fill="#ff922b" font-size="9" font-weight="700">PHASE 5</text>
+  <text x="670" y="98" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Nutrition #3</text>
+  <text x="670" y="114" text-anchor="middle" fill="#ff922b" font-size="9">NEW — build</text>
+  <text x="670" y="128" text-anchor="middle" fill="#888" font-size="8">3rd → 4th dep</text>
+
+  <!-- Arrow n3 → retention -->
+  <line x1="730" y1="98" x2="755" y2="98" stroke="#EAFF00" stroke-width="2" marker-end="url(#arrowY)"/>
+  <text x="742" y="90" text-anchor="middle" fill="#51cf66" font-size="8" font-weight="600">4th</text>
+
+  <!-- PHASE 7: Retention -->
+  <rect x="760" y="60" width="170" height="76" rx="10" fill="#141414" stroke="#b197fc" stroke-width="2"/>
+  <text x="845" y="82" text-anchor="middle" fill="#b197fc" font-size="9" font-weight="700">PHASE 7 — ACTIVE</text>
+  <text x="845" y="98" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Retention</text>
+  <text x="845" y="114" text-anchor="middle" fill="#b197fc" font-size="9">2 campaigns running</text>
+  <text x="845" y="128" text-anchor="middle" fill="#888" font-size="8">8 triggers + 4 react. tiers</text>
+
+  <!-- ═══ PAYMENT DECLINED (side flow top-right) ═══ -->
+  <rect x="30" y="170" width="230" height="66" rx="10" fill="#141414" stroke="#b197fc" stroke-width="2"/>
+  <text x="145" y="192" text-anchor="middle" fill="#b197fc" font-size="9" font-weight="700">PHASE 2 — PARALLEL</text>
+  <text x="145" y="208" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">Payment Declined</text>
+  <text x="145" y="224" text-anchor="middle" fill="#888" font-size="9">1 running · 6 error types · retry bonus</text>
+  <!-- Dashed line from welcome down to payment -->
+  <line x1="145" y1="136" x2="145" y2="168" stroke="#b197fc" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowP)"/>
+  <text x="155" y="156" fill="#b197fc" font-size="8">deposit_failed</text>
+
+  <!-- ═══ BEHAVIORAL (side flow) ═══ -->
+  <rect x="290" y="170" width="230" height="66" rx="10" fill="#141414" stroke="#b197fc" stroke-width="2"/>
+  <text x="405" y="192" text-anchor="middle" fill="#b197fc" font-size="9" font-weight="700">PHASE 6 — PARALLEL</text>
+  <text x="405" y="208" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">Behavioral Triggers</text>
+  <text x="405" y="224" text-anchor="middle" fill="#888" font-size="9">15+ running · freq. cap 1/24h</text>
+  <!-- Dashed lines from main flow -->
+  <line x1="405" y1="136" x2="405" y2="168" stroke="#b197fc" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowP)"/>
+  <text x="415" y="156" fill="#b197fc" font-size="8">events</text>
+
+  <!-- ═══ BIRTHDAY (side flow) ═══ -->
+  <rect x="550" y="170" width="180" height="66" rx="10" fill="#141414" stroke="#e599f7" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="640" y="192" text-anchor="middle" fill="#e599f7" font-size="9" font-weight="700">PHASE 9 — STANDALONE</text>
+  <text x="640" y="208" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">Birthday</text>
+  <text x="640" y="224" text-anchor="middle" fill="#888" font-size="9">draft exists · VIP-tiered gifts</text>
+  <line x1="640" y1="136" x2="640" y2="168" stroke="#e599f7" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowP)"/>
+  <text x="655" y="156" fill="#e599f7" font-size="8">birthday</text>
+
+  <!-- ═══ CHURN PREVENTION ═══ -->
+  <rect x="760" y="170" width="170" height="66" rx="10" fill="#141414" stroke="#e599f7" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="845" y="192" text-anchor="middle" fill="#e599f7" font-size="9" font-weight="700">PHASE 8</text>
+  <text x="845" y="208" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">Churn Prevention</text>
+  <text x="845" y="224" text-anchor="middle" fill="#888" font-size="9">scoring runs · comms needed</text>
+  <line x1="845" y1="136" x2="845" y2="168" stroke="#e599f7" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowP)"/>
+  <text x="852" y="156" fill="#e599f7" font-size="8">risk ↑</text>
+
+  <!-- ═══ REACTIVATION TIERS (bottom) ═══ -->
+  <text x="480" y="280" text-anchor="middle" fill="#555" font-size="10" font-weight="600" letter-spacing="1.5">REACTIVATION TIERS — any timeout goes here</text>
+
+  <!-- Tier boxes -->
+  <rect x="60" y="295" width="180" height="56" rx="8" fill="#141414" stroke="#ff6b6b" stroke-width="1.5"/>
+  <text x="150" y="316" text-anchor="middle" fill="#ff6b6b" font-size="9" font-weight="700">TIER 1 — 7 days</text>
+  <text x="150" y="332" text-anchor="middle" fill="#ccc" font-size="10">50% reload + 25 FS</text>
+  <text x="150" y="344" text-anchor="middle" fill="#888" font-size="8">Email + In-App</text>
+
+  <line x1="240" y1="323" x2="270" y2="323" stroke="#ff6b6b" stroke-width="1.5" marker-end="url(#arrowR)"/>
+
+  <rect x="275" y="295" width="180" height="56" rx="8" fill="#141414" stroke="#ff6b6b" stroke-width="1.5"/>
+  <text x="365" y="316" text-anchor="middle" fill="#ff6b6b" font-size="9" font-weight="700">TIER 2 — 14 days</text>
+  <text x="365" y="332" text-anchor="middle" fill="#ccc" font-size="10">75% + 50 FS</text>
+  <text x="365" y="344" text-anchor="middle" fill="#888" font-size="8">Email + In-App + SMS</text>
+
+  <line x1="455" y1="323" x2="485" y2="323" stroke="#ff6b6b" stroke-width="1.5" marker-end="url(#arrowR)"/>
+
+  <rect x="490" y="295" width="180" height="56" rx="8" fill="#141414" stroke="#ff6b6b" stroke-width="1.5"/>
+  <text x="580" y="316" text-anchor="middle" fill="#ff6b6b" font-size="9" font-weight="700">TIER 3 — 30 days</text>
+  <text x="580" y="332" text-anchor="middle" fill="#ccc" font-size="10">100% + 100 FS</text>
+  <text x="580" y="344" text-anchor="middle" fill="#888" font-size="8">Email + SMS + personal</text>
+
+  <line x1="670" y1="323" x2="700" y2="323" stroke="#ff6b6b" stroke-width="1.5" marker-end="url(#arrowR)"/>
+
+  <rect x="705" y="295" width="225" height="56" rx="8" fill="#141414" stroke="#ff6b6b" stroke-width="1.5"/>
+  <text x="817" y="316" text-anchor="middle" fill="#ff6b6b" font-size="9" font-weight="700">TIER 4 — 60+ days</text>
+  <text x="817" y="332" text-anchor="middle" fill="#ccc" font-size="10">Exclusive VIP-based offer</text>
+  <text x="817" y="344" text-anchor="middle" fill="#888" font-size="8">All channels + manual outreach</text>
+
+  <!-- Timeout arrows from main flow to reactivation -->
+  <path d="M220,136 L220,155 L50,155 L50,290 L150,290 L150,293" fill="none" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowR)"/>
+  <text x="55" y="228" fill="#ff6b6b" font-size="8" transform="rotate(-90 55,228)">timeout</text>
+
+  <path d="M370,136 L370,264 L365,264 L365,293" fill="none" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowR)"/>
+
+  <path d="M520,136 L520,264 L580,264 L580,293" fill="none" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowR)"/>
+
+  <!-- ═══ DORMANT (bottom) ═══ -->
+  <rect x="340" y="380" width="280" height="50" rx="8" fill="#141414" stroke="#666" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="480" y="402" text-anchor="middle" fill="#888" font-size="9" font-weight="700">DORMANT ARCHIVE</text>
+  <text x="480" y="418" text-anchor="middle" fill="#666" font-size="10">90+ days → max 1 email/month · 180d → silence</text>
+
+  <line x1="817" y1="351" x2="817" y2="395 " stroke="#666" stroke-width="1" stroke-dasharray="4,3"/>
+  <path d="M817,395 L622,395" fill="none" stroke="#666" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowR)"/>
+  <text x="720" y="389" text-anchor="middle" fill="#666" font-size="8">no response</text>
+
+  <!-- ═══ FOUNDATION label ═══ -->
+  <rect x="30" y="450" width="900" height="54" rx="8" fill="#0d1520" stroke="#74c0fc" stroke-width="1"/>
+  <text x="480" y="472" text-anchor="middle" fill="#74c0fc" font-size="10" font-weight="700" letter-spacing="1">PHASE 0 — FOUNDATION</text>
+  <text x="480" y="490" text-anchor="middle" fill="#6890a8" font-size="9">23 events tracked · 487 segments · 74 snippets · 8 senders · 6/13 events exist, 5 need backend implementation</text>
+
+  <!-- ═══ Legend ═══ -->
+  <rect x="30" y="370" width="280" height="60" rx="6" fill="#0a0a0a" stroke="#222" stroke-width="1"/>
+  <rect x="42" y="382" width="12" height="12" rx="3" fill="#141414" stroke="#b197fc" stroke-width="2"/>
+  <text x="60" y="393" fill="#b197fc" font-size="9">Exists — Optimize</text>
+  <rect x="42" y="400" width="12" height="12" rx="3" fill="#141414" stroke="#ff922b" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="60" y="411" fill="#ff922b" font-size="9">New — Build</text>
+  <rect x="160" y="382" width="12" height="12" rx="3" fill="#141414" stroke="#e599f7" stroke-width="2" stroke-dasharray="4,2"/>
+  <text x="178" y="393" fill="#e599f7" font-size="9">Partial — Extend</text>
+  <rect x="160" y="400" width="12" height="12" rx="3" fill="#141414" stroke="#ff6b6b" stroke-width="1.5"/>
+  <text x="178" y="411" fill="#ff6b6b" font-size="9">Reactivation Tiers</text>
+</svg>
+</div>
+
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
 <!-- ║  SECTION 2 — PHASE 0: FOUNDATION                            ║ -->
