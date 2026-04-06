@@ -43,6 +43,7 @@
   /* ── Summary cards ── */
   .summary-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
   .summary-grid.four { grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .summary-grid.five { grid-template-columns: repeat(5, 1fr); }
   .summary-card { background: #141414; border: 1px solid #222; border-radius: 12px; padding: 20px; transition: border-color 0.2s; }
   .summary-card:hover { border-color: #EAFF00; }
   .summary-card h3 { margin: 0 0 4px 0; color: #fff; font-size: 14px; font-weight: 600; }
@@ -58,6 +59,21 @@
   .flow-step .step-detail { font-size: 10px; color: #888; margin-top: 3px; }
   .flow-step.existing { border-color: #51cf66; }
   .flow-step.new-camp { border-color: #ff922b; border-style: dashed; }
+  .flow-step.optimize { border-color: #b197fc; border-style: solid; }
+
+  /* ── CIO info block ── */
+  .cio-info { background: #0a1a10; border: 1px solid #1a3a1a; border-left: 3px solid #51cf66; border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 14px 0; font-size: 13px; }
+  .cio-info-header { color: #51cf66; font-weight: 700; font-size: 13px; margin-bottom: 8px; }
+  .cio-info p { color: #90b890; font-size: 13px; margin: 4px 0; }
+  .cio-info .mapping { margin: 6px 0 2px; font-size: 12px; color: #80a880; }
+  .cio-info .mapping b { color: #a0d0a0; font-weight: 600; }
+  .cio-info table { margin: 8px 0 4px; }
+  .cio-info th { background: #0a1a10; color: #51cf66; border-bottom-color: #2a4a2a; }
+  .cio-info td { color: #a0c0a0; border-bottom-color: #1a2a1a; }
+  .cio-info code { background: #0a1a10; border-color: #2a4a2a; color: #a0d0a0; }
+  .cio-running { color: #51cf66; font-weight: 600; }
+  .cio-draft { color: #ff922b; font-weight: 600; }
+  .cio-archived { color: #666; font-weight: 600; }
   .flow-arrow { font-size: 22px; color: #EAFF00; padding: 0 6px; flex-shrink: 0; }
 
   /* ── Callouts ── */
@@ -73,6 +89,8 @@
   .phase-badge { display: inline-block; background: #EAFF00; color: #0C0C0C; font-weight: 800; font-size: 11px; padding: 3px 10px; border-radius: 6px; margin-right: 8px; letter-spacing: 0.5px; }
   .phase-badge.refactor { background: #51cf66; }
   .phase-badge.new-b { background: #ff922b; }
+  .phase-badge.optimize { background: #b197fc; }
+  .phase-badge.partial { background: #e599f7; }
   .phase-badge.foundation { background: #74c0fc; }
 
   /* ── Status tags ── */
@@ -80,6 +98,8 @@
   .tag-exists { background: #1a2a1a; color: #51cf66; border: 1px solid #2a3a2a; }
   .tag-new { background: #2a1a0a; color: #ff922b; border: 1px solid #3a2a1a; }
   .tag-refactor { background: #1a1a2a; color: #74c0fc; border: 1px solid #2a2a3a; }
+  .tag-optimize { background: #1a102a; color: #b197fc; border: 1px solid #2a1a3a; }
+  .tag-partial { background: #1a1520; color: #e599f7; border: 1px solid #2a1a30; }
 
   /* ── Timeline ── */
   .timeline { position: relative; padding-left: 28px; margin: 16px 0; }
