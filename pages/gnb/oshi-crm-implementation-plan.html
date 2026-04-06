@@ -1578,10 +1578,23 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase9" class="section-anchor"></div>
 
+<div class="cio-info">
+  <div class="cio-info-header">📡 Customer.io — Partial Birthday Infrastructure</div>
+  <p><strong>No player-facing birthday campaign.</strong> Only VIP manager alert and a draft exist.</p>
+  <table>
+    <tr><th>Our Plan</th><th>CIO Campaign Name</th><th>CIO ID</th><th>Status</th></tr>
+    <tr><td>Birthday (player)</td><td><code>Birthday campaign</code></td><td>#1000609</td><td><span class="cio-draft">Draft</span> (never launched)</td></tr>
+    <tr><td>—</td><td><code>⏰ [vip alert] B-day</code></td><td>#1000573</td><td><span class="cio-running">Running</span> (VIP manager only)</td></tr>
+  </table>
+  <p class="mapping"><b>Attribute:</b> <code>date_of_birth</code> exists in CIO — maps to our <code>birthday_date</code></p>
+  <p class="mapping"><b>Event:</b> <code>birthday</code> event already tracked in CIO</p>
+  <p class="mapping"><b>Action:</b> Build full player-facing birthday campaign from scratch, leveraging existing attribute and event</p>
+</div>
+
 <!-- EN -->
 <div data-lang="en" class="active">
-<h2><span class="phase-badge new-b">PHASE 9</span> Birthday Lifecycle <span class="tag tag-new">NEW</span></h2>
-<p>Standalone birthday campaign with VIP-tiered rewards. Runs independently from Retention birthday trigger.</p>
+<h2><span class="phase-badge partial">PHASE 9</span> Birthday Lifecycle <span class="tag tag-partial">PARTIAL — DRAFT ONLY</span></h2>
+<p>Standalone birthday campaign with VIP-tiered rewards. <strong>Draft campaign exists</strong> (id:1000609) but never launched. VIP alert for managers runs separately. Build full player-facing campaign.</p>
 
 <h3>11.1 VIP-Tiered Birthday Gifts</h3>
 <table>
@@ -1610,8 +1623,8 @@
 
 <!-- UA -->
 <div data-lang="ua">
-<h2><span class="phase-badge new-b">ФАЗА 9</span> Birthday Lifecycle <span class="tag tag-new">НОВИЙ</span></h2>
-<p>Окрема birthday кампанія з VIP-тірованими нагородами. Працює незалежно від Retention birthday тригера.</p>
+<h2><span class="phase-badge partial">ФАЗА 9</span> Birthday Lifecycle <span class="tag tag-partial">ЧАСТКОВО — ТІЛЬКИ ЧЕРНЕТКА</span></h2>
+<p>Окрема birthday кампанія. <strong>Чернетка існує</strong> (id:1000609), але ніколи не запускалась. VIP alert для менеджерів працює окремо. Побудувати повну кампанію для гравців.</p>
 
 <h3>11.1 VIP-тіровані подарунки на день народження</h3>
 <table>
@@ -1640,8 +1653,8 @@
 
 <!-- RU -->
 <div data-lang="ru">
-<h2><span class="phase-badge new-b">ФАЗА 9</span> Birthday Lifecycle <span class="tag tag-new">НОВАЯ</span></h2>
-<p>Отдельная birthday кампания с VIP-тирированными наградами. Работает независимо от Retention birthday триггера.</p>
+<h2><span class="phase-badge partial">ФАЗА 9</span> Birthday Lifecycle <span class="tag tag-partial">ЧАСТИЧНО — ТОЛЬКО ЧЕРНОВИК</span></h2>
+<p>Отдельная birthday кампания. <strong>Черновик существует</strong> (id:1000609), но никогда не запускался. VIP alert для менеджеров работает отдельно. Построить полную кампанию для игроков.</p>
 
 <h3>11.1 VIP-тирированные подарки на день рождения</h3>
 <table>
