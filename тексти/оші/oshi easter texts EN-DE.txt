@@ -407,7 +407,7 @@ The Grand Easter Heist is halfway through and the leaderboard is getting intense
 Every 1 EUR bet earns you 10 tournament points. With 15,000 winning spots and prizes up to 20,000 EUR, your chance is still wide open.
 
 The heist ends April 8. Check your position and spin your way to the top!
-Button: CHECK MY RANK
+Button: GO FOR THE WIN
 
 Terms&Conditions:
 Min. bet: 0.2 EUR
@@ -427,7 +427,7 @@ Der Grand Easter Heist ist auf halbem Weg und die Rangliste wird immer spannende
 Jeder 1 EUR Einsatz bringt dir 10 Turnierpunkte. Mit 15.000 Gewinnplätzen und Preisen bis zu 20.000 EUR stehen deine Chancen noch bestens.
 
 Der Heist endet am 8. April. Prüfe deine Position und dreh dich an die Spitze!
-Button: MEIN RANKING PRÜFEN
+Button: AB ZUM GEWINN
 
 Terms&Conditions:
 Min. Einsatz: 0,2 EUR
@@ -440,14 +440,14 @@ Turnier: 3.-8. April 2026 (UTC+2)
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 The Grand Easter Heist is halfway done! 🏆
 Leaderboard is heating up - 500,000 EUR in prizes across 25 Endorphina slots. Check your rank and keep spinning!
-Button: CHECK RANKING
+Button: PLAY & WIN
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 Der Grand Easter Heist ist auf halbem Weg! 🏆
 Die Rangliste wird heißer - 500.000 EUR Preispool auf 25 Endorphina-Slots. Prüfe dein Ranking und dreh weiter!
-Button: RANKING PRÜFEN
+Button: SPIELEN & GEWINNEN
 
 
 ========== 08.04 | Tournament Last Chance ==========

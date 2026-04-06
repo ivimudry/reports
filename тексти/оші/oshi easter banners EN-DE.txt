@@ -135,19 +135,19 @@ Code: STACKUP120K
 
 --- EMAIL BANNER (EN) ---
 The Heist Is Heating Up - Climb the Leaderboard!
-Check Your Rank
+Go for the Win
 
 --- EMAIL BANNER (DE) ---
 Der Heist wird heiß - Erklimme die Rangliste!
-Ranking prüfen
+Ab zum Gewinn
 
 --- INAPP BANNER (EN) ---
 Halfway Through - Are You Winning?
-Check Ranking
+Play & Win
 
 --- INAPP BANNER (DE) ---
 Halbzeit - Gewinnst du schon?
-Ranking prüfen
+Spielen & Gewinnen
 
 
 ========== 08.04 | Tournament Last Chance ==========
