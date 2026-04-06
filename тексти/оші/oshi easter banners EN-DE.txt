@@ -129,3 +129,41 @@ Code: STACKUP120K
 --- INAPP BANNER (DE) ---
 Pack deinen Oster-Bonus aus - 120% bis zu 1000 EUR!
 Code: STACKUP120K
+
+
+========== 06.04 | Tournament Reminder ==========
+
+--- EMAIL BANNER (EN) ---
+The Heist Is Heating Up - Climb the Leaderboard!
+Check Your Rank
+
+--- EMAIL BANNER (DE) ---
+Der Heist wird heiß - Erklimme die Rangliste!
+Ranking prüfen
+
+--- INAPP BANNER (EN) ---
+Halfway Through - Are You Winning?
+Check Ranking
+
+--- INAPP BANNER (DE) ---
+Halbzeit - Gewinnst du schon?
+Ranking prüfen
+
+
+========== 08.04 | Tournament Last Chance ==========
+
+--- EMAIL BANNER (EN) ---
+Final Day - Grand Easter Heist Ends Tonight!
+Play Now
+
+--- EMAIL BANNER (DE) ---
+Letzter Tag - Grand Easter Heist endet heute Abend!
+Jetzt spielen
+
+--- INAPP BANNER (EN) ---
+Last Hours - The 500,000 EUR Heist Ends Today!
+Play Now
+
+--- INAPP BANNER (DE) ---
+Letzte Stunden - Der 500.000 EUR Heist endet heute!
+Jetzt spielen
