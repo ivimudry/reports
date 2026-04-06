@@ -589,10 +589,26 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase1" class="section-anchor"></div>
 
+<div class="cio-info">
+  <div class="cio-info-header">📡 Customer.io — Existing Welcome Campaigns</div>
+  <p><strong>4 running welcome chains</strong> already exist in CIO. They need to be optimized, not built from scratch.</p>
+  <table>
+    <tr><th>Our Plan</th><th>CIO Campaign Name</th><th>CIO ID</th><th>Status</th></tr>
+    <tr><td>Welcome Phase 1 (reg)</td><td><code>[WP] 1st welcome chain / seg_0</code></td><td>#130398</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 2</td><td><code>[WP] 2nd welcome chain / seg_1</code></td><td>#1000476</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 3</td><td><code>[WP] 3rd welcome chain / seg_2</code></td><td>#1000477</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 4</td><td><code>[WP] 4th welcome chain / seg_3</code></td><td>#1000583</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>—</td><td><code>en-CAD Reg Welcome Email</code></td><td>#1000467</td><td><span class="cio-running">Running</span> (CA-specific)</td></tr>
+  </table>
+  <p class="mapping"><b>Trigger:</b> Our plan uses <code>registration</code> → CIO uses <code>confirmation_instructions</code> event</p>
+  <p class="mapping"><b>Segments:</b> seg_0 (id:255967), seg_1 (id:256004), seg_2 (id:256005), seg_3 (id:256035), seg_4+ (id:256036) — all exist</p>
+  <p class="mapping"><b>Action:</b> Optimize existing 4 chains with new bonus escalation, In-App messages, and EXIT conditions</p>
+</div>
+
 <!-- EN -->
 <div data-lang="en" class="active">
-<h2><span class="phase-badge new-b">PHASE 1</span> Welcome Campaign <span class="tag tag-new">NEW</span></h2>
-<p>Entry point for all new players. Build a 3-phase nurture campaign with escalating bonuses.</p>
+<h2><span class="phase-badge optimize">PHASE 1</span> Welcome Campaign <span class="tag tag-exists">EXISTS — OPTIMIZE</span></h2>
+<p>Entry point for all new players. <strong>4 welcome chains already running</strong> in CIO (see above). Optimize with 3-phase nurture approach and escalating bonuses.</p>
 
 <h3>3.1 Trigger &amp; EXIT</h3>
 <table>
