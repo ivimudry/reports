@@ -1,0 +1,179 @@
+﻿{
+    "activities":  [
+                       {
+                           "id":  "01KNH47GZ4C8Q3KCQJ591M6HMC",
+                           "customer_id":  "oshi:512006",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf20211c25ff3ef1f",
+                                                        "id":  "oshi:512006"
+                                                    },
+                           "type":  "attribute_change",
+                           "timestamp":  1775470101,
+                           "data":  {
+                                        "days_since_signup":  {
+                                                                  "from":  "17",
+                                                                  "to":  "18"
+                                                              }
+                                    }
+                       },
+                       {
+                           "id":  "01KNH46DTE95HJVZ5VB2HZ847J",
+                           "customer_id":  "oshi:449875",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf2020fca4e9b8a1c",
+                                                        "id":  "oshi:449875"
+                                                    },
+                           "type":  "profile_segment_membership_change",
+                           "timestamp":  1775470065,
+                           "data":  {
+                                        "entered":  [
+                                                        200097
+                                                    ]
+                                    },
+                           "delivery_id":  "",
+                           "delivery_type":  ""
+                       },
+                       {
+                           "id":  "01KNH45PC6MEQAP436DKXR8KE8",
+                           "customer_id":  "oshi:511705",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf20211955dc6ed1f",
+                                                        "id":  "oshi:511705"
+                                                    },
+                           "type":  "opened_email",
+                           "timestamp":  1775470038,
+                           "data":  {
+                                        "delivered":  1775400921,
+                                        "delivery_id":  "dgSM8gIDAMbtH8XtHwGdXbqnJXg2aUB8LzRq6RU=",
+                                        "email_client":  "GMAIL",
+                                        "ip_address":  "66.102.8.129",
+                                        "opened":  1775470038,
+                                        "proxied":  true,
+                                        "template_id":  "567555",
+                                        "user_agent":  "Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)"
+                                    },
+                           "delivery_id":  "dgSM8gIDAMbtH8XtHwGdXbqnJXg2aUB8LzRq6RU=",
+                           "delivery_type":  "email"
+                       },
+                       {
+                           "id":  "01KNH44WZSPMN5DXYNNAMCB73B",
+                           "customer_id":  "oshi:501574",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf20211fe0daf9e1f",
+                                                        "id":  "oshi:501574"
+                                                    },
+                           "type":  "profile_segment_membership_change",
+                           "timestamp":  1775470015,
+                           "data":  {
+                                        "exited":  [
+                                                       255924
+                                                   ]
+                                    },
+                           "delivery_id":  "",
+                           "delivery_type":  ""
+                       },
+                       {
+                           "id":  "01KNH444JHHS1QSG8QMDNCNVQV",
+                           "customer_id":  "oshi:475636",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf20210c82dc9d31d",
+                                                        "id":  "oshi:475636"
+                                                    },
+                           "type":  "profile_segment_membership_change",
+                           "timestamp":  1775469990,
+                           "data":  {
+                                        "exited":  [
+                                                       200095
+                                                   ]
+                                    },
+                           "delivery_id":  "",
+                           "delivery_type":  ""
+                       },
+                       {
+                           "id":  "01KNH43QW0C4X1ZRX6ZZ002TD2",
+                           "customer_id":  "oshi:511986",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf20211ae5fdfef1f",
+                                                        "id":  "oshi:511986"
+                                                    },
+                           "type":  "attribute_change",
+                           "timestamp":  1775469977,
+                           "data":  {
+                                        "days_since_signup":  {
+                                                                  "from":  "17",
+                                                                  "to":  "18"
+                                                              }
+                                    }
+                       },
+                       {
+                           "id":  "01KNH42GEY3170TETVCZXG3GV7",
+                           "customer_id":  "oshi:443099",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf2020fc9199ad51b",
+                                                        "id":  "oshi:443099"
+                                                    },
+                           "type":  "event",
+                           "timestamp":  1775469937,
+                           "data":  {
+                                        "email":  "greekoz@hotmail.com",
+                                        "last_log_in":  "2026-04-06T10:05:37Z"
+                                    },
+                           "name":  "login_activity_status"
+                       },
+                       {
+                           "id":  "01KNH42EVWYDKHZRBB7ZZFQFED",
+                           "customer_id":  "oshi:510459",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf20211b753e8e31f",
+                                                        "id":  "oshi:510459"
+                                                    },
+                           "type":  "profile_segment_membership_change",
+                           "timestamp":  1775469935,
+                           "data":  {
+                                        "entered":  [
+                                                        255939
+                                                    ]
+                                    },
+                           "delivery_id":  "",
+                           "delivery_type":  ""
+                       },
+                       {
+                           "id":  "01KNH41VAV20D9NB2TJ34HBSN3",
+                           "customer_id":  "oshi:466832",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf2020f8cd301dd8e1d",
+                                                        "id":  "oshi:466832"
+                                                    },
+                           "type":  "profile_segment_membership_change",
+                           "timestamp":  1775469915,
+                           "data":  {
+                                        "entered":  [
+                                                        200096
+                                                    ]
+                                    },
+                           "delivery_id":  "",
+                           "delivery_type":  ""
+                       },
+                       {
+                           "id":  "01KNH3YYM3XRSKVN0MAKRF6P1P",
+                           "customer_id":  "oshi:504755",
+                           "customer_identifiers":  {
+                                                        "cio_id":  "8cf20211ec269db71f",
+                                                        "id":  "oshi:504755"
+                                                    },
+                           "type":  "profile_segment_membership_change",
+                           "timestamp":  1775469820,
+                           "data":  {
+                                        "entered":  [
+                                                        256050
+                                                    ],
+                                        "exited":  [
+                                                       255860
+                                                   ]
+                                    },
+                           "delivery_id":  "",
+                           "delivery_type":  ""
+                       }
+                   ],
+    "next":  "261500000000006321"
+}
