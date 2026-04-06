@@ -334,7 +334,7 @@
 <div data-lang="ru"><h3>Поток жизненного цикла игрока</h3></div>
 
 <div class="flow-diagram" data-lang="en" class="active">
-  <div class="flow-step new-camp"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">New</div></div>
+  <div class="flow-step optimize"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">Exists — Optimize</div></div>
   <div class="flow-arrow">→</div>
   <div class="flow-step new-camp"><div class="step-icon">🥇</div><div class="step-name">Nutrition #1</div><div class="step-detail">New</div></div>
   <div class="flow-arrow">→</div>
@@ -342,12 +342,12 @@
   <div class="flow-arrow">→</div>
   <div class="flow-step new-camp"><div class="step-icon">🏆</div><div class="step-name">Nutrition #3</div><div class="step-detail">New</div></div>
   <div class="flow-arrow">→</div>
-  <div class="flow-step new-camp"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">New</div></div>
+  <div class="flow-step optimize"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">Exists — Optimize</div></div>
   <div class="flow-arrow">→</div>
-  <div class="flow-step new-camp"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">New (4 tiers)</div></div>
+  <div class="flow-step optimize"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">Exists (4 tiers)</div></div>
 </div>
 <div class="flow-diagram" data-lang="ua">
-  <div class="flow-step new-camp"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">Новий</div></div>
+  <div class="flow-step optimize"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">Існує — Оптимізація</div></div>
   <div class="flow-arrow">→</div>
   <div class="flow-step new-camp"><div class="step-icon">🥇</div><div class="step-name">Nutrition #1</div><div class="step-detail">Новий</div></div>
   <div class="flow-arrow">→</div>
@@ -355,12 +355,12 @@
   <div class="flow-arrow">→</div>
   <div class="flow-step new-camp"><div class="step-icon">🏆</div><div class="step-name">Nutrition #3</div><div class="step-detail">Новий</div></div>
   <div class="flow-arrow">→</div>
-  <div class="flow-step new-camp"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">Новий</div></div>
+  <div class="flow-step optimize"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">Існує — Оптимізація</div></div>
   <div class="flow-arrow">→</div>
-  <div class="flow-step new-camp"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">Новий (4 тіри)</div></div>
+  <div class="flow-step optimize"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">Існує (4 тіри)</div></div>
 </div>
 <div class="flow-diagram" data-lang="ru">
-  <div class="flow-step new-camp"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">Новая</div></div>
+  <div class="flow-step optimize"><div class="step-icon">👋</div><div class="step-name">Welcome</div><div class="step-detail">Существует — Оптимизация</div></div>
   <div class="flow-arrow">→</div>
   <div class="flow-step new-camp"><div class="step-icon">🥇</div><div class="step-name">Nutrition #1</div><div class="step-detail">Новая</div></div>
   <div class="flow-arrow">→</div>
@@ -368,9 +368,9 @@
   <div class="flow-arrow">→</div>
   <div class="flow-step new-camp"><div class="step-icon">🏆</div><div class="step-name">Nutrition #3</div><div class="step-detail">Новая</div></div>
   <div class="flow-arrow">→</div>
-  <div class="flow-step new-camp"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">Новая</div></div>
+  <div class="flow-step optimize"><div class="step-icon">🔄</div><div class="step-name">Retention</div><div class="step-detail">Существует — Оптимизация</div></div>
   <div class="flow-arrow">→</div>
-  <div class="flow-step new-camp"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">Новая (4 тира)</div></div>
+  <div class="flow-step optimize"><div class="step-icon">📴</div><div class="step-name">Reactivation</div><div class="step-detail">Существует (4 тира)</div></div>
 </div>
 
 
@@ -379,10 +379,31 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase0" class="section-anchor"></div>
 
+<div class="cio-info">
+  <div class="cio-info-header">📡 Customer.io — Existing Infrastructure</div>
+  <p><strong>23 events</strong> already tracked: <code>address_confirmation_required</code>, <code>affiliate_payment</code>, <code>birthday</code>, <code>bonuses_issued</code>, <code>cashout_approved</code>, <code>cashout_canceled</code>, <code>cashout_requested</code>, <code>confirmation_instructions</code>, <code>deposit_canceled</code>, <code>deposit_made</code>, <code>document_not_approved</code>, <code>freespin_bonus_issued</code>, <code>lottery_reward</code>, <code>newsletters</code>, <code>reset_password_instructions</code>, <code>tournament_reward</code>, <code>unlock_instructions</code>, <code>user_limit_confirmation</code>, <code>user_limit_created</code>, <code>user_limit_disabled</code>, <code>user_limit_updated</code>, <code>user_verified</code>, <code>fd_webhook_data</code></p>
+  <p><strong>487 segments</strong> exist in CIO. Key lifecycle segments: <code>seg_0</code> (id:255967), <code>seg_1</code> (id:256004), <code>seg_2</code> (id:256005), <code>seg_3</code> (id:256035), <code>seg_4+</code> (id:256036)</p>
+  <p><strong>74 snippets</strong>, <strong>8 sender identities</strong> (support@oshi.io, vip@oshi.io, customercare@oshi.io, SMS via Twilio)</p>
+  <table>
+    <tr><th>Our Plan Name</th><th>CIO Event Name</th><th>Status</th></tr>
+    <tr><td><code>deposit_failed</code></td><td><code>deposit_canceled</code></td><td><span class="cio-running">✓ Tracked</span> — different name!</td></tr>
+    <tr><td><code>withdrawal_cancelled</code></td><td><code>cashout_canceled</code></td><td><span class="cio-running">✓ Tracked</span> — different name!</td></tr>
+    <tr><td><code>deposit_made</code></td><td><code>deposit_made</code></td><td><span class="cio-running">✓ Same name</span></td></tr>
+    <tr><td><code>birthday</code></td><td><code>birthday</code></td><td><span class="cio-running">✓ Same name</span></td></tr>
+    <tr><td><code>registration</code></td><td><code>confirmation_instructions</code></td><td><span class="cio-running">✓ Tracked</span> — triggers welcome chain</td></tr>
+    <tr><td><code>balance_low</code></td><td>—</td><td><span class="cio-draft">✗ Not tracked</span></td></tr>
+    <tr><td><code>session_ended</code></td><td>—</td><td><span class="cio-draft">✗ Not tracked</span></td></tr>
+    <tr><td><code>wagering_completed</code></td><td>—</td><td><span class="cio-draft">✗ Not tracked</span></td></tr>
+    <tr><td><code>big_win</code></td><td>—</td><td><span class="cio-draft">✗ Not tracked</span></td></tr>
+    <tr><td><code>self_exclusion_limit_set</code></td><td><code>user_limit_created</code></td><td><span class="cio-running">✓ Tracked</span> — 4 limit events exist</td></tr>
+    <tr><td><code>churn_risk_score</code></td><td>—</td><td><span class="cio-draft">✗ Not tracked</span> — but risk segments exist</td></tr>
+  </table>
+</div>
+
 <!-- EN -->
 <div data-lang="en" class="active">
 <h2><span class="phase-badge foundation">PHASE 0</span> Foundation — Events, Attributes &amp; Segments</h2>
-<p>Before any campaign work, the backend team must implement events and the CRM team must configure attributes and segments in Customer.io.</p>
+<p>Before any campaign work, the backend team must implement events and the CRM team must configure attributes and segments in Customer.io. <strong>Many foundation elements already exist</strong> — see the mapping block above for current status.</p>
 
 <h3>2.1 Required Events (Backend → Customer.io)</h3>
 <table>
