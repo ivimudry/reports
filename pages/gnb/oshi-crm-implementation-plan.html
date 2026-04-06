@@ -589,7 +589,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase1" class="section-anchor"></div>
 
-<div class="cio-info">
+<div class="cio-info active" data-lang="en">
   <div class="cio-info-header">📡 Customer.io — Existing Welcome Campaigns</div>
   <p><strong>4 running welcome chains</strong> already exist in CIO. They need to be optimized, not built from scratch.</p>
   <table>
@@ -603,6 +603,36 @@
   <p class="mapping"><b>Trigger:</b> Our plan uses <code>registration</code> → CIO uses <code>confirmation_instructions</code> event</p>
   <p class="mapping"><b>Segments:</b> seg_0 (id:255967), seg_1 (id:256004), seg_2 (id:256005), seg_3 (id:256035), seg_4+ (id:256036) — all exist</p>
   <p class="mapping"><b>Action:</b> Optimize existing 4 chains with new bonus escalation, In-App messages, and EXIT conditions</p>
+</div>
+<div class="cio-info" data-lang="ua">
+  <div class="cio-info-header">📡 Customer.io — Існуючі Welcome кампанії</div>
+  <p><strong>4 активні welcome ланцюги</strong> вже існують в CIO. Їх потрібно оптимізувати, а не будувати з нуля.</p>
+  <table>
+    <tr><th>Наш план</th><th>Назва CIO кампанії</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td>Welcome Phase 1 (reg)</td><td><code>[WP] 1st welcome chain / seg_0</code></td><td>#130398</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 2</td><td><code>[WP] 2nd welcome chain / seg_1</code></td><td>#1000476</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 3</td><td><code>[WP] 3rd welcome chain / seg_2</code></td><td>#1000477</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 4</td><td><code>[WP] 4th welcome chain / seg_3</code></td><td>#1000583</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>—</td><td><code>en-CAD Reg Welcome Email</code></td><td>#1000467</td><td><span class="cio-running">Running</span> (CA-specific)</td></tr>
+  </table>
+  <p class="mapping"><b>Trigger:</b> Наш план використовує <code>registration</code> → CIO використовує <code>confirmation_instructions</code> event</p>
+  <p class="mapping"><b>Сегменти:</b> seg_0 (id:255967), seg_1 (id:256004), seg_2 (id:256005), seg_3 (id:256035), seg_4+ (id:256036) — всі існують</p>
+  <p class="mapping"><b>Дія:</b> Оптимізувати існуючі 4 ланцюги з новою ескалацією бонусів, In-App повідомленнями та EXIT умовами</p>
+</div>
+<div class="cio-info" data-lang="ru">
+  <div class="cio-info-header">📡 Customer.io — Существующие Welcome кампании</div>
+  <p><strong>4 активные welcome цепочки</strong> уже существуют в CIO. Их нужно оптимизировать, а не строить с нуля.</p>
+  <table>
+    <tr><th>Наш план</th><th>Название CIO кампании</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td>Welcome Phase 1 (reg)</td><td><code>[WP] 1st welcome chain / seg_0</code></td><td>#130398</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 2</td><td><code>[WP] 2nd welcome chain / seg_1</code></td><td>#1000476</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 3</td><td><code>[WP] 3rd welcome chain / seg_2</code></td><td>#1000477</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Welcome Phase 4</td><td><code>[WP] 4th welcome chain / seg_3</code></td><td>#1000583</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>—</td><td><code>en-CAD Reg Welcome Email</code></td><td>#1000467</td><td><span class="cio-running">Running</span> (CA-specific)</td></tr>
+  </table>
+  <p class="mapping"><b>Trigger:</b> Наш план использует <code>registration</code> → CIO использует <code>confirmation_instructions</code> event</p>
+  <p class="mapping"><b>Сегменты:</b> seg_0 (id:255967), seg_1 (id:256004), seg_2 (id:256005), seg_3 (id:256035), seg_4+ (id:256036) — все существуют</p>
+  <p class="mapping"><b>Действие:</b> Оптимизировать существующие 4 цепочки с новой эскалацией бонусов, In-App сообщениями и EXIT условиями</p>
 </div>
 
 <!-- EN -->
@@ -1308,7 +1338,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase6" class="section-anchor"></div>
 
-<div class="cio-info">
+<div class="cio-info active" data-lang="en">
   <div class="cio-info-header">📡 Customer.io — Existing Behavioral Campaigns</div>
   <p><strong>15+ behavioral campaigns already running.</strong> Needs systematization with master routing and frequency capping.</p>
   <table>
@@ -1323,6 +1353,38 @@
   </table>
   <p class="mapping"><b>Key name difference:</b> Our plan: <code>withdrawal_cancelled</code> → CIO: <code>cashout_canceled</code></p>
   <p class="mapping"><b>Action:</b> Systematize existing campaigns into unified routing with frequency capping (max 1/24h)</p>
+</div>
+<div class="cio-info" data-lang="ua">
+  <div class="cio-info-header">📡 Customer.io — Існуючі Behavioral кампанії</div>
+  <p><strong>15+ behavioral кампаній вже працюють.</strong> Потрібна систематизація з master routing та frequency capping.</p>
+  <table>
+    <tr><th>Наш тригер</th><th>Назва CIO кампанії</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td><code>withdrawal_cancelled</code></td><td><code>cashout_canceled</code></td><td>#1000512</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Bonus issued</td><td><code>bonuses_issued</code></td><td>#1000575</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Free spins issued</td><td><code>freespin_bonus_issued</code></td><td>#1000587</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Cashout approved</td><td><code>cashout_approved</code></td><td>#1000510</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Deposit made</td><td><code>deposit_made</code></td><td>#1000577</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>User limits (4 кампанії)</td><td><code>user_limit_created/updated/disabled/confirmation</code></td><td>#1000606–1000617</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>VIP alerts (8 кампаній)</td><td><code>⏰ [vip alert] *</code></td><td>#1000573–</td><td><span class="cio-running">Running</span></td></tr>
+  </table>
+  <p class="mapping"><b>Ключова різниця назв:</b> Наш план: <code>withdrawal_cancelled</code> → CIO: <code>cashout_canceled</code></p>
+  <p class="mapping"><b>Дія:</b> Систематизувати існуючі кампанії в єдиний routing з frequency capping (макс 1/24год)</p>
+</div>
+<div class="cio-info" data-lang="ru">
+  <div class="cio-info-header">📡 Customer.io — Существующие Behavioral кампании</div>
+  <p><strong>15+ behavioral кампаний уже работают.</strong> Требуется систематизация с master routing и frequency capping.</p>
+  <table>
+    <tr><th>Наш триггер</th><th>Название CIO кампании</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td><code>withdrawal_cancelled</code></td><td><code>cashout_canceled</code></td><td>#1000512</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Bonus issued</td><td><code>bonuses_issued</code></td><td>#1000575</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Free spins issued</td><td><code>freespin_bonus_issued</code></td><td>#1000587</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Cashout approved</td><td><code>cashout_approved</code></td><td>#1000510</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Deposit made</td><td><code>deposit_made</code></td><td>#1000577</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>User limits (4 кампании)</td><td><code>user_limit_created/updated/disabled/confirmation</code></td><td>#1000606–1000617</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>VIP alerts (8 кампаний)</td><td><code>⏰ [vip alert] *</code></td><td>#1000573–</td><td><span class="cio-running">Running</span></td></tr>
+  </table>
+  <p class="mapping"><b>Ключевое различие названий:</b> Наш план: <code>withdrawal_cancelled</code> → CIO: <code>cashout_canceled</code></p>
+  <p class="mapping"><b>Действие:</b> Систематизировать существующие кампании в единый routing с frequency capping (макс 1/24ч)</p>
 </div>
 
 <!-- EN -->
