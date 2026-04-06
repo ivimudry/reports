@@ -144,6 +144,11 @@
   div.warn[data-lang].active, div.note[data-lang].active, div.info[data-lang].active { display: block; }
   span[data-lang].active { display: inline; }
 
+  /* ── SVG Diagrams ── */
+  .svg-diagram { margin: 24px 0; text-align: center; overflow-x: auto; }
+  .svg-diagram svg { max-width: 100%; height: auto; }
+  .svg-diagram svg text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+
   /* ── Print ── */
   @media print {
     .lang-switcher, .report-nav { display: none; }
