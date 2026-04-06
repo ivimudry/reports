@@ -379,7 +379,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase0" class="section-anchor"></div>
 
-<div class="cio-info">
+<div class="cio-info active" data-lang="en">
   <div class="cio-info-header">📡 Customer.io — Existing Infrastructure</div>
   <p><strong>23 events</strong> already tracked: <code>address_confirmation_required</code>, <code>affiliate_payment</code>, <code>birthday</code>, <code>bonuses_issued</code>, <code>cashout_approved</code>, <code>cashout_canceled</code>, <code>cashout_requested</code>, <code>confirmation_instructions</code>, <code>deposit_canceled</code>, <code>deposit_made</code>, <code>document_not_approved</code>, <code>freespin_bonus_issued</code>, <code>lottery_reward</code>, <code>newsletters</code>, <code>reset_password_instructions</code>, <code>tournament_reward</code>, <code>unlock_instructions</code>, <code>user_limit_confirmation</code>, <code>user_limit_created</code>, <code>user_limit_disabled</code>, <code>user_limit_updated</code>, <code>user_verified</code>, <code>fd_webhook_data</code></p>
   <p><strong>487 segments</strong> exist in CIO. Key lifecycle segments: <code>seg_0</code> (id:255967), <code>seg_1</code> (id:256004), <code>seg_2</code> (id:256005), <code>seg_3</code> (id:256035), <code>seg_4+</code> (id:256036)</p>
@@ -397,6 +397,46 @@
     <tr><td><code>big_win</code></td><td>—</td><td><span class="cio-draft">✗ Not tracked</span></td></tr>
     <tr><td><code>self_exclusion_limit_set</code></td><td><code>user_limit_created</code></td><td><span class="cio-running">✓ Tracked</span> — 4 limit events exist</td></tr>
     <tr><td><code>churn_risk_score</code></td><td>—</td><td><span class="cio-draft">✗ Not tracked</span> — but risk segments exist</td></tr>
+  </table>
+</div>
+<div class="cio-info" data-lang="ua">
+  <div class="cio-info-header">📡 Customer.io — Існуюча інфраструктура</div>
+  <p><strong>23 events</strong> вже відстежуються: <code>address_confirmation_required</code>, <code>affiliate_payment</code>, <code>birthday</code>, <code>bonuses_issued</code>, <code>cashout_approved</code>, <code>cashout_canceled</code>, <code>cashout_requested</code>, <code>confirmation_instructions</code>, <code>deposit_canceled</code>, <code>deposit_made</code>, <code>document_not_approved</code>, <code>freespin_bonus_issued</code>, <code>lottery_reward</code>, <code>newsletters</code>, <code>reset_password_instructions</code>, <code>tournament_reward</code>, <code>unlock_instructions</code>, <code>user_limit_confirmation</code>, <code>user_limit_created</code>, <code>user_limit_disabled</code>, <code>user_limit_updated</code>, <code>user_verified</code>, <code>fd_webhook_data</code></p>
+  <p><strong>487 сегментів</strong> існують в CIO. Ключові lifecycle сегменти: <code>seg_0</code> (id:255967), <code>seg_1</code> (id:256004), <code>seg_2</code> (id:256005), <code>seg_3</code> (id:256035), <code>seg_4+</code> (id:256036)</p>
+  <p><strong>74 сніпети</strong>, <strong>8 ідентифікаторів відправників</strong> (support@oshi.io, vip@oshi.io, customercare@oshi.io, SMS via Twilio)</p>
+  <table>
+    <tr><th>Назва у нашому плані</th><th>Назва CIO Event</th><th>Статус</th></tr>
+    <tr><td><code>deposit_failed</code></td><td><code>deposit_canceled</code></td><td><span class="cio-running">✓ Відстежується</span> — різна назва!</td></tr>
+    <tr><td><code>withdrawal_cancelled</code></td><td><code>cashout_canceled</code></td><td><span class="cio-running">✓ Відстежується</span> — різна назва!</td></tr>
+    <tr><td><code>deposit_made</code></td><td><code>deposit_made</code></td><td><span class="cio-running">✓ Та ж назва</span></td></tr>
+    <tr><td><code>birthday</code></td><td><code>birthday</code></td><td><span class="cio-running">✓ Та ж назва</span></td></tr>
+    <tr><td><code>registration</code></td><td><code>confirmation_instructions</code></td><td><span class="cio-running">✓ Відстежується</span> — запускає welcome ланцюг</td></tr>
+    <tr><td><code>balance_low</code></td><td>—</td><td><span class="cio-draft">✗ Не відстежується</span></td></tr>
+    <tr><td><code>session_ended</code></td><td>—</td><td><span class="cio-draft">✗ Не відстежується</span></td></tr>
+    <tr><td><code>wagering_completed</code></td><td>—</td><td><span class="cio-draft">✗ Не відстежується</span></td></tr>
+    <tr><td><code>big_win</code></td><td>—</td><td><span class="cio-draft">✗ Не відстежується</span></td></tr>
+    <tr><td><code>self_exclusion_limit_set</code></td><td><code>user_limit_created</code></td><td><span class="cio-running">✓ Відстежується</span> — 4 limit events існують</td></tr>
+    <tr><td><code>churn_risk_score</code></td><td>—</td><td><span class="cio-draft">✗ Не відстежується</span> — але risk сегменти існують</td></tr>
+  </table>
+</div>
+<div class="cio-info" data-lang="ru">
+  <div class="cio-info-header">📡 Customer.io — Существующая инфраструктура</div>
+  <p><strong>23 events</strong> уже отслеживаются: <code>address_confirmation_required</code>, <code>affiliate_payment</code>, <code>birthday</code>, <code>bonuses_issued</code>, <code>cashout_approved</code>, <code>cashout_canceled</code>, <code>cashout_requested</code>, <code>confirmation_instructions</code>, <code>deposit_canceled</code>, <code>deposit_made</code>, <code>document_not_approved</code>, <code>freespin_bonus_issued</code>, <code>lottery_reward</code>, <code>newsletters</code>, <code>reset_password_instructions</code>, <code>tournament_reward</code>, <code>unlock_instructions</code>, <code>user_limit_confirmation</code>, <code>user_limit_created</code>, <code>user_limit_disabled</code>, <code>user_limit_updated</code>, <code>user_verified</code>, <code>fd_webhook_data</code></p>
+  <p><strong>487 сегментов</strong> существуют в CIO. Ключевые lifecycle сегменты: <code>seg_0</code> (id:255967), <code>seg_1</code> (id:256004), <code>seg_2</code> (id:256005), <code>seg_3</code> (id:256035), <code>seg_4+</code> (id:256036)</p>
+  <p><strong>74 сниппета</strong>, <strong>8 идентификаторов отправителей</strong> (support@oshi.io, vip@oshi.io, customercare@oshi.io, SMS via Twilio)</p>
+  <table>
+    <tr><th>Название в нашем плане</th><th>Название CIO Event</th><th>Статус</th></tr>
+    <tr><td><code>deposit_failed</code></td><td><code>deposit_canceled</code></td><td><span class="cio-running">✓ Отслеживается</span> — разное название!</td></tr>
+    <tr><td><code>withdrawal_cancelled</code></td><td><code>cashout_canceled</code></td><td><span class="cio-running">✓ Отслеживается</span> — разное название!</td></tr>
+    <tr><td><code>deposit_made</code></td><td><code>deposit_made</code></td><td><span class="cio-running">✓ То же название</span></td></tr>
+    <tr><td><code>birthday</code></td><td><code>birthday</code></td><td><span class="cio-running">✓ То же название</span></td></tr>
+    <tr><td><code>registration</code></td><td><code>confirmation_instructions</code></td><td><span class="cio-running">✓ Отслеживается</span> — запускает welcome цепочку</td></tr>
+    <tr><td><code>balance_low</code></td><td>—</td><td><span class="cio-draft">✗ Не отслеживается</span></td></tr>
+    <tr><td><code>session_ended</code></td><td>—</td><td><span class="cio-draft">✗ Не отслеживается</span></td></tr>
+    <tr><td><code>wagering_completed</code></td><td>—</td><td><span class="cio-draft">✗ Не отслеживается</span></td></tr>
+    <tr><td><code>big_win</code></td><td>—</td><td><span class="cio-draft">✗ Не отслеживается</span></td></tr>
+    <tr><td><code>self_exclusion_limit_set</code></td><td><code>user_limit_created</code></td><td><span class="cio-running">✓ Отслеживается</span> — 4 limit events существуют</td></tr>
+    <tr><td><code>churn_risk_score</code></td><td>—</td><td><span class="cio-draft">✗ Не отслеживается</span> — но risk сегменты существуют</td></tr>
   </table>
 </div>
 
