@@ -2207,6 +2207,81 @@
 <h2><span class="phase-badge partial">PHASE 8</span> Churn Prevention <span class="tag tag-partial">PARTIAL — SCORING ONLY</span></h2>
 <p>Proactive intervention before players churn. <strong>Risk scoring campaign already running</strong> in CIO with risk segments (low/medium/high/churned). Build player-facing communication on top.</p>
 
+<div class="svg-diagram">
+<svg viewBox="0 0 860 260" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="260" rx="12" fill="#0a0a0a" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="430" y="22" text-anchor="middle" fill="#555" font-size="10" font-weight="500" letter-spacing="1.5">CHURN PREVENTION · RISK SIGNALS → RESPONSES</text>
+
+  <!-- Risk Signals (left column) -->
+  <text x="130" y="48" text-anchor="middle" fill="#ff6b6b" font-size="10" font-weight="700">RISK SIGNALS</text>
+
+  <rect x="15" y="58" width="230" height="30" rx="5" fill="#141414" stroke="#ffa94d" stroke-width="1.5"/>
+  <text x="130" y="77" text-anchor="middle" fill="#ffa94d" font-size="9">Withdrawal cancelled</text>
+
+  <rect x="15" y="94" width="230" height="30" rx="5" fill="#141414" stroke="#ffa94d" stroke-width="1.5"/>
+  <text x="130" y="113" text-anchor="middle" fill="#ffa94d" font-size="9">Deposit frequency ↓50%</text>
+
+  <rect x="15" y="130" width="230" height="30" rx="5" fill="#141414" stroke="#ffa94d" stroke-width="1.5"/>
+  <text x="130" y="149" text-anchor="middle" fill="#ffa94d" font-size="9">Session duration ↓50%</text>
+
+  <rect x="15" y="166" width="230" height="30" rx="5" fill="#141414" stroke="#e599f7" stroke-width="1.5"/>
+  <text x="130" y="185" text-anchor="middle" fill="#e599f7" font-size="9">KYC incomplete 7 days</text>
+
+  <rect x="15" y="202" width="230" height="30" rx="5" fill="#1a1010" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="130" y="221" text-anchor="middle" fill="#ff6b6b" font-size="9" font-weight="700">⚠ Self-exclusion limit set</text>
+
+  <!-- Arrows to scoring hub -->
+  <line x1="245" y1="73" x2="310" y2="135" stroke="#ffa94d" stroke-width="1"/>
+  <line x1="245" y1="109" x2="310" y2="135" stroke="#ffa94d" stroke-width="1"/>
+  <line x1="245" y1="145" x2="310" y2="135" stroke="#ffa94d" stroke-width="1"/>
+  <line x1="245" y1="181" x2="310" y2="135" stroke="#e599f7" stroke-width="1"/>
+  <line x1="245" y1="217" x2="310" y2="135" stroke="#ff6b6b" stroke-width="1"/>
+
+  <!-- Risk scoring hub -->
+  <rect x="315" y="105" width="130" height="60" rx="10" fill="#141414" stroke="#EAFF00" stroke-width="2"/>
+  <text x="380" y="125" text-anchor="middle" fill="#EAFF00" font-size="9" font-weight="700">RISK SCORING</text>
+  <text x="380" y="142" text-anchor="middle" fill="#e0e0e0" font-size="9">CIO Campaign</text>
+  <text x="380" y="156" text-anchor="middle" fill="#51cf66" font-size="8">#1000483 Running</text>
+
+  <!-- Risk levels (right column) -->
+  <text x="630" y="48" text-anchor="middle" fill="#EAFF00" font-size="10" font-weight="700">RISK LEVEL → RESPONSE</text>
+
+  <line x1="445" y1="115" x2="490" y2="73" stroke="#51cf66" stroke-width="1.5"/>
+  <rect x="495" y="58" width="350" height="30" rx="5" fill="#0a1a10" stroke="#51cf66" stroke-width="1.5"/>
+  <text x="530" y="77" fill="#51cf66" font-size="8" font-weight="700">LOW</text>
+  <text x="670" y="77" text-anchor="middle" fill="#a0d0a0" font-size="9">Monitor only · No communication</text>
+
+  <line x1="445" y1="125" x2="490" y2="109" stroke="#ffa94d" stroke-width="1.5"/>
+  <rect x="495" y="94" width="350" height="30" rx="5" fill="#141414" stroke="#ffa94d" stroke-width="1.5"/>
+  <text x="530" y="113" fill="#ffa94d" font-size="8" font-weight="700">MEDIUM</text>
+  <text x="670" y="113" text-anchor="middle" fill="#d0a080" font-size="9">Email: "We miss you" + personalized offer</text>
+
+  <line x1="445" y1="140" x2="490" y2="149" stroke="#ff6b6b" stroke-width="1.5"/>
+  <rect x="495" y="134" width="350" height="34" rx="5" fill="#1a1010" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="530" y="150" fill="#ff6b6b" font-size="8" font-weight="700">HIGH</text>
+  <text x="670" y="150" text-anchor="middle" fill="#d09090" font-size="9">All channels + VIP escalation</text>
+  <text x="670" y="163" text-anchor="middle" fill="#906060" font-size="7">Exclusive offer · Manual outreach</text>
+
+  <line x1="445" y1="155" x2="490" y2="185" stroke="#555" stroke-width="1.5"/>
+  <rect x="495" y="176" width="350" height="30" rx="5" fill="#0d0d0d" stroke="#555" stroke-width="1.5"/>
+  <text x="530" y="195" fill="#888" font-size="8" font-weight="700">CHURNED</text>
+  <text x="670" y="195" text-anchor="middle" fill="#666" font-size="9">→ Reactivation system (Phase 7)</text>
+
+  <!-- RG compliance box -->
+  <rect x="495" y="215" width="350" height="32" rx="5" fill="#1a1010" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="670" y="233" text-anchor="middle" fill="#ff6b6b" font-size="8" font-weight="600">⚠ SELF-EXCLUSION → NO BONUSES · RG Support Only</text>
+  <text x="670" y="244" text-anchor="middle" fill="#906060" font-size="7">Bypasses scoring — direct to responsible gambling resources</text>
+
+  <!-- Safeguards -->
+  <rect x="15" y="240" width="135" height="14" rx="3" fill="#101018" stroke="#74c0fc" stroke-width="0.5"/>
+  <text x="82" y="250" text-anchor="middle" fill="#74c0fc" font-size="7">bonus_abuse_flag ✓</text>
+  <rect x="157" y="240" width="110" height="14" rx="3" fill="#101018" stroke="#74c0fc" stroke-width="0.5"/>
+  <text x="212" y="250" text-anchor="middle" fill="#74c0fc" font-size="7">active_bonus ✓</text>
+  <rect x="274" y="240" width="110" height="14" rx="3" fill="#101018" stroke="#74c0fc" stroke-width="0.5"/>
+  <text x="329" y="250" text-anchor="middle" fill="#74c0fc" font-size="7">suppression ✓</text>
+</svg>
+</div>
+
 <h3>10.1 Risk Signals &amp; Responses</h3>
 <table>
   <tr><th>Signal</th><th>Detection</th><th>Response</th><th>Channel</th></tr>
