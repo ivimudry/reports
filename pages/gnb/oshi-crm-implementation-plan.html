@@ -1094,6 +1094,84 @@
   <tr><td>EXIT (max attempts)</td><td>3 failed attempts → exit, cool-down 24h</td></tr>
 </table>
 
+<div class="svg-diagram">
+<svg viewBox="0 0 860 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="320" rx="12" fill="#0a0a0a" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="430" y="22" text-anchor="middle" fill="#555" font-size="10" font-weight="500" letter-spacing="1.5">PAYMENT DECLINED · ERROR TYPE ROUTING</text>
+
+  <!-- Trigger event -->
+  <rect x="345" y="38" width="170" height="50" rx="8" fill="#141414" stroke="#74c0fc" stroke-width="2"/>
+  <text x="430" y="58" text-anchor="middle" fill="#74c0fc" font-size="9" font-weight="700">EVENT TRIGGER</text>
+  <text x="430" y="76" text-anchor="middle" fill="#e0e0e0" font-size="11">deposit_failed</text>
+
+  <!-- Branch hub -->
+  <line x1="430" y1="88" x2="430" y2="110" stroke="#EAFF00" stroke-width="2"/>
+  <circle cx="430" cy="115" r="12" fill="#141414" stroke="#EAFF00" stroke-width="2"/>
+  <text x="430" y="119" text-anchor="middle" fill="#EAFF00" font-size="9" font-weight="700">?</text>
+
+  <!-- 6 branches -->
+  <!-- Branch 1: processor_gateway -->
+  <line x1="430" y1="127" x2="75" y2="165" stroke="#b197fc" stroke-width="1.5"/>
+  <rect x="10" y="168" width="130" height="60" rx="6" fill="#141414" stroke="#b197fc" stroke-width="1.5"/>
+  <text x="75" y="185" text-anchor="middle" fill="#b197fc" font-size="8" font-weight="700">GATEWAY</text>
+  <text x="75" y="198" text-anchor="middle" fill="#e0e0e0" font-size="9">processor_gateway</text>
+  <text x="75" y="214" text-anchor="middle" fill="#888" font-size="8">Retry + Alt methods</text>
+
+  <!-- Branch 2: 3ds_auth -->
+  <line x1="430" y1="127" x2="220" y2="165" stroke="#b197fc" stroke-width="1.5"/>
+  <rect x="155" y="168" width="130" height="60" rx="6" fill="#141414" stroke="#b197fc" stroke-width="1.5"/>
+  <text x="220" y="185" text-anchor="middle" fill="#b197fc" font-size="8" font-weight="700">3D SECURE</text>
+  <text x="220" y="198" text-anchor="middle" fill="#e0e0e0" font-size="9">3ds_auth</text>
+  <text x="220" y="214" text-anchor="middle" fill="#888" font-size="8">Instructions + Bank</text>
+
+  <!-- Branch 3: card_declined -->
+  <line x1="430" y1="127" x2="365" y2="165" stroke="#b197fc" stroke-width="1.5"/>
+  <rect x="300" y="168" width="130" height="60" rx="6" fill="#141414" stroke="#b197fc" stroke-width="1.5"/>
+  <text x="365" y="185" text-anchor="middle" fill="#b197fc" font-size="8" font-weight="700">CARD DECLINED</text>
+  <text x="365" y="198" text-anchor="middle" fill="#e0e0e0" font-size="9">card_declined</text>
+  <text x="365" y="214" text-anchor="middle" fill="#888" font-size="8">Alt payment methods</text>
+
+  <!-- Branch 4: wrong_card -->
+  <line x1="430" y1="127" x2="500" y2="165" stroke="#b197fc" stroke-width="1.5"/>
+  <rect x="435" y="168" width="130" height="60" rx="6" fill="#141414" stroke="#b197fc" stroke-width="1.5"/>
+  <text x="500" y="185" text-anchor="middle" fill="#b197fc" font-size="8" font-weight="700">WRONG CARD</text>
+  <text x="500" y="198" text-anchor="middle" fill="#e0e0e0" font-size="9">wrong_card</text>
+  <text x="500" y="214" text-anchor="middle" fill="#888" font-size="8">Re-enter details</text>
+
+  <!-- Branch 5: crypto_failed -->
+  <line x1="430" y1="127" x2="640" y2="165" stroke="#b197fc" stroke-width="1.5"/>
+  <rect x="575" y="168" width="130" height="60" rx="6" fill="#141414" stroke="#b197fc" stroke-width="1.5"/>
+  <text x="640" y="185" text-anchor="middle" fill="#b197fc" font-size="8" font-weight="700">CRYPTO</text>
+  <text x="640" y="198" text-anchor="middle" fill="#e0e0e0" font-size="9">crypto_failed</text>
+  <text x="640" y="214" text-anchor="middle" fill="#888" font-size="8">Check wallet + Retry</text>
+
+  <!-- Branch 6: deposit_limit (RG) — red/warning -->
+  <line x1="430" y1="127" x2="785" y2="165" stroke="#ff6b6b" stroke-width="1.5"/>
+  <rect x="720" y="168" width="130" height="60" rx="6" fill="#1a1010" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="785" y="185" text-anchor="middle" fill="#ff6b6b" font-size="8" font-weight="700">⚠ LIMIT (RG)</text>
+  <text x="785" y="198" text-anchor="middle" fill="#e0e0e0" font-size="9">deposit_limit</text>
+  <text x="785" y="214" text-anchor="middle" fill="#ff8787" font-size="8">NO bonuses! RG info</text>
+
+  <!-- Incentive row -->
+  <rect x="10" y="248" width="270" height="55" rx="6" fill="#0a1a10" stroke="#51cf66" stroke-width="1"/>
+  <text x="145" y="267" text-anchor="middle" fill="#51cf66" font-size="9" font-weight="700">RETRY INCENTIVE (5 of 6 types)</text>
+  <text x="145" y="282" text-anchor="middle" fill="#a0d0a0" font-size="9">1st fail → 5 FS  ·  2nd fail → 10 FS</text>
+  <text x="145" y="295" text-anchor="middle" fill="#70a070" font-size="8">Anti-spam: max 3 In-App / 24h</text>
+
+  <!-- EXIT success -->
+  <rect x="310" y="248" width="250" height="55" rx="6" fill="#0a1a10" stroke="#51cf66" stroke-width="1.5"/>
+  <text x="435" y="267" text-anchor="middle" fill="#51cf66" font-size="9" font-weight="700">EXIT — SUCCESSFUL DEPOSIT</text>
+  <text x="435" y="282" text-anchor="middle" fill="#a0d0a0" font-size="10">Return to previous flow</text>
+  <text x="435" y="295" text-anchor="middle" fill="#70a070" font-size="8">Welcome / Nutrition / Retention</text>
+
+  <!-- EXIT max attempts -->
+  <rect x="590" y="248" width="260" height="55" rx="6" fill="#1a1010" stroke="#ff6b6b" stroke-width="1"/>
+  <text x="720" y="267" text-anchor="middle" fill="#ff6b6b" font-size="9" font-weight="700">EXIT — 3 FAILED ATTEMPTS</text>
+  <text x="720" y="282" text-anchor="middle" fill="#d09090" font-size="10">24h cool-down period</text>
+  <text x="720" y="295" text-anchor="middle" fill="#906060" font-size="8">No more In-App messages</text>
+</svg>
+</div>
+
 <h3>4.2 Error Type Routing</h3>
 <table>
   <tr><th>Error Type</th><th>In-App Message</th><th>Action</th></tr>
