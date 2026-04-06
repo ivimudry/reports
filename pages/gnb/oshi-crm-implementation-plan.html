@@ -734,10 +734,22 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase2" class="section-anchor"></div>
 
+<div class="cio-info">
+  <div class="cio-info-header">📡 Customer.io — Existing Payment Declined Campaign</div>
+  <p><strong>1 running campaign</strong> handles failed deposits. Needs enhancement with error-type routing.</p>
+  <table>
+    <tr><th>Our Plan</th><th>CIO Campaign Name</th><th>CIO ID</th><th>Status</th></tr>
+    <tr><td>Payment Declined</td><td><code>failed_deposit</code></td><td>#1000572</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>—</td><td><code>seg_failed deposit</code></td><td>#1000528</td><td><span class="cio-archived">Archived</span> (segment)</td></tr>
+  </table>
+  <p class="mapping"><b>Event name:</b> Our plan: <code>deposit_failed</code> → CIO: <code>deposit_canceled</code> — different name!</p>
+  <p class="mapping"><b>Action:</b> Optimize existing campaign with 6 error-type routing, In-App templates, retry bonus logic</p>
+</div>
+
 <!-- EN -->
 <div data-lang="en" class="active">
-<h2><span class="phase-badge new-b">PHASE 2</span> Payment Declined <span class="tag tag-new">NEW</span></h2>
-<p>Handles failed deposit attempts. Build with error-type routing and context-specific responses.</p>
+<h2><span class="phase-badge optimize">PHASE 2</span> Payment Declined <span class="tag tag-exists">EXISTS — OPTIMIZE</span></h2>
+<p>Handles failed deposit attempts. <strong>1 campaign already running</strong> in CIO as <code>failed_deposit</code>. Optimize with error-type routing and context-specific responses.</p>
 
 <h3>4.1 Trigger &amp; EXIT</h3>
 <table>
@@ -783,8 +795,8 @@
 
 <!-- UA -->
 <div data-lang="ua">
-<h2><span class="phase-badge new-b">ФАЗА 2</span> Payment Declined <span class="tag tag-new">НОВА</span></h2>
-<p>Обробка невдалих спроб депозиту. Побудувати з маршрутизацією за типом помилки з контекстними відповідями.</p>
+<h2><span class="phase-badge optimize">ФАЗА 2</span> Payment Declined <span class="tag tag-exists">ІСНУЄ — ОПТИМІЗАЦІЯ</span></h2>
+<p>Обробка невдалих спроб депозиту. <strong>1 кампанія вже працює</strong> в CIO як <code>failed_deposit</code>. Оптимізувати з маршрутизацією за типом помилки.</p>
 
 <h3>4.1 Trigger &amp; EXIT</h3>
 <table>
@@ -830,8 +842,8 @@
 
 <!-- RU -->
 <div data-lang="ru">
-<h2><span class="phase-badge new-b">ФАЗА 2</span> Payment Declined <span class="tag tag-new">НОВАЯ</span></h2>
-<p>Обработка неудачных попыток депозита. Построить с маршрутизацией по типу ошибки с контекстными ответами.</p>
+<h2><span class="phase-badge optimize">ФАЗА 2</span> Payment Declined <span class="tag tag-exists">СУЩЕСТВУЕТ — ОПТИМИЗАЦИЯ</span></h2>
+<p>Обработка неудачных попыток депозита. <strong>1 кампания уже работает</strong> в CIO как <code>failed_deposit</code>. Оптимизировать с маршрутизацией по типу ошибки.</p>
 
 <h3>4.1 Trigger &amp; EXIT</h3>
 <table>
@@ -880,6 +892,14 @@
 <!-- ║  SECTION 5 — PHASE 3: NUTRITION #1 (NEW)                   ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase3" class="section-anchor"></div>
+
+<div class="cio-info">
+  <div class="cio-info-header">📡 Customer.io — No Nutrition #1 Campaign Exists</div>
+  <p><strong>No dedicated campaign.</strong> Build from scratch. However, supporting infrastructure exists:</p>
+  <p class="mapping"><b>Existing segments:</b> <code>seg_0</code> (id:255967) = 0 deposits, <code>seg_1</code> (id:256004) = 1 deposit — can be used for targeting</p>
+  <p class="mapping"><b>Existing attribute:</b> <code>lifetime_deposit_count_total</code> — matches our <code>deposit_count</code></p>
+  <p class="mapping"><b>Existing event:</b> <code>deposit_made</code> — same name as our plan</p>
+</div>
 
 <!-- EN -->
 <div data-lang="en" class="active">
@@ -988,6 +1008,12 @@
 <!-- ║  SECTION 6 — PHASE 4: NUTRITION #2 (NEW)                   ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase4" class="section-anchor"></div>
+
+<div class="cio-info">
+  <div class="cio-info-header">📡 Customer.io — No Nutrition #2 Campaign Exists</div>
+  <p><strong>No dedicated campaign.</strong> Build from scratch. Supporting segments exist:</p>
+  <p class="mapping"><b>Existing segment:</b> <code>seg_2</code> (id:256005) = 2 deposits, <code>lifetime_deposit_count_total = 2</code></p>
+</div>
 
 <!-- EN -->
 <div data-lang="en" class="active">
@@ -1102,6 +1128,12 @@
 <!-- ║  SECTION 7 — PHASE 5: NUTRITION #3 (NEW)                    ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase5" class="section-anchor"></div>
+
+<div class="cio-info">
+  <div class="cio-info-header">📡 Customer.io — No Nutrition #3 Campaign Exists</div>
+  <p><strong>No dedicated campaign.</strong> Build from scratch. Supporting segments exist:</p>
+  <p class="mapping"><b>Existing segment:</b> <code>seg_3</code> (id:256035) = 3 deposits, <code>seg_4+</code> (id:256036) = 4+ deposits</p>
+</div>
 
 <!-- EN -->
 <div data-lang="en" class="active">
