@@ -1421,7 +1421,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase7" class="section-anchor"></div>
 
-<div class="cio-info">
+<div class="cio-info active" data-lang="en">
   <div class="cio-info-header">📡 Customer.io — Existing Retention & Reactivation</div>
   <p><strong>Key running campaigns exist.</strong> Need expansion with 8 retention triggers and 4 reactivation tiers.</p>
   <table>
@@ -1431,6 +1431,28 @@
   </table>
   <p class="mapping"><b>Existing segment:</b> <code>7-60 days since last deposit</code> (id:256037) — maps to our Reactivation tiers 1–4</p>
   <p class="mapping"><b>Action:</b> Expand reactivation into 4 discrete tiers, add 8 active retention triggers, systematize VIP handling</p>
+</div>
+<div class="cio-info" data-lang="ua">
+  <div class="cio-info-header">📡 Customer.io — Існуючі Retention & Reactivation</div>
+  <p><strong>Ключові активні кампанії існують.</strong> Потрібне розширення з 8 retention тригерами та 4 reactivation тірами.</p>
+  <table>
+    <tr><th>Наш план</th><th>Назва CIO кампанії</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td>Reactivation (4 тіри)</td><td><code>Reactivation chain (7-60 days since last deposit)</code></td><td>#1000599</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>VIP Retention</td><td><code>VIP reminders</code></td><td>#1000594</td><td><span class="cio-running">Running</span></td></tr>
+  </table>
+  <p class="mapping"><b>Існуючий сегмент:</b> <code>7-60 days since last deposit</code> (id:256037) — відповідає нашим Reactivation тірам 1–4</p>
+  <p class="mapping"><b>Дія:</b> Розширити reactivation до 4 окремих тірів, додати 8 active retention тригерів, систематизувати VIP обробку</p>
+</div>
+<div class="cio-info" data-lang="ru">
+  <div class="cio-info-header">📡 Customer.io — Существующие Retention & Reactivation</div>
+  <p><strong>Ключевые активные кампании существуют.</strong> Требуется расширение с 8 retention триггерами и 4 reactivation тирами.</p>
+  <table>
+    <tr><th>Наш план</th><th>Название CIO кампании</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td>Reactivation (4 тира)</td><td><code>Reactivation chain (7-60 days since last deposit)</code></td><td>#1000599</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>VIP Retention</td><td><code>VIP reminders</code></td><td>#1000594</td><td><span class="cio-running">Running</span></td></tr>
+  </table>
+  <p class="mapping"><b>Существующий сегмент:</b> <code>7-60 days since last deposit</code> (id:256037) — соответствует нашим Reactivation тирам 1–4</p>
+  <p class="mapping"><b>Действие:</b> Расширить reactivation до 4 отдельных тиров, добавить 8 active retention триггеров, систематизировать VIP обработку</p>
 </div>
 
 <!-- EN -->
@@ -1541,7 +1563,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase8" class="section-anchor"></div>
 
-<div class="cio-info">
+<div class="cio-info active" data-lang="en">
   <div class="cio-info-header">📡 Customer.io — Partial Churn Infrastructure</div>
   <p><strong>Risk scoring campaign exists, but no player-facing communication campaign.</strong> Scoring runs; build communication layer from scratch.</p>
   <table>
@@ -1550,6 +1572,26 @@
   </table>
   <p class="mapping"><b>Existing segments:</b> <code>risk_status = low</code> (id:256264), <code>medium</code> (id:256265), <code>high</code> (id:256267), <code>churned</code> (id:256268)</p>
   <p class="mapping"><b>Action:</b> Scoring infrastructure exists — build communication campaigns on top of existing risk segments</p>
+</div>
+<div class="cio-info" data-lang="ua">
+  <div class="cio-info-header">📡 Customer.io — Часткова інфраструктура Churn</div>
+  <p><strong>Кампанія Risk scoring існує, але комунікаційної кампанії для гравців немає.</strong> Scoring працює; побудувати комунікаційний шар з нуля.</p>
+  <table>
+    <tr><th>Наш план</th><th>Назва CIO кампанії</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td>Churn Prevention (scoring)</td><td><code>[TECH] Risk of churn status update 3</code></td><td>#1000658</td><td><span class="cio-running">Running</span> (тільки технічна)</td></tr>
+  </table>
+  <p class="mapping"><b>Існуючі сегменти:</b> <code>risk_status = low</code> (id:256264), <code>medium</code> (id:256265), <code>high</code> (id:256267), <code>churned</code> (id:256268)</p>
+  <p class="mapping"><b>Дія:</b> Scoring інфраструктура існує — побудувати комунікаційні кампанії на основі існуючих risk сегментів</p>
+</div>
+<div class="cio-info" data-lang="ru">
+  <div class="cio-info-header">📡 Customer.io — Частичная инфраструктура Churn</div>
+  <p><strong>Кампания Risk scoring существует, но коммуникационной кампании для игроков нет.</strong> Scoring работает; построить коммуникационный слой с нуля.</p>
+  <table>
+    <tr><th>Наш план</th><th>Название CIO кампании</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td>Churn Prevention (scoring)</td><td><code>[TECH] Risk of churn status update 3</code></td><td>#1000658</td><td><span class="cio-running">Running</span> (только техническая)</td></tr>
+  </table>
+  <p class="mapping"><b>Существующие сегменты:</b> <code>risk_status = low</code> (id:256264), <code>medium</code> (id:256265), <code>high</code> (id:256267), <code>churned</code> (id:256268)</p>
+  <p class="mapping"><b>Действие:</b> Scoring инфраструктура существует — построить коммуникационные кампании на основе существующих risk сегментов</p>
 </div>
 
 <!-- EN -->
@@ -1651,7 +1693,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase9" class="section-anchor"></div>
 
-<div class="cio-info">
+<div class="cio-info active" data-lang="en">
   <div class="cio-info-header">📡 Customer.io — Partial Birthday Infrastructure</div>
   <p><strong>No player-facing birthday campaign.</strong> Only VIP manager alert and a draft exist.</p>
   <table>
@@ -1662,6 +1704,30 @@
   <p class="mapping"><b>Attribute:</b> <code>date_of_birth</code> exists in CIO — maps to our <code>birthday_date</code></p>
   <p class="mapping"><b>Event:</b> <code>birthday</code> event already tracked in CIO</p>
   <p class="mapping"><b>Action:</b> Build full player-facing birthday campaign from scratch, leveraging existing attribute and event</p>
+</div>
+<div class="cio-info" data-lang="ua">
+  <div class="cio-info-header">📡 Customer.io — Часткова інфраструктура Birthday</div>
+  <p><strong>Кампанії для гравців на день народження немає.</strong> Існує тільки VIP manager alert та чернетка.</p>
+  <table>
+    <tr><th>Наш план</th><th>Назва CIO кампанії</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td>Birthday (гравець)</td><td><code>Birthday campaign</code></td><td>#1000609</td><td><span class="cio-draft">Draft</span> (ніколи не запускалась)</td></tr>
+    <tr><td>—</td><td><code>⏰ [vip alert] B-day</code></td><td>#1000573</td><td><span class="cio-running">Running</span> (тільки VIP manager)</td></tr>
+  </table>
+  <p class="mapping"><b>Атрибут:</b> <code>date_of_birth</code> існує в CIO — відповідає нашому <code>birthday_date</code></p>
+  <p class="mapping"><b>Event:</b> <code>birthday</code> event вже відстежується в CIO</p>
+  <p class="mapping"><b>Дія:</b> Побудувати повну birthday кампанію для гравців з нуля, використовуючи існуючий атрибут та event</p>
+</div>
+<div class="cio-info" data-lang="ru">
+  <div class="cio-info-header">📡 Customer.io — Частичная инфраструктура Birthday</div>
+  <p><strong>Кампании для игроков на день рождения нет.</strong> Существует только VIP manager alert и черновик.</p>
+  <table>
+    <tr><th>Наш план</th><th>Название CIO кампании</th><th>CIO ID</th><th>Статус</th></tr>
+    <tr><td>Birthday (игрок)</td><td><code>Birthday campaign</code></td><td>#1000609</td><td><span class="cio-draft">Draft</span> (никогда не запускалась)</td></tr>
+    <tr><td>—</td><td><code>⏰ [vip alert] B-day</code></td><td>#1000573</td><td><span class="cio-running">Running</span> (только VIP manager)</td></tr>
+  </table>
+  <p class="mapping"><b>Атрибут:</b> <code>date_of_birth</code> существует в CIO — соответствует нашему <code>birthday_date</code></p>
+  <p class="mapping"><b>Event:</b> <code>birthday</code> event уже отслеживается в CIO</p>
+  <p class="mapping"><b>Действие:</b> Построить полную birthday кампанию для игроков с нуля, используя существующий атрибут и event</p>
 </div>
 
 <!-- EN -->
