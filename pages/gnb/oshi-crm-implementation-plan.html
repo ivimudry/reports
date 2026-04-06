@@ -1252,10 +1252,27 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div id="sec-phase6" class="section-anchor"></div>
 
+<div class="cio-info">
+  <div class="cio-info-header">📡 Customer.io — Existing Behavioral Campaigns</div>
+  <p><strong>15+ behavioral campaigns already running.</strong> Needs systematization with master routing and frequency capping.</p>
+  <table>
+    <tr><th>Our Plan Trigger</th><th>CIO Campaign Name</th><th>CIO ID</th><th>Status</th></tr>
+    <tr><td><code>withdrawal_cancelled</code></td><td><code>cashout_canceled</code></td><td>#1000512</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Bonus issued</td><td><code>bonuses_issued</code></td><td>#1000575</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Free spins issued</td><td><code>freespin_bonus_issued</code></td><td>#1000587</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Cashout approved</td><td><code>cashout_approved</code></td><td>#1000510</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>Deposit made</td><td><code>deposit_made</code></td><td>#1000577</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>User limits (4 campaigns)</td><td><code>user_limit_created/updated/disabled/confirmation</code></td><td>#1000606–1000617</td><td><span class="cio-running">Running</span></td></tr>
+    <tr><td>VIP alerts (8 campaigns)</td><td><code>⏰ [vip alert] *</code></td><td>#1000573–</td><td><span class="cio-running">Running</span></td></tr>
+  </table>
+  <p class="mapping"><b>Key name difference:</b> Our plan: <code>withdrawal_cancelled</code> → CIO: <code>cashout_canceled</code></p>
+  <p class="mapping"><b>Action:</b> Systematize existing campaigns into unified routing with frequency capping (max 1/24h)</p>
+</div>
+
 <!-- EN -->
 <div data-lang="en" class="active">
-<h2><span class="phase-badge new-b">PHASE 6</span> Event-Triggered Behavioral Campaigns <span class="tag tag-new">NEW</span></h2>
-<p>Master behavioral trigger routing logic. These are <strong>parallel campaigns</strong> that run alongside all other flows — the "glue" of the entire system.</p>
+<h2><span class="phase-badge optimize">PHASE 6</span> Event-Triggered Behavioral Campaigns <span class="tag tag-exists">EXISTS — OPTIMIZE</span></h2>
+<p>Master behavioral trigger routing logic. <strong>15+ behavioral campaigns already running</strong> in CIO (see above). Needs systematization with frequency capping and unified routing.</p>
 
 <h3>8.1 Trigger Map</h3>
 <table>
