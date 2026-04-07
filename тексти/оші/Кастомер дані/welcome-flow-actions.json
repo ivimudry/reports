@@ -1,0 +1,72 @@
+﻿[
+    {
+        "id":  "1003698",
+        "name":  "Email 1",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Welcome + brand intro"
+    },
+    {
+        "id":  "1003702",
+        "name":  "In-App Message 1.1 AU",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003712",
+        "name":  "Email 2",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "150 FS waiting + top games + 72hr urgency"
+    },
+    {
+        "id":  "1003717",
+        "name":  "Email 3",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003718",
+        "name":  "SMS 3",
+        "type":  "twilio",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003724",
+        "name":  "In-App Message 1.1",
+        "type":  "in_app",
+        "lang":  "de",
+        "subject":  null
+    },
+    {
+        "id":  "1003725",
+        "name":  "In-App Message 1.1",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003727",
+        "name":  "In-App Message 1.1 CA",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003730",
+        "name":  "In-App Message 1.2 AU",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003732",
+        "name":  "In-App Message 1.2 CA",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    }
+]
