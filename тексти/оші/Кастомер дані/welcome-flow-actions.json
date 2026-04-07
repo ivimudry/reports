@@ -68,5 +68,320 @@
         "type":  "in_app",
         "lang":  "",
         "subject":  null
+    },
+    {
+        "id":  "1003734",
+        "name":  "In-App Message 1.2",
+        "type":  "in_app",
+        "lang":  "de",
+        "subject":  null
+    },
+    {
+        "id":  "1003735",
+        "name":  "In-App Message 1.2",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003744",
+        "name":  "Email 2 CA",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "150 FS waiting + top games + 72hr urgency"
+    },
+    {
+        "id":  "1003745",
+        "name":  "Email 2",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "150 FS waiting + top games + 72hr urgency"
+    },
+    {
+        "id":  "1003747",
+        "name":  "Email 2 AU",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "150 FS waiting + top games + 72hr urgency"
+    },
+    {
+        "id":  "1003748",
+        "name":  "Email 1",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Welcome + brand intro"
+    },
+    {
+        "id":  "1003750",
+        "name":  "Email 3",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003787",
+        "name":  "Email 4 AU",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003788",
+        "name":  "Email 4 AU",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003808",
+        "name":  "Email 4 CA",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003809",
+        "name":  "Email 4 CA",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003829",
+        "name":  "Email 4",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003830",
+        "name":  "Email 4",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003859",
+        "name":  "Email 5 AU",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003860",
+        "name":  "Email 5 AU",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003920",
+        "name":  "In-App Message 5 AU",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003942",
+        "name":  "Email 5 CA",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003943",
+        "name":  "Email 5 CA",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003945",
+        "name":  "In-App Message 5 CA",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003947",
+        "name":  "Email 5",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003948",
+        "name":  "Email 5",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003950",
+        "name":  "In-App Message 5",
+        "type":  "in_app",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1003961",
+        "name":  "Email 6 AU",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003962",
+        "name":  "Email 6 AU",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003972",
+        "name":  "Email 6 CA",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003973",
+        "name":  "Email 6 CA",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003983",
+        "name":  "Email 6",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003984",
+        "name":  "Email 6",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003997",
+        "name":  "Email 7 AU",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1003998",
+        "name":  "Email 7 AU",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004006",
+        "name":  "Email 7 CA",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004007",
+        "name":  "Email 7 CA",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004015",
+        "name":  "Email 7",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004016",
+        "name":  "Email 7",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004017",
+        "name":  "SMS 7 AU",
+        "type":  "twilio",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1004018",
+        "name":  "SMS 7 CA",
+        "type":  "twilio",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1004019",
+        "name":  "SMS 7",
+        "type":  "twilio",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1004031",
+        "name":  "Email 8 AU",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004032",
+        "name":  "Email 8 AU",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004041",
+        "name":  "Email 8 CA",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004042",
+        "name":  "Email 8 CA",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004051",
+        "name":  "Email 8",
+        "type":  "email",
+        "lang":  "de",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004052",
+        "name":  "Email 8",
+        "type":  "email",
+        "lang":  "",
+        "subject":  "Platform value (tournaments, loyalty, providers)"
+    },
+    {
+        "id":  "1004057",
+        "name":  "Tag: no_ftd_cooldown_30d",
+        "type":  "attribute_update",
+        "lang":  "",
+        "subject":  null
+    },
+    {
+        "id":  "1004058",
+        "name":  "Tag: reactivation_entry",
+        "type":  "create_event",
+        "lang":  "",
+        "subject":  null
     }
 ]
