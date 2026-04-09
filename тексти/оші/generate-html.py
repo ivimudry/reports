@@ -164,13 +164,11 @@ ban_entries = [{'header': h, **parse_banner_subs(b)} for h, b in ban_secs]
 
 
 # ── Generate Newsletters HTML ────────────────────────────────
-def email_block(entry, lang_key):
-    raw = entry.get(lang_key, '')
+def email_block(raw, label):
     if not raw:
         return ''
     f = extract_email(raw)
-    h = entry['header']
-    out = f'\n<h3>EMAIL | {h}</h3>\n'
+    out = f'\n<h3>{label}</h3>\n'
     if f['subject']:
         out += f'<p><b>Subject:</b> {f["subject"]}</p>\n'
     if f['preheader']:
@@ -186,13 +184,11 @@ def email_block(entry, lang_key):
     return out
 
 
-def inapp_block(entry, lang_key):
-    raw = entry.get(lang_key, '')
+def inapp_block(raw, label):
     if not raw:
         return ''
     f = extract_inapp(raw)
-    h = entry['header']
-    out = f'\n<h3>INAPP | {h}</h3>\n'
+    out = f'\n<h3>{label}</h3>\n'
     if f['body']:
         out += f'<p><b>Body:</b><br>\n{body_html(f["body"])}</p>\n'
     if f['button']:
@@ -207,19 +203,14 @@ html = f'''<!DOCTYPE html>
 <body>
 
 <h1>OSHI NEWSLETTERS &#128240;</h1>
-
-<h2>ENGLISH</h2>
 '''
 
 for e in txt_entries:
-    html += email_block(e, 'email_en')
-    html += inapp_block(e, 'inapp_en')
-
-html += '\n<h2>DEUTSCH</h2>\n'
-
-for e in txt_entries:
-    html += email_block(e, 'email_de')
-    html += inapp_block(e, 'inapp_de')
+    html += f'\n<h2>{e["header"]}</h2>\n'
+    html += email_block(e.get('email_en',''), 'EMAIL (EN)')
+    html += email_block(e.get('email_de',''), 'EMAIL (DE)')
+    html += inapp_block(e.get('inapp_en',''), 'INAPP (EN)')
+    html += inapp_block(e.get('inapp_de',''), 'INAPP (DE)')
 
 html += '\n</body>\n</html>'
 
@@ -236,23 +227,18 @@ html2 = f'''<!DOCTYPE html>
 <body>
 
 <h1>OSHI NEWSLETTER BANNERS &#127912;</h1>
-
-<h2>ENGLISH</h2>
 '''
 
 for e in ban_entries:
+    html2 += f'\n<h2>{e["header"]}</h2>\n'
     if e.get('email_en'):
-        html2 += f'\n<h3>EMAIL | {e["header"]}</h3>\n<p>{e["email_en"]}</p>\n'
-    if e.get('inapp_en'):
-        html2 += f'\n<h3>INAPP | {e["header"]}</h3>\n<p>{e["inapp_en"]}</p>\n'
-
-html2 += '\n<h2>DEUTSCH</h2>\n'
-
-for e in ban_entries:
+        html2 += f'\n<h3>EMAIL BANNER (EN)</h3>\n<p>{e["email_en"]}</p>\n'
     if e.get('email_de'):
-        html2 += f'\n<h3>EMAIL | {e["header"]}</h3>\n<p>{e["email_de"]}</p>\n'
+        html2 += f'\n<h3>EMAIL BANNER (DE)</h3>\n<p>{e["email_de"]}</p>\n'
+    if e.get('inapp_en'):
+        html2 += f'\n<h3>INAPP BANNER (EN)</h3>\n<p>{e["inapp_en"]}</p>\n'
     if e.get('inapp_de'):
-        html2 += f'\n<h3>INAPP | {e["header"]}</h3>\n<p>{e["inapp_de"]}</p>\n'
+        html2 += f'\n<h3>INAPP BANNER (DE)</h3>\n<p>{e["inapp_de"]}</p>\n'
 
 html2 += '\n</body>\n</html>'
 
