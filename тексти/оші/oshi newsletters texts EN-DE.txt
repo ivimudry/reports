@@ -506,13 +506,15 @@ Der Grand Easter Heist endet heute! ⏳
 Letzte Stunden, um Punkte auf 25 Endorphina-Slots zu sammeln. 500.000 EUR Preispool - verpasse nicht deinen Anteil!
 Button: JETZT SPIELEN
 
-========== 08.04 | Tournament Last Chance ==========
+
+========== 09.04 |  ==========
 
 --- EMAIL (EN) ---
 
 Subject: 
 Preheader: 
 Body:
+Clover Gold is trending
 Button: 
 
 Terms&Conditions:
