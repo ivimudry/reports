@@ -223,21 +223,47 @@ function _cioFiltered(id, metric, segmentId, filterParam) {
   if (!id || !metric || !segmentId) return '';
   metric = String(metric).toLowerCase().trim();
 
-  // 1. Load segment members into a set
+  // 1. Load segment members (cached)
   var members = _getSegmentMembers(segmentId);
-  if (typeof members === 'string') return members; // error string
+  if (typeof members === 'string') return members;
 
   var memberSet = {};
   for (var i = 0; i < members.length; i++) {
     memberSet[String(members[i])] = true;
   }
 
-  // 2. Fetch messages that have this metric, filtered by newsletter/campaign
+  // 2. Load message recipients for this metric (cached)
+  var recipients = _getMessageRecipients(id, metric, filterParam);
+  if (typeof recipients === 'string') return recipients;
+
+  // 3. Count intersection
   var count = 0;
+  for (var i = 0; i < recipients.length; i++) {
+    if (memberSet[recipients[i]]) count++;
+  }
+  return count;
+}
+
+// ── Message recipients (cached 10 min) ──────────────────────
+function _getMessageRecipients(id, metric, filterParam) {
+  var cacheKey = 'msg_' + filterParam + '_' + id + '_' + metric;
+  var cache = CacheService.getScriptCache();
+
+  // Try chunk-cache: msg_..._0, msg_..._1, ...
+  var cached = _chunkCacheGet(cache, cacheKey);
+  if (cached) return cached;
+
+  var startTime = new Date().getTime();
+  var ids = [];
   var cursor = '';
 
   for (var page = 0; page < 500; page++) {
-    var url = '/messages?' + filterParam + '=' + id + '&metric=' + metric + '&limit=1000';
+    // Timeout guard: stop at 20 sec to leave room
+    if (new Date().getTime() - startTime > 20000) {
+      return 'TIMEOUT (' + ids.length + ' processed)';
+    }
+
+    var url = '/messages?' + filterParam + '=' + id + '&metric=' + metric + '&type=email&limit=1000';
     if (cursor) url += '&start=' + encodeURIComponent(cursor);
 
     var res = _apiGet(url);
@@ -245,15 +271,60 @@ function _cioFiltered(id, metric, segmentId, filterParam) {
 
     var msgs = res.data.messages || [];
     for (var m = 0; m < msgs.length; m++) {
-      var custId = String(msgs[m].customer_id || msgs[m].recipient || '');
-      if (memberSet[custId]) count++;
+      ids.push(String(msgs[m].customer_id || msgs[m].recipient || ''));
     }
 
     cursor = res.data.next || '';
     if (!cursor || msgs.length === 0) break;
   }
 
-  return count;
+  // Cache for 10 minutes (chunk if large)
+  _chunkCachePut(cache, cacheKey, ids, 600);
+  return ids;
+}
+
+// ── Chunk cache helpers (bypass 100KB limit) ────────────────
+function _chunkCachePut(cache, key, arr, ttl) {
+  try {
+    var json = JSON.stringify(arr);
+    if (json.length < 90000) {
+      cache.put(key + '_0', json, ttl);
+      cache.put(key + '_n', '1', ttl);
+      return;
+    }
+    // Split into 80KB chunks
+    var chunkSize = 80000;
+    var chunks = [];
+    for (var i = 0; i < json.length; i += chunkSize) {
+      chunks.push(json.substring(i, i + chunkSize));
+    }
+    if (chunks.length > 20) return; // too large
+    var obj = {};
+    for (var c = 0; c < chunks.length; c++) {
+      obj[key + '_' + c] = chunks[c];
+    }
+    obj[key + '_n'] = String(chunks.length);
+    cache.putAll(obj, ttl);
+  } catch(e) { /* cache full */ }
+}
+
+function _chunkCacheGet(cache, key) {
+  var nStr = cache.get(key + '_n');
+  if (!nStr) return null;
+  var n = parseInt(nStr, 10);
+  if (isNaN(n) || n < 1) return null;
+
+  var keys = [];
+  for (var i = 0; i < n; i++) keys.push(key + '_' + i);
+  var vals = cache.getAll(keys);
+
+  var json = '';
+  for (var i = 0; i < n; i++) {
+    var v = vals[key + '_' + i];
+    if (!v) return null; // chunk expired
+    json += v;
+  }
+  try { return JSON.parse(json); } catch(e) { return null; }
 }
 
 // ── Segment membership (cached 5 min) ───────────────────────
