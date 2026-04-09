@@ -540,16 +540,9 @@ Body:
 
 Clover Gold has quickly become a player favourite.
 Jump in and try your luck today.
-Button: 
+Button: PLAY NOW
 
 --- INAPP (DE) ---
 
 Body: 
 Button: 
-
-Інап текст
-Headline: 🔥 One of the hottest slots this week
-Text:
-Clover Gold has quickly become a player favourite.
-Jump in and try your luck today.
-Button: Play Now
