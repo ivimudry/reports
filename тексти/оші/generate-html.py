@@ -213,14 +213,12 @@ html = f'''<!DOCTYPE html>
 
 for e in txt_entries:
     html += email_block(e, 'email_en')
-for e in txt_entries:
     html += inapp_block(e, 'inapp_en')
 
 html += '\n<h2>DEUTSCH</h2>\n'
 
 for e in txt_entries:
     html += email_block(e, 'email_de')
-for e in txt_entries:
     html += inapp_block(e, 'inapp_de')
 
 html += '\n</body>\n</html>'
@@ -245,7 +243,6 @@ html2 = f'''<!DOCTYPE html>
 for e in ban_entries:
     if e.get('email_en'):
         html2 += f'\n<h3>EMAIL | {e["header"]}</h3>\n<p>{e["email_en"]}</p>\n'
-for e in ban_entries:
     if e.get('inapp_en'):
         html2 += f'\n<h3>INAPP | {e["header"]}</h3>\n<p>{e["inapp_en"]}</p>\n'
 
@@ -254,7 +251,6 @@ html2 += '\n<h2>DEUTSCH</h2>\n'
 for e in ban_entries:
     if e.get('email_de'):
         html2 += f'\n<h3>EMAIL | {e["header"]}</h3>\n<p>{e["email_de"]}</p>\n'
-for e in ban_entries:
     if e.get('inapp_de'):
         html2 += f'\n<h3>INAPP | {e["header"]}</h3>\n<p>{e["inapp_de"]}</p>\n'
 
