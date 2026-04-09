@@ -507,56 +507,59 @@ Letzte Stunden, um Punkte auf 25 Endorphina-Slots zu sammeln. 500.000 EUR Preisp
 Button: JETZT SPIELEN
 
 
-========== 09.04 | Trending Slot | Clover Gold ==========
+========== 09.04 | Trending Slot | 100 FS | CGOLD100 ==========
 
 --- EMAIL (EN) ---
 
-Subject: 🍀 Clover Gold is trending
-Preheader: The slot everyone's spinning this week
+Subject: 🍀 100 Free Spins on Clover Gold - This Week's Hottest Slot!
+Preheader: The slot everyone's spinning + 100 FS just for you
 Body:
-Clover Gold from Pragmatic Play has quickly become one of the most played slots this week.
+Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-Players are spinning it for its exciting gameplay and lucky clover wins.
+Clover Gold from Pragmatic Play has quickly become one of the most played slots this week. Players are spinning it for its exciting gameplay and lucky clover wins.
 
-Ready to try it yourself?
-Spin Clover Gold now and see if luck is on your side.
-Button: PLAY CLOVER GOLD
+Now it's your turn - and we're giving you a head start! Deposit 20 EUR or more and use bonus code CGOLD100 to claim 100 Free Spins on Clover Gold.
+
+Ready to find your lucky clover? Spin now and see if fortune is on your side!
+Button: SPIN CLOVER GOLD
 
 Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+The bonus is available once on April 9 (UTC TZ)
 
 --- EMAIL (DE) ---
 
-Subject: 🍀 Clover Gold ist im Trend
-Preheader: Der Slot, den diese Woche alle spielen
+Subject: 🍀 100 Freispiele bei Clover Gold - Der heißeste Slot der Woche!
+Preheader: Der Slot, den alle spielen + 100 Freispiele nur für dich
 Body:
-Clover Gold von Pragmatic Play hat sich blitzschnell zu einem der meistgespielten Slots dieser Woche entwickelt.
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Spieler drehen die Walzen für das spannende Gameplay und die glücksbringenden Kleeblatt-Gewinne.
+Clover Gold von Pragmatic Play hat sich blitzschnell zu einem der meistgespielten Slots dieser Woche entwickelt. Spieler drehen die Walzen für das spannende Gameplay und die glücksbringenden Kleeblatt-Gewinne.
 
-Bereit, es selbst auszuprobieren?
-Dreh jetzt Clover Gold und finde heraus, ob das Glück auf deiner Seite ist.
-Button: CLOVER GOLD SPIELEN
+Jetzt bist du dran - und wir geben dir einen Vorsprung! Zahle 20 EUR oder mehr ein und nutze den Bonuscode CGOLD100, um dir 100 Freispiele bei Clover Gold zu sichern.
+
+Bereit, dein Glückskleeblatt zu finden? Dreh jetzt und finde heraus, ob das Glück auf deiner Seite ist!
+Button: CLOVER GOLD DREHEN
 
 Terms&Conditions:
-
+Umsatz: x40
+Mindesteinzahlung: 20 EUR
+Der Bonus ist einmalig am 9. April verfügbar (UTC TZ)
 
 --- INAPP (EN) ---
 
-Body: 
-🔥 One of the hottest slots this week
-
-Clover Gold has quickly become a player favourite.
-Jump in and try your luck today.
-Button: PLAY NOW
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+🔥 Clover Gold is trending this week!
+Deposit 20 EUR+ with code CGOLD100 and grab 100 Free Spins on the hottest slot around.
+Button: SPIN NOW
 
 --- INAPP (DE) ---
 
-Body: 
-🔥 Einer der heißesten Slots dieser Woche
-
-Clover Gold ist blitzschnell zum Spieler-Favoriten geworden.
-Spring rein und versuche heute dein Glück.
-Button: JETZT SPIELEN 
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+🔥 Clover Gold ist der Trend der Woche!
+Zahle 20 EUR+ ein, nutze den Code CGOLD100 und sichere dir 100 Freispiele beim heißesten Slot.
+Button: JETZT DREHEN
 
 
 ========== 10.04 | Weekend Bonus | 70% + 40 FS | ELVIS7040 ==========
