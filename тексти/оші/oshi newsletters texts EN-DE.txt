@@ -510,50 +510,27 @@ Button: JETZT SPIELEN
 
 --- EMAIL (EN) ---
 
-Subject: ⏳ Final Day - Grand Easter Heist Ends Tonight!
-Preheader: Your last shot at the leaderboard
+Subject: 
+Preheader: 
 Body:
-Hello {{ customer.first_name | default:"there" | capitalize }}!
-
-This is it - the Grand Easter Heist wraps up today! After tonight, the leaderboard locks and prizes go out to the winners.
-
-500,000 EUR is still on the table. 25 Endorphina slots are still counting your points. Every 1 EUR bet gives you 10 points, and every spin could push you higher.
-
-Don't leave prize money behind. Hit the reels one last time and finish strong!
-Button: PLAY BEFORE IT ENDS
+Button: 
 
 Terms&Conditions:
-Min. bet: 0.2 EUR
-Prize pool: 500,000 EUR
-Top 1: 20,000 EUR | Top 2: 10,000 EUR | Top 3: 7,000 EUR
-Tournament: April 3-8, 2026 (UTC+2)
 
 --- EMAIL (DE) ---
 
-Subject: ⏳ Letzter Tag - Grand Easter Heist endet heute!
-Preheader: Deine letzte Chance auf die Rangliste
+Subject: 
+Preheader: 
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-
-Das war's - der Grand Easter Heist endet heute Abend! Danach wird die Rangliste gesperrt und die Preise gehen an die Gewinner.
-
-500.000 EUR stehen noch auf dem Spiel. 25 Endorphina-Slots zählen noch deine Punkte. Jeder 1 EUR Einsatz gibt dir 10 Punkte und jeder Spin kann dich nach oben bringen.
-
-Lass kein Preisgeld liegen. Dreh ein letztes Mal und beende das Turnier stark!
-Button: JETZT NOCH SPIELEN
+Button: 
 
 Terms&Conditions:
-Min. Einsatz: 0,2 EUR
-Preispool: 500.000 EUR
-Platz 1: 20.000 EUR | Platz 2: 10.000 EUR | Platz 3: 7.000 EUR
-Turnier: 3.-8. April 2026 (UTC+2)
+
 
 --- INAPP (EN) ---
 
-Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-The Grand Easter Heist ends today! ⏳
-Last hours to earn points on 25 Endorphina slots. 500,000 EUR prize pool - don't miss your share!
-Button: PLAY NOW
+Body: 
+Button: 
 
 --- INAPP (DE) ---
 
