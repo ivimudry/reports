@@ -507,12 +507,12 @@ Letzte Stunden, um Punkte auf 25 Endorphina-Slots zu sammeln. 500.000 EUR Preisp
 Button: JETZT SPIELEN
 
 
-========== 09.04 |  ==========
+========== 09.04 | Trending Slot | Clover Gold ==========
 
 --- EMAIL (EN) ---
 
 Subject: 🍀 Clover Gold is trending
-Preheader: 
+Preheader: The slot everyone's spinning this week
 Body:
 Clover Gold from Pragmatic Play has quickly become one of the most played slots this week.
 Players are spinning it for its exciting gameplay and lucky clover wins.
@@ -525,10 +525,15 @@ Terms&Conditions:
 
 --- EMAIL (DE) ---
 
-Subject: 
-Preheader: 
+Subject: 🍀 Clover Gold ist im Trend
+Preheader: Der Slot, den diese Woche alle spielen
 Body:
-Button: 
+Clover Gold von Pragmatic Play hat sich blitzschnell zu einem der meistgespielten Slots dieser Woche entwickelt.
+Spieler drehen die Walzen für das spannende Gameplay und die glücksbringenden Kleeblatt-Gewinne.
+
+Bereit, es selbst auszuprobieren?
+Dreh jetzt Clover Gold und finde heraus, ob das Glück auf deiner Seite ist.
+Button: CLOVER GOLD SPIELEN
 
 Terms&Conditions:
 
@@ -545,4 +550,8 @@ Button: PLAY NOW
 --- INAPP (DE) ---
 
 Body: 
-Button: 
+🔥 Einer der heißesten Slots dieser Woche
+
+Clover Gold ist blitzschnell zum Spieler-Favoriten geworden.
+Spring rein und versuche heute dein Glück.
+Button: JETZT SPIELEN 
