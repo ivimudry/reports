@@ -8,6 +8,8 @@ function onOpen() {
     .createMenu('CIO')
     .addItem('🔄 Refresh All Data', 'refreshAllCIO')
     .addItem('🔄 Refresh Row Range…', 'refreshRangeCIO')
+    .addSeparator()
+    .addItem('⚡ Setup Auto-Refresh', 'setupAutoRefresh')
     .addToUi();
 }
 
@@ -49,6 +51,54 @@ function refreshRangeCIO() {
 
   _refreshCells(sheet, cells);
   ui.alert('✅ Refreshed ' + cells.length + ' cells (rows ' + fromRow + '-' + toRow + ')!');
+}
+
+// ── Auto-refresh: retries LOADING cells every minute ────────
+function setupAutoRefresh() {
+  var triggers = ScriptApp.getProjectTriggers();
+  for (var i = 0; i < triggers.length; i++) {
+    if (triggers[i].getHandlerFunction() === '_autoRetryLoading') {
+      SpreadsheetApp.getUi().alert('Auto-refresh already active.');
+      return;
+    }
+  }
+  ScriptApp.newTrigger('_autoRetryLoading')
+    .timeBased()
+    .everyMinutes(1)
+    .create();
+  SpreadsheetApp.getUi().alert('✅ Auto-refresh enabled! LOADING cells will retry automatically every minute.');
+}
+
+function _autoRetryLoading() {
+  var cache = CacheService.getScriptCache();
+  if (cache.get('has_loading') !== '1') return;
+  cache.remove('has_loading');
+
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheets = ss.getSheets();
+
+  for (var s = 0; s < sheets.length; s++) {
+    var sheet = sheets[s];
+    var lastRow = sheet.getLastRow();
+    var lastCol = sheet.getLastColumn();
+    if (lastRow === 0 || lastCol === 0) continue;
+
+    var data = sheet.getRange(1, 1, lastRow, lastCol).getValues();
+    var formulas = sheet.getRange(1, 1, lastRow, lastCol).getFormulas();
+    var cellsToRetry = [];
+
+    for (var r = 0; r < data.length; r++) {
+      for (var c = 0; c < data[r].length; c++) {
+        if (typeof data[r][c] === 'string' && data[r][c].indexOf('LOADING') === 0 && formulas[r][c]) {
+          cellsToRetry.push({ row: r + 1, col: c + 1, formula: formulas[r][c] });
+        }
+      }
+    }
+
+    if (cellsToRetry.length > 0) {
+      _refreshCells(sheet, cellsToRetry);
+    }
+  }
 }
 
 function _findCIOCells(sheet, fromRow, toRow) {
@@ -261,11 +311,12 @@ function _getMessageRecipients(id, metric, filterParam) {
   var startTime = new Date().getTime();
 
   for (var page = 0; page < 500; page++) {
-    // Timeout guard: save progress and return status
-    if (new Date().getTime() - startTime > 20000) {
+    // Timeout guard: save progress, flag for auto-retry
+    if (new Date().getTime() - startTime > 27000) {
       _chunkCachePut(cache, cacheKey + '_p', ids, 600);
       cache.put(cacheKey + '_cur', cursor, 600);
-      return 'LOADING (' + ids.length + '… refresh)';
+      cache.put('has_loading', '1', 300);
+      return 'LOADING (' + ids.length + '…)';
     }
 
     var url = '/messages?' + filterParam + '=' + id + '&metric=' + metric + '&type=email&limit=1000';
