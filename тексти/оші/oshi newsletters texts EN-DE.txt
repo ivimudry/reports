@@ -511,11 +511,15 @@ Button: JETZT SPIELEN
 
 --- EMAIL (EN) ---
 
-Subject: 
+Subject: 🍀 Clover Gold is trending
 Preheader: 
 Body:
-🍀 Clover Gold is trending
-Button: 
+Clover Gold from Pragmatic Play has quickly become one of the most played slots this week.
+Players are spinning it for its exciting gameplay and lucky clover wins.
+
+Ready to try it yourself?
+Spin Clover Gold now and see if luck is on your side.
+Button: PLAY CLOVER GOLD
 
 Terms&Conditions:
 
@@ -545,13 +549,3 @@ Text:
 Clover Gold has quickly become a player favourite.
 Jump in and try your luck today.
 Button: Play Now
-
-
-Email текст
-Header: 🍀 Clover Gold is trending
-Body:
-Clover Gold from Pragmatic Play has quickly become one of the most played slots this week.
-Players are spinning it for its exciting gameplay and lucky clover wins.
-Ready to try it yourself?
-Spin Clover Gold now and see if luck is on your side.
-СТА: Play Clover Gold
