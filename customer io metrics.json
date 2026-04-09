@@ -89,7 +89,10 @@ function _autoRetryLoading() {
 
     for (var r = 0; r < data.length; r++) {
       for (var c = 0; c < data[r].length; c++) {
-        if (typeof data[r][c] === 'string' && data[r][c].indexOf('LOADING') === 0 && formulas[r][c]) {
+        var val = data[r][c];
+        var isRetry = typeof val === 'string' && (val.indexOf('LOADING') === 0 || val === 'ERR_RETRY');
+        var isError = (val === '#ERROR!' || (typeof val === 'string' && val.indexOf('Внутренняя') !== -1));
+        if ((isRetry || isError) && formulas[r][c]) {
           cellsToRetry.push({ row: r + 1, col: c + 1, formula: formulas[r][c] });
         }
       }
@@ -143,7 +146,12 @@ function _refreshCells(sheet, cells) {
  * @customfunction
  */
 function CION(id, metric) {
-  return _cioFetch(id, metric, 'newsletters');
+  try {
+    return _cioFetch(id, metric, 'newsletters');
+  } catch(e) {
+    CacheService.getScriptCache().put('has_loading', '1', 300);
+    return 'ERR_RETRY';
+  }
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -158,7 +166,12 @@ function CION(id, metric) {
  * @customfunction
  */
 function CIOC(id, metric) {
-  return _cioFetch(id, metric, 'campaigns');
+  try {
+    return _cioFetch(id, metric, 'campaigns');
+  } catch(e) {
+    CacheService.getScriptCache().put('has_loading', '1', 300);
+    return 'ERR_RETRY';
+  }
 }
 
 // ── Shared fetch logic ──────────────────────────────────────
@@ -249,7 +262,12 @@ function _fetchMetricsRaw(id, type) {
  * @customfunction
  */
 function CIONF(id, metric, segmentId) {
-  return _cioFiltered(id, metric, segmentId, 'newsletter_id');
+  try {
+    return _cioFiltered(id, metric, segmentId, 'newsletter_id');
+  } catch(e) {
+    CacheService.getScriptCache().put('has_loading', '1', 300);
+    return 'ERR_RETRY';
+  }
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -265,7 +283,12 @@ function CIONF(id, metric, segmentId) {
  * @customfunction
  */
 function CIOCF(id, metric, segmentId) {
-  return _cioFiltered(id, metric, segmentId, 'campaign_id');
+  try {
+    return _cioFiltered(id, metric, segmentId, 'campaign_id');
+  } catch(e) {
+    CacheService.getScriptCache().put('has_loading', '1', 300);
+    return 'ERR_RETRY';
+  }
 }
 
 // ── Filtered logic ──────────────────────────────────────────
