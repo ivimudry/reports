@@ -244,23 +244,28 @@ function _cioFiltered(id, metric, segmentId, filterParam) {
   return count;
 }
 
-// ── Message recipients (cached 10 min) ──────────────────────
+// ── Message recipients (cached 10 min, progressive load) ────
 function _getMessageRecipients(id, metric, filterParam) {
   var cacheKey = 'msg_' + filterParam + '_' + id + '_' + metric;
   var cache = CacheService.getScriptCache();
 
-  // Try chunk-cache: msg_..._0, msg_..._1, ...
+  // 1. Try complete cache
   var cached = _chunkCacheGet(cache, cacheKey);
   if (cached) return cached;
 
+  // 2. Try resuming from partial cache (previous timeout)
+  var partial = _chunkCacheGet(cache, cacheKey + '_p');
+  var ids = partial || [];
+  var cursor = partial ? (cache.get(cacheKey + '_cur') || '') : '';
+
   var startTime = new Date().getTime();
-  var ids = [];
-  var cursor = '';
 
   for (var page = 0; page < 500; page++) {
-    // Timeout guard: stop at 20 sec to leave room
+    // Timeout guard: save progress and return status
     if (new Date().getTime() - startTime > 20000) {
-      return 'TIMEOUT (' + ids.length + ' processed)';
+      _chunkCachePut(cache, cacheKey + '_p', ids, 600);
+      cache.put(cacheKey + '_cur', cursor, 600);
+      return 'LOADING (' + ids.length + '… refresh)';
     }
 
     var url = '/messages?' + filterParam + '=' + id + '&metric=' + metric + '&type=email&limit=1000';
@@ -278,7 +283,7 @@ function _getMessageRecipients(id, metric, filterParam) {
     if (!cursor || msgs.length === 0) break;
   }
 
-  // Cache for 10 minutes (chunk if large)
+  // Done! Cache complete result for 10 min
   _chunkCachePut(cache, cacheKey, ids, 600);
   return ids;
 }
