@@ -49,9 +49,9 @@ def boldify(text):
     # Percentages
     text = re.sub(r'\b(\d+%)', r'<b>\1</b>', text)
 
-    # Bonus codes after code / Code / Bonuscode
-    text = re.sub(r'(?i)((?:bonus\s*)?code\s+)([A-Z][A-Z0-9]{2,})',
-                  lambda m: m.group(1) + '<b>' + m.group(2) + '</b>', text)
+    # Bonus codes after code / Code / Bonuscode (no (?i) — [A-Z] must stay uppercase)
+    text = re.sub(r'([Cc]ode\s+)([A-Z][A-Z0-9]{2,})', r'\1<b>\2</b>', text)
+    text = re.sub(r'([Bb]onus\s*[Cc]ode\s+)([A-Z][A-Z0-9]{2,})', r'\1<b>\2</b>', text)
     text = re.sub(r'(Bonuscode\s+)([A-Z][A-Z0-9]{2,})', r'\1<b>\2</b>', text)
 
     # Known standalone promo codes
