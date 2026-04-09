@@ -557,3 +557,885 @@ Body:
 Clover Gold ist blitzschnell zum Spieler-Favoriten geworden.
 Spring rein und versuche heute dein Glück.
 Button: JETZT SPIELEN 
+
+
+========== 10.04 | Weekend Bonus | 70% + 40 FS | ELVIS7040 ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🎸 70% Bonus + 40 Free Spins - Weekend with Elvis!
+Preheader: The king of the reels is calling your name
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The weekend is here, and Elvis is ready to rock your reels at Oshi!
+
+Deposit 30 EUR or more and use bonus code ELVIS7040 to grab a 70% bonus up to 300 EUR + 40 Free Spins on Elvis Frog TRUEWAYS. Watch the frog king light up the stage with every spin.
+
+Turn up the volume and start your weekend with a win!
+Button: ROCK THE REELS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 10 to 12 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: 🎸 70% Bonus + 40 Freispiele - Wochenende mit Elvis!
+Preheader: Der König der Walzen ruft deinen Namen
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Das Wochenende ist da, und Elvis ist bereit, deine Walzen bei Oshi zum Rocken zu bringen!
+
+Zahle 30 EUR oder mehr ein und nutze den Bonuscode ELVIS7040, um dir einen 70% Bonus bis zu 300 EUR + 40 Freispiele bei Elvis Frog TRUEWAYS zu sichern. Sieh zu, wie der Froschkönig die Bühne mit jedem Spin zum Leuchten bringt.
+
+Dreh die Lautstärke auf und starte dein Wochenende mit einem Gewinn!
+Button: AB AN DIE WALZEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 10. bis 12. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Elvis is on stage this weekend! 🎸
+Deposit 30 EUR+ with code ELVIS7040 and get a 70% bonus up to 300 EUR + 40 Free Spins on Elvis Frog TRUEWAYS.
+Button: ROCK THE REELS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Elvis steht dieses Wochenende auf der Bühne! 🎸
+Zahle 30 EUR+ ein, nutze den Code ELVIS7040 und sichere dir 70% Bonus bis zu 300 EUR + 40 Freispiele bei Elvis Frog TRUEWAYS.
+Button: AB AN DIE WALZEN
+
+
+========== 11.04 | Weekend Bonus REMINDER | 70% + 40 FS | ELVIS7040 ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🎵 Still Time - 70% + 40 FS with Elvis Frog!
+Preheader: Your weekend bonus is still waiting for you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The weekend show is in full swing at Oshi, and Elvis is still performing just for you!
+
+Use bonus code ELVIS7040 on your deposit to claim a 70% bonus up to 300 EUR + 40 Free Spins on Elvis Frog TRUEWAYS. The spotlight is on and the reels are hot.
+
+Don't leave the show early - grab your bonus and hit the stage!
+Button: CLAIM MY SPINS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 10 to 12 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: 🎵 Noch Zeit - 70% + 40 Freispiele mit Elvis Frog!
+Preheader: Dein Wochenend-Bonus wartet noch auf dich
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Die Wochenend-Show ist in vollem Gange bei Oshi, und Elvis spielt noch immer nur für dich!
+
+Nutze den Bonuscode ELVIS7040 bei deiner Einzahlung und sichere dir 70% Bonus bis zu 300 EUR + 40 Freispiele bei Elvis Frog TRUEWAYS. Das Rampenlicht ist an und die Walzen glühen.
+
+Verlasse die Show nicht zu früh - schnapp dir deinen Bonus und ab auf die Bühne!
+Button: FREISPIELE SICHERN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 10. bis 12. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+The Elvis show is still running! 🎵
+Deposit 30 EUR+ with code ELVIS7040 for a 70% bonus up to 300 EUR + 40 FS on Elvis Frog TRUEWAYS. Don't miss it!
+Button: GET BONUS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Die Elvis-Show läuft noch! 🎵
+Zahle 30 EUR+ ein, nutze den Code ELVIS7040 und sichere dir 70% Bonus bis zu 300 EUR + 40 Freispiele bei Elvis Frog TRUEWAYS. Nicht verpassen!
+Button: BONUS HOLEN
+
+
+========== 12.04 | Weekend Bonus REMINDER | 70% + 40 FS | ELVIS7040 ==========
+
+--- EMAIL (EN) ---
+
+Subject: ⏳ Last Call - 70% + 40 FS on Elvis Frog!
+Preheader: The curtain drops tonight - act now
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This is it - Elvis is taking his final bow at Oshi tonight!
+
+Your 70% bonus up to 300 EUR + 40 Free Spins on Elvis Frog TRUEWAYS expires today. Use bonus code ELVIS7040 on your deposit before the curtain falls.
+
+The encore is over after tonight - claim your reward before the lights go out!
+Button: GRAB IT NOW
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 10 to 12 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: ⏳ Letzte Chance - 70% + 40 Freispiele bei Elvis Frog!
+Preheader: Heute Abend fällt der Vorhang - jetzt handeln
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Das war's - Elvis gibt heute Abend seine letzte Vorstellung bei Oshi!
+
+Dein 70% Bonus bis zu 300 EUR + 40 Freispiele bei Elvis Frog TRUEWAYS läuft heute ab. Nutze den Bonuscode ELVIS7040 bei deiner Einzahlung, bevor der Vorhang fällt.
+
+Nach heute gibt es keine Zugabe mehr - sichere dir deine Belohnung, bevor das Licht ausgeht!
+Button: JETZT SCHNAPPEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 10. bis 12. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Last chance! ⏳
+Your 70% bonus + 40 FS on Elvis Frog TRUEWAYS ends today. Use code ELVIS7040 before it's gone!
+Button: CLAIM NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Letzte Chance! ⏳
+Dein 70% Bonus + 40 Freispiele bei Elvis Frog TRUEWAYS endet heute. Nutze den Code ELVIS7040, bevor es zu spät ist!
+Button: JETZT HOLEN
+
+
+========== 13.04 | Lootwheel Reminder ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🎡 Spin the Lucky Wheel - Win up to 10,000 EUR!
+Preheader: Guaranteed prizes with every spin
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The Lucky Wheel is live at Oshi and every spin is a guaranteed win!
+
+Pick your wheel and go:
+Silver Wheel - Deposit 20 EUR with code SILVER for prizes up to 5,000 EUR
+Gold Wheel - Deposit 30 EUR with code GOLD for prizes up to 10,000 EUR
+
+You can spin up to 3 times per day. Pick your wheel, make a deposit, and let luck decide your prize!
+Button: SPIN THE WHEEL
+
+Terms&Conditions:
+Wager: x40
+
+--- EMAIL (DE) ---
+
+Subject: 🎡 Dreh das Glücksrad - Gewinne bis zu 10.000 EUR!
+Preheader: Garantierte Preise bei jedem Dreh
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Das Glücksrad dreht sich bei Oshi und jeder Spin bringt einen garantierten Gewinn!
+
+Wähle dein Rad und los geht's:
+Silber-Rad - Zahle 20 EUR ein mit Code SILVER für Preise bis zu 5.000 EUR
+Gold-Rad - Zahle 30 EUR ein mit Code GOLD für Preise bis zu 10.000 EUR
+
+Du kannst bis zu 3 Mal pro Tag drehen. Wähle dein Rad, zahle ein und lass das Glück entscheiden!
+Button: RAD DREHEN
+
+Terms&Conditions:
+Umsatz: x40
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+The Lucky Wheel is waiting! 🎡
+Deposit with code SILVER (20 EUR) or GOLD (30 EUR) and spin for guaranteed prizes up to 10,000 EUR!
+Button: SPIN NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Das Glücksrad wartet! 🎡
+Zahle ein mit Code SILVER (20 EUR) oder GOLD (30 EUR) und drehe für garantierte Preise bis zu 10.000 EUR!
+Button: JETZT DREHEN
+
+
+========== 14.04 | Midweek Bonus | 75% up to 250 EUR | UP75250 ==========
+
+--- EMAIL (EN) ---
+
+Subject: 💥 75% Bonus up to 250 EUR - Midweek Power!
+Preheader: Break the routine with extra balance
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Why wait for the weekend? The action starts now at Oshi!
+
+Deposit just 20 EUR or more and use bonus code UP75250 to unlock a 75% bonus up to 250 EUR. Stack your balance and jump straight into your favourite slots.
+
+Give your week a boost - enter your code and start spinning today!
+Button: BOOST MY PLAY
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+The bonus is available from April 14 to 15 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: 💥 75% Bonus bis zu 250 EUR - Midweek-Power!
+Preheader: Durchbrich die Routine mit extra Guthaben
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Warum aufs Wochenende warten? Die Action startet jetzt bei Oshi!
+
+Zahle nur 20 EUR oder mehr ein und nutze den Bonuscode UP75250, um dir einen 75% Bonus bis zu 250 EUR zu sichern. Lade dein Guthaben auf und spring direkt in deine Lieblings-Slots.
+
+Gib deiner Woche einen Boost - gib deinen Code ein und dreh noch heute los!
+Button: WOCHE BOOSTEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 20 EUR
+Der Bonus ist verfügbar vom 14. bis 15. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Midweek boost is here! 💥
+Deposit 20 EUR+ with code UP75250 and grab a 75% bonus up to 250 EUR. No need to wait for the weekend!
+Button: GET BONUS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Midweek-Boost ist da! 💥
+Zahle 20 EUR+ ein, nutze den Code UP75250 und sichere dir 75% Bonus bis zu 250 EUR. Nicht aufs Wochenende warten!
+Button: BONUS HOLEN
+
+
+========== 15.04 | Midweek Bonus REMINDER | 75% up to 250 EUR | UP75250 ==========
+
+--- EMAIL (EN) ---
+
+Subject: ⚡ 75% Midweek Bonus - Expires Today!
+Preheader: Your bonus is running out of time
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your midweek reward is about to disappear! The 75% bonus up to 250 EUR won't last much longer at Oshi.
+
+Deposit 20 EUR or more with bonus code UP75250 and make the most of this boost before it's gone.
+
+Time is ticking - lock in your bonus now and let the reels do the rest!
+Button: LOCK IT IN
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+The bonus is available from April 14 to 15 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: ⚡ 75% Midweek-Bonus - Läuft heute ab!
+Preheader: Dein Bonus hat nicht mehr viel Zeit
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Deine Midweek-Belohnung verschwindet gleich! Der 75% Bonus bis zu 250 EUR hält nicht mehr lange bei Oshi.
+
+Zahle 20 EUR oder mehr ein mit Bonuscode UP75250 und nutze diesen Boost, bevor er weg ist.
+
+Die Zeit läuft - sichere dir deinen Bonus jetzt und lass die Walzen den Rest erledigen!
+Button: JETZT SICHERN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 20 EUR
+Der Bonus ist verfügbar vom 14. bis 15. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Last day for your midweek boost! ⚡
+75% bonus up to 250 EUR with code UP75250 ends today. Deposit 20 EUR+ and claim it now!
+Button: CLAIM NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Letzter Tag für deinen Midweek-Boost! ⚡
+75% Bonus bis zu 250 EUR mit Code UP75250 endet heute. Zahle 20 EUR+ ein und sichere ihn dir!
+Button: JETZT HOLEN
+
+
+========== 17.04 | Weekend Bonus | 90% + 50 FS | GEM9050 ==========
+
+--- EMAIL (EN) ---
+
+Subject: 💎 90% Bonus + 50 Free Spins - Enter Gemhalla!
+Preheader: A realm of gems and wins awaits you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The gates of Gemhalla are open, and a treasure-filled weekend awaits at Oshi!
+
+Deposit 30 EUR or more with bonus code GEM9050 to claim a 90% bonus up to 350 EUR + 50 Free Spins on Gemhalla. Dive deep into the gem-studded realm and chase the biggest prizes.
+
+The treasure vault is open - step inside and fill your pockets!
+Button: ENTER GEMHALLA
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 17 to 19 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: 💎 90% Bonus + 50 Freispiele - Betritt Gemhalla!
+Preheader: Ein Reich voller Edelsteine und Gewinne erwartet dich
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Die Tore von Gemhalla sind geöffnet, und ein schatzreiches Wochenende erwartet dich bei Oshi!
+
+Zahle 30 EUR oder mehr ein mit Bonuscode GEM9050 und sichere dir 90% Bonus bis zu 350 EUR + 50 Freispiele bei Gemhalla. Tauche ein in das edelsteinbesetzte Reich und jage die größten Preise.
+
+Die Schatzkammer ist offen - tritt ein und füll deine Taschen!
+Button: GEMHALLA BETRETEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 17. bis 19. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Gemhalla awaits! 💎
+Deposit 30 EUR+ with code GEM9050 and claim a 90% bonus up to 350 EUR + 50 Free Spins on Gemhalla.
+Button: PLAY NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Gemhalla erwartet dich! 💎
+Zahle 30 EUR+ ein, nutze den Code GEM9050 und sichere dir 90% Bonus bis zu 350 EUR + 50 Freispiele bei Gemhalla.
+Button: JETZT SPIELEN
+
+
+========== 18.04 | Weekend Bonus REMINDER | 90% + 50 FS | GEM9050 ==========
+
+--- EMAIL (EN) ---
+
+Subject: ✨ 90% + 50 FS in Gemhalla - Still Up for Grabs!
+Preheader: The gems are still shining - come collect yours
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The treasures of Gemhalla are still glowing at Oshi! Don't let this weekend pass without exploring the gem-filled reels.
+
+Use bonus code GEM9050 on your deposit to unlock a 90% bonus up to 350 EUR + 50 Free Spins on Gemhalla. The realm is rich and the prizes are calling.
+
+Claim your gems before the weekend slips away!
+Button: CLAIM MY GEMS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 17 to 19 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: ✨ 90% + 50 Freispiele in Gemhalla - Noch verfügbar!
+Preheader: Die Edelsteine leuchten noch - komm und sammle deine
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Die Schätze von Gemhalla leuchten noch bei Oshi! Lass dieses Wochenende nicht vergehen, ohne die edelsteinbesetzten Walzen zu erkunden.
+
+Nutze den Bonuscode GEM9050 bei deiner Einzahlung und schalte 90% Bonus bis zu 350 EUR + 50 Freispiele bei Gemhalla frei. Das Reich ist voller Reichtümer und die Preise rufen.
+
+Sichere dir deine Edelsteine, bevor das Wochenende vorbei ist!
+Button: EDELSTEINE SICHERN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 17. bis 19. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Gemhalla treasures are still here! ✨
+90% bonus up to 350 EUR + 50 FS with code GEM9050. Deposit 30 EUR+ and explore the gem realm!
+Button: GET BONUS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Gemhallas Schätze sind noch da! ✨
+90% Bonus bis zu 350 EUR + 50 Freispiele mit Code GEM9050. Zahle 30 EUR+ ein und erkunde das Edelstein-Reich!
+Button: BONUS HOLEN
+
+
+========== 19.04 | Weekend Bonus REMINDER | 90% + 50 FS | GEM9050 ==========
+
+--- EMAIL (EN) ---
+
+Subject: ⏳ Gemhalla Closes Tonight - 90% + 50 FS Inside!
+Preheader: Final hours to grab your gem-powered bonus
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The gates of Gemhalla are closing tonight at Oshi! This is your last shot at the 90% bonus up to 350 EUR + 50 Free Spins on Gemhalla.
+
+Deposit 30 EUR or more and enter bonus code GEM9050 before the vault seals shut.
+
+After tonight the gems are gone - take your reward while the gates are still open!
+Button: PLAY BEFORE IT ENDS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 17 to 19 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: ⏳ Gemhalla schließt heute Abend - 90% + 50 Freispiele!
+Preheader: Letzte Stunden für deinen Edelstein-Bonus
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Die Tore von Gemhalla schließen heute Abend bei Oshi! Das ist deine letzte Chance auf den 90% Bonus bis zu 350 EUR + 50 Freispiele bei Gemhalla.
+
+Zahle 30 EUR oder mehr ein und gib den Bonuscode GEM9050 ein, bevor die Schatzkammer sich verschließt.
+
+Nach heute sind die Edelsteine weg - nimm deine Belohnung, solange die Tore noch offen sind!
+Button: JETZT NOCH SPIELEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 17. bis 19. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Gemhalla closes tonight! ⏳
+Last chance for 90% up to 350 EUR + 50 FS. Use code GEM9050 with your 30 EUR+ deposit now!
+Button: CLAIM NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Gemhalla schließt heute Abend! ⏳
+Letzte Chance auf 90% bis zu 350 EUR + 50 Freispiele. Nutze den Code GEM9050 mit deiner 30 EUR+ Einzahlung!
+Button: JETZT HOLEN
+
+
+========== 20.04 | Lootbox Reminder ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🚀 Your Lootbox Is Waiting - Win up to 3,500 EUR!
+Preheader: Pick your box and reveal the prize inside
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The galaxy of rewards is still open at Oshi! Your Lootbox is floating in space, ready to be cracked open.
+
+Pick your tier and go:
+Stellar - Deposit 30 EUR with code STELLAR for up to 200 Free Spins
+Universe - Deposit 75 EUR with code UNIVERSE for up to 2,500 EUR
+Spectrum - Deposit 150 EUR with code SPECTRUM for up to 3,500 EUR
+
+Choose your box, make a deposit, and see what the universe has in store for you!
+Button: OPEN MY BOX
+
+Terms&Conditions:
+Wager: x40
+
+--- EMAIL (DE) ---
+
+Subject: 🚀 Deine Lootbox wartet - Gewinne bis zu 3.500 EUR!
+Preheader: Wähle deine Box und enthülle deinen Preis
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Die Galaxie voller Belohnungen ist noch geöffnet bei Oshi! Deine Lootbox schwebt im All und wartet darauf, geöffnet zu werden.
+
+Wähle deine Stufe und los:
+Stellar - Zahle 30 EUR ein mit Code STELLAR für bis zu 200 Freispiele
+Universe - Zahle 75 EUR ein mit Code UNIVERSE für bis zu 2.500 EUR
+Spectrum - Zahle 150 EUR ein mit Code SPECTRUM für bis zu 3.500 EUR
+
+Wähle deine Box, zahle ein und finde heraus, was das Universum für dich bereithält!
+Button: BOX ÖFFNEN
+
+Terms&Conditions:
+Umsatz: x40
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your Lootbox is waiting! 🚀
+Pick your box: Stellar (30 EUR), Universe (75 EUR) or Spectrum (150 EUR). Prizes up to 3,500 EUR!
+Button: OPEN NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Deine Lootbox wartet! 🚀
+Wähle deine Box: Stellar (30 EUR), Universe (75 EUR) oder Spectrum (150 EUR). Preise bis zu 3.500 EUR!
+Button: JETZT ÖFFNEN
+
+
+========== 24.04 | Weekend Bonus | 150 FS | HOLD150 ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🪙 150 Free Spins on Hold The Gold - Weekend Gold Rush!
+Preheader: The gold vault is open just for you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Strike gold this weekend at Oshi! The reels are loaded with shiny prizes and they're all yours.
+
+Make a deposit and use bonus code HOLD150 to unlock 150 Free Spins on Hold The Gold. Every spin brings you closer to the jackpot.
+
+The gold won't hold forever - dig in and start spinning now!
+Button: HUNT FOR GOLD
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 24 to 26 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: 🪙 150 Freispiele bei Hold The Gold - Gold-Rausch am Wochenende!
+Preheader: Der Goldtresor ist nur für dich geöffnet
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Finde dieses Wochenende Gold bei Oshi! Die Walzen sind voller glänzender Preise und sie gehören ganz dir.
+
+Zahle ein und nutze den Bonuscode HOLD150, um 150 Freispiele bei Hold The Gold freizuschalten. Jeder Spin bringt dich näher an den Jackpot.
+
+Das Gold wartet nicht ewig - grab zu und dreh jetzt los!
+Button: GOLD JAGEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 24. bis 26. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Gold Rush this weekend! 🪙
+Use code HOLD150 with your deposit and unlock 150 Free Spins on Hold The Gold. Dig into your winnings!
+Button: SPIN NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Gold-Rausch dieses Wochenende! 🪙
+Nutze den Code HOLD150 bei deiner Einzahlung und schalte 150 Freispiele bei Hold The Gold frei. Schürfe deine Gewinne!
+Button: JETZT DREHEN
+
+
+========== 25.04 | Weekend Bonus REMINDER | 150 FS | HOLD150 ==========
+
+--- EMAIL (EN) ---
+
+Subject: ✨ 150 FS on Hold The Gold - Don't Miss Your Nuggets!
+Preheader: The gold mine is still producing - jump in
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The weekend gold rush continues at Oshi! Players are digging into Hold The Gold and striking it rich.
+
+Use bonus code HOLD150 on your deposit to grab 150 Free Spins and join the rush. The nuggets are piling up and there's plenty for you.
+
+Step into the mine and start collecting before the weekend runs out!
+Button: GRAB MY SPINS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 24 to 26 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: ✨ 150 Freispiele bei Hold The Gold - Verpasse deine Nuggets nicht!
+Preheader: Die Goldmine produziert noch - spring rein
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Der Gold-Rausch am Wochenende geht weiter bei Oshi! Spieler graben bei Hold The Gold und werden fündig.
+
+Nutze den Bonuscode HOLD150 bei deiner Einzahlung und schnapp dir 150 Freispiele. Die Nuggets häufen sich und es ist genug für dich dabei.
+
+Ab in die Mine und sammle ein, bevor das Wochenende vorbei ist!
+Button: FREISPIELE SCHNAPPEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 24. bis 26. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+The gold rush continues! ✨
+150 Free Spins on Hold The Gold with code HOLD150. Deposit and start mining your wins!
+Button: GET SPINS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Der Gold-Rausch geht weiter! ✨
+150 Freispiele bei Hold The Gold mit Code HOLD150. Zahle ein und schürfe deine Gewinne!
+Button: SPINS HOLEN
+
+
+========== 26.04 | Weekend Bonus REMINDER | 150 FS | HOLD150 ==========
+
+--- EMAIL (EN) ---
+
+Subject: ⏳ Final Day - 150 Free Spins on Hold The Gold!
+Preheader: The mine closes tonight - last chance to dig in
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The gold mine shuts down tonight at Oshi! This is your final chance to get 150 Free Spins on Hold The Gold.
+
+Enter bonus code HOLD150 with your deposit and squeeze out every last nugget before the clock strikes midnight.
+
+The pickaxe drops tonight - use your code now and walk away with gold!
+Button: DIG IN NOW
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 24 to 26 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: ⏳ Letzter Tag - 150 Freispiele bei Hold The Gold!
+Preheader: Die Mine schließt heute Abend - letzte Chance
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Die Goldmine schließt heute Abend bei Oshi! Das ist deine letzte Chance auf 150 Freispiele bei Hold The Gold.
+
+Gib den Bonuscode HOLD150 bei deiner Einzahlung ein und hole dir jedes letzte Nugget, bevor Mitternacht schlägt.
+
+Die Spitzhacke fällt heute Abend - nutze deinen Code jetzt und geh mit Gold nach Hause!
+Button: JETZT ZUSCHLAGEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 24. bis 26. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Last day to hold the gold! ⏳
+150 Free Spins with code HOLD150 end tonight. Deposit and claim your spins now!
+Button: CLAIM NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Letzter Tag für Gold! ⏳
+150 Freispiele mit Code HOLD150 enden heute. Zahle ein und sichere dir deine Spins!
+Button: JETZT HOLEN
+
+
+========== 27.04 | Lootwheel Reminder ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🎡 The Lucky Wheel Keeps Spinning - Win up to 10,000 EUR!
+Preheader: Daily guaranteed prizes are one spin away
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Have you given the Lucky Wheel a spin yet? It's running every day at Oshi and every single spin lands on a prize!
+
+Two wheels, two chances:
+Silver Wheel - Deposit 20 EUR with code SILVER for prizes up to 5,000 EUR
+Gold Wheel - Deposit 30 EUR with code GOLD for prizes up to 10,000 EUR
+
+Spin up to 3 times daily. Choose your wheel and see what fortune drops today!
+Button: TRY MY LUCK
+
+Terms&Conditions:
+Wager: x40
+
+--- EMAIL (DE) ---
+
+Subject: 🎡 Das Glücksrad dreht sich weiter - Gewinne bis zu 10.000 EUR!
+Preheader: Tägliche Garantie-Preise sind nur einen Dreh entfernt
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Hast du das Glücksrad schon gedreht? Es läuft jeden Tag bei Oshi und jeder Dreh trifft einen Preis!
+
+Zwei Räder, zwei Chancen:
+Silber-Rad - Zahle 20 EUR ein mit Code SILVER für Preise bis zu 5.000 EUR
+Gold-Rad - Zahle 30 EUR ein mit Code GOLD für Preise bis zu 10.000 EUR
+
+Drehe bis zu 3 Mal täglich. Wähle dein Rad und finde heraus, was das Glück heute bringt!
+Button: GLÜCK VERSUCHEN
+
+Terms&Conditions:
+Umsatz: x40
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+The Lucky Wheel keeps spinning! 🎡
+Every spin wins. Deposit with code SILVER (20 EUR) or GOLD (30 EUR) for guaranteed prizes up to 10,000 EUR!
+Button: SPIN & WIN
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Das Glücksrad dreht sich weiter! 🎡
+Jeder Dreh gewinnt. Zahle ein mit Code SILVER (20 EUR) oder GOLD (30 EUR) für garantierte Preise bis zu 10.000 EUR!
+Button: DREHEN & GEWINNEN
+
+
+========== 28.04 | Midweek Bonus | 120% up to 1000 EUR | UP1201K ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🔥 120% up to 1000 EUR - Massive Midweek Drop!
+Preheader: This is not your average Tuesday bonus
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Forget waiting for the weekend - Oshi just dropped the biggest midweek bonus around!
+
+Deposit 30 EUR or more and use bonus code UP1201K to unlock a massive 120% bonus up to 1000 EUR. That's serious firepower for the slots, tables, or whatever you're in the mood for.
+
+Your code is ready - punch it in and watch your balance explode!
+Button: POWER UP NOW
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 28 to 29 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: 🔥 120% bis zu 1000 EUR - Riesiger Midweek-Drop!
+Preheader: Das ist kein gewöhnlicher Dienstags-Bonus
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Vergiss das Warten aufs Wochenende - Oshi hat gerade den größten Midweek-Bonus überhaupt rausgehauen!
+
+Zahle 30 EUR oder mehr ein und nutze den Bonuscode UP1201K, um dir einen riesigen 120% Bonus bis zu 1000 EUR zu sichern. Das ist ordentlich Feuerkraft für Slots, Tische oder was immer dich gerade reizt.
+
+Dein Code ist bereit - gib ihn ein und sieh zu, wie dein Guthaben explodiert!
+Button: JETZT AUFLADEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 28. bis 29. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Massive midweek bonus alert! 🔥
+Use code UP1201K on your 30 EUR+ deposit and grab a 120% bonus up to 1000 EUR. Go big today!
+Button: CLAIM BONUS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Riesiger Midweek-Bonus! 🔥
+Nutze den Code UP1201K bei deiner 30 EUR+ Einzahlung und sichere dir 120% Bonus bis zu 1000 EUR. Heute groß spielen!
+Button: BONUS HOLEN
+
+
+========== 29.04 | Midweek Bonus REMINDER | 120% up to 1000 EUR | UP1201K ==========
+
+--- EMAIL (EN) ---
+
+Subject: ⏳ 120% up to 1000 EUR - Ends Today!
+Preheader: Don't let this one slip through your fingers
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This is it - the massive 120% bonus up to 1000 EUR expires tonight at Oshi!
+
+Use bonus code UP1201K with your deposit of 30 EUR or more and squeeze every bit of value out of this deal.
+
+Last call - enter your code now before midnight shuts the door!
+Button: CLAIM MY BOOST
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+The bonus is available from April 28 to 29 (UTC TZ)
+
+--- EMAIL (DE) ---
+
+Subject: ⏳ 120% bis zu 1000 EUR - Endet heute!
+Preheader: Lass dir diesen Bonus nicht entgehen
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Das war's - der riesige 120% Bonus bis zu 1000 EUR läuft heute Abend bei Oshi ab!
+
+Nutze den Bonuscode UP1201K bei deiner Einzahlung von 30 EUR oder mehr und hole alles aus diesem Deal raus.
+
+Letzter Aufruf - gib deinen Code jetzt ein, bevor Mitternacht die Tür schließt!
+Button: BOOST SICHERN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Der Bonus ist verfügbar vom 28. bis 29. April (UTC TZ)
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Final chance! ⏳
+120% up to 1000 EUR with code UP1201K ends tonight. Deposit 30 EUR+ and grab it before it's gone!
+Button: GET BONUS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Letzte Chance! ⏳
+120% bis zu 1000 EUR mit Code UP1201K endet heute Abend. Zahle 30 EUR+ ein und schnapp ihn dir!
+Button: BONUS HOLEN
