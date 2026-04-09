@@ -7,7 +7,7 @@ function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu('CIO')
     .addItem('🔄 Refresh All Data', 'refreshAllCIO')
-    .addItem('🔄 Refresh Row Range...', 'refreshRangeCIO')
+    .addItem('🔄 Refresh Row Range…', 'refreshRangeCIO')
     .addToUi();
 }
 
@@ -16,7 +16,7 @@ function refreshAllCIO() {
   var cells = _findCIOCells(sheet, 1, sheet.getLastRow());
 
   if (cells.length === 0) {
-    SpreadsheetApp.getUi().alert('No CIO() formulas found.');
+    SpreadsheetApp.getUi().alert('No CION/CIOC formulas found.');
     return;
   }
 
@@ -43,7 +43,7 @@ function refreshRangeCIO() {
   var cells = _findCIOCells(sheet, fromRow, toRow);
 
   if (cells.length === 0) {
-    ui.alert('No CIO() formulas found in rows ' + fromRow + '-' + toRow + '.');
+    ui.alert('No CION/CIOC formulas found in rows ' + fromRow + '-' + toRow + '.');
     return;
   }
 
@@ -61,7 +61,8 @@ function _findCIOCells(sheet, fromRow, toRow) {
 
   for (var r = 0; r < formulas.length; r++) {
     for (var c = 0; c < formulas[r].length; c++) {
-      if (formulas[r][c].toUpperCase().indexOf('CIO(') !== -1) {
+      var upper = formulas[r][c].toUpperCase();
+      if (upper.indexOf('CION(') !== -1 || upper.indexOf('CIOC(') !== -1) {
         cells.push({ row: fromRow + r, col: c + 1, formula: formulas[r][c] });
       }
     }
@@ -79,32 +80,73 @@ function _refreshCells(sheet, cells) {
   }
 }
 
-// ── Main function ───────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════
+//  CION — Newsletters (Broadcasts)
+// ═══════════════════════════════════════════════════════════
 /**
- * Fetches Customer.io newsletter data. Metric: "name" | "type" | "status" | "date" | "created" | "sent" | "delivered" | "opened" | "clicked" | "bounced" | "converted" | "unsubscribed" | "spammed" | "failed" | "attempted" | "suppressed" | "human_opened" | "human_clicked" | "prefetch_opened"
+ * Fetches Customer.io NEWSLETTER data.
+ * Metric: name | type | status | date | created | sent | delivered | opened | clicked | bounced | converted | unsubscribed | spammed | failed | attempted | suppressed | human_opened | human_clicked | prefetch_opened
  *
- * @param {number} campaignId  Newsletter ID
- * @param {string} metric      Metric name
+ * @param {number} id  Newsletter ID
+ * @param {string} metric  Metric name
  * @customfunction
  */
-function CIO(campaignId, metric) {
-  if (!campaignId || !metric) return '';
+function CION(id, metric) {
+  return _cioFetch(id, metric, 'newsletters');
+}
+
+// ═══════════════════════════════════════════════════════════
+//  CIOC — Campaigns
+// ═══════════════════════════════════════════════════════════
+/**
+ * Fetches Customer.io CAMPAIGN data.
+ * Metric: name | type | status | date | created | sent | delivered | opened | clicked | bounced | converted | unsubscribed | spammed | failed | attempted | suppressed | human_opened | human_clicked | prefetch_opened
+ *
+ * @param {number} id  Campaign ID
+ * @param {string} metric  Metric name
+ * @customfunction
+ */
+function CIOC(id, metric) {
+  return _cioFetch(id, metric, 'campaigns');
+}
+
+// ── Shared fetch logic ──────────────────────────────────────
+function _cioFetch(id, metric, type) {
+  if (!id || !metric) return '';
   metric = String(metric).toLowerCase().trim();
 
   if (metric === 'name' || metric === 'created' || metric === 'type' || metric === 'status') {
-    return _fetchInfo(campaignId, metric);
+    return _fetchInfo(id, metric, type);
   }
 
   if (metric === 'date') {
-    return _fetchSendDate(campaignId);
+    return _fetchSendDate(id, type);
   }
 
-  return _fetchMetric(campaignId, metric);
+  return _fetchMetric(id, metric, type);
+}
+
+// ── Info ────────────────────────────────────────────────────
+function _fetchInfo(id, field, type) {
+  var res = _apiGet('/' + type + '/' + id);
+  if (res.error) return res.error;
+
+  var c = res.data.campaign || res.data.newsletter || res.data;
+
+  if (field === 'name')    return c.name || '';
+  if (field === 'type')    return c.type || '';
+  if (field === 'status') {
+    if (c.state) return c.state;
+    if (c.sent_at) return 'Sent';
+    return 'Draft/Scheduled';
+  }
+  if (field === 'created') return c.created ? _tsToDate(c.created) : '';
+  return '';
 }
 
 // ── Metrics ─────────────────────────────────────────────────
-function _fetchMetric(campaignId, metric) {
-  var result = _fetchMetricsRaw(campaignId);
+function _fetchMetric(id, metric, type) {
+  var result = _fetchMetricsRaw(id, type);
   if (result.error) return result.error;
 
   var m = result.data.metric || result.data;
@@ -117,8 +159,8 @@ function _fetchMetric(campaignId, metric) {
 }
 
 // ── Send date (first day with actual sends) ─────────────────
-function _fetchSendDate(campaignId) {
-  var result = _fetchMetricsRaw(campaignId);
+function _fetchSendDate(id, type) {
+  var result = _fetchMetricsRaw(id, type);
   if (result.error) return result.error;
 
   var m = result.data.metric || result.data;
@@ -133,69 +175,29 @@ function _fetchSendDate(campaignId) {
 
   var startStr = (result.data.start || '').replace(' +0000 UTC', 'Z').replace(' ', 'T');
   var startMs  = new Date(startStr).getTime();
-  var dayMs    = 86400000;
-  var sendMs   = startMs + (firstIdx * dayMs) + (12 * 3600000);
+  var sendMs   = startMs + (firstIdx * 86400000) + (12 * 3600000);
 
   return Utilities.formatDate(new Date(sendMs), 'Europe/Berlin', 'dd.MM.yyyy');
 }
 
-// ── Campaign/Newsletter info ────────────────────────────────
-function _fetchInfo(campaignId, field) {
-  var endpoints = [
-    '/campaigns/' + campaignId,
-    '/newsletters/' + campaignId
-  ];
-
-  for (var e = 0; e < endpoints.length; e++) {
-    var res = UrlFetchApp.fetch(CIO_BASE + endpoints[e], {
-      headers: { 'Authorization': 'Bearer ' + CIO_APP_KEY },
-      muteHttpExceptions: true
-    });
-    var code = res.getResponseCode();
-    if (code === 401) return 'ERR invalid API key';
-    if (code === 301) return 'ERR wrong datacenter';
-    if (code === 200) {
-      var json = JSON.parse(res.getContentText());
-      var c = json.campaign || json.newsletter || json;
-
-      if (field === 'name')    return c.name || '';
-      if (field === 'type')    return c.type || '';
-      if (field === 'status') {
-        if (c.sent_at) return 'Sent/Sending';
-        return 'Draft/Scheduled';
-      }
-      if (field === 'created') return c.created ? _tsToDate(c.created) : '';
-      return '';
-    }
-  }
-
-  return 'ERR not found (ID: ' + campaignId + ')';
+// ── Raw metrics fetch ───────────────────────────────────────
+function _fetchMetricsRaw(id, type) {
+  return _apiGet('/' + type + '/' + id + '/metrics?version=2');
 }
 
-// ── Raw metrics fetch (shared) ──────────────────────────────
-function _fetchMetricsRaw(campaignId) {
-  var endpoints = [
-    '/campaigns/' + campaignId + '/metrics?version=2',
-    '/newsletters/' + campaignId + '/metrics?version=2'
-  ];
-
-  for (var e = 0; e < endpoints.length; e++) {
-    var res = UrlFetchApp.fetch(CIO_BASE + endpoints[e], {
-      headers: { 'Authorization': 'Bearer ' + CIO_APP_KEY },
-      muteHttpExceptions: true
-    });
-    var code = res.getResponseCode();
-    if (code === 401) return { error: 'ERR invalid API key' };
-    if (code === 301) return { error: 'ERR wrong datacenter' };
-    if (code === 200) {
-      return { data: JSON.parse(res.getContentText()) };
-    }
-  }
-
-  return { error: 'ERR not found (ID: ' + campaignId + ')' };
+// ── HTTP helper ─────────────────────────────────────────────
+function _apiGet(path) {
+  var res = UrlFetchApp.fetch(CIO_BASE + path, {
+    headers: { 'Authorization': 'Bearer ' + CIO_APP_KEY },
+    muteHttpExceptions: true
+  });
+  var code = res.getResponseCode();
+  if (code === 401) return { error: 'ERR invalid API key' };
+  if (code === 301) return { error: 'ERR wrong datacenter' };
+  if (code !== 200) return { error: 'ERR ' + code + ' (ID not found)' };
+  return { data: JSON.parse(res.getContentText()) };
 }
 
 function _tsToDate(unix) {
-  var d = new Date(unix * 1000);
-  return Utilities.formatDate(d, 'Europe/Berlin', 'dd.MM.yyyy');
+  return Utilities.formatDate(new Date(unix * 1000), 'Europe/Berlin', 'dd.MM.yyyy');
 }
