@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Oshi Welcome Flow</title>
+<style>body{font-family:Arial,sans-serif;font-size:14px;line-height:1.6;max-width:800px;margin:40px auto;color:#222;}h2{margin-top:40px;border-bottom:2px solid #333;padding-bottom:4px;color:#111;}h3{margin-top:28px;border-bottom:1px solid #ccc;padding-bottom:4px;color:#444;font-size:15px;}.tc{font-size:12px;color:#666;margin-top:2px;}.liquid{font-family:monospace;font-size:12px;color:#8B5CF6;background:#F5F3FF;padding:2px 4px;border-radius:3px;}</style></head>
+<body>
+
+<h1>OSHI WELCOME FLOW &#128231;</h1>
+
+<!-- ==================== EMAIL #1 ==================== -->
+
+<h2>Email #1 | Welcome + Brand Intro</h2>
+
+<h3>EMAIL (EN)</h3>
+<p><b>Subject:</b> 🎰 Welcome to Oshi - Your Adventure Starts Now!</p>
+<p><b>Preheader:</b> See what's waiting for you inside</p>
+<p><b>Greeting:</b> Hello {{ customer.first_name | default:"there" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Welcome to Oshi! We're glad you've joined us. Here you'll find thousands of top slots from <b>80+</b> leading providers, daily tournaments, a loyalty program with real cashback, and surprises around every corner.<br><br>
+Your welcome package is already loaded: <b>100%</b> bonus up to <b>1,000 EUR</b> + <b>150 Free Spins</b> with your first deposit.<br><br>
+Take a look around and discover what Oshi has in store for you!</p>
+<p><b>CTA:</b> EXPLORE OSHI</p>
+<p class="tc"><b>T&amp;C:</b> Wager: x40 | Min. deposit: 20 EUR | Bonus duration: 5 days</p>
+
+<h3>EMAIL (DE)</h3>
+<p><b>Subject:</b> 🎰 Willkommen bei Oshi - Dein Abenteuer beginnt!</p>
+<p><b>Preheader:</b> Entdecke, was auf dich wartet</p>
+<p><b>Greeting:</b> Hallo {{ customer.first_name | default:"dort" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Willkommen bei Oshi! Schön, dass du dabei bist. Hier erwarten dich tausende Top-Slots von <b>80+</b> führenden Anbietern, tägliche Turniere, ein Treueprogramm mit echtem Cashback und Überraschungen an jeder Ecke.<br><br>
+Dein Willkommenspaket ist bereits geladen: <b>100%</b> Bonus bis zu <b>1.000 EUR</b> + <b>150 Freispiele</b> mit deiner ersten Einzahlung.<br><br>
+Schau dich um und entdecke, was Oshi für dich bereithält!</p>
+<p><b>CTA:</b> OSHI ENTDECKEN</p>
+<p class="tc"><b>T&amp;C:</b> Umsatz: x40 | Mindesteinzahlung: 20 EUR | Bonusdauer: 5 Tage</p>
+
+<!-- ==================== INAPP #1.1 ==================== -->
+
+<h2>InApp #1.1 | Welcome Pack | 100% + 150 FS</h2>
+
+<h3>INAPP (EN)</h3>
+<p><b>Body:</b><br>
+Hello {{ customer.first_name | default:"there" | capitalize }}!<br>
+Your welcome bonus is ready!<br>
+Get <b>100%</b> up to <b>1,000 EUR</b> + <b>150 Free Spins</b> with your first deposit. Start playing and winning today!</p>
+<p><b>CTA:</b> CLAIM BONUS</p>
+
+<h3>INAPP (DE)</h3>
+<p><b>Body:</b><br>
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!<br>
+Dein Willkommensbonus ist bereit!<br>
+Sichere dir <b>100%</b> bis zu <b>1.000 EUR</b> + <b>150 Freispiele</b> mit deiner ersten Einzahlung. Leg los und gewinne noch heute!</p>
+<p><b>CTA:</b> BONUS HOLEN</p>
+
+<!-- ==================== INAPP #1.2 ==================== -->
+
+<h2>InApp #1.2 | 150 FS Ready</h2>
+
+<h3>INAPP (EN)</h3>
+<p><b>Body:</b><br>
+Hello {{ customer.first_name | default:"there" | capitalize }}!<br>
+Liked what you saw?<br>
+Your <b>150 Free Spins</b> are ready to roll! Make your first deposit and start spinning right away.</p>
+<p><b>CTA:</b> DEPOSIT &amp; PLAY</p>
+
+<h3>INAPP (DE)</h3>
+<p><b>Body:</b><br>
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!<br>
+Hat dir gefallen, was du gesehen hast?<br>
+Deine <b>150 Freispiele</b> warten auf dich! Tätige deine erste Einzahlung und dreh sofort los.</p>
+<p><b>CTA:</b> EINZAHLEN &amp; SPIELEN</p>
+
+<!-- ==================== EMAIL #2 ==================== -->
+
+<h2>Email #2 | 150 FS Waiting + 72hr Urgency</h2>
+
+<h3>EMAIL (EN)</h3>
+<p><b>Subject:</b> 🎰 150 Free Spins Are Waiting for You!</p>
+<p><b>Preheader:</b> Your spins won't wait forever</p>
+<p><b>Greeting:</b> Hello {{ customer.first_name | default:"there" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Your <b>150 Free Spins</b> are just one deposit away. Hundreds of players have already grabbed theirs this week - don't let yours slip through.<br><br>
+On top of the spins, you'll receive a <b>100%</b> match up to <b>1,000 EUR</b>. That's double the balance from your very first play.<br><br>
+Hurry - this welcome offer expires in <b>72 hours</b>. Deposit now and put your spins to work!</p>
+<p><b>CTA:</b> GRAB MY SPINS</p>
+<p class="tc"><b>T&amp;C:</b> Wager: x40 | Min. deposit: 20 EUR | Bonus duration: 5 days</p>
+
+<h3>EMAIL (DE)</h3>
+<p><b>Subject:</b> 🎰 150 Freispiele warten auf dich!</p>
+<p><b>Preheader:</b> Deine Spins warten nicht ewig</p>
+<p><b>Greeting:</b> Hallo {{ customer.first_name | default:"dort" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Deine <b>150 Freispiele</b> sind nur eine Einzahlung entfernt. Hunderte Spieler haben ihre diese Woche schon geholt - lass deine nicht verfallen.<br><br>
+Zusätzlich zu den Spins erhältst du einen <b>100%</b> Match-Bonus bis zu <b>1.000 EUR</b>. Das bedeutet doppeltes Guthaben ab dem ersten Spiel.<br><br>
+Beeil dich - dieses Willkommensangebot läuft in <b>72 Stunden</b> ab. Zahle jetzt ein und bring deine Spins ins Rollen!</p>
+<p><b>CTA:</b> SPINS SICHERN</p>
+<p class="tc"><b>T&amp;C:</b> Umsatz: x40 | Mindesteinzahlung: 20 EUR | Bonusdauer: 5 Tage</p>
+
+<!-- ==================== EMAIL #3 ==================== -->
+
+<h2>Email #3 | Platform Value (Tournaments, Loyalty, Providers)</h2>
+
+<h3>EMAIL (EN)</h3>
+<p><b>Subject:</b> 🏆 Tournaments, Cashback &amp; 80+ Providers at Oshi</p>
+<p><b>Preheader:</b> There's more to Oshi than just slots</p>
+<p><b>Greeting:</b> Hello {{ customer.first_name | default:"there" | capitalize }}!</p>
+<p><b>Body:</b><br>
+There's a whole world beyond the reels at Oshi. Jump into weekly tournaments with real prize pools, climb the loyalty ladder for cashback every Wednesday, and pick from <b>80+</b> top game providers.<br><br>
+New titles drop every week, and exclusive promotions are always around the corner. Whether you're into slots, table games or live dealers - Oshi has something for every style of play.<br><br>
+Join the action and see why players keep coming back!</p>
+<p><b>CTA:</b> DISCOVER MORE</p>
+
+<h3>EMAIL (DE)</h3>
+<p><b>Subject:</b> 🏆 Turniere, Cashback &amp; 80+ Anbieter bei Oshi</p>
+<p><b>Preheader:</b> Oshi hat mehr zu bieten als nur Slots</p>
+<p><b>Greeting:</b> Hallo {{ customer.first_name | default:"dort" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Nimm an wöchentlichen Turnieren mit echten Preispools teil, klettere die Treue-Leiter hoch für Cashback jeden Mittwoch und wähle aus <b>80+</b> Top-Anbietern.<br><br>
+Neue Spiele erscheinen jede Woche und exklusive Aktionen warten immer um die Ecke. Ob Slots, Tischspiele oder Live-Dealer - Oshi hat für jeden Spielstil etwas dabei.<br><br>
+Schließ dich dem Geschehen an und erlebe, warum Spieler immer wiederkommen!</p>
+<p><b>CTA:</b> MEHR ENTDECKEN</p>
+
+<!-- ==================== SMS #3 ==================== -->
+
+<h2>SMS #3 | Platform Value</h2>
+
+<h3>SMS (EN)</h3>
+<p><b>Body:</b><br>
+Oshi: Tournaments, cashback &amp; 80+ providers are waiting. Your first deposit unlocks it all. Play now [link]</p>
+
+<h3>SMS (DE)</h3>
+<p><b>Body:</b><br>
+Oshi: Turniere, Cashback &amp; 80+ Anbieter warten. Deine erste Einzahlung schaltet alles frei. Jetzt spielen [link]</p>
+
+<!-- ==================== EMAIL #4 ==================== -->
+
+<h2>Email #4 | Social Proof + Lootwheel Teaser</h2>
+
+<h3>EMAIL (EN)</h3>
+<p><b>Subject:</b> 🎡 Thousands of Players Already Claimed Their Bonus</p>
+<p><b>Preheader:</b> Find out what you're missing</p>
+<p><b>Greeting:</b> Hello {{ customer.first_name | default:"there" | capitalize }}!</p>
+<p><b>Body:</b><br>
+This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. The winners keep rolling in - and your spot is still open.<br><br>
+Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes <b>SILVER</b> or <b>GOLD</b>.<br><br>
+Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!</p>
+<p><b>CTA:</b> JOIN NOW</p>
+
+<h3>EMAIL (DE)</h3>
+<p><b>Subject:</b> 🎡 Tausende Spieler haben ihren Bonus schon geholt</p>
+<p><b>Preheader:</b> Erfahre, was du verpasst</p>
+<p><b>Greeting:</b> Hallo {{ customer.first_name | default:"dort" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Allein diese Woche haben tausende Spieler ihren Willkommensbonus bei Oshi eingelöst und die Walzen gedreht. Die Gewinner hören nicht auf - und dein Platz ist noch frei.<br><br>
+Außerdem schaltest du das Lucky Wheel frei - dreh es und gewinne Freispiele und Bargeld-Preise mit den Codes <b>SILVER</b> oder <b>GOLD</b>.<br><br>
+Bleib nicht am Rand, während andere gewinnen. Tätige deine erste Einzahlung und steig ins Spiel ein!</p>
+<p><b>CTA:</b> JETZT MITMACHEN</p>
+
+<!-- ==================== EMAIL #5 ==================== -->
+
+<h2>Email #5 | Escalated Offer | 125% + 200 FS</h2>
+
+<h3>EMAIL (EN)</h3>
+<p><b>Subject:</b> ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!</p>
+<p><b>Preheader:</b> This offer was made just for you</p>
+<p><b>Greeting:</b> Hello {{ customer.first_name | default:"there" | capitalize }}!</p>
+<p><b>Body:</b><br>
+We've decided to upgrade your welcome deal. For a limited time, deposit <b>20 EUR</b> or more and use bonus code <span class="liquid">{% if customer.country == "au" %}BASS125{% elsif customer.country == "ca" %}STAR125{% else %}DEAD125{% endif %}</span> to unlock a <b>125%</b> bonus up to <b>1,000 EUR</b> + <b>200 Free Spins</b> on <span class="liquid">{% if customer.country == "au" %}Big Bass Bonanza{% elsif customer.country == "ca" %}Starburst{% else %}Book of Dead{% endif %}</span>.<br><br>
+That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.<br><br>
+Don't let this one pass. Lock in your exclusive upgrade and start spinning!</p>
+<p><b>CTA:</b> CLAIM MY UPGRADE</p>
+<p class="tc"><b>T&amp;C:</b> Wager: x40 | Min. deposit: 20 EUR | Bonus duration: 5 days</p>
+
+<h3>EMAIL (DE)</h3>
+<p><b>Subject:</b> ⭐ 125% Bonus + 200 Freispiele - Exklusives Upgrade!</p>
+<p><b>Preheader:</b> Dieses Angebot wurde nur für dich gemacht</p>
+<p><b>Greeting:</b> Hallo {{ customer.first_name | default:"dort" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Wir haben dein Willkommensangebot aufgewertet. Für begrenzte Zeit zahlst du <b>20 EUR</b> oder mehr ein und nutzt den Code <span class="liquid">{% if customer.country == "au" %}BASS125{% elsif customer.country == "ca" %}STAR125{% else %}DEAD125{% endif %}</span>, um einen <b>125%</b> Bonus bis zu <b>1.000 EUR</b> + <b>200 Freispiele</b> bei <span class="liquid">{% if customer.country == "au" %}Big Bass Bonanza{% elsif customer.country == "ca" %}Starburst{% else %}Book of Dead{% endif %}</span> freizuschalten.<br><br>
+Das sind 50 zusätzliche Spins und ein größerer Match als das Standardangebot - nur für ausgewählte Spieler verfügbar.<br><br>
+Lass dir das nicht entgehen. Sichere dir dein exklusives Upgrade und leg los!</p>
+<p><b>CTA:</b> UPGRADE SICHERN</p>
+<p class="tc"><b>T&amp;C:</b> Umsatz: x40 | Mindesteinzahlung: 20 EUR | Bonusdauer: 5 Tage</p>
+
+<!-- ==================== INAPP #5 ==================== -->
+
+<h2>InApp #5 | Escalated Offer | 125% + 200 FS</h2>
+
+<h3>INAPP (EN)</h3>
+<p><b>Body:</b><br>
+Hello {{ customer.first_name | default:"there" | capitalize }}!<br>
+Exclusive upgrade for you!<br>
+Get <b>125%</b> up to <b>1,000 EUR</b> + <b>200 Free Spins</b> on <span class="liquid">{% if customer.country == "au" %}Big Bass Bonanza{% elsif customer.country == "ca" %}Starburst{% else %}Book of Dead{% endif %}</span>. Use code <span class="liquid">{% if customer.country == "au" %}BASS125{% elsif customer.country == "ca" %}STAR125{% else %}DEAD125{% endif %}</span> with your first deposit. This offer is not on the website - it's yours only!</p>
+<p><b>CTA:</b> UPGRADE NOW</p>
+
+<h3>INAPP (DE)</h3>
+<p><b>Body:</b><br>
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!<br>
+Exklusives Upgrade für dich!<br>
+Sichere dir <b>125%</b> bis zu <b>1.000 EUR</b> + <b>200 Freispiele</b> bei <span class="liquid">{% if customer.country == "au" %}Big Bass Bonanza{% elsif customer.country == "ca" %}Starburst{% else %}Book of Dead{% endif %}</span>. Nutze den Code <span class="liquid">{% if customer.country == "au" %}BASS125{% elsif customer.country == "ca" %}STAR125{% else %}DEAD125{% endif %}</span> mit deiner ersten Einzahlung. Dieses Angebot gibt es nicht auf der Website - es ist nur für dich!</p>
+<p><b>CTA:</b> JETZT UPGRADEN</p>
+
+<!-- ==================== EMAIL #6 ==================== -->
+
+<h2>Email #6 | Bonus Expires Soon + Winnings Calculator</h2>
+
+<h3>EMAIL (EN)</h3>
+<p><b>Subject:</b> ⏳ Your Bonus Offer Expires Soon!</p>
+<p><b>Preheader:</b> Check what you could win before time runs out</p>
+<p><b>Greeting:</b> Hello {{ customer.first_name | default:"there" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:<br><br>
+Deposit <b>50 EUR</b> with code <span class="liquid">{% if customer.country == "au" %}BASS125{% elsif customer.country == "ca" %}STAR125{% else %}DEAD125{% endif %}</span> and get <b>62.50 EUR</b> bonus + <b>200 Free Spins</b>. That's <b>112.50 EUR</b> to play with from just one deposit.<br><br>
+Deposit <b>100 EUR</b>? You'll play with <b>225 EUR</b> + <b>200 Free Spins</b>.<br><br>
+The numbers speak for themselves. Make your deposit before time runs out!</p>
+<p><b>CTA:</b> SECURE MY BONUS</p>
+<p class="tc"><b>T&amp;C:</b> Wager: x40 | Min. deposit: 20 EUR | Bonus duration: 5 days</p>
+
+<h3>EMAIL (DE)</h3>
+<p><b>Subject:</b> ⏳ Dein Bonusangebot läuft bald ab!</p>
+<p><b>Preheader:</b> Sieh dir an, was du gewinnen könntest</p>
+<p><b>Greeting:</b> Hallo {{ customer.first_name | default:"dort" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Dein exklusives Bonusangebot läuft bald ab. Das lässt du gerade liegen:<br><br>
+Zahle <b>50 EUR</b> mit dem Code <span class="liquid">{% if customer.country == "au" %}BASS125{% elsif customer.country == "ca" %}STAR125{% else %}DEAD125{% endif %}</span> ein und erhalte <b>62,50 EUR</b> Bonus + <b>200 Freispiele</b>. Das sind <b>112,50 EUR</b> zum Spielen aus nur einer Einzahlung.<br><br>
+<b>100 EUR</b> einzahlen? Dann spielst du mit <b>225 EUR</b> + <b>200 Freispielen</b>.<br><br>
+Die Zahlen sprechen für sich. Tätige deine Einzahlung, bevor die Zeit abläuft!</p>
+<p><b>CTA:</b> BONUS SICHERN</p>
+<p class="tc"><b>T&amp;C:</b> Umsatz: x40 | Mindesteinzahlung: 20 EUR | Bonusdauer: 5 Tage</p>
+
+<!-- ==================== EMAIL #7 ==================== -->
+
+<h2>Email #7 | FINAL | 150% + 250 FS + 10 No-Deposit FS</h2>
+
+<h3>EMAIL (EN)</h3>
+<p><b>Subject:</b> 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!</p>
+<p><b>Preheader:</b> Our biggest welcome deal - last chance</p>
+<p><b>Greeting:</b> Hello {{ customer.first_name | default:"there" | capitalize }}!</p>
+<p><b>Body:</b><br>
+This is our final call. We've pushed your welcome bonus to the maximum: <b>150%</b> up to <b>1,000 EUR</b> + <b>250 Free Spins</b> on <span class="liquid">{% if customer.country == "au" %}Sweet Bonanza{% elsif customer.country == "ca" %}Gonzo's Quest{% else %}Razor Shark{% endif %}</span>.<br><br>
+Use code <span class="liquid">{% if customer.country == "au" %}SWEET150{% elsif customer.country == "ca" %}GONZO150{% else %}SHARK150{% endif %}</span> with a deposit of <b>20 EUR</b> or more to claim this deal.<br><br>
+On top of that, we've credited <b>10 Free Spins</b> directly to your account - no code, no deposit, no catch. Open the lobby and spin them right now.<br><br>
+This is the best we can offer. Lock it in before it's gone!</p>
+<p><b>CTA:</b> CLAIM FINAL OFFER</p>
+<p class="tc"><b>T&amp;C:</b> Wager: x40 | Min. deposit: 20 EUR (for deposit bonus) | No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR | Bonus duration: 5 days</p>
+
+<h3>EMAIL (DE)</h3>
+<p><b>Subject:</b> 🔥 LETZTES Angebot: 150% + 250 Freispiele + 10 Bonusspins!</p>
+<p><b>Preheader:</b> Unser größtes Willkommensangebot - letzte Chance</p>
+<p><b>Greeting:</b> Hallo {{ customer.first_name | default:"dort" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Das ist unser letzter Ruf. Wir haben deinen Willkommensbonus auf das Maximum erhöht: <b>150%</b> bis zu <b>1.000 EUR</b> + <b>250 Freispiele</b> bei <span class="liquid">{% if customer.country == "au" %}Sweet Bonanza{% elsif customer.country == "ca" %}Gonzo's Quest{% else %}Razor Shark{% endif %}</span>.<br><br>
+Nutze den Code <span class="liquid">{% if customer.country == "au" %}SWEET150{% elsif customer.country == "ca" %}GONZO150{% else %}SHARK150{% endif %}</span> mit einer Einzahlung von <b>20 EUR</b> oder mehr, um dieses Angebot zu sichern.<br><br>
+Zusätzlich haben wir <b>10 Freispiele</b> direkt auf dein Konto gutgeschrieben - kein Code, keine Einzahlung, kein Haken. Öffne die Lobby und dreh sie sofort.<br><br>
+Das ist das Beste, was wir bieten können. Sichere es dir, bevor es weg ist!</p>
+<p><b>CTA:</b> LETZTES ANGEBOT HOLEN</p>
+<p class="tc"><b>T&amp;C:</b> Umsatz: x40 | Mindesteinzahlung: 20 EUR (für Einzahlungsbonus) | Einzahlungsfreie Freispiele: 10 FS, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR | Bonusdauer: 5 Tage</p>
+
+<!-- ==================== SMS #7 ==================== -->
+
+<h2>SMS #7 | FINAL Offer</h2>
+
+<h3>SMS (EN)</h3>
+<p><b>Body:</b><br>
+Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code <span class="liquid">{% if customer.country == "au" %}SWEET150{% elsif customer.country == "ca" %}GONZO150{% else %}SHARK150{% endif %}</span> to deposit. [link]</p>
+
+<h3>SMS (DE)</h3>
+<p><b>Body:</b><br>
+Oshi: FINAL - 150% + 250 FS! 10 Freispiele bereits auf deinem Konto. Nutze Code <span class="liquid">{% if customer.country == "au" %}SWEET150{% elsif customer.country == "ca" %}GONZO150{% else %}SHARK150{% endif %}</span> zum Einzahlen. [link]</p>
+
+<!-- ==================== EMAIL #8 ==================== -->
+
+<h2>Email #8 | Absolute Final | 160% + 300 FS</h2>
+
+<h3>EMAIL (EN)</h3>
+<p><b>Subject:</b> 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!</p>
+<p><b>Preheader:</b> Nothing bigger is coming after this</p>
+<p><b>Greeting:</b> Hello {{ customer.first_name | default:"there" | capitalize }}!</p>
+<p><b>Body:</b><br>
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: <b>160%</b> up to <b>1,000 EUR</b> + <b>300 Free Spins</b> on <span class="liquid">{% if customer.country == "au" %}Wolf Gold{% elsif customer.country == "ca" %}Mega Moolah{% else %}Fire Joker{% endif %}</span>.<br><br>
+Deposit <b>20 EUR</b> or more with code <span class="liquid">{% if customer.country == "au" %}WOLF160{% elsif customer.country == "ca" %}MEGA160{% else %}JOKER160{% endif %}</span> and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.<br><br>
+Depositing with crypto? Your wagering drops from <b>x40</b> to just <b>x25</b>. Same bonus, faster cashout.<br><br>
+Once this expires, it's gone forever. Make your move and claim the ultimate reward!</p>
+<p><b>CTA:</b> GET MY REWARD</p>
+<p class="tc"><b>T&amp;C:</b> Wager: x40 (x25 for crypto deposits) | Min. deposit: 20 EUR | Bonus duration: 5 days</p>
+
+<h3>EMAIL (DE)</h3>
+<p><b>Subject:</b> 💎 160% + 300 Freispiele - Das ultimative Willkommensangebot!</p>
+<p><b>Preheader:</b> Danach kommt nichts Größeres mehr</p>
+<p><b>Greeting:</b> Hallo {{ customer.first_name | default:"dort" | capitalize }}!</p>
+<p><b>Body:</b><br>
+Wir haben das Beste zum Schluss aufgehoben. Das ist der absolut größte Willkommensbonus, den Oshi je angeboten hat: <b>160%</b> bis zu <b>1.000 EUR</b> + <b>300 Freispiele</b> bei <span class="liquid">{% if customer.country == "au" %}Wolf Gold{% elsif customer.country == "ca" %}Mega Moolah{% else %}Fire Joker{% endif %}</span>.<br><br>
+Zahle <b>20 EUR</b> oder mehr mit dem Code <span class="liquid">{% if customer.country == "au" %}WOLF160{% elsif customer.country == "ca" %}MEGA160{% else %}JOKER160{% endif %}</span> ein und sieh zu, wie sich dein Guthaben vervielfacht. Kein anderer Spieler bekommt ein solches Angebot - es wurde speziell für dich erstellt.<br><br>
+Einzahlung mit Krypto? Dein Umsatz sinkt von <b>x40</b> auf nur <b>x25</b>. Gleicher Bonus, schnellere Auszahlung.<br><br>
+Sobald es abläuft, ist es für immer weg. Mach deinen Zug und hole dir die ultimative Belohnung!</p>
+<p><b>CTA:</b> BELOHNUNG HOLEN</p>
+<p class="tc"><b>T&amp;C:</b> Umsatz: x40 (x25 für Krypto-Einzahlungen) | Mindesteinzahlung: 20 EUR | Bonusdauer: 5 Tage</p>
+
+</body>
+</html>

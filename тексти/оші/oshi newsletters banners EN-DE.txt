@@ -133,21 +133,6 @@ Last Hours - The 500,000 EUR Heist Ends Today!
 Letzte Stunden - Der 500.000 EUR Heist endet heute!
 
 
-========== 09.04 | Trending Slot | 100 FS | CGOLD100 ==========
-
---- EMAIL BANNER (EN) ---
-Clover Gold Is Trending - Grab 100 Free Spins!
-
---- EMAIL BANNER (DE) ---
-Clover Gold ist im Trend - Sichere dir 100 Freispiele!
-
---- INAPP BANNER (EN) ---
-100 Free Spins on Clover Gold - The Week's Hottest Slot!
-
---- INAPP BANNER (DE) ---
-100 Freispiele bei Clover Gold - Der heißeste Slot der Woche!
-
-
 ========== 10.04 | Weekend Bonus | 70% + 40 FS | ELVIS7040 ==========
 
 --- EMAIL BANNER (EN) ---
@@ -193,19 +178,19 @@ Last Chance - Elvis Frog 70% + 40 FS Expires Tonight!
 Letzte Chance - Elvis Frog 70% + 40 Freispiele endet heute!
 
 
-========== 13.04 | Lootwheel Reminder ==========
+========== 13.04 | Trending Slot | 100 FS | CGOLD100 ==========
 
 --- EMAIL BANNER (EN) ---
-Spin the Lucky Wheel - Guaranteed Prizes up to 10,000 EUR!
+Clover Gold Is Trending - Grab 100 Free Spins!
 
 --- EMAIL BANNER (DE) ---
-Dreh das Glücksrad - Garantierte Gewinne bis zu 10.000 EUR!
+Clover Gold ist im Trend - Sichere dir 100 Freispiele!
 
 --- INAPP BANNER (EN) ---
-The Lucky Wheel Is Waiting - Prizes Every Spin!
+100 Free Spins on Clover Gold - The Week's Hottest Slot!
 
 --- INAPP BANNER (DE) ---
-Das Glücksrad wartet - Gewinne bei jedem Dreh!
+100 Freispiele bei Clover Gold - Der heißeste Slot der Woche!
 
 
 ========== 14.04 | Midweek Bonus | 75% up to 250 EUR | UP75250 ==========
@@ -386,3 +371,18 @@ Last Call - 120% up to 1000 EUR Expires Today!
 
 --- INAPP BANNER (DE) ---
 Letzter Aufruf - 120% bis zu 1000 EUR läuft heute ab!
+
+
+========== 00.00 | Lootwheel Reminder ==========
+
+--- EMAIL BANNER (EN) ---
+Spin the Lucky Wheel - Guaranteed Prizes up to 10,000 EUR!
+
+--- EMAIL BANNER (DE) ---
+Dreh das Glücksrad - Garantierte Gewinne bis zu 10.000 EUR!
+
+--- INAPP BANNER (EN) ---
+The Lucky Wheel Is Waiting - Prizes Every Spin!
+
+--- INAPP BANNER (DE) ---
+Das Glücksrad wartet - Gewinne bei jedem Dreh!

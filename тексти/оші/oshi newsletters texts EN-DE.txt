@@ -507,61 +507,6 @@ Letzte Stunden, um Punkte auf 25 Endorphina-Slots zu sammeln. 500.000 EUR Preisp
 Button: JETZT SPIELEN
 
 
-========== 09.04 | Trending Slot | 100 FS | CGOLD100 ==========
-
---- EMAIL (EN) ---
-
-Subject: 🍀 100 Free Spins on Clover Gold - This Week's Hottest Slot!
-Preheader: The slot everyone's spinning + 100 FS just for you
-Body:
-Hello {{ customer.first_name | default:"there" | capitalize }}!
-
-Clover Gold from Pragmatic Play has quickly become one of the most played slots this week. Players are spinning it for its exciting gameplay and lucky clover wins.
-
-Now it's your turn - and we're giving you a head start! Deposit 20 EUR or more and use bonus code CGOLD100 to claim 100 Free Spins on Clover Gold.
-
-Ready to find your lucky clover? Spin now and see if fortune is on your side!
-Button: SPIN CLOVER GOLD
-
-Terms&Conditions:
-Wager: x40
-Min. deposit: 20 EUR
-The bonus is available once on April 9 (UTC TZ)
-
---- EMAIL (DE) ---
-
-Subject: 🍀 100 Freispiele bei Clover Gold - Der heißeste Slot der Woche!
-Preheader: Der Slot, den alle spielen + 100 Freispiele nur für dich
-Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-
-Clover Gold von Pragmatic Play hat sich blitzschnell zu einem der meistgespielten Slots dieser Woche entwickelt. Spieler drehen die Walzen für das spannende Gameplay und die glücksbringenden Kleeblatt-Gewinne.
-
-Jetzt bist du dran - und wir geben dir einen Vorsprung! Zahle 20 EUR oder mehr ein und nutze den Bonuscode CGOLD100, um dir 100 Freispiele bei Clover Gold zu sichern.
-
-Bereit, dein Glückskleeblatt zu finden? Dreh jetzt und finde heraus, ob das Glück auf deiner Seite ist!
-Button: CLOVER GOLD DREHEN
-
-Terms&Conditions:
-Umsatz: x40
-Mindesteinzahlung: 20 EUR
-Der Bonus ist einmalig am 9. April verfügbar (UTC TZ)
-
---- INAPP (EN) ---
-
-Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-🔥 Clover Gold is trending this week!
-Deposit 20 EUR+ with code CGOLD100 and grab 100 Free Spins on the hottest slot around.
-Button: SPIN NOW
-
---- INAPP (DE) ---
-
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-🔥 Clover Gold ist der Trend der Woche!
-Zahle 20 EUR+ ein, nutze den Code CGOLD100 und sichere dir 100 Freispiele beim heißesten Slot.
-Button: JETZT DREHEN
-
-
 ========== 10.04 | Weekend Bonus | 70% + 40 FS | ELVIS7040 ==========
 
 --- EMAIL (EN) ---
@@ -727,58 +672,58 @@ Dein 70% Bonus + 40 Freispiele bei Elvis Frog TRUEWAYS endet heute. Nutze den Co
 Button: JETZT HOLEN
 
 
-========== 13.04 | Lootwheel Reminder ==========
+========== 13.04 | Trending Slot | 100 FS | CGOLD100 ==========
 
 --- EMAIL (EN) ---
 
-Subject: 🎡 Spin the Lucky Wheel - Win up to 10,000 EUR!
-Preheader: Guaranteed prizes with every spin
+Subject: 🍀 100 Free Spins on Clover Gold - This Week's Hottest Slot!
+Preheader: The slot everyone's spinning + 100 FS just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-The Lucky Wheel is live at Oshi and every spin is a guaranteed win!
+Clover Gold from Pragmatic Play has quickly become one of the most played slots this week. Players are spinning it for its exciting gameplay and lucky clover wins.
 
-Pick your wheel and go:
-Silver Wheel - Deposit 20 EUR with code SILVER for prizes up to 5,000 EUR
-Gold Wheel - Deposit 30 EUR with code GOLD for prizes up to 10,000 EUR
+Now it's your turn - and we're giving you a head start! Deposit 20 EUR or more and use bonus code CGOLD100 to claim 100 Free Spins on Clover Gold.
 
-You can spin up to 3 times per day. Pick your wheel, make a deposit, and let luck decide your prize!
-Button: SPIN THE WHEEL
+Ready to find your lucky clover? Spin now and see if fortune is on your side!
+Button: SPIN CLOVER GOLD
 
 Terms&Conditions:
 Wager: x40
+Min. deposit: 20 EUR
+The bonus is available once on April 13 (UTC TZ)
 
 --- EMAIL (DE) ---
 
-Subject: 🎡 Dreh das Glücksrad - Gewinne bis zu 10.000 EUR!
-Preheader: Garantierte Preise bei jedem Dreh
+Subject: 🍀 100 Freispiele bei Clover Gold - Der heißeste Slot der Woche!
+Preheader: Der Slot, den alle spielen + 100 Freispiele nur für dich
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Das Glücksrad dreht sich bei Oshi und jeder Spin bringt einen garantierten Gewinn!
+Clover Gold von Pragmatic Play hat sich blitzschnell zu einem der meistgespielten Slots dieser Woche entwickelt. Spieler drehen die Walzen für das spannende Gameplay und die glücksbringenden Kleeblatt-Gewinne.
 
-Wähle dein Rad und los geht's:
-Silber-Rad - Zahle 20 EUR ein mit Code SILVER für Preise bis zu 5.000 EUR
-Gold-Rad - Zahle 30 EUR ein mit Code GOLD für Preise bis zu 10.000 EUR
+Jetzt bist du dran - und wir geben dir einen Vorsprung! Zahle 20 EUR oder mehr ein und nutze den Bonuscode CGOLD100, um dir 100 Freispiele bei Clover Gold zu sichern.
 
-Du kannst bis zu 3 Mal pro Tag drehen. Wähle dein Rad, zahle ein und lass das Glück entscheiden!
-Button: RAD DREHEN
+Bereit, dein Glückskleeblatt zu finden? Dreh jetzt und finde heraus, ob das Glück auf deiner Seite ist!
+Button: CLOVER GOLD DREHEN
 
 Terms&Conditions:
 Umsatz: x40
+Mindesteinzahlung: 20 EUR
+Der Bonus ist einmalig am 13. April verfügbar (UTC TZ)
 
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-The Lucky Wheel is waiting! 🎡
-Deposit with code SILVER (20 EUR) or GOLD (30 EUR) and spin for guaranteed prizes up to 10,000 EUR!
+🔥 Clover Gold is trending this week!
+Deposit 20 EUR+ with code CGOLD100 and grab 100 Free Spins on the hottest slot around.
 Button: SPIN NOW
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-Das Glücksrad wartet! 🎡
-Zahle ein mit Code SILVER (20 EUR) oder GOLD (30 EUR) und drehe für garantierte Preise bis zu 10.000 EUR!
+🔥 Clover Gold ist der Trend der Woche!
+Zahle 20 EUR+ ein, nutze den Code CGOLD100 und sichere dir 100 Freispiele beim heißesten Slot.
 Button: JETZT DREHEN
 
 
@@ -1442,3 +1387,58 @@ Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 Letzte Chance! ⏳
 120% bis zu 1000 EUR mit Code UP1201K endet heute Abend. Zahle 30 EUR+ ein und schnapp ihn dir!
 Button: BONUS HOLEN
+
+
+========== 00.00 | Lootwheel Reminder ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🎡 Spin the Lucky Wheel - Win up to 10,000 EUR!
+Preheader: Guaranteed prizes with every spin
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+The Lucky Wheel is live at Oshi and every spin is a guaranteed win!
+
+Pick your wheel and go:
+Silver Wheel - Deposit 20 EUR with code SILVER for prizes up to 5,000 EUR
+Gold Wheel - Deposit 30 EUR with code GOLD for prizes up to 10,000 EUR
+
+You can spin up to 3 times per day. Pick your wheel, make a deposit, and let luck decide your prize!
+Button: SPIN THE WHEEL
+
+Terms&Conditions:
+Wager: x40
+
+--- EMAIL (DE) ---
+
+Subject: 🎡 Dreh das Glücksrad - Gewinne bis zu 10.000 EUR!
+Preheader: Garantierte Preise bei jedem Dreh
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Das Glücksrad dreht sich bei Oshi und jeder Spin bringt einen garantierten Gewinn!
+
+Wähle dein Rad und los geht's:
+Silber-Rad - Zahle 20 EUR ein mit Code SILVER für Preise bis zu 5.000 EUR
+Gold-Rad - Zahle 30 EUR ein mit Code GOLD für Preise bis zu 10.000 EUR
+
+Du kannst bis zu 3 Mal pro Tag drehen. Wähle dein Rad, zahle ein und lass das Glück entscheiden!
+Button: RAD DREHEN
+
+Terms&Conditions:
+Umsatz: x40
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+The Lucky Wheel is waiting! 🎡
+Deposit with code SILVER (20 EUR) or GOLD (30 EUR) and spin for guaranteed prizes up to 10,000 EUR!
+Button: SPIN NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Das Glücksrad wartet! 🎡
+Zahle ein mit Code SILVER (20 EUR) oder GOLD (30 EUR) und drehe für garantierte Preise bis zu 10.000 EUR!
+Button: JETZT DREHEN

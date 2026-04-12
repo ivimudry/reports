@@ -6,19 +6,90 @@ var CIO_BASE    = 'https://api.customer.io/v1';
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu('CIO')
-    .addItem('🔄 Refresh All Data', 'refreshAllCIO')
-    .addItem('🔄 Refresh Row Range…', 'refreshRangeCIO')
+    .addItem('🔄 Refresh All Sheets', 'refreshAllSheets')
+    .addItem('🔄 Refresh Active Sheet', 'refreshActiveSheet')
+    .addItem('🔄 Refresh Range…', 'refreshRange')
     .addSeparator()
-    .addItem('⚡ Setup Auto-Refresh', 'setupAutoRefresh')
+    .addItem('🔄 Refresh Errors', 'refreshErrors')
     .addToUi();
 }
 
-function refreshAllCIO() {
+function refreshAllSheets() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheets = ss.getSheets();
+  var total = 0;
+
+  for (var s = 0; s < sheets.length; s++) {
+    var sheet = sheets[s];
+    var lastRow = sheet.getLastRow();
+    if (lastRow === 0) continue;
+    var cells = _findCIOCells(sheet, 1, lastRow, 1, sheet.getLastColumn());
+    if (cells.length > 0) {
+      _refreshCells(sheet, cells);
+      total += cells.length;
+    }
+  }
+
+  SpreadsheetApp.getUi().alert(total > 0
+    ? '✅ Refreshed ' + total + ' cells across ' + sheets.length + ' sheets!'
+    : 'No CION/CIOC formulas found.');
+}
+
+function refreshRange() {
+  var ui = SpreadsheetApp.getUi();
+  var resp = ui.prompt('Refresh Range',
+    'Enter range:\n  5:10 — rows 5-10\n  A:C — columns A-C\n  A1:G25 — specific range',
+    ui.ButtonSet.OK_CANCEL);
+  if (resp.getSelectedButton() !== ui.Button.OK) return;
+
+  var parsed = _parseRangeInput(resp.getResponseText());
+  if (!parsed) {
+    ui.alert('❌ Invalid format.\n\nExamples:\n  5:10 — rows\n  A:C — columns\n  A1:G25 — range');
+    return;
+  }
+
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  var cells = _findCIOCells(sheet, 1, sheet.getLastRow());
+  var lastRow = sheet.getLastRow();
+  var lastCol = sheet.getLastColumn();
+  if (lastRow === 0 || lastCol === 0) { ui.alert('Sheet is empty.'); return; }
+
+  var fromRow, toRow, fromCol, toCol;
+  if (parsed.type === 'rows') {
+    fromRow = parsed.fromRow;
+    toRow   = Math.min(parsed.toRow, lastRow);
+    fromCol = 1;
+    toCol   = lastCol;
+  } else if (parsed.type === 'cols') {
+    fromRow = 1;
+    toRow   = lastRow;
+    fromCol = parsed.fromCol;
+    toCol   = Math.min(parsed.toCol, lastCol);
+  } else {
+    fromRow = parsed.fromRow;
+    toRow   = Math.min(parsed.toRow, lastRow);
+    fromCol = parsed.fromCol;
+    toCol   = Math.min(parsed.toCol, lastCol);
+  }
+
+  var cells = _findCIOCells(sheet, fromRow, toRow, fromCol, toCol);
+  if (cells.length === 0) {
+    ui.alert('No CION/CIOC formulas found in the specified range.');
+    return;
+  }
+
+  _refreshCells(sheet, cells);
+  ui.alert('✅ Refreshed ' + cells.length + ' cells!');
+}
+
+function refreshActiveSheet() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var lastRow = sheet.getLastRow();
+  if (lastRow === 0) { SpreadsheetApp.getUi().alert('Sheet is empty.'); return; }
+
+  var cells = _findCIOCells(sheet, 1, lastRow, 1, sheet.getLastColumn());
 
   if (cells.length === 0) {
-    SpreadsheetApp.getUi().alert('No CION/CIOC formulas found.');
+    SpreadsheetApp.getUi().alert('No CION/CIOC formulas found on this sheet.');
     return;
   }
 
@@ -26,56 +97,10 @@ function refreshAllCIO() {
   SpreadsheetApp.getUi().alert('✅ Refreshed ' + cells.length + ' cells!');
 }
 
-function refreshRangeCIO() {
-  var ui = SpreadsheetApp.getUi();
-
-  var resp = ui.prompt('Refresh Row Range', 'Enter range (e.g. 5-30):', ui.ButtonSet.OK_CANCEL);
-  if (resp.getSelectedButton() !== ui.Button.OK) return;
-
-  var parts = resp.getResponseText().split('-');
-  var fromRow = parseInt(parts[0], 10);
-  var toRow   = parseInt(parts[1], 10);
-
-  if (parts.length !== 2 || isNaN(fromRow) || isNaN(toRow) || fromRow < 1 || toRow < fromRow) {
-    ui.alert('❌ Invalid format. Use "from-to", e.g. 5-30');
-    return;
-  }
-
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  var cells = _findCIOCells(sheet, fromRow, toRow);
-
-  if (cells.length === 0) {
-    ui.alert('No CION/CIOC formulas found in rows ' + fromRow + '-' + toRow + '.');
-    return;
-  }
-
-  _refreshCells(sheet, cells);
-  ui.alert('✅ Refreshed ' + cells.length + ' cells (rows ' + fromRow + '-' + toRow + ')!');
-}
-
-// ── Auto-refresh: retries LOADING cells every minute ────────
-function setupAutoRefresh() {
-  var triggers = ScriptApp.getProjectTriggers();
-  for (var i = 0; i < triggers.length; i++) {
-    if (triggers[i].getHandlerFunction() === '_autoRetryLoading') {
-      SpreadsheetApp.getUi().alert('Auto-refresh already active.');
-      return;
-    }
-  }
-  ScriptApp.newTrigger('_autoRetryLoading')
-    .timeBased()
-    .everyMinutes(1)
-    .create();
-  SpreadsheetApp.getUi().alert('✅ Auto-refresh enabled! LOADING cells will retry automatically every minute.');
-}
-
-function _autoRetryLoading() {
-  var cache = CacheService.getScriptCache();
-  if (cache.get('has_loading') !== '1') return;
-  cache.remove('has_loading');
-
+function refreshErrors() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheets = ss.getSheets();
+  var total = 0;
 
   for (var s = 0; s < sheets.length; s++) {
     var sheet = sheets[s];
@@ -89,10 +114,13 @@ function _autoRetryLoading() {
 
     for (var r = 0; r < data.length; r++) {
       for (var c = 0; c < data[r].length; c++) {
+        if (!formulas[r][c]) continue;
         var val = data[r][c];
-        var isRetry = typeof val === 'string' && (val.indexOf('LOADING') === 0 || val === 'ERR_RETRY');
-        var isError = (val === '#ERROR!' || (typeof val === 'string' && val.indexOf('Внутренняя') !== -1));
-        if ((isRetry || isError) && formulas[r][c]) {
+        var isRetry = typeof val === 'string' &&
+          (val.indexOf('LOADING') === 0 || val === 'ERR_RETRY' || val.indexOf('ERR ') === 0);
+        var isError = (val === '#ERROR!' ||
+          (typeof val === 'string' && val.indexOf('Внутренняя') !== -1));
+        if (isRetry || isError) {
           cellsToRetry.push({ row: r + 1, col: c + 1, formula: formulas[r][c] });
         }
       }
@@ -100,15 +128,72 @@ function _autoRetryLoading() {
 
     if (cellsToRetry.length > 0) {
       _refreshCells(sheet, cellsToRetry);
+      total += cellsToRetry.length;
     }
   }
+
+  SpreadsheetApp.getUi().alert(total > 0
+    ? '✅ Refreshed ' + total + ' error cells!'
+    : '✅ No errors found — all data is clean!');
 }
 
-function _findCIOCells(sheet, fromRow, toRow) {
-  var lastCol = sheet.getLastColumn();
-  if (lastCol === 0) return [];
+// ── Range input parser ──────────────────────────────────────
+function _parseRangeInput(input) {
+  input = input.trim();
+  var parts = input.split(':');
+  if (parts.length !== 2) return null;
+
+  var a = parts[0].trim();
+  var b = parts[1].trim();
+  if (!a || !b) return null;
+
+  // 5:10 — row range
+  if (/^\d+$/.test(a) && /^\d+$/.test(b)) {
+    var fromRow = parseInt(a, 10);
+    var toRow   = parseInt(b, 10);
+    if (fromRow < 1 || toRow < fromRow) return null;
+    return { type: 'rows', fromRow: fromRow, toRow: toRow };
+  }
+
+  // A:C — column range
+  if (/^[A-Za-z]+$/.test(a) && /^[A-Za-z]+$/.test(b)) {
+    var fromCol = _colToNum(a);
+    var toCol   = _colToNum(b);
+    if (fromCol < 1 || toCol < fromCol) return null;
+    return { type: 'cols', fromCol: fromCol, toCol: toCol };
+  }
+
+  // A1:G25 — cell range
+  var matchA = a.match(/^([A-Za-z]+)(\d+)$/);
+  var matchB = b.match(/^([A-Za-z]+)(\d+)$/);
+  if (matchA && matchB) {
+    var r1 = parseInt(matchA[2], 10);
+    var c1 = _colToNum(matchA[1]);
+    var r2 = parseInt(matchB[2], 10);
+    var c2 = _colToNum(matchB[1]);
+    if (r1 < 1 || r2 < r1 || c1 < 1 || c2 < c1) return null;
+    return { type: 'range', fromRow: r1, toRow: r2, fromCol: c1, toCol: c2 };
+  }
+
+  return null;
+}
+
+function _colToNum(col) {
+  col = col.toUpperCase();
+  var num = 0;
+  for (var i = 0; i < col.length; i++) {
+    num = num * 26 + (col.charCodeAt(i) - 64);
+  }
+  return num;
+}
+
+// ── Cell finder & refresher ─────────────────────────────────
+function _findCIOCells(sheet, fromRow, toRow, fromCol, toCol) {
   var numRows = toRow - fromRow + 1;
-  var range = sheet.getRange(fromRow, 1, numRows, lastCol);
+  var numCols = toCol - fromCol + 1;
+  if (numRows <= 0 || numCols <= 0) return [];
+
+  var range = sheet.getRange(fromRow, fromCol, numRows, numCols);
   var formulas = range.getFormulas();
   var cells = [];
 
@@ -117,7 +202,7 @@ function _findCIOCells(sheet, fromRow, toRow) {
       var upper = formulas[r][c].toUpperCase();
       if (upper.indexOf('CION(') !== -1 || upper.indexOf('CIOC(') !== -1 ||
           upper.indexOf('CIONF(') !== -1 || upper.indexOf('CIOCF(') !== -1) {
-        cells.push({ row: fromRow + r, col: c + 1, formula: formulas[r][c] });
+        cells.push({ row: fromRow + r, col: fromCol + c, formula: formulas[r][c] });
       }
     }
   }
@@ -125,6 +210,7 @@ function _findCIOCells(sheet, fromRow, toRow) {
 }
 
 function _refreshCells(sheet, cells) {
+  CacheService.getScriptCache().put('allow_fetch', '1', 300);
   for (var i = 0; i < cells.length; i++) {
     sheet.getRange(cells[i].row, cells[i].col).clearContent();
   }
@@ -132,6 +218,22 @@ function _refreshCells(sheet, cells) {
   for (var i = 0; i < cells.length; i++) {
     sheet.getRange(cells[i].row, cells[i].col).setFormula(cells[i].formula);
   }
+}
+
+// ── Persistent result cache (PropertiesService) ────────────
+function _getCachedResult(key) {
+  if (CacheService.getScriptCache().get('allow_fetch') === '1') return null;
+  var raw = PropertiesService.getScriptProperties().getProperty(key);
+  if (raw === null) return null;
+  if (raw === '') return '';
+  var num = Number(raw);
+  return (!isNaN(num) && String(num) === raw) ? num : raw;
+}
+
+function _setCachedResult(key, value) {
+  var s = String(value);
+  if (s === 'ERR_RETRY' || s.indexOf('LOADING') === 0 || s.indexOf('ERR ') === 0) return;
+  try { PropertiesService.getScriptProperties().setProperty(key, s); } catch(e) {}
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -147,9 +249,14 @@ function _refreshCells(sheet, cells) {
  */
 function CION(id, metric) {
   try {
-    return _cioFetch(id, metric, 'newsletters');
+    if (!id || !metric) return '';
+    var key = 'r_n_' + id + '_' + String(metric).toLowerCase().trim();
+    var cached = _getCachedResult(key);
+    if (cached !== null) return cached;
+    var result = _cioFetch(id, metric, 'newsletters');
+    _setCachedResult(key, result);
+    return result;
   } catch(e) {
-    CacheService.getScriptCache().put('has_loading', '1', 300);
     return 'ERR_RETRY';
   }
 }
@@ -167,9 +274,14 @@ function CION(id, metric) {
  */
 function CIOC(id, metric) {
   try {
-    return _cioFetch(id, metric, 'campaigns');
+    if (!id || !metric) return '';
+    var key = 'r_c_' + id + '_' + String(metric).toLowerCase().trim();
+    var cached = _getCachedResult(key);
+    if (cached !== null) return cached;
+    var result = _cioFetch(id, metric, 'campaigns');
+    _setCachedResult(key, result);
+    return result;
   } catch(e) {
-    CacheService.getScriptCache().put('has_loading', '1', 300);
     return 'ERR_RETRY';
   }
 }
@@ -263,9 +375,14 @@ function _fetchMetricsRaw(id, type) {
  */
 function CIONF(id, metric, segmentId) {
   try {
-    return _cioFiltered(id, metric, segmentId, 'newsletter_id');
+    if (!id || !metric || !segmentId) return '';
+    var key = 'r_nf_' + id + '_' + String(metric).toLowerCase().trim() + '_' + segmentId;
+    var cached = _getCachedResult(key);
+    if (cached !== null) return cached;
+    var result = _cioFiltered(id, metric, segmentId, 'newsletter_id');
+    _setCachedResult(key, result);
+    return result;
   } catch(e) {
-    CacheService.getScriptCache().put('has_loading', '1', 300);
     return 'ERR_RETRY';
   }
 }
@@ -284,9 +401,14 @@ function CIONF(id, metric, segmentId) {
  */
 function CIOCF(id, metric, segmentId) {
   try {
-    return _cioFiltered(id, metric, segmentId, 'campaign_id');
+    if (!id || !metric || !segmentId) return '';
+    var key = 'r_cf_' + id + '_' + String(metric).toLowerCase().trim() + '_' + segmentId;
+    var cached = _getCachedResult(key);
+    if (cached !== null) return cached;
+    var result = _cioFiltered(id, metric, segmentId, 'campaign_id');
+    _setCachedResult(key, result);
+    return result;
   } catch(e) {
-    CacheService.getScriptCache().put('has_loading', '1', 300);
     return 'ERR_RETRY';
   }
 }
@@ -338,7 +460,6 @@ function _getMessageRecipients(id, metric, filterParam) {
     if (new Date().getTime() - startTime > 27000) {
       _chunkCachePut(cache, cacheKey + '_p', ids, 600);
       cache.put(cacheKey + '_cur', cursor, 600);
-      cache.put('has_loading', '1', 300);
       return 'LOADING (' + ids.length + '…)';
     }
 
