@@ -1,3 +1,4 @@
+DEP Retention hu
 CASINO EMAILS🎰 
 E-mail C1.1
 Subject: 💥 170% bónusz: Fokozza játékát még ma
@@ -227,4 +228,238 @@ Ahhoz, hogy biztosítsd magadnak, írd be az ONLYSAFE30 promóciós kódot a bef
 
 Látogasson el a Celsius Sport oldalára, nézze át a legfontosabb mérkőzéseket, válassza ki a győzteseket, és játsszon védett téttel. Gyors, egyszerű és készen áll, amikor Ön is.
 CTA: AKTIVÁLJA ÉS JÁTSZON MOST
+
+
+
+
+DEP Retention pl
+CASINO EMAILS🎰 
+E-mail C1.1
+Subject: 💥 Bonus 170%: Zwiększ swoje szanse na wygraną już dziś
+Preheader: Zobacz, co znajdziesz w środku, co pomoże Ci wygrać przy stołach
+Greeting: {{ customer.first_name | default:"Gracz" | capitalize }}, parkiet należy do Ciebie!
+Body:
+Po co grać tylko za swoje środki, skoro możesz grać z 170% więcej? Podkręcamy Twoje następne doładowanie, abyś mógł grać dłużej i dążyć do większych wygranych.
+
+Wpisz kod SURGE170 przed dokonaniem kolejnej wpłaty, aby odblokować bonus 170% i zamienić swoje saldo w prawdziwą przewagę.
+
+Akcja trwa w Celsius Casino — odbierz swój bonus 170%, wybierz swój ulubiony stół i graj z pewnością siebie.
+CTA: ZWIĘKSZ SWOJE SALDO TERAZ
+E-mail C2.1
+Subject: 🕶️ 150% bonusu + 70 darmowych spinów w Chaos Crew II — nie przegap tej okazji
+Preheader: Neon, hałas i dodatkowa siła ognia na Twój następny obrót.
+Greeting: {{ customer.first_name | default:"Player" | capitalize }}, gry czekają!
+Body:
+Po co siedzieć z boku, skoro możesz dołączyć do ekipy? Wpłać teraz i rozkręć chaos dzięki bonusowi 150% + 70 darmowych spinów w Chaos Crew II od Hacksaw Gaming.
+
+Aby to odblokować, wpisz najpierw kod promocyjny CREWBOOST150, a następnie dokonaj wpłaty — Twój bonus 150% i 70 darmowych spinów pojawią się natychmiast, gotowe od pierwszego obrotu.
+
+W Celsius Casino tempo pozostaje głośne i szybkie. Wskocz do Chaos Crew II od Hacksaw Gaming, ścigaj kolejną wybuchową wygraną i pozwól, by chaos zadziałał na Twoją korzyść.
+CTA: ODBIERZ PODWÓJNĄ NAGRODĘ
+E-mail C3.1
+Subject: 🎡 Ucieczka do wygranych: największe hity zeszłego tygodnia
+Preheader: Zostaw świat za sobą i wkrocz do grona zwycięzców
+Greeting: {{ customer.first_name | default:"Player" | capitalize }}, gotowy na zmianę klimatu?
+Body:
+Czasami nie potrzebujesz więcej hałasu — potrzebujesz lepszego dreszczyku emocji. W Celsius Casino najlepsi gracze zgarnęli w zeszłym tygodniu ogromne wygrane:
+
+🏆 Lu••••7 – 52 300 €
+🏆 S•••••n – 35 900 €
+🏆 Bi•••••t – 19 400 €
+
+Stoły czekają, a automaty są gotowe.
+Odłóż na bok stres i poczuj dreszczyk emocji w Celsius Casino — Twoje miejsce już czeka.
+CTA: ROZPOCZNIJ SWOJĄ UCIECZKĘ JUŻ DZIŚ
+E-mail C4.1
+Subject: 🤠 160% + 80 obrotów: skorzystaj z okazji i poczuj dreszczyk emocji
+Preheader: Wykorzystaj idealny moment na swoją kolejną wielką wygraną już dziś
+Greeting: {{ customer.first_name | default:"Gracz" | capitalize }}, podkręćmy temperaturę!
+Body:
+Masz instynkt — teraz wkrocz do akcji, póki miasto jest rozgrzane. Odbierz bonus 160% + 80 darmowych spinów w grze Wild West Gold od Pragmatic Play, aby zasilić swój bankroll i zacząć strzelać już od pierwszego spinu.
+
+Wpisz kod promocyjny GUNSLINGER160 przed dokonaniem wpłaty, aby odblokować bonus 160% i 80 darmowych spinów. Następnie wejdź do gry Wild West Gold od Pragmatic Play, trop te wygrane bandytów i ścigaj prawdziwą wypłatę na pustyni.
+
+Bębny w Celsius Casino są już przygotowane — gotowy na serię wygranych?
+CTA: ZWIĘKSZ TEMPO JUŻ TERAZ
+E-mail C5.1
+Subject: 🎰 Bonus 170%: Natychmiastowe zwiększenie aktywowane
+Preheader: Twoja droga do wielkiej wygranej właśnie stała się o wiele szybsza
+Greeting: {{ customer.first_name | default:"Player" | capitalize }}, przygotuj się na więcej!
+Body:
+Kiedy gra się rozkręca, liczy się szybkość. Natychmiast dodajemy 170% bonusu do Twojej następnej wpłaty — stworzony, by Twoja sesja trwała dłużej i przebiegała szybciej. Pamiętaj, aby przed dokonaniem wpłaty wpisać kod BOOSTER170, aby go odebrać.
+
+Zasil swoje konto i obserwuj, jak saldo w Celsius Casino rośnie. Dzięki dodatkowym 170% możesz grać dłużej, grać agresywniej i polować na duże mnożniki.
+CTA: ZACZNIJ WYGRYWAĆ TERAZ
+E-mail C6.1
+Subject: 🌟 Dołącz do elity: Galeria sław tego tygodnia
+Preheader: Zobacz, kto zdominował bębny i zajmij swoje miejsce na szczycie
+Greeting: {{ customer.first_name | default:"Player" | capitalize }}, nadszedł Twój czas, by zabłysnąć!
+Body:
+Tempo jest niesamowite — a największe wygrane mają miejsce właśnie teraz w Celsius Casino. Oto najnowsi zwycięzcy:
+
+🏆 Ja••••g – 61 200 €
+🏆 Sp••••r – 42 800 €
+🏆 Eli••••er – 24 100 €
+
+Automaty są rozgrzane, a karty rozdane — następny nagłówek może być o Tobie.
+Wejdź, poczuj dreszczyk emocji i zagraj w Celsius Casino.
+CTA: ROZPOCZNIJ SWOJĄ PRZYPOWIEŚĆ TERAZ
+E-mail C7.1
+Subject: 🐎 160% + 80 darmowych spinów: Aktywuj i kręć
+Preheader: Przejdź od razu do wygranej dzięki natychmiastowym nagrodom
+Greeting: {{ customer.first_name | default:"Gracz" | capitalize }}, po co czekać na zabawę?
+Body:
+Zrobiliśmy to błyskawicznie: aktywujesz, kręcisz, ścigasz nagrodę. Twoja następna wpłata w Celsius Casino odblokowuje bonus 160% + 80 darmowych spinów w grze Wild West Gold od Pragmatic Play.
+
+Wystarczy wpisać kod promocyjny GUNSLINGER160 przed doładowaniem konta — bez opóźnień, bez dodatkowych kroków. Następnie wskocz do gry Wild West Gold od Pragmatic Play i wykorzystaj 80 darmowych spinów, aby polować na wysokie wygrane i ścigać kolejny duży mnożnik jak prawdziwy rewolwerowiec.
+CTA: AKTYWUJ MÓJ BONUS
+E-mail C8.1
+Subject: ☠️ Bonus 180% + 80 darmowych spinów: Zwiększ swoje szanse
+Preheader: Zobacz, jak wzmocnić swoją następną wpłatę za pomocą zaledwie kilku kliknięć
+Greeting: {{ customer.first_name | default:"Friend" | capitalize }}, czas przejść na wyższy poziom!
+Body:
+Nie ograniczaj się do udziału w pościgu — odbierz nagrodę. Twój następny depozyt zostanie znacznie wzbogacony: 180% bonusu + 80 darmowych spinów w grze Wanted Dead or a Wild od Hacksaw Gaming — stworzonej z myślą o hitach na poziomie bandytów i szybkiej akcji.
+
+Zacznij od wpisania kodu promocyjnego OUTLAW180, a następnie dokonaj wpłaty i zagraj w grę Wanted Dead or a Wild od Hacksaw Gaming w Celsius Casino. Twój bonus 180% i 80 darmowych spinów są gotowe od pierwszego obrotu — teraz Twoja kolej, aby umieścić bębny na liście „poszukiwanych”.
+CTA: ZDOBĄDŹ MOJE WZMOCNIENIE TERAZ
+E-mail C9.1
+Subject: 🐼 140% bonusu + 100 darmowych spinów: po co czekać?
+Preheader: Wejdź do bambusowego gaju z dodatkowymi szansami na wielką wygraną
+Greeting: {{ customer.first_name | default:"Friend" | capitalize }}, spraw, by dzisiejszy dzień stał się legendarny.
+Body:
+„Idealny moment” nie przychodzi sam — to Ty go tworzysz. Już dziś zacznij grać na większą skalę od pierwszego obrotu dzięki bonusowi 140% + 100 darmowych spinów w grze Big Bamboo od Push Gaming. Wystarczy najpierw dodać kod GIANTPANDA100, a następnie dokonać wpłaty, aby go odblokować.
+
+Wejdź do Celsius Casino z podwyższonym saldem i 100 darmowymi spinami gotowymi do użycia. Utrzymaj tempo, pozostań w strefie i pozwól Big Bamboo od Push Gaming zamienić spokojne spiny w poważne polowanie na wygrane.
+CTA: SKORZYSTAJ Z MOJEGO BONUSU
+E-mail C10.1
+Subject: 💎 200 darmowych spinów: Gotowy do gry?
+Preheader: Uzyskaj natychmiastowy dostęp do swojej nagrody w postaci premium slotów już dziś
+Greeting: {{ customer.first_name | default:"Przyjaciel" | capitalize }}, Twoja nagroda już czeka.
+Body:
+Jesteś tu dla emocji — więc zadbaliśmy o szybkość. Twoje 200 darmowych spinów w grze Gems Bonanza od Pragmatic Play czeka na Ciebie przy następnej wpłacie. Wystarczy, że przed wpłatą wpisz kod promocyjny GEMHUNT200, aby je odblokować i od razu zacząć grać.
+
+Bez szukania, bez kłopotów — po prostu akcja w Celsius Casino. Doładuj konto, niech spadają klejnoty i wykorzystaj swoje 200 darmowych spinów, aby ścigać te kaskadowe trafienia i chwile pełne klejnotów, które błyskawicznie zmienią stan Twojego konta.
+CTA: ZACZNIJ GRAĆ TERAZ
+
+
+
+SPORTS EMAILS⚽
+E-mail S1.1
+Subject: 🥊 20% bezryzykowny darmowy zakład: Uderz mocno
+Preheader: Linia jest otwarta — Twoja przewaga bez ryzyka czeka
+Greeting: {{ customer.first_name | default:"Champ" | capitalize }}, zwycięstwo jest na wyciągnięcie ręki!
+Body:
+Nic nie przebije emocji związanych z wygraną — dlatego wspieramy Twój następny ruch 20% darmowym zakładem bez ryzyka, stworzonym, by pomóc Ci grać z pewnością siebie.
+
+Aby aktywować ofertę, wprowadź kod promocyjny WINSAFE20 przed dokonaniem kolejnej wpłaty. Twój 20% bezryzykowny darmowy zakład będzie gotowy do użycia od razu.
+
+Sprawdź najgorętsze pojedynki w Celsius Sport, wybierz swój ulubiony rynek i wykorzystaj okazję, póki kursy są aktualne.
+CTA: ZABEZPIECZ MOJE WZMOCNIENIE
+E-mail S2.1
+Subject: ⚽ 20% darmowy zakład bez ryzyka: Czas na wielką rozgrywkę
+Preheader: Mecz dnia czeka — dołącz z ochroną
+Greeting: {{ customer.first_name | default:"Fan" | capitalize }}, światła są włączone!
+Body:
+Najważniejszy moment zbliża się wielkimi krokami — największy mecz dnia, wysokie napięcie i jedna chwila, która może zmienić wszystko. Dołącz przed rozpoczęciem meczu.
+
+Aby podkręcić dzisiejszą akcję, odbierz swój 20% darmowy zakład bez ryzyka: najpierw dodaj kod promocyjny WINSAFE20, a następnie dokonaj wpłaty, aby aktywować ochronę w postaci 20% darmowego zakładu bez ryzyka.
+
+Zasil swoje konto, sprawdź składy i obstawiaj na Celsius Sport, mając za sobą zabezpieczenie.
+CTA: ZDOBĄDŹ MÓJ ZAKŁAD BEZ RYZYKA
+E-mail S3.1
+Subject: 🏆 Tygodniowi zwycięzcy: Podjęli właściwą decyzję
+Preheader: Zobacz, kto zdominował linie w tym tygodniu w Celsius Sport
+Greeting: {{ customer.first_name | default:"Mistrzu" | capitalize }}, czy następnym będziesz Ty?
+Body:
+Ostatnie 7 dni w Celsius Sport było niesamowite. Nasi najbystrzejsi gracze trafili w dziesiątkę i zgarnęli ogromne wygrane:
+
+💰 Str•••••X – 42 810 €
+💰 Go•••••er – 31 200 €
+💰 Pa•••••ng – 19 450 €
+
+Nie tylko obserwowali — oni sami weszli do gry.
+Kursy na kolejne mecze są już dostępne, więc wybierz swój typ i postaw zakład.
+Twoje imię może być następne na tej liście.
+CTA: ZOBACZ DZISIEJSZE KURSY
+E-mail S4.1
+Subject: ⚽ 170% premii: Twoja gra, Twój scenariusz
+Preheader: Przejmij kontrolę nad grą i napisz własną historię
+Greeting: {{ customer.first_name | default:"Trener" | capitalize }}, to Ty decydujesz!
+Body:
+Każdy mecz ma swoją fabułę — a dzisiaj to Ty ją piszesz. Aby wesprzeć Twoje przewidywania od pierwszego gwizdka do ostatniej akcji, dodajemy do Twojej następnej sesji 170% bonusu od depozytu.
+
+Wprowadź kod promocyjny SURGE170 przed dokonaniem wpłaty, aby odblokować 170% bonus od depozytu. Następnie przejdź do Celsius Sport, przejrzyj rynki i stwórz swój kupon zgodnie z własnymi preferencjami.
+
+Tabela jest na żywo — a Twoja przewaga jest gotowa. Teraz napisz scenariusz wyniku.
+CTA: ODBIERZ MÓJ BONUS
+E-mail S5.1
+Subject: 🚀 Zakład bez ryzyka 20%: Otwórz, aktywuj, wygraj
+Preheader: Przejdź od razu do sedna akcji bez opóźnień
+Greeting: {{ customer.first_name | default:"Gracz" | capitalize }}, nie ma czasu do stracenia!
+Body:
+Najważniejsze momenty są na żywo — a w Celsius Sport istnieje szybszy sposób, aby dołączyć do akcji z przewagą. Bez opóźnień, tylko akcja z ochroną Twojej gry.
+
+Szybka ścieżka: sprawdź kursy, zastosuj kod promocyjny WINSAFE20 przed dokonaniem wpłaty, a następnie aktywuj swój 20% zakład bez ryzyka. To 20% zabezpieczenie Twojej stawki — stworzone, abyś czuł się pewnie od pierwszego wyboru do ostatniego gwizdka.
+
+Trzy kroki. Jedna korzyść. Zacznij swoją passę.
+CTA: AKTYWUJ MÓJ ZAKŁAD BEZ RYZYKA
+E-mail S6.1
+Subject: ⚡ 170% wzmocnienie: Uwolnij moc
+Preheader: Podsycaj swoją passę dodatkową siłą rażenia
+Greeting: {{ customer.first_name | default:"Mistrzu" | capitalize }}, wkrocz w światło reflektorów!
+Body:
+Gotowy na jeszcze większe emocje? Najważniejsze mecze tego tygodnia to okazja do skorzystania z 170% bonusu od depozytu, który wzmocni każdy Twój typ.
+
+Aby aktywować bonus od depozytu w wysokości 170%, wprowadź kod promocyjny BOOSTER170 przed doładowaniem konta — Twoje wzmocnienie zostanie natychmiast dodane.
+
+Niezależnie od tego, czy tworzysz zakłady akumulowane, czy obstawiasz pojedyncze typy, dodatkowa moc daje Ci więcej swobody w realizacji Twojej strategii w Celsius Sport. Przejmij kontrolę i zwiększ swoją przewagę o 170%.
+CTA: ODBIERZ MÓJ BONUS
+E-mail S7.1
+Subject: ⚡ 20% darmowy zakład bez ryzyka: Twoja przewaga
+Preheader: Postępuj zgodnie z formułą zwycięstwa od promocji do meczu
+Greeting: {{ customer.first_name | default:"Gracz" | capitalize }}, zdobądź przewagę, której potrzebujesz!
+Body:
+Po co polegać na szczęściu, skoro możesz grać z przewagą? Aktywuj promocję, postaw zakład i ciesz się meczem, mając zabezpieczenie za sobą.
+
+Zacznij od wpisania kodu promocyjnego WINSAFE20, a następnie dokonaj wpłaty i odblokuj swój 20% bezryzykowny darmowy zakład. Następnie przejdź do Celsius Sport i wybierz swoje wydarzenie — derby, starcie taktyczne lub mecz, którego nie można przegapić.
+
+Dzięki ochronie w postaci 20% bezryzykownych darmowych zakładów możesz zaufać swoim instynktom i zachować kontrolę od pierwszego gwizdka do ostatniego.
+CTA: SKORZYSTAJ Z MOJEJ PRZEWAGI
+E-mail S8.1
+Subject: 🏆 Oni wygrali duże pieniądze na zakładach sportowych — teraz Twoja kolej
+Preheader: Zobacz najwyższe wygrane tygodnia i wybierz swój zwycięski mecz
+Greeting: {{ customer.first_name | default:"Champ" | capitalize }}, tabela wyników czeka!
+Body:
+W zeszłym tygodniu ci gracze zaufali liczbom, trafili w odpowiedni moment i zgarnęli ogromne wygrane:
+
+💰 G••••er88 – 45 600 €
+💰 O•••••ero – 32 150 €
+💰 Be••••rd – 18 700 €
+
+Teraz tabela została odświeżona, a kolejne mecze są transmitowane na żywo w serwisie Celsius Sport. Kursy są wysokie, rynki się zmieniają, a to Twoja szansa.
+
+Wybierz mecz, zaufaj swojej intuicji i zrób swój ruch — Twoje imię powinno znaleźć się jako następne na liście zwycięzców.
+CTA: WYBIERZ MECZ I OBSTAW
+E-mail S9.1
+Subject: 🎾 Zakład bez ryzyka 30%: Smart Viewing
+Preheader: Połącz swoją pasję sportową z przewagą bez ryzyka
+Greeting: {{ customer.first_name | default:"Gracz" | capitalize }}, czas na grę.
+Body:
+Najlepszy sposób na oglądanie ulubionego sportu? Stawka w grze — i ochrona Twojej stawki. Dzisiaj otrzymujesz 30% bezryzykowny darmowy zakład z kodem ONLYSAFE30.
+
+Aktywuj promocję, wybierz rynek i graj bez obaw: najpierw dodaj kod ONLYSAFE30, a następnie dokonaj wpłaty i odblokuj 30% ochronę bez ryzyka na dzisiejsze wydarzenia.
+
+W Celsius Sport my zapewniamy kursy — Ty wnosisz strategię. Postaw zakład i spraw, by ten mecz był wyjątkowy.
+CTA: SKORZYSTAJ Z MOJEGO ZAKŁADU BEZ RYZYKA
+E-mail S10.1
+Subject: 💥 30% darmowy zakład bez ryzyka: skorzystaj z okazji i przejmij kontrolę nad kursami
+Preheader: Mądrzejszy sposób na obstawianie ulubionych dyscyplin sportowych jest właśnie tutaj
+Greeting: {{ customer.first_name | default:"Champ" | capitalize }}, gotowy na rozpoczęcie meczu?
+Body:
+Postaw mądrze – z wbudowaną ochroną. Twój 30% bezryzykowny darmowy zakład jest już dostępny, dając Ci więcej swobody w podążaniu za własną intuicją.
+
+Aby z niego skorzystać, wprowadź kod promocyjny ONLYSAFE30 przed dokonaniem wpłaty, aby aktywować swój 30% bezryzykowny darmowy zakład.
+
+Wejdź na stronę Celsius Sport, przejrzyj najważniejsze mecze, wybierz zwycięzców i graj z zabezpieczoną stawką. Szybko, prosto i gotowe, kiedy tylko zechcesz.
+CTA: AKTYWUJ I GRAJ TERAZ
 
