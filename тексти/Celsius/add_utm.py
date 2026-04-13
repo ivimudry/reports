@@ -116,16 +116,18 @@ for fn, campaign in sorted(CAMPAIGN_MAP.items()):
         language = LANG_MAP.get(current_locale, 'en')
         utm_string = build_utm(campaign, email_num, language, bonus_type, bonus_subtype)
         
-        # Find all https:// URLs in this line and add UTM
-        def replace_url(match):
-            nonlocal file_urls
-            url = match.group(0)
-            file_urls += 1
-            return add_utm_to_url(url, utm_string)
+        # Find all https:// URLs and add UTM
+        def make_replacer(utm_str):
+            count = [0]
+            def replace_url(match):
+                url = match.group(0)
+                count[0] += 1
+                return add_utm_to_url(url, utm_str)
+            return replace_url, count
         
-        # Match https:// URLs but NOT inside mailto: context
-        # The URLs end at " or < or whitespace
-        lines[i] = re.sub(r'https://[^\s"<>]+', replace_url, lines[i])
+        replacer, count_ref = make_replacer(utm_string)
+        lines[i] = re.sub(r'https://[^\s"<>]+', replacer, lines[i])
+        file_urls += count_ref[0]
     
     with open(path, 'w', encoding='utf-8') as f:
         f.writelines(lines)
