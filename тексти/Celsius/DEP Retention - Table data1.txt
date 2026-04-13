@@ -52,11 +52,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: START YOUR ESCAPE TODAY
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+button_href_1: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+logo_href: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655314004_Email%20C3.1_01KH1MFX1ZGK92PAB8FPHXAM7Y.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+banner_href: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -86,11 +86,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: START YOUR ESCAPE TODAY
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+button_href_1: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+logo_href: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655314004_Email%20C3.1_01KH1MFX1ZGK92PAB8FPHXAM7Y.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+banner_href: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -120,11 +120,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: START YOUR ESCAPE TODAY
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+button_href_1: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+logo_href: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655314004_Email%20C3.1_01KH1MFX1ZGK92PAB8FPHXAM7Y.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
+banner_href: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=3&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -188,11 +188,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: SEE TODAY'S ODDS
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+button_href_1: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+logo_href: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655324189_Email%20S3.1_01KH1MG6ZT78EECP70SDDC7HKY.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+banner_href: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -222,11 +222,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: SEE TODAY'S ODDS
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+button_href_1: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+logo_href: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655324189_Email%20S3.1_01KH1MG6ZT78EECP70SDDC7HKY.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+banner_href: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -256,11 +256,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: SEE TODAY'S ODDS
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+button_href_1: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+logo_href: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655324189_Email%20S3.1_01KH1MG6ZT78EECP70SDDC7HKY.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
+banner_href: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=3&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -324,11 +324,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0"><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px"><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: START YOUR JOURNEY NOW
-button_href_1: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+button_href_1: https://celsiuscasino.com/fr/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+logo_href: https://celsiuscasino.com/fr/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655316783_Email%20C6.1_01KH1MFZRKQW4GYK9P87F8RWDC.png
-banner_href: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+banner_href: https://celsiuscasino.com/fr/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -358,11 +358,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0"><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px"><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: START YOUR JOURNEY NOW
-button_href_1: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+button_href_1: https://celsiuscasino.com/hu/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+logo_href: https://celsiuscasino.com/hu/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655316783_Email%20C6.1_01KH1MFZRKQW4GYK9P87F8RWDC.png
-banner_href: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+banner_href: https://celsiuscasino.com/hu/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -392,11 +392,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0"><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px"><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: START YOUR JOURNEY NOW
-button_href_1: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+button_href_1: https://celsiuscasino.com/pl/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+logo_href: https://celsiuscasino.com/pl/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655316783_Email%20C6.1_01KH1MFZRKQW4GYK9P87F8RWDC.png
-banner_href: https://celsiuscasino.com/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
+banner_href: https://celsiuscasino.com/pl/?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=casino&utm_email=6&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -460,11 +460,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: PICK A MATCH AND BET
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+button_href_1: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+logo_href: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655329695_Email%20S8.1_01KH1MGCC7CC2612A7D6G92H2S.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+banner_href: https://celsiuscasino.com/fr/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -494,11 +494,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: PICK A MATCH AND BET
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+button_href_1: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+logo_href: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655329695_Email%20S8.1_01KH1MGCC7CC2612A7D6G92H2S.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+banner_href: https://celsiuscasino.com/hu/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
@@ -528,11 +528,11 @@ text_12: <td align="center" style="padding:0;Margin:0;padding-right:20px;padding
 text_13: <td align="center" class="es-m-p10r es-m-p10l es-text-6065" style="padding:0;Margin:0" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px"><a target="_blank" href="mailto:support@celsiuscasino.com" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">support@celsiuscasino.com</a> &nbsp; | &nbsp; <a href="{% unsubscribe_url %}" target="_blank" style="mso-line-height-rule:exactly;text-decoration:underline;color:#819cdb;font-size:12px">Unsubscribe</a></p></td>
 text_14: <td align="center" class="es-m-p10r es-m-p10l es-text-8368" style="Margin:0;padding-right:20px;padding-left:20px;padding-top:16px;padding-bottom:20px" bgcolor=""><p class="es-m-txt-c es-text-mobile-size-12" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:18px;letter-spacing:0;color:#819cdb;font-size:12px">All Rights Reserved © {{ "now" | date: "%Y" }} Celsius Casino</p></td>
 button_text_1: PICK A MATCH AND BET
-button_href_1: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+button_href_1: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 logo_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/celsiuslogo_NWo.png
-logo_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+logo_href: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/1770655329695_Email%20S8.1_01KH1MGCC7CC2612A7D6G92H2S.png
-banner_href: https://celsiuscasino.com/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
+banner_href: https://celsiuscasino.com/pl/bonuses-hub?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 x_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/avavava_Efk.png
 x_icon_href: https://x.com/celsiuscasino?utm_campaign=dep&utm_source=email&utm_bonus_type=sports&utm_email=8&utm_language=en
 telegram_icon_src: https://ebhum.stripocdn.email/content/guids/CABINET_51476d473eec86a2a78ab4ba2c54c3eba0c382a0038209c666a89ce88e0203c1/images/iivfviif_jAg.png
