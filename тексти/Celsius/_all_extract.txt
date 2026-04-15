@@ -1,0 +1,1245 @@
+================================================================================
+FILE: Failed Deposit Flow - Table data.txt
+Total blocks: 20
+Unique emails: 5
+Email names: ['Email 1', 'Email 2', 'Email 3', 'Email 4', 'Email 5']
+
+
+--- Email 1 ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'rich_text']
+  subject: 😟 Looks like something bad happened
+  preheader: We’re here to help
+  button_text_1: N/A
+  rich_text (plain): Hi {first_name}, Your recent deposit attempt didn’t complete due to a payment issue. Here’s what we advice you: Try a different card or payment network Use your spouse’s card with their permission Deposit with cryptocurrency in the Cashier [ Complete deposit ] If you need help, just reply to this email - we’re here to assist right away. If you see a temporary hold on your bank side, it should auto-release per your bank’s policy. Thanks, Celsius Casino Support
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2 ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'rich_text']
+  subject: 🔴 Still seeing trouble with your deposit?
+  preheader: Need a hand? Your personal manager is on the way
+  button_text_1: N/A
+  rich_text (plain): Hi {first_name}, I can see your deposit still did not go through. Do you need help finishing it? Quick options: Try a different card or payment network Use your spouse’s card with their permission Deposit with cryptocurrency in the Cashier [ Complete deposit ] I’m assigning you a personal manager who will contact you shortly to help you complete the payment. If you need support right now, just reply to this email. If you see a temporary hold on your bank side, it should auto-release per your bank’s policy. Thanks, Celsius Casino Support
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3 ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'from_id', 'rich_text']
+  subject: RE: Unsuccessful deposit
+  preheader: N/A
+  button_text_1: N/A
+  rich_text (plain): Nice to meet you, {first_name}, I’m Alex, your personal manager at Celsius Casino Casino. Looks like you have a hard time making the deposit. Let me help you! Please answer this email and I’ll help you to sort things out. [ Complete deposit ] If you need help, just reply to this email - I’m here to assist you. Thanks, Alex from Celsius Casino
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4 ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'rich_text']
+  subject: 🤗 We love you!
+  preheader: Get 20 FS on your deposit!
+  button_text_1: N/A
+  rich_text (plain): Hi {first_name}, Looks like your deposit didn’t complete. Finish it now and we’ll add 20 Free Spins on Gates of Olympus as a thank you. Quick ways to complete: Try a different card or payment network Use your spouse’s card with their permission Deposit with cryptocurrency in the Cashier [ Complete deposit ] If you need help, just reply to this email - we’re here to assist right away. If you see a temporary hold on your bank side, it should auto-release per your bank’s policy. Thanks, Celsius Casino Support
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5 ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'rich_text']
+  subject: RE: Need help
+  preheader: How it’s going?
+  button_text_1: N/A
+  rich_text (plain): Hi {first_name}, Alex’s here! I just saw you still haven’t completed your deposit :( That’s sad! Just let me know how I can help you, I’m always here! Try again: [ Complete deposit ] If you need help, just reply to this email! Thanks, Alex from Celsius Casino
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+
+================================================================================
+FILE: Nutrition #2 - Table data.txt
+Total blocks: 96
+Unique emails: 24
+Email names: ['Email 1CL', 'Email 1CS', 'Email 1S', 'Email 2CL', 'Email 2CS', 'Email 2S', 'Email 3CL', 'Email 3CS', 'Email 3S', 'Email 4CL', 'Email 4CS', 'Email 4S', 'Email 5CL', 'Email 5CS', 'Email 5S', 'Email 6CL', 'Email 6CS', 'Email 6S', 'Email 7CL', 'Email 7CS', 'Email 7S', 'Email 8CL', 'Email 8CS', 'Email 8S']
+
+
+--- Email 1CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎰 100% Bonus + 50 Free Spins on Hand of Anubis
+  preheader: Your next deposit brings twice the action and 50 extra spins
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Player" | capitalize }}, the reels are calling! 
+  text_2 body: Top up for your Next deposit today with code <strong class="promocode">UNDERDOG50</strong> and enjoy a <strong>100% bonus plus 50 Free Spins</strong> on <strong>Hand of Anubis by Hacksaw Gaming</strong>.<br><br>Play your favorite slots, hit those wins, and make every spin matter. The clock’s ticking – let’s make this round unforgettable! 🐕<br><br>Claim your reload boost:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 1CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎰 100% Bonus + 50 Free Spins: Your Second Spin!
+  preheader: Double the thrill on your next deposit — claim your reward today
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Player" | capitalize }}, the reels are calling! 
+  text_2 body: Top up for your Next deposit today, enter code <strong class="promocode">UNDERDOG50</strong> and enjoy a <strong>100% bonus</strong> plus <strong>50 Free Spins on Hand of Anubis by Hacksaw Gaming</strong>.<br><br>Play your favorite slots, hit those wins, and make every spin matter. The clock’s ticking – let’s make this round unforgettable! 🐕<br><br>Claim your reload boost:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 1S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 20% NoRisk FreeBets up to €500 Waiting
+  preheader: Your winning moment is just one bet away — risk-free
+  button_text_1: BET NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, enjoy the thrill of the game without the worry. 
+  text_2 body: Get <strong>20% NoRisk FreeBets</strong> up to €500 and turn every prediction into a winning chance with code <strong class="promocode">CLEARSHOT20</strong>.<br><br>Place your bets and feel the rush! 🏟️<br><br>Make your prediction:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 €325,000 Won Last Week: See the Winners
+  preheader: See last week’s biggest wins — you could be next
+  button_text_1: SPIN & WIN
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, last week was a jackpot dream come true: 
+  text_2 body: <strong>🔥 Fi••••65y - €145,320</strong><br><strong>🔥 l<i>e••d4</i>• - €110,780</strong><br><strong>🔥 A••••in43 - €69,200</strong><br><br>Three players, three massive wins. Will you be next on the winners’ list?<br><br>Spin for your own big win:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 €325,000 Won Last Week: Are You Next?
+  preheader: See last week’s biggest slot wins and get inspired
+  button_text_1: SPIN & WIN
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, last week was a jackpot dream come true: 
+  text_2 body: <strong>🏆 Alex••••y - €145,320</strong><br><strong>🏆 l••677<i> - €110,780</i></strong><br><strong>🏆 i66••••7n - €69,200</strong><br><br>Three players, three massive wins — all from spinning their favorite slots. Will you be next on the winners’ list? 🌟<br><br>Spin for your own big win:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: ⚽ Secure Your Bet: 20% NoRisk FreeBets
+  preheader: Your safest bet starts today with up to €500 covered
+  button_text_1: BET NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, step onto the field with confidence. 
+  text_2 body: With <strong>20% NoRisk FreeBets</strong> up to €500, even a missed shot won’t stop your winning run. Code for you — <strong class="promocode">CLEARSHOT20</strong>.<br><br>The odds are calling — place your bet now! 🥅<br><br>Get your safety net:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🃏 100% Live Casino Bonus: Double Your Play
+  preheader: Your next deposit brings twice the excitement at the tables
+  button_text_1: JOIN THE TABLE
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, the cards are ready, the dealers are waiting. 
+  text_2 body: Deposit with code <strong class="promocode">MATCH100</strong> and get a <strong>100% bonus</strong> on your next top-up.<br>Step into the action and make every hand count! ♠️<br><br>Join the table:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🔮 200% Bonus + 50 Free Spins on Tome of Madness
+  preheader: Rich Wilde’s next adventure awaits you — triple your balance now
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, step into the world of Rich Wilde. 
+  text_2 body: Deposit with code <strong class="promocode">OCCULT200</strong> and get a <strong>200% bonus plus 50 Free Spins on Rich Wilde and the Tome of Madness</strong> by Play'n Go to uncover hidden treasures.<br><br>Are you ready to turn the pages of fortune? The book is open. 📖<br><br>Open the book of wins:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🥇 Bet up to €500 Risk-Free: 20% Bonus
+  preheader: Even the boldest bets are covered with our NoRisk offer
+  button_text_1: PLACE YOUR BET
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, bet big without the fear of losing. 
+  text_2 body: With <strong>20% NoRisk FreeBets</strong> up to €500, you’re always in the game.&nbsp;<br>Enter code <strong class="promocode">CLEARSHOT20</strong>.<br><br>Make your move — victory could be just one bet away! 🏆<br><br>Place your protected bet:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 Live Casino Winners: Big Payouts Last Week
+  preheader: See who walked away with huge wins from the tables
+  button_text_1: PLAY LIVE NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, the Live Casino tables were on fire last week: 
+  text_2 body: <strong>💎 Dt••••s<i> – </i>€49,800</strong><br><strong><i></i><i>💎 </i>e•••95<i> </i>– €33,420</strong><br><strong><i></i><i>💎 </i>••p•••sh•• – €21,760</strong><br><br>Your name could be next on the winners’ board.&nbsp;<br>Join the tables and make your move!<br><br>Play live now:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 100% Bonus + 50 FS on Hand of Anubis
+  preheader: Your next deposit gets you more fun and more chances to win
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, let’s make your next spin twice as exciting: 
+  text_2 body: Get a <strong>100% bonus plus 50 Free Spins on Hand of Anubis by Hacksaw Gaming</strong> with code <strong class="promocode">UNDERDOG50</strong> when you top up.<br><br>More balance, more spins, more chances to hit something big — are you in? 🐾<br><br>Double your balance now:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏅 20% NoRisk FreeBets: We Got Your Back
+  preheader: Take the shot with up to €500 coverage on your bet
+  button_text_1: START BETTING
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, step up to the action with zero pressure. 
+  text_2 body: Enjoy <strong>20% NoRisk FreeBets</strong> up to €500 and turn every wager into a winning chance with code <strong class="promocode">CLEARSHOT20</strong>.<br><br>No fear, just pure adrenaline. 🔥<br><br>Start betting risk-free:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💎 200% Live Casino Bonus: Triple Your Balance
+  preheader: Your next Live Casino session just got bigger and better
+  button_text_1: PLAY LIVE NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, take your place at the Live Casino tables and play with triple the power. 
+  text_2 body: Deposit with code <strong class="promocode">ROCKET200</strong> and get a <strong>200% bonus</strong> on your next top-up.<br>The action is live — are you ready to join? 🚀<br><br>Boost your balance:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 📚 200% Bonus + 50 FS: Triple Your Balance!
+  preheader: Step into Rich Wilde’s adventure and claim your rewards on your deposit
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your next deposit could open the gates to fortune: 
+  text_2 body: Get a <strong>200% bonus plus 50 Free Spins for Rich Wilde and the Tome of Madness</strong> by Play’n GO with code <strong class="promocode">OCCULT200</strong>.<br><br>The reels are ready — are you brave enough to face the madness? 👁️<br><br>Uncover the secret treasures:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏟 Big Sports Wins Last Week: See the Scores
+  preheader: See who scored big — will you be next?
+  button_text_1: PLACE YOUR BET
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, check out the top 3 bettors who cashed in last week: 
+  text_2 body: <strong>🏆 se•••54 – €48,200</strong><br><strong>🏆 Ra••34•• – €32,900</strong><br><strong>🏆 H••••a – €26,400</strong><br><br>Your winning ticket could be just one bet away. 🎫<br><br>Place your winning bet:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Top 3 Winners Last Week: Check the List
+  preheader: See how much our top 3 players took home recently
+  button_text_1: PLAY NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, last week was incredible: 
+  text_2 body: <strong>💰 se•••s – €48,200</strong><br><strong>💰 M8•••7 – €32,750</strong><br><strong>💰 g•••ns – €27,460</strong><br><br>Three lucky spins, three life-changing prizes. Will we see your name on this week’s list?<br><br>Try your luck today:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Huge Jackpot Wins Last Week: Check This Out
+  preheader: See how much our top 3 players took home recently
+  button_text_1: PLAY NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, last week was incredible: 
+  text_2 body: <strong>💰 ses – €48,200</strong><br><strong>💰 M87 – €32,750</strong><br><strong>💰 g•ns – €27,460</strong><br><br>Three lucky spins, three life-changing prizes. Will we see your name on this week’s list?<br><br>Try your luck today:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 20% NoRisk FreeBets: Your Second Chance
+  preheader: Take your shot – we’ll cover you up to €500
+  button_text_1: START BETTING
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, it’s your move. 
+  text_2 body: Enjoy <strong>20% NoRisk FreeBets</strong> up to €500 and play without second thoughts with code <strong class="promocode">CLEARSHOT20</strong>.<br><br>Every prediction brings you closer to the win. ⚽<br><br>Claim your cover:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎩 210% Live Casino Boost: Exclusive Offer
+  preheader: Triple the excitement at the Live Casino on your next deposit
+  button_text_1: PLAY LIVE NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, step into the Live Casino and play with unmatched power. 
+  text_2 body: Deposit with code <strong class="promocode">BLAST210</strong> and get a <strong>210% bonus</strong> on your next top-up.<br>The dealers are ready — your winning streak starts now. 🎲<br><br>Claim your exclusive boost:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💰 3 Massive Winners Last Week — Why Not You?
+  preheader: 3 players. 3 wins. Your name could be next on the list
+  button_text_1: PLAY NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, here’s who struck gold last week: 
+  text_2 body: <strong>🥇 L<i>i•••n8</i>• – €45,320</strong><br><strong>🥈 a••7tz – €38,940</strong><br><strong>🥉 h••••in – €26,580</strong><br><br>Your name could be on the next list of champions.&nbsp;<br>All it takes is one lucky spin! 🎰<br><br>Join the winners' circle:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏇 Bet Boldly: 20% NoRisk FreeBets Active
+  preheader: Bet up to €500 without the fear of losing
+  button_text_1: PLACE YOUR BET
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, get in on the action! 
+  text_2 body: Get <strong>20% NoRisk FreeBets</strong> up to €500 with code <strong class="promocode">CLEARSHOT20</strong>.<br><br>Whether it’s football, tennis, or racing – your bet is backed. No risk, all thrill. 🏁<br><br>Start your winning ride:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💥 220% Bonus: Power Up Your Live Session
+  preheader: More chips, more chances, more wins on your next deposit
+  button_text_1: JOIN THE TABLE
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, the Live Casino floor is calling. 
+  text_2 body: Deposit with code <strong class="promocode">BOOSTED220</strong> and get a <strong>220% bonus</strong> on your next top-up.<br>Your seat is waiting — let’s make every hand count! 🔴⚫<br><br>Get your <strong>220% bonus</strong>:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎰 Claim 100 Free Spins on Legacy of Dead
+  preheader: Step into the tombs and claim your wins on your next deposit
+  button_text_1: CLAIM FREE SPINS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, the reels of Legacy of Dead are calling. 
+  text_2 body: Deposit with code <strong class="promocode">PHARAOH100</strong> and unlock <strong>100 Free Spins on Legacy of Dead</strong> by Play'n Go to explore hidden treasures.<br>Your adventure begins with a single spin — ready to start? 🏺<br><br>Enter the tomb of wins:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 20% NoRisk FreeBets: Win or Get Refunded
+  preheader: Your safety net is waiting — bet up to €500 risk-free
+  button_text_1: CLAIM FREEBETS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, step into the game! 
+  text_2 body: Play with <strong>20% NoRisk FreeBets</strong> up to €500. Your code: <strong class="promocode">CLEARSHOT20</strong>.<br><br>Miss? We’ve got you covered.<br>Hit? The winnings are all yours.<br>The safest way to chase the thrill is here. 🛡️<br><br>Claim your freebets:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+
+================================================================================
+FILE: Nutrition #3 - Table data.txt
+Total blocks: 96
+Unique emails: 24
+Email names: ['Email 1CL', 'Email 1CS', 'Email 1S', 'Email 2CL', 'Email 2CS', 'Email 2S', 'Email 3CL', 'Email 3CS', 'Email 3S', 'Email 4CL', 'Email 4CS', 'Email 4S', 'Email 5CL', 'Email 5CS', 'Email 5S', 'Email 6CL', 'Email 6CS', 'Email 6S', 'Email 7CL', 'Email 7CS', 'Email 7S', 'Email 8CL', 'Email 8CS', 'Email 8S']
+
+
+--- Email 1CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎲 Boost Your Live Game with 150% Bonus
+  preheader: Your next top-up comes with 150% extra chips for the tables
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your third deposit is your chance to turn the tables. 
+  text_2 body: Top up now with code <strong class="promocode">VAULT150</strong> and get a <strong>150% bonus</strong> to play longer, bet bigger, and aim higher at the Live Casino tables.<br><br>Your winning seat is waiting — let’s make this one count. ♠️<br><br>Boost your stack:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 1CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 200% Bonus + 50 FS: Third Time’s a Charm!
+  preheader: Boost your play on your third deposit and dive back into your favorite slots
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your third deposit could be the most thrilling yet! 
+  text_2 body: Get a <strong>200% bonus plus 50 Free Spins on Rich Wilde and the Tome of Madness</strong> by Play'n Go.<br><br>Use code <strong class="promocode">OCCULT200</strong> to unlock the secrets. This is your moment to go bigger, spin bolder, and aim for that next big win! 🐙<br><br>Claim your triple boost:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 1S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Ready for Your Third Winning Streak?
+  preheader: Bet smart – win up to €500 risk-free on your next deposit
+  button_text_1: PLACE YOUR BET
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, you’ve already proven you’re in the game. Now it’s time to make your third deposit count. 
+  text_2 body: Get <strong>20% NoRisk FreeBets up to €500</strong> with code <strong class="promocode">STEADY20</strong> and take your predictions to the next level.<br><br>The field is yours — are you ready to play big? 🏟️<br><br>Place your risk-free bet:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Live Casino Legends: Last Week's Top Wins
+  preheader: See who ruled the tables — will you be next?
+  button_text_1: PLAY LIVE NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, the Live Casino tables were on fire last week: 
+  text_2 body: <strong>🔥 Ln4s••• – €49,820</strong><br><strong>🔥 tin•••66 – €34,470</strong><br><strong>🔥 n•••tz – €25,960</strong><br><br>Three players, three incredible runs — all from bold moves and smart plays. Will your name be on next week’s leaderboard?<br><br>Join the winners:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Slot Champions Last Week: Who Won Big?
+  preheader: Meet last week’s biggest slot winners and see the payouts
+  button_text_1: SPIN & WIN
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, here’s how the reels treated our champions: 
+  text_2 body: <strong>👑 mu••••n65 – €48,940</strong><br><strong>👑 Z3•••ky• – €36,280</strong><br><strong>👑 p••••sh – €29,760</strong><br><br>They made their spins count — and so can you. Will your name top next week’s list?<br><br>Spin for glory:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: ⚽ Your Next Win Could Be Risk-Free!
+  preheader: Get 20% NoRisk FreeBets up to €500 on your third deposit
+  button_text_1: BET NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, you’ve been playing strong — now it’s time for round three. 
+  text_2 body: Make your third deposit, use code <strong class="promocode">STEADY20</strong> and get <strong>20% NoRisk FreeBets up to €500</strong>. Even a missed shot won’t slow you down.<br><br>Take the field and show them who’s boss. 👟<br><br>Bet with confidence:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🃏 Triple Your Chips + 50 Free Spins!
+  preheader: The Live Casino floor is ready for you with a massive bonus
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, step into the action and take your game further. 
+  text_2 body: Deposit now with code <strong class="promocode">OCCULT200</strong> and get a <strong>200% bonus plus 50 Free Spins in Rich Wilde and the Tome of Madness</strong> by Play'n Go to enjoy after the cards are dealt.<br><br>Your moment is here — let’s play in style. 🎩<br><br>Claim the combo pack:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: ✨ Go Big: 200% Bonus + 50 Free Spins
+  preheader: Your third deposit unlocks more balance and more spins
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, it’s time to level up your game. 
+  text_2 body: Your third deposit unlocks a <strong>200% bonus and 50 Free Spins in Rich Wilde and the Tome of Madness</strong> by Play'n Go.<br><br>More balance, more spins, and more chances to uncover the madness. Enter code <strong class="promocode">OCCULT200</strong>. 📖<br><br>Level up your balance:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏅 Your Third Deposit Just Got Safer
+  preheader: Bet big, risk less – up to €500 covered by us
+  button_text_1: PLACE YOUR BET
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your winning run is just getting started. 
+  text_2 body: With your third deposit, enjoy <strong>20% NoRisk FreeBets up to €500</strong> — so you can play bold without looking back. Code for you — <strong class="promocode">STEADY20</strong>.<br><br>One bet could be all it takes. 🏆<br><br>Secure your bet:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 170% Boost: Own the Tables Today
+  preheader: Your next hand could change everything with more chips
+  button_text_1: PLAY LIVE NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, it’s time to play bigger and bolder. 
+  text_2 body: Deposit with code <strong class="promocode">RISEUP170</strong> and grab a <strong>170% bonus</strong> for your next Live Casino session.<br><br>More chips mean more chances to turn the game in your favor. 🔴⚫<br><br>Increase your stake:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎰 3 Spins, 3 Fortunes: Check the Winners
+  preheader: See last week’s slot jackpot stars and get inspired
+  button_text_1: PLAY NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, fortune smiled on these players last week: 
+  text_2 body: <strong>💎 a•••76 – €42,510</strong><br><strong>💎 fad•••77 – €29,930</strong><br><strong>💎 Gg••••h6 – €24,930</strong><br><br>Three spins, three jackpots. Could the next lucky streak be yours?<br><br>Try your luck:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏅 Play Fearless: Your Third Deposit is Covered
+  preheader: Claim 20% NoRisk FreeBets up to €500 today
+  button_text_1: START BETTING
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your third deposit comes with extra confidence. 
+  text_2 body: Get <strong>20% NoRisk FreeBets up to €500</strong> with code <strong class="promocode">STEADY20</strong> and make every wager count.<br><br>No hesitation, just pure action. 🔥<br><br>Start betting safely:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Meet Last Week’s Live Casino Champions
+  preheader: 3 players. 3 massive wins. Your turn next?
+  button_text_1: PLAY LIVE NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, here’s who conquered the Live Casino tables last week: 
+  text_2 body: <strong>🥇 j89••• – €47,250</strong><br><strong>🥈 oz•••66z• – €36,180</strong><br><strong>🥉 R••••er – €24,940</strong><br><br>Your skills could make you the next big winner — are you ready to take the seat?<br><br>Challenge the dealer:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💎 Your Name Belongs on the Winner List
+  preheader: See how our latest champions won big last week
+  button_text_1: SPIN & WIN
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, the jackpot board lit up last week: 
+  text_2 body: <strong>🔥 ozz – €49,210</strong><br><strong>🔥 Dts•• – €30,470</strong><br><strong>🔥 e•nz – €25,660</strong><br><br>All it takes is one lucky spin — your moment could be next. 🎰<br><br> Spin for the jackpot:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏟 See Last Week’s Sports Champions
+  preheader: Make your third deposit and join the winners’ list
+  button_text_1: PLACE YOUR BET
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your third deposit comes with extra confidence. 
+  text_2 body: <strong>💰 se••••9s – €48,200</strong><br><strong>💰 M87•••• – €32,900</strong><br><strong>💰 l••••na88 – €26,400</strong><br><br>Your third deposit could be the one that puts your name up here next week. 🎫<br><br>Make your move:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎩 170% Boost For Your Next Session
+  preheader: Play Live Casino with extra power on your third deposit
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, let’s make your third deposit unforgettable. 
+  text_2 body: Deposit with code <strong class="promocode">RISEUP170</strong> and get a <strong>170% bonus</strong> to enjoy longer play and bigger stakes at the Live tables.<br><br>Your moment starts now. 🎲<br><br>Power up your play:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🪄 Magic Deal: 200% Bonus + 50 FS
+  preheader: More balance and more spins for your third deposit
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your third deposit is your ticket to bigger thrills. 
+  text_2 body: Get <strong>200% extra balance plus 50 Free Spins in Rich Wilde and the Tome of Madness</strong> by Play'n Go to keep the reels spinning.<br><br>Your code — <strong class="promocode">OCCULT200</strong>. Every spin is another shot at something spectacular. ✨<br><br>Unlock the magic:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 Third Deposit? We’ve Got You Covered!
+  preheader: Bet with 20% NoRisk FreeBets up to €500 now
+  button_text_1: BET NOW
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, keep the momentum going with your third deposit. 
+  text_2 body: Enjoy <strong>20% NoRisk FreeBets up to €500</strong> with code <strong class="promocode">STEADY20</strong> and bet without second thoughts.<br><br>One step closer to your next big win. 🥅<br><br>Claim your cover:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💰 170% Bonus + 30 Free Spins Inside
+  preheader: Take your Live game to the next level and get extra spins
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, here’s your chance to boost your balance and enjoy some spins after. 
+  text_2 body: Deposit with code <strong class="promocode">COWBOY170</strong> and get <strong>170% extra chips + 30 Free Spins in Wild West Gold</strong> by Pragmatic Play for a perfect blend of Live excitement and slot fun.<br><br>The tables are waiting — will you join? 🌵<br><br>Claim your chips &amp; spins:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎲 Upgraded Bonus: 170% + 30 Free Spins
+  preheader: Your third deposit now comes with a Wild West power-up
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your third deposit now comes with a sheriff's badge: 
+  text_2 body: Get <strong>170% extra + 30 Free Spins in Wild West Gold</strong> by Pragmatic Play with code <strong class="promocode">COWBOY170</strong>.<br><br>The saloon doors are open and the reels are waiting — are you ready to take them on? 🤠<br><br>Saddle up for wins:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏇 Your Third Deposit: Go All The Way
+  preheader: 20% NoRisk FreeBets – no fear, all thrill on your bets
+  button_text_1: PLACE YOUR BET
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, the race isn’t over yet. 
+  text_2 body: Make your third deposit and get <strong>20% NoRisk FreeBets up to €500</strong> with code <strong class="promocode">STEADY20</strong>.<br><br>Whether it’s football, tennis, or racing – your winning ride starts now. 🏎️<br><br>Start your engine:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8CL ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎲 170% Boost to Rule the Live Casino
+  preheader: More chips. More chances. More wins on your third deposit
+  button_text_1: JOIN THE TABLE
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, the third deposit is your moment to strike. 
+  text_2 body: Deposit with code <strong class="promocode">RISEUP170</strong> and get <strong>170% extra chips</strong> to play bigger, last longer, and aim for the top.<br><br>Your seat is ready — the action starts now. 🚀<br><br>Join the high rollers:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8CS ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏺 200% Bonus + 50 FS on Tome of Madness
+  preheader: Step into the tomb and claim your treasures on your third deposit
+  button_text_1: CLAIM BONUS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, your next spin could uncover ancient riches. 
+  text_2 body: Make your third deposit with code <strong class="promocode">OCCULT200</strong> and get <strong>200% bonus + 50 Free Spins in Rich Wilde and the Tome of Madness</strong> by Play'n Go.<br><br>It’s time to explore the tombs and claim what’s yours. 👁️<br><br>Start the adventure:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Play Smart on Your Third Deposit
+  preheader: Win without the risk – up to €500 covered for you
+  button_text_1: CLAIM FREEBETS
+  text_1 greeting:  {{ customer.first_name | default:"Friend" | capitalize }}, make your third deposit and step into the game with confidence. 
+  text_2 body: With <strong>20% NoRisk FreeBets up to €500</strong>, a miss won’t cost you – but a win could be huge. Code for you – <strong class="promocode">STEADY20</strong>.<br><br>Your safest way to chase the thrill is here. 🛡️<br><br>Grab your freebets:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+
+================================================================================
+FILE: SU Retention - Table data.txt
+Total blocks: 120
+Unique emails: 30
+Email names: ['Email 1C', 'Email 1M', 'Email 1S', 'Email 2C', 'Email 2M', 'Email 2S', 'Email 3C', 'Email 3M', 'Email 3S', 'Email 4C', 'Email 4M', 'Email 4S', 'Email 5C', 'Email 5M', 'Email 5S', 'Email 6C', 'Email 6M', 'Email 6S', 'Email 7C', 'Email 7M', 'Email 7S', 'Email 8C', 'Email 8M', 'Email 8S', 'Email 9C', 'Email 9M', 'Email 9S', 'Email 10C', 'Email 10M', 'Email 10S']
+
+
+--- Email 1C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 100% Bonus + 150 FS Waiting: Grab It Now!
+  preheader: Your welcome bonus hasn’t gone anywhere — make your first deposit today
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve explored Celsius, now it’s time to take the first real step.&nbsp;<br>Make your first deposit and get a <strong>100% Bonus plus 150 Free Spins on Razor Shark</strong> by Push Gaming with code <strong class="promocode">FINTASTIC150</strong>.<br><br>Your welcome pack is still active and waiting for you to grab it. Don't let it sit there! 🚀<br><br>Activate your rewards instantly:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 1M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 Get 100% Bonus + 150 FS + 15% FreeBet!
+  preheader: Make your first deposit and get both casino spins and NoRisk FreeBet bonus
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Not sure where to start — casino or sports? No need to choose.<br><br>Your first deposit unlocks a <strong>100% Bonus + 150 Free Spins on Razor Shark</strong> by Push Gaming for casino with code <strong class="promocode">FINTASTIC150</strong>, AND a <strong>15% NoRisk FreeBet</strong> for sports betting with code <strong class="promocode">EARNNRF15X</strong>.<br><br>Dive deep into the wins or bet on your favorite team — you’re covered from the first move. 🦈<br><br>Claim the full package:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 1S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 15% NoRisk FreeBets: Your Safety Net is Ready
+  preheader: You’ve joined — now make your move with 15% FreeBets on your first deposit
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve signed up and checked out the platform — now it’s time to get off the bench and into the game.<br><br>Make your first deposit with code <strong class="promocode">EARNNRF15X</strong> and we’ll back you with a <strong>15% NoRisk FreeBets Bonus</strong>. If it doesn’t go your way, we’ve got your back. 🤝<br><br>Kick off the action here:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎰 Claim Your 100% Bonus + 150 FS Today
+  preheader: Make your first deposit now and claim your welcome pack while it’s active
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Your Celsius welcome bonus is still reserved for you:&nbsp;<br><strong>100% Bonus and 150 Free Spins on Razor Shark</strong> by Push Gaming on your first deposit with code <strong class="promocode">FINTASTIC150</strong>.<br><br>If you’re ready to start playing for real — now’s the perfect time to hit the tables. 🃏<br><br>Click below to claim your pack:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎮 100% Bonus + 150 FS + 4% Cashback: All Yours
+  preheader: First deposit brings you spins, a bonus, and Cashback — all in one go
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Still thinking where to start — casino or sports? Why not both?<br><br>Make your first deposit and get:<br><br><strong>100% Bonus + 150 Free Spins</strong> on <strong>Razor Shark</strong> with code <strong class="promocode">FINTASTIC150</strong><br><strong>4% Cashback</strong> on your sports bets with code <strong class="promocode">CASHPLUS4</strong>.<br><br>One deposit unlocks both sides of the game — and gives you the flexibility to play your way. 🎲<br><br>Unlock both bonuses now:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🔁 Claim Your 4% Sports Cashback Today
+  preheader: Get 4% back on your sports bets starting with your first deposit
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve already grabbed your sports bonus — now it’s time to make your first move.<br><br>Use code <strong class="promocode">CASHPLUS4</strong> on your deposit and activate your <strong>4% Cashback on all your sports bets</strong>. Win or lose, part of the action comes back to you. 💸<br><br>Secure your cashback now:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💥 Your 140% Deposit Bonus is Ready
+  preheader: Don’t miss your chance to start strong — your boost is active
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve joined and explored, now it’s time to level up. 🆙<br><br>Make your first deposit and get a <strong>140% Bonus</strong> — the welcome boost built to kick off your Celsius journey the right way.<br><br>Use code: <strong class="promocode">POWER140</strong><br><br><strong></strong>Boost your balance now:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 140% Casino Bonus or 15% FreeBet: You Pick
+  preheader: Use your code to choose between casino or sports — your first deposit opens both paths
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Whether you’re into reels or real-time odds — your first deposit gets you a tailored start:<br><br>• Use code <strong class="promocode">POWER140</strong> for a <strong>140% Bonus</strong> in casino<br>• Use code <strong class="promocode">EARNNRF15X</strong> for a <strong>15% NoRisk FreeBet</strong> in sports betting<br><br>It’s your choice how to begin — either way, you get a real boost from the very first move. 🚀<br><br>Select your winning path:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Your 15% NoRisk FreeBet is Waiting
+  preheader: Unlock your safety net on your first deposit and bet with confidence
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve claimed your sports bonus — now make it count.<br><br>Use code <strong class="promocode">EARNNRF15X</strong> on your first deposit and unlock a <strong>15% NoRisk FreeBet</strong>. Place your first wager with confidence — we’ve got your back if the score doesn’t go your way. 🛡️<br><br>Grab your free bet:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🍭 130% Bonus + 70 FS on Sweet Bonanza
+  preheader: Your first deposit unlocks a tasty bonus — ready when you are
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’re almost there. Your Celsius welcome offer is looking sweet! 🍬<br><br>Get a <strong>130% Bonus + 70 Free Spins on Sweet Bonanza</strong>. It's still active and waiting for your first deposit. Don’t miss out on this tasty start.<br><br>Use code: <strong class="promocode">CANDYDROP70</strong><br><br><strong></strong>Get your sugar fix here:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🍭 130% + 70 FS on Sweet Bonanza — Or Sports?
+  preheader: Start with a tasty casino boost or choose your own path in sports
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You haven’t made your first deposit yet — but when you do, you’ve got options.<br><br>• <strong>Want to spin?</strong> Use code <strong class="promocode">CANDYDROP70</strong> and get a <strong>130% Bonus + 70 Free Spins on Sweet Bonanza</strong>. 🍬<br>• <strong>Prefer betting?</strong> Head to the sportsbook and pick your promo when you're ready.<br><br>Casino or sports — start your journey where it feels right.<br><br>Pick your welcome offer:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🔄 4% Cashback on Every Bet: Active Now
+  preheader: Your first deposit unlocks 4% back on all sports action
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve already grabbed your bonus — now it’s time to put it in play.<br><br>Use code <strong class="promocode">CASHPLUS4</strong> on your first deposit and activate <strong>4% Cashback on all your sports bets</strong>. More action, less risk — every bet pays back. ⚽<br><br>Get back in the game:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 140% First Deposit Bonus: Offer Ending Soon?
+  preheader: Your welcome boost is still active — 140% bonus on your first deposit
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve completed the first steps — now it’s time to play for real.<br><br>Make your first deposit and grab a <strong>140% Bonus</strong> to kick things off strong.&nbsp;<br>The offer’s ready — are you? 🎱<br><br>Use code: <strong class="promocode">POWER140</strong><br><br><strong></strong>Start your winning streak:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 140% Casino Bonus or 15% FreeBet?
+  preheader: Pick the start that fits your game: casino boost or sports safety net
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’re just one step away from kicking things off — and you choose how to begin:<br><br>• <strong>Prefer the reels?</strong> Use code <strong class="promocode">POWER140</strong> for a <strong>140% Casino Bonus</strong> on your first deposit.<br>• <strong>Into sports?</strong> Use code <strong class="promocode">EARNNRF15X</strong> to activate a <strong>15% NoRisk FreeBet</strong>.<br><br>Your welcome bonus is ready — all that’s left is to make your first move. ⚖️<br><br>Claim your preferred bonus:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🛡️ Protect Your Bets: 15% NoRisk FreeBet
+  preheader: Start betting with peace of mind on your first deposit
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve secured your sports bonus — now take the next step.<br><br>Use code <strong class="promocode">EARNNRF15X</strong> on your first deposit and unlock a <strong>15% NoRisk FreeBet</strong>. Whether your first bet wins or not, you're protected either way. 🥅<br><br>Play with a safety net:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💸 Over $100,000 Won Last Week — You In?
+  preheader: Real players, real wins — check out last week’s top slot hits
+  button_text_1: JOIN NOW
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Big things happened last week on the reels — and here’s the proof:<br><br><strong>🏆 rik••••64 won $46,870 on Gates of Olympus</strong><br><strong>🏆 m••••n hit $36,240 on Sugar Rush</strong><br><strong>🏆 t•••y landed $32,905 on Wanted Dead or a Wild</strong><br><br>These wins were real. The players were real. And your chance? It’s just one spin away.<br><br>Join the winners' circle:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 140% Casino Bonus or 15% FreeBet?
+  preheader: Pick the start that fits your game: casino boost or sports safety net
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’re just one step away from kicking things off — and you choose how to begin:<br><br>• <strong>Prefer the reels?</strong> Use code <strong class="promocode">POWER140</strong> for a <strong>140% Casino Bonus</strong> on your first deposit.•&nbsp;<br><strong>Into sports?</strong> Use code <strong class="promocode">EARNNRF15X</strong> to activate a <strong>15% NoRisk FreeBet</strong>.<br><br>Your welcome bonus is ready — all that’s left is to make your first move. ⚖️<br><br>Claim your preferred bonus:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🛡️ Protect Your Bets: 15% NoRisk FreeBet
+  preheader: Start betting with peace of mind on your first deposit
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve secured your sports bonus — now take the next step.<br><br>Use code <strong class="promocode">EARNNRF15X</strong> on your first deposit and unlock a <strong>15% NoRisk FreeBet</strong>. Whether your first bet wins or not, you're protected either way. 🥅<br><br>Play with a safety net:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 140% Bonus + 80 FS on Chaos Crew II
+  preheader: Unlock your welcome pack and unleash the chaos on your first deposit
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve already joined — now it’s time to start winning.<br><br>Make your first deposit and use code <strong class="promocode">CHAOSCTRL80</strong> to get a <strong>140% Bonus plus 80 Free Spins on Chaos Crew II</strong>. It’s the perfect moment to jump in and play with a real edge. 🤘<br><br>Unleash the chaos:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 140% + 80 FS or 20% FreeBet: Your Choice
+  preheader: Two ways to start on your first deposit — unleash chaos or bet safely
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Your welcome path is still open — and you can take it in the direction that suits you best:<br><br>• <strong>Want to start with slots?</strong> Use code <strong class="promocode">CHAOSCTRL80</strong> and get a <strong>140% Bonus + 80 Free Spins on Chaos Crew II</strong>. 💀•&nbsp;<br><strong>Prefer betting?</strong> Use code <strong class="promocode">WIN20NRF</strong> to claim a <strong>20% NoRisk FreeBet</strong> on your first deposit.<br><br>You only need one move to unlock either offer — the choice is yours.<br><br>Start your journey here:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏁 Start Strong: 20% NoRisk FreeBet Ready
+  preheader: Activate your safety net on your first deposit today
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve got the bonus — now take the shot. 🏀<br><br>Make your first deposit with code <strong class="promocode">WIN20NRF</strong> and activate a <strong>20% NoRisk FreeBet</strong>. It’s the easiest way to enter the game with total confidence.<br><br>Unlock your 20% protection:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💥 Jackpot Hits Keep Coming — Are You Next?
+  preheader: See what players won last week — real spins, real wins, real games
+  button_text_1: PLAY NOW
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve seen what Celsius is about — now here’s what happened just last week:<br><br><strong>💰 H••H55 won $44,190 on The Dog House Megaways</strong><br><strong>💰 <i>y</i>•••54 hit $28,670 on Sweet Bonanza</strong><br><strong>💰 Da••••K33d landed $13,520 on Book of Dead</strong><br><br>These are real wins from real players.&nbsp;<br>All that’s missing now is your first spin. 🎰<br><br>Take your shot at the jackpot:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 140% + 80 FS or 20% FreeBet: Your Choice
+  preheader: Two ways to start on your first deposit — unleash chaos or bet safely
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Your welcome path is still open — and you can take it in the direction that suits you best:<br><br>• <strong>Want to start with slots?</strong> Use code <strong class="promocode">CHAOSCTRL80</strong> and get a <strong>140% Bonus + 80 Free Spins on Chaos Crew II</strong>. 💀•&nbsp;<br><strong>Prefer betting?</strong> Use code <strong class="promocode">WIN20NRF</strong> to claim a <strong>20% NoRisk FreeBet</strong> on your first deposit.<br><br>You only need one move to unlock either offer — the choice is yours.<br>Start your journey here:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏁 Start Strong: 20% NoRisk FreeBet Ready
+  preheader: Activate your safety net on your first deposit today
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve got the bonus — now take the shot. 🏀<br><br>Make your first deposit with code <strong class="promocode">WIN20NRF</strong> and activate a <strong>20% NoRisk FreeBet</strong>. It’s the easiest way to enter the game with total confidence.<br><br>Unlock your 20% protection:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 9C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 160% Bonus + 90 FS on Tome of Madness
+  preheader: Use your code on your first deposit and start with a real boost
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’re just one step away from unlocking your full welcome bonus.<br><br>Use code <strong class="promocode">MADNESS16090</strong> on your first deposit to uncover a <strong>160% Bonus plus 90 Free Spins on Rich Wilde and the Tome of Madness</strong>.<br><br>The reels are waiting — and your moment starts now. 👁️<br><br>Open the tome of wins:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 9M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 160% + 90 FS or 25% FreeBet: Decide Now
+  preheader: Both offers are still open — start your adventure or place your bet
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Still thinking how to start? Whether you're into reels or real-time odds, we’ve got something just for you:<br><br>• Use code <strong class="promocode">MADNESS16090</strong> for a <strong>160% Bonus + 90 Free Spins on Rich Wilde and the Tome of Madness</strong> in the casino. 🐙<br>• Use code <strong class="promocode">SECURE25</strong> for a <strong>25% NoRisk FreeBet</strong> on your first sports bet.<br><br>Two offers, one decision — pick your side and make that first move count.<br><br>Activate your bonus:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 9S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 25% NoRisk FreeBet: Don't Miss This!
+  preheader: Start betting with confidence on your first deposit
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve already claimed your sports bonus — now it’s time to use it.<br><br>Make your first deposit with code <strong class="promocode">SECURE25</strong> and activate a <strong>25% NoRisk FreeBet</strong>. If your first bet doesn’t land, we’ll return a part of it. No pressure — just play. 🏟️<br><br>Claim your risk-free start:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 10C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎰 Over $90,000 Payouts Last Week — Why Not You?
+  preheader: Check out the latest wins from real players — you could be next
+  button_text_1: SPIN NOW
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: While you’ve been exploring, others have been spinning — and winning big:<br><br><strong>🔥 Rich••••s won $49,870 on Gates of Olympus</strong><br><strong>🔥 Bl<i>l</i>• hit $27,430 on Fruit Party 2</strong><br><strong>🔥 Blu••••86s landed $15,980 on Legacy of Dead</strong><br><br>No tricks, no codes — just the right spin at the right time. Maybe it’s yours?<br><br>Spin for your own big win:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 10M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 160% + 90 FS or 25% FreeBet: Decide Now
+  preheader: Both offers are still open — start your adventure or place your bet
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Still thinking how to start? Whether you're into reels or real-time odds, we’ve got something just for you:<br><br>• Use code <strong class="promocode">MADNESS16090</strong> for a <strong>160% Bonus + 90 Free Spins on Rich Wilde and the Tome of Madness</strong> in the casino. 🐙<br>• Use code <strong class="promocode">SECURE25</strong> for a <strong>25% NoRisk FreeBet</strong> on your first sports bet.<br><br>Two offers, one decision — pick your side and make that first move count.<br><br>Activate your bonus:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 10S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 Still Waiting: 15% NoRisk FreeBets
+  preheader: You’ve joined — now make your move with 15% FreeBets on your first deposit
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve signed up, checked out the platform — now it’s time to get in the game.<br><br>Make your first deposit with code <strong class="promocode">EARNNRF15X</strong> and we’ll back you with a <strong>15% NoRisk FreeBets Bonus</strong>. If it doesn’t go your way, we’ve still got you covered. 🥊<br><br>Place your winning bet:
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+
+================================================================================
+FILE: Welcome Flow - Table data.txt
+Total blocks: 108
+Unique emails: 27
+Email names: ['Email 1C', 'Email 1M', 'Email 1S', 'Email 2C', 'Email 2M', 'Email 2S', 'Email 3C', 'Email 3M', 'Email 3S', 'Email 4C', 'Email 4M', 'Email 4S', 'Email 5C', 'Email 5M', 'Email 5S', 'Email 6C', 'Email 6M', 'Email 6S', 'Email 7C', 'Email 7M', 'Email 7S', 'Email 8C', 'Email 8M', 'Email 8S', 'Email 9C', 'Email 9M', 'Email 9S']
+
+
+--- Email 1C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🚀 Your Celsius Adventure Starts Here!
+  preheader: Unlock massive bonuses on your first 4 deposits — up to €2000 + 250 Free Spins!
+  button_text_1: START MY JOURNEY
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: The Celsius journey is just beginning — and we’ve lined up powerful rewards to kick things off.<br>Your first 4 deposits come with <strong>huge bonuses</strong> and <strong>tons of Free Spins</strong>:<br><br><strong>1st: 100% up to €500 + 150 FS</strong><br><strong>2nd: 100% up to €300 + 50 FS</strong><br><strong>3rd: 200% up to €200 + 50 FS</strong><br><strong>4th: 150% up to €1000</strong><br><br>That’s up to <strong>€2000 + 250 Free Spins</strong> waiting just for you. Start small or go big — the choice is yours.<br>Claim Your Welcome Bonuses Now
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 1M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 Play Your Way with the Cashback Bonus
+  preheader: Slots, Live Casino or Sports — get more back from every game with our Cashback Bonus.
+  button_text_1: PLAY WITHOUT LIMITS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Start your journey at Celsius with the <strong>Cashback Bonus</strong> — simple, rewarding, and built around your play.<br><br>Whether you’re into Slots, Live Casino, or Sports betting, your play now comes with extra value: get a portion back as cashback and keep the action going longer.<br><br>More play. More back. Just the way you like it.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 1S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: ⚽ Kick Off Your Sports Journey at Celsius
+  preheader: FreeBets up to €700 are waiting for you on your first two deposits.
+  button_text_1: CLAIM FREEBETS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Ready to take your sports bets to the next level?Start your journey with <strong>exclusive FreeBets bonuses</strong> just for new players:<br><br><strong>1st Deposit: 50% Welcome FreeBets Bonus up to €200</strong><br><strong>2nd Deposit: 20% NoRisk FreeBets Bonus up to €500</strong><br><br>Whether you bet on football, tennis, or esports — Celsius has your back from the first match. Make your move and grab your FreeBets now!
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎰 Your First Bonus Is Just One Step Away
+  preheader: Use code and get 100% + 150 Free Spins on your first deposit.
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You're just one step away from unlocking your first big reward at Celsius.&nbsp;<br><br>Make your first deposit using the code <strong class="promocode">BANDIT150</strong> and enjoy:&nbsp;<br><strong>100% Bonus</strong> and <strong>150 Free Spins </strong>on<strong> Le bandit by Hacksaw Gaming</strong>.&nbsp;<br><br>It’s the perfect way to kick off your Celsius journey with a boost. Don’t miss your chance — claim your welcome bonus today.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 Big Slot Wins & A 10% Safety Net on Your Next Bet
+  preheader: Players hit it big last week — now it’s your turn, with 10% NoRisk FreeBets using code.
+  button_text_1: TRY MY LUCK
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: The reels didn’t stop spinning last week — and here’s who walked away smiling:<br><br><strong>l•••••e won $29,343</strong><br><strong>k••••o hit $18,920</strong><br><strong>a••••1h landed $11,480</strong><br><br>Want in? Use code <strong class="promocode">SAFE10</strong> and get a <strong>10% NoRisk FreeBets Bonus</strong> on your next bet. One click could be all it takes.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 2S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: ⚽ Game’s On — Your Bet Belongs on the Field
+  preheader: The action’s heating up. Make your move and back your pick today.
+  button_text_1: PLACE MY BET
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: The pitch is set, the odds are moving, and the tension’s building — now’s the moment to place your bet.&nbsp;<br><br>Pick your game, trust your instinct, and let the numbers play out.<br><br>To make it even better, use code <strong class="promocode">BOOST50</strong> and enjoy a <strong>50% bonus on your next deposit</strong> — more balance, more confidence, more wins.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💥 100% + 150 FS — The Boost That Starts It All
+  preheader: Use code to unlock your first Celsius bonus and step into the game
+  button_text_1: START WITH MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: The moment before your first deposit is when everything begins.&nbsp;<br><br>Use code <strong class="promocode">CREW150</strong> now and get <strong>100% Bonus</strong> plus <strong>150 Free Spins </strong>on<strong> Chaos Crew II by Hacksaw Gaming</strong>.&nbsp;<br><br>This is your entry point — no pressure, just your game, terms, and a solid welcome boost.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎰 Big jackpots landed last week
+  preheader: Big jackpots landed last week — will your name be next on the list?
+  button_text_1: PLAY OR BET NOW
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Here’s what the reels delivered last week — real wins, real players:<br><br><strong>a7g••••••n hit $42,380 &nbsp;</strong><br><strong>m2f•••••d scored $26,104 &nbsp;</strong><br><strong>j3s•••••••7 landed $33,987 &nbsp;</strong><br><br>Slots were blazing — and if that’s not your thing, remember: you can always drop a bet on live sports too. One spin or one shot could change it all.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 3S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏟️ Matchday Energy Is In the Air — You In?
+  preheader: It’s the perfect time to lock in your pick and feel the rush.
+  button_text_1: BET NOW
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Big games. Bold odds. Everything’s in place — except your bet.&nbsp;<br><br>Whether you go with the favorite or ride the underdog, now’s the time to make it count.<br><br>And to give you that extra edge, we’re adding a <strong>50% bonus on your next deposit</strong> — more value, more confidence, more action.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 120% + 170 Free Spins Are Waiting for You
+  preheader: Use code on your first deposit and start strong with Celsius
+  button_text_1: CLAIM MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve signed up, explored the platform — now it’s time to make your first move.&nbsp;<br><br>Use code <strong class="promocode">STORM170</strong> on your first deposit and receive <strong>120% Bonus</strong> and <strong>170 Free Spins </strong>on <strong>Stormforged by Hacksaw Gaming</strong>.&nbsp;<br><br>Start your Celsius journey with an offer built for a winning start.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎮 100 FS + NoRisk Bets Inside
+  preheader: Use code on your first deposit and step into casino and sports with full backup.
+  button_text_1: ACTIVATE MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Whether you're here for the spins or the scores — your first deposit has you covered.<br><br>Enter code <strong class="promocode">LEGACY100</strong> and get <strong>100 Free Spins</strong> in the <strong>Legacy of Dead by Play'n Go</strong>.<br>Enter code <strong class="promocode">BETSAFE20</strong> and get <strong>20% No Risk Free Bets Bonus</strong> for sports.<br><br>Your game, your pace — just with a head start.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 4S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🧤 50% FreeBets On Top
+  preheader: Step into the game with a solid edge — your welcome FreeBets are ready
+  button_text_1: START BETTING
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Betting’s more fun when you start with a boost.&nbsp;<br><br>On your first deposit, you’ll get a <strong>50% FreeBets Bonus</strong> up to <strong>€200</strong> — perfect to kick off your streak.&nbsp;<br><br>One move. One edge. Your call.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎁 One Code. One Deposit. One Serious Start.
+  preheader: Use code and turn your first deposit into 100% + 150 Free Spins.
+  button_text_1: UNLOCK MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: What happens after your first deposit?&nbsp;<br><br>Get <strong>100% Bonus</strong> and <strong>150 Free Spins </strong>on <strong>Rip City by Hacksaw Gaming</strong>, when you use the code <strong class="promocode">RIP100CITY</strong>.&nbsp;<br><br>This isn’t just a welcome — it’s a proper launch. Make it count.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 Three Big Wins. Two Ways to Play. One You.
+  preheader: Slots or Sports — here’s what happened last week and how you can get in
+  button_text_1: SPIN OR BET NOW
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Last week, the reels delivered serious heat:<br><br><strong>r8d•••••1 won $38,210 &nbsp;</strong><br><strong>t3s••••••k hit $24,765 &nbsp;</strong><br><strong>b6v••••n landed $31,402&nbsp;</strong><br><br>Slots are clearly on fire — but if you're more into tactics and timing, sports betting is always just a click away. Either way, there's always something to win.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 5S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🥶 50% FreeBets Come With Your First Move
+  preheader: Make your first deposit and we’ll top it with 50% FreeBets up to €200.
+  button_text_1: STEP IN
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Big odds, fast action, and your bet waiting to happen.&nbsp;<br><br>Make your first deposit and grab a <strong>50% Welcome FreeBets Bonus</strong> up to <strong>€200</strong> — no overthinking, just a straight shot into the game.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 Time to unlock 100% + 150 FS!
+  preheader: Your first deposit turns into a full-powered welcome — if you want it.
+  button_text_1: GET STARTED
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: There’s a bonus built for your first move — if you choose to take it.&nbsp;<br><br>Use code <strong class="promocode">BANDIT150</strong> to get a <strong>100% Bonus</strong> and <strong>150 Free Spins</strong> on <strong>Le bandit by Hacksaw Gaming </strong>on your first deposit.&nbsp;<br><br>Clean, simple, and ready whenever you are .
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎲 $47,890 winnings this week, are you next?
+  preheader: Slots were hot last week — and the sports odds aren’t cooling down either.
+  button_text_1: SPIN OR BET NOW
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Big week. Big wins. Here’s what went down at Celsius:<br><br><strong>a9n•••••z won $47,890 &nbsp;</strong><br><strong>m4e••••q hit $22,715 &nbsp;</strong><br><strong>j2x•••••r scored $35,040</strong> &nbsp;<br><br>Spins were on fire — and if you’re more into betting, the sportsbook is ready with live action and fresh odds. However you play, the next win could have your name on it.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 6S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏁 Your Bet’s Not Live Until You Are
+  preheader: 50% FreeBets up to €200 — start on your terms
+  button_text_1: ACTIVATE MY BONUS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve seen the odds. Now set yours in motion.&nbsp;<br><br>Your first deposit brings a <strong>50% Welcome FreeBets Bonus</strong> up to <strong>€200</strong> — no distractions, just pure momentum to kick things off.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 💸 Big Slot Wins Last Week — Will You Be Next?
+  preheader: See what others hit on Celsius and take your shot at the next big win.
+  button_text_1: TRY YOUR LUCK
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Last week at Celsius, the reels were on fire — here’s what some lucky players walked away with:<br><br><strong>a•••••••n won $29,343</strong><br><strong>j•••••e hit $17,920</strong><br><strong>m••••x11 scored $11,608</strong><br><br>No tricks, no bonus codes — just pure play and real wins.&nbsp;<br>Ready to take your shot?
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 Don’t miss: 100 Free Spins + 20% NoRisk FreeBets
+  preheader: 100 Free Spins + 20% NoRisk FreeBets — just enter code on your first deposit.
+  button_text_1: START MY COMBO
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Why choose between casino and sports when you can have both from the start?<br><br>Use code <strong class="promocode">LEGACY100</strong> on your first deposit to receive<strong>100 Free Spins </strong>on <strong>Legacy of Dead by Play'n Go</strong>, and use code <strong class="promocode">BETSAFE20</strong> to get a <strong>20% NoRisk FreeBets Bonus</strong>.<br><br>Two paths. One move. Your game begins now.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 7S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🥊 60% FreeBets On Your First Hit
+  preheader: Use code and power up your first deposit with a 60% FreeBets Bonus.
+  button_text_1: USE MY CODE
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: First deposits should feel like impact.&nbsp;<br><br>Enter code <strong class="promocode">FIREUP60</strong> and grab a <strong>60% Welcome FreeBets Bonus</strong> right from the start.&nbsp;<br><br>Place your bet, feel the rhythm, and play it your way.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🧨 Start Strong: 100% + 150 Free Spins on First Deposit
+  preheader: Get your welcome bonus and make your first moments on Celsius count.
+  button_text_1: TRY YOUR LUCK
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: You’ve got the code — now it’s time to use it.&nbsp;<br><br>On your first deposit, enter <strong class="promocode">CREW150</strong> and receive a <strong>100% Bonus</strong> and <strong>150 Free Spins </strong>on <strong>Chaos Crew II by Hacksaw Gaming</strong>.&nbsp;<br><br>This isn’t about pressure. It’s about power — and your power starts here.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎯 Jackpots Heating Up To $41,226
+  preheader: Check last week’s top wins — slots delivered, and sports are calling.
+  button_text_1: JUMP IN
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Last week, big wins hit hard — here’s what some of our players walked away with:<br><br><strong>sn••••an won $41,226</strong><br><strong>d••••ir hit $36,078</strong><br><strong>t••••1964 landed $28,914</strong><br><br>While the slots were dropping jackpots, the sportsbook stayed busy too. You can spin or bet — whatever your style, the next win is just one click away.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 8S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🏆 One Shot. 60% Extra to Back It.
+  preheader: First deposit comes with 60% FreeBets — just enter code and go
+  button_text_1: CLAIM MY FREEBETS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: When it’s your first bet, make it count.&nbsp;<br><br>Use code <strong class="promocode">FIREUP60</strong> on your first deposit and get a <strong>60% Welcome FreeBets Bonus</strong> to give your pick extra weight.&nbsp;<br><br>No second-guessing — just smart play from the start.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 9C ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎠 180 Free Spins Await!
+  preheader: Your first deposit opens the gates — code brings 180 Free Spins
+  button_text_1: UNLOCK SPINS
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: First steps matter — and yours comes with <strong>180 Free Spins</strong> on <strong>Sweet Bonanza by Pragmatic Play </strong>when you make a deposit and enter code <strong class="promocode">SWEET180</strong>.&nbsp;<br><br>No bonus conditions, just pure gameplay and a chance to catch your rhythm from spin one.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 9M ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🎮 Covers Both Sides of the Game
+  preheader: 100 Free Spins and 20% NoRisk FreeBets — code gets you started.
+  button_text_1: GET MY BONUSES
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: Casino or sportsbook? You don’t have to pick sides.&nbsp;<br><br>Use code <strong class="promocode">LEGACY100</strong> on your first deposit and unlock <strong>100 Free Spins</strong> for the <strong>Legacy of Dead by Play'n Go</strong>, and use code <strong class="promocode">BETSAFE20</strong> for <strong>20% No Risk FreeBets Bonus</strong> for your first bets.&nbsp;<br><br>Two ways to win — one simple start.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+--- Email 9S ---
+  Locales: ['Default', 'fr-FR', 'hu-HU', 'pl-PL']
+  Fields: ['name', 'locale', 'subject', 'preheader', 'from_id', 'text_1', 'text_2', 'text_3', 'text_4', 'text_5', 'text_6', 'text_7', 'text_8', 'text_9', 'text_10', 'text_11', 'text_12', 'text_13', 'text_14', 'button_text_1', 'button_href_1', 'logo_src', 'logo_href', 'banner_src', 'banner_href', 'x_icon_src', 'x_icon_href', 'telegram_icon_src', 'telegram_icon_href', 'discord_icon_src', 'discord_icon_href', 'support_icon_src', 'support_icon_href']
+  subject: 🧨 First Bet? 60% Extra Awaits
+  preheader: Drop your first deposit, use code, and get a 60% FreeBets Bonus to fire it up
+  button_text_1: BOOST MY BET
+  text_1 greeting:  Hello, {{customer.first_name | default:"friend"}}👋 
+  text_2 body: First bets deserve more weight — and we’ve got the boost for it.&nbsp;<br><br>Use code <strong class="promocode">FIREUP60</strong> on your first deposit and unlock a <strong>60% Welcome FreeBets Bonus</strong>.&nbsp;<br><br>Make it bold. Make it count.
+  hu-HU: NOT TRANSLATED (subject same as Default)
+  pl-PL: NOT TRANSLATED (subject same as Default)
+
+
