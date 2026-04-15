@@ -2,6 +2,7 @@ import os, re, sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 DIR = r'c:\Projects\REPORTS\тексти\Celsius'
+OUT = os.path.join(DIR, '_audit_result.txt')
 
 def parse_blocks(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -123,3 +124,7 @@ for fn in files:
             print(f"  !!! PL still has default:\"Player\"")
 
 print("\n\nDONE")
+
+# Write to file
+with open(OUT, 'w', encoding='utf-8') as f:
+    pass  # already printed to stdout
