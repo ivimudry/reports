@@ -1,0 +1,90 @@
+Files modified: 5/7
+Dashes replaced: 656
+HU blocks fixed: 17
+PL blocks fixed: 13
+
+  [DEP Retention - Table data.txt] Replaced 86 dashes
+  [DEP Retention - Table data.txt] Email 1C/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 1C/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 1S/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 1S/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 1S/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 1S/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 1S/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 1S/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 2C/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 2C/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 2C/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 2C/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 2C/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 2C/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 2S/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 2S/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 2S/hu-HU button_text_1: fixed HU button
+  [DEP Retention - Table data.txt] Email 2S/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 2S/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 2S/pl-PL button_text_1: fixed PL button
+  [DEP Retention - Table data.txt] Email 4C/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 4C/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 4C/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 4C/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 4S/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 4S/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 4S/hu-HU button_text_1: fixed HU button
+  [DEP Retention - Table data.txt] Email 5C/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 5C/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 5S/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 5S/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 5S/hu-HU button_text_1: fixed HU button
+  [DEP Retention - Table data.txt] Email 5S/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 5S/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 5S/pl-PL button_text_1: fixed PL button
+  [DEP Retention - Table data.txt] Email 6S/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 6S/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 6S/hu-HU button_text_1: fixed HU button
+  [DEP Retention - Table data.txt] Email 7C/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 7C/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 7C/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 7C/hu-HU button_text_1: fixed HU button
+  [DEP Retention - Table data.txt] Email 7C/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 7C/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 7C/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 7S/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 7S/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 7S/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 7S/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 8C/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 8C/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 8C/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 8C/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 8C/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 8C/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 9C/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 9C/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 9C/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 9C/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 9C/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 9C/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 9S/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 9S/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 9S/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 9S/hu-HU button_text_1: fixed HU button
+  [DEP Retention - Table data.txt] Email 9S/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 9S/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 9S/pl-PL text_3: fixed PL terms
+  [DEP Retention - Table data.txt] Email 9S/pl-PL button_text_1: fixed PL button
+  [DEP Retention - Table data.txt] Email 10C/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 10C/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 10C/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 10C/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 10S/hu-HU subject: fixed HU terms
+  [DEP Retention - Table data.txt] Email 10S/hu-HU text_2: fixed HU terms
+  [DEP Retention - Table data.txt] Email 10S/hu-HU text_3: fixed HU terms
+  [DEP Retention - Table data.txt] Email 10S/pl-PL subject: fixed PL terms
+  [DEP Retention - Table data.txt] Email 10S/pl-PL text_2: fixed PL terms
+  [DEP Retention - Table data.txt] Email 10S/pl-PL text_3: fixed PL terms
+  [FTD Retention Flow - Table data.txt] Replaced 126 dashes
+  [Failed Deposit Flow - Table data.txt] Email 4/hu-HU rich_text: fixed HU terms
+  [Failed Deposit Flow - Table data.txt] Email 4/pl-PL rich_text: fixed PL terms
+  [SU Retention - Table data.txt] Replaced 240 dashes
+  [Welcome Flow - Table data.txt] Replaced 204 dashes
