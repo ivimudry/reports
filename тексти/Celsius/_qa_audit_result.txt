@@ -1,0 +1,12 @@
+Total ISSUES: 5
+Total WARNINGS: 0
+
+BY CATEGORY:
+  FR-BODY: 5
+
+ALL ISSUES:
+[FR-BODY] Failed Deposit Flow | Email 1 | fr-FR: rich_text: body differs from Default (should be English)
+[FR-BODY] Failed Deposit Flow | Email 2 | fr-FR: rich_text: body differs from Default (should be English)
+[FR-BODY] Failed Deposit Flow | Email 3 | fr-FR: rich_text: body differs from Default (should be English)
+[FR-BODY] Failed Deposit Flow | Email 4 | fr-FR: rich_text: body differs from Default (should be English)
+[FR-BODY] Failed Deposit Flow | Email 5 | fr-FR: rich_text: body differs from Default (should be English)
