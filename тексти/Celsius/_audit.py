@@ -1,4 +1,5 @@
-import os, re
+import os, re, sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 DIR = r'c:\Projects\REPORTS\тексти\Celsius'
 
