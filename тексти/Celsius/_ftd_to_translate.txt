@@ -1,0 +1,192 @@
+
+=== Email 1C ===
+subject: 🐍 The sands are shifting — unlock 100% + 50 FS
+preheader: Next deposit bonus for Hand of Anubis is ready
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You’ve stepped into the game — now it’s time to go deeper.Use code ANUBIS10050 on your Next deposit to unlock a 100% bonus + 50 Free Spins in Hand of Anubis by Hacksaw Gaming.Ancient power meets modern thrill — are you ready to spin?
+button: CLAIM MY BONUS
+default_name: friend
+
+=== Email 1M ===
+subject: 🎮 Your Second Step? Casino Bonus or NoRisk Sports Bet
+preheader: Choose how you want to continue — spins, bets, or both
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You’ve made your first deposit — now let’s keep the momentum going.Here’s what’s on the table for your next move:A 100% Bonus + 50 Free Spins in Hand of Anubis by Hacksaw Gaming for casino lovers — use code ANUBIS10050A 20% NoRisk FreeBet for your next sports wager — use code WINBACKNRF20Double down in the casino or play it smart in the sportsbook — either way, you’re backed.
+button: CONTINUE PLAYING
+default_name: friend
+
+=== Email 1S ===
+subject: 🏆 20% NoRisk FreeBet Is Active for You
+preheader: Get 20% of your bet back if things don’t go your way — only after your first deposit
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You’ve made your first deposit — now it’s time to bet smart.Use code WINBACKNRF20 and enjoy a 20% NoRisk FreeBet on your next wager.If the outcome isn’t in your favor, we’ll return 20% back to your balance. Simple as that.
+button: PLACE MY FREEBET
+default_name: friend
+
+=== Email 2C ===
+subject: 🎯 Your next spin might be the big one
+preheader: One more deposit could turn the odds in your favor
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: The reels don’t wait — and neither do the wins.Thousands of players are spinning every hour. Some leave with a thrill… others with a jackpot.Your Next deposit is all it takes to be back in the game.No pressure — just pure adrenaline.
+button: PLAY AGAIN
+default_name: friend
+
+=== Email 2M ===
+subject: 🎯 100% + 60 FS or 20% NoRisk FreeBet — Your Choice
+preheader: Casino or Sports? Get a matched bonus + Free Spins or play safe with NoRisk
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Now that your first deposit is behind you — let’s take it further.Choose how you want to boost your play next:Code DOG10060 — 100% Bonus + 60 Free Spins in The Dog House Megaways by Pragmatic Play if you’re spinning the reelsCode WINBACKNRF20 — 20% NoRisk FreeBet if you’re backing your pick on the fieldWhichever way you go, your next win starts here.
+button: CLAIM MY BONUS
+default_name: friend
+
+=== Email 2S ===
+subject: 🎯 Missed Your Bet? Get 20% Back
+preheader: Your 20% NoRisk FreeBet is live — keep playing with confidence
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: In sports, not every bet lands — but we’ve got your back.Place your next wager with code WINBACKNRF20 and get a 20% NoRisk FreeBet.If it doesn’t go your way, we’ll return 20% back to your account. No stress, just smart play.
+button: PLACE MY FREEBET
+default_name: friend
+
+=== Email 3C ===
+subject: 🍓 140% + 50 FS – Join the Fruit Party
+preheader: Sweeten your Next deposit with this juicy bonus
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Ready for something sweet?Use code PARTY140 on your Next deposit and get a 140% bonus + 50 Free Spins in Fruit Party by Pragmatic Play.This game’s bursting with color — and payout potential.Let’s get those reels rolling!
+button: GRAB MY BONUS
+default_name: friend
+
+=== Email 3M ===
+subject: 🎯 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet
+preheader: Get boosted in both casino and sports
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Your next deposit unlocks a dual reward — no matter what you play.Use code SAFE2CB2 / RETURN3CB3 / BOOST4CB4 and receive:2%/3%/4% Cashback on casino activityOr use code WINBACKNRF20 / SAFETYNRF25 / COVERNRF30 to get:20%/25%/30% NoRisk FreeBet for your sports betsYou choose how to play — and we’ll make sure it pays back.
+button: USE MY CODE
+default_name: friend
+
+=== Email 3S ===
+subject: 🧲 20% NoRisk FreeBet — Stay in the Game
+preheader: Win or not, your next bet comes with 20% back — use code WINBACKNRF20
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Your first deposit unlocked a safety net — don’t let it go to waste.Use code WINBACKNRF20 to activate the 20% NoRisk FreeBet and place your next wager knowing we’ll cover part of it if it doesn’t land. Simple, smart, and hassle-free betting.
+button: PLACE MY BET
+default_name: friend
+
+=== Email 4C ===
+subject: 🧁 Go full dork – 110% + 50 FS inside
+preheader: Dork Unit is waiting with a bonus that’s anything but silly
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You’ve unlocked access to one of the quirkiest hits out there.Use code DORK50110 on your Next deposit and get a 110% bonus + 50 Free Spins in Dork Unit by Hacksaw Gaming.Don’t let the name fool you — this slot packs serious win potential.
+button: ACTIVATE MY BONUS
+default_name: friend
+
+=== Email 4M ===
+subject: 💸 $100,000+ Won Last Week — Will You Join the List?
+preheader: Check out the latest big wins from real players and real games
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: The reels were hot last week — and here’s who made the most of them:l•88 won $47,230 on Sweet Bonanzav•01 hit $35,910 on Money Train 3B•in landed $18,450 on Gates of OlympusThese are real wins from real players who spun just like you.So… ready to see your name up there next?
+button: SPIN TO WIN
+default_name: friend
+
+=== Email 4S ===
+subject: 💼 25% NoRisk FreeBet — You’re Covered
+preheader: Place your next bet and get 25% back if it doesn’t go your way
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You’ve already made your first deposit — now it’s time to bet with confidence.Use code SAFETYNRF25 to activate a 25% NoRisk FreeBet — your next wager comes with a safety net. If the result doesn’t go your way, we’ll return 25% of your stake back to your balance.
+button: PLACE MY FREEBET
+default_name: friend
+
+=== Email 5C ===
+subject: 🍭 Get 100% + 80 FS on Sweet Bonanza
+preheader: Next deposit bonus just got a whole lot sweeter
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Get ready for a sugar rush.Use code BONANZA10080 on your Next deposit and get a 100% bonus + 80 Free Spins on Sweet Bonanza by Pragmatic Play.Juicy payouts, high volatility, and plenty of surprises — what’s not to love?
+button: PLAY SWEET BONANZA
+default_name: friend
+
+=== Email 5M ===
+subject: 🪙 100% + 70 FS or 20% NoRisk FreeBet — Take Your Pick
+preheader: Casino or sports — your second-step bonus is ready either way
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You’re past your first deposit — now it’s time to boost your next move.Here’s what’s waiting for you:🎰 With code CHAOS10070 — 100% Bonus + 70 Free Spins in Chaos Crew II by Hacksaw Gaming for casino lovers⚽ With code WINBACKNRF20 — 20% NoRisk FreeBet if you’re all about the oddsWhichever way you play, there’s a reward tailored to your game.
+button: CHOOSE MY BONUS
+default_name: friend
+
+=== Email 5S ===
+subject: 🏅 30% No Risk Only Win — It’s On
+preheader: Play with confidence — your next bet comes with a 30% safety net
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You’ve already made your first move — now take your shot with confidence.Enjoy a 30% No Risk Only Win bonus on your next sports bet with code ONLYWIN30.If it doesn’t go your way, we’ll return 30% of your stake. No pressure — just pure play.
+button: PLACE MY FREEBET
+default_name: friend
+
+=== Email 6C ===
+subject: 📜 100% + 150 FS – Enter the Tome of Madness
+preheader: Boost your deposit and spin through the secrets
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Ready to uncover dark treasures?Use code RICH100150 on your Next deposit and receive a 100% bonus + 150 Free Spins in Rich Wilde and the Tome of Madness by Play’n Go.Arcane power. Mysterious symbols. Endless adventure.
+button: CLAIM MY FREE SPINS
+default_name: friend
+
+=== Email 6M ===
+subject: 💰 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet
+preheader: Play smart with Cashback on casino and NoRisk FreeBet on sports
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Ready for more from every spin and bet? Your next deposit with code SAFE2CB2 / RETURN3CB3 / BOOST4CB4 gives you:2%/3%/4% Cashback on your casino playOr use WINBACKNRF20 / SAFETYNRF25 / COVERNRF30 and receive:20%/25%/30% NoRisk FreeBet for your sports wagersYou bring the game — we’ll bring the value. It’s your playstyle, now upgraded.
+button: USE MY CODE
+default_name: friend
+
+=== Email 6S ===
+subject: 🔁 20% NoRisk FreeBet — Let the Next One Ride
+preheader: Miss the mark? We’ll return 20% on your next bet — use code WINBACKNRF20
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You’ve placed your first bet — now we’re giving you more room to play bold.Use code WINBACKNRF20 to activate a 20% NoRisk FreeBet — your next wager comes with built-in protection. If the result doesn’t go your way, we’ll return 20% of your stake — just like that.
+button: PLACE MY FREEBET
+default_name: friend
+
+=== Email 7C ===
+subject: 🔥 The biggest wins came from Next deposits
+preheader: Will you be the next big winner?
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Some of our biggest jackpot stories started with a Next deposit.There’s no trick — just another chance to play your favorite games and hit that golden spin.Are you ready to write your own win story?
+button: I’M BACK IN
+default_name: friend
+
+=== Email 7M ===
+subject: 🎉 Big Wins This Month — Over $120,000 Paid Out
+preheader: These players hit it big — see what they played and how much they won
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: The numbers are in — and this month brought some serious wins:r•y45 won $50,780 on The Dog House MegawaysUncn hit $41,300 on Book of Deadt•5s landed $31,920 on Fruit PartyThey made their move — and it paid off. Could the next big moment belong to you?
+button: PLAY NOW
+default_name: friend
+
+=== Email 7S ===
+subject: 🏁 Your 20% NoRisk FreeBet Is Live
+preheader: Play your next bet with confidence — 20% comes back if it misses
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Good news — use code WINBACKNRF20 to claim your 20% NoRisk FreeBet.Place your next sports bet, and if it doesn’t land, we’ll return 20% of your stake back to your balance.It’s simple, smart, and built to keep you in the game.
+button: PLACE MY FREEBET
+default_name: friend
+
+=== Email 8C ===
+subject: ⚡ 150% + 30 FS – Unleash the Stormforged power
+preheader: Strike hard with your Next deposit bonus
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Feel the thunder? That’s Stormforged calling.Use code FORGED150 on your Next deposit to unlock a 150% bonus + 30 Free Spins on Stormforged by Hacksaw Gaming electrifying slot.The gods are waiting — bring the storm.
+button: CLAIM MY BONUS
+default_name: friend
+
+=== Email 8M ===
+subject: 💵 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet
+preheader: Boost both casino and sports with one move
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: Your gameplay deserves more — and this combo delivers.On your next deposit, use code SAFE2CB2 / RETURN3CB3 / BOOST4CB4 to unlock:2%/3%/4% Cashback on your casino playOr use code WINBACKNRF20 / SAFETYNRF25 / COVERNRF30 to get:20%/25%/30% NoRisk FreeBet for your next sports betsIt’s smart, flexible, and designed to reward your style.
+button: CLAIM MY BONUS
+default_name: friend
+
+=== Email 8S ===
+subject: 🧲 30% NoRisk FreeBet — Your Edge on the Next Bet
+preheader: Miss your next bet? No worries — we’ll return 30% of your stake
+text_1 visible: Hello, {{customer.first_name | default:"friend"}}👋
+text_2 visible: You've stepped into the game — now it’s time to go further with extra backup.Place your next sports bet with a 30% NoRisk FreeBet with code ONLYWIN30.If it doesn’t go your way, you’ll get 30% of your stake back — no questions asked.
+button: BET WITH NO RISK
+default_name: friend
