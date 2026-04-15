@@ -1,6 +1,7 @@
-import json
+import json, os
 
-data = json.load(open('_texts_to_translate.json', 'r', encoding='utf-8'))
+base = os.path.dirname(os.path.abspath(__file__))
+data = json.load(open(os.path.join(base, '_texts_to_translate.json'), 'r', encoding='utf-8'))
 total = 0
 for fname, emails in data.items():
     n_fields = sum(len(em['fields']) for em in emails)
