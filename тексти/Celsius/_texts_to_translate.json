@@ -1,0 +1,5412 @@
+{
+  "DEP Retention - Table data.txt": [
+    {
+      "email": "Email 1C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💥 170% Bonus: Power Up Your Play Today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Look what's inside to help you win at the tables",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the floor is yours!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Why play on just your deposit when you can play with 170% more? We're supercharging your next top-up so you can stay in longer and chase bigger moments.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Enter SURGE170 before making your next deposit to unlock your 170% Bonus and turn your balance into a real advantage.The action is live at Celsius Casino — claim your 170% Bonus, pick your favorite table, and make your move with confidence.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BOOST YOUR BALANCE NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_4 (TEAM SIG - currently FR!)",
+          "en_text": "Celsius Casino Team.This is an automated message, please do not reply.",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🥊 20% NoRisk Free Bet: Strike Hard",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "The line is open — your risk-free edge is waiting",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, victory is within reach!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Nothing beats the rush of a winning bet — so we're backing your next move with a 20% NoRisk Free Bet, built to help you play with confidence.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "To activate, enter the promo code WINSAFE20 before making your next deposit. Your 20% NoRisk Free Bet will be ready to use right away.Explore the hottest matchups on Celsius Sport, lock in your favorite market, and take your shot while the odds are live.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SECURE MY BOOST",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚡ 150% + 70 Free Spins: Don't Wait to Grab Them",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your next big win is ready — are you?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the games are waiting!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Why sit on the sidelines when you could be stacking wins? Deposit now and level up with a 150% bonus + 70 Free Spins on Chaos Crew II by Hacksaw Gaming.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "To unlock it, add the promo code CREWBOOST150 first, then complete your deposit — your 150% bonus and 70 Free Spins are ready from the first spin.The action at Celsius Casino doesn't slow down. Jump into Chaos Crew II by Hacksaw Gaming and chase your next big hit.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM YOUR DOUBLE REWARD",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚽ 20% NoRisk Free Bet: It's Prime Time",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "The match of the day is calling — get in with protection",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the lights are on!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Prime Time is almost here — the biggest match of the day, high tension, and one moment can change everything. Get in before kickoff.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "To boost today's action, claim your 20% NoRisk Free Bet: add the promo code WINSAFE20 first, then complete your deposit to activate your 20% NoRisk Free Bet protection.Top up your bankroll, check the lineups, and make your play on Celsius Sport with a safety net behind you.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "GET MY NORISK BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💥 160% + 80 Spins: Grab Them and Feel the Rush",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Catch the perfect timing for your next big win today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, let's turn up the heat!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You've got the instinct — now strike while the timing is perfect. Claim a 160% bonus + 80 Free Spins on Wild West Gold by Pragmatic Play to supercharge your next session.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Enter the promo code GUNSLINGER160 before you deposit to unlock your 160% bonus and 80 Free Spins. Then jump straight into Wild West Gold by Pragmatic Play.The reels are primed at Celsius Casino — ready to start a winning run?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BOOST YOUR TEMPO NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚽ 170% Boost: Your Play, Your Script",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Take control of the game and write your own story",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, you call the shots!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Every match has a storyline — and today, you're writing it. To back your read from the first whistle to the final play, we're loading your next session with a 170% deposit bonus.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Input the promo code SURGE170 ahead of your deposit to unlock your 170% deposit bonus. Then head to Celsius Sport, scan the markets, and build your bet slip your way.The board is live — and your advantage is ready. Now script the result.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BOOST",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 170% Bonus: Instant Boost Activated",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your path to a big win just got a lot faster",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, get ready for more!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "When the games are running hot, speed wins. We're instantly loading a 170% bonus onto your next deposit — built to push your session further, faster. Remember to input BOOSTER170 ahead of your deposit to claim it.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Fuel your account and watch your balance take off at Celsius Casino. With 170% more, you can play longer, press harder, and chase the big multipliers.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START WINNING NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🚀 20% NoRisk Bet: Open, Activate, Win",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get straight to the heart of the action with no delays",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, no time to waste!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The biggest moments are live — and there's a faster way to jump in with an edge at Celsius Sport. No delays, just action with protection behind your play.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Your quick path: check the odds, apply the promo code WINSAFE20 before your deposit, then activate your 20% NoRisk Free Bet. That's 20% NoRisk Free Bet protection on your stake — built to keep you confident from first pick to final whistle.Three steps. One advantage. Let's get your streak started.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "ACTIVATE MY NORISK BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚡ 170% Boost: Unleash the Power",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Fuel your winning streak with extra firepower",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, step into the spotlight!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Ready to turn up the intensity? This week's biggest fixtures come with a 170% deposit bonus to power every pick you make.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "To activate your 170% deposit bonus, enter the promo code BOOSTER170 before topping up — your boost is instantly loaded.Whether you're building parlays or locking in sharp singles, the extra power gives you more room to play your strategy at Celsius Sport. Take control and let your edge surge with 170%.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BOOST",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚡ 160% + 80 Free Spins: Activate and Spin",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get straight to the winning part with instant rewards",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, why wait for the fun?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "We made it instant: you activate, you spin, you chase wins. Your next deposit at Celsius Casino unlocks a 160% bonus + 80 Free Spins on Wild West Gold by Pragmatic Play.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Just apply the promo code GUNSLINGER160 before topping up — no delays, no extra steps. Then hit Wild West Gold by Pragmatic Play and use your 80 Free Spins to hunt that next big multiplier.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "ACTIVATE MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚡ 20% NoRisk Free Bet: Your Advantage",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Follow the winning formula from promo to match",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, get the edge you need!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Why leave it to chance when you can play with an edge? Activate your promo, place your bet, and enjoy the match with protection behind your play.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Start by entering the promo code WINSAFE20, then make your deposit and unlock your 20% NoRisk Free Bet. Then head to Celsius Sport and choose your spot — the derby, the tactical clash, or the must-watch matchup.With 20% NoRisk Free Bet protection, you can trust your instincts and stay in control from kickoff to final whistle.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "GET MY ADVANTAGE",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🚀 180% Bonus + 80 Free Spins: Upgrade Your Entry",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See how to power up your next deposit in just a few clicks",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, it's time to level up!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Don't just join the game — take control. Your next deposit gets a serious upgrade: a 180% power-up + 80 Free Spins on Wanted Dead or a Wild by Hacksaw Gaming, built to launch your session fast.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Start by entering the promo code OUTLAW180, then make your deposit and jump into Wanted Dead or a Wild by Hacksaw Gaming at Celsius Casino. Your 180% boost and 80 Free Spins are ready from the first spin.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "GET MY POWER-UP NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 9C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💎 140% Bonus + 100 Free Spins: Why Wait?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Take the lead and secure your extra chances to win big",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, make today legendary.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The \"perfect moment\" doesn't arrive — you create it. Today, go bigger from the first spin with a 140% bonus + 100 Free Spins on Big Bamboo by Push Gaming. Just add the code GIANTPANDA100 first, then complete your deposit to unlock it.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Step into Celsius Casino with a boosted balance and 100 Free Spins ready to fire. Play longer, push deeper, and chase that jackpot with real momentum.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "GRAB MY BOOST",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 9S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎾 30% NoRisk Bet: Smart Viewing",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Combine your sports passion with a risk-free edge",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, it's time to play.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The best way to watch your favorite sport? With skin in the game — and protection on your stake. Today you get 30% NoRisk Free Bet coverage with ONLYSAFE30.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "Activate the promo, choose your market, and play with confidence: add the code ONLYSAFE30 first, then complete your deposit and unlock your 30% NoRisk Free Bet protection for today's action.At Celsius Sport, we bring the lines — you bring the strategy. Place your bet and make this match hit different.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY NORISK BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 10C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚡ 200 Free Spins: Ready to Spin?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get instant access to your premium slot reward today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your boost is here.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You're here for the thrill — so we kept it fast. Your 200 Free Spins on Gems Bonanza by Pragmatic Play are ready with your next deposit. Just enter the promo code GEMHUNT200 before depositing to unlock them and jump straight in.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "No searching, no hassle — just action at Celsius Casino. Top up, let the gems drop, and chase that big moment.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START SPINNING NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 10S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💥 30% NoRisk Free Bet: Grab It and Own the Line",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "A smarter way to bet on your favorite sports is right here",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, ready for the kick-off?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Make your next bet the smart one — with protection built in. Your 30% NoRisk Free Bet is live now, giving you more freedom to follow your read.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_3",
+          "en_text": "To lock it in, enter the promo code ONLYSAFE30 before making your deposit to activate your 30% NoRisk Free Bet.Head to Celsius Sport, scan the top fixtures, pick your winners, and play with a protected stake. Quick, simple, and ready when you are.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "ACTIVATE AND PLAY NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎡 Escape to the Wins: Last Week's Top Hits",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Leave the world behind and step into the winner's circle",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, ready to change the vibe?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Sometimes you don't need more noise — you need a better rush. At Celsius Casino, top players cashed out big last week:🏆 Lu••••7 – €52,300🏆 S•••••n – €35,900🏆 Bi•••••t – €19,400The tables are calling and the slots are ready.Switch off the stress and switch on the thrill at Celsius Casino — your seat is waiting.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START YOUR ESCAPE TODAY",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Weekly Winners: They Made the Right Call",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See who dominated the lines this week at Celsius Sport",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, will you be next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The last 7 days at Celsius Sport were big. Our sharpest bettors called it right and took home huge payouts:💰 Str•••••X – €42,810💰 Go•••••er – €31,200💰 Pa•••••ng – €19,450They didn't just watch — they made the play.The lines are live for the next matches, so pick your spot and place your bet.Your name could be next on this list.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SEE TODAY'S ODDS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🌟 Join the Elite: This Week's Hall of Fame",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See who dominated the reels and claim your spot at the top",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, it's your time to shine!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The momentum is unreal — and the biggest wins are happening right now at Celsius Casino. Here are the latest champions:🏆 Ja••••g – €61,200🏆 Sp••••r – €42,800🏆 Eli••••er – €24,100The machines are hot and the cards are dealt — the next headline could be yours.Step in, embrace the thrill, and play at Celsius Casino.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START YOUR JOURNEY NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 They Won Big on Sports — Now It's Your Turn",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See the top payouts of the week and pick your winning match",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the leaderboard is waiting!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Last week, these players trusted the numbers, hit the right moment, and cashed out big:💰 G••••er88 – €45,600💰 O•••••ero – €32,150💰 Be••••rd – €18,700Now the board is refreshed and the next matches are live on Celsius Sport. The odds are up, the markets are moving, and this is your window.Pick your matchup, back your instincts, and make your move — your name should be next on the winner's list.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PICK A MATCH AND BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    }
+  ],
+  "FTD Retention Flow - Table data.txt": [
+    {
+      "email": "Email 1C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🐍 The sands are shifting — unlock 100% + 50 FS",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Next deposit bonus for Hand of Anubis is ready",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve stepped into the game — now it’s time to go deeper.Use code ANUBIS10050 on your Next deposit to unlock a 100% bonus + 50 Free Spins in Hand of Anubis by Hacksaw Gaming.Ancient power meets modern thrill — are you ready to spin?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎮 Your Second Step? Casino Bonus or NoRisk Sports Bet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Choose how you want to continue — spins, bets, or both",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve made your first deposit — now let’s keep the momentum going.Here’s what’s on the table for your next move:A 100% Bonus + 50 Free Spins in Hand of Anubis by Hacksaw Gaming for casino lovers — use code ANUBIS10050A 20% NoRisk FreeBet for your next sports wager — use code WINBACKNRF20Double down in the casino or play it smart in the sportsbook — either way, you’re backed.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CONTINUE PLAYING",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 20% NoRisk FreeBet Is Active for You",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get 20% of your bet back if things don’t go your way — only after your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve made your first deposit — now it’s time to bet smart.Use code WINBACKNRF20 and enjoy a 20% NoRisk FreeBet on your next wager.If the outcome isn’t in your favor, we’ll return 20% back to your balance. Simple as that.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE MY FREEBET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Your next spin might be the big one",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "One more deposit could turn the odds in your favor",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The reels don’t wait — and neither do the wins.Thousands of players are spinning every hour. Some leave with a thrill… others with a jackpot.Your Next deposit is all it takes to be back in the game.No pressure — just pure adrenaline.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY AGAIN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 100% + 60 FS or 20% NoRisk FreeBet — Your Choice",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Casino or Sports? Get a matched bonus + Free Spins or play safe with NoRisk",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Now that your first deposit is behind you — let’s take it further.Choose how you want to boost your play next:Code DOG10060 — 100% Bonus + 60 Free Spins in The Dog House Megaways by Pragmatic Play if you’re spinning the reelsCode WINBACKNRF20 — 20% NoRisk FreeBet if you’re backing your pick on the fieldWhichever way you go, your next win starts here.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Missed Your Bet? Get 20% Back",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your 20% NoRisk FreeBet is live — keep playing with confidence",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "In sports, not every bet lands — but we’ve got your back.Place your next wager with code WINBACKNRF20 and get a 20% NoRisk FreeBet.If it doesn’t go your way, we’ll return 20% back to your account. No stress, just smart play.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE MY FREEBET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🍓 140% + 50 FS – Join the Fruit Party",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Sweeten your Next deposit with this juicy bonus",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Ready for something sweet?Use code PARTY140 on your Next deposit and get a 140% bonus + 50 Free Spins in Fruit Party by Pragmatic Play.This game’s bursting with color — and payout potential.Let’s get those reels rolling!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "GRAB MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get boosted in both casino and sports",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Your next deposit unlocks a dual reward — no matter what you play.Use code SAFE2CB2 / RETURN3CB3 / BOOST4CB4 and receive:2%/3%/4% Cashback on casino activityOr use code WINBACKNRF20 / SAFETYNRF25 / COVERNRF30 to get:20%/25%/30% NoRisk FreeBet for your sports betsYou choose how to play — and we’ll make sure it pays back.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "USE MY CODE",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🧲 20% NoRisk FreeBet — Stay in the Game",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Win or not, your next bet comes with 20% back — use code WINBACKNRF20",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Your first deposit unlocked a safety net — don’t let it go to waste.Use code WINBACKNRF20 to activate the 20% NoRisk FreeBet and place your next wager knowing we’ll cover part of it if it doesn’t land. Simple, smart, and hassle-free betting.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE MY BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🧁 Go full dork – 110% + 50 FS inside",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Dork Unit is waiting with a bonus that’s anything but silly",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve unlocked access to one of the quirkiest hits out there.Use code DORK50110 on your Next deposit and get a 110% bonus + 50 Free Spins in Dork Unit by Hacksaw Gaming.Don’t let the name fool you — this slot packs serious win potential.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "ACTIVATE MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💸 $100,000+ Won Last Week — Will You Join the List?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Check out the latest big wins from real players and real games",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The reels were hot last week — and here’s who made the most of them:l•88 won $47,230 on Sweet Bonanzav•01 hit $35,910 on Money Train 3B•in landed $18,450 on Gates of OlympusThese are real wins from real players who spun just like you.So… ready to see your name up there next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SPIN TO WIN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💼 25% NoRisk FreeBet — You’re Covered",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Place your next bet and get 25% back if it doesn’t go your way",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve already made your first deposit — now it’s time to bet with confidence.Use code SAFETYNRF25 to activate a 25% NoRisk FreeBet — your next wager comes with a safety net. If the result doesn’t go your way, we’ll return 25% of your stake back to your balance.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE MY FREEBET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🍭 Get 100% + 80 FS on Sweet Bonanza",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Next deposit bonus just got a whole lot sweeter",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get ready for a sugar rush.Use code BONANZA10080 on your Next deposit and get a 100% bonus + 80 Free Spins on Sweet Bonanza by Pragmatic Play.Juicy payouts, high volatility, and plenty of surprises — what’s not to love?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY SWEET BONANZA",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🪙 100% + 70 FS or 20% NoRisk FreeBet — Take Your Pick",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Casino or sports — your second-step bonus is ready either way",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’re past your first deposit — now it’s time to boost your next move.Here’s what’s waiting for you:🎰 With code CHAOS10070 — 100% Bonus + 70 Free Spins in Chaos Crew II by Hacksaw Gaming for casino lovers⚽ With code WINBACKNRF20 — 20% NoRisk FreeBet if you’re all about the oddsWhichever way you play, there’s a reward tailored to your game.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CHOOSE MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏅 30% No Risk Only Win — It’s On",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Play with confidence — your next bet comes with a 30% safety net",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve already made your first move — now take your shot with confidence.Enjoy a 30% No Risk Only Win bonus on your next sports bet with code ONLYWIN30.If it doesn’t go your way, we’ll return 30% of your stake. No pressure — just pure play.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE MY FREEBET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "📜 100% + 150 FS – Enter the Tome of Madness",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Boost your deposit and spin through the secrets",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Ready to uncover dark treasures?Use code RICH100150 on your Next deposit and receive a 100% bonus + 150 Free Spins in Rich Wilde and the Tome of Madness by Play’n Go.Arcane power. Mysterious symbols. Endless adventure.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY FREE SPINS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💰 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Play smart with Cashback on casino and NoRisk FreeBet on sports",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Ready for more from every spin and bet? Your next deposit with code SAFE2CB2 / RETURN3CB3 / BOOST4CB4 gives you:2%/3%/4% Cashback on your casino playOr use WINBACKNRF20 / SAFETYNRF25 / COVERNRF30 and receive:20%/25%/30% NoRisk FreeBet for your sports wagersYou bring the game — we’ll bring the value. It’s your playstyle, now upgraded.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "USE MY CODE",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🔁 20% NoRisk FreeBet — Let the Next One Ride",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Miss the mark? We’ll return 20% on your next bet — use code WINBACKNRF20",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve placed your first bet — now we’re giving you more room to play bold.Use code WINBACKNRF20 to activate a 20% NoRisk FreeBet — your next wager comes with built-in protection. If the result doesn’t go your way, we’ll return 20% of your stake — just like that.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE MY FREEBET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🔥 The biggest wins came from Next deposits",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Will you be the next big winner?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Some of our biggest jackpot stories started with a Next deposit.There’s no trick — just another chance to play your favorite games and hit that golden spin.Are you ready to write your own win story?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "I’M BACK IN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎉 Big Wins This Month — Over $120,000 Paid Out",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "These players hit it big — see what they played and how much they won",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The numbers are in — and this month brought some serious wins:r•y45 won $50,780 on The Dog House MegawaysUncn hit $41,300 on Book of Deadt•5s landed $31,920 on Fruit PartyThey made their move — and it paid off. Could the next big moment belong to you?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏁 Your 20% NoRisk FreeBet Is Live",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Play your next bet with confidence — 20% comes back if it misses",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Good news — use code WINBACKNRF20 to claim your 20% NoRisk FreeBet.Place your next sports bet, and if it doesn’t land, we’ll return 20% of your stake back to your balance.It’s simple, smart, and built to keep you in the game.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE MY FREEBET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚡ 150% + 30 FS – Unleash the Stormforged power",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Strike hard with your Next deposit bonus",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Feel the thunder? That’s Stormforged calling.Use code FORGED150 on your Next deposit to unlock a 150% bonus + 30 Free Spins on Stormforged by Hacksaw Gaming electrifying slot.The gods are waiting — bring the storm.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💵 2%/3%/4% Cashback + 20%/25%/30% NoRisk FreeBet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Boost both casino and sports with one move",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Your gameplay deserves more — and this combo delivers.On your next deposit, use code SAFE2CB2 / RETURN3CB3 / BOOST4CB4 to unlock:2%/3%/4% Cashback on your casino playOr use code WINBACKNRF20 / SAFETYNRF25 / COVERNRF30 to get:20%/25%/30% NoRisk FreeBet for your next sports betsIt’s smart, flexible, and designed to reward your style.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🧲 30% NoRisk FreeBet — Your Edge on the Next Bet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Miss your next bet? No worries — we’ll return 30% of your stake",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You've stepped into the game — now it’s time to go further with extra backup.Place your next sports bet with a 30% NoRisk FreeBet with code ONLYWIN30.If it doesn’t go your way, you’ll get 30% of your stake back — no questions asked.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BET WITH NO RISK",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    }
+  ],
+  "Failed Deposit Flow - Table data.txt": [
+    {
+      "email": "Email 1",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "😟 Looks like something bad happened",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "We’re here to help",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🔴 Still seeing trouble with your deposit?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Need a hand? Your personal manager is on the way",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "RE: Unsuccessful deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🤗 We love you!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get 20 FS on your deposit!",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "RE: Need help",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "How it’s going?",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    }
+  ],
+  "Nutrition #2 - Table data.txt": [
+    {
+      "email": "Email 1CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 100% Bonus + 50 Free Spins on Hand of Anubis",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your next deposit brings twice the action and 50 extra spins",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the reels are calling!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Top up for your Next deposit today with code UNDERDOG50 and enjoy a 100% bonus plus 50 Free Spins on Hand of Anubis by Hacksaw Gaming.Play your favorite slots, hit those wins, and make every spin matter. The clock’s ticking – let’s make this round unforgettable! 🐕Claim your reload boost:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 100% Bonus + 50 Free Spins: Your Second Spin!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Double the thrill on your next deposit — claim your reward today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the reels are calling!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Top up for your Next deposit today, enter code UNDERDOG50 and enjoy a 100% bonus plus 50 Free Spins on Hand of Anubis by Hacksaw Gaming.Play your favorite slots, hit those wins, and make every spin matter. The clock’s ticking – let’s make this round unforgettable! 🐕Claim your reload boost:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 20% NoRisk FreeBets up to €500 Waiting",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your winning moment is just one bet away — risk-free",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, enjoy the thrill of the game without the worry.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get 20% NoRisk FreeBets up to €500 and turn every prediction into a winning chance with code CLEARSHOT20.Place your bets and feel the rush! 🏟️Make your prediction:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BET NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 €325,000 Won Last Week: See the Winners",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See last week’s biggest wins — you could be next",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, last week was a jackpot dream come true:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "🔥 Fi••••65y - €145,320🔥 le••d4• - €110,780🔥 A••••in43 - €69,200Three players, three massive wins. Will you be next on the winners’ list?Spin for your own big win:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SPIN & WIN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 €325,000 Won Last Week: Are You Next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See last week’s biggest slot wins and get inspired",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, last week was a jackpot dream come true:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "🏆 Alex••••y - €145,320🏆 l••677 - €110,780🏆 i66••••7n - €69,200Three players, three massive wins — all from spinning their favorite slots. Will you be next on the winners’ list? 🌟Spin for your own big win:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SPIN & WIN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚽ Secure Your Bet: 20% NoRisk FreeBets",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your safest bet starts today with up to €500 covered",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, step onto the field with confidence.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "With 20% NoRisk FreeBets up to €500, even a missed shot won’t stop your winning run. Code for you — CLEARSHOT20.The odds are calling — place your bet now! 🥅Get your safety net:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BET NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🃏 100% Live Casino Bonus: Double Your Play",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your next deposit brings twice the excitement at the tables",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the cards are ready, the dealers are waiting.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code MATCH100 and get a 100% bonus on your next top-up.Step into the action and make every hand count! ♠️Join the table:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "JOIN THE TABLE",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🔮 200% Bonus + 50 Free Spins on Tome of Madness",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Rich Wilde’s next adventure awaits you — triple your balance now",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, step into the world of Rich Wilde.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code OCCULT200 and get a 200% bonus plus 50 Free Spins on Rich Wilde and the Tome of Madness by Play'n Go to uncover hidden treasures.Are you ready to turn the pages of fortune? The book is open. 📖Open the book of wins:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🥇 Bet up to €500 Risk-Free: 20% Bonus",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Even the boldest bets are covered with our NoRisk offer",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, bet big without the fear of losing.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "With 20% NoRisk FreeBets up to €500, you’re always in the game. Enter code CLEARSHOT20.Make your move — victory could be just one bet away! 🏆Place your protected bet:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE YOUR BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Live Casino Winners: Big Payouts Last Week",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See who walked away with huge wins from the tables",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the Live Casino tables were on fire last week:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "💎 Dt••••s – €49,800💎 e•••95 – €33,420💎 ••p•••sh•• – €21,760Your name could be next on the winners’ board. Join the tables and make your move!Play live now:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY LIVE NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 100% Bonus + 50 FS on Hand of Anubis",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your next deposit gets you more fun and more chances to win",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, let’s make your next spin twice as exciting:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get a 100% bonus plus 50 Free Spins on Hand of Anubis by Hacksaw Gaming with code UNDERDOG50 when you top up.More balance, more spins, more chances to hit something big — are you in? 🐾Double your balance now:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏅 20% NoRisk FreeBets: We Got Your Back",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Take the shot with up to €500 coverage on your bet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, step up to the action with zero pressure.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Enjoy 20% NoRisk FreeBets up to €500 and turn every wager into a winning chance with code CLEARSHOT20.No fear, just pure adrenaline. 🔥Start betting risk-free:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START BETTING",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💎 200% Live Casino Bonus: Triple Your Balance",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your next Live Casino session just got bigger and better",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, take your place at the Live Casino tables and play with triple the power.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code ROCKET200 and get a 200% bonus on your next top-up.The action is live — are you ready to join? 🚀Boost your balance:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY LIVE NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "📚 200% Bonus + 50 FS: Triple Your Balance!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Step into Rich Wilde’s adventure and claim your rewards on your deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your next deposit could open the gates to fortune:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get a 200% bonus plus 50 Free Spins for Rich Wilde and the Tome of Madness by Play’n GO with code OCCULT200.The reels are ready — are you brave enough to face the madness? 👁️Uncover the secret treasures:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏟 Big Sports Wins Last Week: See the Scores",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See who scored big — will you be next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, check out the top 3 bettors who cashed in last week:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "🏆 se•••54 – €48,200🏆 Ra••34•• – €32,900🏆 H••••a – €26,400Your winning ticket could be just one bet away. 🎫Place your winning bet:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE YOUR BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Top 3 Winners Last Week: Check the List",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See how much our top 3 players took home recently",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, last week was incredible:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "💰 se•••s – €48,200💰 M8•••7 – €32,750💰 g•••ns – €27,460Three lucky spins, three life-changing prizes. Will we see your name on this week’s list?Try your luck today:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Huge Jackpot Wins Last Week: Check This Out",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See how much our top 3 players took home recently",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, last week was incredible:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "💰 ses – €48,200💰 M87 – €32,750💰 g•ns – €27,460Three lucky spins, three life-changing prizes. Will we see your name on this week’s list?Try your luck today:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 20% NoRisk FreeBets: Your Second Chance",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Take your shot – we’ll cover you up to €500",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, it’s your move.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Enjoy 20% NoRisk FreeBets up to €500 and play without second thoughts with code CLEARSHOT20.Every prediction brings you closer to the win. ⚽Claim your cover:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START BETTING",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎩 210% Live Casino Boost: Exclusive Offer",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Triple the excitement at the Live Casino on your next deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, step into the Live Casino and play with unmatched power.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code BLAST210 and get a 210% bonus on your next top-up.The dealers are ready — your winning streak starts now. 🎲Claim your exclusive boost:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY LIVE NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💰 3 Massive Winners Last Week — Why Not You?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "3 players. 3 wins. Your name could be next on the list",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, here’s who struck gold last week:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "🥇 Li•••n8• – €45,320🥈 a••7tz – €38,940🥉 h••••in – €26,580Your name could be on the next list of champions. All it takes is one lucky spin! 🎰Join the winners' circle:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏇 Bet Boldly: 20% NoRisk FreeBets Active",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Bet up to €500 without the fear of losing",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, get in on the action!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get 20% NoRisk FreeBets up to €500 with code CLEARSHOT20.Whether it’s football, tennis, or racing – your bet is backed. No risk, all thrill. 🏁Start your winning ride:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE YOUR BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💥 220% Bonus: Power Up Your Live Session",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "More chips, more chances, more wins on your next deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the Live Casino floor is calling.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code BOOSTED220 and get a 220% bonus on your next top-up.Your seat is waiting — let’s make every hand count! 🔴⚫Get your 220% bonus:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "JOIN THE TABLE",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 Claim 100 Free Spins on Legacy of Dead",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Step into the tombs and claim your wins on your next deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the reels of Legacy of Dead are calling.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code PHARAOH100 and unlock 100 Free Spins on Legacy of Dead by Play'n Go to explore hidden treasures.Your adventure begins with a single spin — ready to start? 🏺Enter the tomb of wins:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM FREE SPINS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 20% NoRisk FreeBets: Win or Get Refunded",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your safety net is waiting — bet up to €500 risk-free",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, step into the game!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Play with 20% NoRisk FreeBets up to €500. Your code: CLEARSHOT20.Miss? We’ve got you covered.Hit? The winnings are all yours.The safest way to chase the thrill is here. 🛡️Claim your freebets:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM FREEBETS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    }
+  ],
+  "Nutrition #3 - Table data.txt": [
+    {
+      "email": "Email 1CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎲 Boost Your Live Game with 150% Bonus",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your next top-up comes with 150% extra chips for the tables",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your third deposit is your chance to turn the tables.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Top up now with code VAULT150 and get a 150% bonus to play longer, bet bigger, and aim higher at the Live Casino tables.Your winning seat is waiting — let’s make this one count. ♠️Boost your stack:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 200% Bonus + 50 FS: Third Time’s a Charm!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Boost your play on your third deposit and dive back into your favorite slots",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your third deposit could be the most thrilling yet!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get a 200% bonus plus 50 Free Spins on Rich Wilde and the Tome of Madness by Play'n Go.Use code OCCULT200 to unlock the secrets. This is your moment to go bigger, spin bolder, and aim for that next big win! 🐙Claim your triple boost:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Ready for Your Third Winning Streak?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Bet smart – win up to €500 risk-free on your next deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, you’ve already proven you’re in the game. Now it’s time to make your third deposit count.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get 20% NoRisk FreeBets up to €500 with code STEADY20 and take your predictions to the next level.The field is yours — are you ready to play big? 🏟️Place your risk-free bet:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE YOUR BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Live Casino Legends: Last Week's Top Wins",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See who ruled the tables — will you be next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the Live Casino tables were on fire last week:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "🔥 Ln4s••• – €49,820🔥 tin•••66 – €34,470🔥 n•••tz – €25,960Three players, three incredible runs — all from bold moves and smart plays. Will your name be on next week’s leaderboard?Join the winners:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY LIVE NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Slot Champions Last Week: Who Won Big?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Meet last week’s biggest slot winners and see the payouts",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, here’s how the reels treated our champions:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "👑 mu••••n65 – €48,940👑 Z3•••ky• – €36,280👑 p••••sh – €29,760They made their spins count — and so can you. Will your name top next week’s list?Spin for glory:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SPIN & WIN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚽ Your Next Win Could Be Risk-Free!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get 20% NoRisk FreeBets up to €500 on your third deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, you’ve been playing strong — now it’s time for round three.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Make your third deposit, use code STEADY20 and get 20% NoRisk FreeBets up to €500. Even a missed shot won’t slow you down.Take the field and show them who’s boss. 👟Bet with confidence:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BET NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🃏 Triple Your Chips + 50 Free Spins!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "The Live Casino floor is ready for you with a massive bonus",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, step into the action and take your game further.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit now with code OCCULT200 and get a 200% bonus plus 50 Free Spins in Rich Wilde and the Tome of Madness by Play'n Go to enjoy after the cards are dealt.Your moment is here — let’s play in style. 🎩Claim the combo pack:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "✨ Go Big: 200% Bonus + 50 Free Spins",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your third deposit unlocks more balance and more spins",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, it’s time to level up your game.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Your third deposit unlocks a 200% bonus and 50 Free Spins in Rich Wilde and the Tome of Madness by Play'n Go.More balance, more spins, and more chances to uncover the madness. Enter code OCCULT200. 📖Level up your balance:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏅 Your Third Deposit Just Got Safer",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Bet big, risk less – up to €500 covered by us",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your winning run is just getting started.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "With your third deposit, enjoy 20% NoRisk FreeBets up to €500 — so you can play bold without looking back. Code for you — STEADY20.One bet could be all it takes. 🏆Secure your bet:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE YOUR BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 170% Boost: Own the Tables Today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your next hand could change everything with more chips",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, it’s time to play bigger and bolder.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code RISEUP170 and grab a 170% bonus for your next Live Casino session.More chips mean more chances to turn the game in your favor. 🔴⚫Increase your stake:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY LIVE NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 3 Spins, 3 Fortunes: Check the Winners",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See last week’s slot jackpot stars and get inspired",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, fortune smiled on these players last week:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "💎 a•••76 – €42,510💎 fad•••77 – €29,930💎 Gg••••h6 – €24,930Three spins, three jackpots. Could the next lucky streak be yours?Try your luck:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏅 Play Fearless: Your Third Deposit is Covered",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Claim 20% NoRisk FreeBets up to €500 today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your third deposit comes with extra confidence.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get 20% NoRisk FreeBets up to €500 with code STEADY20 and make every wager count.No hesitation, just pure action. 🔥Start betting safely:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START BETTING",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Meet Last Week’s Live Casino Champions",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "3 players. 3 massive wins. Your turn next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, here’s who conquered the Live Casino tables last week:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "🥇 j89••• – €47,250🥈 oz•••66z• – €36,180🥉 R••••er – €24,940Your skills could make you the next big winner — are you ready to take the seat?Challenge the dealer:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY LIVE NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💎 Your Name Belongs on the Winner List",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See how our latest champions won big last week",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the jackpot board lit up last week:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "🔥 ozz – €49,210🔥 Dts•• – €30,470🔥 e•nz – €25,660All it takes is one lucky spin — your moment could be next. 🎰 Spin for the jackpot:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SPIN & WIN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏟 See Last Week’s Sports Champions",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Make your third deposit and join the winners’ list",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your third deposit comes with extra confidence.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "💰 se••••9s – €48,200💰 M87•••• – €32,900💰 l••••na88 – €26,400Your third deposit could be the one that puts your name up here next week. 🎫Make your move:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE YOUR BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎩 170% Boost For Your Next Session",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Play Live Casino with extra power on your third deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, let’s make your third deposit unforgettable.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code RISEUP170 and get a 170% bonus to enjoy longer play and bigger stakes at the Live tables.Your moment starts now. 🎲Power up your play:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🪄 Magic Deal: 200% Bonus + 50 FS",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "More balance and more spins for your third deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your third deposit is your ticket to bigger thrills.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get 200% extra balance plus 50 Free Spins in Rich Wilde and the Tome of Madness by Play'n Go to keep the reels spinning.Your code — OCCULT200. Every spin is another shot at something spectacular. ✨Unlock the magic:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Third Deposit? We’ve Got You Covered!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Bet with 20% NoRisk FreeBets up to €500 now",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, keep the momentum going with your third deposit.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Enjoy 20% NoRisk FreeBets up to €500 with code STEADY20 and bet without second thoughts.One step closer to your next big win. 🥅Claim your cover:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BET NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💰 170% Bonus + 30 Free Spins Inside",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Take your Live game to the next level and get extra spins",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, here’s your chance to boost your balance and enjoy some spins after.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code COWBOY170 and get 170% extra chips + 30 Free Spins in Wild West Gold by Pragmatic Play for a perfect blend of Live excitement and slot fun.The tables are waiting — will you join? 🌵Claim your chips & spins:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎲 Upgraded Bonus: 170% + 30 Free Spins",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your third deposit now comes with a Wild West power-up",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your third deposit now comes with a sheriff's badge:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Get 170% extra + 30 Free Spins in Wild West Gold by Pragmatic Play with code COWBOY170.The saloon doors are open and the reels are waiting — are you ready to take them on? 🤠Saddle up for wins:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏇 Your Third Deposit: Go All The Way",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "20% NoRisk FreeBets – no fear, all thrill on your bets",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the race isn’t over yet.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Make your third deposit and get 20% NoRisk FreeBets up to €500 with code STEADY20.Whether it’s football, tennis, or racing – your winning ride starts now. 🏎️Start your engine:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE YOUR BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8CL",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎲 170% Boost to Rule the Live Casino",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "More chips. More chances. More wins on your third deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, the third deposit is your moment to strike.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Deposit with code RISEUP170 and get 170% extra chips to play bigger, last longer, and aim for the top.Your seat is ready — the action starts now. 🚀Join the high rollers:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "JOIN THE TABLE",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8CS",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏺 200% Bonus + 50 FS on Tome of Madness",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Step into the tomb and claim your treasures on your third deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, your next spin could uncover ancient riches.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Make your third deposit with code OCCULT200 and get 200% bonus + 50 Free Spins in Rich Wilde and the Tome of Madness by Play'n Go.It’s time to explore the tombs and claim what’s yours. 👁️Start the adventure:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Play Smart on Your Third Deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Win without the risk – up to €500 covered for you",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "{{...}}, make your third deposit and step into the game with confidence.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "With 20% NoRisk FreeBets up to €500, a miss won’t cost you – but a win could be huge. Code for you – STEADY20.Your safest way to chase the thrill is here. 🛡️Grab your freebets:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM FREEBETS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    }
+  ],
+  "SU Retention - Table data.txt": [
+    {
+      "email": "Email 1C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 100% Bonus + 150 FS Waiting: Grab It Now!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your welcome bonus hasn’t gone anywhere — make your first deposit today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve explored Celsius, now it’s time to take the first real step. Make your first deposit and get a 100% Bonus plus 150 Free Spins on Razor Shark by Push Gaming with code FINTASTIC150.Your welcome pack is still active and waiting for you to grab it. Don't let it sit there! 🚀Activate your rewards instantly:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 Get 100% Bonus + 150 FS + 15% FreeBet!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Make your first deposit and get both casino spins and NoRisk FreeBet bonus",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Not sure where to start — casino or sports? No need to choose.Your first deposit unlocks a 100% Bonus + 150 Free Spins on Razor Shark by Push Gaming for casino with code FINTASTIC150, AND a 15% NoRisk FreeBet for sports betting with code EARNNRF15X.Dive deep into the wins or bet on your favorite team — you’re covered from the first move. 🦈Claim the full package:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 15% NoRisk FreeBets: Your Safety Net is Ready",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "You’ve joined — now make your move with 15% FreeBets on your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve signed up and checked out the platform — now it’s time to get off the bench and into the game.Make your first deposit with code EARNNRF15X and we’ll back you with a 15% NoRisk FreeBets Bonus. If it doesn’t go your way, we’ve got your back. 🤝Kick off the action here:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 Claim Your 100% Bonus + 150 FS Today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Make your first deposit now and claim your welcome pack while it’s active",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Your Celsius welcome bonus is still reserved for you: 100% Bonus and 150 Free Spins on Razor Shark by Push Gaming on your first deposit with code FINTASTIC150.If you’re ready to start playing for real — now’s the perfect time to hit the tables. 🃏Click below to claim your pack:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎮 100% Bonus + 150 FS + 4% Cashback: All Yours",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "First deposit brings you spins, a bonus, and Cashback — all in one go",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Still thinking where to start — casino or sports? Why not both?Make your first deposit and get:100% Bonus + 150 Free Spins on Razor Shark with code FINTASTIC1504% Cashback on your sports bets with code CASHPLUS4.One deposit unlocks both sides of the game — and gives you the flexibility to play your way. 🎲Unlock both bonuses now:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🔁 Claim Your 4% Sports Cashback Today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get 4% back on your sports bets starting with your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve already grabbed your sports bonus — now it’s time to make your first move.Use code CASHPLUS4 on your deposit and activate your 4% Cashback on all your sports bets. Win or lose, part of the action comes back to you. 💸Secure your cashback now:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💥 Your 140% Deposit Bonus is Ready",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Don’t miss your chance to start strong — your boost is active",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve joined and explored, now it’s time to level up. 🆙Make your first deposit and get a 140% Bonus — the welcome boost built to kick off your Celsius journey the right way.Use code: POWER140Boost your balance now:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 140% Casino Bonus or 15% FreeBet: You Pick",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Use your code to choose between casino or sports — your first deposit opens both paths",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Whether you’re into reels or real-time odds — your first deposit gets you a tailored start:• Use code POWER140 for a 140% Bonus in casino• Use code EARNNRF15X for a 15% NoRisk FreeBet in sports bettingIt’s your choice how to begin — either way, you get a real boost from the very first move. 🚀Select your winning path:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Your 15% NoRisk FreeBet is Waiting",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Unlock your safety net on your first deposit and bet with confidence",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve claimed your sports bonus — now make it count.Use code EARNNRF15X on your first deposit and unlock a 15% NoRisk FreeBet. Place your first wager with confidence — we’ve got your back if the score doesn’t go your way. 🛡️Grab your free bet:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🍭 130% Bonus + 70 FS on Sweet Bonanza",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your first deposit unlocks a tasty bonus — ready when you are",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’re almost there. Your Celsius welcome offer is looking sweet! 🍬Get a 130% Bonus + 70 Free Spins on Sweet Bonanza. It's still active and waiting for your first deposit. Don’t miss out on this tasty start.Use code: CANDYDROP70Get your sugar fix here:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🍭 130% + 70 FS on Sweet Bonanza — Or Sports?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Start with a tasty casino boost or choose your own path in sports",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You haven’t made your first deposit yet — but when you do, you’ve got options.• Want to spin? Use code CANDYDROP70 and get a 130% Bonus + 70 Free Spins on Sweet Bonanza. 🍬• Prefer betting? Head to the sportsbook and pick your promo when you're ready.Casino or sports — start your journey where it feels right.Pick your welcome offer:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🔄 4% Cashback on Every Bet: Active Now",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your first deposit unlocks 4% back on all sports action",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve already grabbed your bonus — now it’s time to put it in play.Use code CASHPLUS4 on your first deposit and activate 4% Cashback on all your sports bets. More action, less risk — every bet pays back. ⚽Get back in the game:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 140% First Deposit Bonus: Offer Ending Soon?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your welcome boost is still active — 140% bonus on your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve completed the first steps — now it’s time to play for real.Make your first deposit and grab a 140% Bonus to kick things off strong. The offer’s ready — are you? 🎱Use code: POWER140Start your winning streak:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 140% Casino Bonus or 15% FreeBet?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Pick the start that fits your game: casino boost or sports safety net",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’re just one step away from kicking things off — and you choose how to begin:• Prefer the reels? Use code POWER140 for a 140% Casino Bonus on your first deposit.• Into sports? Use code EARNNRF15X to activate a 15% NoRisk FreeBet.Your welcome bonus is ready — all that’s left is to make your first move. ⚖️Claim your preferred bonus:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🛡️ Protect Your Bets: 15% NoRisk FreeBet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Start betting with peace of mind on your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve secured your sports bonus — now take the next step.Use code EARNNRF15X on your first deposit and unlock a 15% NoRisk FreeBet. Whether your first bet wins or not, you're protected either way. 🥅Play with a safety net:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💸 Over $100,000 Won Last Week — You In?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Real players, real wins — check out last week’s top slot hits",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Big things happened last week on the reels — and here’s the proof:🏆 rik••••64 won $46,870 on Gates of Olympus🏆 m••••n hit $36,240 on Sugar Rush🏆 t•••y landed $32,905 on Wanted Dead or a WildThese wins were real. The players were real. And your chance? It’s just one spin away.Join the winners' circle:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "JOIN NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 140% Casino Bonus or 15% FreeBet?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Pick the start that fits your game: casino boost or sports safety net",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’re just one step away from kicking things off — and you choose how to begin:• Prefer the reels? Use code POWER140 for a 140% Casino Bonus on your first deposit.• Into sports? Use code EARNNRF15X to activate a 15% NoRisk FreeBet.Your welcome bonus is ready — all that’s left is to make your first move. ⚖️Claim your preferred bonus:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🛡️ Protect Your Bets: 15% NoRisk FreeBet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Start betting with peace of mind on your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve secured your sports bonus — now take the next step.Use code EARNNRF15X on your first deposit and unlock a 15% NoRisk FreeBet. Whether your first bet wins or not, you're protected either way. 🥅Play with a safety net:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 140% Bonus + 80 FS on Chaos Crew II",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Unlock your welcome pack and unleash the chaos on your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve already joined — now it’s time to start winning.Make your first deposit and use code CHAOSCTRL80 to get a 140% Bonus plus 80 Free Spins on Chaos Crew II. It’s the perfect moment to jump in and play with a real edge. 🤘Unleash the chaos:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 140% + 80 FS or 20% FreeBet: Your Choice",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Two ways to start on your first deposit — unleash chaos or bet safely",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Your welcome path is still open — and you can take it in the direction that suits you best:• Want to start with slots? Use code CHAOSCTRL80 and get a 140% Bonus + 80 Free Spins on Chaos Crew II. 💀• Prefer betting? Use code WIN20NRF to claim a 20% NoRisk FreeBet on your first deposit.You only need one move to unlock either offer — the choice is yours.Start your journey here:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏁 Start Strong: 20% NoRisk FreeBet Ready",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Activate your safety net on your first deposit today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve got the bonus — now take the shot. 🏀Make your first deposit with code WIN20NRF and activate a 20% NoRisk FreeBet. It’s the easiest way to enter the game with total confidence.Unlock your 20% protection:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💥 Jackpot Hits Keep Coming — Are You Next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See what players won last week — real spins, real wins, real games",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve seen what Celsius is about — now here’s what happened just last week:💰 H••H55 won $44,190 on The Dog House Megaways💰 y•••54 hit $28,670 on Sweet Bonanza💰 Da••••K33d landed $13,520 on Book of DeadThese are real wins from real players. All that’s missing now is your first spin. 🎰Take your shot at the jackpot:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 140% + 80 FS or 20% FreeBet: Your Choice",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Two ways to start on your first deposit — unleash chaos or bet safely",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Your welcome path is still open — and you can take it in the direction that suits you best:• Want to start with slots? Use code CHAOSCTRL80 and get a 140% Bonus + 80 Free Spins on Chaos Crew II. 💀• Prefer betting? Use code WIN20NRF to claim a 20% NoRisk FreeBet on your first deposit.You only need one move to unlock either offer — the choice is yours.Start your journey here:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏁 Start Strong: 20% NoRisk FreeBet Ready",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Activate your safety net on your first deposit today",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve got the bonus — now take the shot. 🏀Make your first deposit with code WIN20NRF and activate a 20% NoRisk FreeBet. It’s the easiest way to enter the game with total confidence.Unlock your 20% protection:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 9C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 160% Bonus + 90 FS on Tome of Madness",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Use your code on your first deposit and start with a real boost",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’re just one step away from unlocking your full welcome bonus.Use code MADNESS16090 on your first deposit to uncover a 160% Bonus plus 90 Free Spins on Rich Wilde and the Tome of Madness.The reels are waiting — and your moment starts now. 👁️Open the tome of wins:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 9M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 160% + 90 FS or 25% FreeBet: Decide Now",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Both offers are still open — start your adventure or place your bet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Still thinking how to start? Whether you're into reels or real-time odds, we’ve got something just for you:• Use code MADNESS16090 for a 160% Bonus + 90 Free Spins on Rich Wilde and the Tome of Madness in the casino. 🐙• Use code SECURE25 for a 25% NoRisk FreeBet on your first sports bet.Two offers, one decision — pick your side and make that first move count.Activate your bonus:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 9S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 25% NoRisk FreeBet: Don't Miss This!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Start betting with confidence on your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve already claimed your sports bonus — now it’s time to use it.Make your first deposit with code SECURE25 and activate a 25% NoRisk FreeBet. If your first bet doesn’t land, we’ll return a part of it. No pressure — just play. 🏟️Claim your risk-free start:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 10C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 Over $90,000 Payouts Last Week — Why Not You?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Check out the latest wins from real players — you could be next",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "While you’ve been exploring, others have been spinning — and winning big:🔥 Rich••••s won $49,870 on Gates of Olympus🔥 Bll• hit $27,430 on Fruit Party 2🔥 Blu••••86s landed $15,980 on Legacy of DeadNo tricks, no codes — just the right spin at the right time. Maybe it’s yours?Spin for your own big win:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SPIN NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 10M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 160% + 90 FS or 25% FreeBet: Decide Now",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Both offers are still open — start your adventure or place your bet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Still thinking how to start? Whether you're into reels or real-time odds, we’ve got something just for you:• Use code MADNESS16090 for a 160% Bonus + 90 Free Spins on Rich Wilde and the Tome of Madness in the casino. 🐙• Use code SECURE25 for a 25% NoRisk FreeBet on your first sports bet.Two offers, one decision — pick your side and make that first move count.Activate your bonus:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 10S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 Still Waiting: 15% NoRisk FreeBets",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "You’ve joined — now make your move with 15% FreeBets on your first deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve signed up, checked out the platform — now it’s time to get in the game.Make your first deposit with code EARNNRF15X and we’ll back you with a 15% NoRisk FreeBets Bonus. If it doesn’t go your way, we’ve still got you covered. 🥊Place your winning bet:",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    }
+  ],
+  "Welcome Flow - Table data.txt": [
+    {
+      "email": "Email 1C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🚀 Your Celsius Adventure Starts Here!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Unlock massive bonuses on your first 4 deposits — up to €2000 + 250 Free Spins!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The Celsius journey is just beginning — and we’ve lined up powerful rewards to kick things off.Your first 4 deposits come with huge bonuses and tons of Free Spins:1st: 100% up to €500 + 150 FS2nd: 100% up to €300 + 50 FS3rd: 200% up to €200 + 50 FS4th: 150% up to €1000That’s up to €2000 + 250 Free Spins waiting just for you. Start small or go big — the choice is yours.Claim Your Welcome Bonuses Now",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START MY JOURNEY",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Play Your Way with the Cashback Bonus",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Slots, Live Casino or Sports — get more back from every game with our Cashback Bonus.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Start your journey at Celsius with the Cashback Bonus — simple, rewarding, and built around your play.Whether you’re into Slots, Live Casino, or Sports betting, your play now comes with extra value: get a portion back as cashback and keep the action going longer.More play. More back. Just the way you like it.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY WITHOUT LIMITS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 1S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚽ Kick Off Your Sports Journey at Celsius",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "FreeBets up to €700 are waiting for you on your first two deposits.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Ready to take your sports bets to the next level?Start your journey with exclusive FreeBets bonuses just for new players:1st Deposit: 50% Welcome FreeBets Bonus up to €2002nd Deposit: 20% NoRisk FreeBets Bonus up to €500Whether you bet on football, tennis, or esports — Celsius has your back from the first match. Make your move and grab your FreeBets now!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM FREEBETS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 Your First Bonus Is Just One Step Away",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Use code and get 100% + 150 Free Spins on your first deposit.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You're just one step away from unlocking your first big reward at Celsius. Make your first deposit using the code BANDIT150 and enjoy: 100% Bonus and 150 Free Spins on Le bandit by Hacksaw Gaming. It’s the perfect way to kick off your Celsius journey with a boost. Don’t miss your chance — claim your welcome bonus today.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Big Slot Wins & A 10% Safety Net on Your Next Bet",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Players hit it big last week — now it’s your turn, with 10% NoRisk FreeBets using code.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The reels didn’t stop spinning last week — and here’s who walked away smiling:l•••••e won $29,343k••••o hit $18,920a••••1h landed $11,480Want in? Use code SAFE10 and get a 10% NoRisk FreeBets Bonus on your next bet. One click could be all it takes.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "TRY MY LUCK",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 2S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "⚽ Game’s On — Your Bet Belongs on the Field",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "The action’s heating up. Make your move and back your pick today.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The pitch is set, the odds are moving, and the tension’s building — now’s the moment to place your bet. Pick your game, trust your instinct, and let the numbers play out.To make it even better, use code BOOST50 and enjoy a 50% bonus on your next deposit — more balance, more confidence, more wins.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLACE MY BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💥 100% + 150 FS — The Boost That Starts It All",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Use code to unlock your first Celsius bonus and step into the game",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "The moment before your first deposit is when everything begins. Use code CREW150 now and get 100% Bonus plus 150 Free Spins on Chaos Crew II by Hacksaw Gaming. This is your entry point — no pressure, just your game, terms, and a solid welcome boost.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START WITH MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎰 Big jackpots landed last week",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Big jackpots landed last week — will your name be next on the list?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Here’s what the reels delivered last week — real wins, real players:a7g••••••n hit $42,380  m2f•••••d scored $26,104  j3s•••••••7 landed $33,987  Slots were blazing — and if that’s not your thing, remember: you can always drop a bet on live sports too. One spin or one shot could change it all.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "PLAY OR BET NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 3S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏟️ Matchday Energy Is In the Air — You In?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "It’s the perfect time to lock in your pick and feel the rush.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Big games. Bold odds. Everything’s in place — except your bet. Whether you go with the favorite or ride the underdog, now’s the time to make it count.And to give you that extra edge, we’re adding a 50% bonus on your next deposit — more value, more confidence, more action.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BET NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 120% + 170 Free Spins Are Waiting for You",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Use code on your first deposit and start strong with Celsius",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve signed up, explored the platform — now it’s time to make your first move. Use code STORM170 on your first deposit and receive 120% Bonus and 170 Free Spins on Stormforged by Hacksaw Gaming. Start your Celsius journey with an offer built for a winning start.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎮 100 FS + NoRisk Bets Inside",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Use code on your first deposit and step into casino and sports with full backup.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Whether you're here for the spins or the scores — your first deposit has you covered.Enter code LEGACY100 and get 100 Free Spins in the Legacy of Dead by Play'n Go.Enter code BETSAFE20 and get 20% No Risk Free Bets Bonus for sports.Your game, your pace — just with a head start.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "ACTIVATE MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 4S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🧤 50% FreeBets On Top",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Step into the game with a solid edge — your welcome FreeBets are ready",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Betting’s more fun when you start with a boost. On your first deposit, you’ll get a 50% FreeBets Bonus up to €200 — perfect to kick off your streak. One move. One edge. Your call.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START BETTING",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎁 One Code. One Deposit. One Serious Start.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Use code and turn your first deposit into 100% + 150 Free Spins.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "What happens after your first deposit? Get 100% Bonus and 150 Free Spins on Rip City by Hacksaw Gaming, when you use the code RIP100CITY. This isn’t just a welcome — it’s a proper launch. Make it count.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "UNLOCK MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Three Big Wins. Two Ways to Play. One You.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Slots or Sports — here’s what happened last week and how you can get in",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Last week, the reels delivered serious heat:r8d•••••1 won $38,210  t3s••••••k hit $24,765  b6v••••n landed $31,402 Slots are clearly on fire — but if you're more into tactics and timing, sports betting is always just a click away. Either way, there's always something to win.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SPIN OR BET NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 5S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🥶 50% FreeBets Come With Your First Move",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Make your first deposit and we’ll top it with 50% FreeBets up to €200.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Big odds, fast action, and your bet waiting to happen. Make your first deposit and grab a 50% Welcome FreeBets Bonus up to €200 — no overthinking, just a straight shot into the game.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "STEP IN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Time to unlock 100% + 150 FS!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your first deposit turns into a full-powered welcome — if you want it.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "There’s a bonus built for your first move — if you choose to take it. Use code BANDIT150 to get a 100% Bonus and 150 Free Spins on Le bandit by Hacksaw Gaming on your first deposit. Clean, simple, and ready whenever you are .",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "GET STARTED",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎲 $47,890 winnings this week, are you next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Slots were hot last week — and the sports odds aren’t cooling down either.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Big week. Big wins. Here’s what went down at Celsius:a9n•••••z won $47,890  m4e••••q hit $22,715  j2x•••••r scored $35,040  Spins were on fire — and if you’re more into betting, the sportsbook is ready with live action and fresh odds. However you play, the next win could have your name on it.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "SPIN OR BET NOW",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 6S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏁 Your Bet’s Not Live Until You Are",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "50% FreeBets up to €200 — start on your terms",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve seen the odds. Now set yours in motion. Your first deposit brings a 50% Welcome FreeBets Bonus up to €200 — no distractions, just pure momentum to kick things off.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "ACTIVATE MY BONUS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "💸 Big Slot Wins Last Week — Will You Be Next?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "See what others hit on Celsius and take your shot at the next big win.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Last week at Celsius, the reels were on fire — here’s what some lucky players walked away with:a•••••••n won $29,343j•••••e hit $17,920m••••x11 scored $11,608No tricks, no bonus codes — just pure play and real wins. Ready to take your shot?",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "TRY YOUR LUCK",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Don’t miss: 100 Free Spins + 20% NoRisk FreeBets",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "100 Free Spins + 20% NoRisk FreeBets — just enter code on your first deposit.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Why choose between casino and sports when you can have both from the start?Use code LEGACY100 on your first deposit to receive100 Free Spins on Legacy of Dead by Play'n Go, and use code BETSAFE20 to get a 20% NoRisk FreeBets Bonus.Two paths. One move. Your game begins now.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "START MY COMBO",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 7S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🥊 60% FreeBets On Your First Hit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Use code and power up your first deposit with a 60% FreeBets Bonus.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "First deposits should feel like impact. Enter code FIREUP60 and grab a 60% Welcome FreeBets Bonus right from the start. Place your bet, feel the rhythm, and play it your way.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "USE MY CODE",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🧨 Start Strong: 100% + 150 Free Spins on First Deposit",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Get your welcome bonus and make your first moments on Celsius count.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "You’ve got the code — now it’s time to use it. On your first deposit, enter CREW150 and receive a 100% Bonus and 150 Free Spins on Chaos Crew II by Hacksaw Gaming. This isn’t about pressure. It’s about power — and your power starts here.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "TRY YOUR LUCK",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎯 Jackpots Heating Up To $41,226",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Check last week’s top wins — slots delivered, and sports are calling.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Last week, big wins hit hard — here’s what some of our players walked away with:sn••••an won $41,226d••••ir hit $36,078t••••1964 landed $28,914While the slots were dropping jackpots, the sportsbook stayed busy too. You can spin or bet — whatever your style, the next win is just one click away.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "JUMP IN",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 8S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🏆 One Shot. 60% Extra to Back It.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "First deposit comes with 60% FreeBets — just enter code and go",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "When it’s your first bet, make it count. Use code FIREUP60 on your first deposit and get a 60% Welcome FreeBets Bonus to give your pick extra weight. No second-guessing — just smart play from the start.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "CLAIM MY FREEBETS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 9C",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎠 180 Free Spins Await!",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Your first deposit opens the gates — code brings 180 Free Spins",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "First steps matter — and yours comes with 180 Free Spins on Sweet Bonanza by Pragmatic Play when you make a deposit and enter code SWEET180. No bonus conditions, just pure gameplay and a chance to catch your rhythm from spin one.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "UNLOCK SPINS",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 9M",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🎮 Covers Both Sides of the Game",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "100 Free Spins and 20% NoRisk FreeBets — code gets you started.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "Casino or sportsbook? You don’t have to pick sides. Use code LEGACY100 on your first deposit and unlock 100 Free Spins for the Legacy of Dead by Play'n Go, and use code BETSAFE20 for 20% No Risk FreeBets Bonus for your first bets. Two ways to win — one simple start.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "GET MY BONUSES",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    },
+    {
+      "email": "Email 9S",
+      "fields": [
+        {
+          "field": "subject",
+          "en_text": "🧨 First Bet? 60% Extra Awaits",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "preheader",
+          "en_text": "Drop your first deposit, use code, and get a 60% FreeBets Bonus to fire it up",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_1",
+          "en_text": "Hello, {{...}}👋",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "text_2",
+          "en_text": "First bets deserve more weight — and we’ve got the boost for it. Use code FIREUP60 on your first deposit and unlock a 60% Welcome FreeBets Bonus. Make it bold. Make it count.",
+          "hu_needs": true,
+          "pl_needs": true
+        },
+        {
+          "field": "button_text_1",
+          "en_text": "BOOST MY BET",
+          "hu_needs": true,
+          "pl_needs": true
+        }
+      ]
+    }
+  ]
+}
