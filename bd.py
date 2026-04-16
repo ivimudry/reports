@@ -96,18 +96,31 @@ if not all_messages:
     sys.exit(0)
 
 # Step 4: Find converted
-converted = [m for m in all_messages if m.get("converted")]
-opened_msgs = [m for m in all_messages if m.get("opened")]
+# converted/opened are inside metrics dict
+converted = [m for m in all_messages if m.get("metrics", {}).get("converted")]
+opened_msgs = [m for m in all_messages if m.get("metrics", {}).get("opened")]
 print(f"  Opened: {len(opened_msgs)}")
 print(f"  Converted: {len(converted)}")
 
-if not converted:
-    print("\nNo converted users found.")
-    if all_messages:
-        print(f"  Sample keys: {list(all_messages[0].keys())}")
-        sample = {k: v for k, v in all_messages[0].items() if k != 'body'}
-        print(f"  Sample: {json.dumps(sample, indent=2)[:1000]}")
-    sys.exit(0)
+# Show sample metrics to understand structure
+if all_messages:
+    samples_with_conv = [m for m in all_messages if m.get("metrics", {}).get("converted")][:2]
+    if samples_with_conv:
+        print(f"\n  Sample converted msg metrics:")
+        for s in samples_with_conv:
+            print(f"    customer: {s.get('customer_id')} | metrics: {s.get('metrics')}")
+    else:
+        # Show a few different metrics to understand
+        unique_keys = set()
+        for m in all_messages:
+            unique_keys.update(m.get("metrics", {}).keys())
+        print(f"  All metric keys across messages: {sorted(unique_keys)}")
+        # Find messages that have more than basic metrics
+        rich = [m for m in all_messages if len(m.get("metrics", {})) > 4][:3]
+        if rich:
+            print(f"  Messages with extra metrics:")
+            for r in rich:
+                print(f"    {r.get('customer_id')}: {r.get('metrics')}")
 
 # Step 5: Fetch deposit events for converted users
 print(f"\n[4] Fetching deposits for {len(converted)} converted users...")
