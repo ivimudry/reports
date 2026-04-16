@@ -3,6 +3,8 @@ Calculate total deposit amounts from converted users of broadcast #194166.
 """
 import sys, io, json, time
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
@@ -10,13 +12,29 @@ API_KEY = "e22bae722fdd70a705135c9fa2270e1d"
 BROADCAST_ID = 194166
 BETA = "https://beta-api.customer.io/v1"
 
-HEADERS = {
+session = requests.Session()
+retries = Retry(total=5, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
+session.mount("https://", HTTPAdapter(max_retries=retries))
+session.headers.update({
     "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json"
-}
+})
 
 def api_get(url, params=None):
-    r = requests.get(url, headers=HEADERS, params=params, timeout=30)
+    try:
+        r = session.get(url, params=params, timeout=30)
+    except Exception as e:
+        print(f"  CONN ERROR: {e}")
+        time.sleep(5)
+        try:
+            r = session.get(url, params=params, timeout=30)
+        except Exception as e2:
+            print(f"  RETRY FAILED: {e2}")
+            return None
+    if r.status_code == 429:
+        print("  Rate limited, waiting 10s...")
+        time.sleep(10)
+        r = session.get(url, params=params, timeout=30)
     if r.status_code != 200:
         print(f"  ERROR {r.status_code}: {url}")
         print(f"  {r.text[:500]}")
@@ -40,7 +58,12 @@ print("\n[2] Getting broadcast metrics...")
 metrics = api_get(f"{BETA}/newsletters/{BROADCAST_ID}/metrics")
 if metrics:
     m = metrics.get("metric", metrics.get("metrics", metrics))
-    print(f"  Metrics: {json.dumps(m, indent=2)[:1500]}")
+    # Just show totals, not full series
+    if "series" in m:
+        totals = {k: sum(v) for k, v in m["series"].items()}
+        print(f"  Totals: {json.dumps(totals, indent=2)}")
+    else:
+        print(f"  {json.dumps(m, indent=2)[:500]}")
 
 # Step 3: Get messages
 print("\n[3] Getting messages...")
@@ -64,7 +87,7 @@ while True:
     start = data.get("next", "")
     if not start:
         break
-    time.sleep(0.2)
+    time.sleep(0.5)
 
 print(f"  Total messages: {len(all_messages)}")
 
@@ -131,7 +154,7 @@ for i, msg in enumerate(converted):
         total_count += user_count
     if (i + 1) % 10 == 0:
         print(f"  Processed {i+1}/{len(converted)}...")
-    time.sleep(0.15)
+    time.sleep(0.3)
 
 print("\n" + "=" * 60)
 print("RESULTS")
