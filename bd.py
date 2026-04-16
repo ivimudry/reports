@@ -189,7 +189,7 @@ for i, msg in enumerate(target_users):
     deposit_events = [e for e in events if e.get("name") == "deposit_made" or e.get("type") == "event"]
     user_total = 0.0
     user_count = 0
-    for ev in events:
+    for ev in deposit_events:
         ev_time = ev.get("timestamp", ev.get("created_at", 0))
         ev_data = ev.get("data", ev.get("attributes", {}))
         if window_start and window_end:
