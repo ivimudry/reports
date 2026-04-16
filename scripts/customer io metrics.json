@@ -441,16 +441,18 @@ function CIOCF(id, metric, segmentId) {
  * Fetches only converted recipients, then sums their deposit_made events
  * within the conversion window (opened/sent → +2 days).
  *
- * @param {number} id  Newsletter ID
+ * @param {number} id    Newsletter ID
+ * @param {string} mode  Optional: "top" — returns top 3 depositors with emails
  * @customfunction
  */
-function CIONSUM(id) {
+function CIONSUM(id, mode) {
   try {
     if (!id) return '';
-    var key = 'r_nsum_' + id;
+    var m = mode ? String(mode).toLowerCase().trim() : '';
+    var key = m === 'top' ? 'r_nsum_top_' + id : 'r_nsum_' + id;
     var cached = _getCachedResult(key);
     if (cached !== null) return cached;
-    var result = _cioDepositSum(id, 'newsletter_id');
+    var result = _cioDepositSum(id, 'newsletter_id', m);
     _setCachedResult(key, result);
     return result;
   } catch(e) {
@@ -466,16 +468,18 @@ function CIONSUM(id) {
  * Fetches only converted recipients, then sums their deposit_made events
  * within the conversion window (opened/sent → +2 days).
  *
- * @param {number} id  Campaign ID
+ * @param {number} id    Campaign ID
+ * @param {string} mode  Optional: "top" — returns top 3 depositors with emails
  * @customfunction
  */
-function CIOCSUM(id) {
+function CIOCSUM(id, mode) {
   try {
     if (!id) return '';
-    var key = 'r_csum_' + id;
+    var m = mode ? String(mode).toLowerCase().trim() : '';
+    var key = m === 'top' ? 'r_csum_top_' + id : 'r_csum_' + id;
     var cached = _getCachedResult(key);
     if (cached !== null) return cached;
-    var result = _cioDepositSum(id, 'campaign_id');
+    var result = _cioDepositSum(id, 'campaign_id', m);
     _setCachedResult(key, result);
     return result;
   } catch(e) {
@@ -484,7 +488,7 @@ function CIOCSUM(id) {
 }
 
 // ── Deposit sum logic (shared) ──────────────────────────────
-function _cioDepositSum(id, filterParam) {
+function _cioDepositSum(id, filterParam, mode) {
   // 1. Get ONLY converted messages (no type filter — works for email, in_app, push)
   var convertedMsgs = [];
   var cursor = '';
@@ -503,22 +507,26 @@ function _cioDepositSum(id, filterParam) {
     if (!cursor || msgs.length === 0) break;
   }
 
-  if (convertedMsgs.length === 0) return 0;
+  if (convertedMsgs.length === 0) return mode === 'top' ? 'No deposit data available' : 0;
 
   // 2. For each converted user, fetch deposit events within the conversion window.
-  //    Window: 1 hour before open/send → open/send + 2 days + 2 hours (total ~51h)
+  //    Window: 1 hour before open/send → open/send + 2 days + 1 hour
   var totalAmount = 0;
+  var userDeposits = {}; // email → total amount (for top mode)
 
   for (var i = 0; i < convertedMsgs.length; i++) {
     var msg = convertedMsgs[i];
     var cioId = (msg.customer_identifiers || {}).cio_id;
     if (!cioId) continue;
 
+    var email = msg.recipient || (msg.customer_identifiers || {}).email || cioId;
     var metrics = msg.metrics || {};
     var refTime = metrics.opened || metrics.delivered || metrics.sent || 0;
     if (!refTime) continue;
     var windowStart = refTime - 3600;         // 1 hour before open
     var windowEnd   = refTime + (2 * 86400) + 3600; // 2 days + 1 hour after open
+
+    var userAmount = 0;
 
     // Fetch deposit_made events from Beta API with pagination
     var evCursor = '';
@@ -539,7 +547,10 @@ function _cioDepositSum(id, filterParam) {
         if (evTime >= windowStart && evTime <= windowEnd) {
           var data = ev.data || ev.attributes || {};
           var amount = parseFloat(data.human_amount_total_rounded || data.human_amount_total || data.human_amount || 0);
-          if (!isNaN(amount)) totalAmount += amount;
+          if (!isNaN(amount)) {
+            totalAmount += amount;
+            userAmount += amount;
+          }
         }
       }
 
@@ -549,6 +560,27 @@ function _cioDepositSum(id, filterParam) {
       evCursor = evRes.data.next || '';
       if (!evCursor) break;
     }
+
+    // Accumulate per-user deposits (same email may appear multiple times)
+    if (mode === 'top' && userAmount > 0) {
+      userDeposits[email] = (userDeposits[email] || 0) + userAmount;
+    }
+  }
+
+  // Return top 3 depositors if mode=top
+  if (mode === 'top') {
+    var entries = [];
+    for (var e in userDeposits) {
+      entries.push({ email: e, amount: userDeposits[e] });
+    }
+    if (entries.length === 0) return 'No deposit data available';
+    entries.sort(function(a, b) { return b.amount - a.amount; });
+    var top = entries.slice(0, 3);
+    var lines = [];
+    for (var t = 0; t < top.length; t++) {
+      lines.push((t + 1) + ': ' + top[t].email + ' — ' + top[t].amount + ' EUR');
+    }
+    return lines.join('\n');
   }
 
   return totalAmount;
