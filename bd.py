@@ -183,7 +183,10 @@ for i, msg in enumerate(target_users):
             break
     if not events_data:
         continue
-    events = events_data.get("events", events_data.get("activities", []))
+    events = events_data.get("activities", events_data.get("events", []))
+    
+    # Filter only deposit_made events
+    deposit_events = [e for e in events if e.get("name") == "deposit_made" or e.get("type") == "event"]
     user_total = 0.0
     user_count = 0
     for ev in events:
