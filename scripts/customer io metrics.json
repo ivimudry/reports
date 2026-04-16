@@ -230,6 +230,8 @@ function _getCachedResult(key) {
   var raw = PropertiesService.getScriptProperties().getProperty(key);
   if (raw === null) return null;
   if (raw === '') return '';
+  // Force re-fetch if cached top result contains unresolved cio_ids (no @)
+  if (_isTopResult(raw) && /[0-9a-f]{16,}/.test(raw)) return null;
   var num = Number(raw);
   return (!isNaN(num) && String(num) === raw) ? num : raw;
 }
