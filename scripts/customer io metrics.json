@@ -517,8 +517,8 @@ function _cioDepositSum(id, filterParam) {
     var metrics = msg.metrics || {};
     var refTime = metrics.opened || metrics.delivered || metrics.sent || 0;
     if (!refTime) continue;
-    var windowStart = refTime - 3600;         // 1 hour before
-    var windowEnd   = refTime + (2 * 86400) + 7200; // 2 days + 2 hours
+    var windowStart = refTime - 3600;         // 1 hour before open
+    var windowEnd   = refTime + (2 * 86400) + 3600; // 2 days + 1 hour after open
 
     // Fetch deposit_made events from Beta API with pagination
     var evCursor = '';
