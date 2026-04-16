@@ -235,7 +235,7 @@ function _getCachedResult(key) {
 }
 
 // Monotonic cache: only saves if new value >= old value (for numeric metrics).
-// String values (name, date, status, type) are always overwritten.
+// For "top" results: compares total EUR, never loses data, prefers emails over cio_ids.
 // Error/loading values are NEVER saved.
 function _setCachedResult(key, value) {
   var s = String(value);
@@ -243,17 +243,65 @@ function _setCachedResult(key, value) {
   if (s === 'ERR_RETRY' || s.indexOf('LOADING') === 0 || s.indexOf('ERR ') === 0) return;
   try {
     var props = PropertiesService.getScriptProperties();
+    var oldRaw = props.getProperty(key);
+
     var newNum = Number(s);
     // If new value is numeric, apply monotonic rule
     if (!isNaN(newNum) && String(newNum) === s) {
-      var oldRaw = props.getProperty(key);
       if (oldRaw !== null && oldRaw !== '') {
         var oldNum = Number(oldRaw);
         if (!isNaN(oldNum) && newNum < oldNum) return; // never decrease
       }
+      props.setProperty(key, s);
+      return;
     }
+
+    // Smart caching for "top" results (N: email — amount EUR)
+    var newIsTop = _isTopResult(s);
+    var newIsEmpty = (s === 'No deposit data available');
+    if (newIsTop || newIsEmpty) {
+      if (oldRaw !== null && oldRaw !== '') {
+        var oldIsTop = _isTopResult(oldRaw);
+        // Never replace real data with "no data"
+        if (newIsEmpty && oldIsTop) return;
+        // Compare two top results
+        if (oldIsTop && newIsTop) {
+          var oldTotal = _parseTopTotal(oldRaw);
+          var newTotal = _parseTopTotal(s);
+          // Never decrease total deposit amount
+          if (newTotal < oldTotal) return;
+          if (newTotal === oldTotal) {
+            // Prefer version with emails over cio_ids
+            var oldHasIds = /[0-9a-f]{16,}/.test(oldRaw);
+            var newHasIds = /[0-9a-f]{16,}/.test(s);
+            if (!oldHasIds && newHasIds) return;   // old has emails, new has ids → keep old
+            if (oldRaw === s) return;               // identical → skip write
+          }
+        }
+      }
+      props.setProperty(key, s);
+      return;
+    }
+
+    // Regular string values (name, date, etc.) — always overwrite
     props.setProperty(key, s);
   } catch(e) {}
+}
+
+// Checks if string looks like a top depositors result
+function _isTopResult(s) {
+  return s && /^\d+:\s*.+\s*[—–-]\s*[\d.]+\s*EUR$/m.test(s);
+}
+
+// Extracts total EUR from a top result string
+function _parseTopTotal(s) {
+  var total = 0;
+  var lines = s.split('\n');
+  for (var i = 0; i < lines.length; i++) {
+    var m = lines[i].match(/[—–-]\s*([\d.]+)\s*EUR/);
+    if (m) total += parseFloat(m[1]) || 0;
+  }
+  return total;
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -590,7 +638,12 @@ function _cioDepositSum(id, filterParam, mode) {
     var cioId = (msg.customer_identifiers || {}).cio_id;
     if (!cioId) continue;
 
-    var email = msg.recipient || (msg.customer_identifiers || {}).email || cioId;
+    var email = (msg.customer_identifiers || {}).email || msg.recipient || cioId;
+    // Resolve cio_id to real email immediately (in-app messages have no email)
+    if (email.indexOf('@') === -1) {
+      var resolvedEmail = _getCustomerEmail(cioId);
+      if (resolvedEmail) email = resolvedEmail;
+    }
     var metrics = msg.metrics || {};
     var refTime = metrics.opened || metrics.delivered || metrics.sent || 0;
     if (!refTime) continue;
@@ -649,13 +702,7 @@ function _cioDepositSum(id, filterParam, mode) {
     var top = entries.slice(0, 3);
     var lines = [];
     for (var t = 0; t < top.length; t++) {
-      var displayEmail = top[t].email;
-      // Resolve cio_id to real email if not an email address
-      if (displayEmail.indexOf('@') === -1) {
-        var resolved = _getCustomerEmail(displayEmail);
-        if (resolved) displayEmail = resolved;
-      }
-      lines.push((t + 1) + ': ' + displayEmail + ' — ' + top[t].amount + ' EUR');
+      lines.push((t + 1) + ': ' + top[t].email + ' — ' + top[t].amount + ' EUR');
     }
     return lines.join('\n');
   }
