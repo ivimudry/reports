@@ -122,18 +122,29 @@ if all_messages:
             for r in rich:
                 print(f"    {r.get('customer_id')}: {r.get('metrics')}")
 
-# Step 5: Fetch deposit events for converted users
-print(f"\n[4] Fetching deposits for {len(converted)} converted users...")
+if not converted:
+    print("\nNo converted flag in messages. Will check ALL opened users for deposit events.")
+    # Fallback: use opened users
+    target_users = opened_msgs if opened_msgs else all_messages
+    # For opened: use opened timestamp. For all: use sent timestamp.
+    print(f"  Target users for deposit check: {len(target_users)}")
+else:
+    target_users = converted
+
+# Step 5: Fetch deposit events
+print(f"\n[4] Fetching deposits for {len(target_users)} users...")
 total_deposits = 0.0
 total_count = 0
 user_deposits = []
 
-for i, msg in enumerate(converted):
+for i, msg in enumerate(target_users):
     cust_id = msg.get("customer_id", msg.get("customer", {}).get("id"))
     if not cust_id:
         continue
-    opened_at = msg.get("opened")
-    sent_at = msg.get("sent")
+    
+    m = msg.get("metrics", {})
+    opened_at = m.get("opened")
+    sent_at = m.get("sent")
     ref_time = opened_at or sent_at
     window_start = ref_time if ref_time else None
     window_end = ref_time + (2 * 86400) if ref_time else None
@@ -166,13 +177,14 @@ for i, msg in enumerate(converted):
         total_deposits += user_total
         total_count += user_count
     if (i + 1) % 10 == 0:
-        print(f"  Processed {i+1}/{len(converted)}...")
+        print(f"  Processed {i+1}/{len(target_users)}...")
     time.sleep(0.3)
 
 print("\n" + "=" * 60)
 print("RESULTS")
 print("=" * 60)
 print(f"Converted users: {len(converted)}")
+print(f"Target users checked: {len(target_users)}")
 print(f"Users with deposits: {len(user_deposits)}")
 print(f"Total deposits: {total_count}")
 print(f"Total amount: {total_deposits:.2f} EUR")
