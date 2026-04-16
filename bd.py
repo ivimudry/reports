@@ -2,6 +2,7 @@
 Calculate total deposit amounts from converted users of broadcast #194166.
 """
 import sys, io, json, time
+from urllib.parse import quote
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -149,7 +150,30 @@ for i, msg in enumerate(target_users):
     window_start = ref_time if ref_time else None
     window_end = ref_time + (2 * 86400) if ref_time else None
 
-    events_data = api_get(f"{BETA}/customers/{cust_id}/events", {"name": "deposit_made", "limit": 50})
+    # URL-encode customer_id (contains ':')
+    cust_id_enc = quote(cust_id, safe='')
+    
+    # Try multiple endpoints for customer events
+    events_data = None
+    for endpoint in [
+        f"{BETA}/customers/{cust_id_enc}/events",
+        f"{BETA}/customers/{cust_id_enc}/activities",
+        f"https://api.customer.io/v1/customers/{cust_id_enc}/events",
+        f"https://api.customer.io/v1/customers/{cust_id_enc}/activities",
+    ]:
+        events_data = api_get(endpoint, {"name": "deposit_made", "limit": 50})
+        if events_data:
+            if i == 0:
+                print(f"  Working endpoint: {endpoint.split('customers/')[1]}")
+                print(f"  Response keys: {list(events_data.keys())}")
+                # Show first event structure
+                evs = events_data.get("events", events_data.get("activities", []))
+                if evs:
+                    print(f"  First event keys: {list(evs[0].keys())}")
+                    ev_data = evs[0].get("data", evs[0].get("attributes", {}))
+                    print(f"  Event data keys: {list(ev_data.keys())}")
+                    print(f"  Event data sample: {json.dumps(ev_data, indent=2)[:500]}")
+            break
     if not events_data:
         continue
     events = events_data.get("events", events_data.get("activities", []))
