@@ -202,7 +202,8 @@ function _findCIOCells(sheet, fromRow, toRow, fromCol, toCol) {
     for (var c = 0; c < formulas[r].length; c++) {
       var upper = formulas[r][c].toUpperCase();
       if (upper.indexOf('CION(') !== -1 || upper.indexOf('CIOC(') !== -1 ||
-          upper.indexOf('CIONF(') !== -1 || upper.indexOf('CIOCF(') !== -1) {
+          upper.indexOf('CIONF(') !== -1 || upper.indexOf('CIOCF(') !== -1 ||
+          upper.indexOf('CIONSUM(') !== -1 || upper.indexOf('CIOCSUM(') !== -1) {
         cells.push({ row: fromRow + r, col: fromCol + c, formula: formulas[r][c] });
       }
     }
@@ -222,6 +223,8 @@ function _refreshCells(sheet, cells) {
 }
 
 // ── Persistent result cache (PropertiesService) ────────────
+// Returns cached value when NOT in manual refresh mode.
+// During manual refresh (allow_fetch=1), returns null to force re-fetch.
 function _getCachedResult(key) {
   if (CacheService.getScriptCache().get('allow_fetch') === '1') return null;
   var raw = PropertiesService.getScriptProperties().getProperty(key);
@@ -231,10 +234,26 @@ function _getCachedResult(key) {
   return (!isNaN(num) && String(num) === raw) ? num : raw;
 }
 
+// Monotonic cache: only saves if new value >= old value (for numeric metrics).
+// String values (name, date, status, type) are always overwritten.
+// Error/loading values are NEVER saved.
 function _setCachedResult(key, value) {
   var s = String(value);
+  // Never cache errors or loading states
   if (s === 'ERR_RETRY' || s.indexOf('LOADING') === 0 || s.indexOf('ERR ') === 0) return;
-  try { PropertiesService.getScriptProperties().setProperty(key, s); } catch(e) {}
+  try {
+    var props = PropertiesService.getScriptProperties();
+    var newNum = Number(s);
+    // If new value is numeric, apply monotonic rule
+    if (!isNaN(newNum) && String(newNum) === s) {
+      var oldRaw = props.getProperty(key);
+      if (oldRaw !== null && oldRaw !== '') {
+        var oldNum = Number(oldRaw);
+        if (!isNaN(oldNum) && newNum < oldNum) return; // never decrease
+      }
+    }
+    props.setProperty(key, s);
+  } catch(e) {}
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -466,12 +485,12 @@ function CIOCSUM(id) {
 
 // ── Deposit sum logic (shared) ──────────────────────────────
 function _cioDepositSum(id, filterParam) {
-  // 1. Get ONLY converted messages (fast — typically <50 results)
+  // 1. Get ONLY converted messages (no type filter — works for email, in_app, push)
   var convertedMsgs = [];
   var cursor = '';
 
   for (var page = 0; page < 50; page++) {
-    var url = '/messages?' + filterParam + '=' + id + '&metric=converted&type=email&limit=100';
+    var url = '/messages?' + filterParam + '=' + id + '&metric=converted&limit=100';
     if (cursor) url += '&start=' + encodeURIComponent(cursor);
 
     var res = _apiGet(url);
@@ -486,7 +505,8 @@ function _cioDepositSum(id, filterParam) {
 
   if (convertedMsgs.length === 0) return 0;
 
-  // 2. For each converted user, fetch deposit events and sum within window
+  // 2. For each converted user, fetch deposit events within the conversion window.
+  //    Window: 1 hour before open/send → open/send + 2 days + 2 hours (total ~51h)
   var totalAmount = 0;
 
   for (var i = 0; i < convertedMsgs.length; i++) {
@@ -495,23 +515,39 @@ function _cioDepositSum(id, filterParam) {
     if (!cioId) continue;
 
     var metrics = msg.metrics || {};
-    var refTime = metrics.opened || metrics.sent || 0;
+    var refTime = metrics.opened || metrics.delivered || metrics.sent || 0;
     if (!refTime) continue;
-    var windowEnd = refTime + (2 * 86400); // 2 days
+    var windowStart = refTime - 3600;         // 1 hour before
+    var windowEnd   = refTime + (2 * 86400) + 7200; // 2 days + 2 hours
 
-    // Fetch deposit_made events from Beta API
-    var evRes = _betaApiGet('/customers/' + cioId + '/activities?type=event&name=deposit_made&limit=50');
-    if (evRes.error) continue;
+    // Fetch deposit_made events from Beta API with pagination
+    var evCursor = '';
+    for (var p = 0; p < 10; p++) {
+      var evUrl = '/customers/' + cioId + '/activities?type=event&name=deposit_made&limit=50';
+      if (evCursor) evUrl += '&start=' + encodeURIComponent(evCursor);
+      var evRes = _betaApiGet(evUrl);
+      if (evRes.error) break;
 
-    var activities = evRes.data.activities || [];
-    for (var a = 0; a < activities.length; a++) {
-      var ev = activities[a];
-      var evTime = ev.timestamp || ev.created_at || 0;
-      if (evTime >= refTime && evTime <= windowEnd) {
-        var data = ev.data || ev.attributes || {};
-        var amount = parseFloat(data.human_amount_total_rounded || data.human_amount_total || data.human_amount || 0);
-        if (!isNaN(amount)) totalAmount += amount;
+      var activities = evRes.data.activities || [];
+      if (activities.length === 0) break;
+
+      var oldestInBatch = Infinity;
+      for (var a = 0; a < activities.length; a++) {
+        var ev = activities[a];
+        var evTime = ev.timestamp || ev.created_at || 0;
+        if (evTime < oldestInBatch) oldestInBatch = evTime;
+        if (evTime >= windowStart && evTime <= windowEnd) {
+          var data = ev.data || ev.attributes || {};
+          var amount = parseFloat(data.human_amount_total_rounded || data.human_amount_total || data.human_amount || 0);
+          if (!isNaN(amount)) totalAmount += amount;
+        }
       }
+
+      // Stop if we've gone past our window (activities are newest-first)
+      if (oldestInBatch < windowStart) break;
+
+      evCursor = evRes.data.next || '';
+      if (!evCursor) break;
     }
   }
 
@@ -580,7 +616,7 @@ function _getMessageRecipients(id, metric, filterParam) {
       return 'LOADING (' + ids.length + '…)';
     }
 
-    var url = '/messages?' + filterParam + '=' + id + '&metric=' + metric + '&type=email&limit=1000';
+    var url = '/messages?' + filterParam + '=' + id + '&metric=' + metric + '&limit=1000';
     if (cursor) url += '&start=' + encodeURIComponent(cursor);
 
     var res = _apiGet(url);
