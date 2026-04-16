@@ -544,7 +544,13 @@ function CIOTOPSUM(range) {
     var top = entries.slice(0, 3);
     var lines = [];
     for (var t = 0; t < top.length; t++) {
-      lines.push((t + 1) + ': ' + top[t].email + ' — ' + top[t].amount + ' EUR');
+      var displayEmail = top[t].email;
+      // Resolve cio_id to real email if not an email address
+      if (displayEmail.indexOf('@') === -1) {
+        var resolved = _getCustomerEmail(displayEmail);
+        if (resolved) displayEmail = resolved;
+      }
+      lines.push((t + 1) + ': ' + displayEmail + ' — ' + top[t].amount + ' EUR');
     }
     return lines.join('\n');
   } catch(e) {
