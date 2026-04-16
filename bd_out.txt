@@ -1,0 +1,118 @@
+============================================================
+BROADCAST #194166 - Deposit Analysis
+============================================================
+
+[1] Getting broadcast info...
+  Name: 15.04 | Email | Midweek Bonus REMINDER | 75% up to 250 EUR | UP75250
+  Subject: ?
+
+[2] Getting broadcast metrics...
+  Totals: {
+  "attempted": 0,
+  "bounced": 109,
+  "clicked": 31,
+  "converted": 19,
+  "created": 4775,
+  "deferred": 0,
+  "delivered": 4461,
+  "drafted": 0,
+  "failed": 0,
+  "human_clicked": 30,
+  "human_opened": 285,
+  "machine_clicked": 1,
+  "opened": 591,
+  "prefetch_opened": 328,
+  "replied": 0,
+  "sent": 4775,
+  "spammed": 0,
+  "suppressed": 205,
+  "topic_unsubscribed": 0,
+  "undeliverable": 0,
+  "unsubscribed": 6
+}
+
+[3] Getting messages...
+  Page 1: +100 (total: 100)
+  Page 2: +100 (total: 200)
+  Page 3: +100 (total: 300)
+  Page 4: +100 (total: 400)
+  Page 5: +100 (total: 500)
+  Page 6: +100 (total: 600)
+  Page 7: +100 (total: 700)
+  Page 8: +100 (total: 800)
+  Page 9: +100 (total: 900)
+  Page 10: +100 (total: 1000)
+  Page 11: +100 (total: 1100)
+  Page 12: +100 (total: 1200)
+  Page 13: +100 (total: 1300)
+  Page 14: +100 (total: 1400)
+  Page 15: +100 (total: 1500)
+  Page 16: +100 (total: 1600)
+  Page 17: +100 (total: 1700)
+  Page 18: +100 (total: 1800)
+  Page 19: +100 (total: 1900)
+  Page 20: +100 (total: 2000)
+  Page 21: +100 (total: 2100)
+  Page 22: +100 (total: 2200)
+  Page 23: +100 (total: 2300)
+  Page 24: +100 (total: 2400)
+  Page 25: +100 (total: 2500)
+  Page 26: +100 (total: 2600)
+  Page 27: +100 (total: 2700)
+  Page 28: +100 (total: 2800)
+  Page 29: +100 (total: 2900)
+  Page 30: +100 (total: 3000)
+  Page 31: +100 (total: 3100)
+  Page 32: +100 (total: 3200)
+  Page 33: +100 (total: 3300)
+  Page 34: +100 (total: 3400)
+  Page 35: +100 (total: 3500)
+  Page 36: +100 (total: 3600)
+  Page 37: +100 (total: 3700)
+  Page 38: +100 (total: 3800)
+  Page 39: +100 (total: 3900)
+  Page 40: +100 (total: 4000)
+  Page 41: +100 (total: 4100)
+  Page 42: +100 (total: 4200)
+  Page 43: +100 (total: 4300)
+  Page 44: +100 (total: 4400)
+  Page 45: +100 (total: 4500)
+  Page 46: +100 (total: 4600)
+  Page 47: +100 (total: 4700)
+  Page 48: +75 (total: 4775)
+  Total messages: 4775
+  Opened: 0
+  Converted: 0
+
+No converted users found.
+  Sample keys: ['id', 'deduplicate_id', 'msg_template_id', 'action_id', 'parent_action_id', 'transactional_message_id', 'customer_id', 'customer_identifiers', 'trigger_event_id', 'recipient', 'subject', 'metrics', 'created', 'failure_message', 'newsletter_id', 'content_id', 'campaign_id', 'broadcast_id', 'type', 'forgotten']
+  Sample: {
+  "id": "dgSM8gIDAJ6DIJ2DIAGdkU5ctta4RhV_XtnsO8g=",
+  "deduplicate_id": "dgSM8gIDAJ6DIJ2DIAGdkU5ctta4RhV_XtnsO8g=:1776302238",
+  "msg_template_id": 567767,
+  "action_id": null,
+  "parent_action_id": null,
+  "transactional_message_id": null,
+  "customer_id": "oshi:514481",
+  "customer_identifiers": {
+    "cio_id": "8cf20211ed729e8320",
+    "id": "oshi:514481"
+  },
+  "trigger_event_id": null,
+  "recipient": "lucypanilaa@gmail.com",
+  "subject": "\u26a1 75% Midweek Bonus - Expires Today!",
+  "metrics": {
+    "bounced": 1776259328,
+    "delivered": 1776302238,
+    "processed": 1776259325,
+    "sent": 1776259326
+  },
+  "created": 1776259325,
+  "failure_message": null,
+  "newsletter_id": 194166,
+  "content_id": 567767,
+  "campaign_id": null,
+  "broadcast_id": null,
+  "type": "email",
+  "forgotten": false
+}
