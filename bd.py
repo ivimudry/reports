@@ -150,29 +150,36 @@ for i, msg in enumerate(target_users):
     window_start = ref_time if ref_time else None
     window_end = ref_time + (2 * 86400) if ref_time else None
 
+    # Get cio_id from customer_identifiers (preferred) or customer_id
+    cio_id = msg.get("customer_identifiers", {}).get("cio_id")
+    
     # URL-encode customer_id (contains ':')
     cust_id_enc = quote(cust_id, safe='')
     
-    # Try multiple endpoints for customer events
+    # Try cio_id first, then id-based endpoints
     events_data = None
-    for endpoint in [
-        f"{BETA}/customers/{cust_id_enc}/events",
-        f"{BETA}/customers/{cust_id_enc}/activities",
-        f"https://api.customer.io/v1/customers/{cust_id_enc}/events",
-        f"https://api.customer.io/v1/customers/{cust_id_enc}/activities",
-    ]:
-        events_data = api_get(endpoint, {"name": "deposit_made", "limit": 50})
+    endpoints = []
+    if cio_id:
+        endpoints.append(f"{BETA}/customers/{cio_id}/activities")
+    endpoints.extend([
+        f"{BETA}/customers/id:{cust_id_enc}/activities",
+        f"{BETA}/customers/cio_id:{cio_id}/activities" if cio_id else None,
+    ])
+    endpoints = [e for e in endpoints if e]
+    
+    for endpoint in endpoints:
+        events_data = api_get(endpoint, {"type": "event", "name": "deposit_made", "limit": 50})
         if events_data:
             if i == 0:
-                print(f"  Working endpoint: {endpoint.split('customers/')[1]}")
-                print(f"  Response keys: {list(events_data.keys())}")
-                # Show first event structure
+                print(f"  Working endpoint pattern: .../{endpoint.split('customers/')[1]}")
                 evs = events_data.get("events", events_data.get("activities", []))
                 if evs:
-                    print(f"  First event keys: {list(evs[0].keys())}")
+                    print(f"  Events found: {len(evs)}")
                     ev_data = evs[0].get("data", evs[0].get("attributes", {}))
-                    print(f"  Event data keys: {list(ev_data.keys())}")
-                    print(f"  Event data sample: {json.dumps(ev_data, indent=2)[:500]}")
+                    print(f"  Event data keys: {sorted(ev_data.keys())}")
+                    print(f"  Sample: {json.dumps(ev_data, indent=2)[:500]}")
+                else:
+                    print(f"  No deposit events for first user")
             break
     if not events_data:
         continue
