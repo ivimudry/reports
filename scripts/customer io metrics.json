@@ -487,6 +487,71 @@ function CIOCSUM(id, mode) {
   }
 }
 
+// ═══════════════════════════════════════════════════════════
+//  CIOTOPSUM — Aggregate top 3 depositors from a range
+// ═══════════════════════════════════════════════════════════
+/**
+ * Aggregates all depositor data from a range of CIONSUM/CIOCSUM "top" results
+ * and returns the overall top 3 depositors by total amount.
+ *
+ * @param {range} range  Range of cells containing CIONSUM(...,"top") results
+ * @customfunction
+ */
+function CIOTOPSUM(range) {
+  try {
+    if (!range) return '';
+    // Normalize: range can be a single value, 1D array, or 2D array
+    var cells = [];
+    if (Array.isArray(range)) {
+      for (var r = 0; r < range.length; r++) {
+        if (Array.isArray(range[r])) {
+          for (var c = 0; c < range[r].length; c++) cells.push(range[r][c]);
+        } else {
+          cells.push(range[r]);
+        }
+      }
+    } else {
+      cells.push(range);
+    }
+
+    // Parse all "N: email — amount EUR" lines and aggregate by email
+    var totals = {};
+    var pattern = /^\d+:\s*(.+?)\s*[—–-]\s*([\d.]+)\s*EUR$/;
+
+    for (var i = 0; i < cells.length; i++) {
+      var val = String(cells[i] || '').trim();
+      if (!val || val === 'No deposit data available') continue;
+      var lines = val.split('\n');
+      for (var l = 0; l < lines.length; l++) {
+        var match = lines[l].trim().match(pattern);
+        if (match) {
+          var email = match[1].trim();
+          var amount = parseFloat(match[2]);
+          if (!isNaN(amount) && amount > 0) {
+            totals[email] = (totals[email] || 0) + amount;
+          }
+        }
+      }
+    }
+
+    var entries = [];
+    for (var e in totals) {
+      entries.push({ email: e, amount: totals[e] });
+    }
+    if (entries.length === 0) return 'No deposit data available';
+
+    entries.sort(function(a, b) { return b.amount - a.amount; });
+    var top = entries.slice(0, 3);
+    var lines = [];
+    for (var t = 0; t < top.length; t++) {
+      lines.push((t + 1) + ': ' + top[t].email + ' — ' + top[t].amount + ' EUR');
+    }
+    return lines.join('\n');
+  } catch(e) {
+    return 'ERR_RETRY';
+  }
+}
+
 // ── Deposit sum logic (shared) ──────────────────────────────
 function _cioDepositSum(id, filterParam, mode) {
   // 1. Get ONLY converted messages (no type filter — works for email, in_app, push)
