@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>08 — No Cashier Visited — CuatroBet CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="index.html">Обзор</a>
+    <a href="00-data-integration.html">00</a>
+    <a href="17-smart-segmentation.html">17</a>
+    <a href="13-channel-strategy.html">13</a>
+    <a href="04-payment-failure.html">04</a>
+    <a href="05-welcome-bonus.html">05</a>
+    <a href="01-day1-retention.html">01</a>
+    <a href="03-kyc-completion.html">03</a>
+    <a href="06-failed-deposits.html">06</a>
+    <a href="14-bonuses-landing.html">14</a>
+    <a href="07-no-bonus.html">07</a>
+    <a href="08-no-cashier.html" class="active">08</a>
+    <a href="02-pre-vip.html">02</a>
+    <a href="12-reactivation.html">12</a>
+    <a href="09-personalization.html">09</a>
+    <a href="15-bonus-shop.html">15</a>
+    <a href="10-engagement.html">10</a>
+    <a href="11-loyalty.html">11</a>
+    <a href="16-referral.html">16</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="nav-back">← Назад к обзору</a>
+
+  <div class="page-header">
+    <h1>08 — No Cashier Visited</h1>
+    <div class="subtitle">Фаза 1 · Неделя 3 · Средний приоритет · Pre-FTD конверсия</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Коммуникации</div></div>
+    <div class="stat-box green"><div class="stat-value">5 дн.</div><div class="stat-label">Окно Journey</div></div>
+    <div class="stat-box orange"><div class="stat-value">4</div><div class="stat-label">Канала</div></div>
+    <div class="stat-box purple"><div class="stat-value">20%+</div><div class="stat-label">Цель: FTD ConvRate</div></div>
+  </div>
+
+  <div class="info-box warning"><strong>Сегмент:</strong> Зарегистрированные игроки, которые играли (демо/FS), но НИ РАЗУ не посетили кассу. Разрыв между вовлечением и монетизацией.</div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">Scheduled: registered + game_play ≥ 1 + cashier_visited = false + account_age ≥ 48ч</div>
+      </div>
+      <div class="flow-arrow">↓ сегмент попал</div>
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">C1: NC Feed — «Готов играть по-настоящему?»</div>
+      </div>
+      <div class="flow-arrow">↓ +12ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C2: Email — «Первый депозит = 100% бонус + 50 FS»</div>
+      </div>
+      <div class="flow-arrow">↓ +48ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C3: Web Push — «Твои вращения ждут! Депозит от 2,285 ARS»</div>
+      </div>
+      <div class="flow-arrow">↓ +96ч (день 5)</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">C4: Popup — «Последний день! Бонус исчезнет через 24ч»</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEPS -->
+  <div class="card">
+    <h2>📋 Детали коммуникаций</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">NC Feed — Soft intro</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>cashier_visited = false</code> AND <code>game_sessions ≥ 1</code></td></tr>
+        <tr><td>Канал</td><td>NC Feed</td></tr>
+        <tr><td>Контент</td><td>«Ты уже попробовал {{favorite_game}}! Готов к настоящей игре? 💰»</td></tr>
+        <tr><td>CTA</td><td>«Сделать депозит» → касса</td></tr>
+        <tr><td>Выход</td><td><code>cashier_visited = true</code> ИЛИ <code>ftd_completed</code></td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Email — Welcome Bonus preview (+12ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«100% бонус на первый депозит ждёт тебя! 🎁»</td></tr>
+        <tr><td>Контент</td><td>• Объяснение Welcome Bonus Ladder (Chain 05)<br>• Мин. депозит: 2,285 ARS<br>• Что получит: 100% матч + 50 FS<br>• Хит-парад игр по GP_ axis</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=no_cashier&utm_content=c2_welcome</code></td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C3</div>
+      <div class="step-title">Web Push — Social proof (+48ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Web Push</td></tr>
+        <tr><td>Заголовок</td><td>«1,247 игроков уже получили бонусы 🔥»</td></tr>
+        <tr><td>Текст</td><td>«Депозит от 2,285 ARS → бонус до 45,700 ARS + 50 FS»</td></tr>
+        <tr><td>CTA</td><td>Ссылка на кассу</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">C4</div>
+      <div class="step-title">Popup — Last chance (день 5)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>session_start</code> на 5-й день после C1</td></tr>
+        <tr><td>Канал</td><td>Popup (on-site)</td></tr>
+        <tr><td>Контент</td><td>«⏰ Последний шанс получить 100% бонус! Истекает через 24ч»</td></tr>
+        <tr><td>Механика</td><td>Таймер обратного отсчёта + кнопка «Депозит»</td></tr>
+        <tr><td>Показ</td><td>Одноразовый</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- DIFFERENCE -->
+  <div class="card">
+    <h2>📊 Связь с другими chains</h2>
+    <table>
+      <thead><tr><th>Event</th><th>Что происходит</th></tr></thead>
+      <tbody>
+        <tr><td><code>cashier_visited</code></td><td>Выход из Chain 08 → если не депозит, может попасть в Chain 06</td></tr>
+        <tr><td><code>ftd_completed</code></td><td>Выход из Chain 08 → запуск Chain 05 (Welcome Ladder) + Chain 01 (Day-1)</td></tr>
+        <tr><td>Нет действия за 5 дней</td><td>Завершение Chain 08 → через 7+ дней может попасть в Chain 12 (Reactivation)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">50%+</div><div class="kpi-label">Cashier Visit Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">20%+</div><div class="kpi-label">FTD Conversion</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;72ч</div><div class="kpi-label">Median time to FTD</div></div>
+    <div class="kpi-card"><div class="kpi-value">35%+</div><div class="kpi-label">Email CTR</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Атрибут <code>cashier_visited</code> трекается</li>
+      <li>Атрибут <code>game_sessions</code> (кол-во сессий) доступен</li>
+      <li>Сегмент: registered + played + no cashier + 48ч+</li>
+      <li>Journey с 4 шагами и exit conditions</li>
+      <li>NC Feed, Email, Web Push, Popup шаблоны</li>
+      <li>Связка с Chain 05 (при FTD)</li>
+      <li>Связка с Chain 06 (при cashier visit без deposit)</li>
+      <li>UTM метки на всех CTA</li>
+    </ul>
+  </div>
+
+  <div class="page-nav">
+    <a href="07-no-bonus.html"><span class="pn-label">← Назад</span><span class="pn-title">07 — No Bonus Cluster</span></a>
+    <a href="02-pre-vip.html" class="next"><span class="pn-label">Далее →</span><span class="pn-title">02 — Pre-VIP Lifecycle</span></a>
+  </div>
+  <div class="page-footer">CuatroBet CRM Implementation Plan · Doc 08 · GR8 Tech</div>
+</div>
+</body>
+</html>
