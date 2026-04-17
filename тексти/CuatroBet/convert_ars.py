@@ -6,7 +6,10 @@ Uses SINGLE-PASS approach to avoid double-conversion.
 """
 import re
 import os
+import sys
 import glob
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 MULTIPLIER = 4.57
 
