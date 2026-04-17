@@ -1,0 +1,98 @@
+﻿CuatroBet Argentina: CRM Actions Playbook
+Companion to the Miro architecture board
+CRM Consulting Engagement
+April 2026
+Table of Contents
+
+
+
+
+
+
+# Executive Summary
+This playbook is the detailed companion to the CRM architecture on Miro. The Miro board shows the visual lifecycle map (preserved from the existing structure) plus four net-new lifecycle diagrams. This document contains the specific values, messages, timings, bonus mechanics, and the 12-week execution plan.
+The engagement is anchored on seven headline baselines from the April 2026 discovery:
+The single biggest insight from discovery: Day 1 retention is 27.8%. Roughly 72% of players who take a first action disappear within 24 hours. This is the highest-leverage problem in the funnel and drives every downstream metric including STD, ADPU, and bonus cost. The Day 1 Retention Layer in Part I is the single most important initiative in this playbook.
+The second biggest insight: bonus cost is 10.5% against a 20% target because wagering is not completing, not because offers are too small. Wagering requirements are too high (40x on the welcome bonus) and the current ladder drops from 120% at D1 to 20% at D2, which punishes second-deposit intent. Fixing wagering mechanics and the D2 cliff is worth more than any new offer.
+# Baselines and Targets
+## Player base
+Total registered: 19,000
+FTD count: 4,165 (22.23% FTD conversion)
+STD count: roughly 383 (9.20% STD conversion)
+Active last 7 days: 1,028
+Active last 30 days: 3,298 (17.4% of registered)
+VIP tiers I to III combined: 15 players
+Product mix: 99.9% casino
+## Economics
+Average deposit: roughly 1,800 ARS (6 USD)
+Deposit frequency: 2.5 per user
+Bonus cost: 10.5% of GGR in April, 9.5% in March
+KYC soft threshold: 22,500 ARS (75 USD) before document verification required
+Payment success rate: 55%
+Payment methods: Mercado Pago, Naranja Betterbro, bank transfer
+## Top 10 games (for free spin alignment)
+Jackpot Joker (TaDa)
+JokerТs Jewels (Pragmatic Play)
+4 Supercharged Clovers (Playson)
+Gates of Olympus (Pragmatic Play)
+JokerТs Jewels Cash (Pragmatic Play)
+Turkish Live Roulette (Ezugi)
+Gold Party (Pragmatic Play)
+3 Coin Volcanoes (3 Oaks)
+Rush for Gold (3 Oaks)
+Gates of Olympus 1000 (Pragmatic Play)
+Note: Sweet Bonanza is featured in the Bonus Shop but does not appear in the top 10. All free spin offers should be rotated across the actual top titles, not Sweet Bonanza.
+## Channel performance (from the April dashboards)
+SMS: best performer. 19.68% click rate, 98.42% delivery, around 1,200 daily sends. Under-used.
+Email: healthy. 99.13% delivery, roughly 22% open, 48% CTOR, volume declining (minus 18% trend). Around 1,150 daily sends.
+NC Feed: fatigued. Volume scaled 10x in March to April (from 2,000 to 25,700 daily). Open rate fell from 32 to 40 percent down to 11%. Classic message fatigue.
+NC Pop-Up: worse. Show rate 2.76%, open rate fell to 2.37%, click rate to 1.57%. Targeting and fatigue problem.
+App Push: dormant. Zero sends across the period observed. Recommended to be activated.
+Web Push: negligible volume.
+
+# How to use this document
+This playbook is organized in four parts.
+Part I: New lifecycles. Full playbooks for the net-new journeys shown as diagrams on the Miro board. Each playbook specifies every touch, the timing, the channel, the message copy, the offer mechanics, and the exit condition.
+Part II: Calibration of the existing architecture. The existing lifecycle map on Miro has the structural bones in place but the Communication 1 through 4 boxes are empty and the bonus ladder values need calibration. This part fills them in.
+Part III: Cross-cutting redesigns. Changes that span multiple lifecycles or touch product surfaces outside the lifecycle map: channel rebalancing, the bonuses landing page, the bonus shop catalogue, the referral program, smart segmentation setup, and App Push activation.
+Part IV: Execution. The 12-week roadmap, measurement framework, risks and dependencies.
+Read in sequence on the first pass. After that, each section can be referenced independently by the CRM owner responsible for that lifecycle.
+
+
+
+
+
+
+# PART I: FOUR NEW LIFECYCLES
+# 1. Day 1 Retention Layer (highest priority)
+The Day 1 Retention Layer is the single highest-priority initiative in this engagement. It directly attacks the 27.8% Day 1 retention baseline which is the root cause of the 9.20% STD conversion, the flat ADPU in month 0, and much of the channel fatigue problem (because the brand is compensating for poor retention with scale blasting).
+## Purpose
+Keep first-action players alive through the first 72 hours after FTD, using time-based and behaviour-based triggers with low-cost micro-bonuses, SMS, and in-session popups. The layer runs in parallel with the existing Welcome Bonus Ladder. The ladder triggers on deposit events. The Day 1 Layer triggers on time and behaviour events. They never conflict.
+## Entry trigger
+Real-time FTD success event from the GR8 Tech platform. The layer begins the moment the deposit is confirmed.
+## Segmentation
+The layer branches at T+1 hour into two paths based on first-session game category: Slots path (default, roughly 95% of players) or Aviator path (players whose first session was on Aviator or another crash game).
+## Touch sequence (Slots path)
+### T+0 (FTD success)
+Channel: system
+Action: grant 50 no-deposit free spins on Gates of Olympus (or playerТs first-session game if different), expiring in 24 hours, wagering 20x on winnings
+Exit: none, continues
+### T+5 min: In-session celebration popup
+Channel: native in-app popup
+python.exe : Traceback (most recent call last):
+At line:1 char:1
++ & "c:\Projects\REPORTS\.venv\Scripts\python.exe" -u "c:\Projects\REPO ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "c:\Projects\REPORTS\_extract_docx.py", line 22, in <module>
+    print(text)
+    ~~~~~^^^^^^
+  File "C:\Users\ivimu\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp
+1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\xe1' in position 4
+6: character maps to <undefined>
