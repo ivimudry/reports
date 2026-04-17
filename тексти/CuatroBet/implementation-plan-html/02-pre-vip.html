@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02 — Pre-VIP Lifecycle — CuatroBet CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="index.html">Обзор</a>
+    <a href="00-data-integration.html">00</a>
+    <a href="17-smart-segmentation.html">17</a>
+    <a href="13-channel-strategy.html">13</a>
+    <a href="04-payment-failure.html">04</a>
+    <a href="05-welcome-bonus.html">05</a>
+    <a href="01-day1-retention.html">01</a>
+    <a href="03-kyc-completion.html">03</a>
+    <a href="06-failed-deposits.html">06</a>
+    <a href="14-bonuses-landing.html">14</a>
+    <a href="07-no-bonus.html">07</a>
+    <a href="08-no-cashier.html">08</a>
+    <a href="02-pre-vip.html" class="active">02</a>
+    <a href="12-reactivation.html">12</a>
+    <a href="09-personalization.html">09</a>
+    <a href="15-bonus-shop.html">15</a>
+    <a href="10-engagement.html">10</a>
+    <a href="11-loyalty.html">11</a>
+    <a href="16-referral.html">16</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="nav-back">← Назад к обзору</a>
+
+  <div class="page-header">
+    <h1>02 — Pre-VIP Lifecycle</h1>
+    <div class="subtitle">Фаза 1 · Неделя 3–4 · Высокий приоритет · Путь к VIP статусу</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">VIP уровня</div></div>
+    <div class="stat-box green"><div class="stat-value">8</div><div class="stat-label">Коммуникаций</div></div>
+    <div class="stat-box orange"><div class="stat-value">5</div><div class="stat-label">Каналов</div></div>
+    <div class="stat-box purple"><div class="stat-value">15%+</div><div class="stat-label">Цель: VIP Conv Rate</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Сегмент:</strong> Игроки с депозитами 685,000 – 1,370,000 ARS. Находятся «на пороге» VIP — нужен push к следующему уровню.</div>
+
+  <!-- VIP TIERS -->
+  <div class="card">
+    <h2>🏆 VIP Уровни (GR8 Tech Tiers)</h2>
+    <table>
+      <thead><tr><th>Уровень</th><th>Порог депозитов</th><th>Привилегии</th><th>Ежемесячный кэшбэк</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-phase1">Silver</span></td><td>685,000 ARS</td><td>Персональный менеджер, Weekly reload 15%</td><td>5%</td></tr>
+        <tr><td><span class="badge badge-phase2">Gold</span></td><td>1,370,000 ARS</td><td>Приоритетный вывод, Birthday bonus</td><td>7%</td></tr>
+        <tr><td><span class="badge badge-phase4">Platinum</span></td><td>2,740,000 ARS</td><td>Эксклюзивные турниры, Concierge</td><td>10%</td></tr>
+        <tr><td><span style="color:var(--accent-red);font-weight:700">Diamond</span></td><td>6,850,000 ARS</td><td>Всё + Travel + Личный хост</td><td>15%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">Вход в сегмент LS_PRE_VIP (685K+ ARS)</div>
+      </div>
+      <div class="flow-arrow">↓ немедленно</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C1: Email + NC Feed — «Ты на пороге VIP!» + прогресс-бар</div>
+      </div>
+      <div class="flow-arrow">↓ +3 дня</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">C2: «VIP Preview» — Email с привилегиями уровня</div>
+      </div>
+      <div class="flow-arrow">↓ +7 дней</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C3: «Ускоритель» — 25% reload до 34,275 ARS</div>
+      </div>
+      <div class="flow-arrow">↓ 80% порога</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">C4: «Почти VIP!» — WhatsApp/SMS + финальный push</div>
+      </div>
+      <div class="flow-arrow">↓ VIP достигнут</div>
+      <div class="flow-step" style="--step-color: var(--phase4)">
+        <div class="flow-label">C5: «Добро пожаловать в VIP!» 🎉 — все каналы</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEPS -->
+  <div class="card">
+    <h2>📋 Коммуникации</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">Вход в Pre-VIP</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td>Переход в сегмент <code>LS_PRE_VIP</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Subject</td><td>«Ты на пороге VIP статуса! 👑»</td></tr>
+        <tr><td>Контент</td><td>• Прогресс-бар до Silver ({{progress}}%)<br>• Сколько осталось ARS<br>• Preview привилегий Silver</td></tr>
+        <tr><td>CTA</td><td>«Узнать больше о VIP» → VIP лендинг</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">VIP Preview (+3 дня)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Вот что тебя ждёт в VIP 💎»</td></tr>
+        <tr><td>Контент</td><td>Подробное сравнение: обычный vs Silver vs Gold<br>Эксклюзивные привилегии, персональный менеджер, weekly reload</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C3</div>
+      <div class="step-title">VIP Accelerator (+7 дней)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Каналы</td><td>Email + NC Feed + Web Push</td></tr>
+        <tr><td>Оффер</td><td>25% reload до 34,275 ARS (×25 вейджер)</td></tr>
+        <tr><td>Subject</td><td>«Ускорь свой путь к VIP — 25% бонус! 🚀»</td></tr>
+        <tr><td>TTL</td><td>72ч</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">C4</div>
+      <div class="step-title">«Почти VIP» (80% порога)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>total_deposits ≥ 0.8 × vip_threshold</code></td></tr>
+        <tr><td>Каналы</td><td>Email + WhatsApp (VT_HIGH+) / SMS</td></tr>
+        <tr><td>Контент</td><td>«Осталось {{remaining_ars}} ARS до VIP Silver! Ещё немного!»</td></tr>
+        <tr><td>Оффер</td><td>30% reload «VIP Sprint» (×20 вейджер, TTL 48ч)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card trigger">
+      <div class="step-num">C5</div>
+      <div class="step-title">VIP Welcome! 🎉</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>vip_tier_achieved</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed + Web Push + WhatsApp + SMS</td></tr>
+        <tr><td>Subject</td><td>«Поздравляем, ты VIP {{tier}}! 👑🎉»</td></tr>
+        <tr><td>Контент</td><td>• Welcome to VIP<br>• Список привилегий<br>• Контакт персонального менеджера<br>• Welcome gift: 50 FS + 2,000 CC</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ONGOING VIP -->
+  <div class="card">
+    <h2>📋 Ongoing VIP коммуникации</h2>
+    <table>
+      <thead><tr><th>Коммуникация</th><th>Частота</th><th>Содержание</th></tr></thead>
+      <tbody>
+        <tr><td>C6: Weekly VIP Report</td><td>Еженедельно (пн)</td><td>Статистика за неделю, баланс CC, следующий milestone</td></tr>
+        <tr><td>C7: Monthly VIP Exclusive</td><td>Ежемесячно (1-е)</td><td>Кэшбэк за месяц, эксклюзивный оффер, VIP турнир</td></tr>
+        <tr><td>C8: Birthday</td><td>В день рождения</td><td>Подарок: 100 FS + 5,000 CC (Gold+)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">15%+</div><div class="kpi-label">Pre-VIP → VIP Conv</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;30 дней</div><div class="kpi-label">Median time to VIP</div></div>
+    <div class="kpi-card"><div class="kpi-value">5%+</div><div class="kpi-label">VIP Churn (monthly)</div></div>
+    <div class="kpi-card"><div class="kpi-value">+40%</div><div class="kpi-label">ARPU VIP vs Regular</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>VIP уровни (Silver/Gold/Platinum/Diamond) настроены в GR8 Tech</li>
+      <li>Сегмент <code>LS_PRE_VIP</code> (685K–1.37M ARS)</li>
+      <li>Прогресс-бар данные (% до следующего уровня)</li>
+      <li>VIP Accelerator бонус (25% reload) создан</li>
+      <li>VIP Sprint бонус (30% reload) создан</li>
+      <li>VIP Welcome gift (50 FS + 2,000 CC) создан</li>
+      <li>Birthday bonus (100 FS + 5,000 CC) для Gold+</li>
+      <li>Персональный менеджер assignment flow</li>
+      <li>Weekly/Monthly VIP email шаблоны</li>
+      <li>WhatsApp templates для VIP утверждены</li>
+      <li>VIP лендинг страница создана</li>
+    </ul>
+  </div>
+
+  <div class="page-nav">
+    <a href="08-no-cashier.html"><span class="pn-label">← Назад</span><span class="pn-title">08 — No Cashier Visited</span></a>
+    <a href="12-reactivation.html" class="next"><span class="pn-label">Далее →</span><span class="pn-title">12 — Реактивация</span></a>
+  </div>
+  <div class="page-footer">CuatroBet CRM Implementation Plan · Doc 02 · GR8 Tech</div>
+</div>
+</body>
+</html>
