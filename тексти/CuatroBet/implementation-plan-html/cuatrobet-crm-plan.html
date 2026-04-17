@@ -1,0 +1,4274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CuatroBet — План внедрения CRM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+/* CuatroBet Implementation Plan — Dark Theme Infographic */
+
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-card: #1c2128;
+  --bg-card-hover: #21262d;
+  --border: #30363d;
+  --border-accent: #3d444d;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent-blue: #58a6ff;
+  --accent-green: #3fb950;
+  --accent-orange: #d29922;
+  --accent-red: #f85149;
+  --accent-purple: #bc8cff;
+  --accent-cyan: #39d2c0;
+  --accent-pink: #f778ba;
+  --accent-gold: #e3b341;
+  --phase0: #58a6ff;
+  --phase1: #3fb950;
+  --phase2: #d29922;
+  --phase3: #bc8cff;
+  --phase4: #f85149;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--accent-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* === LAYOUT === */
+.page { max-width: 1200px; margin: 0 auto; padding: 40px 24px 80px; }
+
+.page-header {
+  text-align: center;
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+}
+.page-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.page-header .subtitle {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+/* === NAV BAR === */
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(13,17,23,.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-bar .logo {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent-gold);
+  white-space: nowrap;
+}
+.nav-bar .nav-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.nav-bar .nav-links a {
+  font-size: .8rem;
+  padding: 4px 10px;
+  border-radius: 16px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  transition: .15s;
+  white-space: nowrap;
+}
+.nav-bar .nav-links a:hover,
+.nav-bar .nav-links a.active {
+  background: var(--accent-blue);
+  color: #fff;
+  text-decoration: none;
+}
+.nav-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: .85rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  margin-bottom: 24px;
+  transition: .15s;
+}
+.nav-back:hover { background: var(--bg-card); color: var(--text-primary); text-decoration: none; }
+
+/* === BADGES === */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.badge-phase0 { background: rgba(88,166,255,.15); color: var(--phase0); }
+.badge-phase1 { background: rgba(63,185,80,.15); color: var(--phase1); }
+.badge-phase2 { background: rgba(210,153,34,.15); color: var(--phase2); }
+.badge-phase3 { background: rgba(188,140,255,.15); color: var(--phase3); }
+.badge-phase4 { background: rgba(248,81,73,.15); color: var(--phase4); }
+.badge-infra { background: rgba(57,210,192,.15); color: var(--accent-cyan); }
+.badge-simple { background: rgba(63,185,80,.15); color: var(--accent-green); }
+.badge-medium { background: rgba(210,153,34,.15); color: var(--accent-orange); }
+.badge-complex { background: rgba(248,81,73,.15); color: var(--accent-red); }
+
+.channel-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: .7rem;
+  font-weight: 600;
+  margin: 2px;
+}
+.ch-email { background: rgba(88,166,255,.15); color: var(--accent-blue); }
+.ch-sms { background: rgba(63,185,80,.15); color: var(--accent-green); }
+.ch-popup { background: rgba(188,140,255,.15); color: var(--accent-purple); }
+.ch-push { background: rgba(210,153,34,.15); color: var(--accent-orange); }
+.ch-inapp { background: rgba(247,120,186,.15); color: var(--accent-pink); }
+.ch-ui { background: rgba(57,210,192,.15); color: var(--accent-cyan); }
+.ch-config { background: rgba(139,148,158,.15); color: var(--text-secondary); }
+
+/* === CARDS === */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 20px;
+  transition: .15s;
+}
+.card:hover { border-color: var(--border-accent); }
+.card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card h3 {
+  font-size: 1.05rem;
+  margin: 20px 0 12px;
+  color: var(--accent-blue);
+}
+
+/* === CAMPAIGN CARD (Index Page) === */
+.campaign-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 16px;
+}
+.campaign-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  transition: .2s;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.campaign-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+.campaign-card.phase0::before { background: var(--phase0); }
+.campaign-card.phase1::before { background: var(--phase1); }
+.campaign-card.phase2::before { background: var(--phase2); }
+.campaign-card.phase3::before { background: var(--phase3); }
+.campaign-card.phase4::before { background: var(--phase4); }
+
+.campaign-card:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.campaign-card .cc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+.campaign-card .cc-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  line-height: 1;
+}
+.campaign-card .cc-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.campaign-card .cc-desc {
+  color: var(--text-secondary);
+  font-size: .85rem;
+  flex-grow: 1;
+  margin-bottom: 12px;
+}
+.campaign-card .cc-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: .8rem;
+  color: var(--text-muted);
+}
+.campaign-card .cc-meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* === STATS ROW === */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  text-align: center;
+}
+.stat-box .stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.stat-box .stat-label {
+  font-size: .8rem;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+.stat-box.blue .stat-value { color: var(--accent-blue); }
+.stat-box.green .stat-value { color: var(--accent-green); }
+.stat-box.orange .stat-value { color: var(--accent-orange); }
+.stat-box.red .stat-value { color: var(--accent-red); }
+.stat-box.purple .stat-value { color: var(--accent-purple); }
+.stat-box.cyan .stat-value { color: var(--accent-cyan); }
+
+/* === TIMELINE === */
+.timeline {
+  position: relative;
+  padding-left: 32px;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -27px;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  background: var(--bg-primary);
+}
+.timeline-item.active::before { border-color: var(--accent-green); background: var(--accent-green); }
+.timeline-item.pending::before { border-color: var(--accent-orange); }
+.timeline-item .tl-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.timeline-item .tl-time {
+  font-size: .8rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.timeline-item .tl-desc {
+  font-size: .9rem;
+  color: var(--text-secondary);
+}
+
+/* === STEP CARDS === */
+.step-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  position: relative;
+  border-left: 3px solid var(--accent-blue);
+}
+.step-card.trigger { border-left-color: var(--accent-orange); }
+.step-card.action { border-left-color: var(--accent-green); }
+.step-card.decision { border-left-color: var(--accent-purple); }
+.step-card.warning { border-left-color: var(--accent-red); }
+.step-card.channel { border-left-color: var(--accent-cyan); }
+.step-card .step-num {
+  position: absolute;
+  top: -10px;
+  left: 16px;
+  background: var(--accent-blue);
+  color: #fff;
+  font-size: .7rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+.step-card.trigger .step-num { background: var(--accent-orange); }
+.step-card.action .step-num { background: var(--accent-green); }
+.step-card.decision .step-num { background: var(--accent-purple); }
+.step-card.warning .step-num { background: var(--accent-red); }
+.step-card .step-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* === TABLES === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: .88rem;
+}
+th, td {
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+th {
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+tr:hover td { background: rgba(255,255,255,.02); }
+td code {
+  background: rgba(88,166,255,.1);
+  color: var(--accent-blue);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: .82rem;
+}
+
+/* === FLOW DIAGRAM (CSS-only) === */
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  margin: 24px 0;
+}
+.flow-node {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 24px;
+  text-align: center;
+  min-width: 250px;
+  max-width: 400px;
+  position: relative;
+}
+.flow-node.trigger {
+  border-color: var(--accent-orange);
+  background: rgba(210,153,34,.08);
+}
+.flow-node.process {
+  border-color: var(--accent-blue);
+  background: rgba(88,166,255,.06);
+}
+.flow-node.decision {
+  border-color: var(--accent-purple);
+  background: rgba(188,140,255,.08);
+  border-radius: 4px;
+  transform: rotate(0deg);
+}
+.flow-node.end {
+  border-color: var(--accent-green);
+  background: rgba(63,185,80,.08);
+}
+.flow-arrow {
+  width: 2px;
+  height: 24px;
+  background: var(--border);
+  position: relative;
+}
+.flow-arrow::after {
+  content: '▼';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: .6rem;
+  color: var(--text-muted);
+}
+.flow-branch {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flow-branch-label {
+  font-size: .75rem;
+  color: var(--text-muted);
+  margin: 4px 0;
+  text-align: center;
+}
+
+/* === KPI CARDS === */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.kpi-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+.kpi-card .kpi-target {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent-green);
+}
+.kpi-card .kpi-name {
+  font-size: .85rem;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+/* === CHECKLIST === */
+.checklist {
+  list-style: none;
+  margin: 12px 0;
+}
+.checklist li {
+  padding: 8px 0 8px 28px;
+  position: relative;
+  color: var(--text-secondary);
+  font-size: .9rem;
+  border-bottom: 1px solid rgba(48,54,61,.5);
+}
+.checklist li::before {
+  content: '☐';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+/* === INFO BOXES === */
+.info-box {
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  margin: 16px 0;
+  font-size: .9rem;
+}
+.info-box.warning {
+  background: rgba(210,153,34,.1);
+  border: 1px solid rgba(210,153,34,.3);
+  color: var(--accent-orange);
+}
+.info-box.danger {
+  background: rgba(248,81,73,.1);
+  border: 1px solid rgba(248,81,73,.3);
+  color: var(--accent-red);
+}
+.info-box.info {
+  background: rgba(88,166,255,.08);
+  border: 1px solid rgba(88,166,255,.2);
+  color: var(--accent-blue);
+}
+.info-box.success {
+  background: rgba(63,185,80,.08);
+  border: 1px solid rgba(63,185,80,.2);
+  color: var(--accent-green);
+}
+
+/* === PHASE SECTION HEADER === */
+.phase-header {
+  padding: 20px 24px;
+  border-radius: var(--radius-lg);
+  margin: 40px 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.phase-header.p0 { background: rgba(88,166,255,.08); border: 1px solid rgba(88,166,255,.2); }
+.phase-header.p1 { background: rgba(63,185,80,.08); border: 1px solid rgba(63,185,80,.2); }
+.phase-header.p2 { background: rgba(210,153,34,.08); border: 1px solid rgba(210,153,34,.2); }
+.phase-header.p3 { background: rgba(188,140,255,.08); border: 1px solid rgba(188,140,255,.2); }
+.phase-header.p4 { background: rgba(248,81,73,.08); border: 1px solid rgba(248,81,73,.2); }
+.phase-header .phase-icon {
+  font-size: 2rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.phase-header.p0 .phase-icon { background: rgba(88,166,255,.15); }
+.phase-header.p1 .phase-icon { background: rgba(63,185,80,.15); }
+.phase-header.p2 .phase-icon { background: rgba(210,153,34,.15); }
+.phase-header.p3 .phase-icon { background: rgba(188,140,255,.15); }
+.phase-header.p4 .phase-icon { background: rgba(248,81,73,.15); }
+
+.phase-header h2 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+.phase-header .phase-desc {
+  color: var(--text-secondary);
+  font-size: .88rem;
+}
+
+/* === DEPENDENCY GRAPH === */
+.dep-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: .88rem;
+  color: var(--text-secondary);
+}
+.dep-row .dep-arrow { color: var(--text-muted); }
+
+/* === FOOTER === */
+.page-footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .8rem;
+}
+
+/* === NAVIGATION ARROWS (prev/next) === */
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.page-nav a {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: .15s;
+  min-width: 200px;
+}
+.page-nav a:hover {
+  border-color: var(--accent-blue);
+  text-decoration: none;
+}
+.page-nav a .pn-label {
+  font-size: .75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+.page-nav a .pn-title {
+  font-weight: 600;
+  font-size: .95rem;
+}
+.page-nav .next { text-align: right; margin-left: auto; }
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .page { padding: 20px 16px 40px; }
+  .campaign-grid { grid-template-columns: 1fr; }
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+  .flow-branch { flex-direction: column; align-items: center; }
+  .page-nav { flex-direction: column; }
+  .nav-bar { flex-wrap: wrap; }
+}
+
+/* === PROGRESS BAR === */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--bg-secondary);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 8px 0;
+}
+.progress-bar .fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width .3s;
+}
+
+/* === GANTT-LIKE CHART === */
+.gantt {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 0;
+  margin: 16px 0;
+  font-size: .85rem;
+}
+.gantt-row {
+  display: contents;
+}
+.gantt-label {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+}
+.gantt-bar-container {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.gantt-bar {
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  font-size: .72rem;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+}
+.gantt-header {
+  display: contents;
+}
+.gantt-header .gantt-label,
+.gantt-header .gantt-bar-container {
+  background: var(--bg-secondary);
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+.gantt-week-markers {
+  display: flex;
+  width: 100%;
+}
+.gantt-week-markers span {
+  flex: 1;
+  text-align: center;
+  border-left: 1px solid var(--border);
+  padding: 4px 0;
+}
+
+
+/* === SINGLE-PAGE ADDITIONS === */
+.page-section { display: none; }
+.page-section.active { display: block; }
+
+.flow-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  margin: 24px 0;
+}
+.flow-step {
+  background: var(--bg-card);
+  border: 2px solid var(--step-color, var(--border));
+  border-radius: var(--radius);
+  padding: 14px 24px;
+  text-align: center;
+  min-width: 280px;
+  max-width: 600px;
+  width: 100%;
+}
+.flow-step .flow-label {
+  font-size: .92rem;
+  color: var(--text-primary);
+}
+.flow-diagram .flow-arrow {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .85rem;
+  padding: 6px 0;
+  width: auto;
+  height: auto;
+  background: none;
+}
+.flow-diagram .flow-arrow::after { display: none; }
+  </style>
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="#overview" data-page="overview" class="active">Обзор</a>
+        <a href="#01" data-page="01">01</a>
+        <a href="#02" data-page="02">02</a>
+        <a href="#03" data-page="03">03</a>
+        <a href="#04" data-page="04">04</a>
+        <a href="#05" data-page="05">05</a>
+        <a href="#06" data-page="06">06</a>
+        <a href="#07" data-page="07">07</a>
+        <a href="#08" data-page="08">08</a>
+        <a href="#09" data-page="09">09</a>
+        <a href="#10" data-page="10">10</a>
+        <a href="#11" data-page="11">11</a>
+        <a href="#12" data-page="12">12</a>
+        <a href="#13" data-page="13">13</a>
+        <a href="#14" data-page="14">14</a>
+        <a href="#15" data-page="15">15</a>
+        <a href="#16" data-page="16">16</a>
+        <a href="#17" data-page="17">17</a>
+        <a href="#18" data-page="18">18</a>
+  </div>
+</nav>
+
+<!-- OVERVIEW -->
+<section id="overview" class="page-section active">
+  <div class="page">
+<div class="page-header">
+    <h1>CuatroBet — План внедрения CRM-автоматизации</h1>
+    <div class="subtitle">18 кампаний · 5 фаз · 10 недель · GR8 Tech CRM</div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-row">
+    <div class="stat-box blue">
+      <div class="stat-value">18</div>
+      <div class="stat-label">Кампаний / Цепочек</div>
+    </div>
+    <div class="stat-box green">
+      <div class="stat-value">200+</div>
+      <div class="stat-label">Коммуникаций</div>
+    </div>
+    <div class="stat-box orange">
+      <div class="stat-value">10</div>
+      <div class="stat-label">Недель внедрения</div>
+    </div>
+    <div class="stat-box purple">
+      <div class="stat-value">5</div>
+      <div class="stat-label">Каналов доставки</div>
+    </div>
+    <div class="stat-box cyan">
+      <div class="stat-value">32</div>
+      <div class="stat-label">Базовых сегментов</div>
+    </div>
+    <div class="stat-box red">
+      <div class="stat-value">100+</div>
+      <div class="stat-label">Точек данных</div>
+    </div>
+  </div>
+
+  <!-- GANTT CHART -->
+  <div class="card">
+    <h2>📅 Хронология внедрения</h2>
+    <div class="gantt">
+      <div class="gantt-header">
+        <div class="gantt-label">Кампания</div>
+        <div class="gantt-bar-container">
+          <div class="gantt-week-markers">
+            <span>Н1</span><span>Н2</span><span>Н3</span><span>Н4</span><span>Н5</span>
+            <span>Н6</span><span>Н7</span><span>Н8</span><span>Н9</span><span>Н10</span>
+          </div>
+        </div>
+      </div>
+      <!-- Phase 0 -->
+      <div class="gantt-row"><div class="gantt-label">01 Data Integration</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:20%;margin-left:0;background:var(--phase0)">Н1–Н2</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">02 Сегментация</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:0;background:var(--phase0)">Н1</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">03 Каналы</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:0;background:var(--phase0)">Н1</div></div></div>
+      <!-- Phase 1 -->
+      <div class="gantt-row"><div class="gantt-label">04 Ошибки платежей</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:10%;background:var(--phase1)">Н2</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">05 Welcome Ladder</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:10%;background:var(--phase1)">Н2</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">06 Day 1 Retention</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:10%;background:var(--phase1)">Н2</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">07 KYC</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:10%;background:var(--phase1)">Н2</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">08 Failed Deposits</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:20%;background:var(--phase1)">Н3</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">09 Landing Page</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:20%;margin-left:10%;background:var(--phase1)">Н2–Н3</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">10 No Bonus</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:20%;background:var(--phase1)">Н3</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">11 No Cashier</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:20%;background:var(--phase1)">Н3</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">12 Pre-VIP</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:20%;background:var(--phase1)">Н3</div></div></div>
+      <!-- Phase 2 -->
+      <div class="gantt-row"><div class="gantt-label">13 Реактивация</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:20%;margin-left:40%;background:var(--phase2)">Н5–Н6</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">14 Персонализация</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:10%;margin-left:30%;background:var(--phase2)">Н4</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">15 Bonus Shop</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:20%;margin-left:30%;background:var(--phase2)">Н4–Н5</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">16 Геймификация</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:20%;margin-left:60%;background:var(--phase2)">Н7–Н8</div></div></div>
+      <div class="gantt-row"><div class="gantt-label">17 Лояльность</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:20%;margin-left:60%;background:var(--phase2)">Н7–Н8</div></div></div>
+      <!-- Phase 4 -->
+      <div class="gantt-row"><div class="gantt-label">18 Реферальная</div><div class="gantt-bar-container"><div class="gantt-bar" style="width:20%;margin-left:80%;background:var(--phase4)">Н9–Н10</div></div></div>
+    </div>
+  </div>
+
+  <!-- CRITICAL DEPENDENCIES -->
+  <div class="card">
+    <h2>🔗 Критические зависимости</h2>
+    <div class="info-box danger">⚠️ Без документов Фазы 0 (00, 17, 13) невозможно начать ни одну цепочку кампаний.</div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;">
+      <div>
+        <h3 style="font-size:.95rem;color:var(--accent-blue);margin-bottom:8px;">Основные цепочки</h3>
+        <div class="dep-row"><code>00</code> <span class="dep-arrow">→</span> всё остальное</div>
+        <div class="dep-row"><code>17</code> <span class="dep-arrow">→</span> 01, 02, 12, 13</div>
+        <div class="dep-row"><code>13</code> <span class="dep-arrow">→</span> все коммуникации</div>
+        <div class="dep-row"><code>04</code> <span class="dep-arrow">→</span> 06 (пост-восстановление)</div>
+        <div class="dep-row"><code>05</code> <span class="dep-arrow">→</span> 01 (Welcome → D1)</div>
+      </div>
+      <div>
+        <h3 style="font-size:.95rem;color:var(--accent-blue);margin-bottom:8px;">Вторичные</h3>
+        <div class="dep-row"><code>01</code> <span class="dep-arrow">→</span> 02 (D1 → Pre-VIP)</div>
+        <div class="dep-row"><code>10</code> <span class="dep-arrow">↔</span> 11 (Gamification ↔ Loyalty)</div>
+        <div class="dep-row"><code>17</code> <span class="dep-arrow">→</span> 12 (Churn → Reactivation)</div>
+        <div class="dep-row"><code>05, 02</code> <span class="dep-arrow">→</span> 14 (Ladders → Landing)</div>
+        <div class="dep-row"><code>10</code> <span class="dep-arrow">→</span> 15 (CC → Bonus Shop)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHASE 0 -->
+  <div class="phase-header p0">
+    <div class="phase-icon">🏗️</div>
+    <div>
+      <h2>Фаза 0 — Инфраструктура</h2>
+      <div class="phase-desc">Неделя 1 · Данные, сегментация, каналы · Предварительное условие для ВСЕГО</div>
+    </div>
+  </div>
+  <div class="campaign-grid">
+    <a href="#01" data-page="01" class="campaign-card phase0" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">17</div>
+        <span class="badge badge-phase0">Фаза 0</span>
+      </div>
+      <div class="cc-title">Интеграция данных — Мастер-документ</div>
+      <div class="cc-desc">100+ точек данных, 8 категорий событий, 25+ сегментов, конфигурация всей платформы</div>
+      <div class="cc-meta">
+        <span class="badge badge-complex">Комплекс</span>
+        <span class="channel-badge ch-config">Конфигурация</span>
+        <span>25+ задач</span>
+      </div>
+    </a>
+    <a href="#02" data-page="02" class="campaign-card phase0" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">13</div>
+        <span class="badge badge-phase0">Фаза 0</span>
+      </div>
+      <div class="cc-title">Умная сегментация — 5-осевая модель</div>
+      <div class="cc-desc">16 сегментов ЖЦ, 5 уровней ценности, 4 игровых, 4 Churn-риска, 3 KYC + Predictive Churn</div>
+      <div class="cc-meta">
+        <span class="badge badge-complex">Комплекс</span>
+        <span class="channel-badge ch-config">Конфигурация</span>
+        <span>32 сегмента</span>
+      </div>
+    </a>
+    <a href="#03" data-page="03" class="campaign-card phase0" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">18</div>
+        <span class="badge badge-phase0">Фаза 0</span>
+      </div>
+      <div class="cc-title">Стратегия каналов и лимиты частоты</div>
+      <div class="cc-desc">Охлаждение NC Feed (-60%), активация Web Push, глобальные лимиты 2/день, тихие часы</div>
+      <div class="cc-meta">
+        <span class="badge badge-simple">Простой</span>
+        <span class="channel-badge ch-config">Конфигурация</span>
+        <span>6 каналов</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- PHASE 1 -->
+  <div class="phase-header p1">
+    <div class="phase-icon">🚀</div>
+    <div>
+      <h2>Фаза 1 — Основные цепочки</h2>
+      <div class="phase-desc">Недели 2–4 · FTD, KYC, восстановление, Welcome Ladder, Pre-VIP</div>
+    </div>
+  </div>
+  <div class="campaign-grid">
+    <a href="#04" data-page="04" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">04</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Восстановление после ошибки платежа</div>
+      <div class="cc-desc">5 маршрутов ошибок × попап за 5 сек + празднование восстановления. Самый высокий ROI.</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span>5 касаний</span>
+      </div>
+    </a>
+    <a href="#05" data-page="05" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">05</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Лестница приветственных бонусов</div>
+      <div class="cc-desc">10 депозитов × 3 вертикали (Slots/Live/Sport) = 30 шаблонов бонусов + Lucky Wheel</div>
+      <div class="cc-meta">
+        <span class="badge badge-complex">Средний+</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span>30 конфигов</span>
+      </div>
+    </a>
+    <a href="#06" data-page="06" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">17</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Day 1 Retention Layer</div>
+      <div class="cc-desc">72ч мультиканальная цепочка: Slots (95%) vs Aviator (5%), 7 касаний на вертикаль</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-push">Push</span>
+        <span>14 касаний</span>
+      </div>
+    </a>
+    <a href="#07" data-page="07" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">18</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Цепочка завершения KYC</div>
+      <div class="cc-desc">Email → Телефон → Документы. Верификация телефона = SMS opt-in (19.68% click rate)</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span>9 касаний</span>
+      </div>
+    </a>
+    <a href="#08" data-page="08" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">17</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Неудачные депозиты — Лестницы</div>
+      <div class="cc-desc">5 причин отказа × 4 коммуникации = 20 касаний. Пост-восстановление после цепочки 04.</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span>20 касаний</span>
+      </div>
+    </a>
+    <a href="#09" data-page="09" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">14</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Редизайн лендинга бонусов</div>
+      <div class="cc-desc">4 макета по ЖЦ + фикс Lucky Wheel таймера + вкладки Casino/Sports</div>
+      <div class="cc-meta">
+        <span class="badge badge-simple">Простой</span>
+        <span class="channel-badge ch-ui">UI</span>
+        <span>4 макета</span>
+      </div>
+    </a>
+    <a href="#10" data-page="10" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">18</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Кластер без бонуса</div>
+      <div class="cc-desc">Missed (не видели) vs None (сознательно отказались) — 2 ветки × 4 касания</div>
+      <div class="cc-meta">
+        <span class="badge badge-simple">Простой</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span>8 касаний</span>
+      </div>
+    </a>
+    <a href="#11" data-page="11" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">17</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Касса не посещена</div>
+      <div class="cc-desc">3 пути: Bounce (&lt;60с) / Long Session (&gt;600с) / Free Spins × 4 касания</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span>12 касаний</span>
+      </div>
+    </a>
+    <a href="#12" data-page="12" class="campaign-card phase1" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">13</div>
+        <span class="badge badge-phase1">Фаза 1</span>
+      </div>
+      <div class="cc-title">Pre-VIP Жизненный цикл</div>
+      <div class="cc-desc">685K→1.37M ARS за 30 дней. Именной CRM-менеджер, 15% кэшбэк, 6 касаний.</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-push">Push</span>
+        <span class="channel-badge ch-popup">InApp</span>
+        <span>6 касаний</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- PHASE 2 -->
+  <div class="phase-header p2">
+    <div class="phase-icon">⚡</div>
+    <div>
+      <h2>Фаза 2 — Расширенное вовлечение</h2>
+      <div class="phase-desc">Недели 4–8 · Реактивация, персонализация, лояльность, геймификация</div>
+    </div>
+  </div>
+  <div class="campaign-grid">
+    <a href="#13" data-page="13" class="campaign-card phase2" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">13</div>
+        <span class="badge badge-phase2">Фаза 2</span>
+      </div>
+      <div class="cc-title">Матрица реактивации</div>
+      <div class="cc-desc">2 истории × 3 интервала × 4 касания + VNR = 28 коммуникаций. Множитель ценности.</div>
+      <div class="cc-meta">
+        <span class="badge badge-complex">Комплекс</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-push">Push</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span>28 касаний</span>
+      </div>
+    </a>
+    <a href="#14" data-page="14" class="campaign-card phase2" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">14</div>
+        <span class="badge badge-phase2">Фаза 2</span>
+      </div>
+      <div class="cc-title">Кластер персонализации</div>
+      <div class="cc-desc">Годовщина, День рождения, Зодиак, Custom — 4 типа × 4 касания</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span>16 касаний</span>
+      </div>
+    </a>
+    <a href="#15" data-page="15" class="campaign-card phase2" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">15</div>
+        <span class="badge badge-phase2">Фаза 2</span>
+      </div>
+      <div class="cc-title">Магазин бонусов — Каталог SKU</div>
+      <div class="cc-desc">4-уровневый каталог: Beginner→Standard→Premium→VIP. 19 SKU, истечение CC 90 дней.</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-ui">UI</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-push">Push</span>
+        <span>19 SKU</span>
+      </div>
+    </a>
+    <a href="#16" data-page="16" class="campaign-card phase2" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">18</div>
+        <span class="badge badge-phase2">Фаза 2</span>
+      </div>
+      <div class="cc-title">Вовлечение и Геймификация</div>
+      <div class="cc-desc">Лутбоксы, Стикеры, 8 Квестов, Weekly/Daily/Holiday бонусы. Самая масштабная цепочка.</div>
+      <div class="cc-meta">
+        <span class="badge badge-complex">Комплекс</span>
+        <span class="channel-badge ch-push">Push</span>
+        <span class="channel-badge ch-popup">Popup</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span>100+ касаний</span>
+      </div>
+    </a>
+    <a href="#17" data-page="17" class="campaign-card phase2" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">17</div>
+        <span class="badge badge-phase2">Фаза 2</span>
+      </div>
+      <div class="cc-title">Программа лояльности</div>
+      <div class="cc-desc">Active vs Passive участники. Еженедельные отчёты, буст-механики, истечение CC.</div>
+      <div class="cc-meta">
+        <span class="badge badge-medium">Средний</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-push">Push</span>
+        <span>8 касаний</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- PHASE 4 -->
+  <div class="phase-header p4">
+    <div class="phase-icon">🌱</div>
+    <div>
+      <h2>Фаза 3 — Рост</h2>
+      <div class="phase-desc">Недели 9–10 · Реферальная программа (требует базу активных игроков)</div>
+    </div>
+  </div>
+  <div class="campaign-grid">
+    <a href="#18" data-page="18" class="campaign-card phase4" style="text-decoration:none;color:inherit;">
+      <div class="cc-header">
+        <div class="cc-number">18</div>
+        <span class="badge badge-phase4">Фаза 3</span>
+      </div>
+      <div class="cc-title">Реферальная программа</div>
+      <div class="cc-desc">Новая функция. Referrer: 9K ARS + 500 CC за STD. Защита от мошенничества, лидерборд.</div>
+      <div class="cc-meta">
+        <span class="badge badge-complex">Комплекс</span>
+        <span class="channel-badge ch-email">Email</span>
+        <span class="channel-badge ch-sms">SMS</span>
+        <span class="channel-badge ch-ui">UI</span>
+        <span>4+ касания</span>
+      </div>
+    </a>
+  </div>
+
+  <!-- RISK MATRIX -->
+  <div class="card" style="margin-top:40px;">
+    <h2>⚠️ Основные риски внедрения</h2>
+    <table>
+      <thead>
+        <tr><th>Риск</th><th>Влияние</th><th>Митигация</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Web Push SDK не интегрирован на Неделе 1</td>
+          <td><span class="badge badge-complex">Высокий</span></td>
+          <td>Запустить фазу 13 с Email/SMS only, добавить Push позже</td>
+        </tr>
+        <tr>
+          <td>Predictive Churn модель требует 30 дней данных</td>
+          <td><span class="badge badge-medium">Средний</span></td>
+          <td>Цепочка 12 стартует по правилам, Churn-ранний вход подключится позже</td>
+        </tr>
+        <tr>
+          <td>Коды ошибок deposit_failed не различаются</td>
+          <td><span class="badge badge-complex">Критический</span></td>
+          <td>Цепочка 04 невозможна без точных кодов. Эскалация на GR8 Tech Day 1.</td>
+        </tr>
+        <tr>
+          <td>CRM-менеджеры для Pre-VIP не назначены</td>
+          <td><span class="badge badge-medium">Средний</span></td>
+          <td>Цепочка 02 стартует с generic-именем, персонализировать при найме</td>
+        </tr>
+        <tr>
+          <td>KYC ARS-пороги изменятся</td>
+          <td><span class="badge badge-simple">Низкий</span></td>
+          <td>Все пороги параметризованы — изменение в 1 месте</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="page-footer">
+    CuatroBet CRM Implementation Plan · GR8 Tech · Апрель 2026
+  </div>
+  </div>
+</section>
+
+  <section id="p01" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>01 — Интеграция данных и настройка платформы</h1>
+    <div class="subtitle">Мастер-документ · Фаза 0 · Неделя 1 · Предварительное условие для ВСЕХ цепочек</div>
+  </div>
+
+  <!-- META -->
+  <div class="stats-row">
+    <div class="stat-box blue">
+      <div class="stat-value">100+</div>
+      <div class="stat-label">Точек данных</div>
+    </div>
+    <div class="stat-box orange">
+      <div class="stat-value">8</div>
+      <div class="stat-label">Категорий событий</div>
+    </div>
+    <div class="stat-box green">
+      <div class="stat-value">25+</div>
+      <div class="stat-label">Сегментов</div>
+    </div>
+    <div class="stat-box purple">
+      <div class="stat-value">9</div>
+      <div class="stat-label">Расчётных метрик</div>
+    </div>
+    <div class="stat-box cyan">
+      <div class="stat-value">5+</div>
+      <div class="stat-label">Каналов</div>
+    </div>
+    <div class="stat-box red">
+      <div class="stat-value">&lt;5с</div>
+      <div class="stat-label">Задержка событий</div>
+    </div>
+  </div>
+
+  <div class="info-box danger">
+    <strong>⚠️ КРИТИЧЕСКИ ВАЖНО:</strong> Этот документ должен быть завершён ПЕРВЫМ. ВСЕ 17 остальных цепочек ссылаются на данные, события, атрибуты и сегменты, определённые здесь.
+  </div>
+
+  <!-- STEP 1: EVENTS -->
+  <div class="card">
+    <h2>📡 Шаг 1: Настройка событий реального времени</h2>
+    <p style="color:var(--text-secondary);margin-bottom:16px;">Все события должны срабатывать в реальном времени (&lt;5 секунд) от GR8 Tech к CRM.</p>
+
+    <h3>1.1 Регистрация и аутентификация</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>player_registered</code></td><td>Создание аккаунта</td><td>player_id, registration_timestamp, source, country, device_type</td></tr>
+        <tr><td><code>session_start</code></td><td>Открытие приложения/сайта</td><td>player_id, session_id, timestamp, device_type, referrer</td></tr>
+        <tr><td><code>session_end</code></td><td>Закрытие / 30мин неактивности</td><td>player_id, session_id, timestamp, session_duration_seconds, pages_visited[]</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.2 KYC и верификация</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>email_verified</code></td><td>Клик по ссылке верификации</td><td>player_id, timestamp, email</td></tr>
+        <tr><td><code>phone_verified</code></td><td>Ввод правильного SMS-кода</td><td>player_id, timestamp, phone_number</td></tr>
+        <tr><td><code>documents_submitted</code></td><td>Загрузка KYC-документов</td><td>player_id, timestamp, document_types[]</td></tr>
+        <tr><td><code>documents_approved</code></td><td>KYC-проверка пройдена</td><td>player_id, timestamp</td></tr>
+        <tr><td><code>documents_rejected</code></td><td>KYC-проверка не пройдена</td><td>player_id, timestamp, rejection_reason</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.3 Депозиты и платежи</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>deposit_success</code></td><td>Депозит подтверждён</td><td>player_id, amount_ars, payment_method, deposit_number, timestamp, is_ftd</td></tr>
+        <tr><td><code>deposit_failed</code></td><td>Попытка депозита неудачна</td><td>player_id, attempted_amount_ars, payment_method, failure_reason, attempt_count_session, timestamp</td></tr>
+        <tr><td><code>cashier_opened</code></td><td>Переход на страницу депозита</td><td>player_id, timestamp, session_id</td></tr>
+        <tr><td><code>cashier_closed</code></td><td>Выход без депозита</td><td>player_id, timestamp, session_id, time_on_page_seconds</td></tr>
+        <tr><td><code>withdrawal_requested</code></td><td>Запрос вывода средств</td><td>player_id, amount_ars, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.4 Геймплей</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>game_launched</code></td><td>Открытие игры</td><td>player_id, game_id, game_name, game_type, provider, is_demo, timestamp</td></tr>
+        <tr><td><code>game_round_complete</code></td><td>Раунд завершён</td><td>player_id, game_id, bet_amount_ars, win_amount_ars, timestamp</td></tr>
+        <tr><td><code>wagering_progress</code></td><td>Обновление прогресса</td><td>player_id, bonus_id, wagered_amount, required_amount, percentage_complete</td></tr>
+        <tr><td><code>wagering_complete</code></td><td>Отыгрыш завершён</td><td>player_id, bonus_id, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.5 Бонусы и промоакции</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>bonus_claimed</code></td><td>Активация бонуса</td><td>player_id, bonus_id, bonus_type, bonus_value_ars, timestamp</td></tr>
+        <tr><td><code>bonus_expired</code></td><td>Истечение срока</td><td>player_id, bonus_id, timestamp</td></tr>
+        <tr><td><code>free_spins_awarded</code></td><td>FS зачислены</td><td>player_id, spin_count, game_id, source, timestamp</td></tr>
+        <tr><td><code>free_spins_used</code></td><td>FS использованы</td><td>player_id, spin_count, game_id, winnings_ars, timestamp</td></tr>
+        <tr><td><code>loot_box_earned</code></td><td>Лутбокс получен</td><td>player_id, timestamp</td></tr>
+        <tr><td><code>loot_box_opened</code></td><td>Лутбокс открыт</td><td>player_id, reward_type, reward_value, timestamp</td></tr>
+        <tr><td><code>lucky_wheel_spin</code></td><td>Вращение Lucky Wheel</td><td>player_id, wheel_tier, reward, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.6 Лояльность и квесты</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>mission_completed</code></td><td>Миссия лояльности выполнена</td><td>player_id, mission_id, cc_earned, timestamp</td></tr>
+        <tr><td><code>quest_progress</code></td><td>Контрольная точка квеста</td><td>player_id, quest_id, quest_name, step_current, step_total, timestamp</td></tr>
+        <tr><td><code>quest_completed</code></td><td>Все шаги выполнены</td><td>player_id, quest_id, quest_name, rewards[], timestamp</td></tr>
+        <tr><td><code>loyalty_tier_change</code></td><td>Смена уровня</td><td>player_id, old_tier, new_tier, timestamp</td></tr>
+        <tr><td><code>cc_earned</code></td><td>CC зачислены</td><td>player_id, amount_cc, source, timestamp</td></tr>
+        <tr><td><code>cc_spent</code></td><td>CC списаны</td><td>player_id, amount_cc, item_id, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.7 Рефералы</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>referral_link_generated</code></td><td>Создание реферальной ссылки</td><td>player_id, referral_code, timestamp</td></tr>
+        <tr><td><code>referral_registered</code></td><td>Приглашённый регистрируется</td><td>referrer_id, referred_player_id, timestamp</td></tr>
+        <tr><td><code>referral_qualified</code></td><td>STD приглашённого</td><td>referrer_id, referred_player_id, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.8 Коммуникации</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>email_opened</code></td><td>Открытие email</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>email_clicked</code></td><td>Клик в email</td><td>player_id, campaign_id, link_url, timestamp</td></tr>
+        <tr><td><code>sms_delivered</code></td><td>SMS доставлено</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>push_opened</code></td><td>Клик на push</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>popup_shown</code></td><td>Popup отображён</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>popup_clicked</code></td><td>Клик CTA в popup</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>popup_dismissed</code></td><td>Popup закрыт</td><td>player_id, campaign_id, timestamp</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STEP 2: PLAYER ATTRIBUTES -->
+  <div class="card">
+    <h2>👤 Шаг 2: Атрибуты игрока</h2>
+    <p style="color:var(--text-secondary);margin-bottom:16px;">Хранить и предоставлять доступ для запросов в CRM для сегментации и персонализации.</p>
+
+    <h3>Идентификация</h3>
+    <table>
+      <thead><tr><th>Атрибут</th><th>Тип</th><th>Источник</th></tr></thead>
+      <tbody>
+        <tr><td><code>player_id</code></td><td>String</td><td>GR8 Tech (первичный ключ)</td></tr>
+        <tr><td><code>email</code></td><td>String</td><td>Регистрация</td></tr>
+        <tr><td><code>phone_number</code></td><td>String</td><td>Регистрация/KYC</td></tr>
+        <tr><td><code>first_name</code></td><td>String</td><td>Регистрация</td></tr>
+        <tr><td><code>country</code></td><td>String</td><td>Регистрация («AR»)</td></tr>
+        <tr><td><code>language</code></td><td>String</td><td>Регистрация («es-AR»)</td></tr>
+        <tr><td><code>registration_date</code></td><td>DateTime</td><td>Регистрация</td></tr>
+        <tr><td><code>birthday</code></td><td>Date</td><td>KYC/Профиль</td></tr>
+        <tr><td><code>zodiac_sign</code></td><td>String</td><td>Расчёт из birthday</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Финансовые</h3>
+    <table>
+      <thead><tr><th>Атрибут</th><th>Тип</th><th>Обновление</th></tr></thead>
+      <tbody>
+        <tr><td><code>deposit_count</code></td><td>Integer</td><td>При каждом депозите</td></tr>
+        <tr><td><code>cumulative_deposits_ars</code></td><td>Float</td><td>При каждом депозите</td></tr>
+        <tr><td><code>last_deposit_date</code></td><td>DateTime</td><td>При каждом депозите</td></tr>
+        <tr><td><code>ftd_date</code></td><td>DateTime</td><td>При первом депозите</td></tr>
+        <tr><td><code>ftd_amount_ars</code></td><td>Float</td><td>При первом депозите</td></tr>
+        <tr><td><code>std_date</code></td><td>DateTime</td><td>При втором депозите</td></tr>
+        <tr><td><code>average_deposit_ars</code></td><td>Float</td><td>Расчётный</td></tr>
+        <tr><td><code>payment_methods_used[]</code></td><td>Array</td><td>При каждом депозите</td></tr>
+        <tr><td><code>ggr_ars</code></td><td>Float</td><td>Ежедневно</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Геймплей</h3>
+    <table>
+      <thead><tr><th>Атрибут</th><th>Тип</th><th>Обновление</th></tr></thead>
+      <tbody>
+        <tr><td><code>game_preference</code></td><td>Enum</td><td>Еженедельно (slots/live/aviator/mixed/sport)</td></tr>
+        <tr><td><code>most_played_game_name</code></td><td>String</td><td>Еженедельно</td></tr>
+        <tr><td><code>top_3_games[]</code></td><td>Array</td><td>Еженедельно</td></tr>
+        <tr><td><code>total_wagered_ars</code></td><td>Float</td><td>Реальное время</td></tr>
+        <tr><td><code>biggest_win_ars</code></td><td>Float</td><td>Реальное время</td></tr>
+        <tr><td><code>last_session_date</code></td><td>DateTime</td><td>Реальное время</td></tr>
+        <tr><td><code>has_played_demo</code></td><td>Boolean</td><td>Реальное время</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Жизненный цикл и ценность</h3>
+    <table>
+      <thead><tr><th>Атрибут</th><th>Тип</th><th>Обновление</th></tr></thead>
+      <tbody>
+        <tr><td><code>lifecycle_stage</code></td><td>Enum</td><td>Реальное время</td></tr>
+        <tr><td><code>value_tier</code></td><td>Enum</td><td>Ежедневно (micro/low/mid/high/previp_plus)</td></tr>
+        <tr><td><code>days_since_last_activity</code></td><td>Integer</td><td>Ежедневно</td></tr>
+        <tr><td><code>churn_score</code></td><td>Float 0–1</td><td>Ежедневно</td></tr>
+        <tr><td><code>churn_risk_level</code></td><td>Enum</td><td>Ежедневно</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STEP 3: SEGMENTS -->
+  <div class="card">
+    <h2>🎯 Шаг 3: Создание сегментов</h2>
+
+    <h3>Сегменты жизненного цикла (7)</h3>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Условие</th><th>Маппинг на цепочку</th></tr></thead>
+      <tbody>
+        <tr><td><code>SEG-REGISTERED</code></td><td>has_account AND ftd_date IS NULL</td><td>Pre-FTD</td></tr>
+        <tr><td><code>SEG-FTD</code></td><td>ftd_date IS NOT NULL AND hours_since_ftd &lt; 24</td><td>Chain 01</td></tr>
+        <tr><td><code>SEG-D1LAYER</code></td><td>ftd_date IS NOT NULL AND hours 24–72</td><td>Chain 01</td></tr>
+        <tr><td><code>SEG-PRE-STD</code></td><td>deposits_count = 1 AND hours_since_ftd &gt; 72</td><td>Chain 05</td></tr>
+        <tr><td><code>SEG-REGULAR</code></td><td>deposits_count ≥ 2 AND last_login ≤ 14d</td><td>Chains 02,07–11</td></tr>
+        <tr><td><code>SEG-PREVIP</code></td><td>deposits 685K–1.37M ARS</td><td>Chain 02</td></tr>
+        <tr><td><code>SEG-VIP</code></td><td>По порогам GR8 Tech VIP I–IV</td><td>VIP</td></tr>
+      </tbody>
+    </table>
+
+    <h3>KYC сегменты (5)</h3>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Условие</th></tr></thead>
+      <tbody>
+        <tr><td><code>SEG-KYC-NONE</code></td><td>Нет верификации</td></tr>
+        <tr><td><code>SEG-KYC-EMAIL-PENDING</code></td><td>Email не верифицирован</td></tr>
+        <tr><td><code>SEG-KYC-PHONE-PENDING</code></td><td>Email ✓, телефон — нет</td></tr>
+        <tr><td><code>SEG-KYC-DOCS-PENDING</code></td><td>Email+Phone ✓, документы — нет</td></tr>
+        <tr><td><code>SEG-KYC-FULL</code></td><td>Полная верификация</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Поведенческие сегменты (7)</h3>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Условие</th></tr></thead>
+      <tbody>
+        <tr><td><code>SEG-GAME-SLOTS</code></td><td>slots_wagered / total &gt; 0.7</td></tr>
+        <tr><td><code>SEG-GAME-AVIATOR</code></td><td>aviator_wagered / total &gt; 0.3</td></tr>
+        <tr><td><code>SEG-GAME-LIVE</code></td><td>live_wagered / total &gt; 0.3</td></tr>
+        <tr><td><code>SEG-GAME-MIXED</code></td><td>Ни одно не доминирует</td></tr>
+        <tr><td><code>SEG-BOUNCE</code></td><td>Сессия &lt;60с</td></tr>
+        <tr><td><code>SEG-CASHIER-ABANDONED</code></td><td>Открыл кассу, не депонировал</td></tr>
+        <tr><td><code>SEG-BONUS-MISSED</code></td><td>Welcome bonus не активирован</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Реактивация (6)</h3>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Условие</th></tr></thead>
+      <tbody>
+        <tr><td><code>SEG-DORMANT-7</code></td><td>last_login 7–13 дней назад</td></tr>
+        <tr><td><code>SEG-DORMANT-14</code></td><td>last_login 14–20 дней назад</td></tr>
+        <tr><td><code>SEG-DORMANT-21</code></td><td>last_login &gt; 20 дней назад</td></tr>
+        <tr><td><code>SEG-DORMANT-60</code></td><td>last_login &gt; 60 дней (подавлен)</td></tr>
+        <tr><td><code>SEG-ACTIVE-HISTORY</code></td><td>deposits ≥ 3, wagered ≥ 69K</td></tr>
+        <tr><td><code>SEG-PASSIVE-HISTORY</code></td><td>deposits &lt; 3 или wagered &lt; 69K</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STEP 4: CHANNEL CONFIG -->
+  <div class="card">
+    <h2>📢 Шаг 4: Конфигурация каналов</h2>
+    <table>
+      <thead><tr><th>Канал</th><th>Требуется KYC</th><th>Макс/день</th><th>Интервал</th></tr></thead>
+      <tbody>
+        <tr><td><span class="channel-badge ch-email">Email</span></td><td>Нет (всегда доступен)</td><td>2</td><td>4ч</td></tr>
+        <tr><td><span class="channel-badge ch-sms">SMS</span></td><td>KYC Partial (тел. верифицирован)</td><td>1</td><td>6ч</td></tr>
+        <tr><td><span class="channel-badge ch-push">Web Push</span></td><td>Нет (device token)</td><td>2</td><td>3ч</td></tr>
+        <tr><td><span class="channel-badge ch-popup">NC Popup</span></td><td>Нет (in-app)</td><td>1/сессию</td><td>Не в первые 60с</td></tr>
+        <tr><td><span class="channel-badge ch-inapp">NC Feed</span></td><td>Нет</td><td>2</td><td>4ч</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STEP 5: PRIORITY ORDER -->
+  <div class="card">
+    <h2>📋 Шаг 5: Приоритетный порядок настройки</h2>
+    <div class="timeline">
+      <div class="timeline-item active">
+        <div class="tl-title">1. События реального времени (1.1–1.8)</div>
+        <div class="tl-time">День 1–2</div>
+        <div class="tl-desc">Подключить все 35+ событий от GR8 Tech к CRM. Валидация каждого payload.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">2. Атрибуты игрока</div>
+        <div class="tl-time">День 2–3</div>
+        <div class="tl-desc">Настроить все атрибуты, расчётные поля (game_preference, lifecycle_stage, churn_score).</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">3. Построение сегментов</div>
+        <div class="tl-time">День 3–4</div>
+        <div class="tl-desc">Создать 25+ сегментов (ЖЦ + KYC + поведенческие + реактивация + ценность).</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">4. Конфигурация каналов</div>
+        <div class="tl-time">День 4</div>
+        <div class="tl-desc">Лимиты частоты, тихие часы, правила попапов, Web Push SDK.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">5. Шаблоны бонусов</div>
+        <div class="tl-time">День 5</div>
+        <div class="tl-desc">Создать все бонусные шаблоны для цепочек 01–16 (CC, FS, матч, фрибет).</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">6. Техническая валидация</div>
+        <div class="tl-time">День 5–7</div>
+        <div class="tl-desc">End-to-end тест: событие → сегмент → канал → бонус. Убедиться, что всё работает.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Все 35+ событий срабатывают в реальном времени (&lt;5с)</li>
+      <li>Каждый payload содержит обязательные поля</li>
+      <li>Все атрибуты игрока заполняются корректно</li>
+      <li>Расчётные метрики обновляются по расписанию</li>
+      <li>25+ сегментов созданы и заполнены</li>
+      <li>Каналы сконфигурированы с лимитами частоты</li>
+      <li>Тихие часы установлены (00:00–08:00 ART)</li>
+      <li>Бонусные шаблоны готовы для всех цепочек</li>
+      <li>Deep links работают для всех целевых страниц</li>
+      <li>End-to-end тест пройден успешно</li>
+    </ul>
+  </div>
+
+  <!-- NAV -->
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 01 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p02" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>02 — Умная сегментация: 5-осевая модель</h1>
+    <div class="subtitle">Фаза 0 · Неделя 1 · Инфраструктура · Предварительное условие для ВСЕХ цепочек</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">5</div><div class="stat-label">Осей классификации</div></div>
+    <div class="stat-box green"><div class="stat-value">32</div><div class="stat-label">Базовых сегментов</div></div>
+    <div class="stat-box orange"><div class="stat-value">16</div><div class="stat-label">Сегментов ЖЦ</div></div>
+    <div class="stat-box purple"><div class="stat-value">30+</div><div class="stat-label">Дней данных</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Каждый игрок</strong> классифицируется по ВСЕМ 5 осям одновременно. Комбинация определяет journey, контент, канал и срочность.</div>
+
+  <!-- 5-AXIS MODEL -->
+  <div class="card">
+    <h2>🧭 Обзор 5-осевой модели</h2>
+    <table>
+      <thead><tr><th>Ось</th><th>Название</th><th>Что определяет</th><th>Влияние</th><th>Сегменты</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-phase0">Ось 1</span></td><td>Жизненный цикл</td><td>В какой journey попадает</td><td>Выбор journey</td><td>16</td></tr>
+        <tr><td><span class="badge badge-phase1">Ось 2</span></td><td>Уровень ценности</td><td>Размер оффера (множитель)</td><td>Калибровка суммы</td><td>5</td></tr>
+        <tr><td><span class="badge badge-phase2">Ось 3</span></td><td>Игровые предпочтения</td><td>Тип контента</td><td>Персонализация</td><td>4</td></tr>
+        <tr><td><span class="badge badge-phase4">Ось 4</span></td><td>Риск оттока</td><td>Ускорение таймингов</td><td>Срочность</td><td>4</td></tr>
+        <tr><td><span class="badge badge-phase3">Ось 5</span></td><td>KYC статус</td><td>Доступность каналов</td><td>Гейтинг</td><td>3</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- AXIS 1: LIFECYCLE -->
+  <div class="card">
+    <h2>📊 Ось 1: Жизненный цикл (16 сегментов)</h2>
+    <div class="step-card">
+      <div class="step-num">Шаг 1</div>
+      <div class="step-title">Создание сегментов в GR8 Tech</div>
+    </div>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Определение</th><th>Маппинг на journey</th></tr></thead>
+      <tbody>
+        <tr><td><code>LS_REGISTERED</code></td><td>has_account AND ftd_date IS NULL</td><td>Только Pre-FTD</td></tr>
+        <tr><td><code>LS_ACTIVATED</code></td><td>first_action_date IS NOT NULL AND ftd_date IS NULL</td><td>Pre-FTD подталкивание</td></tr>
+        <tr><td><code>LS_FTD</code></td><td>ftd_date IS NOT NULL AND hours_since &lt; 24</td><td>Chain 01</td></tr>
+        <tr><td><code>LS_DAY_1_3</code></td><td>hours_since_ftd BETWEEN 24 AND 72</td><td>Chain 01 продолж.</td></tr>
+        <tr><td><code>LS_PRE_STD</code></td><td>deposits_count = 1 AND hours &gt; 72</td><td>Chain 05</td></tr>
+        <tr><td><code>LS_REGULAR</code></td><td>deposits ≥ 2 AND last_login ≤ 14d</td><td>Chains 02,07–11</td></tr>
+        <tr><td><code>LS_PRE_VIP</code></td><td>deposits 685K–1.37M ARS</td><td>Chain 02</td></tr>
+        <tr><td><code>LS_VIP_I–IV</code></td><td>По порогам GR8 Tech</td><td>VIP коммуникации</td></tr>
+        <tr><td><code>LS_AT_RISK</code></td><td>churn_score ≥ 0.6 AND last_login ≤ 14d</td><td>Ранняя реактивация</td></tr>
+        <tr><td><code>LS_DORMANT_7/14/21/60</code></td><td>last_login 7–60+ дней</td><td>Chain 12</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card decision">
+      <div class="step-num">Шаг 2</div>
+      <div class="step-title">Приоритет сегментов (побеждает наивысший)</div>
+    </div>
+    <ol style="color:var(--text-secondary);padding-left:20px;font-size:.9rem;">
+      <li><code>LS_VIP_*</code> — VIP всегда побеждает</li>
+      <li><code>LS_PRE_VIP</code></li>
+      <li><code>LS_FTD</code> / <code>LS_DAY_1_3</code> — критично по времени</li>
+      <li><code>LS_AT_RISK</code></li>
+      <li><code>LS_DORMANT_*</code></li>
+      <li><code>LS_PRE_STD</code></li>
+      <li><code>LS_REGULAR</code></li>
+      <li><code>LS_ACTIVATED</code></li>
+      <li><code>LS_REGISTERED</code></li>
+    </ol>
+  </div>
+
+  <!-- AXIS 2: VALUE -->
+  <div class="card">
+    <h2>💎 Ось 2: Уровень ценности (5 сегментов)</h2>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Депозиты за всё время</th><th>Множитель оффера</th></tr></thead>
+      <tbody>
+        <tr><td><code>VT_MICRO</code></td><td>&lt; 23,000 ARS</td><td><span style="color:var(--text-muted)">0.5×</span></td></tr>
+        <tr><td><code>VT_LOW</code></td><td>23,000 – 114,000 ARS</td><td><span style="color:var(--accent-green)">1× (базовый)</span></td></tr>
+        <tr><td><code>VT_MID</code></td><td>114,000 – 343,000 ARS</td><td><span style="color:var(--accent-orange)">1.5×</span></td></tr>
+        <tr><td><code>VT_HIGH</code></td><td>343,000 – 915,000 ARS</td><td><span style="color:var(--accent-red)">2×</span></td></tr>
+        <tr><td><code>VT_PRE_VIP_PLUS</code></td><td>&gt; 915,000 ARS</td><td><span style="color:var(--accent-purple)">3× + персональная связь</span></td></tr>
+      </tbody>
+    </table>
+    <div class="info-box info"><strong>Формула:</strong> <code>final_offer = base_offer × value_tier_multiplier</code><br>Требования к вейджеру НЕ масштабируются — только значение оффера.</div>
+  </div>
+
+  <!-- AXIS 3: GAME -->
+  <div class="card">
+    <h2>🎮 Ось 3: Игровые предпочтения (4 сегмента)</h2>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Определение</th><th>FS игра</th><th>Контент</th></tr></thead>
+      <tbody>
+        <tr><td><code>GP_SLOTS</code></td><td>slots_wagered / total &gt; 0.7</td><td>Gates of Olympus</td><td>Турниры слотов, джекпоты</td></tr>
+        <tr><td><code>GP_AVIATOR</code></td><td>aviator_wagered / total &gt; 0.3</td><td>Free Flights</td><td>Crash-игры, множители</td></tr>
+        <tr><td><code>GP_LIVE</code></td><td>live_wagered / total &gt; 0.3</td><td>Бонусный кэш</td><td>Live dealer, премиум-столы</td></tr>
+        <tr><td><code>GP_MIXED</code></td><td>Ничего не доминирует</td><td>Случайная из топ-10</td><td>«Попробуй новое»</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- AXIS 4: CHURN -->
+  <div class="card">
+    <h2>⚡ Ось 4: Риск оттока (4 сегмента)</h2>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Churn Score</th><th>Действие</th></tr></thead>
+      <tbody>
+        <tr><td><code>CR_HEALTHY</code></td><td>&lt; 0.30</td><td>Нормальный тайминг</td></tr>
+        <tr><td><code>CR_WATCH</code></td><td>0.30–0.60</td><td>Отправлять на 1 день раньше</td></tr>
+        <tr><td><code>CR_AT_RISK</code></td><td>0.60–0.85</td><td>На 2 дня раньше + повысить оффер</td></tr>
+        <tr><td><code>CR_CRITICAL</code></td><td>&gt; 0.85</td><td>Немедленное вмешательство + алерт VIP</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">Настройка Predictive Churn</div>
+      <div class="step-title">Требуется 30+ дней исторических данных</div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">1. Активировать модуль GR8 Tech Predictive Churn</div></div>
+      <div class="timeline-item"><div class="tl-title">2. Предоставить 30+ дней данных</div><div class="tl-desc">Логины, депозиты, игровая активность, вовлечение в коммуникации</div></div>
+      <div class="timeline-item"><div class="tl-title">3. GR8 Tech обучает модель</div></div>
+      <div class="timeline-item"><div class="tl-title">4. Ежедневный churn_score (0.0–1.0) на каждого игрока</div></div>
+      <div class="timeline-item"><div class="tl-title">5. Валидация: скор &gt;0.6 → отток в 14 дней</div><div class="tl-desc">Если точность &lt;70% — переобучить</div></div>
+    </div>
+  </div>
+
+  <!-- AXIS 5: KYC -->
+  <div class="card">
+    <h2>🔐 Ось 5: KYC статус (3 сегмента)</h2>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Определение</th><th>Доступ к каналам</th></tr></thead>
+      <tbody>
+        <tr><td><code>KYC_UNVERIFIED</code></td><td>Нет верификации</td><td>Email + NC Feed + Popup + Web Push</td></tr>
+        <tr><td><code>KYC_PARTIAL</code></td><td>Email + телефон ✓</td><td>+ SMS + WhatsApp</td></tr>
+        <tr><td><code>KYC_FULL</code></td><td>Документы верифицированы</td><td>Все каналы + вывод средств</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Контракт GR8 Tech Smart Segmentation подтверждён</li>
+      <li>Контракт GR8 Tech Predictive Churn подтверждён</li>
+      <li>30+ дней исторических данных доступны</li>
+      <li>16 сегментов ЖЦ (Ось 1) созданы и заполнены</li>
+      <li>5 сегментов ценности (Ось 2) настроены</li>
+      <li>4 сегмента игровых предпочтений (Ось 3) работают</li>
+      <li>4 сегмента Churn Risk (Ось 4) с ежедневным обновлением</li>
+      <li>3 сегмента KYC (Ось 5) гейтят каналы</li>
+      <li>Приоритет сегментов установлен (VIP &gt; Pre-VIP &gt; FTD &gt; ...)</li>
+      <li>Journey может считывать членство в сегменте в реальном времени</li>
+      <li>Валидация Churn Score: точность ≥70%</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 02 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p03" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>03 — Стратегия каналов и частота коммуникаций</h1>
+    <div class="subtitle">Фаза 0 · Неделя 1 · Инфраструктура · Регулирует ВСЕ коммуникации</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">6</div><div class="stat-label">Каналов</div></div>
+    <div class="stat-box green"><div class="stat-value">14</div><div class="stat-label">Часы тишины</div></div>
+    <div class="stat-box orange"><div class="stat-value">2-4/нед.</div><div class="stat-label">Email лимит</div></div>
+    <div class="stat-box purple"><div class="stat-value">1-2/нед.</div><div class="stat-label">SMS лимит</div></div>
+  </div>
+
+  <div class="info-box warning"><strong>Правило:</strong> Лимиты каналов СТАРШЕ приоритета journey. Если лимит достигнут — сообщение не отправляется, даже если оно критическое (кроме транзакций).</div>
+
+  <!-- CHANNEL MATRIX -->
+  <div class="card">
+    <h2>📡 Матрица каналов</h2>
+    <table>
+      <thead><tr><th>Канал</th><th>Приоритет</th><th>SLA (контракт)</th><th>Стоимость</th><th>Лимит/неделя</th><th>Лимит/день</th></tr></thead>
+      <tbody>
+        <tr><td>NC Feed (In-app)</td><td>🟢 Высокий</td><td>Реальное время</td><td>Бесплатно</td><td>Без лимита</td><td>3</td></tr>
+        <tr><td>Web Push</td><td>🟢 Высокий</td><td>&lt; 1 сек</td><td>Бесплатно*</td><td>5</td><td>1-2</td></tr>
+        <tr><td>Email</td><td>🟡 Средний</td><td>&lt; 30 сек</td><td>Низкая</td><td>2-4</td><td>1</td></tr>
+        <tr><td>Popup (On-site)</td><td>🟡 Средний</td><td>Реальное время</td><td>Бесплатно</td><td>3</td><td>1</td></tr>
+        <tr><td>SMS</td><td>🔴 Низкий</td><td>&lt; 60 сек</td><td>Высокая</td><td>1-2</td><td>1</td></tr>
+        <tr><td>WhatsApp</td><td>🔴 Низкий</td><td>&lt; 60 сек</td><td>Высокая</td><td>1-2</td><td>1</td></tr>
+      </tbody>
+    </table>
+    <div class="info-box info"><strong>*Web Push</strong> бесплатно с GR8 Tech, но требует opt-in от пользователя. Охват ~30-40% базы.</div>
+  </div>
+
+  <!-- CHANNEL SELECTION LOGIC -->
+  <div class="card">
+    <h2>🔀 Логика выбора каналов</h2>
+
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">Триггер → Определение KYC</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">KYC_UNVERIFIED → Email + NC Feed + Web Push + Popup</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">KYC_PARTIAL → + SMS + WhatsApp (только для ≥ VT_MID)</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">KYC_FULL → Все каналы доступны</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">Проверить лимиты → Канал доступен? → Отправить / Пропустить</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUIET HOURS -->
+  <div class="card">
+    <h2>🌙 Часы тишины и Smart Send</h2>
+    <table>
+      <thead><tr><th>Правило</th><th>Значение</th><th>Применение</th></tr></thead>
+      <tbody>
+        <tr><td>Часы тишины</td><td><strong>23:00 — 09:00 (ART)</strong></td><td>Все каналы, кроме NC Feed</td></tr>
+        <tr><td>Smart Send Time</td><td>На основе открытий за 30 дней</td><td>Email, Web Push</td></tr>
+        <tr><td>Throttle SMS</td><td>Не > 1 SMS/24h на пользователя</td><td>SMS, WhatsApp</td></tr>
+        <tr><td>Транзакционные</td><td>Часы тишины НЕ применяются</td><td>Подтверждение депозита, OTP</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FREQUENCY CAPPING -->
+  <div class="card">
+    <h2>🚦 Частотные лимиты (Frequency Capping)</h2>
+    <table>
+      <thead><tr><th>Тип</th><th>Маркетинговые</th><th>Триггерные (journey)</th><th>Транзакционные</th></tr></thead>
+      <tbody>
+        <tr><td>Email</td><td>2/нед.</td><td>+2/нед. (отдельный лимит)</td><td>без лимита</td></tr>
+        <tr><td>SMS</td><td>1/нед.</td><td>+1/нед.</td><td>без лимита</td></tr>
+        <tr><td>WhatsApp</td><td>1/нед.</td><td>+1/нед.</td><td>без лимита</td></tr>
+        <tr><td>NC Feed</td><td>1/день</td><td>+2/день</td><td>без лимита</td></tr>
+        <tr><td>Web Push</td><td>3/нед.</td><td>+2/нед.</td><td>без лимита</td></tr>
+        <tr><td>Popup</td><td>1/день</td><td>+1/день (критические)</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <div class="info-box warning">Маркетинговые и триггерные лимиты считаются <strong>отдельно</strong>. Journey-сообщение не «съедает» маркетинговый лимит.</div>
+  </div>
+
+  <!-- ESCALATION WATERFALL -->
+  <div class="card">
+    <h2>🔄 Каскад эскалации (Waterfall)</h2>
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">1. NC Feed (In-app)</div><div class="tl-desc">Всегда первый. Если пользователь онлайн — показать немедленно</div></div>
+      <div class="timeline-item"><div class="tl-title">2. Web Push</div><div class="tl-desc">+15 мин. если NC Feed не был прочитан. Требует opt-in</div></div>
+      <div class="timeline-item"><div class="tl-title">3. Email</div><div class="tl-desc">+2 часа если всё ещё не прочитано. Smart Send Time если не срочно</div></div>
+      <div class="timeline-item"><div class="tl-title">4. Popup (On-site)</div><div class="tl-desc">При следующем входе на сайт. Одноразовый показ</div></div>
+      <div class="timeline-item"><div class="tl-title">5. SMS / WhatsApp</div><div class="tl-desc">+24 часа. Только для критических сообщений (оффер истекает) и value_tier ≥ MID</div></div>
+    </div>
+    <div class="info-box danger"><strong>Cost Guard:</strong> SMS/WhatsApp отправляется только если <code>value_tier ≥ VT_MID</code> И <code>estimated_value &gt; 10× message_cost</code>.</div>
+  </div>
+
+  <!-- CHANNEL PRIORITY PER JOURNEY -->
+  <div class="card">
+    <h2>📋 Приоритет каналов по типу journey</h2>
+    <table>
+      <thead><tr><th>Тип journey</th><th>Primary</th><th>Secondary</th><th>Escalation</th></tr></thead>
+      <tbody>
+        <tr><td>Day-1 Retention (01)</td><td>NC Feed + Web Push</td><td>Email</td><td>SMS (VT_MID+)</td></tr>
+        <tr><td>Payment Failure (04)</td><td>Web Push</td><td>Email</td><td>SMS (немедленно)</td></tr>
+        <tr><td>Welcome Bonus (05)</td><td>Email + NC Feed</td><td>Web Push</td><td>Popup</td></tr>
+        <tr><td>KYC (03)</td><td>Email</td><td>NC Feed</td><td>SMS + Popup</td></tr>
+        <tr><td>Reactivation (12)</td><td>Email</td><td>SMS</td><td>WhatsApp (VT_HIGH+)</td></tr>
+        <tr><td>VIP Lifecycle (02)</td><td>Email + WhatsApp</td><td>SMS</td><td>Персональный звонок</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">< 1%</div><div class="kpi-label">Unsubscribe rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt; 0.3%</div><div class="kpi-label">Spam complaint</div></div>
+    <div class="kpi-card"><div class="kpi-value">25%+</div><div class="kpi-label">Email open rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">3%+</div><div class="kpi-label">Web Push CTR</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>NC Feed настроен и работает в реальном времени</li>
+      <li>Web Push opt-in flow реализован</li>
+      <li>Email домен прогрет, SPF/DKIM/DMARC настроены</li>
+      <li>SMS провайдер подключен (CM.com / другой)</li>
+      <li>WhatsApp Business API подключен</li>
+      <li>Часы тишины 23:00–09:00 ART применяются</li>
+      <li>Smart Send Time активирован для Email + Web Push</li>
+      <li>Frequency caps настроены (маркетинг + триггеры отдельно)</li>
+      <li>Cost Guard для SMS/WhatsApp включён (VT_MID+)</li>
+      <li>Waterfall escalation настроен для каждого типа journey</li>
+      <li>Транзакционные сообщения освобождены от лимитов</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 03 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p04" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>04 — Восстановление после сбоя платежа</h1>
+    <div class="subtitle">Фаза 1 · Неделя 2 · Высокий приоритет · Revenue Recovery</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Шага в цепочке</div></div>
+    <div class="stat-box green"><div class="stat-value">72ч</div><div class="stat-label">Максимальное окно</div></div>
+    <div class="stat-box orange"><div class="stat-value">3</div><div class="stat-label">Канала</div></div>
+    <div class="stat-box purple"><div class="stat-value">60%+</div><div class="stat-label">Цель: Recovery Rate</div></div>
+  </div>
+
+  <div class="info-box danger"><strong>Триггер:</strong> Событие <code>deposit_failed</code> — платёжная система вернула ошибку. Journey запускается НЕМЕДЛЕННО.</div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">deposit_failed event</div>
+      </div>
+      <div class="flow-arrow">↓ немедленно</div>
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">C1: Web Push — «Не удалось? Попробуй другой метод»</div>
+      </div>
+      <div class="flow-arrow">↓ +2 часа (если нет deposit_success)</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C2: Email — Подробные инструкции + альтернативы</div>
+      </div>
+      <div class="flow-arrow">↓ +24 часа (если нет deposit_success)</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">C3: NC Feed + Email — 10 FS «Мы ждём тебя!»</div>
+      </div>
+      <div class="flow-arrow">↓ +48 часов (если нет deposit_success)</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C4: SMS — Промокод 20% бонус (только VT_MID+)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEPS -->
+  <div class="card">
+    <h2>📋 Пошаговая реализация</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">Немедленный Web Push</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Web Push</td></tr>
+        <tr><td>Задержка</td><td>0 (немедленно)</td></tr>
+        <tr><td>Заголовок</td><td>«Платёж не прошёл? 😓»</td></tr>
+        <tr><td>Текст</td><td>«Попробуй другой способ оплаты — деньги не списались»</td></tr>
+        <tr><td>CTA</td><td>Ссылка на кассу с альтернативными методами</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=payment_fail&utm_content=c1_push</code></td></tr>
+        <tr><td>Выход</td><td><code>deposit_success</code> → завершить journey</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Email с инструкциями (+2ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Задержка</td><td>+2 часа после C1</td></tr>
+        <tr><td>Subject</td><td>«Мы заметили проблему с депозитом»</td></tr>
+        <tr><td>Контент</td><td>• Причина отказа (если доступна от GR8 Tech)<br>• Список альтернативных способов оплаты<br>• FAQ «Что делать если...»<br>• Кнопка: «Попробовать снова»</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=payment_fail&utm_content=c2_email</code></td></tr>
+        <tr><td>Условие</td><td>deposit_success == false за последние 2ч</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C3</div>
+      <div class="step-title">NC Feed + Email с бонусом (+24ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Каналы</td><td>NC Feed + Email</td></tr>
+        <tr><td>Задержка</td><td>+24 часа после C1</td></tr>
+        <tr><td>Оффер</td><td><strong>10 Free Spins</strong> (по игровым предпочтениям Оси 3)</td></tr>
+        <tr><td>Игра для FS</td><td>GP_SLOTS → Gates of Olympus · GP_AVIATOR → Free Flights · GP_LIVE → Cash · GP_MIXED → Random top-10</td></tr>
+        <tr><td>Бонус ID</td><td>Должен быть предварительно создан в GR8 Tech</td></tr>
+        <tr><td>Subject</td><td>«10 бесплатных вращений ждут тебя! 🎰»</td></tr>
+        <tr><td>CTA</td><td>«Забрать Free Spins» → ссылка на кассу</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=payment_fail&utm_content=c3_bonus</code></td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">C4</div>
+      <div class="step-title">SMS с промокодом (+48ч, только VT_MID+)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>SMS</td></tr>
+        <tr><td>Задержка</td><td>+48 часов после C1</td></tr>
+        <tr><td>Условие</td><td><code>value_tier ≥ VT_MID</code> (Cost Guard)</td></tr>
+        <tr><td>Оффер</td><td>20% бонус на депозит (промокод)</td></tr>
+        <tr><td>Текст</td><td>«[CuatroBet] Мы скучаем! 20% бонус по коду VUELVE20 ждёт тебя 48ч. Играй: [link]»</td></tr>
+        <tr><td>Промокод</td><td>Генерируется на пользователя, TTL 48ч</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=payment_fail&utm_content=c4_sms</code></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ERROR CODES -->
+  <div class="card">
+    <h2>⚠️ Обработка кодов ошибок</h2>
+    <table>
+      <thead><tr><th>Код ошибки</th><th>Причина</th><th>Действие в C2 email</th></tr></thead>
+      <tbody>
+        <tr><td><code>INSUFFICIENT_FUNDS</code></td><td>Недостаточно средств</td><td>«Попробуй сумму поменьше или другую карту»</td></tr>
+        <tr><td><code>CARD_DECLINED</code></td><td>Карта отклонена</td><td>«Свяжись с банком или попробуй другую карту»</td></tr>
+        <tr><td><code>3DS_FAILED</code></td><td>3D Secure не пройден</td><td>«Подтверди операцию в приложении банка»</td></tr>
+        <tr><td><code>PROCESSING_ERROR</code></td><td>Ошибка системы</td><td>«Временная неисправность. Попробуй через 15 мин»</td></tr>
+        <tr><td><code>LIMIT_EXCEEDED</code></td><td>Превышен лимит</td><td>«Дневной лимит достигнут. Попробуй завтра или другой метод»</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">60%+</div><div class="kpi-label">Recovery rate (72ч)</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;2ч</div><div class="kpi-label">Median time-to-retry</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;30%</div><div class="kpi-label">Bounce to C4 (SMS)</div></div>
+    <div class="kpi-card"><div class="kpi-value">+15%</div><div class="kpi-label">Revenue recovery vs baseline</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Событие <code>deposit_failed</code> настроено с кодом ошибки</li>
+      <li>Событие <code>deposit_success</code> как goal (exit event)</li>
+      <li>Journey с 4 шагами создан в GR8 Tech</li>
+      <li>Web Push шаблон (C1) настроен</li>
+      <li>Email шаблон (C2) с динамическим кодом ошибки</li>
+      <li>Бонус 10 FS создан в GR8 Tech (4 варианта по GP_)</li>
+      <li>Промокод 20% создан с TTL 48ч</li>
+      <li>Cost Guard: C4 SMS только для VT_MID+</li>
+      <li>UTM метки на всех CTA</li>
+      <li>Exit conditions на каждом шаге</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 04 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p05" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>05 — Welcome Bonus Ladder (Лестница бонусов)</h1>
+    <div class="subtitle">Фаза 1 · Неделя 2 · Высокий приоритет · FTD → 2nd → 3rd deposit</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">5</div><div class="stat-label">Ступеней</div></div>
+    <div class="stat-box green"><div class="stat-value">7 дн.</div><div class="stat-label">Общее окно</div></div>
+    <div class="stat-box orange"><div class="stat-value">4</div><div class="stat-label">Канала</div></div>
+    <div class="stat-box purple"><div class="stat-value">45%+</div><div class="stat-label">Цель: 2nd Dep Rate</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Цель:</strong> Довести нового игрока от FTD до третьего депозита за 7 дней с помощью наростающих бонусов. Каждая ступень — выше оффер.</div>
+
+  <!-- LADDER -->
+  <div class="card">
+    <h2>🪜 Бонусная лестница (5 ступеней)</h2>
+    <table>
+      <thead><tr><th>Ступень</th><th>Триггер</th><th>Задержка</th><th>Оффер</th><th>Канал</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-phase0">S0</span></td><td>Регистрация (Pre-FTD)</td><td>0</td><td>Приветственное сообщение + 20 FS no-dep</td><td>Email + NC Feed</td></tr>
+        <tr><td><span class="badge badge-phase1">S1</span></td><td>FTD совершён</td><td>0</td><td>100% матч до 45,700 ARS + 50 FS</td><td>Email + NC Feed + Web Push</td></tr>
+        <tr><td><span class="badge badge-phase1">S2</span></td><td>S1 отыгран ИЛИ +48ч</td><td>+48ч</td><td>50% матч до 22,850 ARS + 25 FS</td><td>Email + Web Push</td></tr>
+        <tr><td><span class="badge badge-phase2">S3</span></td><td>S2 отыгран ИЛИ +48ч</td><td>+96ч</td><td>75% матч до 34,275 ARS + 40 FS</td><td>Email + NC Feed + Popup</td></tr>
+        <tr><td><span class="badge badge-phase4">S4</span></td><td>Нет действия после S3</td><td>+144ч (день 7)</td><td>«Последний шанс» — 100% + 60 FS (24ч TTL)</td><td>Email + NC Feed + SMS (VT_MID+)</td></tr>
+      </tbody>
+    </table>
+    <div class="info-box warning"><strong>Вейджер:</strong> S0: без вейджера. S1-S3: ×35. S4: ×30 (сниженный для стимулирования).</div>
+  </div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">Регистрация → S0: 20 FS + Welcome Email</div>
+      </div>
+      <div class="flow-arrow">↓ FTD event</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">S1: 100% матч + 50 FS (зачислено автоматически)</div>
+      </div>
+      <div class="flow-arrow">↓ +48ч / bonus_wagered</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">Есть 2-й депозит? → ДА: S2 bonus. НЕТ: C-nudge «Получи 50% бонус!»</div>
+      </div>
+      <div class="flow-arrow">↓ +48ч / bonus_wagered</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">Есть 3-й депозит? → ДА: S3 bonus. НЕТ: C-nudge «Осталось 2 дня»</div>
+      </div>
+      <div class="flow-arrow">↓ +48ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">S4: «Последний шанс» — 100% + 60 FS (TTL 24ч)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMUNICATIONS -->
+  <div class="card">
+    <h2>📋 Детали коммуникаций</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">S0</div>
+      <div class="step-title">Welcome Pre-FTD</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>account_created</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Subject</td><td>«Добро пожаловать в CuatroBet! 🎁 20 FS уже у тебя»</td></tr>
+        <tr><td>Оффер</td><td>20 Free Spins без депозита (без вейджера)</td></tr>
+        <tr><td>CTA</td><td>«Получить Free Spins» → страница игры</td></tr>
+        <tr><td>Выход</td><td><code>ftd_completed</code> → переход к S1</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">S1</div>
+      <div class="step-title">FTD Match Bonus</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>ftd_completed</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed + Web Push</td></tr>
+        <tr><td>Subject</td><td>«Твой 100% бонус зачислен! 🎉»</td></tr>
+        <tr><td>Контент</td><td>Поздравление + сумма бонуса + сумма FS + правила вейджера (×35) + рекомендуемые игры</td></tr>
+        <tr><td>Бонус</td><td>Автоматическое зачисление через GR8 Tech</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">S4</div>
+      <div class="step-title">Last Chance</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td>+144ч от FTD и <code>deposits_count &lt; 3</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed + SMS (VT_MID+)</td></tr>
+        <tr><td>Subject</td><td>«⏰ Последний шанс! 100% бонус истекает через 24ч»</td></tr>
+        <tr><td>Оффер</td><td>100% матч + 60 FS, вейджер ×30 (сниженный)</td></tr>
+        <tr><td>TTL</td><td><strong>24 часа</strong> — после истечения бонус пропадает</td></tr>
+        <tr><td>Urgency</td><td>Таймер обратного отсчёта в email</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- MULTIPLIER -->
+  <div class="card">
+    <h2>💎 Масштабирование по Value Tier (Ось 2)</h2>
+    <table>
+      <thead><tr><th>Value Tier</th><th>S1 макс.</th><th>S2 макс.</th><th>S3 макс.</th><th>S4 макс.</th></tr></thead>
+      <tbody>
+        <tr><td>VT_MICRO (0.5×)</td><td>22,850 ARS</td><td>11,425 ARS</td><td>17,137 ARS</td><td>22,850 ARS</td></tr>
+        <tr><td>VT_LOW (1×)</td><td>45,700 ARS</td><td>22,850 ARS</td><td>34,275 ARS</td><td>45,700 ARS</td></tr>
+        <tr><td>VT_MID (1.5×)</td><td>68,550 ARS</td><td>34,275 ARS</td><td>51,412 ARS</td><td>68,550 ARS</td></tr>
+        <tr><td>VT_HIGH (2×)</td><td>91,400 ARS</td><td>45,700 ARS</td><td>68,550 ARS</td><td>91,400 ARS</td></tr>
+        <tr><td>VT_PRE_VIP+ (3×)</td><td>137,100 ARS</td><td>68,550 ARS</td><td>102,825 ARS</td><td>137,100 ARS</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">45%+</div><div class="kpi-label">2nd Deposit Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">30%+</div><div class="kpi-label">3rd Deposit Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;3 дней</div><div class="kpi-label">Median FTD→2nd</div></div>
+    <div class="kpi-card"><div class="kpi-value">+25%</div><div class="kpi-label">Revenue vs no-ladder</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Бонус S0: 20 FS no-dep создан в GR8 Tech</li>
+      <li>Бонус S1: 100% матч + 50 FS создан</li>
+      <li>Бонус S2: 50% матч + 25 FS создан</li>
+      <li>Бонус S3: 75% матч + 40 FS создан</li>
+      <li>Бонус S4: 100% матч + 60 FS (×30 вейджер, TTL 24ч) создан</li>
+      <li>Игры для FS по GP_ axis (4 варианта)</li>
+      <li>Journey с 5 ступенями и exit conditions</li>
+      <li>Email шаблоны (5 штук) с динамическими суммами</li>
+      <li>Value Tier множители интегрированы</li>
+      <li>Таймер обратного отсчёта в S4 email</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 05 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p06" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>06 — Day-1 Retention Layer</h1>
+    <div class="subtitle">Фаза 1 · Неделя 2–3 · Высокий приоритет · Первые 72 часа после FTD</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">6</div><div class="stat-label">Коммуникаций</div></div>
+    <div class="stat-box green"><div class="stat-value">72ч</div><div class="stat-label">Окно Journey</div></div>
+    <div class="stat-box orange"><div class="stat-value">5</div><div class="stat-label">Каналов</div></div>
+    <div class="stat-box purple"><div class="stat-value">40%+</div><div class="stat-label">Day-3 Return Rate</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Цель:</strong> Удержать нового игрока в первые 72 часа после FTD. Это самый критичный период — 60% оттока происходит именно здесь.</div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Full Journey Flow (72ч)</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">FTD event → C1: «Первый депозит!» NC Feed + Web Push</div>
+      </div>
+      <div class="flow-arrow">↓ +2ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">C2: «Попробуй эти игры» — персонализация по GP_ axis</div>
+      </div>
+      <div class="flow-arrow">↓ +6ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">Проигрыш ≥ 50% депозита? → ДА: C3 «Cashback Shield»</div>
+      </div>
+      <div class="flow-arrow">↓ +24ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C4: «Day 2 Mission» — 10 FS за любой депозит сегодня</div>
+      </div>
+      <div class="flow-arrow">↓ +48ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">Нет return login? → C5: «Мы заметили, что ты давно не заходил»</div>
+      </div>
+      <div class="flow-arrow">↓ +72ч</div>
+      <div class="flow-step" style="--step-color: var(--phase4)">
+        <div class="flow-label">C6: Итоговое резюме «Твои первые 3 дня» + следующие шаги</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- C1 -->
+  <div class="card">
+    <h2>📋 Детали коммуникаций</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">Первый депозит — мгновенно</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>ftd_completed</code></td></tr>
+        <tr><td>Задержка</td><td>0 (немедленно)</td></tr>
+        <tr><td>Каналы</td><td>NC Feed + Web Push</td></tr>
+        <tr><td>Контент</td><td>«Поздравляем с первым депозитом! 🎉 Твой бонус уже на балансе»</td></tr>
+        <tr><td>CTA</td><td>«Начать играть» → лобби</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=day1_retention&utm_content=c1_welcome</code></td></tr>
+      </tbody>
+    </table>
+
+    <!-- C2 -->
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Рекомендации игр (+2ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Задержка</td><td>+2ч после FTD</td></tr>
+        <tr><td>Каналы</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Топ-3 игры для тебя, {{first_name}}! 🎮»</td></tr>
+        <tr><td>Контент</td><td>Персонализированный по GP_ axis:<br>• GP_SLOTS → Топ-3 слота по RTP<br>• GP_AVIATOR → Aviator + Crash-игры<br>• GP_LIVE → Live рулетка + блэкджек<br>• GP_MIXED → «Попробуй всё» микс</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=day1_retention&utm_content=c2_games</code></td></tr>
+      </tbody>
+    </table>
+
+    <!-- C3 -->
+    <div class="step-card warning">
+      <div class="step-num">C3</div>
+      <div class="step-title">Cashback Shield (+6ч, условный)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>balance ≤ ftd_amount × 0.5</code> (проиграл ≥50%)</td></tr>
+        <tr><td>Задержка</td><td>+6ч после FTD</td></tr>
+        <tr><td>Каналы</td><td>NC Feed + Web Push</td></tr>
+        <tr><td>Оффер</td><td><strong>10% кэшбэк</strong> на чистые проигрыши (макс. 4,570 ARS × VT multiplier)</td></tr>
+        <tr><td>Контент</td><td>«Не переживай! Мы вернули 10% — продолжай играть без стресса»</td></tr>
+        <tr><td>Механика</td><td>Автоматическое зачисление кэшбэка на бонусный счёт</td></tr>
+      </tbody>
+    </table>
+
+    <!-- C4 -->
+    <div class="step-card action">
+      <div class="step-num">C4</div>
+      <div class="step-title">Day 2 Mission (+24ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Задержка</td><td>+24ч после FTD</td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Subject</td><td>«Миссия дня: 10 Free Spins за любой депозит! 🎯»</td></tr>
+        <tr><td>Оффер</td><td>10 FS за любой депозит (без мин. суммы)</td></tr>
+        <tr><td>TTL</td><td>24ч</td></tr>
+        <tr><td>CTA</td><td>«Выполнить миссию» → касса</td></tr>
+      </tbody>
+    </table>
+
+    <!-- C5 -->
+    <div class="step-card warning">
+      <div class="step-num">C5</div>
+      <div class="step-title">Win-back nudge (+48ч, условный)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>last_login &gt; 24ч</code> (не возвращался)</td></tr>
+        <tr><td>Каналы</td><td>Email + Web Push + SMS (VT_MID+)</td></tr>
+        <tr><td>Subject</td><td>«{{first_name}}, мы скучаем! 🫶»</td></tr>
+        <tr><td>Оффер</td><td>20 FS no-deposit</td></tr>
+        <tr><td>CTA</td><td>«Забрать Free Spins» → лобби</td></tr>
+      </tbody>
+    </table>
+
+    <!-- C6 -->
+    <div class="step-card">
+      <div class="step-num">C6</div>
+      <div class="step-title">Резюме 3-х дней (+72ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Каналы</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Твои первые 3 дня в CuatroBet — итоги 📊»</td></tr>
+        <tr><td>Контент</td><td>• Сколько сыграно<br>• Любимая игра<br>• Баланс<br>• CuatroCoins заработано<br>• Следующий шаг → Chain 02 или Chain 10</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">40%+</div><div class="kpi-label">Day-3 Return Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">25%+</div><div class="kpi-label">Day-2 Deposit Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;35%</div><div class="kpi-label">Day-3 Churn</div></div>
+    <div class="kpi-card"><div class="kpi-value">3+</div><div class="kpi-label">Avg sessions in 72h</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Событие <code>ftd_completed</code> с суммой депозита</li>
+      <li>Journey с 6 шагами и conditional branches</li>
+      <li>Cashback Shield бонус (10%) создан в GR8 Tech</li>
+      <li>Day-2 Mission бонус (10 FS) создан</li>
+      <li>Win-back бонус (20 FS no-dep) создан</li>
+      <li>Персонализация игр по GP_ axis (4 варианта)</li>
+      <li>Email шаблоны (4 штуки)</li>
+      <li>NC Feed шаблоны (3 штуки)</li>
+      <li>Web Push шаблоны (3 штуки)</li>
+      <li>UTM метки на всех CTA</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 06 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p07" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>07 — KYC Completion Chain</h1>
+    <div class="subtitle">Фаза 1 · Неделя 2–3 · Комплаенс · 3-этапная верификация</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">3</div><div class="stat-label">Этапа KYC</div></div>
+    <div class="stat-box green"><div class="stat-value">9</div><div class="stat-label">Коммуникаций</div></div>
+    <div class="stat-box orange"><div class="stat-value">14 дн.</div><div class="stat-label">Общее окно</div></div>
+    <div class="stat-box purple"><div class="stat-value">75%+</div><div class="stat-label">Цель: KYC Rate</div></div>
+  </div>
+
+  <div class="info-box warning"><strong>Compliance-critical:</strong> KYC — обязательный процесс. Без верификации невозможен вывод средств. Это НЕ маркетинговая коммуникация — используются транзакционные лимиты.</div>
+
+  <!-- 3 STAGES -->
+  <div class="card">
+    <h2>📊 3 этапа KYC</h2>
+    <table>
+      <thead><tr><th>Этап</th><th>Что требуется</th><th>Что даёт</th><th>Бонус за завершение</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-phase0">Stage 1</span></td><td>Email + телефон</td><td>SMS/WhatsApp каналы</td><td>10 FS</td></tr>
+        <tr><td><span class="badge badge-phase1">Stage 2</span></td><td>Документы (ID)</td><td>Вывод средств до лимита</td><td>500 CC</td></tr>
+        <tr><td><span class="badge badge-phase2">Stage 3</span></td><td>Подтверждение адреса</td><td>Полные лимиты вывода</td><td>1,000 CC + VIP eligibility</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">FTD event → Проверить KYC статус</div>
+      </div>
+      <div class="flow-arrow">↓ KYC_UNVERIFIED</div>
+      <div class="flow-step" style="--step-color: var(--phase0)">
+        <div class="flow-label">Stage 1: Email + телефон (3 попытки за 7 дней)</div>
+      </div>
+      <div class="flow-arrow">↓ kyc_stage1_completed</div>
+      <div class="flow-step" style="--step-color: var(--phase1)">
+        <div class="flow-label">Stage 2: Документы (3 попытки за 7 дней)</div>
+      </div>
+      <div class="flow-arrow">↓ kyc_stage2_completed</div>
+      <div class="flow-step" style="--step-color: var(--phase2)">
+        <div class="flow-label">Stage 3: Адрес (по запросу при первом выводе)</div>
+      </div>
+      <div class="flow-arrow">↓ kyc_full_completed</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">✅ Полная верификация — все функции доступны</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STAGE 1 -->
+  <div class="card">
+    <h2>📋 Stage 1: Email + Телефон</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">Immediate nudge (после FTD)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>ftd_completed</code> AND <code>kyc_status = unverified</code></td></tr>
+        <tr><td>Задержка</td><td>+30 минут после FTD</td></tr>
+        <tr><td>Каналы</td><td>NC Feed + Popup</td></tr>
+        <tr><td>Контент</td><td>«Подтверди email и телефон, чтобы получить 10 Free Spins! 🎁»</td></tr>
+        <tr><td>CTA</td><td>«Подтвердить сейчас» → страница профиля</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Email reminder (+24ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>kyc_stage1_completed = false</code></td></tr>
+        <tr><td>Каналы</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Осталось 2 минуты до 10 Free Spins! ⏱️»</td></tr>
+        <tr><td>Контент</td><td>Пошаговая инструкция (1. Открой профиль → 2. Введи телефон → 3. Введи код из SMS)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">C3</div>
+      <div class="step-title">Withdrawal block reminder (+72ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>kyc_stage1_completed = false</code> AND <code>balance &gt; 0</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed + Web Push</td></tr>
+        <tr><td>Subject</td><td>«⚠️ Без верификации вывод невозможен»</td></tr>
+        <tr><td>Tone</td><td>Серьёзный — подчеркнуть что выигрыш «заморожен» до верификации</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STAGE 2 -->
+  <div class="card">
+    <h2>📋 Stage 2: Документы</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C4</div>
+      <div class="step-title">Запрос документов (после Stage 1)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>kyc_stage1_completed</code></td></tr>
+        <tr><td>Задержка</td><td>+2ч после Stage 1</td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Subject</td><td>«Загрузи документ — получи 500 CuatroCoins! 🪙»</td></tr>
+        <tr><td>Контент</td><td>• Какие документы принимаются (DNI, паспорт)<br>• Фото требования (качество, освещение)<br>• Срок обработки: &lt; 24ч</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C5–C6</div>
+      <div class="step-title">Reminders (+48ч, +96ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Шаг</th><th>Задержка</th><th>Канал</th><th>Тон</th></tr></thead>
+      <tbody>
+        <tr><td>C5</td><td>+48ч</td><td>Email</td><td>«Загрузка занимает 2 минуты»</td></tr>
+        <tr><td>C6</td><td>+96ч</td><td>Email + SMS (KYC_PARTIAL)</td><td>«Последний шаг до полного доступа»</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card decision">
+      <div class="step-num">C7</div>
+      <div class="step-title">Документ отклонён</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>kyc_document_rejected</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Контент</td><td>Причина отказа + инструкция что сделать:<br>• Плохое фото → «Сделай при хорошем освещении»<br>• Срок истёк → «Нужен действующий документ»<br>• Не совпадают данные → «Проверь имя в профиле»</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STAGE 3 -->
+  <div class="card">
+    <h2>📋 Stage 3: Подтверждение адреса (по требованию)</h2>
+
+    <div class="step-card">
+      <div class="step-num">C8–C9</div>
+      <div class="step-title">При первом запросе вывода</div>
+    </div>
+    <table>
+      <thead><tr><th>Шаг</th><th>Триггер</th><th>Контент</th></tr></thead>
+      <tbody>
+        <tr><td>C8</td><td><code>withdrawal_requested</code> AND <code>kyc_stage3 = incomplete</code></td><td>«Подтверди адрес — и мы отправим деньги! 💰»</td></tr>
+        <tr><td>C9</td><td>+48ч если C8 не выполнен</td><td>«Вывод на паузе — загрузи документ об адресе»</td></tr>
+      </tbody>
+    </table>
+    <div class="info-box info"><strong>Бонус Stage 3:</strong> 1,000 CuatroCoins + право на VIP-программу</div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">85%+</div><div class="kpi-label">Stage 1 Rate (7d)</div></div>
+    <div class="kpi-card"><div class="kpi-value">60%+</div><div class="kpi-label">Stage 2 Rate (14d)</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;10%</div><div class="kpi-label">Reject Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;24ч</div><div class="kpi-label">Doc Review SLA</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>События <code>kyc_stage1/2/3_completed</code> настроены</li>
+      <li>Событие <code>kyc_document_rejected</code> с причиной отказа</li>
+      <li>Бонус Stage 1: 10 FS создан</li>
+      <li>Бонус Stage 2: 500 CC создан</li>
+      <li>Бонус Stage 3: 1,000 CC создан</li>
+      <li>Journey с 3 под-journey (по этапам)</li>
+      <li>9 email/push шаблонов</li>
+      <li>Rejection email с динамической причиной</li>
+      <li>Popup при попытке вывода без KYC</li>
+      <li>Транзакционные лимиты (не маркетинговые)</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 07 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p08" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>08 — Failed Deposits / Abandoned Cashier</h1>
+    <div class="subtitle">Фаза 1 · Неделя 3 · Средний приоритет · Воронка кассы</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">5</div><div class="stat-label">Шагов в цепочке</div></div>
+    <div class="stat-box green"><div class="stat-value">96ч</div><div class="stat-label">Окно Journey</div></div>
+    <div class="stat-box orange"><div class="stat-value">3</div><div class="stat-label">Канала</div></div>
+    <div class="stat-box purple"><div class="stat-value">35%+</div><div class="stat-label">Цель: Completion Rate</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Отличие от Chain 04:</strong> Chain 04 = платёж отклонён системой (<code>deposit_failed</code>). Chain 06 = игрок САМИ ушли с кассы или не завершили (<code>cashier_abandoned</code>).</div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">cashier_abandoned / deposit_incomplete event</div>
+      </div>
+      <div class="flow-arrow">↓ +30 мин</div>
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">C1: NC Feed — «Ты забыл завершить депозит»</div>
+      </div>
+      <div class="flow-arrow">↓ +4ч (если нет deposit_success)</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C2: Web Push — «Вернись и заверши!»</div>
+      </div>
+      <div class="flow-arrow">↓ +24ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C3: Email — 5 FS за депозит сегодня</div>
+      </div>
+      <div class="flow-arrow">↓ +48ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">C4: Email — 10% бонус на депозит</div>
+      </div>
+      <div class="flow-arrow">↓ +96ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">C5: SMS (VT_MID+) — «Эксклюзивный промокод 15%»</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEPS -->
+  <div class="card">
+    <h2>📋 Детали коммуникаций</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">NC Feed reminder (+30 мин)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>cashier_abandoned</code> (посетил кассу, не депозит)</td></tr>
+        <tr><td>Задержка</td><td>+30 мин</td></tr>
+        <tr><td>Канал</td><td>NC Feed</td></tr>
+        <tr><td>Контент</td><td>«Ты не завершил депозит. Вернись и продолжи!»</td></tr>
+        <tr><td>CTA</td><td>Deep-link на кассу с pre-filled суммой (если известна)</td></tr>
+        <tr><td>Выход</td><td><code>deposit_success</code> → завершить chain</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Web Push (+4ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Web Push</td></tr>
+        <tr><td>Заголовок</td><td>«Твоя игра ждёт! 🎰»</td></tr>
+        <tr><td>Текст</td><td>«Заверши депозит — и начни выигрывать»</td></tr>
+        <tr><td>CTA</td><td>Ссылка на кассу</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C3</div>
+      <div class="step-title">Email + Мини-бонус (+24ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«5 Free Spins ждут — просто сделай депозит 🎁»</td></tr>
+        <tr><td>Оффер</td><td>5 FS за любой депозит (мин. 2,285 ARS)</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=failed_deposit&utm_content=c3_5fs</code></td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C4</div>
+      <div class="step-title">Email + 10% бонус (+48ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Subject</td><td>«+10% к депозиту — используй сегодня!»</td></tr>
+        <tr><td>Оффер</td><td>10% бонус (макс. 4,570 ARS × VT mult.)</td></tr>
+        <tr><td>Вейджер</td><td>×25</td></tr>
+        <tr><td>TTL</td><td>24ч</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">C5</div>
+      <div class="step-title">SMS последний шанс (+96ч, VT_MID+)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>value_tier ≥ VT_MID</code> (Cost Guard)</td></tr>
+        <tr><td>Канал</td><td>SMS</td></tr>
+        <tr><td>Текст</td><td>«[CuatroBet] Промокод CUATRO15 — 15% к депозиту. 48ч. Играй: [link]»</td></tr>
+        <tr><td>Промокод</td><td>Уникальный, TTL 48ч</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- DIFFERENCE MATRIX -->
+  <div class="card">
+    <h2>📊 Chain 04 vs Chain 06</h2>
+    <table>
+      <thead><tr><th>Параметр</th><th>Chain 04 (Payment Fail)</th><th>Chain 06 (Abandoned)</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>deposit_failed</code></td><td><code>cashier_abandoned</code></td></tr>
+        <tr><td>Причина</td><td>Технический сбой</td><td>Пользователь передумал</td></tr>
+        <tr><td>Тон</td><td>Помощь + инструкция</td><td>FOMO + мотивация</td></tr>
+        <tr><td>Первый канал</td><td>Web Push немедленно</td><td>NC Feed +30мин</td></tr>
+        <tr><td>Бонус стартовый</td><td>10 FS (C3)</td><td>5 FS (C3)</td></tr>
+        <tr><td>Эскалация</td><td>20% бонус</td><td>15% промокод</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">35%+</div><div class="kpi-label">Deposit Completion</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;4ч</div><div class="kpi-label">Median recovery time</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;25%</div><div class="kpi-label">Escalation to SMS</div></div>
+    <div class="kpi-card"><div class="kpi-value">50%+</div><div class="kpi-label">NC Feed click rate</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Событие <code>cashier_abandoned</code> настроено (с суммой если есть)</li>
+      <li>Событие <code>deposit_success</code> как exit</li>
+      <li>Journey с 5 шагами создан</li>
+      <li>Бонус 5 FS создан в GR8 Tech</li>
+      <li>Бонус 10% создан с TTL 24ч</li>
+      <li>Промокод 15% создан с TTL 48ч</li>
+      <li>Deep-link на кассу с pre-filled суммой</li>
+      <li>Cost Guard: C5 SMS только для VT_MID+</li>
+      <li>UTM метки на всех CTA</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 08 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p09" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>09 — Бонусный лендинг и шаблоны вознаграждений</h1>
+    <div class="subtitle">Фаза 1 · Неделя 3 · Инфраструктура · Библиотека бонусов для всех цепочек</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">25+</div><div class="stat-label">Шаблонов бонусов</div></div>
+    <div class="stat-box green"><div class="stat-value">6</div><div class="stat-label">Типов бонусов</div></div>
+    <div class="stat-box orange"><div class="stat-value">5</div><div class="stat-label">Value Tiers</div></div>
+    <div class="stat-box purple"><div class="stat-value">1</div><div class="stat-label">Лендинг страница</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Цель:</strong> Создать единую библиотеку бонусов в GR8 Tech + лендинг-страницу «Мои бонусы / Промо» для всех chains.</div>
+
+  <!-- BONUS TYPES -->
+  <div class="card">
+    <h2>🎁 Типы бонусов (Мастер-каталог)</h2>
+    <table>
+      <thead><tr><th>Тип</th><th>Механика</th><th>Вейджер</th><th>Где используется</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Free Spins (FS)</strong></td><td>N вращений в конкретную игру</td><td>×35 (выигрыш)</td><td>Chains 01, 04, 05, 06, 12</td></tr>
+        <tr><td><strong>Free Spins No-Dep</strong></td><td>FS без депозита</td><td>×50</td><td>Chains 01, 05, 12</td></tr>
+        <tr><td><strong>Deposit Match</strong></td><td>X% от суммы депозита</td><td>×30–×35</td><td>Chains 05, 12</td></tr>
+        <tr><td><strong>Reload Bonus</strong></td><td>X% на повторный депозит</td><td>×25</td><td>Chains 06, 12</td></tr>
+        <tr><td><strong>Cashback</strong></td><td>X% от нетто-проигрышей</td><td>×1 (реальные деньги)</td><td>Chain 01</td></tr>
+        <tr><td><strong>CuatroCoins (CC)</strong></td><td>Лояльная валюта</td><td>—</td><td>Chains 03, 10, 11, 15, 16</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- BONUS TEMPLATES -->
+  <div class="card">
+    <h2>📋 Шаблоны для создания в GR8 Tech</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">Шаг 1</div>
+      <div class="step-title">Создать бонусы Free Spins</div>
+    </div>
+    <table>
+      <thead><tr><th>ID бонуса</th><th>Название</th><th>Кол-во FS</th><th>Игра</th><th>Вейджер</th><th>TTL</th></tr></thead>
+      <tbody>
+        <tr><td>FS_5_SLOTS</td><td>5 FS Slots</td><td>5</td><td>Gates of Olympus</td><td>×35</td><td>72ч</td></tr>
+        <tr><td>FS_10_SLOTS</td><td>10 FS Slots</td><td>10</td><td>Gates of Olympus</td><td>×35</td><td>72ч</td></tr>
+        <tr><td>FS_20_SLOTS</td><td>20 FS Slots</td><td>20</td><td>Gates of Olympus</td><td>×35</td><td>72ч</td></tr>
+        <tr><td>FS_25_SLOTS</td><td>25 FS Slots</td><td>25</td><td>Gates of Olympus</td><td>×35</td><td>72ч</td></tr>
+        <tr><td>FS_30_SLOTS</td><td>30 FS Slots</td><td>30</td><td>Gates of Olympus</td><td>×35</td><td>72ч</td></tr>
+        <tr><td>FS_40_SLOTS</td><td>40 FS Slots</td><td>40</td><td>Gates of Olympus</td><td>×35</td><td>72ч</td></tr>
+        <tr><td>FS_50_SLOTS</td><td>50 FS Slots</td><td>50</td><td>Gates of Olympus</td><td>×35</td><td>72ч</td></tr>
+        <tr><td>FS_60_SLOTS</td><td>60 FS Slots</td><td>60</td><td>Gates of Olympus</td><td>×30</td><td>24ч</td></tr>
+      </tbody>
+    </table>
+    <div class="info-box info">Для каждого FS бонуса — 4 варианта по GP_ axis (SLOTS / AVIATOR / LIVE / MIXED). Итого: 8 × 4 = <strong>32 FS бонуса</strong>.</div>
+
+    <div class="step-card action">
+      <div class="step-num">Шаг 2</div>
+      <div class="step-title">Создать бонусы No-Deposit</div>
+    </div>
+    <table>
+      <thead><tr><th>ID</th><th>Кол-во FS</th><th>Вейджер</th><th>Chain</th></tr></thead>
+      <tbody>
+        <tr><td>FS_ND_10</td><td>10 FS</td><td>×50</td><td>Chain 12 (7D reactivation)</td></tr>
+        <tr><td>FS_ND_20</td><td>20 FS</td><td>×50</td><td>Chains 01, 05</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">Шаг 3</div>
+      <div class="step-title">Создать Deposit Match бонусы</div>
+    </div>
+    <table>
+      <thead><tr><th>ID</th><th>Матч %</th><th>Макс. (базовый)</th><th>Вейджер</th><th>Chain</th></tr></thead>
+      <tbody>
+        <tr><td>MATCH_50</td><td>50%</td><td>22,850 ARS</td><td>×35</td><td>Chain 05 (S2)</td></tr>
+        <tr><td>MATCH_75</td><td>75%</td><td>34,275 ARS</td><td>×35</td><td>Chain 05 (S3)</td></tr>
+        <tr><td>MATCH_100</td><td>100%</td><td>45,700 ARS</td><td>×35</td><td>Chains 05 (S1, S4)</td></tr>
+        <tr><td>RELOAD_10</td><td>10%</td><td>4,570 ARS</td><td>×25</td><td>Chains 06</td></tr>
+        <tr><td>RELOAD_20</td><td>20%</td><td>9,140 ARS</td><td>×25</td><td>Chain 04 (C4)</td></tr>
+        <tr><td>RELOAD_30</td><td>30%</td><td>13,710 ARS</td><td>×25</td><td>Chain 12 (7D)</td></tr>
+        <tr><td>RELOAD_50</td><td>50%</td><td>22,850 ARS</td><td>×25</td><td>Chain 12 (14D)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">Шаг 4</div>
+      <div class="step-title">Создать CC бонусы</div>
+    </div>
+    <table>
+      <thead><tr><th>ID</th><th>CC</th><th>Где</th></tr></thead>
+      <tbody>
+        <tr><td>CC_200</td><td>200</td><td>Chain 11 (easy mission)</td></tr>
+        <tr><td>CC_500</td><td>500</td><td>Chain 03 (KYC Stage 2), Chain 10 (weekend)</td></tr>
+        <tr><td>CC_600</td><td>600</td><td>Chain 10 (weekend premium)</td></tr>
+        <tr><td>CC_1000</td><td>1,000</td><td>Chain 03 (KYC Stage 3)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- LANDING PAGE -->
+  <div class="card">
+    <h2>🌐 Лендинг «Мои бонусы»</h2>
+    <div class="step-card trigger">
+      <div class="step-num">Шаг 5</div>
+      <div class="step-title">Разработка лендинга в GR8 Tech CMS</div>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">Секция 1: Активные бонусы</div><div class="tl-desc">Список бонусов игрока с прогрессом отыгрыша, TTL таймером, кнопкой «Играть»</div></div>
+      <div class="timeline-item"><div class="tl-title">Секция 2: Доступные промо</div><div class="tl-desc">Текущие акции, которые игрок может активировать (по сегменту)</div></div>
+      <div class="timeline-item"><div class="tl-title">Секция 3: История бонусов</div><div class="tl-desc">Архив использованных бонусов с суммами и статусами</div></div>
+      <div class="timeline-item"><div class="tl-title">Секция 4: CuatroCoins баланс</div><div class="tl-desc">Текущий баланс CC + ссылка на Bonus Shop (Chain 15)</div></div>
+    </div>
+
+    <div class="info-box warning"><strong>Все CTA</strong> из email/push/NC Feed для бонусов должны вести на этот лендинг или напрямую на игру с активацией.</div>
+  </div>
+
+  <!-- VALUE TIER SCALING -->
+  <div class="card">
+    <h2>💎 Масштабирование по Value Tier</h2>
+    <table>
+      <thead><tr><th>VT</th><th>Множитель</th><th>FS кол-во</th><th>Match макс.</th><th>Reload макс.</th></tr></thead>
+      <tbody>
+        <tr><td>MICRO</td><td>0.5×</td><td>×0.5 (округл. вниз)</td><td>×0.5</td><td>×0.5</td></tr>
+        <tr><td>LOW</td><td>1×</td><td>Базовый</td><td>Базовый</td><td>Базовый</td></tr>
+        <tr><td>MID</td><td>1.5×</td><td>×1.5</td><td>×1.5</td><td>×1.5</td></tr>
+        <tr><td>HIGH</td><td>2×</td><td>×2</td><td>×2</td><td>×2</td></tr>
+        <tr><td>PRE_VIP+</td><td>3×</td><td>×3</td><td>×3</td><td>×3</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>32 FS бонуса созданы (8 уровней × 4 GP_ варианта)</li>
+      <li>2 No-Dep FS бонуса созданы</li>
+      <li>7 Deposit Match / Reload бонусов созданы</li>
+      <li>4 CC бонуса созданы</li>
+      <li>Value Tier множители применяются автоматически</li>
+      <li>Лендинг «Мои бонусы» разработан и доступен</li>
+      <li>Все CTA из коммуникаций ведут на лендинг</li>
+      <li>TTL корректно установлен для каждого бонуса</li>
+      <li>A/B тесты на вейджер ×30 vs ×35 запланированы</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 09 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p10" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>10 — No Bonus Cluster</h1>
+    <div class="subtitle">Фаза 1 · Неделя 3 · Средний приоритет · Игроки без активных бонусов</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Коммуникации</div></div>
+    <div class="stat-box green"><div class="stat-value">7 дн.</div><div class="stat-label">Цикл проверки</div></div>
+    <div class="stat-box orange"><div class="stat-value">3</div><div class="stat-label">Канала</div></div>
+    <div class="stat-box purple"><div class="stat-value">40%+</div><div class="stat-label">Цель: Activation Rate</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Проблема:</strong> Активные игроки, у которых нет ни одного бонуса. Они играют «на свои» — высокий риск оттока при серии проигрышей. Цель — всегда иметь хотя бы 1 активный бонус.</div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">Scheduled Check: каждые 7 дней → active_bonuses = 0?</div>
+      </div>
+      <div class="flow-arrow">↓ Да, 0 бонусов</div>
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">C1: NC Feed — «У тебя нет бонусов! Забери один»</div>
+      </div>
+      <div class="flow-arrow">↓ +24ч (если не активировал)</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C2: Email — «Выбери свой бонус» (2-3 варианта)</div>
+      </div>
+      <div class="flow-arrow">↓ +72ч (если не активировал)</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C3: Web Push + NC Feed — «XY CuatroCoins → обменяй на бонус»</div>
+      </div>
+      <div class="flow-arrow">↓ +7 дней</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">C4: Popup при входе — «Бесплатный бонус ждёт!»</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEPS -->
+  <div class="card">
+    <h2>📋 Детали коммуникаций</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">NC Feed — Мягкое напоминание</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td>Scheduled: <code>active_bonuses = 0</code> AND <code>last_login ≤ 7d</code></td></tr>
+        <tr><td>Канал</td><td>NC Feed</td></tr>
+        <tr><td>Контент</td><td>«Ты играешь без бону­са! Забери один из доступных промо 🎁»</td></tr>
+        <tr><td>CTA</td><td>Ссылка на лендинг «Мои бонусы» (Chain 14)</td></tr>
+        <tr><td>Выход</td><td><code>bonus_activated</code></td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Email — Выбор бонуса (+24ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>active_bonuses = 0</code> всё ещё</td></tr>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Выбери свой бонус, {{first_name}}! 🎰»</td></tr>
+        <tr><td>Контент</td><td>2-3 варианта по GP_ axis:<br>• GP_SLOTS → 10 FS на Gates of Olympus<br>• GP_AVIATOR → 5 Free Flights<br>• Все → 5% reload на следующий депозит</td></tr>
+        <tr><td>CTA</td><td>Кнопки для каждого варианта</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C3</div>
+      <div class="step-title">CC reminder (+72ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Каналы</td><td>Web Push + NC Feed</td></tr>
+        <tr><td>Контент</td><td>«У тебя {{cc_balance}} CuatroCoins — обменяй на бонус в Bonus Shop!»</td></tr>
+        <tr><td>CTA</td><td>Ссылка на Bonus Shop (Chain 15)</td></tr>
+        <tr><td>Условие</td><td><code>cc_balance ≥ 50</code></td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">C4</div>
+      <div class="step-title">Popup при входе (+7 дней)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>session_start</code> AND <code>active_bonuses = 0</code> (7+ дней без бонуса)</td></tr>
+        <tr><td>Канал</td><td>Popup (on-site)</td></tr>
+        <tr><td>Контент</td><td>«Бесплатный бонус ждёт! Выбери один из трёх 🎁»</td></tr>
+        <tr><td>Механика</td><td>Одноразовый popup с 3 кнопками</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">40%+</div><div class="kpi-label">Bonus Activation</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;15%</div><div class="kpi-label">Players with 0 bonus (7d)</div></div>
+    <div class="kpi-card"><div class="kpi-value">+10%</div><div class="kpi-label">Deposit Rate (bonus users)</div></div>
+    <div class="kpi-card"><div class="kpi-value">-20%</div><div class="kpi-label">Churn reduction</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Атрибут <code>active_bonuses</code> доступен в реальном времени</li>
+      <li>Scheduled journey (каждые 7 дней) настроен</li>
+      <li>Мини-бонусы по GP_ axis подготовлены</li>
+      <li>Ссылка на «Мои бонусы» лендинг (Chain 14)</li>
+      <li>Ссылка на Bonus Shop (Chain 15)</li>
+      <li>CC баланс доступен для шаблонов</li>
+      <li>Popup шаблон с 3 вариантами</li>
+      <li>Exit condition: <code>bonus_activated</code></li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 10 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p11" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>11 — No Cashier Visited</h1>
+    <div class="subtitle">Фаза 1 · Неделя 3 · Средний приоритет · Pre-FTD конверсия</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Коммуникации</div></div>
+    <div class="stat-box green"><div class="stat-value">5 дн.</div><div class="stat-label">Окно Journey</div></div>
+    <div class="stat-box orange"><div class="stat-value">4</div><div class="stat-label">Канала</div></div>
+    <div class="stat-box purple"><div class="stat-value">20%+</div><div class="stat-label">Цель: FTD ConvRate</div></div>
+  </div>
+
+  <div class="info-box warning"><strong>Сегмент:</strong> Зарегистрированные игроки, которые играли (демо/FS), но НИ РАЗУ не посетили кассу. Разрыв между вовлечением и монетизацией.</div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">Scheduled: registered + game_play ≥ 1 + cashier_visited = false + account_age ≥ 48ч</div>
+      </div>
+      <div class="flow-arrow">↓ сегмент попал</div>
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">C1: NC Feed — «Готов играть по-настоящему?»</div>
+      </div>
+      <div class="flow-arrow">↓ +12ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C2: Email — «Первый депозит = 100% бонус + 50 FS»</div>
+      </div>
+      <div class="flow-arrow">↓ +48ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C3: Web Push — «Твои вращения ждут! Депозит от 2,285 ARS»</div>
+      </div>
+      <div class="flow-arrow">↓ +96ч (день 5)</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">C4: Popup — «Последний день! Бонус исчезнет через 24ч»</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEPS -->
+  <div class="card">
+    <h2>📋 Детали коммуникаций</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">NC Feed — Soft intro</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>cashier_visited = false</code> AND <code>game_sessions ≥ 1</code></td></tr>
+        <tr><td>Канал</td><td>NC Feed</td></tr>
+        <tr><td>Контент</td><td>«Ты уже попробовал {{favorite_game}}! Готов к настоящей игре? 💰»</td></tr>
+        <tr><td>CTA</td><td>«Сделать депозит» → касса</td></tr>
+        <tr><td>Выход</td><td><code>cashier_visited = true</code> ИЛИ <code>ftd_completed</code></td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Email — Welcome Bonus preview (+12ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«100% бонус на первый депозит ждёт тебя! 🎁»</td></tr>
+        <tr><td>Контент</td><td>• Объяснение Welcome Bonus Ladder (Chain 05)<br>• Мин. депозит: 2,285 ARS<br>• Что получит: 100% матч + 50 FS<br>• Хит-парад игр по GP_ axis</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=no_cashier&utm_content=c2_welcome</code></td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C3</div>
+      <div class="step-title">Web Push — Social proof (+48ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Web Push</td></tr>
+        <tr><td>Заголовок</td><td>«1,247 игроков уже получили бонусы 🔥»</td></tr>
+        <tr><td>Текст</td><td>«Депозит от 2,285 ARS → бонус до 45,700 ARS + 50 FS»</td></tr>
+        <tr><td>CTA</td><td>Ссылка на кассу</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">C4</div>
+      <div class="step-title">Popup — Last chance (день 5)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>session_start</code> на 5-й день после C1</td></tr>
+        <tr><td>Канал</td><td>Popup (on-site)</td></tr>
+        <tr><td>Контент</td><td>«⏰ Последний шанс получить 100% бонус! Истекает через 24ч»</td></tr>
+        <tr><td>Механика</td><td>Таймер обратного отсчёта + кнопка «Депозит»</td></tr>
+        <tr><td>Показ</td><td>Одноразовый</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- DIFFERENCE -->
+  <div class="card">
+    <h2>📊 Связь с другими chains</h2>
+    <table>
+      <thead><tr><th>Event</th><th>Что происходит</th></tr></thead>
+      <tbody>
+        <tr><td><code>cashier_visited</code></td><td>Выход из Chain 08 → если не депозит, может попасть в Chain 06</td></tr>
+        <tr><td><code>ftd_completed</code></td><td>Выход из Chain 08 → запуск Chain 05 (Welcome Ladder) + Chain 01 (Day-1)</td></tr>
+        <tr><td>Нет действия за 5 дней</td><td>Завершение Chain 08 → через 7+ дней может попасть в Chain 12 (Reactivation)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">50%+</div><div class="kpi-label">Cashier Visit Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">20%+</div><div class="kpi-label">FTD Conversion</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;72ч</div><div class="kpi-label">Median time to FTD</div></div>
+    <div class="kpi-card"><div class="kpi-value">35%+</div><div class="kpi-label">Email CTR</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Атрибут <code>cashier_visited</code> трекается</li>
+      <li>Атрибут <code>game_sessions</code> (кол-во сессий) доступен</li>
+      <li>Сегмент: registered + played + no cashier + 48ч+</li>
+      <li>Journey с 4 шагами и exit conditions</li>
+      <li>NC Feed, Email, Web Push, Popup шаблоны</li>
+      <li>Связка с Chain 05 (при FTD)</li>
+      <li>Связка с Chain 06 (при cashier visit без deposit)</li>
+      <li>UTM метки на всех CTA</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 11 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p12" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>12 — Pre-VIP Lifecycle</h1>
+    <div class="subtitle">Фаза 1 · Неделя 3–4 · Высокий приоритет · Путь к VIP статусу</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">VIP уровня</div></div>
+    <div class="stat-box green"><div class="stat-value">8</div><div class="stat-label">Коммуникаций</div></div>
+    <div class="stat-box orange"><div class="stat-value">5</div><div class="stat-label">Каналов</div></div>
+    <div class="stat-box purple"><div class="stat-value">15%+</div><div class="stat-label">Цель: VIP Conv Rate</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Сегмент:</strong> Игроки с депозитами 685,000 – 1,370,000 ARS. Находятся «на пороге» VIP — нужен push к следующему уровню.</div>
+
+  <!-- VIP TIERS -->
+  <div class="card">
+    <h2>🏆 VIP Уровни (GR8 Tech Tiers)</h2>
+    <table>
+      <thead><tr><th>Уровень</th><th>Порог депозитов</th><th>Привилегии</th><th>Ежемесячный кэшбэк</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-phase1">Silver</span></td><td>685,000 ARS</td><td>Персональный менеджер, Weekly reload 15%</td><td>5%</td></tr>
+        <tr><td><span class="badge badge-phase2">Gold</span></td><td>1,370,000 ARS</td><td>Приоритетный вывод, Birthday bonus</td><td>7%</td></tr>
+        <tr><td><span class="badge badge-phase4">Platinum</span></td><td>2,740,000 ARS</td><td>Эксклюзивные турниры, Concierge</td><td>10%</td></tr>
+        <tr><td><span style="color:var(--accent-red);font-weight:700">Diamond</span></td><td>6,850,000 ARS</td><td>Всё + Travel + Личный хост</td><td>15%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Journey Flow</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">Вход в сегмент LS_PRE_VIP (685K+ ARS)</div>
+      </div>
+      <div class="flow-arrow">↓ немедленно</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C1: Email + NC Feed — «Ты на пороге VIP!» + прогресс-бар</div>
+      </div>
+      <div class="flow-arrow">↓ +3 дня</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">C2: «VIP Preview» — Email с привилегиями уровня</div>
+      </div>
+      <div class="flow-arrow">↓ +7 дней</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C3: «Ускоритель» — 25% reload до 34,275 ARS</div>
+      </div>
+      <div class="flow-arrow">↓ 80% порога</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">C4: «Почти VIP!» — WhatsApp/SMS + финальный push</div>
+      </div>
+      <div class="flow-arrow">↓ VIP достигнут</div>
+      <div class="flow-step" style="--step-color: var(--phase4)">
+        <div class="flow-label">C5: «Добро пожаловать в VIP!» 🎉 — все каналы</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEPS -->
+  <div class="card">
+    <h2>📋 Коммуникации</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">Вход в Pre-VIP</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td>Переход в сегмент <code>LS_PRE_VIP</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Subject</td><td>«Ты на пороге VIP статуса! 👑»</td></tr>
+        <tr><td>Контент</td><td>• Прогресс-бар до Silver ({{progress}}%)<br>• Сколько осталось ARS<br>• Preview привилегий Silver</td></tr>
+        <tr><td>CTA</td><td>«Узнать больше о VIP» → VIP лендинг</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">VIP Preview (+3 дня)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Вот что тебя ждёт в VIP 💎»</td></tr>
+        <tr><td>Контент</td><td>Подробное сравнение: обычный vs Silver vs Gold<br>Эксклюзивные привилегии, персональный менеджер, weekly reload</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C3</div>
+      <div class="step-title">VIP Accelerator (+7 дней)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Каналы</td><td>Email + NC Feed + Web Push</td></tr>
+        <tr><td>Оффер</td><td>25% reload до 34,275 ARS (×25 вейджер)</td></tr>
+        <tr><td>Subject</td><td>«Ускорь свой путь к VIP — 25% бонус! 🚀»</td></tr>
+        <tr><td>TTL</td><td>72ч</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">C4</div>
+      <div class="step-title">«Почти VIP» (80% порога)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>total_deposits ≥ 0.8 × vip_threshold</code></td></tr>
+        <tr><td>Каналы</td><td>Email + WhatsApp (VT_HIGH+) / SMS</td></tr>
+        <tr><td>Контент</td><td>«Осталось {{remaining_ars}} ARS до VIP Silver! Ещё немного!»</td></tr>
+        <tr><td>Оффер</td><td>30% reload «VIP Sprint» (×20 вейджер, TTL 48ч)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card trigger">
+      <div class="step-num">C5</div>
+      <div class="step-title">VIP Welcome! 🎉</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>vip_tier_achieved</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed + Web Push + WhatsApp + SMS</td></tr>
+        <tr><td>Subject</td><td>«Поздравляем, ты VIP {{tier}}! 👑🎉»</td></tr>
+        <tr><td>Контент</td><td>• Welcome to VIP<br>• Список привилегий<br>• Контакт персонального менеджера<br>• Welcome gift: 50 FS + 2,000 CC</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ONGOING VIP -->
+  <div class="card">
+    <h2>📋 Ongoing VIP коммуникации</h2>
+    <table>
+      <thead><tr><th>Коммуникация</th><th>Частота</th><th>Содержание</th></tr></thead>
+      <tbody>
+        <tr><td>C6: Weekly VIP Report</td><td>Еженедельно (пн)</td><td>Статистика за неделю, баланс CC, следующий milestone</td></tr>
+        <tr><td>C7: Monthly VIP Exclusive</td><td>Ежемесячно (1-е)</td><td>Кэшбэк за месяц, эксклюзивный оффер, VIP турнир</td></tr>
+        <tr><td>C8: Birthday</td><td>В день рождения</td><td>Подарок: 100 FS + 5,000 CC (Gold+)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">15%+</div><div class="kpi-label">Pre-VIP → VIP Conv</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;30 дней</div><div class="kpi-label">Median time to VIP</div></div>
+    <div class="kpi-card"><div class="kpi-value">5%+</div><div class="kpi-label">VIP Churn (monthly)</div></div>
+    <div class="kpi-card"><div class="kpi-value">+40%</div><div class="kpi-label">ARPU VIP vs Regular</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>VIP уровни (Silver/Gold/Platinum/Diamond) настроены в GR8 Tech</li>
+      <li>Сегмент <code>LS_PRE_VIP</code> (685K–1.37M ARS)</li>
+      <li>Прогресс-бар данные (% до следующего уровня)</li>
+      <li>VIP Accelerator бонус (25% reload) создан</li>
+      <li>VIP Sprint бонус (30% reload) создан</li>
+      <li>VIP Welcome gift (50 FS + 2,000 CC) создан</li>
+      <li>Birthday bonus (100 FS + 5,000 CC) для Gold+</li>
+      <li>Персональный менеджер assignment flow</li>
+      <li>Weekly/Monthly VIP email шаблоны</li>
+      <li>WhatsApp templates для VIP утверждены</li>
+      <li>VIP лендинг страница создана</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 12 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p13" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>13 — Матрица реактивации</h1>
+    <div class="subtitle">Фаза 2 · Неделя 5–6 · Высокий приоритет · 4 стадии возврата</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Стадии (7D/14D/21D/60D)</div></div>
+    <div class="stat-box green"><div class="stat-value">16+</div><div class="stat-label">Коммуникаций</div></div>
+    <div class="stat-box orange"><div class="stat-value">5</div><div class="stat-label">Каналов</div></div>
+    <div class="stat-box purple"><div class="stat-value">25%+</div><div class="stat-label">Цель: Reactivation Rate</div></div>
+  </div>
+
+  <div class="info-box danger"><strong>Принцип:</strong> Чем дольше неактивен — тем агрессивнее оффер. Каждая стадия эскалирует бонус и каналы. Зависимость от Chain 17 (сегментация).</div>
+
+  <!-- MATRIX OVERVIEW -->
+  <div class="card">
+    <h2>📊 Обзор матрицы</h2>
+    <table>
+      <thead><tr><th>Стадия</th><th>Неактивность</th><th>Tone</th><th>Макс. оффер (VT_LOW)</th><th>Каналы</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-phase1">7D</span></td><td>7 дней</td><td>Мягкий</td><td>10 FS + 30% reload</td><td>Email + NC Feed</td></tr>
+        <tr><td><span class="badge badge-phase2">14D</span></td><td>14 дней</td><td>Средний</td><td>2,300 no-dep + 50% reload</td><td>+ Web Push + SMS</td></tr>
+        <tr><td><span class="badge badge-phase4">21D</span></td><td>21 день</td><td>Агрессивный</td><td>Персональный пакет</td><td>+ WhatsApp + CRM call</td></tr>
+        <tr><td><span style="color:var(--accent-red);font-weight:700">60D+</span></td><td>60+ дней</td><td>Ultimatum</td><td>«Последний шанс» + удаление из рассылки</td><td>Email final</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STAGE 7D -->
+  <div class="card">
+    <h2>🔵 Стадия 7D: Мягкая реактивация</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">last_login &gt; 7 дней → Вход в 7D stage</div>
+      </div>
+      <div class="flow-arrow">↓ день 7</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C1: Email — «Мы скучаем! Что нового…» + NC Feed</div>
+      </div>
+      <div class="flow-arrow">↓ день 9 (если нет login)</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">C2: Email — 10 FS no-deposit</div>
+      </div>
+      <div class="flow-arrow">↓ день 11 (если нет login)</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C3: Web Push — 30% reload до 13,710 ARS</div>
+      </div>
+      <div class="flow-arrow">↓ день 14 → переход в 14D</div>
+    </div>
+    <table>
+      <thead><tr><th>Ком.</th><th>Канал</th><th>Оффер</th><th>TTL</th></tr></thead>
+      <tbody>
+        <tr><td>C1</td><td>Email + NC Feed</td><td>Без оффера (check-in)</td><td>—</td></tr>
+        <tr><td>C2</td><td>Email</td><td>10 FS no-dep</td><td>72ч</td></tr>
+        <tr><td>C3</td><td>Web Push</td><td>30% reload до 13,710 ARS</td><td>48ч</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STAGE 14D -->
+  <div class="card">
+    <h2>🟠 Стадия 14D: Средняя эскалация</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">last_login &gt; 14 дней → Вход в 14D stage</div>
+      </div>
+      <div class="flow-arrow">↓ день 14</div>
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">C4: Email — CC balance alert «Твои CC скоро сгорят!»</div>
+      </div>
+      <div class="flow-arrow">↓ день 16</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">C5: Email + NC Feed — 2,300 ARS no-dep бонус</div>
+      </div>
+      <div class="flow-arrow">↓ день 18</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C6: SMS — Приглашение на приватный турнир</div>
+      </div>
+      <div class="flow-arrow">↓ день 20</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">C7: Email + SMS — 3,400 no-dep + 30 FS (VT_MID+)</div>
+      </div>
+    </div>
+    <table>
+      <thead><tr><th>Ком.</th><th>Канал</th><th>Оффер</th><th>TTL</th></tr></thead>
+      <tbody>
+        <tr><td>C4</td><td>Email</td><td>CC expiry alert</td><td>—</td></tr>
+        <tr><td>C5</td><td>Email + NC Feed</td><td>2,300 ARS no-dep</td><td>72ч</td></tr>
+        <tr><td>C6</td><td>SMS (VT_MID+)</td><td>Приглашение на турнир</td><td>—</td></tr>
+        <tr><td>C7</td><td>Email + SMS</td><td>3,400 ARS no-dep + 30 FS</td><td>48ч</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STAGE 21D -->
+  <div class="card">
+    <h2>🔴 Стадия 21D: Агрессивная реактивация</h2>
+    <div class="step-card warning">
+      <div class="step-num">C8</div>
+      <div class="step-title">Персональный пакет</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Каналы</td><td>Email + WhatsApp (VT_HIGH+) + CRM call (VT_PRE_VIP+)</td></tr>
+        <tr><td>Содержание</td><td>Персональный пакет на основе game history:<br>• GP_SLOTS → 50 FS + 50% reload<br>• GP_AVIATOR → Free Flights + 40% reload<br>• GP_LIVE → Cashback 15% + VIP стол<br>• GP_MIXED → «Выбери сам» из 3 вариантов</td></tr>
+        <tr><td>CRM Call</td><td>Только для VT_PRE_VIP+: звонок менеджера, индивидуальный оффер</td></tr>
+        <tr><td>TTL</td><td>72ч</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card">
+      <div class="step-num">C9–C10</div>
+      <div class="step-title">Follow-up</div>
+    </div>
+    <table>
+      <thead><tr><th>Ком.</th><th>Задержка</th><th>Содержание</th></tr></thead>
+      <tbody>
+        <tr><td>C9</td><td>+3 дня</td><td>Email: «Твой пакет ещё активен — осталось {{hours}}ч»</td></tr>
+        <tr><td>C10</td><td>+5 дней</td><td>SMS: Последнее сообщение «Мы здесь, когда ты готов»</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STAGE 60D -->
+  <div class="card">
+    <h2>⛔ Стадия 60D+: Sunset Policy</h2>
+    <div class="info-box danger"><strong>Sunset:</strong> Если 60+ дней без ответа — последний email «Мы всегда рады видеть тебя» → удаление из маркетинговых рассылок.</div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Канал</td><td>Email (только)</td></tr>
+        <tr><td>Subject</td><td>«Прощание? Мы будем скучать 😢»</td></tr>
+        <tr><td>CTA</td><td>«Остаться» → re-subscribe / «Уйти» → unsubscribe</td></tr>
+        <tr><td>После</td><td>Нет ответа 7д → удалить из маркетинговых списков (транзакционные остаются)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">35%+</div><div class="kpi-label">7D Reactivation</div></div>
+    <div class="kpi-card"><div class="kpi-value">20%+</div><div class="kpi-label">14D Reactivation</div></div>
+    <div class="kpi-card"><div class="kpi-value">10%+</div><div class="kpi-label">21D Reactivation</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;40%</div><div class="kpi-label">Sunset rate (60D)</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Сегменты <code>LS_DORMANT_7/14/21/60</code> настроены</li>
+      <li>10 FS no-dep бонус (7D) создан</li>
+      <li>30% reload бонус (7D) создан</li>
+      <li>2,300 ARS no-dep (14D) создан</li>
+      <li>3,400 ARS no-dep + 30 FS (14D) создан</li>
+      <li>Персональные пакеты (21D) по GP_ axis</li>
+      <li>CRM call flow для VT_PRE_VIP+ настроен</li>
+      <li>CC expiry alerts интегрированы</li>
+      <li>Sunset email шаблон с re-subscribe ссылкой</li>
+      <li>Auto-suppress после 60D+7D без ответа</li>
+      <li>16+ email/push/SMS шаблонов</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 13 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p14" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>14 — Персонализация контента</h1>
+    <div class="subtitle">Фаза 2 · Неделя 5–6 · Средняя сложность · Кросс-chain настройка</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Оси персонализации</div></div>
+    <div class="stat-box green"><div class="stat-value">12+</div><div class="stat-label">Динамических блоков</div></div>
+    <div class="stat-box orange"><div class="stat-value">50+</div><div class="stat-label">Вариантов контента</div></div>
+    <div class="stat-box purple"><div class="stat-value">+30%</div><div class="stat-label">Цель: CTR uplift</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Это НЕ отдельная цепочка.</strong> Doc 14 описывает систему персонализации, которая применяется ко ВСЕМ остальным chains. Настройки здесь определяют контент в каждом email/push/NC Feed.</div>
+
+  <!-- 4 AXES -->
+  <div class="card">
+    <h2>🎯 4 оси персонализации</h2>
+    <table>
+      <thead><tr><th>Ось</th><th>Источник (Chain 17)</th><th>Что персонализирует</th><th>Где применяется</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Game Preference (GP_)</strong></td><td>Ось 3 сегментации</td><td>Рекомендации игр, FS игра, визуал</td><td>Все chains с FS/бонусами</td></tr>
+        <tr><td><strong>Value Tier (VT_)</strong></td><td>Ось 2 сегментации</td><td>Размер оффера, каналы</td><td>Все chains с бонусами</td></tr>
+        <tr><td><strong>Lifecycle (LS_)</strong></td><td>Ось 1 сегментации</td><td>Tone of voice, urgency</td><td>Все chains</td></tr>
+        <tr><td><strong>Behavioral Signals</strong></td><td>Реальное время</td><td>Время отправки, контент блок</td><td>Smart Send, A/B</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- GP PERSONALIZATION -->
+  <div class="card">
+    <h2>🎮 Персонализация по GP_ (Игровые предпочтения)</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">Шаг 1</div>
+      <div class="step-title">Создать динамические блоки в email шаблонах</div>
+    </div>
+    <table>
+      <thead><tr><th>GP_ сегмент</th><th>Hero banner</th><th>Рекомендации</th><th>FS игра</th><th>CTA текст</th></tr></thead>
+      <tbody>
+        <tr><td>GP_SLOTS</td><td>Слоты background</td><td>Топ-3 слота по RTP</td><td>Gates of Olympus</td><td>«Крутить!»</td></tr>
+        <tr><td>GP_AVIATOR</td><td>Aviator background</td><td>Crash + Aviator</td><td>Free Flights</td><td>«Взлетай!»</td></tr>
+        <tr><td>GP_LIVE</td><td>Live dealer background</td><td>Рулетка + блэкджек</td><td>Bonus cash</td><td>«За стол!»</td></tr>
+        <tr><td>GP_MIXED</td><td>Общий CuatroBet</td><td>Mix из топ-10</td><td>Random</td><td>«Играть!»</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">Шаг 2</div>
+      <div class="step-title">Liquid/Handlebars логика в шаблонах</div>
+    </div>
+    <div class="info-box info" style="font-family:monospace;font-size:.85rem;">
+      {% if customer.game_pref == "slots" %}<br>
+      &nbsp;&nbsp;&lt;img src="hero-slots.jpg"&gt;<br>
+      &nbsp;&nbsp;&lt;p&gt;Крути {{top_slot_name}} и выиграй до {{max_win}} ARS!&lt;/p&gt;<br>
+      {% elif customer.game_pref == "aviator" %}<br>
+      &nbsp;&nbsp;&lt;img src="hero-aviator.jpg"&gt;<br>
+      &nbsp;&nbsp;&lt;p&gt;Твой множитель ждёт — взлетай с Aviator!&lt;/p&gt;<br>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- VT PERSONALIZATION -->
+  <div class="card">
+    <h2>💎 Персонализация по VT_ (Value Tier)</h2>
+    <table>
+      <thead><tr><th>VT_</th><th>Тон</th><th>Оффер level</th><th>Каналы</th><th>Визуал</th></tr></thead>
+      <tbody>
+        <tr><td>MICRO</td><td>Весёлый, casual</td><td>0.5× базовый</td><td>Email / NC Feed</td><td>Базовый шаблон</td></tr>
+        <tr><td>LOW</td><td>Дружественный</td><td>1× базовый</td><td>Email / NC Feed / Web Push</td><td>Базовый</td></tr>
+        <tr><td>MID</td><td>Профессиональный</td><td>1.5×</td><td>+ SMS</td><td>Premium шаблон</td></tr>
+        <tr><td>HIGH</td><td>Эксклюзивный</td><td>2×</td><td>+ WhatsApp</td><td>Gold шаблон</td></tr>
+        <tr><td>PRE_VIP+</td><td>VIP / Concierge</td><td>3×</td><td>Все + персональный звонок</td><td>VIP шаблон</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- REAL-TIME -->
+  <div class="card">
+    <h2>⚡ Поведенческая персонализация (Real-time)</h2>
+    <table>
+      <thead><tr><th>Сигнал</th><th>Действие</th><th>Пример</th></tr></thead>
+      <tbody>
+        <tr><td>Большой выигрыш</td><td>Поздравление + upsell</td><td>«Поздравляем с {{win_amount}} ARS! Продолжай серию!»</td></tr>
+        <tr><td>Серия проигрышей</td><td>Cashback Shield</td><td>Chain 01 C3 — 10% кэшбэк</td></tr>
+        <tr><td>Смена любимой игры</td><td>Обновить GP_ сегмент</td><td>Слоты → Aviator = пересчёт FS</td></tr>
+        <tr><td>Высокая активность</td><td>Loyalty boost</td><td>+50% CuatroCoins на выходных</td></tr>
+        <tr><td>Churn score растёт</td><td>Ускорить коммуникации</td><td>Chain 12 запуск раньше</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- IMPLEMENTATION STEPS -->
+  <div class="card">
+    <h2>📋 Пошаговая реализация</h2>
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">1. Создать 4 email master-шаблона (по VT_)</div><div class="tl-desc">Базовый, Premium, Gold, VIP — с динамическими блоками</div></div>
+      <div class="timeline-item"><div class="tl-title">2. Внедрить GP_ conditional blocks</div><div class="tl-desc">Liquid/Handlebars в каждом шаблоне</div></div>
+      <div class="timeline-item"><div class="tl-title">3. Создать image library (4× GP_ × 4× VT_)</div><div class="tl-desc">Hero banners, game thumbnails, CTA buttons</div></div>
+      <div class="timeline-item"><div class="tl-title">4. Настроить Smart Send Time</div><div class="tl-desc">На основе 30-дневной истории открытий</div></div>
+      <div class="timeline-item"><div class="tl-title">5. A/B тесты</div><div class="tl-desc">GP_ personalized vs generic: цель +30% CTR</div></div>
+      <div class="timeline-item"><div class="tl-title">6. Мониторинг и итерация</div><div class="tl-desc">Еженедельный отчёт по эффективности каждого блока</div></div>
+    </div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">+30%</div><div class="kpi-label">CTR uplift (GP_)</div></div>
+    <div class="kpi-card"><div class="kpi-value">+20%</div><div class="kpi-label">Conv uplift (VT_)</div></div>
+    <div class="kpi-card"><div class="kpi-value">+15%</div><div class="kpi-label">Open rate uplift</div></div>
+    <div class="kpi-card"><div class="kpi-value">50+</div><div class="kpi-label">Вариантов контента</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>4 master email шаблона (по VT_) созданы</li>
+      <li>GP_ conditional blocks в каждом шаблоне</li>
+      <li>Image library: 16+ hero banners</li>
+      <li>Smart Send Time активирован</li>
+      <li>Liquid/Handlebars код протестирован</li>
+      <li>A/B тест GP_ personalized vs generic запущен</li>
+      <li>Все chains используют персонализацию</li>
+      <li>Dashboard мониторинга создан</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 14 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p15" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>15 — Bonus Shop (CuatroCoins Marketplace)</h1>
+    <div class="subtitle">Фаза 2 · Неделя 6–7 · Средняя сложность · Экономика лояльности</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Тира каталога</div></div>
+    <div class="stat-box green"><div class="stat-value">20+</div><div class="stat-label">Товаров</div></div>
+    <div class="stat-box orange"><div class="stat-value">90 дн.</div><div class="stat-label">CC Expiry (rolling)</div></div>
+    <div class="stat-box purple"><div class="stat-value">60%+</div><div class="stat-label">Цель: CC Redemption</div></div>
+  </div>
+
+  <div class="info-box info"><strong>CuatroCoins (CC)</strong> — внутренняя лояльная валюта. Зарабатываются через gameplay (Chain 10, 11), KYC (Chain 03), миссии, турниры. Тратятся в Bonus Shop.</div>
+
+  <!-- CATALOG TIERS -->
+  <div class="card">
+    <h2>🛒 4-уровневый каталог</h2>
+    <table>
+      <thead><tr><th>Тир</th><th>Диапазон CC</th><th>Примеры товаров</th><th>Доступность</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="badge badge-phase0">Early</span></td>
+          <td>10 – 50 CC</td>
+          <td>• 5 FS (10 CC)<br>• Аватар exclusive (20 CC)<br>• 500 ARS bonus cash (50 CC)</td>
+          <td>Все игроки</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-phase1">Standard</span></td>
+          <td>50 – 200 CC</td>
+          <td>• 20 FS (80 CC)<br>• 10% reload (100 CC)<br>• Lucky Wheel spin (150 CC)<br>• Mystery Box (200 CC)</td>
+          <td>Deposits ≥ 2</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-phase2">Premium</span></td>
+          <td>200 – 400 CC</td>
+          <td>• 50 FS (250 CC)<br>• 25% reload (300 CC)<br>• VIP турнир билет (400 CC)</td>
+          <td>VT_MID+</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-phase4">VIP</span></td>
+          <td>500 – 2,000 CC</td>
+          <td>• 100 FS (500 CC)<br>• 50% reload (800 CC)<br>• Кэшбэк 10% (1,000 CC)<br>• Exclusive VIP event (2,000 CC)</td>
+          <td>LS_VIP+ только</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CC ECONOMY -->
+  <div class="card">
+    <h2>💰 Экономика CuatroCoins</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">Заработок</div>
+      <div class="step-title">Как игроки получают CC</div>
+    </div>
+    <table>
+      <thead><tr><th>Источник</th><th>CC за действие</th><th>Chain</th></tr></thead>
+      <tbody>
+        <tr><td>KYC Stage 2</td><td>500 CC</td><td>Chain 03</td></tr>
+        <tr><td>KYC Stage 3</td><td>1,000 CC</td><td>Chain 03</td></tr>
+        <tr><td>Стикер (коллекция)</td><td>50–100 CC</td><td>Chain 10</td></tr>
+        <tr><td>Завершение ряда стикеров</td><td>500–3,000 CC</td><td>Chain 10</td></tr>
+        <tr><td>Weekend Challenge</td><td>500–600 CC</td><td>Chain 11</td></tr>
+        <tr><td>Миссия «4 депозита за 7 дней»</td><td>Бонус + CC</td><td>Chain 10</td></tr>
+        <tr><td>Реферал (успешный)</td><td>500 CC</td><td>Chain 16</td></tr>
+        <tr><td>Gameplay (wagering)</td><td>1 CC за 4,570 ARS wagered</td><td>Автоматически</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">Expiry</div>
+      <div class="step-title">CC сгорают через 90 дней (rolling)</div>
+    </div>
+    <div class="info-box warning"><strong>Rolling 90-day expiry:</strong> Каждая партия CC имеет свой срок. Коммуникации Alert'ы:<br>
+    • 14 дней до сгорания → Email: «У тебя {{expiring_cc}} CC скоро сгорят!»<br>
+    • 7 дней → NC Feed + Web Push: «Последняя неделя!»<br>
+    • 3 дня → Email + SMS (VT_MID+): Urgent reminder</div>
+  </div>
+
+  <!-- IMPLEMENTATION -->
+  <div class="card">
+    <h2>📋 Пошаговая реализация</h2>
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">1. Создать CC ledger в GR8 Tech</div><div class="tl-desc">Баланс, история транзакций, expiry tracking</div></div>
+      <div class="timeline-item"><div class="tl-title">2. Настроить CC earning rules</div><div class="tl-desc">Wagering (auto) + event-based (через chains)</div></div>
+      <div class="timeline-item"><div class="tl-title">3. Создать 20+ товаров в каталоге</div><div class="tl-desc">4 тира, с учётом доступности по VT_ и LS_</div></div>
+      <div class="timeline-item"><div class="tl-title">4. Разработка UI Bonus Shop</div><div class="tl-desc">Страница в GR8 Tech CMS с фильтрами по тирам</div></div>
+      <div class="timeline-item"><div class="tl-title">5. Настроить CC expiry alerts</div><div class="tl-desc">3 уровня напоминаний (14д / 7д / 3д)</div></div>
+      <div class="timeline-item"><div class="tl-title">6. Связать с Chain 07 (No Bonus)</div><div class="tl-desc">C3 из Chain 07 → ссылка на Bonus Shop</div></div>
+      <div class="timeline-item"><div class="tl-title">7. Rebalance: мониторинг экономики</div><div class="tl-desc">Еженедельно проверять: CC inflation, redemption rate, популярные товары</div></div>
+    </div>
+  </div>
+
+  <!-- REBALANCE -->
+  <div class="card">
+    <h2>⚖️ Ребалансировка экономики</h2>
+    <table>
+      <thead><tr><th>Метрика</th><th>Здоровый диапазон</th><th>Действие если ↑</th><th>Действие если ↓</th></tr></thead>
+      <tbody>
+        <tr><td>CC Redemption Rate</td><td>40–70%</td><td>Снизить цены / добавить товары</td><td>Поднять earning rate</td></tr>
+        <tr><td>Avg CC Balance</td><td>100–500 CC</td><td>CC инфляция → сжечь</td><td>Мало зарабатывают → буст</td></tr>
+        <tr><td>Top Item Share</td><td>&lt; 40%</td><td>Разнообразить каталог</td><td>OK</td></tr>
+        <tr><td>Expiry Rate</td><td>&lt; 20%</td><td>OK (incentive to spend)</td><td>Слишком легко тратить</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">60%+</div><div class="kpi-label">CC Redemption Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;20%</div><div class="kpi-label">CC Expiry Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">3+</div><div class="kpi-label">Avg purchases/month</div></div>
+    <div class="kpi-card"><div class="kpi-value">+15%</div><div class="kpi-label">Retention uplift</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>CC ledger создан в GR8 Tech</li>
+      <li>CC earning rules: wagering + event-based</li>
+      <li>20+ товаров в 4 тирах</li>
+      <li>Bonus Shop UI разработан</li>
+      <li>CC expiry: 90-day rolling</li>
+      <li>Expiry alerts (14д / 7д / 3д)</li>
+      <li>Связка с Chain 07 (Bonus Shop link)</li>
+      <li>Доступность товаров по VT_ и LS_</li>
+      <li>Dashboard: CC economy metrics</li>
+      <li>Еженедельный rebalance review</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 15 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p16" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>16 — Engagement & Gamification</h1>
+    <div class="subtitle">Фаза 2 · Неделя 7–8 · Высокая сложность · Стикеры + Миссии + Колесо</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Механики</div></div>
+    <div class="stat-box green"><div class="stat-value">30</div><div class="stat-label">Слотов стикеров</div></div>
+    <div class="stat-box orange"><div class="stat-value">45,500</div><div class="stat-label">ARS Гранд-приз</div></div>
+    <div class="stat-box purple"><div class="stat-value">+25%</div><div class="stat-label">Цель: Session Freq</div></div>
+  </div>
+
+  <div class="info-box info"><strong>4 механики:</strong> Стикеры (коллекционирование), Mission Cuatro (4 депозита), Double Chance (Lucky Wheel), Silver Spin (ежедневный вход).</div>
+
+  <!-- STICKERS -->
+  <div class="card">
+    <h2>🎨 Механика 1: Стикеры (Sticker Book)</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">Концепт</div>
+      <div class="step-title">30-слотовая книга стикеров</div>
+    </div>
+    <table>
+      <thead><tr><th>Параметр</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Всего слотов</td><td>30 (6 рядов × 5 стикеров)</td></tr>
+        <tr><td>Как получить</td><td>1 стикер за каждый депозит ≥ 2,285 ARS ИЛИ ≥ 45,700 ARS wagered/день</td></tr>
+        <tr><td>Дубликаты</td><td>Обмен 3 дубликата → 1 новый</td></tr>
+        <tr><td>Период</td><td>Monthly reset (новая тема каждый месяц)</td></tr>
+      </tbody>
+    </table>
+
+    <h3 style="color:var(--accent-orange);margin-top:1.5rem;">Награды за ряды</h3>
+    <table>
+      <thead><tr><th>Ряд</th><th>Стикеры</th><th>Награда</th></tr></thead>
+      <tbody>
+        <tr><td>Ряд 1 (5/30)</td><td>5</td><td>100 CC + 10 FS</td></tr>
+        <tr><td>Ряд 2 (10/30)</td><td>10</td><td>500 CC + 25 FS</td></tr>
+        <tr><td>Ряд 3 (15/30)</td><td>15</td><td>1,000 CC + 50% reload</td></tr>
+        <tr><td>Ряд 4 (20/30)</td><td>20</td><td>2,000 CC + 50 FS</td></tr>
+        <tr><td>Ряд 5 (25/30)</td><td>25</td><td>3,000 CC + 100 FS</td></tr>
+        <tr><td>Гранд-приз (30/30)</td><td>30</td><td><strong>45,500 ARS + 5,000 CC + Exclusive Avatar</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- MISSION CUATRO -->
+  <div class="card">
+    <h2>🎯 Механика 2: Mission Cuatro</h2>
+    <table>
+      <thead><tr><th>Параметр</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td>4 депозита за 7 дней</td></tr>
+        <tr><td>Мин. депозит</td><td>2,285 ARS каждый</td></tr>
+        <tr><td>Награда</td><td>Guaranteed Mystery Box (5–50 FS + 100–1000 CC)</td></tr>
+        <tr><td>Частота</td><td>Еженедельно (reset каждый пн)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">Пн: Email «Mission Cuatro началась!» + NC Feed</div>
+      </div>
+      <div class="flow-arrow">↓ Dep #1</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">NC Feed: «1/4 ✓ — Продолжай!»</div>
+      </div>
+      <div class="flow-arrow">↓ Dep #2–3</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">NC Feed: «3/4 ✓ — Ещё один и Mystery Box твой!»</div>
+      </div>
+      <div class="flow-arrow">↓ Dep #4</div>
+      <div class="flow-step" style="--step-color: var(--phase4)">
+        <div class="flow-label">🎉 «Mission Complete!» — Email + NC Feed + Mystery Box</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DOUBLE CHANCE -->
+  <div class="card">
+    <h2>🎡 Механика 3: Double Chance (Lucky Wheel)</h2>
+    <table>
+      <thead><tr><th>Параметр</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Когда</td><td>Пятница 18:00 — Воскресенье 23:59 (ART)</td></tr>
+        <tr><td>Условие</td><td>Любой депозит в выходные</td></tr>
+        <tr><td>Механика</td><td>Spin the Lucky Wheel — гарантированный приз</td></tr>
+        <tr><td>Призы</td><td>5 FS (40%) · 10 FS (30%) · 25 FS (15%) · 500 CC (10%) · 50 FS (4%) · 100 FS (1%)</td></tr>
+      </tbody>
+    </table>
+    <div class="info-box info"><strong>Анонс:</strong> Email в четверг + NC Feed в пятницу утром. Результаты: NC Feed мгновенно + Email summary в понедельник.</div>
+  </div>
+
+  <!-- SILVER SPIN -->
+  <div class="card">
+    <h2>🌟 Механика 4: Silver Spin (Ежедневный вход)</h2>
+    <table>
+      <thead><tr><th>День</th><th>Награда</th></tr></thead>
+      <tbody>
+        <tr><td>День 1</td><td>50 CC</td></tr>
+        <tr><td>День 2</td><td>5 FS</td></tr>
+        <tr><td>День 3</td><td>100 CC</td></tr>
+        <tr><td>День 4</td><td>10 FS</td></tr>
+        <tr><td>День 5</td><td>200 CC</td></tr>
+        <tr><td>День 6</td><td>20 FS</td></tr>
+        <tr><td>День 7</td><td><strong>500 CC + 25 FS (Weekly Jackpot)</strong></td></tr>
+      </tbody>
+    </table>
+    <div class="info-box warning"><strong>Пропуск дня = reset.</strong> Streak обнуляется при пропуске. Мотивация ежедневного входа.</div>
+  </div>
+
+  <!-- COMMUNICATIONS -->
+  <div class="card">
+    <h2>📋 Коммуникации</h2>
+    <table>
+      <thead><tr><th>Событие</th><th>Канал</th><th>Контент</th></tr></thead>
+      <tbody>
+        <tr><td>Новый стикер получен</td><td>NC Feed</td><td>«Новый стикер! {{sticker_name}} — {{progress}}/30»</td></tr>
+        <tr><td>Ряд завершён</td><td>NC Feed + Web Push</td><td>«Ряд {{row}} завершён! 🎉 Награда: {{reward}}»</td></tr>
+        <tr><td>Mission progress</td><td>NC Feed</td><td>«Mission Cuatro: {{count}}/4 депозитов»</td></tr>
+        <tr><td>Mission complete</td><td>Email + NC Feed</td><td>«Mission Complete! 🎯 Открой Mystery Box»</td></tr>
+        <tr><td>Lucky Wheel доступен</td><td>Email (чт) + NC Feed (пт)</td><td>«Double Chance Weekend! Депозит → Spin»</td></tr>
+        <tr><td>Silver Spin streak</td><td>NC Feed</td><td>«День {{day}} streak! Не пропусти завтра!»</td></tr>
+        <tr><td>Streak warning</td><td>Web Push (20:00)</td><td>«Ты ещё не зашёл сегодня! Streak на кону!»</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">+25%</div><div class="kpi-label">Session Frequency</div></div>
+    <div class="kpi-card"><div class="kpi-value">40%+</div><div class="kpi-label">Sticker Participation</div></div>
+    <div class="kpi-card"><div class="kpi-value">60%+</div><div class="kpi-label">Mission Completion</div></div>
+    <div class="kpi-card"><div class="kpi-value">5+</div><div class="kpi-label">Avg Silver Spin streak</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Sticker Book UI разработан (30 слотов, 6 рядов)</li>
+      <li>Sticker earning rules: deposit + wagering</li>
+      <li>6 рядовых наград + гранд-приз настроены</li>
+      <li>Mission Cuatro: weekly reset + progress tracking</li>
+      <li>Mystery Box награды настроены</li>
+      <li>Lucky Wheel UI + призовая таблица</li>
+      <li>Silver Spin: 7-дневный streak + reset logic</li>
+      <li>NC Feed шаблоны (7+ вариантов)</li>
+      <li>Email шаблоны (Mission + Lucky Wheel)</li>
+      <li>Web Push streak warning (20:00)</li>
+      <li>Связка с Chain 15 (CC economy)</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 16 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p17" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>17 — Лоялизация (Active + Passive)</h1>
+    <div class="subtitle">Фаза 2 · Неделя 7–8 · Средняя сложность · Удержание активных + возврат passive</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">2</div><div class="stat-label">Режима (Active/Passive)</div></div>
+    <div class="stat-box green"><div class="stat-value">8+</div><div class="stat-label">Коммуникаций</div></div>
+    <div class="stat-box orange"><div class="stat-value">4</div><div class="stat-label">Тира лояльности</div></div>
+    <div class="stat-box purple"><div class="stat-value">-20%</div><div class="stat-label">Цель: Churn Reduction</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Принцип:</strong> Active loyalty = награждать за активность. Passive loyalty = мягко вернуть тех, кто уходит, до того как они попадут в Chain 12 (Reactivation).</div>
+
+  <!-- ACTIVE LOYALTY -->
+  <div class="card">
+    <h2>🟢 Active Loyalty (для LS_REGULAR)</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">A1</div>
+      <div class="step-title">Weekly Loyalty Report (каждый пн)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Сегмент</td><td><code>LS_REGULAR</code> (deposits ≥ 2, last_login ≤ 14d)</td></tr>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Твоя неделя в CuatroBet — итоги 📊»</td></tr>
+        <tr><td>Контент</td><td>• Сколько сыграно<br>• CC заработано<br>• Стикеры за неделю<br>• Mission Cuatro прогресс<br>• Tier прогресс-бар</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">A2</div>
+      <div class="step-title">Weekend Challenge (пт вечер)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Subject</td><td>«Weekend Challenge: заработай до 600 CC! 🔥»</td></tr>
+        <tr><td>Механика</td><td>3 мини-задания на выходные:<br>• Задание 1: Сыграй 50 раундов → 200 CC<br>• Задание 2: Депозит ≥ 4,570 ARS → 200 CC<br>• Задание 3: Выиграй ×10 ставки → 200 CC</td></tr>
+        <tr><td>Бонус</td><td>Все 3 → +200 CC дополнительно (итого 800 CC)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">A3</div>
+      <div class="step-title">Tier Benefits Reminder</div>
+    </div>
+    <table>
+      <thead><tr><th>Tier</th><th>Бенефит</th><th>Напоминание</th></tr></thead>
+      <tbody>
+        <tr><td>Silver</td><td>Weekly 15% reload</td><td>Email каждый вт: «Твой 15% reload доступен!»</td></tr>
+        <tr><td>Gold</td><td>+ Priority withdrawal</td><td>NC Feed при первом выводе: «VIP вывод: &lt;2ч!»</td></tr>
+        <tr><td>Platinum</td><td>+ Exclusive tournaments</td><td>Email: «VIP турнир в субботу — ты приглашён!»</td></tr>
+        <tr><td>Diamond</td><td>+ Personal host</td><td>WhatsApp от хоста</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- PASSIVE LOYALTY -->
+  <div class="card">
+    <h2>🟡 Passive Loyalty (для LS_AT_RISK)</h2>
+    <div class="info-box warning"><strong>Сегмент:</strong> <code>churn_score ≥ 0.3</code> AND <code>last_login ≤ 14d</code>. Ещё не dormant, но сигналы снижения активности.</div>
+
+    <div class="step-card warning">
+      <div class="step-num">P1</div>
+      <div class="step-title">Soft Return Email</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>churn_score ≥ 0.3</code> (в сегменте CR_WATCH)</td></tr>
+        <tr><td>Канал</td><td>Email</td></tr>
+        <tr><td>Тон</td><td>Мягкий, без давления</td></tr>
+        <tr><td>Subject</td><td>«Что нового в CuatroBet? 👀»</td></tr>
+        <tr><td>Контент</td><td>• Новые игры за последнюю неделю<br>• Текущие акции<br>• CC баланс напоминание<br>• Без агрессивного оффера</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">P2</div>
+      <div class="step-title">Easy Mission (1 депозит = 200 CC)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td>+3 дня после P1, если <code>churn_score</code> не снизился</td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Оффер</td><td>200 CC за 1 любой депозит (мин. 2,285 ARS)</td></tr>
+        <tr><td>Subject</td><td>«Простая миссия: 1 депозит = 200 CuatroCoins 🪙»</td></tr>
+        <tr><td>TTL</td><td>72ч</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">P3</div>
+      <div class="step-title">CC Expiry Warning</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>cc_expiring_14d &gt; 0</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Subject</td><td>«⚠️ {{cc_expiring}} CuatroCoins сгорят через 14 дней!»</td></tr>
+        <tr><td>CTA</td><td>«Потратить в Bonus Shop» → Chain 15</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card decision">
+      <div class="step-num">P4</div>
+      <div class="step-title">Escalation → Chain 12</div>
+    </div>
+    <div class="info-box danger">Если <code>churn_score</code> продолжает расти и достигает <code>≥ 0.6</code> → автоматический переход в Chain 12 (Reactivation Matrix).</div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">-20%</div><div class="kpi-label">Churn Reduction</div></div>
+    <div class="kpi-card"><div class="kpi-value">50%+</div><div class="kpi-label">Weekend Challenge Part.</div></div>
+    <div class="kpi-card"><div class="kpi-value">30%+</div><div class="kpi-label">Passive → Active Conv</div></div>
+    <div class="kpi-card"><div class="kpi-value">5+</div><div class="kpi-label">Avg. logins/week (Active)</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Weekly Loyalty Report email шаблон</li>
+      <li>Weekend Challenge: 3 мини-задания + bonus</li>
+      <li>Tier Benefits reminders по уровням</li>
+      <li>Passive: Soft Return email шаблон</li>
+      <li>Easy Mission бонус (200 CC)</li>
+      <li>CC Expiry Warning шаблоны (14д / 7д / 3д)</li>
+      <li>Escalation rule: CR_AT_RISK → Chain 12</li>
+      <li>Churn score integration в реальном времени</li>
+      <li>Dashboard: Active vs Passive metrics</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 17 · GR8 Tech</div>
+    </div>
+  </section>
+  <section id="p18" class="page-section" style="display:none">
+    <div class="page">
+<div class="page-header">
+    <h1>18 — Реферальная программа</h1>
+    <div class="subtitle">Фаза 3 · Неделя 9–10 · Средняя сложность · Виральный рост</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">9,000</div><div class="stat-label">ARS за реферала</div></div>
+    <div class="stat-box green"><div class="stat-value">500</div><div class="stat-label">CC за реферала</div></div>
+    <div class="stat-box orange"><div class="stat-value">4</div><div class="stat-label">Коммуникации (launch)</div></div>
+    <div class="stat-box purple"><div class="stat-value">10%+</div><div class="stat-label">Цель: Referral Rate</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Модель:</strong> Двухсторонняя награда. Реферер получает 9,000 ARS + 500 CC. Приглашённый получает стандартный Welcome Bonus (Chain 05). Early bird bonus на запуске.</div>
+
+  <!-- PROGRAM STRUCTURE -->
+  <div class="card">
+    <h2>🔗 Структура программы</h2>
+    <table>
+      <thead><tr><th>Параметр</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие успешного реферала</td><td>Приглашённый: регистрация + FTD ≥ 4,570 ARS</td></tr>
+        <tr><td>Награда рефереру</td><td><strong>9,000 ARS bonus</strong> (×25 вейджер) + <strong>500 CC</strong></td></tr>
+        <tr><td>Награда приглашённому</td><td>Стандартный Welcome Bonus (Chain 05)</td></tr>
+        <tr><td>Лимит</td><td>10 успешных рефералов / месяц</td></tr>
+        <tr><td>Реферальная ссылка</td><td>Уникальная per-user, трекинг через GR8 Tech</td></tr>
+        <tr><td>Кто может участвовать</td><td>KYC_FULL + deposits ≥ 3</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- LAUNCH COMMUNICATIONS -->
+  <div class="card">
+    <h2>🚀 Launch коммуникации</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">Анонс программы</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Сегмент</td><td><code>KYC_FULL</code> AND <code>deposits ≥ 3</code></td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed + Web Push</td></tr>
+        <tr><td>Subject</td><td>«Пригласи друга — получи 9,000 ARS! 🤝»</td></tr>
+        <tr><td>Контент</td><td>• Как работает программа (3 шага)<br>• Твоя уникальная ссылка<br>• Кнопки шаринга (WhatsApp, SMS, Copy)</td></tr>
+        <tr><td>CTA</td><td>«Поделиться ссылкой» → referral page</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Early Bird Bonus (первые 30 дней)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Период</td><td>Первые 30 дней после запуска</td></tr>
+        <tr><td>Доп. бонус</td><td>+4,600 ARS к стандартным 9,000 ARS (итого <strong>13,600 ARS</strong>)</td></tr>
+        <tr><td>Коммуникация</td><td>Email + NC Feed: «Early Bird! +4,600 ARS за каждого друга в этом месяце 🐦»</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C3</div>
+      <div class="step-title">Monthly Leaderboard</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Частота</td><td>Ежемесячно</td></tr>
+        <tr><td>Канал</td><td>Email (1-го числа)</td></tr>
+        <tr><td>Контент</td><td>• Топ-10 рефереров<br>• Твой ранг + количество рефералов<br>• Призы для топ-3 (бонус ARS + exclusive CC)</td></tr>
+        <tr><td>CTA</td><td>«Пригласить ещё» → referral page</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">C4</div>
+      <div class="step-title">Referral Success Notification</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>referral_ftd_completed</code></td></tr>
+        <tr><td>Каналы</td><td>NC Feed + Web Push + Email</td></tr>
+        <tr><td>Контент</td><td>«Твой друг сделал FTD! 🎉 9,000 ARS + 500 CC зачислены!»</td></tr>
+        <tr><td>CTA</td><td>«Пригласить ещё» / «Потратить CC в Bonus Shop»</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- REFERRAL JOURNEY FOR INVITEE -->
+  <div class="card">
+    <h2>👤 Journey приглашённого</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">Переход по реферальной ссылке → Регистрация</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">Автоматически в Chain 05 (Welcome Bonus Ladder)</div>
+      </div>
+      <div class="flow-arrow">↓ FTD ≥ 4,570 ARS</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">referral_ftd_completed → Реферер получает награду</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">Приглашённый продолжает стандартный lifecycle (Chain 01, 03, 10...)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FRAUD PREVENTION -->
+  <div class="card">
+    <h2>🛡️ Антифрод</h2>
+    <table>
+      <thead><tr><th>Правило</th><th>Действие</th></tr></thead>
+      <tbody>
+        <tr><td>Одинаковый IP реферер + приглашённый</td><td>Ручная проверка</td></tr>
+        <tr><td>Одинаковые платёжные данные</td><td>Блокировка награды</td></tr>
+        <tr><td>&gt; 10 рефералов / месяц</td><td>Лимит достигнут, следующие не засчитываются</td></tr>
+        <tr><td>Приглашённый FTD &lt; 4,570 ARS</td><td>Не считается успешным рефералом</td></tr>
+        <tr><td>Приглашённый отменил FTD (chargeback)</td><td>Clawback награды у реферера</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">10%+</div><div class="kpi-label">Referral Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">30%+</div><div class="kpi-label">Invitee FTD Conv</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;5%</div><div class="kpi-label">Fraud Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">2+</div><div class="kpi-label">Avg referrals/user/month</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Referral tracking в GR8 Tech настроен</li>
+      <li>Уникальные реферальные ссылки генерируются</li>
+      <li>Событие <code>referral_ftd_completed</code> настроено</li>
+      <li>Бонус 9,000 ARS (×25 вейджер) создан</li>
+      <li>CC 500 за реферала настроен</li>
+      <li>Early Bird бонус (+4,600 ARS) — TTL 30 дней</li>
+      <li>Monthly Leaderboard email шаблон</li>
+      <li>Referral page с кнопками шаринга</li>
+      <li>Антифрод правила (IP, платёж, лимит, chargeback)</li>
+      <li>Связка с Chain 05 (приглашённый → Welcome Ladder)</li>
+      <li>Связка с Chain 15 (CC → Bonus Shop)</li>
+    </ul>
+  </div>
+<div class="page-footer">CuatroBet CRM Implementation Plan · Doc 18 · GR8 Tech</div>
+    </div>
+  </section>
+
+<script>
+(function() {
+  const navLinks = document.querySelectorAll('.nav-links a');
+  const sections = document.querySelectorAll('.page-section');
+  
+  function showPage(id) {
+    sections.forEach(s => { s.style.display = 'none'; s.classList.remove('active'); });
+    navLinks.forEach(a => a.classList.remove('active'));
+    
+    // Find section  
+    let section = document.getElementById(id) || document.getElementById('p' + id);
+    if (!section) section = document.getElementById('overview');
+    if (section) {
+      section.style.display = 'block';
+      section.classList.add('active');
+    }
+    
+    // Activate nav link
+    const activeLink = document.querySelector('.nav-links a[data-page="' + (id.replace('p','')) + '"]') 
+                    || document.querySelector('.nav-links a[data-page="overview"]');
+    if (activeLink) activeLink.classList.add('active');
+    
+    window.scrollTo(0, 0);
+  }
+  
+  // Handle nav clicks
+  navLinks.forEach(a => {
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      const page = this.getAttribute('data-page');
+      history.pushState(null, '', '#' + page);
+      showPage(page === 'overview' ? 'overview' : 'p' + page);
+    });
+  });
+  
+  // Handle campaign card clicks on overview page (they have data-page attrs)
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a[data-page]');
+    if (link && !link.closest('.nav-bar')) {
+      e.preventDefault();
+      const page = link.getAttribute('data-page');
+      history.pushState(null, '', '#' + page);
+      showPage('p' + page);
+    }
+  });
+  
+  // Handle hash on load
+  const hash = location.hash.slice(1);
+  if (hash && hash !== 'overview') {
+    showPage('p' + hash);
+  }
+  
+  // Handle back/forward
+  window.addEventListener('popstate', function() {
+    const hash = location.hash.slice(1) || 'overview';
+    showPage(hash === 'overview' ? 'overview' : 'p' + hash);
+  });
+})();
+</script>
+
+</body>
+</html>
