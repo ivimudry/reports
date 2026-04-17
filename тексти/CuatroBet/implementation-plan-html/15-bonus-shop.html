@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15 — Bonus Shop (CuatroCoins) — CuatroBet CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="index.html">Обзор</a>
+    <a href="00-data-integration.html">00</a>
+    <a href="17-smart-segmentation.html">17</a>
+    <a href="13-channel-strategy.html">13</a>
+    <a href="04-payment-failure.html">04</a>
+    <a href="05-welcome-bonus.html">05</a>
+    <a href="01-day1-retention.html">01</a>
+    <a href="03-kyc-completion.html">03</a>
+    <a href="06-failed-deposits.html">06</a>
+    <a href="14-bonuses-landing.html">14</a>
+    <a href="07-no-bonus.html">07</a>
+    <a href="08-no-cashier.html">08</a>
+    <a href="02-pre-vip.html">02</a>
+    <a href="12-reactivation.html">12</a>
+    <a href="09-personalization.html">09</a>
+    <a href="15-bonus-shop.html" class="active">15</a>
+    <a href="10-engagement.html">10</a>
+    <a href="11-loyalty.html">11</a>
+    <a href="16-referral.html">16</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="nav-back">← Назад к обзору</a>
+
+  <div class="page-header">
+    <h1>15 — Bonus Shop (CuatroCoins Marketplace)</h1>
+    <div class="subtitle">Фаза 2 · Неделя 6–7 · Средняя сложность · Экономика лояльности</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Тира каталога</div></div>
+    <div class="stat-box green"><div class="stat-value">20+</div><div class="stat-label">Товаров</div></div>
+    <div class="stat-box orange"><div class="stat-value">90 дн.</div><div class="stat-label">CC Expiry (rolling)</div></div>
+    <div class="stat-box purple"><div class="stat-value">60%+</div><div class="stat-label">Цель: CC Redemption</div></div>
+  </div>
+
+  <div class="info-box info"><strong>CuatroCoins (CC)</strong> — внутренняя лояльная валюта. Зарабатываются через gameplay (Chain 10, 11), KYC (Chain 03), миссии, турниры. Тратятся в Bonus Shop.</div>
+
+  <!-- CATALOG TIERS -->
+  <div class="card">
+    <h2>🛒 4-уровневый каталог</h2>
+    <table>
+      <thead><tr><th>Тир</th><th>Диапазон CC</th><th>Примеры товаров</th><th>Доступность</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="badge badge-phase0">Early</span></td>
+          <td>10 – 50 CC</td>
+          <td>• 5 FS (10 CC)<br>• Аватар exclusive (20 CC)<br>• 500 ARS bonus cash (50 CC)</td>
+          <td>Все игроки</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-phase1">Standard</span></td>
+          <td>50 – 200 CC</td>
+          <td>• 20 FS (80 CC)<br>• 10% reload (100 CC)<br>• Lucky Wheel spin (150 CC)<br>• Mystery Box (200 CC)</td>
+          <td>Deposits ≥ 2</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-phase2">Premium</span></td>
+          <td>200 – 400 CC</td>
+          <td>• 50 FS (250 CC)<br>• 25% reload (300 CC)<br>• VIP турнир билет (400 CC)</td>
+          <td>VT_MID+</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-phase4">VIP</span></td>
+          <td>500 – 2,000 CC</td>
+          <td>• 100 FS (500 CC)<br>• 50% reload (800 CC)<br>• Кэшбэк 10% (1,000 CC)<br>• Exclusive VIP event (2,000 CC)</td>
+          <td>LS_VIP+ только</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CC ECONOMY -->
+  <div class="card">
+    <h2>💰 Экономика CuatroCoins</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">Заработок</div>
+      <div class="step-title">Как игроки получают CC</div>
+    </div>
+    <table>
+      <thead><tr><th>Источник</th><th>CC за действие</th><th>Chain</th></tr></thead>
+      <tbody>
+        <tr><td>KYC Stage 2</td><td>500 CC</td><td>Chain 03</td></tr>
+        <tr><td>KYC Stage 3</td><td>1,000 CC</td><td>Chain 03</td></tr>
+        <tr><td>Стикер (коллекция)</td><td>50–100 CC</td><td>Chain 10</td></tr>
+        <tr><td>Завершение ряда стикеров</td><td>500–3,000 CC</td><td>Chain 10</td></tr>
+        <tr><td>Weekend Challenge</td><td>500–600 CC</td><td>Chain 11</td></tr>
+        <tr><td>Миссия «4 депозита за 7 дней»</td><td>Бонус + CC</td><td>Chain 10</td></tr>
+        <tr><td>Реферал (успешный)</td><td>500 CC</td><td>Chain 16</td></tr>
+        <tr><td>Gameplay (wagering)</td><td>1 CC за 4,570 ARS wagered</td><td>Автоматически</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">Expiry</div>
+      <div class="step-title">CC сгорают через 90 дней (rolling)</div>
+    </div>
+    <div class="info-box warning"><strong>Rolling 90-day expiry:</strong> Каждая партия CC имеет свой срок. Коммуникации Alert'ы:<br>
+    • 14 дней до сгорания → Email: «У тебя {{expiring_cc}} CC скоро сгорят!»<br>
+    • 7 дней → NC Feed + Web Push: «Последняя неделя!»<br>
+    • 3 дня → Email + SMS (VT_MID+): Urgent reminder</div>
+  </div>
+
+  <!-- IMPLEMENTATION -->
+  <div class="card">
+    <h2>📋 Пошаговая реализация</h2>
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">1. Создать CC ledger в GR8 Tech</div><div class="tl-desc">Баланс, история транзакций, expiry tracking</div></div>
+      <div class="timeline-item"><div class="tl-title">2. Настроить CC earning rules</div><div class="tl-desc">Wagering (auto) + event-based (через chains)</div></div>
+      <div class="timeline-item"><div class="tl-title">3. Создать 20+ товаров в каталоге</div><div class="tl-desc">4 тира, с учётом доступности по VT_ и LS_</div></div>
+      <div class="timeline-item"><div class="tl-title">4. Разработка UI Bonus Shop</div><div class="tl-desc">Страница в GR8 Tech CMS с фильтрами по тирам</div></div>
+      <div class="timeline-item"><div class="tl-title">5. Настроить CC expiry alerts</div><div class="tl-desc">3 уровня напоминаний (14д / 7д / 3д)</div></div>
+      <div class="timeline-item"><div class="tl-title">6. Связать с Chain 07 (No Bonus)</div><div class="tl-desc">C3 из Chain 07 → ссылка на Bonus Shop</div></div>
+      <div class="timeline-item"><div class="tl-title">7. Rebalance: мониторинг экономики</div><div class="tl-desc">Еженедельно проверять: CC inflation, redemption rate, популярные товары</div></div>
+    </div>
+  </div>
+
+  <!-- REBALANCE -->
+  <div class="card">
+    <h2>⚖️ Ребалансировка экономики</h2>
+    <table>
+      <thead><tr><th>Метрика</th><th>Здоровый диапазон</th><th>Действие если ↑</th><th>Действие если ↓</th></tr></thead>
+      <tbody>
+        <tr><td>CC Redemption Rate</td><td>40–70%</td><td>Снизить цены / добавить товары</td><td>Поднять earning rate</td></tr>
+        <tr><td>Avg CC Balance</td><td>100–500 CC</td><td>CC инфляция → сжечь</td><td>Мало зарабатывают → буст</td></tr>
+        <tr><td>Top Item Share</td><td>&lt; 40%</td><td>Разнообразить каталог</td><td>OK</td></tr>
+        <tr><td>Expiry Rate</td><td>&lt; 20%</td><td>OK (incentive to spend)</td><td>Слишком легко тратить</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">60%+</div><div class="kpi-label">CC Redemption Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;20%</div><div class="kpi-label">CC Expiry Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">3+</div><div class="kpi-label">Avg purchases/month</div></div>
+    <div class="kpi-card"><div class="kpi-value">+15%</div><div class="kpi-label">Retention uplift</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>CC ledger создан в GR8 Tech</li>
+      <li>CC earning rules: wagering + event-based</li>
+      <li>20+ товаров в 4 тирах</li>
+      <li>Bonus Shop UI разработан</li>
+      <li>CC expiry: 90-day rolling</li>
+      <li>Expiry alerts (14д / 7д / 3д)</li>
+      <li>Связка с Chain 07 (Bonus Shop link)</li>
+      <li>Доступность товаров по VT_ и LS_</li>
+      <li>Dashboard: CC economy metrics</li>
+      <li>Еженедельный rebalance review</li>
+    </ul>
+  </div>
+
+  <div class="page-nav">
+    <a href="09-personalization.html"><span class="pn-label">← Назад</span><span class="pn-title">09 — Персонализация</span></a>
+    <a href="10-engagement.html" class="next"><span class="pn-label">Далее →</span><span class="pn-title">10 — Engagement Gamification</span></a>
+  </div>
+  <div class="page-footer">CuatroBet CRM Implementation Plan · Doc 15 · GR8 Tech</div>
+</div>
+</body>
+</html>
