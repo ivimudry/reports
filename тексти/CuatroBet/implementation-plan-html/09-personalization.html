@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>09 — Персонализация — CuatroBet CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="index.html">Обзор</a>
+    <a href="00-data-integration.html">00</a>
+    <a href="17-smart-segmentation.html">17</a>
+    <a href="13-channel-strategy.html">13</a>
+    <a href="04-payment-failure.html">04</a>
+    <a href="05-welcome-bonus.html">05</a>
+    <a href="01-day1-retention.html">01</a>
+    <a href="03-kyc-completion.html">03</a>
+    <a href="06-failed-deposits.html">06</a>
+    <a href="14-bonuses-landing.html">14</a>
+    <a href="07-no-bonus.html">07</a>
+    <a href="08-no-cashier.html">08</a>
+    <a href="02-pre-vip.html">02</a>
+    <a href="12-reactivation.html">12</a>
+    <a href="09-personalization.html" class="active">09</a>
+    <a href="15-bonus-shop.html">15</a>
+    <a href="10-engagement.html">10</a>
+    <a href="11-loyalty.html">11</a>
+    <a href="16-referral.html">16</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="nav-back">← Назад к обзору</a>
+
+  <div class="page-header">
+    <h1>09 — Персонализация контента</h1>
+    <div class="subtitle">Фаза 2 · Неделя 5–6 · Средняя сложность · Кросс-chain настройка</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">4</div><div class="stat-label">Оси персонализации</div></div>
+    <div class="stat-box green"><div class="stat-value">12+</div><div class="stat-label">Динамических блоков</div></div>
+    <div class="stat-box orange"><div class="stat-value">50+</div><div class="stat-label">Вариантов контента</div></div>
+    <div class="stat-box purple"><div class="stat-value">+30%</div><div class="stat-label">Цель: CTR uplift</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Это НЕ отдельная цепочка.</strong> Doc 09 описывает систему персонализации, которая применяется ко ВСЕМ остальным chains. Настройки здесь определяют контент в каждом email/push/NC Feed.</div>
+
+  <!-- 4 AXES -->
+  <div class="card">
+    <h2>🎯 4 оси персонализации</h2>
+    <table>
+      <thead><tr><th>Ось</th><th>Источник (Chain 17)</th><th>Что персонализирует</th><th>Где применяется</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Game Preference (GP_)</strong></td><td>Ось 3 сегментации</td><td>Рекомендации игр, FS игра, визуал</td><td>Все chains с FS/бонусами</td></tr>
+        <tr><td><strong>Value Tier (VT_)</strong></td><td>Ось 2 сегментации</td><td>Размер оффера, каналы</td><td>Все chains с бонусами</td></tr>
+        <tr><td><strong>Lifecycle (LS_)</strong></td><td>Ось 1 сегментации</td><td>Tone of voice, urgency</td><td>Все chains</td></tr>
+        <tr><td><strong>Behavioral Signals</strong></td><td>Реальное время</td><td>Время отправки, контент блок</td><td>Smart Send, A/B</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- GP PERSONALIZATION -->
+  <div class="card">
+    <h2>🎮 Персонализация по GP_ (Игровые предпочтения)</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">Шаг 1</div>
+      <div class="step-title">Создать динамические блоки в email шаблонах</div>
+    </div>
+    <table>
+      <thead><tr><th>GP_ сегмент</th><th>Hero banner</th><th>Рекомендации</th><th>FS игра</th><th>CTA текст</th></tr></thead>
+      <tbody>
+        <tr><td>GP_SLOTS</td><td>Слоты background</td><td>Топ-3 слота по RTP</td><td>Gates of Olympus</td><td>«Крутить!»</td></tr>
+        <tr><td>GP_AVIATOR</td><td>Aviator background</td><td>Crash + Aviator</td><td>Free Flights</td><td>«Взлетай!»</td></tr>
+        <tr><td>GP_LIVE</td><td>Live dealer background</td><td>Рулетка + блэкджек</td><td>Bonus cash</td><td>«За стол!»</td></tr>
+        <tr><td>GP_MIXED</td><td>Общий CuatroBet</td><td>Mix из топ-10</td><td>Random</td><td>«Играть!»</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card action">
+      <div class="step-num">Шаг 2</div>
+      <div class="step-title">Liquid/Handlebars логика в шаблонах</div>
+    </div>
+    <div class="info-box info" style="font-family:monospace;font-size:.85rem;">
+      {% if customer.game_pref == "slots" %}<br>
+      &nbsp;&nbsp;&lt;img src="hero-slots.jpg"&gt;<br>
+      &nbsp;&nbsp;&lt;p&gt;Крути {{top_slot_name}} и выиграй до {{max_win}} ARS!&lt;/p&gt;<br>
+      {% elif customer.game_pref == "aviator" %}<br>
+      &nbsp;&nbsp;&lt;img src="hero-aviator.jpg"&gt;<br>
+      &nbsp;&nbsp;&lt;p&gt;Твой множитель ждёт — взлетай с Aviator!&lt;/p&gt;<br>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- VT PERSONALIZATION -->
+  <div class="card">
+    <h2>💎 Персонализация по VT_ (Value Tier)</h2>
+    <table>
+      <thead><tr><th>VT_</th><th>Тон</th><th>Оффер level</th><th>Каналы</th><th>Визуал</th></tr></thead>
+      <tbody>
+        <tr><td>MICRO</td><td>Весёлый, casual</td><td>0.5× базовый</td><td>Email / NC Feed</td><td>Базовый шаблон</td></tr>
+        <tr><td>LOW</td><td>Дружественный</td><td>1× базовый</td><td>Email / NC Feed / Web Push</td><td>Базовый</td></tr>
+        <tr><td>MID</td><td>Профессиональный</td><td>1.5×</td><td>+ SMS</td><td>Premium шаблон</td></tr>
+        <tr><td>HIGH</td><td>Эксклюзивный</td><td>2×</td><td>+ WhatsApp</td><td>Gold шаблон</td></tr>
+        <tr><td>PRE_VIP+</td><td>VIP / Concierge</td><td>3×</td><td>Все + персональный звонок</td><td>VIP шаблон</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- REAL-TIME -->
+  <div class="card">
+    <h2>⚡ Поведенческая персонализация (Real-time)</h2>
+    <table>
+      <thead><tr><th>Сигнал</th><th>Действие</th><th>Пример</th></tr></thead>
+      <tbody>
+        <tr><td>Большой выигрыш</td><td>Поздравление + upsell</td><td>«Поздравляем с {{win_amount}} ARS! Продолжай серию!»</td></tr>
+        <tr><td>Серия проигрышей</td><td>Cashback Shield</td><td>Chain 01 C3 — 10% кэшбэк</td></tr>
+        <tr><td>Смена любимой игры</td><td>Обновить GP_ сегмент</td><td>Слоты → Aviator = пересчёт FS</td></tr>
+        <tr><td>Высокая активность</td><td>Loyalty boost</td><td>+50% CuatroCoins на выходных</td></tr>
+        <tr><td>Churn score растёт</td><td>Ускорить коммуникации</td><td>Chain 12 запуск раньше</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- IMPLEMENTATION STEPS -->
+  <div class="card">
+    <h2>📋 Пошаговая реализация</h2>
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">1. Создать 4 email master-шаблона (по VT_)</div><div class="tl-desc">Базовый, Premium, Gold, VIP — с динамическими блоками</div></div>
+      <div class="timeline-item"><div class="tl-title">2. Внедрить GP_ conditional blocks</div><div class="tl-desc">Liquid/Handlebars в каждом шаблоне</div></div>
+      <div class="timeline-item"><div class="tl-title">3. Создать image library (4× GP_ × 4× VT_)</div><div class="tl-desc">Hero banners, game thumbnails, CTA buttons</div></div>
+      <div class="timeline-item"><div class="tl-title">4. Настроить Smart Send Time</div><div class="tl-desc">На основе 30-дневной истории открытий</div></div>
+      <div class="timeline-item"><div class="tl-title">5. A/B тесты</div><div class="tl-desc">GP_ personalized vs generic: цель +30% CTR</div></div>
+      <div class="timeline-item"><div class="tl-title">6. Мониторинг и итерация</div><div class="tl-desc">Еженедельный отчёт по эффективности каждого блока</div></div>
+    </div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">+30%</div><div class="kpi-label">CTR uplift (GP_)</div></div>
+    <div class="kpi-card"><div class="kpi-value">+20%</div><div class="kpi-label">Conv uplift (VT_)</div></div>
+    <div class="kpi-card"><div class="kpi-value">+15%</div><div class="kpi-label">Open rate uplift</div></div>
+    <div class="kpi-card"><div class="kpi-value">50+</div><div class="kpi-label">Вариантов контента</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>4 master email шаблона (по VT_) созданы</li>
+      <li>GP_ conditional blocks в каждом шаблоне</li>
+      <li>Image library: 16+ hero banners</li>
+      <li>Smart Send Time активирован</li>
+      <li>Liquid/Handlebars код протестирован</li>
+      <li>A/B тест GP_ personalized vs generic запущен</li>
+      <li>Все chains используют персонализацию</li>
+      <li>Dashboard мониторинга создан</li>
+    </ul>
+  </div>
+
+  <div class="page-nav">
+    <a href="12-reactivation.html"><span class="pn-label">← Назад</span><span class="pn-title">12 — Реактивация</span></a>
+    <a href="15-bonus-shop.html" class="next"><span class="pn-label">Далее →</span><span class="pn-title">15 — Bonus Shop</span></a>
+  </div>
+  <div class="page-footer">CuatroBet CRM Implementation Plan · Doc 09 · GR8 Tech</div>
+</div>
+</body>
+</html>
