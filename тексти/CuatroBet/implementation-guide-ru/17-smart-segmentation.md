@@ -217,7 +217,7 @@ IF player.churn_risk = "CR_CRITICAL" AND player.value_tier IN ("VT_HIGH", "VT_PR
 
 Если `KYC_UNVERIFIED` или `KYC_PARTIAL`:
 - Игрок автоматически попадает в Chain 03 (KYC Completion Chain)
-- Триггеры Chain 03 эскалируются на основе пороговых значений депозита (15K мягкий, 22.5K жёсткий)
+- Триггеры Chain 03 эскалируются на основе пороговых значений депозита (69K мягкий, 103K жёсткий)
 
 ---
 
