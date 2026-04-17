@@ -63,12 +63,11 @@ def list_guide_files():
     files = sorted(f for f in os.listdir(base) if f.endswith('.md'))
     return [f'\u0442\u0435\u043a\u0441\u0442\u0438/CuatroBet/{GUIDE_DIR}/{f}' for f in files]
 
-NOTE_OLD = "**\u0422\u0440\u0438\u0433\u0433\u0435\u0440 \u0432\u0445\u043e\u0434\u0430:** `cumulative_deposits_ars >= 150000` AND `days_since_last_activity <= 14`"
-NOTE_NEW = (
-    "**\u0422\u0440\u0438\u0433\u0433\u0435\u0440 \u0432\u0445\u043e\u0434\u0430:** `cumulative_deposits_ars >= 150000` AND `days_since_last_activity <= 14`\n\n"
-    "> **\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u0435:** \u041c\u0435\u0436\u0434\u0443 High (x2, \u0434\u043e 200,000 ARS) \u0438 Pre-VIP+ (x3) "
-    "\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u0440\u0430\u0437\u0440\u044b\u0432 150,000\u2013200,000 ARS. \u0418\u0433\u0440\u043e\u043a\u0438 \u0432 \u044d\u0442\u043e\u043c \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442 "
-    "\u0431\u043e\u043d\u0443\u0441\u044b \u0443\u0440\u043e\u0432\u043d\u044f High (x2). \u041f\u0440\u0438 \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u0438 200,000 ARS \u0430\u043a\u0442\u0438\u0432\u0438\u0440\u0443\u0435\u0442\u0441\u044f Pre-VIP+ (x3)."
+NOTE_ANCHOR = "**\u0422\u0440\u0438\u0433\u0433\u0435\u0440 \u0432\u0445\u043e\u0434\u0430:** `cumulative_deposits_ars >= 685000` AND `days_since_last_activity <= 14`"
+NOTE_INSERT = (
+    "\n\n> **\u041f\u0440\u0438\u043c\u0435\u0447\u0430\u043d\u0438\u0435:** \u041c\u0435\u0436\u0434\u0443 High (x2, \u0434\u043e 915,000 ARS) \u0438 Pre-VIP+ (x3) "
+    "\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u0440\u0430\u0437\u0440\u044b\u0432 685,000\u2013915,000 ARS. \u0418\u0433\u0440\u043e\u043a\u0438 \u0432 \u044d\u0442\u043e\u043c \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d\u0435 \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442 "
+    "\u0431\u043e\u043d\u0443\u0441\u044b \u0443\u0440\u043e\u0432\u043d\u044f High (x2). \u041f\u0440\u0438 \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u0438 915,000 ARS \u0430\u043a\u0442\u0438\u0432\u0438\u0440\u0443\u0435\u0442\u0441\u044f Pre-VIP+ (x3)."
 )
 
 PAT_BETWEEN = re.compile(
@@ -136,14 +135,14 @@ def main():
             print(f"  SKIP (not in commit): {fname}")
             continue
 
+        converted = convert_text(content)
+
         if fname.startswith("02-"):
-            if NOTE_OLD in content:
-                content = content.replace(NOTE_OLD, NOTE_NEW)
+            if NOTE_ANCHOR in converted:
+                converted = converted.replace(NOTE_ANCHOR, NOTE_ANCHOR + NOTE_INSERT)
                 print(f"  Injected note into {fname}")
             else:
                 print(f"  WARNING: note anchor not found in {fname}")
-
-        converted = convert_text(content)
         outpath = os.path.join(base, GUIDE_DIR, fname)
         with open(outpath, 'w', encoding='utf-8') as f:
             f.write(converted)
