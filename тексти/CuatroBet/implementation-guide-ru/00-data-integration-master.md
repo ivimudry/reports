@@ -256,8 +256,8 @@
 | `SEG-D1LAYER` | In Day 1 Layer     | `deposit_count >= 1 AND days_since_ftd <= 3`                             |
 | `SEG-PRESTD`  | Pre-STD            | `deposit_count = 1 AND days_since_ftd > 1`                               |
 | `SEG-REGULAR` | Regular            | `deposit_count >= 2 AND days_inactive < 14`                              |
-| `SEG-PREVIP`  | Pre-VIP            | `cumulative_deposits_ars >= 685000 AND cumulative_deposits_ars < 1370000` |
-| `SEG-VIP`     | VIP                | `cumulative_deposits_ars >= 1370000`                                      |
+| `SEG-PREVIP`  | Pre-VIP            | `cumulative_deposits_ars >= 150000 AND cumulative_deposits_ars < 300000` |
+| `SEG-VIP`     | VIP                | `cumulative_deposits_ars >= 300000`                                      |
 
 ### 4.2 KYC-сегменты
 
@@ -266,7 +266,7 @@
 | `SEG-KYC-NONE`          | Unverified         | `kyc_level = "unverified"`                                       |
 | `SEG-KYC-EMAIL-PENDING` | Email Not Verified | `email_verified = false`                                         |
 | `SEG-KYC-PHONE-PENDING` | Phone Not Verified | `phone_verified = false`                                         |
-| `SEG-KYC-DOCS-PENDING`  | Docs Not Submitted | `documents_status = "none" AND cumulative_deposits_ars >= 69000` |
+| `SEG-KYC-DOCS-PENDING`  | Docs Not Submitted | `documents_status = "none" AND cumulative_deposits_ars >= 15000` |
 | `SEG-KYC-FULL`          | Fully Verified     | `kyc_level = "full"`                                             |
 
 ### 4.3 Поведенческие сегменты
@@ -296,11 +296,11 @@
 
 | ID сегмента         | Название | Правила                                              |
 | ------------------- | -------- | ---------------------------------------------------- |
-| `SEG-VAL-MICRO`  | Micro    | `cumulative_deposits_ars < 23000`                   |
-| `SEG-VAL-LOW`    | Low      | `cumulative_deposits_ars BETWEEN 23000 AND 114000`   |
-| `SEG-VAL-MID`    | Mid      | `cumulative_deposits_ars BETWEEN 114000 AND 343000`  |
-| `SEG-VAL-HIGH`   | High     | `cumulative_deposits_ars BETWEEN 343000 AND 685000` |
-| `SEG-VAL-PREVIP` | Pre-VIP+ | `cumulative_deposits_ars >= 685000`                |
+| `SEG-VAL-MICRO`  | Micro    | `cumulative_deposits_ars < 5000`                   |
+| `SEG-VAL-LOW`    | Low      | `cumulative_deposits_ars BETWEEN 5000 AND 24999`   |
+| `SEG-VAL-MID`    | Mid      | `cumulative_deposits_ars BETWEEN 25000 AND 74999`  |
+| `SEG-VAL-HIGH`   | High     | `cumulative_deposits_ars BETWEEN 75000 AND 149999` |
+| `SEG-VAL-PREVIP` | Pre-VIP+ | `cumulative_deposits_ars >= 150000`                |
 
 ### 4.6 Сегменты по игровым предпочтениям
 
@@ -366,7 +366,7 @@
 | Целевая аудитория                       | Только активные игроки (сессия за последние 48ч) |
 | Дневной лимит объёма                    | 10 000 всего отправок (снижено с 25 700)      |
 
-### 5.5 Web Push
+### 5.5 App Push
 
 | Настройка         | Значение                                                                                                         |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -446,10 +446,10 @@
 
 | Bonus ID                  | Триггер                                           | Сумма     | Wagering | Примечания |
 | ------------------------- | ------------------------------------------------- | --------- | -------- | ---------- |
-| `KYC-EMAIL-REWARD`      | Email подтверждён                                 | 2,300 ARS   | None     | Мгновенно  |
-| `KYC-PHONE-REWARD`      | Телефон подтверждён                               | 2,300 ARS   | None     | Мгновенно  |
-| `KYC-DOCS-REWARD-EARLY` | Документы подтверждены до порога 22.5K            | 4,600 ARS | None     |            |
-| `KYC-DOCS-REWARD-HARD`  | Документы подтверждены на пороге/после 22.5K      | 9,000 ARS | None     |            |
+| `KYC-EMAIL-REWARD`      | Email подтверждён                                 | 500 ARS   | None     | Мгновенно  |
+| `KYC-PHONE-REWARD`      | Телефон подтверждён                               | 500 ARS   | None     | Мгновенно  |
+| `KYC-DOCS-REWARD-EARLY` | Документы подтверждены до порога 22.5K            | 1,000 ARS | None     |            |
+| `KYC-DOCS-REWARD-HARD`  | Документы подтверждены на пороге/после 22.5K      | 2,000 ARS | None     |            |
 
 ### 7.5 Шаблоны офферов реактивации
 
@@ -460,8 +460,8 @@
 | Правило                        | Slots          | Live | Table | Sport |
 | ------------------------------ | -------------- | ---- | ----- | ----- |
 | Вклад %                       | 100%           | 10%  | 5%    | 100%  |
-| Макс. ставка при отыгрыше     | 7,000 ARS/спин | —   | —    | —    |
-| Макс. бонусный баланс         | 137,000 ARS     | —   | —    | —    |
+| Макс. ставка при отыгрыше     | 1,500 ARS/спин | —   | —    | —    |
+| Макс. бонусный баланс         | 30,000 ARS     | —   | —    | —    |
 
 ---
 
@@ -474,7 +474,7 @@
 | Smart Segmentation                  | Доступен, не активен       | Связаться с GR8 Tech для активации                                                      |
 | Predictive Churn                    | Доступен, не активен       | Связаться с GR8 Tech для активации                                                      |
 | Потоковая передача событий в реальном времени | Неизвестно         | Проверить задержку менее 5 секунд для событий депозитов                                  |
-| Инфраструктура Web Push             | Не настроена               | Настроить SDK push-уведомлений в мобильном приложении                                   |
+| Инфраструктура App Push             | Не настроена               | Настроить SDK push-уведомлений в мобильном приложении                                   |
 | Коды причин сбоя депозита           | Неизвестно                 | Проверить, что GR8 Tech предоставляет `INSUFF`/`METHOD`/`DECLINE`/`TIMEOUT`/`FRAUD` |
 
 ### 8.2 Необходимые экспорты данных / API
@@ -495,7 +495,7 @@
 | Дизайны in-app popup                 | Day 1, KYC, Payment, Quests       | ~20                                             |
 | Дизайны in-app баннеров              | KYC Phase 3, NC Feed items        | ~10                                             |
 | SMS-копи (испанский)                 | Все SMS-коммуникации              | ~40+                                            |
-| Push-уведомления копи (испанский)    | Web Push коммуникации             | ~30+                                            |
+| Push-уведомления копи (испанский)    | App Push коммуникации             | ~30+                                            |
 | Баннеры/миниатюры игр                | Персонализированные рекомендации игр | По каждой игре из топ-10                     |
 
 ---
