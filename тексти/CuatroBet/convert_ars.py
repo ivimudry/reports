@@ -77,7 +77,7 @@ PAT_BETWEEN = re.compile(
 
 PAT_MAIN = re.compile(
     r'(\d[\d,\s\u00a0]*\d|\d)'
-    r'(\s*[-/\u2013\u2014]\s*)'
+    r'(\s*[-/\u2013\u2014]\s*|\s+to\s+)'
     r'(\d[\d,\s\u00a0]*\d|\d)'
     r'(\s*ARS\b)'
     r'|'

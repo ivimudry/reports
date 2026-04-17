@@ -385,7 +385,7 @@ Do not remove the bonus offer
 
 ## Cost model
 
-Not all players will reach Phase 3. The blended cost across the whole registered base is lower, probably 400 to 2,300 ARS per registered player.
+Not all players will reach Phase 3. The blended cost across the whole registered base is lower, probably 1,800 to 2,300 ARS per registered player.
 
 ## KPI impact
 
@@ -938,7 +938,7 @@ FTD (less than 24 hours old)
 Day 1 to 3 (in Day 1 Retention Layer window)
 Pre-STD (wagered FTD, no second deposit yet)
 Regular (2+ deposits, active in last 14 days)
-Pre-VIP (lifetime deposits 150,000 to 1,370,000 ARS)
+Pre-VIP (lifetime deposits 685,000 to 1,370,000 ARS)
 VIP I to IV (per VIP program thresholds)
 At-risk (active but predictive churn score above threshold)
 Dormant 3-7 / 8-14 / 15-30 / 31-60 / 60+ days
@@ -1295,7 +1295,7 @@ End of playbook. Companion to the CuatroBet Argentina CRM architecture board on 
 | --- | --- | --- | --- |
 | Comm 1 | T+24 h | Email | Subject ES: “Bienvenido a CuatroBet. Explorá nuestra biblioteca de juegos”. Top games showcase, 2,300 ARS no-deposit Aviator free bet at the end (1x wagering). |
 | Comm 2 | T+7 days | Email | Subject ES: “Novedades en CuatroBet esta semana”. New games, tournaments, soft reminder of the 2,300 ARS free bet. |
-| Comm 3a | T+14 days, track A | Web Push + NC Feed | ES: “Girá la Lucky Wheel. Entrada gratis esta semana”. Free Lucky Wheel spin, prizes 50 to 9,000 ARS. |
+| Comm 3a | T+14 days, track A | Web Push + NC Feed | ES: “Girá la Lucky Wheel. Entrada gratis esta semana”. Free Lucky Wheel spin, prizes 250 to 9,000 ARS. |
 | Comm 3b | T+14 days, track B (opens but doesn’t click) | Email | Subject ES: “Tu juego favorito te está esperando” (AI-personalized). No offer, pure discovery. |
 | Comm 4 | T+30 days | Email + SMS | Subject ES: “Recarga única: 50% sin letra chica”. 50% match up to 9,000 ARS, 15x wagering, 72 h expiry. |
 
@@ -1376,9 +1376,9 @@ End of playbook. Companion to the CuatroBet Argentina CRM architecture board on 
 <!-- TABLE 23 -->
 | Tier | Reward range |
 | --- | --- |
-| Silver | 50 to 2,300 ARS cash, or 5 to 20 FS, or 10 to 50 CC |
-| Gold | 200 to 9,000 ARS cash, or 20 to 80 FS, or 50 to 200 CC |
-| Platinum | 1,000 to 69,000 ARS cash, or Lucky Wheel entry, or VIP I preview |
+| Silver | 250 to 2,300 ARS cash, or 5 to 20 FS, or 10 to 50 CC |
+| Gold | 900 to 9,000 ARS cash, or 20 to 80 FS, or 50 to 200 CC |
+| Platinum | 4,600 to 69,000 ARS cash, or Lucky Wheel entry, or VIP I preview |
 
 
 <!-- TABLE 24 -->
@@ -1473,9 +1473,9 @@ End of playbook. Companion to the CuatroBet Argentina CRM architecture board on 
 | Value tier | Lifetime deposits | Offer multiplier | Additional treatment |
 | --- | --- | --- | --- |
 | Micro | 0 to 23,000 ARS | 0.5x (or swap for CC-only gift) | Low return probability, protect budget |
-| Low | 5,000 to 137,000 ARS | 1.0x (base) | Standard reactivation offer |
-| Mid | 30,000 to 685,000 ARS | 1.5x | Stronger pull, same channel mix |
-| High | 150,000 to 2,740,000 ARS | 2.0x | Personal email from CRM owner name (not brand) |
+| Low | 23,000 to 137,000 ARS | 1.0x (base) | Standard reactivation offer |
+| Mid | 137,000 to 685,000 ARS | 1.5x | Stronger pull, same channel mix |
+| High | 685,000 to 2,740,000 ARS | 2.0x | Personal email from CRM owner name (not brand) |
 | Pre-VIP and above | above 2,740,000 ARS or Pre-VIP flag | 2.5x | WhatsApp outreach plus manager escalation |
 
 
