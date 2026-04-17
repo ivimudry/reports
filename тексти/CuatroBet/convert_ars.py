@@ -192,22 +192,69 @@ def process_content(content):
     return content, log
 
 
+def git_show(commit, rel_path, repo_dir):
+    """Read file content directly from a git commit (bypass working tree)."""
+    import subprocess
+    git_path = rel_path.replace(os.sep, '/')
+    result = subprocess.run(
+        ['git', 'show', f'{commit}:{git_path}'],
+        capture_output=True, text=True, encoding='utf-8',
+        cwd=repo_dir
+    )
+    if result.returncode != 0:
+        return None
+    return result.stdout
+
+
 # -- Main --
+# Read CLEAN originals from specific git commits, process, write to disk.
+REPO_DIR = r'c:\Projects\REPORTS'
+GUIDE_COMMIT = 'dcd286b'   # April 13 — clean guide files
+PLAYBOOK_COMMIT = '23424c6' # April 17 11:28 — clean playbook files
+
 base_dir = os.path.dirname(os.path.abspath(__file__))
 guide_dir = os.path.join(base_dir, 'implementation-guide-ru')
 
-files = sorted(glob.glob(os.path.join(guide_dir, '*.md')))
-files.append(os.path.join(base_dir, 'cuatrobet_playbook_ru.md'))
-files.append(os.path.join(base_dir, 'cuatrobet_playbook_en.md'))
+# Build file list with their git commits
+files = []
+for f in sorted(glob.glob(os.path.join(guide_dir, '*.md'))):
+    files.append((f, GUIDE_COMMIT))
+files.append((os.path.join(base_dir, 'cuatrobet_playbook_ru.md'), PLAYBOOK_COMMIT))
+files.append((os.path.join(base_dir, 'cuatrobet_playbook_en.md'), PLAYBOOK_COMMIT))
+
+# Special: doc 02 note must be injected into the clean content before conversion
+NOTE_INSERT = (
+    '**Триггер входа:** `cumulative_deposits_ars >= 150000` AND `days_since_last_activity <= 14`  \n'
+    '**Повторный вход:** Нет\n'
+    '\n'
+    '> **Примечание:** Игроки с 150,000\u2013200,000 ARS получают офферы по множителю High (\u00d72) до достижения 200,000 ARS, затем переходят на Pre-VIP+ (\u00d73).\n'
+    '\n'
+    '**Окно Journey:** 30 дней (с возможностью расширения до 60)  '
+)
+NOTE_REPLACE = (
+    '**Триггер входа:** `cumulative_deposits_ars >= 150000` AND `days_since_last_activity <= 14`  \n'
+    '**Повторный вход:** Нет  \n'
+    '**Окно Journey:** 30 дней (с возможностью расширения до 60)  '
+)
 
 total = 0
-for fp in files:
-    with open(fp, 'r', encoding='utf-8') as f:
-        original = f.read()
+for fp, commit in files:
+    # Read clean content from git
+    rel = os.path.relpath(fp, REPO_DIR)
+    original = git_show(commit, rel, REPO_DIR)
+    if original is None:
+        print(f"  SKIP (not in git): {os.path.basename(fp)}")
+        continue
+
+    # Inject doc 02 note before conversion
+    if '02-pre-vip-lifecycle' in fp:
+        original = original.replace(NOTE_REPLACE, NOTE_INSERT)
+
     processed, log = process_content(original)
-    if original != processed:
-        with open(fp, 'w', encoding='utf-8') as f:
-            f.write(processed)
+    # Always write (since we're reading from git, not disk)
+    with open(fp, 'w', encoding='utf-8') as f:
+        f.write(processed)
+    if log:
         print(f"\n{'='*60}")
         print(f"MODIFIED: {os.path.basename(fp)}")
         for entry in log:
@@ -219,28 +266,6 @@ for fp in files:
 print(f"\n{'='*60}")
 print(f"Total files modified: {total}/{len(files)}")
 print("Done!")
-"""
-Bulk conversion script for CuatroBet → Bluechip:
-1. Replace "App Push" → "Web Push" everywhere
-2. Multiply all ARS values by 4.57 with smart rounding
-"""
-import re
-import os
-import glob
-
-MULTIPLIER = 4.57
-
-def smart_round(value):
-    """Round to a clean number appropriate for CRM documents."""
-    if value < 500:
-        return int(round(value / 50) * 50)
-    elif value < 5000:
-        return int(round(value / 100) * 100)
-    elif value < 50000:
-        return int(round(value / 500) * 500)
-    elif value < 500000:
-        return int(round(value / 1000) * 1000)
-    else:
         return int(round(value / 5000) * 5000)
 
 def parse_number(s):
