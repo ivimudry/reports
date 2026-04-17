@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CuatroBet — ТЗ на тексты и баннеры</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-card: #1c2128;
+  --bg-card-hover: #21262d;
+  --border: #30363d;
+  --border-accent: #3d444d;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent-blue: #58a6ff;
+  --accent-green: #3fb950;
+  --accent-orange: #d29922;
+  --accent-red: #f85149;
+  --accent-purple: #bc8cff;
+  --accent-cyan: #39d2c0;
+  --accent-pink: #f778ba;
+  --accent-gold: #e3b341;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--accent-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* NAV */
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(22,27,34,.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-bar .logo {
+  font-weight: 800;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+.nav-bar .nav-links {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.nav-bar .nav-links a {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: .15s;
+}
+.nav-bar .nav-links a:hover,
+.nav-bar .nav-links a.active {
+  background: var(--accent-blue);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* PAGE */
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+}
+.page-header {
+  margin-bottom: 32px;
+}
+.page-header h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.page-header .subtitle {
+  color: var(--text-secondary);
+  font-size: .95rem;
+}
+
+/* CARDS */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--accent-blue);
+}
+.card h3 {
+  font-size: .95rem;
+  font-weight: 600;
+  margin: 20px 0 10px;
+  color: var(--accent-orange);
+}
+
+/* TABLES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+  font-size: .88rem;
+}
+th {
+  background: var(--bg-secondary);
+  color: var(--accent-blue);
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 2px solid var(--border-accent);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+}
+td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-secondary);
+  vertical-align: top;
+}
+tr:hover td {
+  background: var(--bg-card-hover);
+}
+
+/* BADGES */
+.ch { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: .75rem; font-weight: 600; }
+.ch-email { background: rgba(88,166,255,.15); color: var(--accent-blue); }
+.ch-sms { background: rgba(63,185,80,.15); color: var(--accent-green); }
+.ch-push { background: rgba(188,140,255,.15); color: var(--accent-purple); }
+.ch-nc { background: rgba(210,153,34,.15); color: var(--accent-orange); }
+.ch-popup { background: rgba(248,81,73,.15); color: var(--accent-red); }
+.ch-wa { background: rgba(57,210,192,.15); color: var(--accent-cyan); }
+
+.tone { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: .75rem; font-weight: 600; }
+.tone-friendly { background: rgba(63,185,80,.12); color: var(--accent-green); }
+.tone-urgent { background: rgba(248,81,73,.12); color: var(--accent-red); }
+.tone-fomo { background: rgba(210,153,34,.12); color: var(--accent-orange); }
+.tone-serious { background: rgba(188,140,255,.12); color: var(--accent-purple); }
+.tone-vip { background: rgba(227,179,65,.12); color: var(--accent-gold); }
+
+/* BANNER SPEC */
+.banner-spec {
+  background: var(--bg-secondary);
+  border: 1px dashed var(--border-accent);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin: 12px 0;
+  font-size: .85rem;
+}
+.banner-spec .banner-title {
+  color: var(--accent-pink);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.banner-spec ul {
+  color: var(--text-secondary);
+  padding-left: 18px;
+}
+.banner-spec li {
+  margin-bottom: 3px;
+}
+
+/* INFO BOX */
+.info-box {
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin: 16px 0;
+  font-size: .88rem;
+  line-height: 1.5;
+}
+.info-box.info { background: rgba(88,166,255,.08); border-left: 3px solid var(--accent-blue); }
+.info-box.warning { background: rgba(210,153,34,.08); border-left: 3px solid var(--accent-orange); }
+.info-box.danger { background: rgba(248,81,73,.08); border-left: 3px solid var(--accent-red); }
+
+/* SECTION */
+.page-section { display: none; }
+.page-section.active { display: block; }
+
+.page-footer {
+  text-align: center;
+  padding: 32px 0;
+  color: var(--text-muted);
+  font-size: .8rem;
+}
+
+/* SUMMARY TABLE */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.summary-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+.summary-item .si-num { font-size: 1.5rem; font-weight: 800; color: var(--accent-blue); }
+.summary-item .si-label { font-size: .8rem; color: var(--text-muted); }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-bar { flex-direction: column; align-items: flex-start; }
+  .page { padding: 20px 12px 60px; }
+  table { font-size: .8rem; }
+}
+  </style>
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">📝 CuatroBet · Контент-бриф</span>
+  <div class="nav-links">
+    <a href="#overview" data-page="overview" class="active">Обзор</a>
+    <a href="#04" data-page="04">04</a>
+    <a href="#05" data-page="05">05</a>
+    <a href="#06" data-page="06">06</a>
+    <a href="#07" data-page="07">07</a>
+    <a href="#08" data-page="08">08</a>
+    <a href="#10" data-page="10">10</a>
+    <a href="#11" data-page="11">11</a>
+    <a href="#12" data-page="12">12</a>
+    <a href="#13" data-page="13">13</a>
+    <a href="#15" data-page="15">15</a>
+    <a href="#16" data-page="16">16</a>
+    <a href="#17" data-page="17">17</a>
+    <a href="#18" data-page="18">18</a>
+    <a href="#banners" data-page="banners">Баннеры</a>
+  </div>
+</nav>
+
+<!-- ==================== OVERVIEW ==================== -->
+<section id="overview" class="page-section active">
+  <div class="page">
+    <div class="page-header">
+      <h1>ТЗ на тексты и баннеры — CuatroBet CRM</h1>
+      <div class="subtitle">Полный список коммуникаций для копирайтинга и дизайна · 18 кампаний · 100+ единиц контента</div>
+    </div>
+
+    <div class="summary-grid">
+      <div class="summary-item"><div class="si-num">100+</div><div class="si-label">Коммуникаций (Email + SMS + Push + NC + Popup)</div></div>
+      <div class="summary-item"><div class="si-num">50+</div><div class="si-label">Email шаблонов (Subject + Body + CTA)</div></div>
+      <div class="summary-item"><div class="si-num">15+</div><div class="si-label">SMS текстов</div></div>
+      <div class="summary-item"><div class="si-num">30+</div><div class="si-label">Web Push (Title + Text)</div></div>
+      <div class="summary-item"><div class="si-num">25+</div><div class="si-label">NC Feed уведомлений</div></div>
+      <div class="summary-item"><div class="si-num">16+</div><div class="si-label">Hero баннеров (4 GP_ × 4 VT_)</div></div>
+    </div>
+
+    <div class="info-box info">
+      <strong>Язык:</strong> Испанский (аргентинский es-AR). Валюта: ARS. Бренд-стиль: дружелюбный, энергичный, спортивно-азартный. Emoji допустимы в Subject/Push/NC. Формальный тон только для VIP (VT_PRE_VIP+).
+    </div>
+
+    <div class="info-box warning">
+      <strong>GP_ персонализация:</strong> Многие тексты имеют 4 варианта по игровым предпочтениям:<br>
+      • <strong>GP_SLOTS:</strong> Слоты, «крутить», Gates of Olympus, джекпоты, RTP<br>
+      • <strong>GP_AVIATOR:</strong> Crash-игры, «взлетай», Aviator, множители<br>
+      • <strong>GP_LIVE:</strong> Live dealer, «за стол», рулетка, блэкджек, премиум<br>
+      • <strong>GP_MIXED:</strong> Микс, «попробуй новое», топ-10 игр
+    </div>
+
+    <div class="card">
+      <h2>📋 Сводка коммуникаций по кампаниям</h2>
+      <table>
+        <thead><tr><th>#</th><th>Кампания</th><th>Email</th><th>SMS</th><th>Push</th><th>NC Feed</th><th>Popup</th><th>Всего</th></tr></thead>
+        <tbody>
+          <tr><td>04</td><td>Payment Failure</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td><td>5</td></tr>
+          <tr><td>05</td><td>Welcome Bonus Ladder</td><td>5</td><td>1</td><td>1</td><td>3</td><td>—</td><td>10</td></tr>
+          <tr><td>06</td><td>Day-1 Retention</td><td>3</td><td>1</td><td>2</td><td>3</td><td>—</td><td>9</td></tr>
+          <tr><td>07</td><td>KYC Completion</td><td>6</td><td>1</td><td>1</td><td>3</td><td>1</td><td>12</td></tr>
+          <tr><td>08</td><td>Failed Deposits</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td><td>5</td></tr>
+          <tr><td>10</td><td>No Bonus Cluster</td><td>1</td><td>—</td><td>1</td><td>2</td><td>1</td><td>5</td></tr>
+          <tr><td>11</td><td>No Cashier</td><td>1</td><td>—</td><td>1</td><td>1</td><td>1</td><td>4</td></tr>
+          <tr><td>12</td><td>Pre-VIP Lifecycle</td><td>5</td><td>1</td><td>1</td><td>2</td><td>—</td><td>9</td></tr>
+          <tr><td>13</td><td>Reactivation Matrix</td><td>7</td><td>3</td><td>1</td><td>2</td><td>—</td><td>13</td></tr>
+          <tr><td>15</td><td>CC Expiry Alerts</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td><td>5</td></tr>
+          <tr><td>16</td><td>Engagement & Gamification</td><td>3</td><td>—</td><td>1</td><td>7</td><td>—</td><td>11</td></tr>
+          <tr><td>17</td><td>Loyalty (Active + Passive)</td><td>4</td><td>—</td><td>—</td><td>2</td><td>—</td><td>6</td></tr>
+          <tr><td>18</td><td>Referral Program</td><td>3</td><td>—</td><td>1</td><td>2</td><td>—</td><td>6</td></tr>
+          <tr style="font-weight:700"><td></td><td>ИТОГО</td><td>~44</td><td>~10</td><td>~13</td><td>~30</td><td>~3</td><td>~100</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Overview</div>
+  </div>
+</section>
+
+<!-- ==================== 04 — PAYMENT FAILURE ==================== -->
+<section id="p04" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>04 — Payment Failure Recovery</h1>
+      <div class="subtitle">4 коммуникации · 72ч окно · Revenue Recovery</div>
+    </div>
+
+    <div class="card">
+      <h2>C1 · Web Push · Немедленно</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-push">Web Push</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Помощь</span></td></tr>
+        <tr><td>Заголовок</td><td><strong>«Платёж не прошёл? 😓»</strong></td></tr>
+        <tr><td>Текст</td><td>«Попробуй другой способ оплаты — деньги не списались»</td></tr>
+        <tr><td>CTA</td><td>→ Касса (альтернативные методы)</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=payment_fail&utm_content=c1_push</code></td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C2 · Email · +2ч</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Помощь + инструкции</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Мы заметили проблему с депозитом»</strong></td></tr>
+        <tr><td>Body</td><td>
+          • Причина отказа (динамическая по коду ошибки — см. ниже)<br>
+          • Список альтернативных способов оплаты<br>
+          • FAQ «Что делать если…»<br>
+          • Кнопка CTA
+        </td></tr>
+        <tr><td>CTA</td><td><strong>«Попробовать снова»</strong> → касса</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=payment_fail&utm_content=c2_email</code></td></tr>
+      </table>
+      <h3>Динамические тексты по коду ошибки:</h3>
+      <table>
+        <thead><tr><th>Код</th><th>Текст в email</th></tr></thead>
+        <tbody>
+          <tr><td><code>INSUFFICIENT_FUNDS</code></td><td>«Попробуй сумму поменьше или другую карту»</td></tr>
+          <tr><td><code>CARD_DECLINED</code></td><td>«Свяжись с банком или попробуй другую карту»</td></tr>
+          <tr><td><code>3DS_FAILED</code></td><td>«Подтверди операцию в приложении банка»</td></tr>
+          <tr><td><code>PROCESSING_ERROR</code></td><td>«Временная неисправность. Попробуй через 15 мин»</td></tr>
+          <tr><td><code>LIMIT_EXCEEDED</code></td><td>«Дневной лимит достигнут. Попробуй завтра или другой метод»</td></tr>
+        </tbody>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Баннер Email C2</div>
+        <ul>
+          <li>Hero: иллюстрация жёлтого/оранжевого цвета (warning tone)</li>
+          <li>Иконка: платёжная карта + стрелка «retry»</li>
+          <li>Текст на баннере: «Не сдавайся!»</li>
+          <li>Показать 3-4 иконки платёжных методов (visa, mastercard, mercadopago, CBU)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>C3 · Email + NC Feed · +24ч</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-fomo">Мотивация + бонус</span></td></tr>
+        <tr><td>Subject</td><td><strong>«10 бесплатных вращений ждут тебя! 🎰»</strong></td></tr>
+        <tr><td>Оффер</td><td>10 Free Spins (по GP_ axis)</td></tr>
+        <tr><td>Body</td><td>«Мы подготовили 10 бесплатных вращений — просто сделай депозит!»<br>FS игра по GP_: SLOTS → Gates of Olympus · AVIATOR → Free Flights · LIVE → Cash bonus · MIXED → Random top-10</td></tr>
+        <tr><td>CTA</td><td><strong>«Забрать Free Spins»</strong> → касса</td></tr>
+        <tr><td>NC Feed</td><td>«10 FS ждут! Сделай депозит — забери бонус 🎁»</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=payment_fail&utm_content=c3_bonus</code></td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Баннер Email C3</div>
+        <ul>
+          <li>Hero: яркий, зелёно-синий (позитивная тональность)</li>
+          <li>Графика: 10 вращающихся монет/спинов</li>
+          <li>Варианты по GP_: 4 баннера с разными играми</li>
+          <li>Текст на баннере: «10 Free Spins в подарок!»</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>C4 · SMS · +48ч (только VT_MID+)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-sms">SMS</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-urgent">Срочность</span></td></tr>
+        <tr><td>Текст SMS</td><td><strong>«[CuatroBet] Мы скучаем! 20% бонус по коду VUELVE20 ждёт тебя 48ч. Играй: [link]»</strong></td></tr>
+        <tr><td>Промокод</td><td>Уникальный per-user, TTL 48ч</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=payment_fail&utm_content=c4_sms</code></td></tr>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 04</div>
+  </div>
+</section>
+
+<!-- ==================== 05 — WELCOME BONUS LADDER ==================== -->
+<section id="p05" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>05 — Welcome Bonus Ladder</h1>
+      <div class="subtitle">5 ступеней · 7 дней · FTD → 3rd deposit</div>
+    </div>
+
+    <div class="card">
+      <h2>S0 · Email + NC Feed · Регистрация (Pre-FTD)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Приветствие</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Добро пожаловать в CuatroBet! 🎁 20 FS уже у тебя»</strong></td></tr>
+        <tr><td>Body</td><td>Приветственное сообщение. 20 Free Spins без депозита (без вейджера). Обзор что ждёт: бонусы, игры, CuatroCoins.</td></tr>
+        <tr><td>CTA</td><td><strong>«Получить Free Spins»</strong> → страница игры</td></tr>
+        <tr><td>NC Feed</td><td>«Добро пожаловать! 🎉 20 бесплатных вращений уже на твоём счёте!»</td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Баннер Welcome Email S0</div>
+        <ul>
+          <li>Hero: праздничный, конфетти, логотип CuatroBet крупно</li>
+          <li>Акцент: «20 FREE SPINS» крупным шрифтом</li>
+          <li>Подпись: «Без депозита · Без вейджера»</li>
+          <li>Цветовая схема: фирменные цвета бренда</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>S1 · Email + NC Feed + Push · FTD совершён</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span> <span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Поздравление</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Твой 100% бонус зачислен! 🎉»</strong></td></tr>
+        <tr><td>Body</td><td>
+          • Поздравление с первым депозитом<br>
+          • Сумма бонуса: {{bonus_amount}} ARS (100% матч до 45,700 ARS)<br>
+          • +50 Free Spins<br>
+          • Правила вейджера: ×35<br>
+          • Рекомендуемые игры по GP_ axis
+        </td></tr>
+        <tr><td>CTA</td><td><strong>«Начать играть»</strong> → лобби</td></tr>
+        <tr><td>NC Feed</td><td>«Бонус 100% + 50 FS зачислены! Начинай играть 🎰»</td></tr>
+        <tr><td>Push Title</td><td><strong>«Бонус зачислен! 🎉»</strong></td></tr>
+        <tr><td>Push Text</td><td>«100% матч + 50 FS уже на балансе — играй!»</td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Баннер Email S1</div>
+        <ul>
+          <li>Hero: яркий, зелёный фон (успех)</li>
+          <li>Текст: «100% + 50 FREE SPINS»</li>
+          <li>Динамическая сумма: {{bonus_amount}} ARS</li>
+          <li>4 варианта по GP_ с разными играми на фоне</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>S2 · Email + Push · +48ч (Nudge 2nd deposit)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-fomo">Мотивация</span></td></tr>
+        <tr><td>Subject</td><td><strong>«50% бонус на второй депозит — не упусти! 🚀»</strong></td></tr>
+        <tr><td>Body</td><td>50% матч до 22,850 ARS + 25 FS. Вейджер ×35. Прогресс: «Ступень 2 из 5».</td></tr>
+        <tr><td>CTA</td><td><strong>«Получить 50% бонус»</strong> → касса</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>S3 · Email + NC Feed + Popup · +96ч (Nudge 3rd deposit)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span> <span class="ch ch-popup">Popup</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-fomo">FOMO</span></td></tr>
+        <tr><td>Subject</td><td><strong>«75% бонус — осталось 2 дня! ⏳»</strong></td></tr>
+        <tr><td>Body</td><td>75% матч до 34,275 ARS + 40 FS. Вейджер ×35. Прогресс: «Ступень 3 из 5. Осталось 2 дня!»</td></tr>
+        <tr><td>CTA</td><td><strong>«Забрать 75% бонус»</strong> → касса</td></tr>
+        <tr><td>NC Feed</td><td>«Ступень 3: 75% бонус + 40 FS! Осталось 2 дня ⏳»</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>S4 · Email + NC Feed + SMS · +144ч (Последний шанс)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span> <span class="ch ch-sms">SMS (VT_MID+)</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-urgent">Последний шанс</span></td></tr>
+        <tr><td>Subject</td><td><strong>«⏰ Последний шанс! 100% бонус истекает через 24ч»</strong></td></tr>
+        <tr><td>Body</td><td>100% матч + 60 FS. Вейджер ×30 (сниженный!). TTL 24ч. Таймер обратного отсчёта.</td></tr>
+        <tr><td>CTA</td><td><strong>«Забрать последний шанс»</strong> → касса</td></tr>
+        <tr><td>NC Feed</td><td>«⏰ 24 часа! 100% бонус + 60 FS — последний шанс!»</td></tr>
+        <tr><td>SMS</td><td><strong>«[CuatroBet] Последний шанс! 100% бонус + 60 FS. Только 24ч! Играй: [link]»</strong></td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Баннер Email S4 — Last Chance</div>
+        <ul>
+          <li>Hero: красно-оранжевый (urgency), таймер</li>
+          <li>Текст: «ПОСЛЕДНИЙ ШАНС · 100% + 60 FS»</li>
+          <li>Таймер обратного отсчёта (Live или имитация)</li>
+          <li>CTA кнопка: яркая, пульсирующая</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 05</div>
+  </div>
+</section>
+
+<!-- ==================== 06 — DAY-1 RETENTION ==================== -->
+<section id="p06" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>06 — Day-1 Retention Layer</h1>
+      <div class="subtitle">6 коммуникаций · 72ч · Первые дни после FTD</div>
+    </div>
+
+    <div class="card">
+      <h2>C1 · NC Feed + Push · Мгновенно (FTD)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-nc">NC Feed</span> <span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Поздравление</span></td></tr>
+        <tr><td>NC Feed</td><td><strong>«Поздравляем с первым депозитом! 🎉 Твой бонус уже на балансе»</strong></td></tr>
+        <tr><td>Push Title</td><td><strong>«Первый депозит! 🎉»</strong></td></tr>
+        <tr><td>Push Text</td><td>«Бонус зачислен — начинай играть!»</td></tr>
+        <tr><td>CTA</td><td>«Начать играть» → лобби</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=day1_retention&utm_content=c1_welcome</code></td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C2 · Email · +2ч (Рекомендации игр)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Персональный</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Топ-3 игры для тебя, {{first_name}}! 🎮»</strong></td></tr>
+        <tr><td>Body</td><td>Персонализированный по GP_ axis:<br>
+          • GP_SLOTS → Топ-3 слота по RTP<br>
+          • GP_AVIATOR → Aviator + Crash-игры<br>
+          • GP_LIVE → Live рулетка + блэкджек<br>
+          • GP_MIXED → «Попробуй всё» микс
+        </td></tr>
+        <tr><td>CTA</td><td><strong>«Играть сейчас»</strong> → лобби / конкретная игра</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=day1_retention&utm_content=c2_games</code></td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Баннер Email C2 — Game Recs</div>
+        <ul>
+          <li>4 варианта Hero по GP_ axis (слоты / aviator / live / mixed)</li>
+          <li>3 карточки игр с иконками и названиями</li>
+          <li>Подпись: «Подобрано для тебя!»</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>C3 · NC Feed + Push · +6ч (Cashback Shield, условный)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-nc">NC Feed</span> <span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Условие</td><td><code>balance ≤ ftd_amount × 0.5</code> (проиграл ≥50%)</td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Поддержка</span></td></tr>
+        <tr><td>NC Feed</td><td><strong>«Не переживай! Мы вернули 10% — продолжай играть без стресса 🛡️»</strong></td></tr>
+        <tr><td>Push Title</td><td>«Кэшбэк зачислен! 🛡️»</td></tr>
+        <tr><td>Push Text</td><td>«10% вернулось — играй дальше!»</td></tr>
+        <tr><td>Оффер</td><td>10% кэшбэк на чистые проигрыши (макс. 4,570 ARS × VT mult.)</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C4 · Email + NC Feed · +24ч (Day 2 Mission)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-fomo">Геймификация</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Миссия дня: 10 Free Spins за любой депозит! 🎯»</strong></td></tr>
+        <tr><td>Body</td><td>10 FS за будь-який депозит (без мін. суми). TTL 24ч.</td></tr>
+        <tr><td>CTA</td><td><strong>«Выполнить миссию»</strong> → касса</td></tr>
+        <tr><td>NC Feed</td><td>«🎯 Миссия дня: депозит = 10 FS! Осталось 24ч»</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C5 · Email + Push + SMS · +48ч (Win-back, условний)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-push">Push</span> <span class="ch ch-sms">SMS (VT_MID+)</span></td></tr>
+        <tr><td>Условие</td><td><code>last_login > 24ч</code> (не повертався)</td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-fomo">Скучаем</span></td></tr>
+        <tr><td>Subject</td><td><strong>«{{first_name}}, мы скучаем! 🫶»</strong></td></tr>
+        <tr><td>Body</td><td>20 FS no-deposit в подарок.</td></tr>
+        <tr><td>CTA</td><td><strong>«Забрать Free Spins»</strong> → лобби</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C6 · Email · +72ч (Резюме 3-х дней)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Дайджест</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Твои первые 3 дня в CuatroBet — итоги 📊»</strong></td></tr>
+        <tr><td>Body</td><td>
+          • Сколько сыграно<br>
+          • Любимая игра<br>
+          • Баланс<br>
+          • CuatroCoins заработано<br>
+          • Следующий шаг (переход к Chain 10 или Chain 02)
+        </td></tr>
+        <tr><td>CTA</td><td><strong>«Продолжить приключение»</strong></td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Баннер Email C6 — 3-Day Summary</div>
+        <ul>
+          <li>Hero: dashboard-стилистика, графики/числа</li>
+          <li>Динамічна статистика: {{games_played}}, {{favorite_game}}, {{cc_earned}}</li>
+          <li>Прогресс-бар до наступного рівня</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 06</div>
+  </div>
+</section>
+
+<!-- ==================== 07 — KYC ==================== -->
+<section id="p07" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>07 — KYC Completion Chain</h1>
+      <div class="subtitle">9 коммуникаций · 3 етапи · Комплаєнс</div>
+    </div>
+
+    <div class="info-box danger"><strong>Транзакційні</strong> — не маркетингові. Використовуються транзакційні ліміти.</div>
+
+    <div class="card">
+      <h2>Stage 1: Email + Телефон</h2>
+
+      <h3>C1 · NC Feed + Popup · +30 мін після FTD</h3>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-nc">NC Feed</span> <span class="ch ch-popup">Popup</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Заохочення + бонус</span></td></tr>
+        <tr><td>NC Feed</td><td><strong>«Підтверди email і телефон — отримай 10 Free Spins! 🎁»</strong></td></tr>
+        <tr><td>Popup</td><td>Те ж повідомлення + кнопка «Підтвердити зараз»</td></tr>
+        <tr><td>CTA</td><td>«Підтвердити зараз» → сторінка профілю</td></tr>
+      </table>
+
+      <h3>C2 · Email · +24ч</h3>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Осталось 2 минуты до 10 Free Spins! ⏱️»</strong></td></tr>
+        <tr><td>Body</td><td>Покрокова інструкція: 1. Відкрий профіль → 2. Введи телефон → 3. Введи код з SMS</td></tr>
+        <tr><td>CTA</td><td><strong>«Підтвердити»</strong> → профіль</td></tr>
+      </table>
+
+      <h3>C3 · Email + NC Feed + Push · +72ч</h3>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span> <span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-serious">Серйозний</span></td></tr>
+        <tr><td>Subject</td><td><strong>«⚠️ Без верификации вывод невозможен»</strong></td></tr>
+        <tr><td>Body</td><td>Наголос що виграш «заморожений» до верифікації.</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Stage 2: Документи</h2>
+
+      <h3>C4 · Email + NC Feed · +2ч після Stage 1</h3>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Загрузи документ — получи 500 CuatroCoins! 🪙»</strong></td></tr>
+        <tr><td>Body</td><td>
+          • Які документи приймаються (DNI, паспорт)<br>
+          • Вимоги до фото (якість, освітлення)<br>
+          • Строк обробки: &lt; 24ч
+        </td></tr>
+        <tr><td>CTA</td><td><strong>«Загрузити документ»</strong> → upload page</td></tr>
+      </table>
+
+      <h3>C5 · Email · +48ч | C6 · Email + SMS · +96ч</h3>
+      <table>
+        <thead><tr><th>Крок</th><th>Канал</th><th>Subject / Текст</th></tr></thead>
+        <tbody>
+          <tr><td>C5</td><td><span class="ch ch-email">Email</span></td><td><strong>«Загрузка занимает 2 минуты — не откладывай»</strong></td></tr>
+          <tr><td>C6</td><td><span class="ch ch-email">Email</span> <span class="ch ch-sms">SMS</span></td><td><strong>«Последний шаг до полного доступа!»</strong><br>SMS: «[CuatroBet] Загрузи документ — и всё будет доступно! [link]»</td></tr>
+        </tbody>
+      </table>
+
+      <h3>C7 · Email + NC Feed · Документ відхилено</h3>
+      <table>
+        <tr><td style="width:120px">Тон</td><td><span class="tone tone-friendly">Допомога</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Документ не принят — вот что делать»</strong></td></tr>
+        <tr><td>Body (динам.)</td><td>
+          • Погане фото → «Зроби при хорошому освітленні»<br>
+          • Строк минув → «Потрібен чинний документ»<br>
+          • Не збігаються дані → «Перевір ім'я в профілі»
+        </td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Stage 3: Адреса (при виведенні)</h2>
+      <table>
+        <thead><tr><th>Крок</th><th>Канал</th><th>Текст</th></tr></thead>
+        <tbody>
+          <tr><td>C8</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span></td><td><strong>«Підтверди адресу — і ми відправимо гроші! 💰»</strong></td></tr>
+          <tr><td>C9</td><td><span class="ch ch-email">Email</span></td><td><strong>«Вивід на паузі — завантаж документ про адресу»</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 07</div>
+  </div>
+</section>
+
+<!-- ==================== 08 — FAILED DEPOSITS ==================== -->
+<section id="p08" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>08 — Failed Deposits / Abandoned Cashier</h1>
+      <div class="subtitle">5 коммуникацій · 96ч · Воронка каси</div>
+    </div>
+
+    <div class="card">
+      <h2>C1 · NC Feed · +30 хв</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">М'яке нагадування</span></td></tr>
+        <tr><td>Текст</td><td><strong>«Ти не завершив депозит. Повернись і продовжуй!»</strong></td></tr>
+        <tr><td>CTA</td><td>Deep-link на касу з pre-filled сумою</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C2 · Web Push · +4ч</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Title</td><td><strong>«Твоя гра чекає! 🎰»</strong></td></tr>
+        <tr><td>Text</td><td>«Заверши депозит — і почни вигравати»</td></tr>
+        <tr><td>CTA</td><td>→ каса</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C3 · Email · +24ч (5 FS)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Subject</td><td><strong>«5 Free Spins ждут — просто зроби депозит 🎁»</strong></td></tr>
+        <tr><td>Оффер</td><td>5 FS за будь-який депозит (мін. 2,285 ARS)</td></tr>
+        <tr><td>CTA</td><td><strong>«Забрати Free Spins»</strong> → каса</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=failed_deposit&utm_content=c3_5fs</code></td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C4 · Email · +48ч (10% бонус)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Subject</td><td><strong>«+10% до депозиту — використай сьогодні!»</strong></td></tr>
+        <tr><td>Оффер</td><td>10% бонус (макс. 4,570 ARS × VT mult.), вейджер ×25, TTL 24ч</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C5 · SMS · +96ч (VT_MID+)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-sms">SMS</span></td></tr>
+        <tr><td>Текст</td><td><strong>«[CuatroBet] Промокод CUATRO15 — 15% до депозиту. 48ч. Грай: [link]»</strong></td></tr>
+        <tr><td>Промокод</td><td>Унікальний, TTL 48ч</td></tr>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 08</div>
+  </div>
+</section>
+
+<!-- ==================== 10 — NO BONUS ==================== -->
+<section id="p10" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>10 — No Bonus Cluster</h1>
+      <div class="subtitle">4 комунікації · 7-дн. цикл · Гравці без активних бонусів</div>
+    </div>
+
+    <div class="card">
+      <h2>C1 · NC Feed · День 0</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Текст</td><td><strong>«Ти граєш без бонусу! Забери один з доступних промо 🎁»</strong></td></tr>
+        <tr><td>CTA</td><td>→ лендінг «Мої бонуси»</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C2 · Email · +24ч</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Вибери свій бонус, {{first_name}}! 🎰»</strong></td></tr>
+        <tr><td>Body</td><td>2-3 варіанти по GP_ axis:<br>
+          • GP_SLOTS → 10 FS на Gates of Olympus<br>
+          • GP_AVIATOR → 5 Free Flights<br>
+          • Усім → 5% reload на наступний депозит
+        </td></tr>
+        <tr><td>CTA</td><td>Кнопки для кожного варіанту</td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Банер Email C2 — Вибір бонусу</div>
+        <ul>
+          <li>3 карточки-варіанти з іконками бонусів</li>
+          <li>Кожна з CTA кнопкою</li>
+          <li>Фон: нейтральний, акцент на карточках</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>C3 · Push + NC Feed · +72ч</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-push">Push</span> <span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Push Title</td><td><strong>«{{cc_balance}} CuatroCoins чекають! 🪙»</strong></td></tr>
+        <tr><td>Push Text</td><td>«Обміняй на бонус у Bonus Shop!»</td></tr>
+        <tr><td>CTA</td><td>→ Bonus Shop</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C4 · Popup · +7 днів</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-popup">Popup</span></td></tr>
+        <tr><td>Текст</td><td><strong>«Безкоштовний бонус чекає! Вибери один з трьох 🎁»</strong></td></tr>
+        <tr><td>Механіка</td><td>Одноразовий popup з 3 кнопками вибору</td></tr>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 10</div>
+  </div>
+</section>
+
+<!-- ==================== 11 — NO CASHIER ==================== -->
+<section id="p11" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>11 — No Cashier Visited</h1>
+      <div class="subtitle">4 комунікації · 5 днів · Pre-FTD конверсія</div>
+    </div>
+
+    <div class="card">
+      <h2>C1 · NC Feed · День 0</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Текст</td><td><strong>«Ти вже спробував {{favorite_game}}! Готовий до справжньої гри? 💰»</strong></td></tr>
+        <tr><td>CTA</td><td>«Зробити депозит» → каса</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C2 · Email · +12ч</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Subject</td><td><strong>«100% бонус на перший депозит чекає тебе! 🎁»</strong></td></tr>
+        <tr><td>Body</td><td>
+          • Пояснення Welcome Bonus Ladder<br>
+          • Мін. депозит: 2,285 ARS<br>
+          • Що отримає: 100% матч + 50 FS<br>
+          • Хіт-парад ігор по GP_ axis
+        </td></tr>
+        <tr><td>CTA</td><td><strong>«Зробити перший депозит»</strong> → каса</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=no_cashier&utm_content=c2_welcome</code></td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C3 · Push · +48ч (Social Proof)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Title</td><td><strong>«1,247 гравців вже отримали бонуси 🔥»</strong></td></tr>
+        <tr><td>Text</td><td>«Депозит від 2,285 ARS → бонус до 45,700 ARS + 50 FS»</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C4 · Popup · День 5</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-popup">Popup</span></td></tr>
+        <tr><td>Текст</td><td><strong>«⏰ Останній шанс отримати 100% бонус! Закінчується через 24ч»</strong></td></tr>
+        <tr><td>Механіка</td><td>Таймер зворотного відліку + кнопка «Депозит»</td></tr>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 11</div>
+  </div>
+</section>
+
+<!-- ==================== 12 — PRE-VIP ==================== -->
+<section id="p12" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>12 — Pre-VIP Lifecycle</h1>
+      <div class="subtitle">8 комунікацій · Шлях до VIP · High-value</div>
+    </div>
+
+    <div class="card">
+      <h2>C1 · Email + NC Feed · Вхід у Pre-VIP</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-vip">VIP-ексклюзив</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Ти на порозі VIP статусу! 👑»</strong></td></tr>
+        <tr><td>Body</td><td>
+          • Прогрес-бар до Silver ({{progress}}%)<br>
+          • Скільки залишилось ARS<br>
+          • Preview привілеїв Silver
+        </td></tr>
+        <tr><td>CTA</td><td><strong>«Дізнатися більше про VIP»</strong> → VIP лендінг</td></tr>
+        <tr><td>NC Feed</td><td>«Ти близько до VIP! {{progress}}% пройдено 👑»</td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Банер Email C1 — Pre-VIP</div>
+        <ul>
+          <li>Hero: преміальний золотисто-чорний стиль</li>
+          <li>Прогрес-бар: великий, помітний</li>
+          <li>Іконки привілеїв VIP</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>C2 · Email · +3 дні (VIP Preview)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Ось що тебе чекає у VIP 💎»</strong></td></tr>
+        <tr><td>Body</td><td>Порівняння: звичайний vs Silver vs Gold. Ексклюзивні привілеї, персональний менеджер, weekly reload.</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C3 · Email + NC + Push · +7 днів (VIP Accelerator)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span> <span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Прискор свій шлях до VIP — 25% бонус! 🚀»</strong></td></tr>
+        <tr><td>Оффер</td><td>25% reload до 34,275 ARS (×25 вейджер, TTL 72ч)</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C4 · Email + WA/SMS · 80% порогу</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-wa">WhatsApp</span> / <span class="ch ch-sms">SMS</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-urgent">Фінальний push</span></td></tr>
+        <tr><td>Body</td><td><strong>«Залишилось {{remaining_ars}} ARS до VIP Silver! Ще трохи!»</strong></td></tr>
+        <tr><td>Оффер</td><td>30% reload «VIP Sprint» (×20 вейджер, TTL 48ч)</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C5 · Всі канали · VIP досягнуто!</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span> <span class="ch ch-push">Push</span> <span class="ch ch-wa">WA</span> <span class="ch ch-sms">SMS</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Вітаємо, ти VIP {{tier}}! 👑🎉»</strong></td></tr>
+        <tr><td>Body</td><td>Welcome to VIP · Список привілеїв · Контакт менеджера · Welcome gift: 50 FS + 2,000 CC</td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Банер Email C5 — VIP Welcome</div>
+        <ul>
+          <li>Hero: ультра-преміум, золото + чорний</li>
+          <li>Текст: «WELCOME TO VIP» + ім'я гравця</li>
+          <li>Варіанти для Silver / Gold / Platinum / Diamond</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>C6–C8 · Ongoing VIP</h2>
+      <table>
+        <thead><tr><th>Крок</th><th>Частота</th><th>Канал</th><th>Тема</th></tr></thead>
+        <tbody>
+          <tr><td>C6</td><td>Щотижня (пн)</td><td><span class="ch ch-email">Email</span></td><td><strong>«Твій VIP звіт за тиждень 📊»</strong> — статистика, CC, milestones</td></tr>
+          <tr><td>C7</td><td>Щомісяця (1-ше)</td><td><span class="ch ch-email">Email</span></td><td><strong>«VIP Monthly: кешбек + ексклюзивний оффер»</strong></td></tr>
+          <tr><td>C8</td><td>День народження</td><td><span class="ch ch-email">Email</span></td><td><strong>«З Днем народження! 🎂 100 FS + 5,000 CC»</strong> (Gold+)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 12</div>
+  </div>
+</section>
+
+<!-- ==================== 13 — REACTIVATION ==================== -->
+<section id="p13" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>13 — Матриця реактивації</h1>
+      <div class="subtitle">16+ комунікацій · 4 стадії · 7D → 60D sunset</div>
+    </div>
+
+    <div class="card">
+      <h2>🔵 Стадія 7D (м'яка)</h2>
+      <table>
+        <thead><tr><th>Крок</th><th>День</th><th>Канал</th><th>Subject / Текст</th><th>Оффер</th></tr></thead>
+        <tbody>
+          <tr><td>C1</td><td>7</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span></td><td><strong>«Ми сумуємо! Що нового…»</strong></td><td>—</td></tr>
+          <tr><td>C2</td><td>9</td><td><span class="ch ch-email">Email</span></td><td><strong>«10 Free Spins — просто повернись! 🎁»</strong></td><td>10 FS no-dep (72ч)</td></tr>
+          <tr><td>C3</td><td>11</td><td><span class="ch ch-push">Push</span></td><td><strong>«30% бонус на повернення!»</strong></td><td>30% reload до 13,710 ARS (48ч)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>🟠 Стадія 14D (середня)</h2>
+      <table>
+        <thead><tr><th>Крок</th><th>День</th><th>Канал</th><th>Subject / Текст</th><th>Оффер</th></tr></thead>
+        <tbody>
+          <tr><td>C4</td><td>14</td><td><span class="ch ch-email">Email</span></td><td><strong>«⚠️ Твої CuatroCoins скоро згорять!»</strong></td><td>CC expiry alert</td></tr>
+          <tr><td>C5</td><td>16</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span></td><td><strong>«2,300 ARS бонус без депозиту — тільки для тебе»</strong></td><td>2,300 ARS no-dep (72ч)</td></tr>
+          <tr><td>C6</td><td>18</td><td><span class="ch ch-sms">SMS</span></td><td><strong>«[CuatroBet] Запрошуємо на приватний турнір! [link]»</strong></td><td>Турнір</td></tr>
+          <tr><td>C7</td><td>20</td><td><span class="ch ch-email">Email</span> <span class="ch ch-sms">SMS</span></td><td><strong>«3,400 ARS + 30 FS — останній шанс на цьому етапі»</strong></td><td>3,400 no-dep + 30 FS (48ч)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>🔴 Стадія 21D (агресивна)</h2>
+      <table>
+        <thead><tr><th>Крок</th><th>Канал</th><th>Subject / Текст</th><th>Оффер</th></tr></thead>
+        <tbody>
+          <tr><td>C8</td><td><span class="ch ch-email">Email</span> <span class="ch ch-wa">WA (HIGH+)</span></td><td><strong>«Персональний пакет для тебе»</strong></td><td>По GP_ axis: SLOTS → 50 FS + 50% reload · AVIATOR → Flights + 40% · LIVE → 15% cashback · MIXED → вибір з 3</td></tr>
+          <tr><td>C9</td><td><span class="ch ch-email">Email</span></td><td><strong>«Твій пакет ще активний — залишилось {{hours}}ч»</strong></td><td>TTL reminder</td></tr>
+          <tr><td>C10</td><td><span class="ch ch-sms">SMS</span></td><td><strong>«[CuatroBet] Ми тут, коли ти готовий. [link]»</strong></td><td>Останнє повідомлення</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>⛔ Стадія 60D+ (Sunset)</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Прощання? Ми будемо сумувати 😢»</strong></td></tr>
+        <tr><td>CTA #1</td><td><strong>«Залишитися»</strong> → re-subscribe</td></tr>
+        <tr><td>CTA #2</td><td>«Піти» → unsubscribe</td></tr>
+        <tr><td>Після</td><td>Немає відповіді 7д → видалити з маркетингових списків</td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Банер Sunset Email</div>
+        <ul>
+          <li>Hero: стриманий, сіро-синій, емоційний</li>
+          <li>Дві кнопки: зелена «Залишитися» / сіра «Піти»</li>
+          <li>Текст: «Ми завжди раді бачити тебе»</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 13</div>
+  </div>
+</section>
+
+<!-- ==================== 15 — CC EXPIRY ==================== -->
+<section id="p15" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>15 — Bonus Shop & CC Expiry Alerts</h1>
+      <div class="subtitle">3 рівні нагадувань · CC згорають через 90 днів</div>
+    </div>
+
+    <div class="card">
+      <h2>14 днів до згорання · Email</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Subject</td><td><strong>«У тебе {{expiring_cc}} CuatroCoins скоро згорять! 🪙»</strong></td></tr>
+        <tr><td>Body</td><td>Покажи баланс CC, що згоряє. Варіанти що купити в Bonus Shop. Посилання на каталог.</td></tr>
+        <tr><td>CTA</td><td><strong>«Обміняти в Bonus Shop»</strong></td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>7 днів · NC Feed + Push</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-nc">NC Feed</span> <span class="ch ch-push">Push</span></td></tr>
+        <tr><td>NC Feed</td><td><strong>«Останній тиждень! {{expiring_cc}} CC згорять — витрать зараз! 🔥»</strong></td></tr>
+        <tr><td>Push Title</td><td><strong>«CC згорають! 🪙🔥»</strong></td></tr>
+        <tr><td>Push Text</td><td>«{{expiring_cc}} CuatroCoins зникнуть через 7 днів»</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>3 дні · Email + SMS (VT_MID+)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-sms">SMS (VT_MID+)</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-urgent">Терміново</span></td></tr>
+        <tr><td>Subject</td><td><strong>«⚠️ 3 дні! {{expiring_cc}} CC зникнуть назавжди»</strong></td></tr>
+        <tr><td>SMS</td><td><strong>«[CuatroBet] {{expiring_cc}} CC згорять через 3 дні! Обміняй: [link]»</strong></td></tr>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 15</div>
+  </div>
+</section>
+
+<!-- ==================== 16 — ENGAGEMENT ==================== -->
+<section id="p16" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>16 — Engagement & Gamification</h1>
+      <div class="subtitle">4 механіки · Стікери + Mission + Wheel + Spin</div>
+    </div>
+
+    <div class="card">
+      <h2>Стікери — NC Feed повідомлення</h2>
+      <table>
+        <thead><tr><th>Подія</th><th>Канал</th><th>Текст</th></tr></thead>
+        <tbody>
+          <tr><td>Новий стікер</td><td><span class="ch ch-nc">NC</span></td><td><strong>«Новий стікер! {{sticker_name}} — {{progress}}/30 🎨»</strong></td></tr>
+          <tr><td>Ряд завершено</td><td><span class="ch ch-nc">NC</span> <span class="ch ch-push">Push</span></td><td><strong>«Ряд {{row}} завершено! 🎉 Нагорода: {{reward}}»</strong></td></tr>
+          <tr><td>Гранд-приз</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span></td><td><strong>«ВСІ 30 СТІКЕРІВ! 🏆 45,500 ARS + 5,000 CC + Exclusive Avatar»</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Mission Cuatro — Щотижнева</h2>
+      <table>
+        <thead><tr><th>Подія</th><th>Канал</th><th>Текст</th></tr></thead>
+        <tbody>
+          <tr><td>Старт (пн)</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span></td><td>
+            <strong>Subject: «Mission Cuatro почалася! 4 депозити = Mystery Box 🎯»</strong><br>
+            NC: «Нова місія! 4 депозити за 7 днів → Mystery Box»
+          </td></tr>
+          <tr><td>Прогрес 1/4</td><td><span class="ch ch-nc">NC</span></td><td><strong>«1/4 ✓ — Продовжуй!»</strong></td></tr>
+          <tr><td>Прогрес 3/4</td><td><span class="ch ch-nc">NC</span></td><td><strong>«3/4 ✓ — Ще один і Mystery Box твій!»</strong></td></tr>
+          <tr><td>Complete</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span></td><td><strong>«Mission Complete! 🎯🎉 Відкрий Mystery Box»</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Double Chance (Lucky Wheel) — Вікенд</h2>
+      <table>
+        <thead><tr><th>Подія</th><th>Канал</th><th>Текст</th></tr></thead>
+        <tbody>
+          <tr><td>Анонс (чт)</td><td><span class="ch ch-email">Email</span></td><td><strong>Subject: «Double Chance Weekend! Депозит → Spin the Wheel 🎡»</strong></td></tr>
+          <tr><td>Старт (пт)</td><td><span class="ch ch-nc">NC</span></td><td><strong>«Lucky Wheel доступний! Зроби депозит — крути колесо 🎡»</strong></td></tr>
+          <tr><td>Підсумки (пн)</td><td><span class="ch ch-email">Email</span></td><td><strong>«Твій результат Lucky Wheel: {{reward}}! Наступний вікенд чекає»</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Silver Spin — Щоденний вхід</h2>
+      <table>
+        <thead><tr><th>Подія</th><th>Канал</th><th>Текст</th></tr></thead>
+        <tbody>
+          <tr><td>Streak progress</td><td><span class="ch ch-nc">NC</span></td><td><strong>«День {{day}} streak! Не пропусти завтра! 🌟»</strong></td></tr>
+          <tr><td>Streak warning (20:00)</td><td><span class="ch ch-push">Push</span></td><td><strong>«Ти ще не зайшов сьогодні! Streak на кону! 😰»</strong></td></tr>
+          <tr><td>Day 7 Jackpot</td><td><span class="ch ch-nc">NC</span></td><td><strong>«7 днів поспіль! 🎉 500 CC + 25 FS — Weekly Jackpot!»</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 16</div>
+  </div>
+</section>
+
+<!-- ==================== 17 — LOYALTY ==================== -->
+<section id="p17" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>17 — Лоялізація (Active + Passive)</h1>
+      <div class="subtitle">8+ комунікацій · Утримання + повернення</div>
+    </div>
+
+    <div class="card">
+      <h2>🟢 Active Loyalty</h2>
+      <table>
+        <thead><tr><th>Крок</th><th>Частота</th><th>Канал</th><th>Subject / Текст</th></tr></thead>
+        <tbody>
+          <tr><td>A1</td><td>Щопн</td><td><span class="ch ch-email">Email</span></td><td><strong>«Твій тиждень у CuatroBet — підсумки 📊»</strong><br>Статистика, CC, стікери, Mission прогрес, тір прогрес-бар</td></tr>
+          <tr><td>A2</td><td>Щопт</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span></td><td><strong>«Weekend Challenge: заробляй до 600 CC! 🔥»</strong><br>3 міні-завдання: 50 раундів → 200 CC · Депозит ≥ 4,570 → 200 CC · Виграш ×10 → 200 CC · Усі 3 → +200 CC (800 CC)</td></tr>
+          <tr><td>A3</td><td>Щовт (Silver+)</td><td><span class="ch ch-email">Email</span></td><td><strong>«Твій 15% reload доступний!»</strong> (Silver) / «VIP турнір у суботу» (Platinum+)</td></tr>
+        </tbody>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Банер Weekly Report (A1)</div>
+        <ul>
+          <li>Dashboard-стиль: графіки, числа, прогрес-бари</li>
+          <li>Динамічні дані: {{games}}, {{cc_earned}}, {{stickers}}</li>
+          <li>Мотиваційне повідомлення внизу</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🟡 Passive Loyalty (churn_score ≥ 0.3)</h2>
+      <table>
+        <thead><tr><th>Крок</th><th>Канал</th><th>Subject / Текст</th><th>Оффер</th></tr></thead>
+        <tbody>
+          <tr><td>P1</td><td><span class="ch ch-email">Email</span></td><td><strong>«Що нового в CuatroBet? 👀»</strong><br>Нові ігри, акції, CC баланс. Без агресивного оффера.</td><td>—</td></tr>
+          <tr><td>P2</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span></td><td><strong>«Проста місія: 1 депозит = 200 CuatroCoins 🪙»</strong></td><td>200 CC (72ч)</td></tr>
+          <tr><td>P3</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC</span></td><td><strong>«⚠️ {{cc_expiring}} CuatroCoins згорять через 14 днів!»</strong></td><td>→ Bonus Shop</td></tr>
+          <tr><td>P4</td><td colspan="3"><em>Якщо churn_score ≥ 0.6 → автоматичний перехід у Chain 13 (Reactivation)</em></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 17</div>
+  </div>
+</section>
+
+<!-- ==================== 18 — REFERRAL ==================== -->
+<section id="p18" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>18 — Реферальна програма</h1>
+      <div class="subtitle">4 комунікації (launch) + ongoing · 9,000 ARS + 500 CC</div>
+    </div>
+
+    <div class="card">
+      <h2>C1 · Email + NC + Push · Анонс програми</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span> <span class="ch ch-push">Push</span></td></tr>
+        <tr><td>Тон</td><td><span class="tone tone-friendly">Запрошення</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Запроси друга — отримай 9,000 ARS! 🤝»</strong></td></tr>
+        <tr><td>Body</td><td>
+          • Як працює програма (3 кроки)<br>
+          • Твоє унікальне посилання<br>
+          • Кнопки шарінгу (WhatsApp, SMS, Copy)
+        </td></tr>
+        <tr><td>CTA</td><td><strong>«Поділитися посиланням»</strong> → referral page</td></tr>
+        <tr><td>NC Feed</td><td>«Новинка! 🤝 Запроси друга — отримай 9,000 ARS!»</td></tr>
+        <tr><td>Push Title</td><td><strong>«9,000 ARS за кожного друга! 🤝»</strong></td></tr>
+        <tr><td>Push Text</td><td>«Поділися посиланням — заробляй!»</td></tr>
+      </table>
+      <div class="banner-spec">
+        <div class="banner-title">🎨 Банер Email C1 — Referral Launch</div>
+        <ul>
+          <li>Hero: яскравий, два силуети людей, рукостискання</li>
+          <li>Текст: «ЗАПРОСИ ДРУГА · ОТРИМАЙ 9,000 ARS»</li>
+          <li>Кнопки шарінгу: WhatsApp (зелений), SMS, Copy link</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>C2 · Email + NC · Early Bird (+30 днів)</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-email">Email</span> <span class="ch ch-nc">NC Feed</span></td></tr>
+        <tr><td>Subject</td><td><strong>«Early Bird! +4,600 ARS за кожного друга цього місяця 🐦»</strong></td></tr>
+        <tr><td>Body</td><td>Перші 30 днів: 9,000 + 4,600 = <strong>13,600 ARS</strong> за кожного успішного реферала!</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C3 · Email · Monthly Leaderboard</h2>
+      <table>
+        <tr><td style="width:120px">Канал</td><td><span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Частота</td><td>Щомісяця (1-го)</td></tr>
+        <tr><td>Subject</td><td><strong>«Топ-10 рефералів CuatroBet — твій ранг 📊»</strong></td></tr>
+        <tr><td>Body</td><td>Топ-10 рефереров, твій ранг, кількість рефералів, призи для топ-3.</td></tr>
+        <tr><td>CTA</td><td><strong>«Запросити ще»</strong> → referral page</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>C4 · NC + Push + Email · Referral Success</h2>
+      <table>
+        <tr><td style="width:120px">Каналы</td><td><span class="ch ch-nc">NC Feed</span> <span class="ch ch-push">Push</span> <span class="ch ch-email">Email</span></td></tr>
+        <tr><td>Тригер</td><td><code>referral_ftd_completed</code></td></tr>
+        <tr><td>NC Feed</td><td><strong>«Твій друг зробив FTD! 🎉 9,000 ARS + 500 CC зараховані!»</strong></td></tr>
+        <tr><td>Push Title</td><td><strong>«Реферал успішний! 🎉»</strong></td></tr>
+        <tr><td>Push Text</td><td>«+9,000 ARS + 500 CC на твоєму рахунку!»</td></tr>
+        <tr><td>CTA</td><td>«Запросити ще» / «Витратити CC в Bonus Shop»</td></tr>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Chain 18</div>
+  </div>
+</section>
+
+<!-- ==================== BANNERS MASTER LIST ==================== -->
+<section id="pbanners" class="page-section">
+  <div class="page">
+    <div class="page-header">
+      <h1>🎨 Мастер-список баннерів</h1>
+      <div class="subtitle">Всі банери для email-шаблонів · GP_ варіанти · VT_ рівні</div>
+    </div>
+
+    <div class="info-box info">
+      <strong>Формат:</strong> 600×200px (hero email), PNG/JPG. Для Retina — 1200×400px.<br>
+      <strong>Мова на банерах:</strong> іспанська (es-AR). Логотип CuatroBet завжди присутній.<br>
+      <strong>Бренд палітра:</strong> Тёмно-синій #0d1117, Жовто-золотий #e3b341, Бірюзовий #39d2c0, Білий #e6edf3.
+    </div>
+
+    <div class="card">
+      <h2>GP_ Персоналізація — 4×4 банер-матриця</h2>
+      <div class="info-box warning"><strong>Для кожного email з бонусом/грою</strong> потрібно 4 варіанти hero-банеру по GP_ axis. Нижче — мастер-таблиця.</div>
+      <table>
+        <thead><tr><th>GP_</th><th>Фон / Стиль</th><th>Ігри на банері</th><th>CTA текст</th><th>Емоція</th></tr></thead>
+        <tbody>
+          <tr><td><strong>GP_SLOTS</strong></td><td>Яскравий, неонові слоти, монети</td><td>Gates of Olympus, Sweet Bonanza, Book of Dead</td><td>«¡Girar!» (Крутити!)</td><td>Азарт, джекпот</td></tr>
+          <tr><td><strong>GP_AVIATOR</strong></td><td>Небо, літак, множники ×100</td><td>Aviator, JetX, Crash</td><td>«¡Despegar!» (Взлітай!)</td><td>Адреналін, ризик</td></tr>
+          <tr><td><strong>GP_LIVE</strong></td><td>Преміум, зелене сукно, дилер</td><td>Рулетка, Блекджек, Баккара</td><td>«¡A la mesa!» (За стіл!)</td><td>Елегантність, VIP</td></tr>
+          <tr><td><strong>GP_MIXED</strong></td><td>Мозаїка різних ігор, CuatroBet бренд</td><td>Мікс з топ-10</td><td>«¡Jugar!» (Грати!)</td><td>Різноманіття, відкриття</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>VT_ Рівні — Стилістика шаблонів</h2>
+      <table>
+        <thead><tr><th>VT_</th><th>Стиль</th><th>Кольори</th><th>Елементи</th></tr></thead>
+        <tbody>
+          <tr><td>MICRO / LOW</td><td>Базовий, весёлий</td><td>Синій + білий</td><td>Прості іконки, яскравий CTA</td></tr>
+          <tr><td>MID</td><td>Premium</td><td>Синій + золотий</td><td>Градієнти, більш складна графіка</td></tr>
+          <tr><td>HIGH</td><td>Gold</td><td>Чорний + золотий</td><td>Текстури, преміум-типографіка</td></tr>
+          <tr><td>PRE_VIP+</td><td>VIP Ultra</td><td>Чорний + золотий + діаманти</td><td>Фольга, тиснення ефект, мінімалізм</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>📋 Повний список банерів для створення</h2>
+      <table>
+        <thead><tr><th>#</th><th>Chain</th><th>Банер</th><th>GP_ варіанти</th><th>VT_ варіанти</th><th>Всього</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>04</td><td>Payment Fail — Retry Helper</td><td>1 (загальний)</td><td>1</td><td>1</td></tr>
+          <tr><td>2</td><td>04</td><td>Payment Fail — 10 FS Bonus</td><td>4</td><td>1</td><td>4</td></tr>
+          <tr><td>3</td><td>05</td><td>Welcome S0 — 20 FS No-Dep</td><td>1 (загальний)</td><td>1</td><td>1</td></tr>
+          <tr><td>4</td><td>05</td><td>Welcome S1 — 100% + 50 FS</td><td>4</td><td>1</td><td>4</td></tr>
+          <tr><td>5</td><td>05</td><td>Welcome S4 — Last Chance</td><td>1 (загальний)</td><td>1</td><td>1</td></tr>
+          <tr><td>6</td><td>06</td><td>Day-1 Game Recs</td><td>4</td><td>1</td><td>4</td></tr>
+          <tr><td>7</td><td>06</td><td>Day-3 Summary</td><td>1 (загальний)</td><td>1</td><td>1</td></tr>
+          <tr><td>8</td><td>10</td><td>No Bonus — Choose Your Bonus</td><td>1 (3 карточки)</td><td>1</td><td>1</td></tr>
+          <tr><td>9</td><td>12</td><td>Pre-VIP — Progress Bar</td><td>1</td><td>1</td><td>1</td></tr>
+          <tr><td>10</td><td>12</td><td>VIP Welcome</td><td>1</td><td>4 (S/G/P/D)</td><td>4</td></tr>
+          <tr><td>11</td><td>13</td><td>Reactivation Sunset</td><td>1</td><td>1</td><td>1</td></tr>
+          <tr><td>12</td><td>17</td><td>Weekly Loyalty Report</td><td>1 (dashboard)</td><td>1</td><td>1</td></tr>
+          <tr><td>13</td><td>17</td><td>Weekend Challenge</td><td>1</td><td>1</td><td>1</td></tr>
+          <tr><td>14</td><td>18</td><td>Referral Launch</td><td>1</td><td>1</td><td>1</td></tr>
+          <tr style="font-weight:700"><td></td><td></td><td>ВСЬОГО</td><td></td><td></td><td>~26 банерів</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="page-footer">CuatroBet Content Brief · Banners Master List</div>
+  </div>
+</section>
+
+<script>
+(function() {
+  const navLinks = document.querySelectorAll('.nav-links a');
+  const sections = document.querySelectorAll('.page-section');
+  
+  function showPage(id) {
+    sections.forEach(s => { s.style.display = 'none'; s.classList.remove('active'); });
+    navLinks.forEach(a => a.classList.remove('active'));
+    
+    let section = document.getElementById(id) || document.getElementById('p' + id);
+    if (!section) section = document.getElementById('overview');
+    if (section) {
+      section.style.display = 'block';
+      section.classList.add('active');
+    }
+    
+    const activeLink = document.querySelector('.nav-links a[data-page="' + (id.replace('p','')) + '"]') 
+                    || document.querySelector('.nav-links a[data-page="overview"]');
+    if (activeLink) activeLink.classList.add('active');
+    
+    window.scrollTo(0, 0);
+  }
+  
+  navLinks.forEach(a => {
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      const page = this.getAttribute('data-page');
+      history.pushState(null, '', '#' + page);
+      showPage(page === 'overview' ? 'overview' : 'p' + page);
+    });
+  });
+  
+  const hash = location.hash.slice(1);
+  if (hash && hash !== 'overview') {
+    showPage('p' + hash);
+  }
+  
+  window.addEventListener('popstate', function() {
+    const hash = location.hash.slice(1) || 'overview';
+    showPage(hash === 'overview' ? 'overview' : 'p' + hash);
+  });
+})();
+</script>
+
+</body>
+</html>
