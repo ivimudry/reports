@@ -10,7 +10,7 @@
 
 - [ ] API начисления/списания CC (Cuatro Coins) работает
 - [ ] Система Lucky Wheel активна с уровнями Silver/Gold/Platinum
-- [ ] Каналы In-app popup и App Push активны
+- [ ] Каналы In-app popup и Web Push активны
 - [ ] UI лутбокса готов в личном кабинете игрока
 - [ ] UI книги стикеров готов (сетка на 30 слотов)
 - [ ] API отслеживания прогресса квестов доступен
@@ -24,11 +24,11 @@
 
 **Название Journey:** `10-LB-JOURNEY`  
 **Тип:** По событию (постоянный)  
-**Вход:** `total_wagered_ars` достигает следующего порога в 5 000 ARS (слоты) или 10 000 ARS (лайв)
+**Вход:** `total_wagered_ars` достигает следующего порога в 105 000 ARS (слоты) или 208 000 ARS (лайв)
 
 ### Правила начисления:
-- 1 токен лутбокса за каждые 5 000 ARS ставок на слотах
-- 1 токен лутбокса за каждые 10 000 ARS ставок в лайве
+- 1 токен лутбокса за каждые 105 000 ARS ставок на слотах
+- 1 токен лутбокса за каждые 208 000 ARS ставок в лайве
 - Токены накапливаются в личном кабинете, открываются вручную
 
 ### Таблица наград:
@@ -37,7 +37,7 @@
 |---------|-----|----------|
 | Малый подарок CC | 50% | 25–50 CC |
 | Free Spins (5–10) | 25% | На топ-слоте игрока |
-| Бонусные деньги | 15% | 500–1 000 ARS |
+| Бонусные деньги | 15% | 10,500–96 000 ARS |
 | Вход в Lucky Wheel | 7% | 1 Silver вход |
 | Премиум FS (25+) | 3% | На премиум-тайтлах |
 
@@ -47,7 +47,7 @@
 | Параметр | Значение |
 |----------|----------|
 | Campaign ID | `10-LB-C1-PUSH` |
-| Канал | App Push |
+| Канал | Web Push |
 | Текст (ES) | `¡Ganaste un loot box! Abrilo desde tu panel.` |
 | CTA | Deep link на панель лутбоксов |
 
@@ -97,7 +97,7 @@
 | #1 | Сыграть в Jackpot Joker 10 раз |
 | #2 | Внести депозит 3 дня подряд |
 | #3 | Попробовать нового провайдера игр |
-| #4 | Поставить 10 000 ARS за неделю |
+| #4 | Поставить 208 000 ARS за неделю |
 | #5 | Выиграть 5× от ставки за один спин |
 | ... | (Определить оставшиеся 25) |
 
@@ -105,45 +105,45 @@
 | Веха | Награда |
 |------|---------|
 | Одиночный стикер | 25 CC |
-| Полный ряд из 5 | 200 ARS + 10 FS |
-| Все 30 собраны | 10 000 ARS + Premium Lucky Wheel + превью VIP I |
+| Полный ряд из 5 | 4,100 ARS + 10 FS |
+| Все 30 собраны | 208 000 ARS + Premium Lucky Wheel + превью VIP I |
 
 ### Создать 4 коммуникации:
 
 **STK-C1: Стикер разблокирован**
 | Campaign ID | `10-STK-C1-PUSH` |
 |------------|-------------------|
-| Канал | App Push |
+| Канал | Web Push |
 | Текст (ES) | `Nueva figurita desbloqueada: {sticker_name}. ¡Seguí coleccionando!` |
 
 **STK-C2: Один стикер до завершения ряда**
 | Campaign ID | `10-STK-C2-EMAIL` |
 |------------|---------------------|
 | Канал | Email |
-| **Тема (ES)** | `🧩 200 ARS + 10 giros: te falta 1 figurita` |
+| **Тема (ES)** | `🧩 4,100 ARS + 10 giros: te falta 1 figurita` |
 | **Прехедер (ES)** | `Completá la fila y ganate el premio` |
 | **Текст баннера (ES)** | `¡Te Falta 1 Figurita!` |
-| **Описание баннера** | Almost-complete sticker row — 4/5 sticker slots filled, last slot glowing/pulsing with question mark, 200 ARS + 10 FS reward preview, exciting urgency |
-| **Описание тела** | Подсветить, какой стикер не хватает и какое действие его открывает. Показать превью награды: 200 ARS + 10 FS. Чёткая CTA на выполнение действия. |
+| **Описание баннера** | Almost-complete sticker row — 4/5 sticker slots filled, last slot glowing/pulsing with question mark, 4,100 ARS + 10 FS reward preview, exciting urgency |
+| **Описание тела** | Подсветить, какой стикер не хватает и какое действие его открывает. Показать превью награды: 4,100 ARS + 10 FS. Чёткая CTA на выполнение действия. |
 | Условие | Собрано 4 из 5 стикеров в ряду |
 
 **STK-C3: Ряд завершён**
 | Campaign ID | `10-STK-C3-PUSH-POPUP` |
 |------------|--------------------------|
-| Канал | App Push + In-app popup |
+| Канал | Web Push + In-app popup |
 | **Текст баннера (ES)** | `¡Fila Completa!` |
-| **Описание баннера** | Celebration row complete — 5/5 stickers glowing, reward burst animation (200 ARS + 10 FS), confetti, golden completion badge |
-| **Тело (ES)** | `¡Fila completa! Ganaste 200 ARS + 10 giros gratis.` |
-| Действие | Начислить 200 ARS + 10 FS |
+| **Описание баннера** | Celebration row complete — 5/5 stickers glowing, reward burst animation (4,100 ARS + 10 FS), confetti, golden completion badge |
+| **Тело (ES)** | `¡Fila completa! Ganaste 4,100 ARS + 10 giros gratis.` |
+| Действие | Начислить 4,100 ARS + 10 FS |
 
 **STK-C4: Ежемесячная сводка**
 | Campaign ID | `10-STK-C4-EMAIL` |
 |------------|---------------------|
 | Канал | Email |
 | **Тема (ES)** | `📈 {count} figuritas este mes — faltan {remaining}` |
-| **Прехедер (ES)** | `El gran premio de 10,000 ARS está cada vez más cerca` |
+| **Прехедер (ES)** | `El gran premio de 208,000 ARS está cada vez más cerca` |
 | **Текст баннера (ES)** | `{count} Figuritas Coleccionadas` |
-| **Описание баннера** | Monthly sticker progress — sticker book grid showing filled/empty slots, progress bar to 30, grand prize preview (10,000 ARS + VIP), collector theme |
+| **Описание баннера** | Monthly sticker progress — sticker book grid showing filled/empty slots, progress bar to 30, grand prize preview (208,000 ARS + VIP), collector theme |
 | **Описание тела** | Ежемесячный отчёт по стикерам: собрано, осталось до главного приза, подсказка по следующему достижимому стикеру, мотивация. |
 
 ---
@@ -160,7 +160,7 @@
 | Касание | Campaign ID | Время | Канал | Контент (ES) |
 |---------|------------|-------|-------|-------------|
 | C1 | `10-Q1-C1-POPUP-EMAIL` | При FTD | Popup + Email | **Popup Banner:** Активация квеста — логотип "Misión Cuatro", прогресс-бар на 4 шага, превью первой награды. **Email Banner:** То же. **Тело:** `¡Misión Cuatro activada! 4 depósitos en 7 días = premios increíbles.` |
-| C2 | `10-Q1-C2-PUSH` | После 2-го депозита | App Push | `¡Vas por la mitad! 2 depósitos más para completar la Misión Cuatro.` |
+| C2 | `10-Q1-C2-PUSH` | После 2-го депозита | Web Push | `¡Vas por la mitad! 2 depósitos más para completar la Misión Cuatro.` |
 | C3 | `10-Q1-C3-SMS` | После 3-го депозита | SMS | `CuatroBet: ¡Falta 1 depósito para ganar 30 giros + 200 CC + bono 50%! {link}` |
 | C4 | `10-Q1-C4-POPUP-EMAIL` | После 4-го депозита | Popup + Email | **Popup Banner:** Миссия выполнена — 4/4 галочки, конфетти, каскад наград. **Email Banner:** То же + сводка наград. **Тело:** `¡Misión Cuatro completa! Tus premios están acreditados.` |
 
@@ -170,7 +170,7 @@
 | 1-й | 10 FS | 50 CC | — |
 | 2-й | 15 FS | 75 CC | — |
 | 3-й | 20 FS | 100 CC | — |
-| 4-й | 30 FS | 200 CC | 50% матч до 3 000 ARS |
+| 4-й | 30 FS | 200 CC | 50% матч до 62 000 ARS |
 
 ---
 
@@ -217,7 +217,7 @@
 ### Квест 6: Cuatro Cycle (Opt-In, фиксированная сумма × 4 за 7 дней) 🔴
 
 **Название Journey:** `10-Q6-CUATRO-CYCLE`  
-**Требуется Opt-in.** Игрок выбирает уровень: 1 500 / 3 000 / 5 000 / 10 000 ARS.
+**Требуется Opt-in.** Игрок выбирает уровень: 1 500 / 3 000 / 5 000 / 208 000 ARS.
 
 | Уровень | Награда за завершение |
 |---------|----------------------|
@@ -289,7 +289,7 @@
 - [ ] Токены лутбоксов начисляются при правильных порогах ставок (5K слоты / 10K лайв)
 - [ ] Веса наград лутбоксов соответствуют спецификации
 - [ ] Действия для стикеров корректно отслеживают выполнение
-- [ ] Завершение ряда стикеров начисляет 200 ARS + 10 FS
+- [ ] Завершение ряда стикеров начисляет 4,100 ARS + 10 FS
 - [ ] Квест 1 сбрасывается через 7 дней, если не завершён
 - [ ] UI opt-in Квеста 6 работает, выбор уровня сохраняется
 - [ ] Назначение случайных слотов в Квесте 8 меняется еженедельно
