@@ -58,13 +58,10 @@ def git_show(commit, relpath):
     return r.stdout.decode('utf-8')
 
 def list_guide_files():
-    r = subprocess.run(
-        ['git', 'ls-tree', '--name-only', GUIDE_COMMIT,
-         f'\u0442\u0435\u043a\u0441\u0442\u0438/CuatroBet/{GUIDE_DIR}/'],
-        capture_output=True, cwd=r'c:\Projects\REPORTS'
-    )
-    lines = r.stdout.decode('utf-8').strip().split('\n')
-    return [l.strip() for l in lines if l.strip().endswith('.md')]
+    """List guide .md files from disk, return as git-relative paths."""
+    base = os.path.join(r'c:\Projects\REPORTS', '\u0442\u0435\u043a\u0441\u0442\u0438', 'CuatroBet', GUIDE_DIR)
+    files = sorted(f for f in os.listdir(base) if f.endswith('.md'))
+    return [f'\u0442\u0435\u043a\u0441\u0442\u0438/CuatroBet/{GUIDE_DIR}/{f}' for f in files]
 
 NOTE_OLD = "**\u0422\u0440\u0438\u0433\u0433\u0435\u0440 \u0432\u0445\u043e\u0434\u0430:** `_ars >= 150,000` (\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u0438\u0432\u043d\u044b\u0435 \u0434\u0435\u043f\u043e\u0437\u0438\u0442\u044b)"
 NOTE_NEW = (

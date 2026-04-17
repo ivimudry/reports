@@ -66,7 +66,7 @@
 | `LS_DAY_1_3` | `ftd_date IS NOT NULL AND hours_since_ftd BETWEEN 24 AND 72` | Chain 01 продолжение |
 | `LS_PRE_STD` | `deposits_count = 1 AND hours_since_ftd > 72` | Chain 05 (Welcome Ladder) |
 | `LS_REGULAR` | `deposits_count ≥ 2 AND last_login ≤ 14 days` | Chains 02, 07, 08, 09, 10, 11 |
-| `LS_PRE_VIP` | `deposits_lifetime_ars BETWEEN 3130000 AND 6260000` | Chain 02 (Pre-VIP путь) |
+| `LS_PRE_VIP` | `deposits_lifetime_ars BETWEEN 685000 AND 1370000` | Chain 02 (Pre-VIP путь) |
 | `LS_VIP_I` | Порог VIP уровня I (по конфигурации GR8 Tech) | VIP коммуникации |
 | `LS_VIP_II` | Порог VIP уровня II | VIP коммуникации |
 | `LS_VIP_III` | Порог VIP уровня III | VIP коммуникации |
@@ -101,11 +101,11 @@
 
 | Название сегмента | Определение | Множитель оффера |
 |-------------------|-------------|------------------|
-| `VT_MICRO` | `deposits_lifetime_ars < 105000` | 0.5× |
-| `VT_LOW` | `deposits_lifetime_ars BETWEEN 105000 AND 520000` | 1× (базовый) |
-| `VT_MID` | `deposits_lifetime_ars BETWEEN 520001 AND 1570000` | 1.5× |
-| `VT_HIGH` | `deposits_lifetime_ars BETWEEN 1570001 AND 4180000` | 2× |
-| `VT_PRE_VIP_PLUS` | `deposits_lifetime_ars > 4180000` | 3× (+ персональная связь) |
+| `VT_MICRO` | `deposits_lifetime_ars < 23000` | 0.5× |
+| `VT_LOW` | `deposits_lifetime_ars BETWEEN 23000 AND 114000` | 1× (базовый) |
+| `VT_MID` | `deposits_lifetime_ars BETWEEN 114000 AND 343000` | 1.5× |
+| `VT_HIGH` | `deposits_lifetime_ars BETWEEN 343000 AND 915000` | 2× |
+| `VT_PRE_VIP_PLUS` | `deposits_lifetime_ars > 915000` | 3× (+ персональная связь) |
 
 ### Как применять:
 
@@ -115,12 +115,12 @@
 final_offer_value = base_offer × value_tier_multiplier
 ```
 
-Пример: Chain 12 базовый оффер = 10,500 ARS no-deposit
-- Micro игрок: 5,000 ARS
-- Low игрок: 10,500 ARS
-- Mid игрок: 15,500 ARS
-- High игрок: 21,000 ARS
-- Pre-VIP+: 32,000 ARS + персональный звонок
+Пример: Chain 12 базовый оффер = 2,300 ARS no-deposit
+- Micro игрок: 1,100 ARS
+- Low игрок: 2,300 ARS
+- Mid игрок: 3,400 ARS
+- High игрок: 4,600 ARS
+- Pre-VIP+: 7,000 ARS + персональный звонок
 
 **Важно:** Требования к вейджеру НЕ масштабируются. Масштабируется только значение оффера.
 
@@ -227,7 +227,7 @@ IF player.churn_risk = "CR_CRITICAL" AND player.value_tier IN ("VT_HIGH", "VT_PR
 ```
 Name: Juan
 Lifecycle: LS_REGULAR (активный, 5 депозитов)
-Value Tier: VT_MID (875,000 ARS за всё время)
+Value Tier: VT_MID (192,000 ARS за всё время)
 Game Pref: GP_SLOTS (85% ставок на слотах)
 Churn Risk: CR_WATCH (скор 0.45)
 KYC Status: KYC_FULL
