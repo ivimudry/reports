@@ -23,22 +23,16 @@
 
 ### Как это работает
 
-```
-Referrer (existing player)          Referred (new player)
-    │                                     │
-    ├─ Gets unique link/code              │
-    ├─ Shares via WhatsApp/IG/copy        │
-    │                                     │
-    │                    ┌────────────────┤
-    │                    │ Registers with link
-    │                    │ Gets enhanced welcome bonus
-    │                    │ Makes FTD
-    │                    │ Makes STD ←─── REWARD TRIGGER
-    │                    └────────────────┘
-    │
-    ├─ Receives referral reward (cash + CC)
-    └─ Progress toward tier milestone
-```
+| Шаг | Referrer (существующий игрок) | Referred (новый игрок) |
+|-----|------------------------------|------------------------|
+| 1 | Получает уникальную ссылку/код | — |
+| 2 | Делится через WhatsApp / Instagram / копирование | — |
+| 3 | — | Регистрируется по ссылке |
+| 4 | — | Получает улучшенный приветственный бонус |
+| 5 | — | Совершает FTD |
+| 6 | — | Совершает STD ← **REWARD TRIGGER** |
+| 7 | Получает реферальную награду (cash + CC) | — |
+| 8 | Прогресс к milestone уровня | — |
 
 **Почему STD (Second Deposit) как триггер?**
 - Защита от злоупотреблений (само-реферал, боты)
