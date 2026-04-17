@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>17 — Умная сегментация — CuatroBet CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="index.html">Обзор</a>
+    <a href="00-data-integration.html">00</a>
+    <a href="17-smart-segmentation.html" class="active">17</a>
+    <a href="13-channel-strategy.html">13</a>
+    <a href="04-payment-failure.html">04</a>
+    <a href="05-welcome-bonus.html">05</a>
+    <a href="01-day1-retention.html">01</a>
+    <a href="03-kyc-completion.html">03</a>
+    <a href="06-failed-deposits.html">06</a>
+    <a href="14-bonuses-landing.html">14</a>
+    <a href="07-no-bonus.html">07</a>
+    <a href="08-no-cashier.html">08</a>
+    <a href="02-pre-vip.html">02</a>
+    <a href="12-reactivation.html">12</a>
+    <a href="09-personalization.html">09</a>
+    <a href="15-bonus-shop.html">15</a>
+    <a href="10-engagement.html">10</a>
+    <a href="11-loyalty.html">11</a>
+    <a href="16-referral.html">16</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="nav-back">← Назад к обзору</a>
+
+  <div class="page-header">
+    <h1>17 — Умная сегментация: 5-осевая модель</h1>
+    <div class="subtitle">Фаза 0 · Неделя 1 · Инфраструктура · Предварительное условие для ВСЕХ цепочек</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">5</div><div class="stat-label">Осей классификации</div></div>
+    <div class="stat-box green"><div class="stat-value">32</div><div class="stat-label">Базовых сегментов</div></div>
+    <div class="stat-box orange"><div class="stat-value">16</div><div class="stat-label">Сегментов ЖЦ</div></div>
+    <div class="stat-box purple"><div class="stat-value">30+</div><div class="stat-label">Дней данных</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Каждый игрок</strong> классифицируется по ВСЕМ 5 осям одновременно. Комбинация определяет journey, контент, канал и срочность.</div>
+
+  <!-- 5-AXIS MODEL -->
+  <div class="card">
+    <h2>🧭 Обзор 5-осевой модели</h2>
+    <table>
+      <thead><tr><th>Ось</th><th>Название</th><th>Что определяет</th><th>Влияние</th><th>Сегменты</th></tr></thead>
+      <tbody>
+        <tr><td><span class="badge badge-phase0">Ось 1</span></td><td>Жизненный цикл</td><td>В какой journey попадает</td><td>Выбор journey</td><td>16</td></tr>
+        <tr><td><span class="badge badge-phase1">Ось 2</span></td><td>Уровень ценности</td><td>Размер оффера (множитель)</td><td>Калибровка суммы</td><td>5</td></tr>
+        <tr><td><span class="badge badge-phase2">Ось 3</span></td><td>Игровые предпочтения</td><td>Тип контента</td><td>Персонализация</td><td>4</td></tr>
+        <tr><td><span class="badge badge-phase4">Ось 4</span></td><td>Риск оттока</td><td>Ускорение таймингов</td><td>Срочность</td><td>4</td></tr>
+        <tr><td><span class="badge badge-phase3">Ось 5</span></td><td>KYC статус</td><td>Доступность каналов</td><td>Гейтинг</td><td>3</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- AXIS 1: LIFECYCLE -->
+  <div class="card">
+    <h2>📊 Ось 1: Жизненный цикл (16 сегментов)</h2>
+    <div class="step-card">
+      <div class="step-num">Шаг 1</div>
+      <div class="step-title">Создание сегментов в GR8 Tech</div>
+    </div>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Определение</th><th>Маппинг на journey</th></tr></thead>
+      <tbody>
+        <tr><td><code>LS_REGISTERED</code></td><td>has_account AND ftd_date IS NULL</td><td>Только Pre-FTD</td></tr>
+        <tr><td><code>LS_ACTIVATED</code></td><td>first_action_date IS NOT NULL AND ftd_date IS NULL</td><td>Pre-FTD подталкивание</td></tr>
+        <tr><td><code>LS_FTD</code></td><td>ftd_date IS NOT NULL AND hours_since &lt; 24</td><td>Chain 01</td></tr>
+        <tr><td><code>LS_DAY_1_3</code></td><td>hours_since_ftd BETWEEN 24 AND 72</td><td>Chain 01 продолж.</td></tr>
+        <tr><td><code>LS_PRE_STD</code></td><td>deposits_count = 1 AND hours &gt; 72</td><td>Chain 05</td></tr>
+        <tr><td><code>LS_REGULAR</code></td><td>deposits ≥ 2 AND last_login ≤ 14d</td><td>Chains 02,07–11</td></tr>
+        <tr><td><code>LS_PRE_VIP</code></td><td>deposits 685K–1.37M ARS</td><td>Chain 02</td></tr>
+        <tr><td><code>LS_VIP_I–IV</code></td><td>По порогам GR8 Tech</td><td>VIP коммуникации</td></tr>
+        <tr><td><code>LS_AT_RISK</code></td><td>churn_score ≥ 0.6 AND last_login ≤ 14d</td><td>Ранняя реактивация</td></tr>
+        <tr><td><code>LS_DORMANT_7/14/21/60</code></td><td>last_login 7–60+ дней</td><td>Chain 12</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card decision">
+      <div class="step-num">Шаг 2</div>
+      <div class="step-title">Приоритет сегментов (побеждает наивысший)</div>
+    </div>
+    <ol style="color:var(--text-secondary);padding-left:20px;font-size:.9rem;">
+      <li><code>LS_VIP_*</code> — VIP всегда побеждает</li>
+      <li><code>LS_PRE_VIP</code></li>
+      <li><code>LS_FTD</code> / <code>LS_DAY_1_3</code> — критично по времени</li>
+      <li><code>LS_AT_RISK</code></li>
+      <li><code>LS_DORMANT_*</code></li>
+      <li><code>LS_PRE_STD</code></li>
+      <li><code>LS_REGULAR</code></li>
+      <li><code>LS_ACTIVATED</code></li>
+      <li><code>LS_REGISTERED</code></li>
+    </ol>
+  </div>
+
+  <!-- AXIS 2: VALUE -->
+  <div class="card">
+    <h2>💎 Ось 2: Уровень ценности (5 сегментов)</h2>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Депозиты за всё время</th><th>Множитель оффера</th></tr></thead>
+      <tbody>
+        <tr><td><code>VT_MICRO</code></td><td>&lt; 23,000 ARS</td><td><span style="color:var(--text-muted)">0.5×</span></td></tr>
+        <tr><td><code>VT_LOW</code></td><td>23,000 – 114,000 ARS</td><td><span style="color:var(--accent-green)">1× (базовый)</span></td></tr>
+        <tr><td><code>VT_MID</code></td><td>114,000 – 343,000 ARS</td><td><span style="color:var(--accent-orange)">1.5×</span></td></tr>
+        <tr><td><code>VT_HIGH</code></td><td>343,000 – 915,000 ARS</td><td><span style="color:var(--accent-red)">2×</span></td></tr>
+        <tr><td><code>VT_PRE_VIP_PLUS</code></td><td>&gt; 915,000 ARS</td><td><span style="color:var(--accent-purple)">3× + персональная связь</span></td></tr>
+      </tbody>
+    </table>
+    <div class="info-box info"><strong>Формула:</strong> <code>final_offer = base_offer × value_tier_multiplier</code><br>Требования к вейджеру НЕ масштабируются — только значение оффера.</div>
+  </div>
+
+  <!-- AXIS 3: GAME -->
+  <div class="card">
+    <h2>🎮 Ось 3: Игровые предпочтения (4 сегмента)</h2>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Определение</th><th>FS игра</th><th>Контент</th></tr></thead>
+      <tbody>
+        <tr><td><code>GP_SLOTS</code></td><td>slots_wagered / total &gt; 0.7</td><td>Gates of Olympus</td><td>Турниры слотов, джекпоты</td></tr>
+        <tr><td><code>GP_AVIATOR</code></td><td>aviator_wagered / total &gt; 0.3</td><td>Free Flights</td><td>Crash-игры, множители</td></tr>
+        <tr><td><code>GP_LIVE</code></td><td>live_wagered / total &gt; 0.3</td><td>Бонусный кэш</td><td>Live dealer, премиум-столы</td></tr>
+        <tr><td><code>GP_MIXED</code></td><td>Ничего не доминирует</td><td>Случайная из топ-10</td><td>«Попробуй новое»</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- AXIS 4: CHURN -->
+  <div class="card">
+    <h2>⚡ Ось 4: Риск оттока (4 сегмента)</h2>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Churn Score</th><th>Действие</th></tr></thead>
+      <tbody>
+        <tr><td><code>CR_HEALTHY</code></td><td>&lt; 0.30</td><td>Нормальный тайминг</td></tr>
+        <tr><td><code>CR_WATCH</code></td><td>0.30–0.60</td><td>Отправлять на 1 день раньше</td></tr>
+        <tr><td><code>CR_AT_RISK</code></td><td>0.60–0.85</td><td>На 2 дня раньше + повысить оффер</td></tr>
+        <tr><td><code>CR_CRITICAL</code></td><td>&gt; 0.85</td><td>Немедленное вмешательство + алерт VIP</td></tr>
+      </tbody>
+    </table>
+
+    <div class="step-card warning">
+      <div class="step-num">Настройка Predictive Churn</div>
+      <div class="step-title">Требуется 30+ дней исторических данных</div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">1. Активировать модуль GR8 Tech Predictive Churn</div></div>
+      <div class="timeline-item"><div class="tl-title">2. Предоставить 30+ дней данных</div><div class="tl-desc">Логины, депозиты, игровая активность, вовлечение в коммуникации</div></div>
+      <div class="timeline-item"><div class="tl-title">3. GR8 Tech обучает модель</div></div>
+      <div class="timeline-item"><div class="tl-title">4. Ежедневный churn_score (0.0–1.0) на каждого игрока</div></div>
+      <div class="timeline-item"><div class="tl-title">5. Валидация: скор &gt;0.6 → отток в 14 дней</div><div class="tl-desc">Если точность &lt;70% — переобучить</div></div>
+    </div>
+  </div>
+
+  <!-- AXIS 5: KYC -->
+  <div class="card">
+    <h2>🔐 Ось 5: KYC статус (3 сегмента)</h2>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Определение</th><th>Доступ к каналам</th></tr></thead>
+      <tbody>
+        <tr><td><code>KYC_UNVERIFIED</code></td><td>Нет верификации</td><td>Email + NC Feed + Popup + Web Push</td></tr>
+        <tr><td><code>KYC_PARTIAL</code></td><td>Email + телефон ✓</td><td>+ SMS + WhatsApp</td></tr>
+        <tr><td><code>KYC_FULL</code></td><td>Документы верифицированы</td><td>Все каналы + вывод средств</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Контракт GR8 Tech Smart Segmentation подтверждён</li>
+      <li>Контракт GR8 Tech Predictive Churn подтверждён</li>
+      <li>30+ дней исторических данных доступны</li>
+      <li>16 сегментов ЖЦ (Ось 1) созданы и заполнены</li>
+      <li>5 сегментов ценности (Ось 2) настроены</li>
+      <li>4 сегмента игровых предпочтений (Ось 3) работают</li>
+      <li>4 сегмента Churn Risk (Ось 4) с ежедневным обновлением</li>
+      <li>3 сегмента KYC (Ось 5) гейтят каналы</li>
+      <li>Приоритет сегментов установлен (VIP &gt; Pre-VIP &gt; FTD &gt; ...)</li>
+      <li>Journey может считывать членство в сегменте в реальном времени</li>
+      <li>Валидация Churn Score: точность ≥70%</li>
+    </ul>
+  </div>
+
+  <div class="page-nav">
+    <a href="00-data-integration.html"><span class="pn-label">← Назад</span><span class="pn-title">00 — Интеграция данных</span></a>
+    <a href="13-channel-strategy.html" class="next"><span class="pn-label">Далее →</span><span class="pn-title">13 — Стратегия каналов</span></a>
+  </div>
+  <div class="page-footer">CuatroBet CRM Implementation Plan · Doc 17 · GR8 Tech</div>
+</div>
+</body>
+</html>
