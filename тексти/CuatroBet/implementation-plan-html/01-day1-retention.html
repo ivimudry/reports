@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01 — Day-1 Retention Layer — CuatroBet CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="index.html">Обзор</a>
+    <a href="00-data-integration.html">00</a>
+    <a href="17-smart-segmentation.html">17</a>
+    <a href="13-channel-strategy.html">13</a>
+    <a href="04-payment-failure.html">04</a>
+    <a href="05-welcome-bonus.html">05</a>
+    <a href="01-day1-retention.html" class="active">01</a>
+    <a href="03-kyc-completion.html">03</a>
+    <a href="06-failed-deposits.html">06</a>
+    <a href="14-bonuses-landing.html">14</a>
+    <a href="07-no-bonus.html">07</a>
+    <a href="08-no-cashier.html">08</a>
+    <a href="02-pre-vip.html">02</a>
+    <a href="12-reactivation.html">12</a>
+    <a href="09-personalization.html">09</a>
+    <a href="15-bonus-shop.html">15</a>
+    <a href="10-engagement.html">10</a>
+    <a href="11-loyalty.html">11</a>
+    <a href="16-referral.html">16</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="nav-back">← Назад к обзору</a>
+
+  <div class="page-header">
+    <h1>01 — Day-1 Retention Layer</h1>
+    <div class="subtitle">Фаза 1 · Неделя 2–3 · Высокий приоритет · Первые 72 часа после FTD</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">6</div><div class="stat-label">Коммуникаций</div></div>
+    <div class="stat-box green"><div class="stat-value">72ч</div><div class="stat-label">Окно Journey</div></div>
+    <div class="stat-box orange"><div class="stat-value">5</div><div class="stat-label">Каналов</div></div>
+    <div class="stat-box purple"><div class="stat-value">40%+</div><div class="stat-label">Day-3 Return Rate</div></div>
+  </div>
+
+  <div class="info-box info"><strong>Цель:</strong> Удержать нового игрока в первые 72 часа после FTD. Это самый критичный период — 60% оттока происходит именно здесь.</div>
+
+  <!-- FLOW -->
+  <div class="card">
+    <h2>🔀 Full Journey Flow (72ч)</h2>
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">FTD event → C1: «Первый депозит!» NC Feed + Web Push</div>
+      </div>
+      <div class="flow-arrow">↓ +2ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">C2: «Попробуй эти игры» — персонализация по GP_ axis</div>
+      </div>
+      <div class="flow-arrow">↓ +6ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">Проигрыш ≥ 50% депозита? → ДА: C3 «Cashback Shield»</div>
+      </div>
+      <div class="flow-arrow">↓ +24ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">C4: «Day 2 Mission» — 10 FS за любой депозит сегодня</div>
+      </div>
+      <div class="flow-arrow">↓ +48ч</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">Нет return login? → C5: «Мы заметили, что ты давно не заходил»</div>
+      </div>
+      <div class="flow-arrow">↓ +72ч</div>
+      <div class="flow-step" style="--step-color: var(--phase4)">
+        <div class="flow-label">C6: Итоговое резюме «Твои первые 3 дня» + следующие шаги</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- C1 -->
+  <div class="card">
+    <h2>📋 Детали коммуникаций</h2>
+
+    <div class="step-card trigger">
+      <div class="step-num">C1</div>
+      <div class="step-title">Первый депозит — мгновенно</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Триггер</td><td><code>ftd_completed</code></td></tr>
+        <tr><td>Задержка</td><td>0 (немедленно)</td></tr>
+        <tr><td>Каналы</td><td>NC Feed + Web Push</td></tr>
+        <tr><td>Контент</td><td>«Поздравляем с первым депозитом! 🎉 Твой бонус уже на балансе»</td></tr>
+        <tr><td>CTA</td><td>«Начать играть» → лобби</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=day1_retention&utm_content=c1_welcome</code></td></tr>
+      </tbody>
+    </table>
+
+    <!-- C2 -->
+    <div class="step-card action">
+      <div class="step-num">C2</div>
+      <div class="step-title">Рекомендации игр (+2ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Задержка</td><td>+2ч после FTD</td></tr>
+        <tr><td>Каналы</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Топ-3 игры для тебя, {{first_name}}! 🎮»</td></tr>
+        <tr><td>Контент</td><td>Персонализированный по GP_ axis:<br>• GP_SLOTS → Топ-3 слота по RTP<br>• GP_AVIATOR → Aviator + Crash-игры<br>• GP_LIVE → Live рулетка + блэкджек<br>• GP_MIXED → «Попробуй всё» микс</td></tr>
+        <tr><td>UTM</td><td><code>utm_campaign=day1_retention&utm_content=c2_games</code></td></tr>
+      </tbody>
+    </table>
+
+    <!-- C3 -->
+    <div class="step-card warning">
+      <div class="step-num">C3</div>
+      <div class="step-title">Cashback Shield (+6ч, условный)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>balance ≤ ftd_amount × 0.5</code> (проиграл ≥50%)</td></tr>
+        <tr><td>Задержка</td><td>+6ч после FTD</td></tr>
+        <tr><td>Каналы</td><td>NC Feed + Web Push</td></tr>
+        <tr><td>Оффер</td><td><strong>10% кэшбэк</strong> на чистые проигрыши (макс. 4,570 ARS × VT multiplier)</td></tr>
+        <tr><td>Контент</td><td>«Не переживай! Мы вернули 10% — продолжай играть без стресса»</td></tr>
+        <tr><td>Механика</td><td>Автоматическое зачисление кэшбэка на бонусный счёт</td></tr>
+      </tbody>
+    </table>
+
+    <!-- C4 -->
+    <div class="step-card action">
+      <div class="step-num">C4</div>
+      <div class="step-title">Day 2 Mission (+24ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Задержка</td><td>+24ч после FTD</td></tr>
+        <tr><td>Каналы</td><td>Email + NC Feed</td></tr>
+        <tr><td>Subject</td><td>«Миссия дня: 10 Free Spins за любой депозит! 🎯»</td></tr>
+        <tr><td>Оффер</td><td>10 FS за любой депозит (без мин. суммы)</td></tr>
+        <tr><td>TTL</td><td>24ч</td></tr>
+        <tr><td>CTA</td><td>«Выполнить миссию» → касса</td></tr>
+      </tbody>
+    </table>
+
+    <!-- C5 -->
+    <div class="step-card warning">
+      <div class="step-num">C5</div>
+      <div class="step-title">Win-back nudge (+48ч, условный)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Условие</td><td><code>last_login &gt; 24ч</code> (не возвращался)</td></tr>
+        <tr><td>Каналы</td><td>Email + Web Push + SMS (VT_MID+)</td></tr>
+        <tr><td>Subject</td><td>«{{first_name}}, мы скучаем! 🫶»</td></tr>
+        <tr><td>Оффер</td><td>20 FS no-deposit</td></tr>
+        <tr><td>CTA</td><td>«Забрать Free Spins» → лобби</td></tr>
+      </tbody>
+    </table>
+
+    <!-- C6 -->
+    <div class="step-card">
+      <div class="step-num">C6</div>
+      <div class="step-title">Резюме 3-х дней (+72ч)</div>
+    </div>
+    <table>
+      <thead><tr><th>Поле</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Каналы</td><td>Email</td></tr>
+        <tr><td>Subject</td><td>«Твои первые 3 дня в CuatroBet — итоги 📊»</td></tr>
+        <tr><td>Контент</td><td>• Сколько сыграно<br>• Любимая игра<br>• Баланс<br>• CuatroCoins заработано<br>• Следующий шаг → Chain 02 или Chain 10</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">40%+</div><div class="kpi-label">Day-3 Return Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">25%+</div><div class="kpi-label">Day-2 Deposit Rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt;35%</div><div class="kpi-label">Day-3 Churn</div></div>
+    <div class="kpi-card"><div class="kpi-value">3+</div><div class="kpi-label">Avg sessions in 72h</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Событие <code>ftd_completed</code> с суммой депозита</li>
+      <li>Journey с 6 шагами и conditional branches</li>
+      <li>Cashback Shield бонус (10%) создан в GR8 Tech</li>
+      <li>Day-2 Mission бонус (10 FS) создан</li>
+      <li>Win-back бонус (20 FS no-dep) создан</li>
+      <li>Персонализация игр по GP_ axis (4 варианта)</li>
+      <li>Email шаблоны (4 штуки)</li>
+      <li>NC Feed шаблоны (3 штуки)</li>
+      <li>Web Push шаблоны (3 штуки)</li>
+      <li>UTM метки на всех CTA</li>
+    </ul>
+  </div>
+
+  <div class="page-nav">
+    <a href="05-welcome-bonus.html"><span class="pn-label">← Назад</span><span class="pn-title">05 — Welcome Bonus</span></a>
+    <a href="03-kyc-completion.html" class="next"><span class="pn-label">Далее →</span><span class="pn-title">03 — KYC Completion</span></a>
+  </div>
+  <div class="page-footer">CuatroBet CRM Implementation Plan · Doc 01 · GR8 Tech</div>
+</div>
+</body>
+</html>
