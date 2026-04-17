@@ -1473,10 +1473,10 @@ End of playbook. Companion to the CuatroBet Argentina CRM architecture board on 
 | Value tier | Lifetime deposits | Offer multiplier | Additional treatment |
 | --- | --- | --- | --- |
 | Micro | 0 to 23,000 ARS | 0.5x (or swap for CC-only gift) | Low return probability, protect budget |
-| Low | 23,000 to 137,000 ARS | 1.0x (base) | Standard reactivation offer |
-| Mid | 137,000 to 685,000 ARS | 1.5x | Stronger pull, same channel mix |
-| High | 685,000 to 2,740,000 ARS | 2.0x | Personal email from CRM owner name (not brand) |
-| Pre-VIP and above | above 2,740,000 ARS or Pre-VIP flag | 2.5x | WhatsApp outreach plus manager escalation |
+| Low | 23,000 to 114,000 ARS | 1.0x (base) | Standard reactivation offer |
+| Mid | 114,001 to 343,000 ARS | 1.5x | Stronger pull, same channel mix |
+| High | 343,000 to 915,000 ARS | 2.0x | Personal email from CRM owner name (not brand) |
+| Pre-VIP and above | above 915,000 ARS or Pre-VIP flag | 2.5x | WhatsApp outreach plus manager escalation |
 
 
 <!-- TABLE 34 -->
