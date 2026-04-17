@@ -918,7 +918,7 @@ The bonus is available from April 17 to 19 (UTC TZ)
 Subject: ✨ 90% + 50 Freispiele in Gemhalla - Noch verfügbar!
 Preheader: Die Edelsteine leuchten noch - komm und sammle deine
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Die Schätze von Gemhalla leuchten noch bei Oshi! Lass dieses Wochenende nicht vergehen, ohne die edelsteinbesetzten Walzen zu erkunden.
 
@@ -941,7 +941,7 @@ Button: GET BONUS
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Gemhallas Schätze sind noch da! ✨
 90% Bonus bis zu 350 EUR + 50 Freispiele mit Code GEM9050. Zahle 30 EUR+ ein und erkunde das Edelstein-Reich!
 Button: BONUS HOLEN
@@ -973,7 +973,7 @@ The bonus is available from April 17 to 19 (UTC TZ)
 Subject: ⏳ Gemhalla schließt heute Abend - 90% + 50 Freispiele!
 Preheader: Letzte Stunden für deinen Edelstein-Bonus
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Die Tore von Gemhalla schließen heute Abend bei Oshi! Das ist deine letzte Chance auf den 90% Bonus bis zu 350 EUR + 50 Freispiele bei Gemhalla.
 
@@ -996,7 +996,7 @@ Button: CLAIM NOW
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Gemhalla schließt heute Abend! ⏳
 Letzte Chance auf 90% bis zu 350 EUR + 50 Freispiele. Nutze den Code GEM9050 mit deiner 30 EUR+ Einzahlung!
 Button: JETZT HOLEN
@@ -1029,7 +1029,7 @@ Wager: x40
 Subject: 🚀 Deine Lootbox wartet - Gewinne bis zu 3.500 EUR!
 Preheader: Wähle deine Box und enthülle deinen Preis
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Die Galaxie voller Belohnungen ist noch geöffnet bei Oshi! Deine Lootbox schwebt im All und wartet darauf, geöffnet zu werden.
 
@@ -1053,7 +1053,7 @@ Button: OPEN NOW
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Deine Lootbox wartet! 🚀
 Wähle deine Box: Stellar (30 EUR), Universe (75 EUR) oder Spectrum (150 EUR). Preise bis zu 3.500 EUR!
 Button: JETZT ÖFFNEN
@@ -1085,7 +1085,7 @@ The bonus is available from April 24 to 26 (UTC TZ)
 Subject: 🪙 150 Freispiele bei Hold The Gold - Gold-Rausch am Wochenende!
 Preheader: Der Goldtresor ist nur für dich geöffnet
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Finde dieses Wochenende Gold bei Oshi! Die Walzen sind voller glänzender Preise und sie gehören ganz dir.
 
@@ -1108,7 +1108,7 @@ Button: SPIN NOW
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Gold-Rausch dieses Wochenende! 🪙
 Nutze den Code HOLD150 bei deiner Einzahlung und schalte 150 Freispiele bei Hold The Gold frei. Schürfe deine Gewinne!
 Button: JETZT DREHEN
@@ -1140,7 +1140,7 @@ The bonus is available from April 24 to 26 (UTC TZ)
 Subject: ✨ 150 Freispiele bei Hold The Gold - Verpasse deine Nuggets nicht!
 Preheader: Die Goldmine produziert noch - spring rein
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Der Gold-Rausch am Wochenende geht weiter bei Oshi! Spieler graben bei Hold The Gold und werden fündig.
 
@@ -1163,7 +1163,7 @@ Button: GET SPINS
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Der Gold-Rausch geht weiter! ✨
 150 Freispiele bei Hold The Gold mit Code HOLD150. Zahle ein und schürfe deine Gewinne!
 Button: SPINS HOLEN
@@ -1195,7 +1195,7 @@ The bonus is available from April 24 to 26 (UTC TZ)
 Subject: ⏳ Letzter Tag - 150 Freispiele bei Hold The Gold!
 Preheader: Die Mine schließt heute Abend - letzte Chance
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Die Goldmine schließt heute Abend bei Oshi! Das ist deine letzte Chance auf 150 Freispiele bei Hold The Gold.
 
@@ -1218,7 +1218,7 @@ Button: CLAIM NOW
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Letzter Tag für Gold! ⏳
 150 Freispiele mit Code HOLD150 enden heute. Zahle ein und sichere dir deine Spins!
 Button: JETZT HOLEN
@@ -1250,7 +1250,7 @@ Wager: x40
 Subject: 🎡 Das Glücksrad dreht sich weiter - Gewinne bis zu 10.000 EUR!
 Preheader: Tägliche Garantie-Preise sind nur einen Dreh entfernt
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Hast du das Glücksrad schon gedreht? Es läuft jeden Tag bei Oshi und jeder Dreh trifft einen Preis!
 
@@ -1273,7 +1273,7 @@ Button: SPIN & WIN
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Das Glücksrad dreht sich weiter! 🎡
 Jeder Dreh gewinnt. Zahle ein mit Code SILVER (20 EUR) oder GOLD (30 EUR) für garantierte Preise bis zu 10.000 EUR!
 Button: DREHEN & GEWINNEN
@@ -1305,7 +1305,7 @@ The bonus is available from April 28 to 29 (UTC TZ)
 Subject: 🔥 120% bis zu 1000 EUR - Riesiger Midweek-Drop!
 Preheader: Das ist kein gewöhnlicher Dienstags-Bonus
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Vergiss das Warten aufs Wochenende - Oshi hat gerade den größten Midweek-Bonus überhaupt rausgehauen!
 
@@ -1328,7 +1328,7 @@ Button: CLAIM BONUS
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Riesiger Midweek-Bonus! 🔥
 Nutze den Code UP1201K bei deiner 30 EUR+ Einzahlung und sichere dir 120% Bonus bis zu 1000 EUR. Heute groß spielen!
 Button: BONUS HOLEN
@@ -1360,7 +1360,7 @@ The bonus is available from April 28 to 29 (UTC TZ)
 Subject: ⏳ 120% bis zu 1000 EUR - Endet heute!
 Preheader: Lass dir diesen Bonus nicht entgehen
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Das war's - der riesige 120% Bonus bis zu 1000 EUR läuft heute Abend bei Oshi ab!
 
@@ -1383,7 +1383,7 @@ Button: GET BONUS
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Letzte Chance! ⏳
 120% bis zu 1000 EUR mit Code UP1201K endet heute Abend. Zahle 30 EUR+ ein und schnapp ihn dir!
 Button: BONUS HOLEN
@@ -1415,7 +1415,7 @@ Wager: x40
 Subject: 🎡 Dreh das Glücksrad - Gewinne bis zu 10.000 EUR!
 Preheader: Garantierte Preise bei jedem Dreh
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Das Glücksrad dreht sich bei Oshi und jeder Spin bringt einen garantierten Gewinn!
 
@@ -1438,7 +1438,7 @@ Button: SPIN NOW
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Das Glücksrad wartet! 🎡
 Zahle ein mit Code SILVER (20 EUR) oder GOLD (30 EUR) und drehe für garantierte Preise bis zu 10.000 EUR!
 Button: JETZT DREHEN
