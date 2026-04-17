@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>00 — Интеграция данных — CuatroBet CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="index.html">Обзор</a>
+    <a href="00-data-integration.html" class="active">00</a>
+    <a href="17-smart-segmentation.html">17</a>
+    <a href="13-channel-strategy.html">13</a>
+    <a href="04-payment-failure.html">04</a>
+    <a href="05-welcome-bonus.html">05</a>
+    <a href="01-day1-retention.html">01</a>
+    <a href="03-kyc-completion.html">03</a>
+    <a href="06-failed-deposits.html">06</a>
+    <a href="14-bonuses-landing.html">14</a>
+    <a href="07-no-bonus.html">07</a>
+    <a href="08-no-cashier.html">08</a>
+    <a href="02-pre-vip.html">02</a>
+    <a href="12-reactivation.html">12</a>
+    <a href="09-personalization.html">09</a>
+    <a href="15-bonus-shop.html">15</a>
+    <a href="10-engagement.html">10</a>
+    <a href="11-loyalty.html">11</a>
+    <a href="16-referral.html">16</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="nav-back">← Назад к обзору</a>
+
+  <div class="page-header">
+    <h1>00 — Интеграция данных и настройка платформы</h1>
+    <div class="subtitle">Мастер-документ · Фаза 0 · Неделя 1 · Предварительное условие для ВСЕХ цепочек</div>
+  </div>
+
+  <!-- META -->
+  <div class="stats-row">
+    <div class="stat-box blue">
+      <div class="stat-value">100+</div>
+      <div class="stat-label">Точек данных</div>
+    </div>
+    <div class="stat-box orange">
+      <div class="stat-value">8</div>
+      <div class="stat-label">Категорий событий</div>
+    </div>
+    <div class="stat-box green">
+      <div class="stat-value">25+</div>
+      <div class="stat-label">Сегментов</div>
+    </div>
+    <div class="stat-box purple">
+      <div class="stat-value">9</div>
+      <div class="stat-label">Расчётных метрик</div>
+    </div>
+    <div class="stat-box cyan">
+      <div class="stat-value">5+</div>
+      <div class="stat-label">Каналов</div>
+    </div>
+    <div class="stat-box red">
+      <div class="stat-value">&lt;5с</div>
+      <div class="stat-label">Задержка событий</div>
+    </div>
+  </div>
+
+  <div class="info-box danger">
+    <strong>⚠️ КРИТИЧЕСКИ ВАЖНО:</strong> Этот документ должен быть завершён ПЕРВЫМ. ВСЕ 17 остальных цепочек ссылаются на данные, события, атрибуты и сегменты, определённые здесь.
+  </div>
+
+  <!-- STEP 1: EVENTS -->
+  <div class="card">
+    <h2>📡 Шаг 1: Настройка событий реального времени</h2>
+    <p style="color:var(--text-secondary);margin-bottom:16px;">Все события должны срабатывать в реальном времени (&lt;5 секунд) от GR8 Tech к CRM.</p>
+
+    <h3>1.1 Регистрация и аутентификация</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>player_registered</code></td><td>Создание аккаунта</td><td>player_id, registration_timestamp, source, country, device_type</td></tr>
+        <tr><td><code>session_start</code></td><td>Открытие приложения/сайта</td><td>player_id, session_id, timestamp, device_type, referrer</td></tr>
+        <tr><td><code>session_end</code></td><td>Закрытие / 30мин неактивности</td><td>player_id, session_id, timestamp, session_duration_seconds, pages_visited[]</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.2 KYC и верификация</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>email_verified</code></td><td>Клик по ссылке верификации</td><td>player_id, timestamp, email</td></tr>
+        <tr><td><code>phone_verified</code></td><td>Ввод правильного SMS-кода</td><td>player_id, timestamp, phone_number</td></tr>
+        <tr><td><code>documents_submitted</code></td><td>Загрузка KYC-документов</td><td>player_id, timestamp, document_types[]</td></tr>
+        <tr><td><code>documents_approved</code></td><td>KYC-проверка пройдена</td><td>player_id, timestamp</td></tr>
+        <tr><td><code>documents_rejected</code></td><td>KYC-проверка не пройдена</td><td>player_id, timestamp, rejection_reason</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.3 Депозиты и платежи</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>deposit_success</code></td><td>Депозит подтверждён</td><td>player_id, amount_ars, payment_method, deposit_number, timestamp, is_ftd</td></tr>
+        <tr><td><code>deposit_failed</code></td><td>Попытка депозита неудачна</td><td>player_id, attempted_amount_ars, payment_method, failure_reason, attempt_count_session, timestamp</td></tr>
+        <tr><td><code>cashier_opened</code></td><td>Переход на страницу депозита</td><td>player_id, timestamp, session_id</td></tr>
+        <tr><td><code>cashier_closed</code></td><td>Выход без депозита</td><td>player_id, timestamp, session_id, time_on_page_seconds</td></tr>
+        <tr><td><code>withdrawal_requested</code></td><td>Запрос вывода средств</td><td>player_id, amount_ars, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.4 Геймплей</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>game_launched</code></td><td>Открытие игры</td><td>player_id, game_id, game_name, game_type, provider, is_demo, timestamp</td></tr>
+        <tr><td><code>game_round_complete</code></td><td>Раунд завершён</td><td>player_id, game_id, bet_amount_ars, win_amount_ars, timestamp</td></tr>
+        <tr><td><code>wagering_progress</code></td><td>Обновление прогресса</td><td>player_id, bonus_id, wagered_amount, required_amount, percentage_complete</td></tr>
+        <tr><td><code>wagering_complete</code></td><td>Отыгрыш завершён</td><td>player_id, bonus_id, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.5 Бонусы и промоакции</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>bonus_claimed</code></td><td>Активация бонуса</td><td>player_id, bonus_id, bonus_type, bonus_value_ars, timestamp</td></tr>
+        <tr><td><code>bonus_expired</code></td><td>Истечение срока</td><td>player_id, bonus_id, timestamp</td></tr>
+        <tr><td><code>free_spins_awarded</code></td><td>FS зачислены</td><td>player_id, spin_count, game_id, source, timestamp</td></tr>
+        <tr><td><code>free_spins_used</code></td><td>FS использованы</td><td>player_id, spin_count, game_id, winnings_ars, timestamp</td></tr>
+        <tr><td><code>loot_box_earned</code></td><td>Лутбокс получен</td><td>player_id, timestamp</td></tr>
+        <tr><td><code>loot_box_opened</code></td><td>Лутбокс открыт</td><td>player_id, reward_type, reward_value, timestamp</td></tr>
+        <tr><td><code>lucky_wheel_spin</code></td><td>Вращение Lucky Wheel</td><td>player_id, wheel_tier, reward, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.6 Лояльность и квесты</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>mission_completed</code></td><td>Миссия лояльности выполнена</td><td>player_id, mission_id, cc_earned, timestamp</td></tr>
+        <tr><td><code>quest_progress</code></td><td>Контрольная точка квеста</td><td>player_id, quest_id, quest_name, step_current, step_total, timestamp</td></tr>
+        <tr><td><code>quest_completed</code></td><td>Все шаги выполнены</td><td>player_id, quest_id, quest_name, rewards[], timestamp</td></tr>
+        <tr><td><code>loyalty_tier_change</code></td><td>Смена уровня</td><td>player_id, old_tier, new_tier, timestamp</td></tr>
+        <tr><td><code>cc_earned</code></td><td>CC зачислены</td><td>player_id, amount_cc, source, timestamp</td></tr>
+        <tr><td><code>cc_spent</code></td><td>CC списаны</td><td>player_id, amount_cc, item_id, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.7 Рефералы</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>referral_link_generated</code></td><td>Создание реферальной ссылки</td><td>player_id, referral_code, timestamp</td></tr>
+        <tr><td><code>referral_registered</code></td><td>Приглашённый регистрируется</td><td>referrer_id, referred_player_id, timestamp</td></tr>
+        <tr><td><code>referral_qualified</code></td><td>STD приглашённого</td><td>referrer_id, referred_player_id, timestamp</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.8 Коммуникации</h3>
+    <table>
+      <thead><tr><th>Событие</th><th>Триггер</th><th>Обязательный payload</th></tr></thead>
+      <tbody>
+        <tr><td><code>email_opened</code></td><td>Открытие email</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>email_clicked</code></td><td>Клик в email</td><td>player_id, campaign_id, link_url, timestamp</td></tr>
+        <tr><td><code>sms_delivered</code></td><td>SMS доставлено</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>push_opened</code></td><td>Клик на push</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>popup_shown</code></td><td>Popup отображён</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>popup_clicked</code></td><td>Клик CTA в popup</td><td>player_id, campaign_id, timestamp</td></tr>
+        <tr><td><code>popup_dismissed</code></td><td>Popup закрыт</td><td>player_id, campaign_id, timestamp</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STEP 2: PLAYER ATTRIBUTES -->
+  <div class="card">
+    <h2>👤 Шаг 2: Атрибуты игрока</h2>
+    <p style="color:var(--text-secondary);margin-bottom:16px;">Хранить и предоставлять доступ для запросов в CRM для сегментации и персонализации.</p>
+
+    <h3>Идентификация</h3>
+    <table>
+      <thead><tr><th>Атрибут</th><th>Тип</th><th>Источник</th></tr></thead>
+      <tbody>
+        <tr><td><code>player_id</code></td><td>String</td><td>GR8 Tech (первичный ключ)</td></tr>
+        <tr><td><code>email</code></td><td>String</td><td>Регистрация</td></tr>
+        <tr><td><code>phone_number</code></td><td>String</td><td>Регистрация/KYC</td></tr>
+        <tr><td><code>first_name</code></td><td>String</td><td>Регистрация</td></tr>
+        <tr><td><code>country</code></td><td>String</td><td>Регистрация («AR»)</td></tr>
+        <tr><td><code>language</code></td><td>String</td><td>Регистрация («es-AR»)</td></tr>
+        <tr><td><code>registration_date</code></td><td>DateTime</td><td>Регистрация</td></tr>
+        <tr><td><code>birthday</code></td><td>Date</td><td>KYC/Профиль</td></tr>
+        <tr><td><code>zodiac_sign</code></td><td>String</td><td>Расчёт из birthday</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Финансовые</h3>
+    <table>
+      <thead><tr><th>Атрибут</th><th>Тип</th><th>Обновление</th></tr></thead>
+      <tbody>
+        <tr><td><code>deposit_count</code></td><td>Integer</td><td>При каждом депозите</td></tr>
+        <tr><td><code>cumulative_deposits_ars</code></td><td>Float</td><td>При каждом депозите</td></tr>
+        <tr><td><code>last_deposit_date</code></td><td>DateTime</td><td>При каждом депозите</td></tr>
+        <tr><td><code>ftd_date</code></td><td>DateTime</td><td>При первом депозите</td></tr>
+        <tr><td><code>ftd_amount_ars</code></td><td>Float</td><td>При первом депозите</td></tr>
+        <tr><td><code>std_date</code></td><td>DateTime</td><td>При втором депозите</td></tr>
+        <tr><td><code>average_deposit_ars</code></td><td>Float</td><td>Расчётный</td></tr>
+        <tr><td><code>payment_methods_used[]</code></td><td>Array</td><td>При каждом депозите</td></tr>
+        <tr><td><code>ggr_ars</code></td><td>Float</td><td>Ежедневно</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Геймплей</h3>
+    <table>
+      <thead><tr><th>Атрибут</th><th>Тип</th><th>Обновление</th></tr></thead>
+      <tbody>
+        <tr><td><code>game_preference</code></td><td>Enum</td><td>Еженедельно (slots/live/aviator/mixed/sport)</td></tr>
+        <tr><td><code>most_played_game_name</code></td><td>String</td><td>Еженедельно</td></tr>
+        <tr><td><code>top_3_games[]</code></td><td>Array</td><td>Еженедельно</td></tr>
+        <tr><td><code>total_wagered_ars</code></td><td>Float</td><td>Реальное время</td></tr>
+        <tr><td><code>biggest_win_ars</code></td><td>Float</td><td>Реальное время</td></tr>
+        <tr><td><code>last_session_date</code></td><td>DateTime</td><td>Реальное время</td></tr>
+        <tr><td><code>has_played_demo</code></td><td>Boolean</td><td>Реальное время</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Жизненный цикл и ценность</h3>
+    <table>
+      <thead><tr><th>Атрибут</th><th>Тип</th><th>Обновление</th></tr></thead>
+      <tbody>
+        <tr><td><code>lifecycle_stage</code></td><td>Enum</td><td>Реальное время</td></tr>
+        <tr><td><code>value_tier</code></td><td>Enum</td><td>Ежедневно (micro/low/mid/high/previp_plus)</td></tr>
+        <tr><td><code>days_since_last_activity</code></td><td>Integer</td><td>Ежедневно</td></tr>
+        <tr><td><code>churn_score</code></td><td>Float 0–1</td><td>Ежедневно</td></tr>
+        <tr><td><code>churn_risk_level</code></td><td>Enum</td><td>Ежедневно</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STEP 3: SEGMENTS -->
+  <div class="card">
+    <h2>🎯 Шаг 3: Создание сегментов</h2>
+
+    <h3>Сегменты жизненного цикла (7)</h3>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Условие</th><th>Маппинг на цепочку</th></tr></thead>
+      <tbody>
+        <tr><td><code>SEG-REGISTERED</code></td><td>has_account AND ftd_date IS NULL</td><td>Pre-FTD</td></tr>
+        <tr><td><code>SEG-FTD</code></td><td>ftd_date IS NOT NULL AND hours_since_ftd &lt; 24</td><td>Chain 01</td></tr>
+        <tr><td><code>SEG-D1LAYER</code></td><td>ftd_date IS NOT NULL AND hours 24–72</td><td>Chain 01</td></tr>
+        <tr><td><code>SEG-PRE-STD</code></td><td>deposits_count = 1 AND hours_since_ftd &gt; 72</td><td>Chain 05</td></tr>
+        <tr><td><code>SEG-REGULAR</code></td><td>deposits_count ≥ 2 AND last_login ≤ 14d</td><td>Chains 02,07–11</td></tr>
+        <tr><td><code>SEG-PREVIP</code></td><td>deposits 685K–1.37M ARS</td><td>Chain 02</td></tr>
+        <tr><td><code>SEG-VIP</code></td><td>По порогам GR8 Tech VIP I–IV</td><td>VIP</td></tr>
+      </tbody>
+    </table>
+
+    <h3>KYC сегменты (5)</h3>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Условие</th></tr></thead>
+      <tbody>
+        <tr><td><code>SEG-KYC-NONE</code></td><td>Нет верификации</td></tr>
+        <tr><td><code>SEG-KYC-EMAIL-PENDING</code></td><td>Email не верифицирован</td></tr>
+        <tr><td><code>SEG-KYC-PHONE-PENDING</code></td><td>Email ✓, телефон — нет</td></tr>
+        <tr><td><code>SEG-KYC-DOCS-PENDING</code></td><td>Email+Phone ✓, документы — нет</td></tr>
+        <tr><td><code>SEG-KYC-FULL</code></td><td>Полная верификация</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Поведенческие сегменты (7)</h3>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Условие</th></tr></thead>
+      <tbody>
+        <tr><td><code>SEG-GAME-SLOTS</code></td><td>slots_wagered / total &gt; 0.7</td></tr>
+        <tr><td><code>SEG-GAME-AVIATOR</code></td><td>aviator_wagered / total &gt; 0.3</td></tr>
+        <tr><td><code>SEG-GAME-LIVE</code></td><td>live_wagered / total &gt; 0.3</td></tr>
+        <tr><td><code>SEG-GAME-MIXED</code></td><td>Ни одно не доминирует</td></tr>
+        <tr><td><code>SEG-BOUNCE</code></td><td>Сессия &lt;60с</td></tr>
+        <tr><td><code>SEG-CASHIER-ABANDONED</code></td><td>Открыл кассу, не депонировал</td></tr>
+        <tr><td><code>SEG-BONUS-MISSED</code></td><td>Welcome bonus не активирован</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Реактивация (6)</h3>
+    <table>
+      <thead><tr><th>Сегмент</th><th>Условие</th></tr></thead>
+      <tbody>
+        <tr><td><code>SEG-DORMANT-7</code></td><td>last_login 7–13 дней назад</td></tr>
+        <tr><td><code>SEG-DORMANT-14</code></td><td>last_login 14–20 дней назад</td></tr>
+        <tr><td><code>SEG-DORMANT-21</code></td><td>last_login &gt; 20 дней назад</td></tr>
+        <tr><td><code>SEG-DORMANT-60</code></td><td>last_login &gt; 60 дней (подавлен)</td></tr>
+        <tr><td><code>SEG-ACTIVE-HISTORY</code></td><td>deposits ≥ 3, wagered ≥ 69K</td></tr>
+        <tr><td><code>SEG-PASSIVE-HISTORY</code></td><td>deposits &lt; 3 или wagered &lt; 69K</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STEP 4: CHANNEL CONFIG -->
+  <div class="card">
+    <h2>📢 Шаг 4: Конфигурация каналов</h2>
+    <table>
+      <thead><tr><th>Канал</th><th>Требуется KYC</th><th>Макс/день</th><th>Интервал</th></tr></thead>
+      <tbody>
+        <tr><td><span class="channel-badge ch-email">Email</span></td><td>Нет (всегда доступен)</td><td>2</td><td>4ч</td></tr>
+        <tr><td><span class="channel-badge ch-sms">SMS</span></td><td>KYC Partial (тел. верифицирован)</td><td>1</td><td>6ч</td></tr>
+        <tr><td><span class="channel-badge ch-push">Web Push</span></td><td>Нет (device token)</td><td>2</td><td>3ч</td></tr>
+        <tr><td><span class="channel-badge ch-popup">NC Popup</span></td><td>Нет (in-app)</td><td>1/сессию</td><td>Не в первые 60с</td></tr>
+        <tr><td><span class="channel-badge ch-inapp">NC Feed</span></td><td>Нет</td><td>2</td><td>4ч</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- STEP 5: PRIORITY ORDER -->
+  <div class="card">
+    <h2>📋 Шаг 5: Приоритетный порядок настройки</h2>
+    <div class="timeline">
+      <div class="timeline-item active">
+        <div class="tl-title">1. События реального времени (1.1–1.8)</div>
+        <div class="tl-time">День 1–2</div>
+        <div class="tl-desc">Подключить все 35+ событий от GR8 Tech к CRM. Валидация каждого payload.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">2. Атрибуты игрока</div>
+        <div class="tl-time">День 2–3</div>
+        <div class="tl-desc">Настроить все атрибуты, расчётные поля (game_preference, lifecycle_stage, churn_score).</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">3. Построение сегментов</div>
+        <div class="tl-time">День 3–4</div>
+        <div class="tl-desc">Создать 25+ сегментов (ЖЦ + KYC + поведенческие + реактивация + ценность).</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">4. Конфигурация каналов</div>
+        <div class="tl-time">День 4</div>
+        <div class="tl-desc">Лимиты частоты, тихие часы, правила попапов, Web Push SDK.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">5. Шаблоны бонусов</div>
+        <div class="tl-time">День 5</div>
+        <div class="tl-desc">Создать все бонусные шаблоны для цепочек 01–16 (CC, FS, матч, фрибет).</div>
+      </div>
+      <div class="timeline-item">
+        <div class="tl-title">6. Техническая валидация</div>
+        <div class="tl-time">День 5–7</div>
+        <div class="tl-desc">End-to-end тест: событие → сегмент → канал → бонус. Убедиться, что всё работает.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>Все 35+ событий срабатывают в реальном времени (&lt;5с)</li>
+      <li>Каждый payload содержит обязательные поля</li>
+      <li>Все атрибуты игрока заполняются корректно</li>
+      <li>Расчётные метрики обновляются по расписанию</li>
+      <li>25+ сегментов созданы и заполнены</li>
+      <li>Каналы сконфигурированы с лимитами частоты</li>
+      <li>Тихие часы установлены (00:00–08:00 ART)</li>
+      <li>Бонусные шаблоны готовы для всех цепочек</li>
+      <li>Deep links работают для всех целевых страниц</li>
+      <li>End-to-end тест пройден успешно</li>
+    </ul>
+  </div>
+
+  <!-- NAV -->
+  <div class="page-nav">
+    <a href="index.html">
+      <span class="pn-label">← Назад</span>
+      <span class="pn-title">Обзор всех кампаний</span>
+    </a>
+    <a href="17-smart-segmentation.html" class="next">
+      <span class="pn-label">Далее →</span>
+      <span class="pn-title">17 — Умная сегментация</span>
+    </a>
+  </div>
+
+  <div class="page-footer">CuatroBet CRM Implementation Plan · Doc 00 · GR8 Tech</div>
+</div>
+</body>
+</html>
