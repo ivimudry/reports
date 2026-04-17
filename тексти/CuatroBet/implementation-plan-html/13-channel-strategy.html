@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13 — Стратегия каналов и частота — CuatroBet CRM</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav-bar">
+  <span class="logo">🎯 CuatroBet CRM</span>
+  <div class="nav-links">
+    <a href="index.html">Обзор</a>
+    <a href="00-data-integration.html">00</a>
+    <a href="17-smart-segmentation.html">17</a>
+    <a href="13-channel-strategy.html" class="active">13</a>
+    <a href="04-payment-failure.html">04</a>
+    <a href="05-welcome-bonus.html">05</a>
+    <a href="01-day1-retention.html">01</a>
+    <a href="03-kyc-completion.html">03</a>
+    <a href="06-failed-deposits.html">06</a>
+    <a href="14-bonuses-landing.html">14</a>
+    <a href="07-no-bonus.html">07</a>
+    <a href="08-no-cashier.html">08</a>
+    <a href="02-pre-vip.html">02</a>
+    <a href="12-reactivation.html">12</a>
+    <a href="09-personalization.html">09</a>
+    <a href="15-bonus-shop.html">15</a>
+    <a href="10-engagement.html">10</a>
+    <a href="11-loyalty.html">11</a>
+    <a href="16-referral.html">16</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="nav-back">← Назад к обзору</a>
+
+  <div class="page-header">
+    <h1>13 — Стратегия каналов и частота коммуникаций</h1>
+    <div class="subtitle">Фаза 0 · Неделя 1 · Инфраструктура · Регулирует ВСЕ коммуникации</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-box blue"><div class="stat-value">6</div><div class="stat-label">Каналов</div></div>
+    <div class="stat-box green"><div class="stat-value">14</div><div class="stat-label">Часы тишины</div></div>
+    <div class="stat-box orange"><div class="stat-value">2-4/нед.</div><div class="stat-label">Email лимит</div></div>
+    <div class="stat-box purple"><div class="stat-value">1-2/нед.</div><div class="stat-label">SMS лимит</div></div>
+  </div>
+
+  <div class="info-box warning"><strong>Правило:</strong> Лимиты каналов СТАРШЕ приоритета journey. Если лимит достигнут — сообщение не отправляется, даже если оно критическое (кроме транзакций).</div>
+
+  <!-- CHANNEL MATRIX -->
+  <div class="card">
+    <h2>📡 Матрица каналов</h2>
+    <table>
+      <thead><tr><th>Канал</th><th>Приоритет</th><th>SLA (контракт)</th><th>Стоимость</th><th>Лимит/неделя</th><th>Лимит/день</th></tr></thead>
+      <tbody>
+        <tr><td>NC Feed (In-app)</td><td>🟢 Высокий</td><td>Реальное время</td><td>Бесплатно</td><td>Без лимита</td><td>3</td></tr>
+        <tr><td>Web Push</td><td>🟢 Высокий</td><td>&lt; 1 сек</td><td>Бесплатно*</td><td>5</td><td>1-2</td></tr>
+        <tr><td>Email</td><td>🟡 Средний</td><td>&lt; 30 сек</td><td>Низкая</td><td>2-4</td><td>1</td></tr>
+        <tr><td>Popup (On-site)</td><td>🟡 Средний</td><td>Реальное время</td><td>Бесплатно</td><td>3</td><td>1</td></tr>
+        <tr><td>SMS</td><td>🔴 Низкий</td><td>&lt; 60 сек</td><td>Высокая</td><td>1-2</td><td>1</td></tr>
+        <tr><td>WhatsApp</td><td>🔴 Низкий</td><td>&lt; 60 сек</td><td>Высокая</td><td>1-2</td><td>1</td></tr>
+      </tbody>
+    </table>
+    <div class="info-box info"><strong>*Web Push</strong> бесплатно с GR8 Tech, но требует opt-in от пользователя. Охват ~30-40% базы.</div>
+  </div>
+
+  <!-- CHANNEL SELECTION LOGIC -->
+  <div class="card">
+    <h2>🔀 Логика выбора каналов</h2>
+
+    <div class="flow-diagram">
+      <div class="flow-step" style="--step-color: var(--accent-blue)">
+        <div class="flow-label">Триггер → Определение KYC</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-green)">
+        <div class="flow-label">KYC_UNVERIFIED → Email + NC Feed + Web Push + Popup</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-orange)">
+        <div class="flow-label">KYC_PARTIAL → + SMS + WhatsApp (только для ≥ VT_MID)</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-purple)">
+        <div class="flow-label">KYC_FULL → Все каналы доступны</div>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step" style="--step-color: var(--accent-red)">
+        <div class="flow-label">Проверить лимиты → Канал доступен? → Отправить / Пропустить</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUIET HOURS -->
+  <div class="card">
+    <h2>🌙 Часы тишины и Smart Send</h2>
+    <table>
+      <thead><tr><th>Правило</th><th>Значение</th><th>Применение</th></tr></thead>
+      <tbody>
+        <tr><td>Часы тишины</td><td><strong>23:00 — 09:00 (ART)</strong></td><td>Все каналы, кроме NC Feed</td></tr>
+        <tr><td>Smart Send Time</td><td>На основе открытий за 30 дней</td><td>Email, Web Push</td></tr>
+        <tr><td>Throttle SMS</td><td>Не > 1 SMS/24h на пользователя</td><td>SMS, WhatsApp</td></tr>
+        <tr><td>Транзакционные</td><td>Часы тишины НЕ применяются</td><td>Подтверждение депозита, OTP</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FREQUENCY CAPPING -->
+  <div class="card">
+    <h2>🚦 Частотные лимиты (Frequency Capping)</h2>
+    <table>
+      <thead><tr><th>Тип</th><th>Маркетинговые</th><th>Триггерные (journey)</th><th>Транзакционные</th></tr></thead>
+      <tbody>
+        <tr><td>Email</td><td>2/нед.</td><td>+2/нед. (отдельный лимит)</td><td>без лимита</td></tr>
+        <tr><td>SMS</td><td>1/нед.</td><td>+1/нед.</td><td>без лимита</td></tr>
+        <tr><td>WhatsApp</td><td>1/нед.</td><td>+1/нед.</td><td>без лимита</td></tr>
+        <tr><td>NC Feed</td><td>1/день</td><td>+2/день</td><td>без лимита</td></tr>
+        <tr><td>Web Push</td><td>3/нед.</td><td>+2/нед.</td><td>без лимита</td></tr>
+        <tr><td>Popup</td><td>1/день</td><td>+1/день (критические)</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <div class="info-box warning">Маркетинговые и триггерные лимиты считаются <strong>отдельно</strong>. Journey-сообщение не «съедает» маркетинговый лимит.</div>
+  </div>
+
+  <!-- ESCALATION WATERFALL -->
+  <div class="card">
+    <h2>🔄 Каскад эскалации (Waterfall)</h2>
+    <div class="timeline">
+      <div class="timeline-item active"><div class="tl-title">1. NC Feed (In-app)</div><div class="tl-desc">Всегда первый. Если пользователь онлайн — показать немедленно</div></div>
+      <div class="timeline-item"><div class="tl-title">2. Web Push</div><div class="tl-desc">+15 мин. если NC Feed не был прочитан. Требует opt-in</div></div>
+      <div class="timeline-item"><div class="tl-title">3. Email</div><div class="tl-desc">+2 часа если всё ещё не прочитано. Smart Send Time если не срочно</div></div>
+      <div class="timeline-item"><div class="tl-title">4. Popup (On-site)</div><div class="tl-desc">При следующем входе на сайт. Одноразовый показ</div></div>
+      <div class="timeline-item"><div class="tl-title">5. SMS / WhatsApp</div><div class="tl-desc">+24 часа. Только для критических сообщений (оффер истекает) и value_tier ≥ MID</div></div>
+    </div>
+    <div class="info-box danger"><strong>Cost Guard:</strong> SMS/WhatsApp отправляется только если <code>value_tier ≥ VT_MID</code> И <code>estimated_value &gt; 10× message_cost</code>.</div>
+  </div>
+
+  <!-- CHANNEL PRIORITY PER JOURNEY -->
+  <div class="card">
+    <h2>📋 Приоритет каналов по типу journey</h2>
+    <table>
+      <thead><tr><th>Тип journey</th><th>Primary</th><th>Secondary</th><th>Escalation</th></tr></thead>
+      <tbody>
+        <tr><td>Day-1 Retention (01)</td><td>NC Feed + Web Push</td><td>Email</td><td>SMS (VT_MID+)</td></tr>
+        <tr><td>Payment Failure (04)</td><td>Web Push</td><td>Email</td><td>SMS (немедленно)</td></tr>
+        <tr><td>Welcome Bonus (05)</td><td>Email + NC Feed</td><td>Web Push</td><td>Popup</td></tr>
+        <tr><td>KYC (03)</td><td>Email</td><td>NC Feed</td><td>SMS + Popup</td></tr>
+        <tr><td>Reactivation (12)</td><td>Email</td><td>SMS</td><td>WhatsApp (VT_HIGH+)</td></tr>
+        <tr><td>VIP Lifecycle (02)</td><td>Email + WhatsApp</td><td>SMS</td><td>Персональный звонок</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value">< 1%</div><div class="kpi-label">Unsubscribe rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">&lt; 0.3%</div><div class="kpi-label">Spam complaint</div></div>
+    <div class="kpi-card"><div class="kpi-value">25%+</div><div class="kpi-label">Email open rate</div></div>
+    <div class="kpi-card"><div class="kpi-value">3%+</div><div class="kpi-label">Web Push CTR</div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div class="card">
+    <h2>✅ Контрольный чек-лист</h2>
+    <ul class="checklist">
+      <li>NC Feed настроен и работает в реальном времени</li>
+      <li>Web Push opt-in flow реализован</li>
+      <li>Email домен прогрет, SPF/DKIM/DMARC настроены</li>
+      <li>SMS провайдер подключен (CM.com / другой)</li>
+      <li>WhatsApp Business API подключен</li>
+      <li>Часы тишины 23:00–09:00 ART применяются</li>
+      <li>Smart Send Time активирован для Email + Web Push</li>
+      <li>Frequency caps настроены (маркетинг + триггеры отдельно)</li>
+      <li>Cost Guard для SMS/WhatsApp включён (VT_MID+)</li>
+      <li>Waterfall escalation настроен для каждого типа journey</li>
+      <li>Транзакционные сообщения освобождены от лимитов</li>
+    </ul>
+  </div>
+
+  <div class="page-nav">
+    <a href="17-smart-segmentation.html"><span class="pn-label">← Назад</span><span class="pn-title">17 — Умная сегментация</span></a>
+    <a href="04-payment-failure.html" class="next"><span class="pn-label">Далее →</span><span class="pn-title">04 — Сбой платежа</span></a>
+  </div>
+  <div class="page-footer">CuatroBet CRM Implementation Plan · Doc 13 · GR8 Tech</div>
+</div>
+</body>
+</html>
