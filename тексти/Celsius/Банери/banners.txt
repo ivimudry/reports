@@ -394,10 +394,10 @@ banner_text: 170% Bonus
 Welcome Flow
 
 Email 1C
-banner_text: 4 WELCOME BNUSES, 250 FREE SPINS, ONE EPIC START
+banner_text: 4 WELCOME BONUSES, 250 FREE SPINS, ONE EPIC START
 
 Email 2C
-banner_text: GET 100% + 150 FS ON LE BANDIT
+banner_text: GET 100% + 150 FS ON Le Bandit
 
 Email 3C
 banner_text: GET 100% BONUS + 150 FS. CHAOS CREW 2
