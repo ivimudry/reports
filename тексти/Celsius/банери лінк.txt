@@ -150,10 +150,10 @@ Email 8M
 
 
 Email 9M
-banner_text: 160% + 90 Free Spins or 25% NoRisk FreeBet
+
 
 Email 10M
-banner_text: 160% + 90 Free Spins or 25% NoRisk FreeBet
+
 
 
 
@@ -163,43 +163,43 @@ banner_text: 160% + 90 Free Spins or 25% NoRisk FreeBet
 Welcome Flow
 
 Email 1C
-banner_text: 4 WELCOME BNUSES, 250 FREE SPINS, ONE EPIC START
+
 
 Email 2C
-banner_text: GET 100% + 150 FS ON LE BANDIT
+
 
 Email 3C
-banner_text: GET 100% BONUS + 150 FS. CHAOS CREW 2
+
 
 Email 4C
-banner_text: 120% + 170 Free Spins
+
 
 Email 5C
-banner_text: 100% + 150 Free Spins
+
 
 Email 6C
-banner_text: GET 100% + 150 FS ON LE BANDIT
+
 
 Email 7C
-banner_text: Last Week's Top Wins - Will You Be Next?
+
 
 Email 8C
-banner_text: 100% + 150 Free Spins
+
 
 Email 9C
-banner_text: 180 Free Spins
+
 
 Email 1S
-banner_text: START WITH UP TO €700 IN FREEBETS ON YOUR FIRST TWO DEPOSITS
+
 
 Email 2S
-banner_text: 50% ON DEPOSIT
+
 
 Email 3S
-banner_text: 50% ON DEPOSIT
+
 
 Email 4S
-banner_text: 50% FreeBets Bonus up to €200 on First Deposit
+ First Deposit
 
 Email 5S
 banner_text: 50% FreeBets Bonus up to €200 on First Deposit
