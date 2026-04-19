@@ -1,0 +1,26 @@
+﻿
+
+################################################################################
+# Welcome Flow - Table data.txt
+# Default blocks: 27
+################################################################################
+
+--- Email 1C ---
+python : Traceback (most recent call last):
+At line:1 char:1
++ python _extract_bodies.py 2>&1 | Out-File -FilePath "_all_bodies.txt" ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Projects\REPORTS\ЄхъёЄш\Celsius\_extract_bodies.py", line 86, in <mo
+dule>
+    print(f"S: {subj}")
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ivimu\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp
+1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in posi
+tion 3: character maps to <undefined>
