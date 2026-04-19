@@ -1,0 +1,475 @@
+DEP Retention
+
+Email 1C
+banner_text: 170% Bonus na następną wpłatę
+
+Email 2C
+banner_text: 150% + 70 Darmowych Spinów na Chaos Crew 2
+
+Email 3C
+banner_text: Zacznij swoją zwycięską historię
+
+Email 4C
+banner_text: 160% + 80 Darmowych Spinów na Wild West Gold
+
+Email 5C
+banner_text: 170% Bonus na następną wpłatę
+
+Email 6C
+banner_text: Następny spin może być Twój
+
+Email 7C
+banner_text: 160% + 80 Darmowych Spinów na Wild West Gold
+
+Email 8C
+banner_text: 180% + 80 Darmowych Spinów na Wanted Dead or a Wild
+
+Email 9C
+banner_text: 140% + 100 Darmowych Spinów na Big Bamboo
+
+Email 10C
+banner_text: 200 Darmowych Spinów na Gems Bonanza
+
+Email 1S
+banner_text: 20% Zakład Bez Ryzyka
+
+Email 2S
+banner_text: 20% Zakład Bez Ryzyka
+
+Email 3S
+banner_text: Najlepsze wygrane zeszłego tygodnia - Czy będziesz następny?
+
+Email 4S
+banner_text: 170% Bonus na następną wpłatę
+
+Email 5S
+banner_text: 20% Zakład Bez Ryzyka
+
+Email 6S
+banner_text: 170% Bonus na następną wpłatę
+
+Email 7S
+banner_text: 20% Zakład Bez Ryzyka
+
+Email 8S
+banner_text: Wielkie wygrane w zeszłym tygodniu - Czas na Twój ruch!
+
+Email 9S
+banner_text: 30% Zakład Bez Ryzyka
+
+Email 10S
+banner_text: 30% Zakład Bez Ryzyka
+
+
+
+
+SU Retention
+
+Email 1C
+banner_text: 100% + 150 Darmowych Spinów
+
+Email 2C
+banner_text: 100% + 150 Darmowych Spinów
+
+Email 3C
+banner_text: 140% Bonus
+
+Email 4C
+banner_text: 130% + 70 DS na Sweet Bonanza
+
+Email 5C
+banner_text: 140% Bonus
+
+Email 6C
+banner_text: Ponad $100K wygranych w zeszłym tygodniu. Następny spin może być Twój!
+
+Email 7C
+banner_text: 140% + 80 DS na Chaos Crew 2
+
+Email 8C
+banner_text: Najlepsze wygrane na slotach zeszłego tygodnia - Dołącz do akcji
+
+Email 9C
+banner_text: 130% + 70 DS na Rich Wilde and the Tome of Madness
+
+Email 10C
+banner_text: Prawdziwe wygrane, prawdziwi gracze, Twoja kolej?
+
+Email 1S
+banner_text: 15% Zakład Bez Ryzyka
+
+Email 2S
+banner_text: 4% Cashback Sportowy
+
+Email 3S
+banner_text: 15% Zakład Bez Ryzyka
+
+Email 4S
+banner_text: 4% Cashback Sportowy
+
+Email 5S
+banner_text: 15% Zakład Bez Ryzyka
+
+Email 6S
+banner_text: 15% Zakład Bez Ryzyka
+
+Email 7S
+banner_text: 20% Zakład Bez Ryzyka
+
+Email 8S
+banner_text: 20% Zakład Bez Ryzyka
+
+Email 9S
+banner_text: 25% Zakład Bez Ryzyka
+
+Email 10S
+banner_text: 15% Zakład Bez Ryzyka
+
+Email 1M
+banner_text: 100% + 150 Darmowych Spinów + 15% Zakład Bez Ryzyka
+
+Email 2M
+banner_text: 100% + 150 DS na Casino + 4% Cashback na Sport
+
+Email 3M
+banner_text: 140% Bonus Casino lub 15% Zakład Bez Ryzyka
+
+Email 4M
+banner_text: 130% + 70 DS na Sweet Bonanza
+
+Email 5M
+banner_text: 140% Bonus Casino lub 15% Zakład Bez Ryzyka
+
+Email 6M
+banner_text: 140% Bonus Casino lub 15% Zakład Bez Ryzyka
+
+Email 7M
+banner_text: 140% + 80 Darmowych Spinów lub 20% Zakład Bez Ryzyka
+
+Email 8M
+banner_text: 140% + 80 Darmowych Spinów lub 20% Zakład Bez Ryzyka
+
+Email 9M
+banner_text: 160% + 90 Darmowych Spinów lub 25% Zakład Bez Ryzyka
+
+Email 10M
+banner_text: 160% + 90 Darmowych Spinów lub 25% Zakład Bez Ryzyka
+
+
+
+
+
+FTD Retention Flow
+
+Email 1C
+banner_text: 100% + 50 DS Wznieś się z Anubisem
+
+Email 2C
+banner_text: Następny spin może być Twój
+
+Email 3C
+banner_text: 140% + 50 DS Tylko na Fruit Party
+
+Email 4C
+banner_text: 110% + 50 DS Czas na zabawę
+
+Email 5C
+banner_text: 100% + 80 DS Twój cukrowy strzał czeka
+
+Email 6C
+banner_text: 100% + 150 DS Odblokuj sekrety
+
+Email 7C
+banner_text: Twój następny rozdział zaczyna się teraz
+
+Email 8C
+banner_text: 150% + 30 DS Power Up na Stormforged
+
+Email 1S
+banner_text: 20% Zakład Bez Ryzyka dostępny teraz
+
+Email 2S
+banner_text: 20% Zakład Bez Ryzyka już czeka
+
+Email 3S
+banner_text: 20% Zakład Bez Ryzyka Zaczynamy znowu!
+
+Email 4S
+banner_text: 25% Zakład Bez Ryzyka aktywny teraz
+
+Email 5S
+banner_text: 30% Zakład Bez Ryzyka Tylko wygrana dostępna teraz
+
+Email 6S
+banner_text: 20% Zakład Bez Ryzyka Masz wsparcie
+
+Email 7S
+banner_text: 20% Zakład Bez Ryzyka Jesteś zabezpieczony
+
+Email 8S
+banner_text: 20% Zakład Bez Ryzyka Zawsze jesteś w grze
+
+Email 1M
+banner_text: 100% + 50 DS lub 20% Zakład Bez Ryzyka
+
+Email 2M
+banner_text: 100% + 60 DS lub 20% Zakład Bez Ryzyka
+
+Email 3M
+banner_text: Do 4% Cashback + 30% Zakład Bez Ryzyka
+
+Email 4M
+banner_text: Najlepsze wygrane na slotach tygodnia
+
+Email 5M
+banner_text: 100% + 70 DS lub 20% Zakład Bez Ryzyka
+
+Email 6M
+banner_text: Do 4% Cashback + 30% Zakład Bez Ryzyka
+
+Email 7M
+banner_text: Ponad $120K wygranych w tym miesiącu, dołącz!
+
+Email 8M
+banner_text: Do 4% Cashback + 30% Zakład Bez Ryzyka
+
+
+
+
+
+Nutrition #2 
+
+Email 1S
+banner_text: Graj mądrze. Wygrywaj dużo. 20% Zakład Bez Ryzyka
+
+Email 2S
+banner_text: Wygrywaj lub zwrot - Jesteś zabezpieczony! 20% Zakład Bez Ryzyka
+
+Email 3S
+banner_text: Twoja wygrana. Na Twój sposób. 20% Zakład Bez Ryzyka
+
+Email 4S
+banner_text: Sama gra. Zero ryzyka. 20% Zakład Bez Ryzyka
+
+Email 5S
+banner_text: Twoja kolej na wygraną!
+
+Email 6S
+banner_text: Celuj. Obstawiaj. Wygrywaj. 20% Zakład Bez Ryzyka
+
+Email 7S
+banner_text: Obstawiaj odważnie. Wygrywaj dużo. 20% Zakład Bez Ryzyka
+
+Email 8S
+banner_text: Zero ryzyka. Sama nagroda. 20% Zakład Bez Ryzyka
+
+Email 1CS
+banner_text: Podwój & Kręć! 100% + 50 DS
+
+Email 2CS
+banner_text: Twoja kolej na wygraną!
+
+Email 3CS
+banner_text: Rozpętaj szaleństwo! 200% + 50 DS
+
+Email 4CS
+banner_text: Graj więcej, wygrywaj więcej! 100% + 50 DS
+
+Email 5CS
+banner_text: Odkryj szaleństwo! 200% + 50 DS
+
+Email 6CS
+banner_text: Twoja kolej na wygraną!
+
+Email 7CS
+banner_text: Kręć swoją drogę na szczyt!
+
+Email 8CS
+banner_text: Odkryj starożytne bogactwa! 100 DS
+
+Email 1CL
+banner_text: Podwój & Kręć! 100% + 50 DS
+
+Email 2CL
+banner_text: Twoja kolej na wygraną!
+
+Email 3CL
+banner_text: Podwójne saldo, podwójny dreszcz! 100%
+
+Email 4CL
+banner_text: Twoja kolej na wielką wygraną!
+
+Email 5CL
+banner_text: Potrójne saldo, potrójny dreszcz! 200%
+
+Email 6CL
+banner_text: Twoja kolej na wygraną!
+
+Email 7CL
+banner_text: Większe saldo, większe wygrane. 210%
+
+Email 8CL
+banner_text: Graj większe. Wygrywaj większe. 220%
+
+
+
+
+Nutrition #3
+
+Email 1S
+banner_text: Graj mądrze. Wygrywaj dużo. 20% Zakład Bez Ryzyka
+
+Email 2S
+banner_text: Wygrywaj lub zwrot - Jesteś zabezpieczony! 20% Zakład Bez Ryzyka
+
+Email 3S
+banner_text: Twoja wygrana. Na Twój sposób. 20% Zakład Bez Ryzyka
+
+Email 4S
+banner_text: Sama gra. Zero ryzyka. 20% Zakład Bez Ryzyka
+
+Email 5S
+banner_text: Twoja kolej na wygraną!
+
+Email 6S
+banner_text: Celuj. Obstawiaj. Wygrywaj. 20% Zakład Bez Ryzyka
+
+Email 7S
+banner_text: Obstawiaj odważnie. Wygrywaj dużo. 20% Zakład Bez Ryzyka
+
+Email 8S
+banner_text: Zero ryzyka. Sama nagroda. 20% Zakład Bez Ryzyka
+
+Email 1CS
+banner_text: Rozpętaj szaleństwo! 200% + 50 DS
+
+Email 2CS
+banner_text: Twoja kolej na wygraną!
+
+Email 3CS
+banner_text: Odkryj szaleństwo! 200% + 50 DS
+
+Email 4CS
+banner_text: Twoja kolej na wygraną!
+
+Email 5CS
+banner_text: Twoja kolej na wygraną!
+
+Email 6CS
+banner_text: Rozpętaj szaleństwo! 200% + 50 DS
+
+Email 7CS
+banner_text: Graj większe. Wygrywaj większe. 170% + 30 DS
+
+Email 8CS
+banner_text: Odkryj szaleństwo! 200% + 50 DS
+
+Email 1CL
+banner_text: 150% Bonus
+
+Email 2CL
+banner_text: Twoja kolej na wielką wygraną!
+
+Email 3CL
+banner_text: Odkryj szaleństwo! 200% + 50 DS
+
+Email 4CL
+banner_text: 170% Bonus
+
+Email 5CL
+banner_text: Twoja kolej na wygraną!
+
+Email 6CL
+banner_text: 170% Bonus
+
+Email 7CL
+banner_text: Graj większe. Wygrywaj większe. 170% + 30 DS
+
+Email 8CL
+banner_text: 170% Bonus
+
+
+
+
+Welcome Flow
+
+Email 1C
+banner_text: 4 BONUSY POWITALNE, 250 DARMOWYCH SPINÓW, JEDEN EPICKI START
+
+Email 2C
+banner_text: ODBIERZ 100% + 150 DS NA LE BANDIT
+
+Email 3C
+banner_text: ODBIERZ 100% BONUS + 150 DS. CHAOS CREW 2
+
+Email 4C
+banner_text: 120% + 170 Darmowych Spinów
+
+Email 5C
+banner_text: 100% + 150 Darmowych Spinów
+
+Email 6C
+banner_text: ODBIERZ 100% + 150 DS NA LE BANDIT
+
+Email 7C
+banner_text: Najlepsze wygrane zeszłego tygodnia - Czy będziesz następny?
+
+Email 8C
+banner_text: 100% + 150 Darmowych Spinów
+
+Email 9C
+banner_text: 180 Darmowych Spinów
+
+Email 1S
+banner_text: ZACZNIJ Z NAWET €700 W ZAKŁADACH BEZ RYZYKA NA PIERWSZE DWIE WPŁATY
+
+Email 2S
+banner_text: 50% NA WPŁATĘ
+
+Email 3S
+banner_text: 50% NA WPŁATĘ
+
+Email 4S
+banner_text: 50% Bonus Zakład Bez Ryzyka do €200 na pierwszą wpłatę
+
+Email 5S
+banner_text: 50% Bonus Zakład Bez Ryzyka do €200 na pierwszą wpłatę
+
+Email 6S
+banner_text: 50% Bonus Zakład Bez Ryzyka do €200 na pierwszą wpłatę
+
+Email 7S
+banner_text: 60% Bonus Zakład Bez Ryzyka do €200 na pierwszą wpłatę
+
+Email 8S
+banner_text: 60% Bonus Zakład Bez Ryzyka do €200 na pierwszą wpłatę
+
+Email 9S
+banner_text: 60% Bonus Zakład Bez Ryzyka do €200 na pierwszą wpłatę
+
+Email 1M
+banner_text: Bonus Cashback - Więcej gry, więcej zwrotów, na Twój sposób
+
+Email 2M
+banner_text: ODBIERZ 10% ZAKŁAD BEZ RYZYKA
+
+Email 3M
+banner_text: Najlepsze wygrane zeszłego tygodnia - Czy będziesz następny?
+
+Email 4M
+banner_text: 100% Darmowe Spiny + 20% Zakład Bez Ryzyka
+
+Email 5M
+banner_text: Wielkie wygrane, gorące bębny, kursy na żywo - Twój ruch
+
+Email 6M
+banner_text: Wielkie wygrane w zeszłym tygodniu - Czas na Twój ruch
+
+Email 7M
+banner_text: 100 DARMOWYCH SPINÓW + 20% ZAKŁAD BEZ RYZYKA
+
+Email 8M
+banner_text: Prawdziwe wygrane. Kursy na żywo. Twój ruch.
+
+Email 9M
+banner_text: 100 DARMOWYCH SPINÓW + 20% ZAKŁAD BEZ RYZYKA
