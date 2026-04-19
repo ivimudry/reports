@@ -90,64 +90,64 @@ Email 8C
 
 
 Email 9C
-Tome of Madness
+
 
 Email 10C
-banner_text: Real Wins, Real Players, Your Turn?
+
 
 Email 1S
-banner_text: 15% NoRisk FreeBet
+
 
 Email 2S
-banner_text: 4% Sports Cashback
+
 
 Email 3S
-banner_text: 15% NoRisk FreeBet
+
 
 Email 4S
-banner_text: 4% Sports Cashback
+
 
 Email 5S
-banner_text: 15% NoRisk FreeBet
+
 
 Email 6S
-banner_text: 15% NoRisk FreeBet
+
 
 Email 7S
-banner_text: 20% NoRisk FreeBet
+
 
 Email 8S
-banner_text: 20% NoRisk FreeBet
+
 
 Email 9S
-banner_text: 25% NoRisk FreeBet
+
 
 Email 10S
-banner_text: 15% NoRisk FreeBet
+
 
 Email 1M
-banner_text: 100% + 150 Free Spins + 15% NoRisk FreeBet
+
 
 Email 2M
-banner_text: 100% + 150 FS for Casino + 4% Cashback for Sports
+
 
 Email 3M
-banner_text: 140% Casino Bonus or 15% NoRisk FreeBet
+
 
 Email 4M
-banner_text: 130% + 70 FS on Sweet Bonanza
+
 
 Email 5M
-banner_text: 140% Casino Bonus or 15% NoRisk FreeBet
+
 
 Email 6M
-banner_text: 140% Casino Bonus or 15% NoRisk FreeBet
+
 
 Email 7M
-banner_text: 140% + 80 Free Spins or 20% NoRisk FreeBet
+
 
 Email 8M
-banner_text: 140% + 80 Free Spins or 20% NoRisk FreeBet
+
 
 Email 9M
 banner_text: 160% + 90 Free Spins or 25% NoRisk FreeBet
