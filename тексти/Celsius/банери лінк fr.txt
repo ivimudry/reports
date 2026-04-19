@@ -1,0 +1,244 @@
+DEP Retention
+
+Email 1C
+
+
+Email 2C
+
+
+Email 3C
+
+
+Email 4C
+
+
+Email 5C
+
+
+Email 6C
+
+
+Email 7C
+
+
+Email 8C
+
+
+Email 9C
+
+
+Email 10C
+
+
+Email 1S
+
+
+Email 2S
+
+
+Email 3S
+
+
+Email 4S
+
+
+Email 5S
+
+
+Email 6S
+
+
+Email 7S
+
+
+Email 8S
+
+
+Email 9S
+
+
+Email 10S
+
+
+
+
+
+SU Retention
+
+Email 1C
+
+
+Email 2C
+
+
+Email 3C
+
+
+Email 4C
+
+
+Email 5C
+
+
+Email 6C
+
+
+Email 7C
+
+
+Email 8C
+
+
+Email 9C
+
+
+Email 10C
+
+
+Email 1S
+
+
+Email 2S
+
+
+Email 3S
+
+
+Email 4S
+
+
+Email 5S
+
+
+Email 6S
+
+
+Email 7S
+
+
+Email 8S
+
+
+Email 9S
+
+
+Email 10S
+
+
+Email 1M
+
+
+Email 2M
+
+
+Email 3M
+
+
+Email 4M
+
+
+Email 5M
+
+
+Email 6M
+
+
+Email 7M
+
+
+Email 8M
+
+
+Email 9M
+
+
+Email 10M
+
+
+
+
+
+
+
+Welcome Flow
+
+Email 1C
+
+
+Email 2C
+
+
+Email 3C
+
+
+Email 4C
+
+
+Email 5C
+
+
+Email 6C
+
+
+Email 7C
+
+
+Email 8C
+
+
+Email 9C
+
+
+Email 1S
+
+
+Email 2S
+
+
+Email 3S
+
+
+Email 4S
+
+
+Email 5S
+
+
+Email 6S
+
+
+Email 7S
+
+
+Email 8S
+
+
+Email 9S
+
+
+Email 1M
+
+
+Email 2M
+
+
+Email 3M
+
+
+Email 4M
+
+
+Email 5M
+
+
+Email 6M
+
+
+Email 7M
+
+
+Email 8M
+
+
+Email 9M
+
