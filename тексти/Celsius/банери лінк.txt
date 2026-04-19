@@ -43,22 +43,22 @@ Email 4S
 
 
 Email 5S
-banner_text: 20% NoRisk FreeBet
+
 
 Email 6S
-banner_text: 170% Bonus on next deposit
+
 
 Email 7S
-banner_text: 20% NoRisk FreeBet
+
 
 Email 8S
-banner_text: Big Wins Last Week - Time To Make Your Move!
+
 
 Email 9S
-banner_text: 30% NoRisk FreeBet
+
 
 Email 10S
-banner_text: 30% NoRisk FreeBet
+
 
 
 
@@ -66,31 +66,31 @@ banner_text: 30% NoRisk FreeBet
 SU Retention
 
 Email 1C
-banner_text: 100% + 150 Free Spins
+
 
 Email 2C
-banner_text: 100% + 150 Free Spins
+
 
 Email 3C
-banner_text: 140% Bonus
+
 
 Email 4C
-banner_text: 130% + 70 FS on Sweet Bonanza
+
 
 Email 5C
-banner_text: 140% Bonus
+
 
 Email 6C
-banner_text: $100K+ Won Last Week. Next Spin Could Be Yours!
+
 
 Email 7C
-banner_text: 140% + 80 FS on Chaos Crew 2
+
 
 Email 8C
-banner_text: Last Week's Top Slot Wins Join the Action
+
 
 Email 9C
-banner_text: 130% + 70 FS on Rich Wilde and the Tome of Madness
+Tome of Madness
 
 Email 10C
 banner_text: Real Wins, Real Players, Your Turn?
