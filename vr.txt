@@ -1,0 +1,10 @@
+OK DEP Retention - Table data.txt
+OK FTD Retention Flow - Table data.txt
+ISSUES Failed Deposit Flow - Table data.txt: 1
+  L13 [rich_text] Email 1: "Your recent deposit attempt"
+OK Nutrition #2 - Table data.txt
+OK Nutrition #3 - Table data.txt
+OK SU Retention - Table data.txt
+OK Welcome Flow - Table data.txt
+
+TOTAL: 1
