@@ -54,6 +54,9 @@ def extract_h2_strong_inner(html):
 import sys, io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
+OUT_FILE = os.path.join(BASE, '_all_bodies.txt')
+out = open(OUT_FILE, 'w', encoding='utf-8')
+
 for fname in FILES:
     fpath = os.path.join(BASE, fname)
     if not os.path.exists(fpath):
@@ -62,10 +65,10 @@ for fname in FILES:
     blocks = parse_file(fpath)
     defaults = {b['name']: b for b in blocks if b.get('locale') == 'Default'}
     
-    print(f"\n\n{'#'*80}")
-    print(f"# {fname}")
-    print(f"# Default blocks: {len(defaults)}")
-    print(f"{'#'*80}")
+    out.write(f"\n\n{'#'*80}\n")
+    out.write(f"# {fname}\n")
+    out.write(f"# Default blocks: {len(defaults)}\n")
+    out.write(f"{'#'*80}\n")
     
     for name in sorted(defaults.keys(), key=lambda x: (x.split()[1] if len(x.split())>1 else '', x)):
         d = defaults[name]
@@ -85,27 +88,29 @@ for fname in FILES:
         t3_is_body = t3 and 'Celsius Casino Team' not in t3 and "L'équipe" not in t3
         body3 = extract_p_inner(t3) if t3_is_body else ''
         
-        print(f"\n--- {name} ---")
-        print(f"S: {subj}")
-        print(f"P: {preh}")
-        print(f"B: {btn}")
-        print(f"G: {greeting}")
+        out.write(f"\n--- {name} ---\n")
+        out.write(f"S: {subj}\n")
+        out.write(f"P: {preh}\n")
+        out.write(f"B: {btn}\n")
+        out.write(f"G: {greeting}\n")
         if body:
-            # Show body with HTML tags visible but readable
             clean = body.replace('<br>', '\n').replace('<br><br>', '\n\n')
             clean = re.sub(r'<strong class="promocode">(.*?)</strong>', r'[PROMO:\1]', clean)
             clean = re.sub(r'<strong>(.*?)</strong>', r'**\1**', clean)
             clean = re.sub(r'<[^>]+>', '', clean)
             clean = re.sub(r'\s+', ' ', clean).strip()
-            print(f"BODY: {clean[:300]}")
+            out.write(f"BODY: {clean[:400]}\n")
         if body3:
             clean3 = body3.replace('<br>', '\n')
             clean3 = re.sub(r'<strong class="promocode">(.*?)</strong>', r'[PROMO:\1]', clean3)
             clean3 = re.sub(r'<strong>(.*?)</strong>', r'**\1**', clean3)
             clean3 = re.sub(r'<[^>]+>', '', clean3)
             clean3 = re.sub(r'\s+', ' ', clean3).strip()
-            print(f"BODY3: {clean3[:300]}")
+            out.write(f"BODY3: {clean3[:400]}\n")
         if rt:
             clean_rt = re.sub(r'<[^>]+>', '', rt)
             clean_rt = re.sub(r'\s+', ' ', clean_rt).strip()
-            print(f"RICH: {clean_rt[:300]}")
+            out.write(f"RICH: {clean_rt[:400]}\n")
+
+out.close()
+print("Done")
