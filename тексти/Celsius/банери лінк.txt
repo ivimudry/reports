@@ -199,46 +199,46 @@ Email 3S
 
 
 Email 4S
- First Deposit
+
 
 Email 5S
-banner_text: 50% FreeBets Bonus up to €200 on First Deposit
+
 
 Email 6S
-banner_text: 50% FreeBets Bonus up to €200 on First Deposit
+
 
 Email 7S
-banner_text: 60% FreeBets Bonus up to €200 on First Deposit
+
 
 Email 8S
-banner_text: 60% FreeBets Bonus up to €200 on First Deposit
+
 
 Email 9S
-banner_text: 60% FreeBets Bonus up to €200 on First Deposit
+
 
 Email 1M
-banner_text: Cashback Bonus - More Play, More Back, Your Way
+
 
 Email 2M
-banner_text: GET 10% NORISK FREEBETS
+
 
 Email 3M
-banner_text: Last Week's Top Wins - Will You Be Next?
+
 
 Email 4M
-banner_text: 100% Free Spins + 20% NoRisk FreeBets
+
 
 Email 5M
-banner_text: Big Wins, Hot Reels, Live Odds - Your Move
+
 
 Email 6M
-banner_text: Big Wins Last Week - Time to Make Your Move
+
 
 Email 7M
-banner_text: 100 FREE SPINS + 20% NORISK FREEBETS
+
 
 Email 8M
-banner_text: Real Wins. Live Odds. Your Move.
+
 
 Email 9M
 banner_text: 100 FREE SPINS + 20% NORISK FREEBETS
