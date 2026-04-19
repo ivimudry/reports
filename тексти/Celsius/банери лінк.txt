@@ -1,46 +1,46 @@
 DEP Retention
 
 Email 1C
-banner_text: 170% Bonus on next deposit
+
 
 Email 2C
-banner_text: 150% + 70 Free Spins on Chaos Crew 2
+
 
 Email 3C
-banner_text: Start your Winning Story
+
 
 Email 4C
-banner_text: 160% + 80 Free Spins on Wild West Gold
+
 
 Email 5C
-banner_text: 170% Bonus on next deposit
+
 
 Email 6C
-banner_text: The Next Spin Could Be Yours
+
 
 Email 7C
-banner_text: 160% + 80 Free Spins on Wild West Gold
+
 
 Email 8C
-banner_text: 180% + 80 Free Spins on Wanted Dead or a Wild
+
 
 Email 9C
-banner_text: 140% + 100 Free Spins on Big Bamboo
+
 
 Email 10C
-banner_text: 200 Free Spins on Gems Bonanza
+
 
 Email 1S
-banner_text: 20% NoRisk FreeBet
+
 
 Email 2S
-banner_text: 20% NoRisk FreeBet
+
 
 Email 3S
-banner_text: Last Week's Top Wins Will You Be Next?
+
 
 Email 4S
-banner_text: 170% Bonus on next deposit
+
 
 Email 5S
 banner_text: 20% NoRisk FreeBet
