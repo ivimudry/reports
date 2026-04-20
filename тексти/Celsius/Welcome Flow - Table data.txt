@@ -2469,7 +2469,7 @@ button_text_1: TRY YOUR LUCK
 button_href_1: https://celsiuscasino.com/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=en&utm_bonus_type=casino
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCN9M8RGFVDNM4019CPS.png
 logo_href: https://celsiuscasino.com/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=en&utm_bonus_type=casino
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKK8E8NENW5QBSJ7VJWVSDA.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPMYRWEP26SCKBWNDMV3R7YB.png
 banner_href: https://celsiuscasino.com/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=en&utm_bonus_type=casino
 x_icon_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCF46GCAC2FN8BN1NP2J.png
 x_icon_href: https://x.com/celsiuscasino?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=en&utm_bonus_type=casino
@@ -2503,7 +2503,7 @@ button_text_1: TENTEZ VOTRE CHANCE
 button_href_1: https://celsiuscasino.com/fr/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=fr&utm_bonus_type=casino
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCN9M8RGFVDNM4019CPS.png
 logo_href: https://celsiuscasino.com/fr/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=fr&utm_bonus_type=casino
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKK93M16TDKZH4W1YEHPYJY.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPMYVA80HDVZKT7RF2PH7ATK.png
 banner_href: https://celsiuscasino.com/fr/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=fr&utm_bonus_type=casino
 x_icon_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCF46GCAC2FN8BN1NP2J.png
 x_icon_href: https://x.com/celsiuscasino?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=fr&utm_bonus_type=casino
@@ -2537,7 +2537,7 @@ button_text_1: PRÓBÁLD KI A SZERENCSÉD
 button_href_1: https://celsiuscasino.com/hu/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=hu&utm_bonus_type=casino
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCN9M8RGFVDNM4019CPS.png
 logo_href: https://celsiuscasino.com/hu/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=hu&utm_bonus_type=casino
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKK9ZVXQTG7QNKMAKDEG8N7.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPMYZBSGM1YFAYK6YGYRSRMA.png
 banner_href: https://celsiuscasino.com/hu/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=hu&utm_bonus_type=casino
 x_icon_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCF46GCAC2FN8BN1NP2J.png
 x_icon_href: https://x.com/celsiuscasino?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=hu&utm_bonus_type=casino
@@ -2571,7 +2571,7 @@ button_text_1: SPRÓBUJ SZCZĘŚCIA
 button_href_1: https://celsiuscasino.com/pl/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=pl&utm_bonus_type=casino
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCN9M8RGFVDNM4019CPS.png
 logo_href: https://celsiuscasino.com/pl/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=pl&utm_bonus_type=casino
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKKAR40XSSBY9H0SZJWJB7V.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPMYZBSGM1YFAYK6YGYRSRMA.png
 banner_href: https://celsiuscasino.com/pl/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=pl&utm_bonus_type=casino
 x_icon_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCF46GCAC2FN8BN1NP2J.png
 x_icon_href: https://x.com/celsiuscasino?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=7&utm_language=pl&utm_bonus_type=casino
@@ -3013,7 +3013,7 @@ button_text_1: JUMP IN
 button_href_1: https://celsiuscasino.com/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=en&utm_bonus_type=mixed
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCN9M8RGFVDNM4019CPS.png
 logo_href: https://celsiuscasino.com/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=en&utm_bonus_type=mixed
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKK86RBFVGJ5JCWW2TQQBQK.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPMYRWXBW5BAHJ7KW10R02Q3.png
 banner_href: https://celsiuscasino.com/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=en&utm_bonus_type=mixed
 x_icon_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCF46GCAC2FN8BN1NP2J.png
 x_icon_href: https://x.com/celsiuscasino?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=en&utm_bonus_type=mixed
@@ -3047,7 +3047,7 @@ button_text_1: LANCEZ-VOUS
 button_href_1: https://celsiuscasino.com/fr/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=fr&utm_bonus_type=mixed
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCN9M8RGFVDNM4019CPS.png
 logo_href: https://celsiuscasino.com/fr/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=fr&utm_bonus_type=mixed
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKK9BVMKKWQ63CE4D38P1EC.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPMYVAKRH1ACFMPH91KC306W.png
 banner_href: https://celsiuscasino.com/fr/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=fr&utm_bonus_type=mixed
 x_icon_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCF46GCAC2FN8BN1NP2J.png
 x_icon_href: https://x.com/celsiuscasino?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=fr&utm_bonus_type=mixed
@@ -3081,7 +3081,7 @@ button_text_1: UGORJ BE
 button_href_1: https://celsiuscasino.com/hu/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=hu&utm_bonus_type=mixed
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCN9M8RGFVDNM4019CPS.png
 logo_href: https://celsiuscasino.com/hu/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=hu&utm_bonus_type=mixed
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKKA1HRN7P1AYDNAYP3WTFB.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPMYXEDSK4T3E4KY40JTGQQJ.png
 banner_href: https://celsiuscasino.com/hu/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=hu&utm_bonus_type=mixed
 x_icon_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCF46GCAC2FN8BN1NP2J.png
 x_icon_href: https://x.com/celsiuscasino?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=hu&utm_bonus_type=mixed
@@ -3115,7 +3115,7 @@ button_text_1: WSKAKUJ
 button_href_1: https://celsiuscasino.com/pl/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=pl&utm_bonus_type=mixed
 logo_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCN9M8RGFVDNM4019CPS.png
 logo_href: https://celsiuscasino.com/pl/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=pl&utm_bonus_type=mixed
-banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKKASNJ1297N44QFG61TH0D.png
+banner_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPMYZCSJDRVBQ166E79KDRDQ.png
 banner_href: https://celsiuscasino.com/pl/?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=pl&utm_bonus_type=mixed
 x_icon_src: https://userimg-assets-eu.customeriomail.com/images/client-env-186370/01KPKNYCF46GCAC2FN8BN1NP2J.png
 x_icon_href: https://x.com/celsiuscasino?utm_source=customerio&utm_medium=email&utm_campaign=welcome&utm_email=8&utm_language=pl&utm_bonus_type=mixed
