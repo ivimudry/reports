@@ -2401,27 +2401,4 @@ BGaming
 
 
 
-All Providers
-Lady Wolf Moon Megaways game tile
-
-demo
-bgmng
-Gemhalla game tile
-
-demo
-bgmng
-Diamonds Power XXL: Hold and Win game tile
-
-demo
-playson
-Valley Of The Gods game tile
-
-yggdrasil
-Hot Chilli Bells game tile
-
-demo
-bgmng
-Coin Strike: Hold and Win game tile
-
-demo
-playson
+All games
