@@ -62,7 +62,7 @@ Terms&Conditions:
 Umsatz: x40
 Keine Einzahlung erforderlich
 
-========== 17.04 12:00 CET | Special Reload for Tara | 50% Reload Bonus ==========
+========== 21.04 12:00 CET | Special Reload for Tara | 50% Reload Bonus ==========
 
 --- EMAIL (EN) ---
 
@@ -98,7 +98,7 @@ Button: CLAIM MY 50% BONUS
 Terms&Conditions:
 Bonus: 50% reload bonus
 
-========== 18.04 12:00 CET | Special Reload for Karl | 75% Reload Bonus ==========
+========== 21.04 12:00 CET | Special Reload for Karl | 75% Reload Bonus ==========
 
 --- EMAIL (EN) ---
 
@@ -170,7 +170,7 @@ Button: CLAIM MY 50% BONUS
 Terms&Conditions:
 Bonus: 50% reload bonus
 
-========== 23.04 12:00 CET | Spezialangebot fur Gudrun | 75% Reload Bonus ==========
+========== 21.04 12:00 CET | Spezialangebot fur Gudrun | 75% Reload Bonus ==========
 
 --- EMAIL (DE) ---
 
@@ -206,7 +206,7 @@ Button: MEINEN 75%-BONUS HOLEN
 Terms&Conditions:
 Bonus: 75% Reload-Bonus
 
-========== 27.04 12:00 CET | Special Reload for Gabriella | 50% Reload Bonus ==========
+========== 21.04 12:00 CET | Special Reload for Gabriella | 50% Reload Bonus ==========
 
 --- EMAIL (EN) ---
 
