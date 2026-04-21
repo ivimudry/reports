@@ -664,9 +664,9 @@ SOFORT	Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
 BANK TRANSFER	Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
 ASTROPAY CARD	Debit Card	Free	Instant	Min. 10 USD/ Max. 500 USD	sign up
 INTERAC	Interac Online	Free	Instant	Min. 30 CAD/ Max. 3,000 CAD	sign up
-Brend	Coupon	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-Brend	E-Wallet	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-Brend	E-Wallet	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+PAYSAFECARD	Coupon	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+SKRILL	E-Wallet	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+NE	E-Wallet	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
 Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
 Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
 Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
