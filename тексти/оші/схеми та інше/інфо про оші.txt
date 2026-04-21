@@ -689,12 +689,12 @@ MAESTRO	Credit Card	Free	1 - 3 Banking Days	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
 BANK TRANSFER	Bank Transfer	Free	1 - 5 Banking Days	Min. 500 EUR/ Max. 4,000 EUR	SIGN UP
 ASTROPAY CARD	Debit Card	Free	Instant	Min. 20 USD/ Max. 500 USD	SIGN UP
 INTERAC	Interac Online	Free	1 - 3 Banking Days	Min. 30 CAD/ Max. 4,000 CAD	SIGN UP
-Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
-Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
-Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
-Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
-Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
-Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
+SKRILL	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
+NETELLER	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
+MIFINITY	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
+ECOPAYZ	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
+MUCHBETTER	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
+JETO	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
 Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 3,000 EUR	SIGN UP
 Brend	Bitcoin	Free	Instant	Min. 0.001 BTC/ Max. 10 BTC	SIGN UP
 Brend	Bitcoin Cash	Free	Instant	Min. 0.001 BCH/ Max. 100 BCH	SIGN UP
