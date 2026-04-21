@@ -656,25 +656,25 @@ A deposit made to your account will not be refunded due to Company policy violat
 
 Payments
 Deposit Methods
-Type	Fee	Processing Time	Limit per transaction	
-Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-Debit Card	Free	Instant	Min. 10 USD/ Max. 500 USD	sign up
-Interac Online	Free	Instant	Min. 30 CAD/ Max. 3,000 CAD	sign up
-Coupon	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-E-Wallet	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-E-Wallet	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-Coupon	Free	Instant	Min. 10 EUR/ Max. 500 EUR	sign up
-E-wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-E-wallet	Free	Instant	Min. 10 EUR/ Max. 3,000 EUR	sign up
-Bitcoin	Free	Instant	Min. 0.0001 BTC/ Max. No limit	sign up
-Bitcoin Cash	Free	Instant	Min. 0.001 BCH/ Max. No limit	sign up
+Brend	Type	Fee	Processing Time	Limit per transaction	
+Brend	Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+Brend	Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+Brend	Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+Brend	Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+Brend	Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+Brend	Debit Card	Free	Instant	Min. 10 USD/ Max. 500 USD	sign up
+Brend	Interac Online	Free	Instant	Min. 30 CAD/ Max. 3,000 CAD	sign up
+Brend	Coupon	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+Brend	E-Wallet	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+Brend	E-Wallet	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+Brend	Coupon	Free	Instant	Min. 10 EUR/ Max. 500 EUR	sign up
+Brend	E-wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+Brend	E-wallet	Free	Instant	Min. 10 EUR/ Max. 3,000 EUR	sign up
+Brend	Bitcoin	Free	Instant	Min. 0.0001 BTC/ Max. No limit	sign up
+Brend	Bitcoin Cash	Free	Instant	Min. 0.001 BCH/ Max. No limit	sign up
 Ethereum	Free	Instant	Min. 0.01 ETH/ Max. No limit	sign up
 Litecoin	Free	Instant	Min. 0.01 LTC/ Max. No limit	sign up
 Ripple	Free	Instant	Min. 0.001 XRP/ Max. No limit	sign up
