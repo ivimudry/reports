@@ -132,6 +132,209 @@ Button: MEINEN 50%-BONUS HOLEN
 Terms&Conditions:
 Bonus: 50% Reload-Bonus
 
+========== 21.04 12:00 CET | VALO120 | 120 FS | Valley of the Gods 2 ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🎰 120 Free Spins on Valley of the Gods 2
+Preheader: Open this and see what your special spin pack includes
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your special offer is live - get 120 Free Spins on Valley of the Gods 2 with promo code VALO120. Deposit 30 EUR or more and activate your spins right away. This is a limited special, so use it while the window is open and keep the momentum going.
+
+Deposit now, enter VALO120, and start spinning for your 120 FS.
+Button: CLAIM 120 FS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+Offer period: 21.04.2026 - 30.04.2026
+
+--- EMAIL (DE) ---
+
+Subject: 🎰 120 Freispiele auf Valley of the Gods 2
+Preheader: Sieh nach, was dein Special-Paket fur Spins enthalt
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Dein Special ist aktiv - hol dir 120 Freispiele auf Valley of the Gods 2 mit dem Promo-Code VALO120. Zahle 30 EUR oder mehr ein und aktiviere die Freispiele sofort. Das Angebot ist zeitlich begrenzt, also nutze es im Aktionsfenster und bleib im Flow.
+
+Zahle jetzt ein, nutze VALO120 und starte deine 120 Freispiele.
+Button: 120 FREISPIELE HOLEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Aktionszeitraum: 21.04.2026 - 30.04.2026
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your special 120 FS pack is ready.
+Deposit 30 EUR+ and use code VALO120 to play Valley of the Gods 2.
+Button: CLAIM 120 FS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Dein Special mit 120 Freispielen ist bereit.
+Zahle 30 EUR+ ein und nutze den Code VALO120 fur Valley of the Gods 2.
+Button: 120 FREISPIELE HOLEN
+
+
+========== 21.04 12:00 CET | PWRUP110 | 110% ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🎁 110% Bonus Boost for Your Next Deposit
+Preheader: See what your special top-up can unlock today
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Here is your special boost - get a 110% bonus on your next deposit with promo code PWRUP110. Deposit 30 EUR or more and upgrade your balance for bigger sessions and more chances to hit strong results.
+
+Make your deposit, use PWRUP110, and lock in your 110% boost.
+Button: ACTIVATE 110% BONUS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+Offer period: 21.04.2026 - 30.04.2026
+
+--- EMAIL (DE) ---
+
+Subject: 🎁 110% Bonus-Boost fur deine nachste Einzahlung
+Preheader: Sieh dir an, was dein Special-Top-up heute bringt
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Hier ist dein Special-Boost - hol dir 110% Bonus auf deine nachste Einzahlung mit dem Promo-Code PWRUP110. Zahle 30 EUR oder mehr ein und stärke dein Guthaben fur langere Sessions und mehr Gewinnchancen.
+
+Zahle ein, nutze PWRUP110 und sichere dir deinen 110% Boost.
+Button: 110% BONUS AKTIVIEREN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Aktionszeitraum: 21.04.2026 - 30.04.2026
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your 110% special boost is waiting.
+Deposit 30 EUR+ and use code PWRUP110 to activate your bonus.
+Button: GET 110% BONUS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Dein 110% Special-Boost wartet.
+Zahle 30 EUR+ ein und nutze den Code PWRUP110 fur deinen Bonus.
+Button: 110% BONUS HOLEN
+
+
+========== 21.04 12:00 CET | PWRUP125 | 125% ==========
+
+--- EMAIL (EN) ---
+
+Subject: ⚡ 125% Bonus Power for Your Balance
+Preheader: Don’t miss what this stronger boost gives you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your higher special is now available - claim a 125% bonus with promo code PWRUP125. Deposit 30 EUR or more to power up your balance and stay in control through more rounds, more features, and more winning chances.
+
+Deposit today, apply PWRUP125, and turn this 125% power into action.
+Button: CLAIM 125% BONUS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+Offer period: 21.04.2026 - 30.04.2026
+
+--- EMAIL (DE) ---
+
+Subject: ⚡ 125% Bonus-Power fur dein Guthaben
+Preheader: Verpass nicht, was dir dieser starkere Boost bringt
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Dein hoheres Special ist jetzt aktiv - sichere dir 125% Bonus mit dem Promo-Code PWRUP125. Zahle 30 EUR oder mehr ein, um dein Guthaben stark aufzuladen und langer mit mehr Chancen zu spielen.
+
+Zahle heute ein, nutze PWRUP125 und setze die 125% Bonus-Power ein.
+Button: 125% BONUS HOLEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Aktionszeitraum: 21.04.2026 - 30.04.2026
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your 125% special boost is live.
+Deposit 30 EUR+ and use code PWRUP125 to upgrade your balance now.
+Button: ACTIVATE 125%
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Dein 125% Special-Boost ist live.
+Zahle 30 EUR+ ein und nutze den Code PWRUP125 fur ein starkeres Guthaben.
+Button: 125% AKTIVIEREN
+
+
+========== 21.04 12:00 CET | PPLNK200 | 200 FS | Plinco Builder ==========
+
+--- EMAIL (EN) ---
+
+Subject: 🎯 200 Free Spins for Plinco Builder
+Preheader: See what your biggest FS special unlocks this week
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+You have a high-spin special waiting - 200 Free Spins on Plinco Builder with promo code PPLNK200. Deposit 30 EUR or more, activate the offer, and push through long spin sessions with room to chase bigger streaks.
+
+Deposit now, enter PPLNK200, and fire up your 200 FS run.
+Button: CLAIM 200 FS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 30 EUR
+Offer period: 21.04.2026 - 30.04.2026
+
+--- EMAIL (DE) ---
+
+Subject: 🎯 200 Freispiele fur Plinco Builder
+Preheader: Sieh nach, was dein grostes FS-Special diese Woche freischaltet
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Ein High-Spin-Special wartet auf dich - 200 Freispiele fur Plinco Builder mit dem Promo-Code PPLNK200. Zahle 30 EUR oder mehr ein, aktiviere das Angebot und starte in lange Spin-Sessions mit starker Gewinnchance.
+
+Zahle jetzt ein, gib PPLNK200 ein und starte deinen 200-FS-Run.
+Button: 200 FREISPIELE HOLEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 30 EUR
+Aktionszeitraum: 21.04.2026 - 30.04.2026
+
+--- INAPP (EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your 200 FS special is ready.
+Deposit 30 EUR+ and use code PPLNK200 to play Plinco Builder.
+Button: CLAIM 200 FS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Dein Special mit 200 Freispielen ist bereit.
+Zahle 30 EUR+ ein und nutze den Code PPLNK200 fur Plinco Builder.
+Button: 200 FREISPIELE HOLEN
+
 ========== 23.04 12:00 CET | 75% Reload Bonus (from Melli) ==========
 
 --- EMAIL (EN) ---
