@@ -1063,14 +1063,16 @@ Button: JETZT ÖFFNEN
 
 --- EMAIL (EN) ---
 
-Subject: 🎰 120 Free Spins on Valley of the Gods 2
-Preheader: Open this and see what your spin pack includes
+Subject: 🎰 120 Free Spins on Valley of the Gods 2 - Ready to Spin?
+Preheader: Your 120 FS pack is live with code VALO120
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-Your offer is live - get 120 Free Spins on Valley of the Gods 2 with promo code VALO120. Deposit 30 EUR or more and activate your spins right away. This is a limited campaign, so use it while the window is open and keep the momentum going.
+Your 120 Free Spins on Valley of the Gods 2 are waiting at Oshi!
 
-Deposit now, enter VALO120, and start spinning for your 120 FS.
+Deposit 30 EUR or more and use promo code VALO120 to activate your spin pack. Step into the ancient realm, trigger the reels, and push for bigger hits while the campaign is live.
+
+Load your balance, enter VALO120, and start your 120 FS run now.
 Button: CLAIM 120 FS
 
 Terms&Conditions:
@@ -1080,14 +1082,16 @@ Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
 
-Subject: 🎰 120 Freispiele auf Valley of the Gods 2
-Preheader: Sieh nach, was dein Paket fur Spins enthalt
+Subject: 🎰 120 Freispiele auf Valley of the Gods 2 - bereit zum Drehen?
+Preheader: Dein 120-FS-Paket ist mit Code VALO120 aktiv
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Dein Angebot ist aktiv - hol dir 120 Freispiele auf Valley of the Gods 2 mit dem Promo-Code VALO120. Zahle 30 EUR oder mehr ein und aktiviere die Freispiele sofort. Das Angebot ist zeitlich begrenzt, also nutze es im Aktionsfenster und bleib im Flow.
+Deine 120 Freispiele auf Valley of the Gods 2 warten bei Oshi auf dich!
 
-Zahle jetzt ein, nutze VALO120 und starte deine 120 Freispiele.
+Zahle 30 EUR oder mehr ein und nutze den Promo-Code VALO120, um dein Freispiele-Paket zu aktivieren. Starte im Reich der Gotter durch und nutze die Chance auf starke Treffer, solange die Aktion lauft.
+
+Lade dein Guthaben auf, gib VALO120 ein und starte jetzt deinen 120-FS-Run.
 Button: 120 FREISPIELE HOLEN
 
 Terms&Conditions:
@@ -1098,15 +1102,15 @@ Aktionszeitraum: 21.04.2026 - 30.04.2026
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Your 120 FS pack is ready.
-Deposit 30 EUR+ and use code VALO120 to play Valley of the Gods 2.
+120 FS on Valley of the Gods 2 are live.
+Deposit 30 EUR+ and use VALO120 to activate your spins now.
 Button: CLAIM 120 FS
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-Dein Paket mit 120 Freispielen ist bereit.
-Zahle 30 EUR+ ein und nutze den Code VALO120 fur Valley of the Gods 2.
+120 Freispiele auf Valley of the Gods 2 sind aktiv.
+Zahle 30 EUR+ ein und nutze VALO120, um sie jetzt zu starten.
 Button: 120 FREISPIELE HOLEN
 
 
@@ -1114,14 +1118,16 @@ Button: 120 FREISPIELE HOLEN
 
 --- EMAIL (EN) ---
 
-Subject: 🎁 110% Bonus Boost for Your Next Deposit
-Preheader: See what your top-up can unlock today
+Subject: 🎁 110% Bonus Boost - Power Up Your Next Deposit
+Preheader: Activate PWRUP110 and play with a stronger balance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-Here is your boost - get a 110% bonus on your next deposit with promo code PWRUP110. Deposit 30 EUR or more and upgrade your balance for bigger sessions and more chances to hit strong results.
+Your 110% boost is live and ready at Oshi.
 
-Make your deposit, use PWRUP110, and lock in your 110% boost.
+Deposit 30 EUR or more and enter promo code PWRUP110 to upgrade your next session. More balance means more rounds, more momentum, and more room to chase top outcomes.
+
+Top up now, activate PWRUP110, and lock in your 110% bonus.
 Button: ACTIVATE 110% BONUS
 
 Terms&Conditions:
@@ -1131,14 +1137,16 @@ Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
 
-Subject: 🎁 110% Bonus-Boost fur deine nachste Einzahlung
-Preheader: Sieh dir an, was dein Top-up heute bringt
+Subject: 🎁 110% Bonus-Boost - power deine nachste Einzahlung
+Preheader: Aktiviere PWRUP110 und spiele mit starkerem Guthaben
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Hier ist dein Boost - hol dir 110% Bonus auf deine nachste Einzahlung mit dem Promo-Code PWRUP110. Zahle 30 EUR oder mehr ein und stärke dein Guthaben fur langere Sessions und mehr Gewinnchancen.
+Dein 110%-Boost ist bei Oshi live und bereit fur dich.
 
-Zahle ein, nutze PWRUP110 und sichere dir deinen 110% Boost.
+Zahle 30 EUR oder mehr ein und gib den Promo-Code PWRUP110 ein, um dein nachstes Spiel aufzuwerten. Mehr Guthaben bedeutet mehr Runden, mehr Dynamik und mehr Chancen auf starke Ergebnisse.
+
+Zahle jetzt ein, aktiviere PWRUP110 und sichere dir deinen 110%-Bonus.
 Button: 110% BONUS AKTIVIEREN
 
 Terms&Conditions:
@@ -1149,15 +1157,15 @@ Aktionszeitraum: 21.04.2026 - 30.04.2026
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Your 110% boost is waiting.
-Deposit 30 EUR+ and use code PWRUP110 to activate your bonus.
+Your 110% bonus boost is live.
+Deposit 30 EUR+ and use PWRUP110 to activate it now.
 Button: GET 110% BONUS
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-Dein 110% Boost wartet.
-Zahle 30 EUR+ ein und nutze den Code PWRUP110 fur deinen Bonus.
+Dein 110%-Bonus-Boost ist live.
+Zahle 30 EUR+ ein und nutze PWRUP110 zur Aktivierung.
 Button: 110% BONUS HOLEN
 
 
@@ -1165,14 +1173,16 @@ Button: 110% BONUS HOLEN
 
 --- EMAIL (EN) ---
 
-Subject: ⚡ 125% Bonus Power for Your Balance
-Preheader: Don’t miss what this stronger boost gives you
+Subject: ⚡ 125% Bonus Power - Go Bigger on Your Next Session
+Preheader: Use PWRUP125 and take your balance to the next level
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-Your higher boost is now available - claim a 125% bonus with promo code PWRUP125. Deposit 30 EUR or more to power up your balance and stay in control through more rounds, more features, and more winning chances.
+Your 125% power boost is now available at Oshi.
 
-Deposit today, apply PWRUP125, and turn this 125% power into action.
+Deposit 30 EUR or more and enter promo code PWRUP125 to build a bigger balance for longer sessions. Keep control, unlock more play potential, and push for better wins.
+
+Deposit today, use PWRUP125, and turn extra power into results.
 Button: CLAIM 125% BONUS
 
 Terms&Conditions:
@@ -1182,14 +1192,16 @@ Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
 
-Subject: ⚡ 125% Bonus-Power fur dein Guthaben
-Preheader: Verpass nicht, was dir dieser starkere Boost bringt
+Subject: ⚡ 125% Bonus-Power - mach deine nachste Session grosser
+Preheader: Nutze PWRUP125 und bring dein Guthaben aufs nachste Level
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Dein hoheres Boost-Angebot ist jetzt aktiv - sichere dir 125% Bonus mit dem Promo-Code PWRUP125. Zahle 30 EUR oder mehr ein, um dein Guthaben stark aufzuladen und langer mit mehr Chancen zu spielen.
+Dein 125%-Power-Boost ist jetzt bei Oshi verfugbar.
 
-Zahle heute ein, nutze PWRUP125 und setze die 125% Bonus-Power ein.
+Zahle 30 EUR oder mehr ein und gib den Promo-Code PWRUP125 ein, um dein Guthaben deutlich zu verstarken. Spiele langer, nutze mehr Chancen und hol mehr aus jeder Session heraus.
+
+Zahle heute ein, nutze PWRUP125 und verwandle Bonus-Power in Ergebnisse.
 Button: 125% BONUS HOLEN
 
 Terms&Conditions:
@@ -1200,15 +1212,15 @@ Aktionszeitraum: 21.04.2026 - 30.04.2026
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Your 125% boost is live.
-Deposit 30 EUR+ and use code PWRUP125 to upgrade your balance now.
+Your 125% bonus power is live.
+Deposit 30 EUR+ and use PWRUP125 to upgrade your balance.
 Button: ACTIVATE 125%
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-Dein 125% Boost ist live.
-Zahle 30 EUR+ ein und nutze den Code PWRUP125 fur ein starkeres Guthaben.
+Deine 125%-Bonus-Power ist live.
+Zahle 30 EUR+ ein und nutze PWRUP125 fur mehr Guthaben.
 Button: 125% AKTIVIEREN
 
 
@@ -1216,14 +1228,16 @@ Button: 125% AKTIVIEREN
 
 --- EMAIL (EN) ---
 
-Subject: 🎯 200 Free Spins for Plinko Builder
-Preheader: See what your biggest FS pack unlocks this week
+Subject: 🎯 200 Free Spins on Plinko Builder - Big Spin Mode On
+Preheader: Activate PPLNK200 and launch your 200 FS run today
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-You have a high-spin offer waiting - 200 Free Spins on Plinko Builder with promo code PPLNK200. Deposit 30 EUR or more, activate the offer, and push through long spin sessions with room to chase bigger streaks.
+Your 200 Free Spins on Plinko Builder are now ready.
 
-Deposit now, enter PPLNK200, and fire up your 200 FS run.
+Deposit 30 EUR or more and use promo code PPLNK200 to activate your high-spin pack. Keep the drops coming, build momentum, and chase bigger streaks while the campaign is active.
+
+Deposit now, enter PPLNK200, and launch your 200 FS run.
 Button: CLAIM 200 FS
 
 Terms&Conditions:
@@ -1233,12 +1247,14 @@ Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
 
-Subject: 🎯 200 Freispiele fur Plinko Builder
-Preheader: Sieh nach, was dein grostes FS-Paket diese Woche freischaltet
+Subject: 🎯 200 Freispiele auf Plinko Builder - jetzt gross durchstarten
+Preheader: Aktiviere PPLNK200 und starte heute deinen 200-FS-Run
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Ein High-Spin-Angebot wartet auf dich - 200 Freispiele fur Plinko Builder mit dem Promo-Code PPLNK200. Zahle 30 EUR oder mehr ein, aktiviere das Angebot und starte in lange Spin-Sessions mit starker Gewinnchance.
+Deine 200 Freispiele auf Plinko Builder sind jetzt bereit.
+
+Zahle 30 EUR oder mehr ein und nutze den Promo-Code PPLNK200, um dein High-Spin-Paket zu aktivieren. Sammle Drop fur Drop Momentum und jage starkere Treffer, solange die Aktion lauft.
 
 Zahle jetzt ein, gib PPLNK200 ein und starte deinen 200-FS-Run.
 Button: 200 FREISPIELE HOLEN
@@ -1251,15 +1267,15 @@ Aktionszeitraum: 21.04.2026 - 30.04.2026
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
-Your 200 FS pack is ready.
-Deposit 30 EUR+ and use code PPLNK200 to play Plinko Builder.
+Your 200 FS pack on Plinko Builder is live.
+Deposit 30 EUR+ and use PPLNK200 to start spinning now.
 Button: CLAIM 200 FS
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
-Dein Paket mit 200 Freispielen ist bereit.
-Zahle 30 EUR+ ein und nutze den Code PPLNK200 fur Plinko Builder.
+Dein Paket mit 200 Freispielen auf Plinko Builder ist live.
+Zahle 30 EUR+ ein und nutze PPLNK200, um jetzt zu starten.
 Button: 200 FREISPIELE HOLEN
 
 
