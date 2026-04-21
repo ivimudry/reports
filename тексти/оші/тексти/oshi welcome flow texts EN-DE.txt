@@ -621,7 +621,7 @@ This is our final call. We've pushed your welcome bonus to the maximum: 150% up 
 
 Use code SHARK150 with a deposit of 20 EUR or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account - no code, no deposit, no catch. Open the lobby and spin them right now.
+On top of that, we've credited 10 Free Spins directly to your account on Razor Shark - no code, no deposit, no catch. [Play Razor Shark now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -629,7 +629,7 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR
+No-deposit Free Spins: 10 FS on Razor Shark, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
 
 --- EMAIL (AU) ---
@@ -643,7 +643,7 @@ This is our final call. We've pushed your welcome bonus to the maximum: 150% up 
 
 Use code SWEET150 with a deposit of 20 EUR or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account - no code, no deposit, no catch. Open the lobby and spin them right now.
+On top of that, we've credited 10 Free Spins directly to your account on Sweet Bonanza - no code, no deposit, no catch. [Play Sweet Bonanza now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -651,7 +651,7 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR
+No-deposit Free Spins: 10 FS on Sweet Bonanza, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
 
 --- EMAIL (CA) ---
@@ -665,7 +665,7 @@ This is our final call. We've pushed your welcome bonus to the maximum: 150% up 
 
 Use code GONZO150 with a deposit of 20 EUR or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account - no code, no deposit, no catch. Open the lobby and spin them right now.
+On top of that, we've credited 10 Free Spins directly to your account on Gonzo's Quest - no code, no deposit, no catch. [Play Gonzo's Quest now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -673,7 +673,7 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR
+No-deposit Free Spins: 10 FS on Gonzo's Quest, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
@@ -687,7 +687,7 @@ Das ist unser letzter Ruf. Wir haben deinen Willkommensbonus auf das Maximum erh
 
 Nutze den Code SHARK150 mit einer Einzahlung von 20 EUR oder mehr, um dieses Angebot zu sichern.
 
-Zusatzlich haben wir 10 Freispiele direkt auf dein Konto gutgeschrieben - kein Code, keine Einzahlung, kein Haken. Offne die Lobby und dreh sie sofort.
+Zusatzlich haben wir 10 Freispiele direkt auf dein Konto gutgeschrieben - bei Razor Shark, kein Code, keine Einzahlung, kein Haken. [Jetzt Razor Shark spielen →]
 
 Das ist das Beste, was wir bieten konnen. Sichere es dir, bevor es weg ist!
 Button: LETZTES ANGEBOT HOLEN
@@ -695,7 +695,7 @@ Button: LETZTES ANGEBOT HOLEN
 Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
-Einzahlungsfreie Freispiele: 10 FS, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
+Einzahlungsfreie Freispiele: 10 FS bei Razor Shark, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
 Bonusdauer: 5 Tage
 
 
@@ -703,19 +703,19 @@ Bonusdauer: 5 Tage
 
 --- SMS (DEFAULT) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code SHARK150 to deposit. [link]
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Razor Shark already in your account: [Play →]. Use code SHARK150 to deposit.
 
 --- SMS (AU) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code SWEET150 to deposit. [link]
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Sweet Bonanza already in your account: [Play →]. Use code SWEET150 to deposit.
 
 --- SMS (CA) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code GONZO150 to deposit. [link]
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Gonzo's Quest already in your account: [Play →]. Use code GONZO150 to deposit.
 
 --- SMS (DE) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 Freispiele bereits auf deinem Konto. Nutze Code SHARK150 zum Einzahlen. [link]
+Oshi: FINAL - 150% + 250 FS! 10 Freispiele bei Razor Shark bereits auf deinem Konto: [Spielen →]. Nutze Code SHARK150 zum Einzahlen.
 
 
 ========== EMAIL #8 | Absolute Final | 160% + 300 FS ==========
