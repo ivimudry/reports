@@ -11,6 +11,10 @@ Welcome to Oshi! We're glad you've joined us. Here you'll find thousands of top 
 
 Your welcome package is already loaded: 100% bonus up to 1,000 EUR + 150 Free Spins with your first deposit.
 
+Your Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
+
+Important: activate your bonus and Free Spins in the Promo section of your account before you start playing.
+
 Take a look around and discover what Oshi has in store for you!
 Button: EXPLORE OSHI
 
@@ -29,6 +33,10 @@ Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 Willkommen bei Oshi! Schon, dass du dabei bist. Hier erwarten dich tausende Top-Slots von 80+ fuhrenden Anbietern, tagliche Turniere, ein Treueprogramm mit echtem Cashback und Uberraschungen an jeder Ecke.
 
 Dein Willkommenspaket ist bereits geladen: 100% Bonus bis zu 1.000 EUR + 150 Freispiele mit deiner ersten Einzahlung.
+
+Deine Freispiele sind auf Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways und Hold the Gold verfugbar.
+
+Wichtig: Aktiviere deinen Bonus und die Freispiele im Promo-Bereich deines Kontos, bevor du zu spielen beginnst.
 
 Schau dich um und entdecke, was Oshi fur dich bereithalt!
 Button: OSHI ENTDECKEN
