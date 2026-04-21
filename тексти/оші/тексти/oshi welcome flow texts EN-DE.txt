@@ -130,28 +130,28 @@ Button: BONUS HOLEN
 
 Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 Still here?
-Your 150 Free Spins on Elvis Frog TRUEWAYS are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
+Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
 
 --- INAPP (AU) ---
 
 Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 Still here?
-Your 150 Free Spins on Big Bass Bonanza are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
+Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
 
 --- INAPP (CA) ---
 
 Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 Still here?
-Your 150 Free Spins on Sugar Rush are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
+Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
 
 --- INAPP (DE) ---
 
 Body: {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{% else %}Hallo!{% endif %}
 Noch da?
-Deine 150 Freispiele bei Elvis Frog TRUEWAYS sind nur eine Einzahlung entfernt. Lade dein Konto auf, aktiviere den Bonus im Promo-Bereich und dreh los - gultig in 9 Spielen.
+Deine 150 Freispiele aus dem Willkommenspaket sind nur eine Einzahlung entfernt. Lade dein Konto auf, aktiviere den Bonus im Promo-Bereich und dreh los - gultig in 9 Spielen.
 Button: EINZAHLEN & SPIELEN
 
 
