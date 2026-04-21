@@ -671,14 +671,14 @@ MIFINITY	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
 ECOPAYZ	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
 MUCHBETTER	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
 CASHTOCODE	Coupon	Free	Instant	Min. 10 EUR/ Max. 500 EUR	sign up
-Brend	E-wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-Brend	E-wallet	Free	Instant	Min. 10 EUR/ Max. 3,000 EUR	sign up
-Brend	Bitcoin	Free	Instant	Min. 0.0001 BTC/ Max. No limit	sign up
-Brend	Bitcoin Cash	Free	Instant	Min. 0.001 BCH/ Max. No limit	sign up
-Brend	Ethereum	Free	Instant	Min. 0.01 ETH/ Max. No limit	sign up
-Brend	Litecoin	Free	Instant	Min. 0.01 LTC/ Max. No limit	sign up
-Brend	Ripple	Free	Instant	Min. 0.001 XRP/ Max. No limit	sign up
-Brend	Tether	Free	Instant	Min. 5 USDT/ Max. No limit	sign up
+JETONBANK	E-wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+STICPAY	E-wallet	Free	Instant	Min. 10 EUR/ Max. 3,000 EUR	sign up
+BITCOIN	Bitcoin	Free	Instant	Min. 0.0001 BTC/ Max. No limit	sign up
+BITCOIN CASH	Bitcoin Cash	Free	Instant	Min. 0.001 BCH/ Max. No limit	sign up
+ETHEREUM	Ethereum	Free	Instant	Min. 0.01 ETH/ Max. No limit	sign up
+LITECOIN	Litecoin	Free	Instant	Min. 0.01 LTC/ Max. No limit	sign up
+RIPPLE	Ripple	Free	Instant	Min. 0.001 XRP/ Max. No limit	sign up
+USDT	Tether	Free	Instant	Min. 5 USDT/ Max. No limit	sign up
 
 
 Withdrawal Methods
