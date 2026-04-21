@@ -27,6 +27,12 @@ Dein 50% Reload-Bonus ist bereit!
 --- EMAIL BANNER (DE) ---
 120 Freispiele fur Valley of the Gods 2 sind bereit!
 
+--- INAPP BANNER (EN) ---
+120 FS on Valley of the Gods 2 Are Waiting!
+
+--- INAPP BANNER (DE) ---
+120 Freispiele auf Valley of the Gods 2 warten!
+
 ========== 21.04 | PWRUP110 | 110% ==========
 
 --- EMAIL BANNER (EN) ---
@@ -34,6 +40,12 @@ Your 110% Special Bonus Is Live!
 
 --- EMAIL BANNER (DE) ---
 Dein 110% Special-Bonus ist live!
+
+--- INAPP BANNER (EN) ---
+Your 110% Boost Is Ready to Activate!
+
+--- INAPP BANNER (DE) ---
+Dein 110% Boost ist bereit zur Aktivierung!
 
 ========== 21.04 | PWRUP125 | 125% ==========
 
@@ -43,6 +55,12 @@ Your 125% Special Bonus Is Live!
 --- EMAIL BANNER (DE) ---
 Dein 125% Special-Bonus ist live!
 
+--- INAPP BANNER (EN) ---
+Your 125% Boost Is Live - Grab It Now!
+
+--- INAPP BANNER (DE) ---
+Dein 125% Boost ist live - hol ihn dir jetzt!
+
 ========== 21.04 | PPLNK200 | 200 FS | Plinco Builder ==========
 
 --- EMAIL BANNER (EN) ---
@@ -50,6 +68,12 @@ Dein 125% Special-Bonus ist live!
 
 --- EMAIL BANNER (DE) ---
 200 Freispiele fur Plinco Builder sind bereit!
+
+--- INAPP BANNER (EN) ---
+200 FS on Plinco Builder Are Waiting for You!
+
+--- INAPP BANNER (DE) ---
+200 Freispiele auf Plinco Builder warten auf dich!
 
 ========== 23.04 | 75% Reload Bonus (from Melli) ==========
 
