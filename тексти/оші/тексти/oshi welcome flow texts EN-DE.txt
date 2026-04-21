@@ -458,7 +458,7 @@ Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code STAR125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Starburst.
+We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code MEGA125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Mega Moolah.
 
 That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
 
@@ -510,7 +510,7 @@ Button: UPGRADE NOW
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Exclusive upgrade for you!
-Get 125% up to 1,000 EUR + 200 Free Spins on Starburst. Use code STAR125 with your first deposit. This offer is not on the website - it's yours only!
+Get 125% up to 1,000 EUR + 200 Free Spins on Mega Moolah. Use code MEGA125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
 
 --- INAPP (DE) ---
@@ -574,7 +574,7 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
 
-Deposit 50 EUR with code STAR125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
+Deposit 50 EUR with code MEGA125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
 
 Deposit 100 EUR? You'll play with 225 EUR + 200 Free Spins.
 
@@ -661,11 +661,11 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Gonzo's Quest.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Big Bass Bonanza.
 
-Use code GONZO150 with a deposit of 20 EUR or more to claim this deal.
+Use code BASS150 with a deposit of 20 EUR or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account on Gonzo's Quest - no code, no deposit, no catch. [Play Gonzo's Quest now →]
+On top of that, we've credited 10 Free Spins directly to your account on Big Bass Bonanza - no code, no deposit, no catch. [Play Big Bass Bonanza now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -673,7 +673,7 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS on Gonzo's Quest, auto-credited, no code needed, wager x40, max win 50 EUR
+No-deposit Free Spins: 10 FS on Big Bass Bonanza, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
@@ -711,7 +711,7 @@ Oshi: FINAL - 150% + 250 FS! 10 free spins on Sweet Bonanza already in your acco
 
 --- SMS (CA) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Gonzo's Quest already in your account: [Play →]. Use code GONZO150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Big Bass Bonanza already in your account: [Play →]. Use code BASS150 to deposit.
 
 --- SMS (DE) ---
 
@@ -769,9 +769,9 @@ Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Mega Moolah.
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Sugar Rush.
 
-Deposit 20 EUR or more with code MEGA160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+Deposit 20 EUR or more with code SUGAR160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
 
 Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
 
