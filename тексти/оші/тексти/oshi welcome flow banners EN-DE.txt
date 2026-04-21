@@ -1,61 +1,61 @@
-﻿========== EMAIL #1 | Welcome + Brand Intro ==========
+========== EMAIL #1 | Welcome + Brand Intro ==========
 
 --- EMAIL BANNER (DEFAULT) ---
-Welcome to Oshi - Let the Fun Begin!
+Welcome Pack - 100% up to 1,000 EUR + 150 Free Spins!
 
 --- EMAIL BANNER (AU) ---
-Welcome to Oshi - Let the Fun Begin!
+Welcome Pack - 100% up to 1,500 AUD + 150 Free Spins!
 
 --- EMAIL BANNER (CA) ---
-Welcome to Oshi - Let the Fun Begin!
+Welcome Pack - 100% up to 1,500 CAD + 150 Free Spins!
 
 --- EMAIL BANNER (DE) ---
-Willkommen bei Oshi - Der Spass beginnt!
+Willkommenspaket - 100% bis zu 1.000 EUR + 150 Freispiele!
 
 
 ========== INAPP #1.1 | Welcome Pack | 100% + 150 FS ==========
 
 --- INAPP BANNER (DEFAULT) ---
-100% + 150 Free Spins - Your Welcome Pack!
+Claim 100% up to 1,000 EUR + 150 FS!
 
 --- INAPP BANNER (AU) ---
-100% + 150 Free Spins - Your Welcome Pack!
+Claim 100% up to 1,500 AUD + 150 FS!
 
 --- INAPP BANNER (CA) ---
-100% + 150 Free Spins - Your Welcome Pack!
+Claim 100% up to 1,500 CAD + 150 FS!
 
 --- INAPP BANNER (DE) ---
-100% + 150 Freispiele - Dein Willkommenspaket!
+Sichere dir 100% bis zu 1.000 EUR + 150 FS!
 
 
 ========== INAPP #1.2 | 150 FS ready ==========
 
 --- INAPP BANNER (DEFAULT) ---
-150 Free Spins Ready for You!
+150 Free Spins on Elvis Frog TRUEWAYS Await!
 
 --- INAPP BANNER (AU) ---
-150 Free Spins Ready for You!
+150 Free Spins on Big Bass Bonanza Await!
 
 --- INAPP BANNER (CA) ---
-150 Free Spins Ready for You!
+150 Free Spins on Sugar Rush Await!
 
 --- INAPP BANNER (DE) ---
-150 Freispiele warten auf dich!
+150 Freispiele auf Elvis Frog TRUEWAYS warten!
 
 
 ========== EMAIL #2 | 150 FS Waiting + 72hr Urgency ==========
 
 --- EMAIL BANNER (DEFAULT) ---
-150 Free Spins Won't Wait Forever!
+72h Left - 100% + 150 Free Spins Won't Wait!
 
 --- EMAIL BANNER (AU) ---
-150 Free Spins Won't Wait Forever!
+72h Left - 100% + 150 Free Spins Won't Wait!
 
 --- EMAIL BANNER (CA) ---
-150 Free Spins Won't Wait Forever!
+72h Left - 100% + 150 Free Spins Won't Wait!
 
 --- EMAIL BANNER (DE) ---
-150 Freispiele warten nicht ewig!
+72h ubrig - 100% + 150 Freispiele warten nicht!
 
 
 ========== EMAIL #3 | Platform Value ==========
@@ -64,10 +64,10 @@ Willkommen bei Oshi - Der Spass beginnt!
 Tournaments, Cashback & 80+ Providers!
 
 --- EMAIL BANNER (AU) ---
-Tournaments, Cashback & 80+ Providers!
+Aussie Pokies, AUD Payments & Weekly Cashback!
 
 --- EMAIL BANNER (CA) ---
-Tournaments, Cashback & 80+ Providers!
+Interac CAD, Top Games & Weekly Cashback!
 
 --- EMAIL BANNER (DE) ---
 Turniere, Cashback & 80+ Anbieter!
@@ -76,89 +76,88 @@ Turniere, Cashback & 80+ Anbieter!
 ========== EMAIL #4 | Social Proof + Lootwheel Teaser ==========
 
 --- EMAIL BANNER (DEFAULT) ---
-Thousands Claimed - Your Spot Is Open!
+Thousands Won Big - Spin the Lucky Wheel!
 
 --- EMAIL BANNER (AU) ---
-Thousands Claimed - Your Spot Is Open!
+Aussies Won Big - Spin the Lucky Wheel!
 
 --- EMAIL BANNER (CA) ---
-Thousands Claimed - Your Spot Is Open!
+Canadians Won Big - Spin the Lucky Wheel!
 
 --- EMAIL BANNER (DE) ---
-Tausende haben zugeschlagen - Dein Platz wartet!
+Tausende haben gewonnen - Dreh das Lucky Wheel!
 
 
 ========== EMAIL #5 | Escalated Offer | 125% + 200 FS ==========
 
 --- EMAIL BANNER (DEFAULT) ---
-Exclusive Upgrade - 125% + 200 Free Spins!
+Exclusive Upgrade - 125% + 200 FS on Elvis Frog!
 
 --- EMAIL BANNER (AU) ---
-Exclusive Upgrade - 125% + 200 Free Spins!
+Exclusive Upgrade - 125% + 200 FS on Big Bass!
 
 --- EMAIL BANNER (CA) ---
-Exclusive Upgrade - 125% + 200 Free Spins!
+Exclusive Upgrade - 125% + 200 FS on Sugar Rush!
 
 --- EMAIL BANNER (DE) ---
-Exklusives Upgrade - 125% + 200 Freispiele!
+Exklusives Upgrade - 125% + 200 FS auf Elvis Frog!
 
 
 ========== INAPP #5 | Escalated Offer | 125% + 200 FS ==========
 
 --- INAPP BANNER (DEFAULT) ---
-Your Exclusive 125% + 200 FS Upgrade!
+125% + 200 FS Upgrade on Elvis Frog!
 
 --- INAPP BANNER (AU) ---
-Your Exclusive 125% + 200 FS Upgrade!
+125% + 200 FS Upgrade on Big Bass!
 
 --- INAPP BANNER (CA) ---
-Your Exclusive 125% + 200 FS Upgrade!
+125% + 200 FS Upgrade on Sugar Rush!
 
 --- INAPP BANNER (DE) ---
-Dein exklusives 125% + 200 FS Upgrade!
+125% + 200 FS Upgrade auf Elvis Frog!
 
 
 ========== EMAIL #6 | Bonus Expires Soon ==========
 
 --- EMAIL BANNER (DEFAULT) ---
-Time's Running Out on Your Bonus!
+Last Hours - 125% + 200 Free Spins!
 
 --- EMAIL BANNER (AU) ---
-Time's Running Out on Your Bonus!
+Last Hours - 125% + 200 Free Spins!
 
 --- EMAIL BANNER (CA) ---
-Time's Running Out on Your Bonus!
+Last Hours - 125% + 200 Free Spins!
 
 --- EMAIL BANNER (DE) ---
-Dein Bonus lauft bald ab!
+Letzte Stunden - 125% + 200 Freispiele!
 
 
 ========== EMAIL #7 | FINAL | 150% + 250 FS + 10 No-Deposit FS ==========
 
 --- EMAIL BANNER (DEFAULT) ---
-FINAL: 150% + 250 Free Spins + 10 Bonus Spins!
+FINAL: 150% + 250 FS on Lucky Jane + 10 Bonus Spins!
 
 --- EMAIL BANNER (AU) ---
-FINAL: 150% + 250 Free Spins + 10 Bonus Spins!
+FINAL: 150% + 250 FS on Sweet Bonanza + 10 Bonus Spins!
 
 --- EMAIL BANNER (CA) ---
-FINAL: 150% + 250 Free Spins + 10 Bonus Spins!
+FINAL: 150% + 250 FS on Gates of Olympus + 10 Bonus Spins!
 
 --- EMAIL BANNER (DE) ---
-FINAL: 150% + 250 Freispiele + 10 Bonusspins!
+FINAL: 150% + 250 FS auf Lucky Jane + 10 Bonusspins!
 
 
 ========== EMAIL #8 | Absolute Final | 160% + 300 FS ==========
 
 --- EMAIL BANNER (DEFAULT) ---
-The Ultimate Deal - 160% + 300 Free Spins!
+Last Chance - 160% + 300 FS on Piggy Tap!
 
 --- EMAIL BANNER (AU) ---
-The Ultimate Deal - 160% + 300 Free Spins!
+Last Chance - 160% + 300 FS on Wolf Gold!
 
 --- EMAIL BANNER (CA) ---
-The Ultimate Deal - 160% + 300 Free Spins!
+Last Chance - 160% + 300 FS on Wanted Dead or a Wild!
 
 --- EMAIL BANNER (DE) ---
-Das ultimative Angebot - 160% + 300 Freispiele!
-
+Letzte Chance - 160% + 300 FS auf Piggy Tap!
