@@ -53,14 +53,14 @@ Bonusdauer: 5 Tage
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your welcome bonus is ready!
-Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Start playing and winning today!
+Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 Dein Willkommensbonus ist bereit!
-Sichere dir 100% bis zu 1.000 EUR + 150 Freispiele mit deiner ersten Einzahlung. Leg los und gewinne noch heute!
+Sichere dir 100% bis zu 1.000 EUR + 150 Freispiele mit deiner ersten Einzahlung. Aktiviere deinen Bonus im Promo-Bereich - 150 FS gelten in 9 Spielen.
 Button: BONUS HOLEN
 
 
@@ -70,14 +70,14 @@ Button: BONUS HOLEN
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Liked what you saw?
-Your 150 Free Spins are ready to roll! Make your first deposit and start spinning right away.
+Your 150 Free Spins are ready to roll! Make your first deposit, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 Hat dir gefallen, was du gesehen hast?
-Deine 150 Freispiele warten auf dich! Tatige deine erste Einzahlung und dreh sofort los.
+Deine 150 Freispiele warten auf dich! Tatige deine erste Einzahlung, aktiviere den Bonus im Promo-Bereich und dreh los - gultig in 9 Spielen.
 Button: EINZAHLEN & SPIELEN
 
 
@@ -91,6 +91,10 @@ Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your 150 Free Spins are just one deposit away. Hundreds of players have already grabbed theirs this week - don't let yours slip through.
+
+Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
+
+Important: activate your bonus in the Promo section of your account after deposit to use your Free Spins.
 
 On top of the spins, you'll receive a 100% match up to 1,000 EUR. That's double the balance from your very first play.
 
@@ -110,6 +114,10 @@ Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
 Deine 150 Freispiele sind nur eine Einzahlung entfernt. Hunderte Spieler haben ihre diese Woche schon geholt - lass deine nicht verfallen.
+
+Die Freispiele sind auf Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways und Hold the Gold verfugbar.
+
+Wichtig: Aktiviere deinen Bonus nach der Einzahlung im Promo-Bereich deines Kontos, um deine Freispiele zu nutzen.
 
 Zusatzlich zu den Spins erhaltst du einen 100% Match-Bonus bis zu 1.000 EUR. Das bedeutet doppeltes Guthaben ab dem ersten Spiel.
 
