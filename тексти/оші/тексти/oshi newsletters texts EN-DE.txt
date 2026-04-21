@@ -1063,8 +1063,8 @@ Button: JETZT ÖFFNEN
 
 --- EMAIL (EN) ---
 
-Subject: 🎰 120 Free Spins on Valley of the Gods 2 - Ready to Spin?
-Preheader: Your 120 FS pack is live with code VALO120
+Subject: 🎰 120 Free Spins on Valley of the Gods 2!
+Preheader: Your spin pack is ready - open to see details
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
@@ -1082,8 +1082,8 @@ Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
 
-Subject: 🎰 120 Freispiele auf Valley of the Gods 2 - bereit zum Drehen?
-Preheader: Dein 120-FS-Paket ist mit Code VALO120 aktiv
+Subject: 🎰 120 Freispiele auf Valley of the Gods 2!
+Preheader: Dein Freispiele-Paket ist bereit - sieh, was drin ist
 Body:
 {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
@@ -1119,7 +1119,7 @@ Button: 120 FREISPIELE HOLEN
 --- EMAIL (EN) ---
 
 Subject: 🎁 110% Bonus Boost - Power Up Your Next Deposit
-Preheader: Activate PWRUP110 and play with a stronger balance
+Preheader: See how this boost powers your next session
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
@@ -1137,8 +1137,8 @@ Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
 
-Subject: 🎁 110% Bonus-Boost - power deine nachste Einzahlung
-Preheader: Aktiviere PWRUP110 und spiele mit starkerem Guthaben
+Subject: 🎁 110% Bonus-Boost für deine nächste Einzahlung
+Preheader: Sieh, wie dieser Boost deine Session stärkt
 Body:
 {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
@@ -1174,7 +1174,7 @@ Button: 110% BONUS HOLEN
 --- EMAIL (EN) ---
 
 Subject: ⚡ 125% Bonus Power - Go Bigger on Your Next Session
-Preheader: Use PWRUP125 and take your balance to the next level
+Preheader: Open now and see what this power unlocks
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
@@ -1192,8 +1192,8 @@ Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
 
-Subject: ⚡ 125% Bonus-Power - mach deine nachste Session grosser
-Preheader: Nutze PWRUP125 und bring dein Guthaben aufs nachste Level
+Subject: ⚡ 125% Bonus-Power für deine nächste Session
+Preheader: Öffne jetzt und sieh, was diese Power bringt
 Body:
 {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
@@ -1228,8 +1228,8 @@ Button: 125% AKTIVIEREN
 
 --- EMAIL (EN) ---
 
-Subject: 🎯 200 Free Spins on Plinko Builder - Big Spin Mode On
-Preheader: Activate PPLNK200 and launch your 200 FS run today
+Subject: 🎯 200 Free Spins on Plinko Builder!
+Preheader: Your high-spin pack is ready to launch
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
@@ -1247,8 +1247,8 @@ Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
 
-Subject: 🎯 200 Freispiele auf Plinko Builder - jetzt gross durchstarten
-Preheader: Aktiviere PPLNK200 und starte heute deinen 200-FS-Run
+Subject: 🎯 200 Freispiele auf Plinko Builder!
+Preheader: Dein High-Spin-Paket ist bereit zum Start
 Body:
 {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
