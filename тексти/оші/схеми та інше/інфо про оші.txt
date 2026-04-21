@@ -694,14 +694,14 @@ NETELLER	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
 MIFINITY	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
 ECOPAYZ	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
 MUCHBETTER	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
-JETO	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
-Brend	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 3,000 EUR	SIGN UP
-Brend	Bitcoin	Free	Instant	Min. 0.001 BTC/ Max. 10 BTC	SIGN UP
-Brend	Bitcoin Cash	Free	Instant	Min. 0.001 BCH/ Max. 100 BCH	SIGN UP
-Brend	Ethereum	Free	Instant	Min.0.01 ETH/ Max. 100 ETH	SIGN UP
-Brend	Litecoin	Free	Instant	Min. 0.01 LTC/ Max. 100 LTC	SIGN UP
-Brend	Ripple	Free	Instant	Min. 0.001 XRP/ Max. 5,000 XRP	SIGN UP
-Brend	Tether	Free	Instant	Min. 0.0001 USDT/ Max. 4,000 USDT	SIGN UP
+JETONBANK	E-Wallet	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	SIGN UP
+STICPAY	E-Wallet	Free	Instant	Min. 10 EUR/ Max. 3,000 EUR	SIGN UP
+BITCOIN	Bitcoin	Free	Instant	Min. 0.001 BTC/ Max. 10 BTC	SIGN UP
+BITCOIN CASH	Bitcoin Cash	Free	Instant	Min. 0.001 BCH/ Max. 100 BCH	SIGN UP
+ETHEREUM	Ethereum	Free	Instant	Min.0.01 ETH/ Max. 100 ETH	SIGN UP
+LITECOIN	Litecoin	Free	Instant	Min. 0.01 LTC/ Max. 100 LTC	SIGN UP
+RIPPLE	Ripple	Free	Instant	Min. 0.001 XRP/ Max. 5,000 XRP	SIGN UP
+USDT	Tether	Free	Instant	Min. 0.0001 USDT/ Max. 4,000 USDT	SIGN UP
 
 
 
