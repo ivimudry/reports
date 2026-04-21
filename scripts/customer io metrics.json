@@ -12,7 +12,36 @@ function onOpen() {
     .addItem('🔄 Refresh Range…', 'refreshRange')
     .addSeparator()
     .addItem('🔄 Refresh Errors', 'refreshErrors')
+    .addItem('🧹 Clear Result Cache', 'clearCioResultCache')
     .addToUi();
+}
+
+function clearCioResultCache() {
+  var ui = SpreadsheetApp.getUi();
+  var answer = ui.alert(
+    'Clear CIO Result Cache',
+    'This will remove saved CION/CIOC/CIONSUM/CIOCSUM values from Script Properties. Continue?',
+    ui.ButtonSet.YES_NO
+  );
+  if (answer !== ui.Button.YES) return;
+
+  var props = PropertiesService.getScriptProperties();
+  var all = props.getProperties();
+  var deleted = 0;
+
+  for (var key in all) {
+    if (key.indexOf('r_') === 0) {
+      props.deleteProperty(key);
+      deleted++;
+    }
+  }
+
+  // Force re-fetch mode for next manual refresh run.
+  CacheService.getScriptCache().put('allow_fetch', '1', 300);
+
+  ui.alert(
+    '✅ Cache cleared: ' + deleted + ' keys.\nNow run "Refresh Active Sheet" or "Refresh All Sheets" to fetch fresh values.'
+  );
 }
 
 function refreshAllSheets() {
