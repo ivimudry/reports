@@ -62,7 +62,7 @@ Terms&Conditions:
 Umsatz: x40
 Keine Einzahlung erforderlich
 
-========== 21.04 12:00 CET | Special Reload 1 | 50% Reload Bonus ==========
+========== 17.04 12:00 CET | Special Reload 1 | 50% Reload Bonus ==========
 
 --- EMAIL (EN) ---
 
@@ -132,7 +132,7 @@ Button: MEINEN 50%-BONUS HOLEN
 Terms&Conditions:
 Bonus: 50% Reload-Bonus
 
-========== 21.04 12:00 CET | Special Reload 2 | 75% Reload Bonus ==========
+========== 18.04 12:00 CET | Special Reload 2 | 75% Reload Bonus ==========
 
 --- EMAIL (EN) ---
 
@@ -272,7 +272,7 @@ Button: MEINEN 50%-BONUS HOLEN
 Terms&Conditions:
 Bonus: 50% Reload-Bonus
 
-========== 21.04 12:00 CET | Special Reload 4 | 75% Reload Bonus ==========
+========== 23.04 12:00 CET | Special Reload 4 | 75% Reload Bonus ==========
 
 --- EMAIL (EN) ---
 
@@ -342,7 +342,7 @@ Button: MEINEN 75%-BONUS HOLEN
 Terms&Conditions:
 Bonus: 75% Reload-Bonus
 
-========== 21.04 12:00 CET | Special Reload 5 | 50% Reload Bonus ==========
+========== 27.04 12:00 CET | Special Reload 5 | 50% Reload Bonus ==========
 
 --- EMAIL (EN) ---
 
