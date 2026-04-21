@@ -36,10 +36,10 @@ Dein 50% Reload-Bonus ist bereit!
 ========== 21.04 | PWRUP110 | 110% ==========
 
 --- EMAIL BANNER (EN) ---
-Your 110% Special Bonus Is Live!
+Your 110% Bonus Is Live!
 
 --- EMAIL BANNER (DE) ---
-Dein 110% Special-Bonus ist live!
+Dein 110% Bonus ist live!
 
 --- INAPP BANNER (EN) ---
 Your 110% Boost Is Ready to Activate!
@@ -50,10 +50,10 @@ Dein 110% Boost ist bereit zur Aktivierung!
 ========== 21.04 | PWRUP125 | 125% ==========
 
 --- EMAIL BANNER (EN) ---
-Your 125% Special Bonus Is Live!
+Your 125% Bonus Is Live!
 
 --- EMAIL BANNER (DE) ---
-Dein 125% Special-Bonus ist live!
+Dein 125% Bonus ist live!
 
 --- INAPP BANNER (EN) ---
 Your 125% Boost Is Live - Grab It Now!
