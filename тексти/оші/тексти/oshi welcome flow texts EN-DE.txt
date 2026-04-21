@@ -1,0 +1,781 @@
+========== EMAIL #1 | Welcome + Brand Intro ==========
+
+--- EMAIL (DEFAULT | EN) ---
+
+Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
+Preheader: See what's waiting for you inside
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Welcome to Oshi! We're glad you've joined us. Here you'll find thousands of top slots from 80+ leading providers, daily tournaments, a loyalty program with real cashback, and surprises around every corner.
+
+Your welcome package is already loaded: 100% bonus up to 1,000 EUR + 150 Free Spins with your first deposit.
+
+Your Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
+
+Important: activate your bonus and Free Spins in the Promo section of your account before you start playing.
+
+Take a look around and discover what Oshi has in store for you!
+Button: EXPLORE OSHI
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (AU | EN) ---
+
+Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
+Preheader: See what's waiting for you inside
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Welcome to Oshi! We're glad you've joined us. Here you'll find thousands of top slots from 80+ leading providers, daily tournaments, a loyalty program with real cashback, and surprises around every corner.
+
+Your welcome package is already loaded: 100% bonus up to 1,000 EUR + 150 Free Spins with your first deposit.
+
+Your Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
+
+Important: activate your bonus and Free Spins in the Promo section of your account before you start playing.
+
+Take a look around and discover what Oshi has in store for you!
+Button: EXPLORE OSHI
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (CA | EN) ---
+
+Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
+Preheader: See what's waiting for you inside
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Welcome to Oshi! We're glad you've joined us. Here you'll find thousands of top slots from 80+ leading providers, daily tournaments, a loyalty program with real cashback, and surprises around every corner.
+
+Your welcome package is already loaded: 100% bonus up to 1,000 EUR + 150 Free Spins with your first deposit.
+
+Your Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
+
+Important: activate your bonus and Free Spins in the Promo section of your account before you start playing.
+
+Take a look around and discover what Oshi has in store for you!
+Button: EXPLORE OSHI
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (DE) ---
+
+Subject: 🎰 Willkommen bei Oshi - Dein Abenteuer beginnt!
+Preheader: Entdecke, was auf dich wartet
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Willkommen bei Oshi! Schon, dass du dabei bist. Hier erwarten dich tausende Top-Slots von 80+ fuhrenden Anbietern, tagliche Turniere, ein Treueprogramm mit echtem Cashback und Uberraschungen an jeder Ecke.
+
+Dein Willkommenspaket ist bereits geladen: 100% Bonus bis zu 1.000 EUR + 150 Freispiele mit deiner ersten Einzahlung.
+
+Deine Freispiele sind auf Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways und Hold the Gold verfugbar.
+
+Wichtig: Aktiviere deinen Bonus und die Freispiele im Promo-Bereich deines Kontos, bevor du zu spielen beginnst.
+
+Schau dich um und entdecke, was Oshi fur dich bereithalt!
+Button: OSHI ENTDECKEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 20 EUR
+Bonusdauer: 5 Tage
+
+
+========== INAPP #1.1 | Welcome Pack | 100% + 150 FS ==========
+
+--- INAPP (DEFAULT | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your welcome bonus is ready!
+Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
+Button: CLAIM BONUS
+
+--- INAPP (AU | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your welcome bonus is ready!
+Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
+Button: CLAIM BONUS
+
+--- INAPP (CA | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Your welcome bonus is ready!
+Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
+Button: CLAIM BONUS
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Dein Willkommensbonus ist bereit!
+Sichere dir 100% bis zu 1.000 EUR + 150 Freispiele mit deiner ersten Einzahlung. Aktiviere deinen Bonus im Promo-Bereich - 150 FS gelten in 9 Spielen.
+Button: BONUS HOLEN
+
+
+========== INAPP #1.2 | 150 FS ready ==========
+
+--- INAPP (DEFAULT | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Liked what you saw?
+Your 150 Free Spins are ready to roll! Make your first deposit, activate the bonus in Promo, and start spinning - valid in 9 games.
+Button: DEPOSIT & PLAY
+
+--- INAPP (AU | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Liked what you saw?
+Your 150 Free Spins are ready to roll! Make your first deposit, activate the bonus in Promo, and start spinning - valid in 9 games.
+Button: DEPOSIT & PLAY
+
+--- INAPP (CA | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Liked what you saw?
+Your 150 Free Spins are ready to roll! Make your first deposit, activate the bonus in Promo, and start spinning - valid in 9 games.
+Button: DEPOSIT & PLAY
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Hat dir gefallen, was du gesehen hast?
+Deine 150 Freispiele warten auf dich! Tatige deine erste Einzahlung, aktiviere den Bonus im Promo-Bereich und dreh los - gultig in 9 Spielen.
+Button: EINZAHLEN & SPIELEN
+
+
+========== EMAIL #2 | 150 FS Waiting + 72hr Urgency ==========
+
+--- EMAIL (DEFAULT | EN) ---
+
+Subject: 🎰 150 Free Spins Are Waiting for You!
+Preheader: Your spins won't wait forever
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your 150 Free Spins are just one deposit away. Hundreds of players have already grabbed theirs this week - don't let yours slip through.
+
+Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
+
+Important: activate your bonus in the Promo section of your account after deposit to use your Free Spins.
+
+On top of the spins, you'll receive a 100% match up to 1,000 EUR. That's double the balance from your very first play.
+
+Hurry - this welcome offer expires in 72 hours. Deposit now and put your spins to work!
+Button: GRAB MY SPINS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (AU | EN) ---
+
+Subject: 🎰 150 Free Spins Are Waiting for You!
+Preheader: Your spins won't wait forever
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your 150 Free Spins are just one deposit away. Hundreds of players have already grabbed theirs this week - don't let yours slip through.
+
+Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
+
+Important: activate your bonus in the Promo section of your account after deposit to use your Free Spins.
+
+On top of the spins, you'll receive a 100% match up to 1,000 EUR. That's double the balance from your very first play.
+
+Hurry - this welcome offer expires in 72 hours. Deposit now and put your spins to work!
+Button: GRAB MY SPINS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (CA | EN) ---
+
+Subject: 🎰 150 Free Spins Are Waiting for You!
+Preheader: Your spins won't wait forever
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your 150 Free Spins are just one deposit away. Hundreds of players have already grabbed theirs this week - don't let yours slip through.
+
+Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
+
+Important: activate your bonus in the Promo section of your account after deposit to use your Free Spins.
+
+On top of the spins, you'll receive a 100% match up to 1,000 EUR. That's double the balance from your very first play.
+
+Hurry - this welcome offer expires in 72 hours. Deposit now and put your spins to work!
+Button: GRAB MY SPINS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (DE) ---
+
+Subject: 🎰 150 Freispiele warten auf dich!
+Preheader: Deine Spins warten nicht ewig
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Deine 150 Freispiele sind nur eine Einzahlung entfernt. Hunderte Spieler haben ihre diese Woche schon geholt - lass deine nicht verfallen.
+
+Die Freispiele sind auf Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways und Hold the Gold verfugbar.
+
+Wichtig: Aktiviere deinen Bonus nach der Einzahlung im Promo-Bereich deines Kontos, um deine Freispiele zu nutzen.
+
+Zusatzlich zu den Spins erhaltst du einen 100% Match-Bonus bis zu 1.000 EUR. Das bedeutet doppeltes Guthaben ab dem ersten Spiel.
+
+Beeil dich - dieses Willkommensangebot lauft in 72 Stunden ab. Zahle jetzt ein und bring deine Spins ins Rollen!
+Button: SPINS SICHERN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 20 EUR
+Bonusdauer: 5 Tage
+
+
+========== EMAIL #3 | Platform Value (Tournaments, Loyalty, Providers) ==========
+
+--- EMAIL (DEFAULT | EN) ---
+
+Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
+Preheader: There's more to Oshi than just slots
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+There's a whole world beyond the reels at Oshi. Jump into weekly tournaments with real prize pools, climb the loyalty ladder for cashback every Wednesday, and pick from 80+ top game providers.
+
+New titles drop every week, and exclusive promotions are always around the corner. Whether you're into slots, table games or live dealers - Oshi has something for every style of play.
+
+Join the action and see why players keep coming back!
+Button: DISCOVER MORE
+
+--- EMAIL (AU | EN) ---
+
+Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
+Preheader: There's more to Oshi than just slots
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+There's a whole world beyond the reels at Oshi. Jump into weekly tournaments with real prize pools, climb the loyalty ladder for cashback every Wednesday, and pick from 80+ top game providers.
+
+New titles drop every week, and exclusive promotions are always around the corner. Whether you're into slots, table games or live dealers - Oshi has something for every style of play.
+
+Join the action and see why players keep coming back!
+Button: DISCOVER MORE
+
+--- EMAIL (CA | EN) ---
+
+Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
+Preheader: There's more to Oshi than just slots
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+There's a whole world beyond the reels at Oshi. Jump into weekly tournaments with real prize pools, climb the loyalty ladder for cashback every Wednesday, and pick from 80+ top game providers.
+
+New titles drop every week, and exclusive promotions are always around the corner. Whether you're into slots, table games or live dealers - Oshi has something for every style of play.
+
+Join the action and see why players keep coming back!
+Button: DISCOVER MORE
+
+--- EMAIL (DE) ---
+
+Subject: 🏆 Turniere, Cashback & 80+ Anbieter bei Oshi
+Preheader: Oshi hat mehr zu bieten als nur Slots
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Nimm an wochentlichen Turnieren mit echten Preispools teil, klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch und wahle aus 80+ Top-Anbietern.
+
+Neue Spiele erscheinen jede Woche und exklusive Aktionen warten immer um die Ecke. Ob Slots, Tischspiele oder Live-Dealer - Oshi hat fur jeden Spielstil etwas dabei.
+
+Schlie dich dem Geschehen an und erlebe, warum Spieler immer wiederkommen!
+Button: MEHR ENTDECKEN
+
+
+========== SMS #3 | Platform Value ==========
+
+--- SMS (DEFAULT | EN) ---
+
+Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now [link]
+
+--- SMS (AU | EN) ---
+
+Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now [link]
+
+--- SMS (CA | EN) ---
+
+Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now [link]
+
+--- SMS (DE) ---
+
+Oshi: Turniere, Cashback & 80+ Anbieter warten. Deine erste Einzahlung schaltet alles frei. Jetzt spielen [link]
+
+
+========== EMAIL #4 | Social Proof + Lootwheel Teaser ==========
+
+--- EMAIL (DEFAULT | EN) ---
+
+Subject: 🎡 Thousands of Players Already Claimed Their Bonus
+Preheader: Find out what you're missing
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. The winners keep rolling in - and your spot is still open.
+
+Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
+
+Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
+Button: JOIN NOW
+
+--- EMAIL (AU | EN) ---
+
+Subject: 🎡 Thousands of Players Already Claimed Their Bonus
+Preheader: Find out what you're missing
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. The winners keep rolling in - and your spot is still open.
+
+Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
+
+Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
+Button: JOIN NOW
+
+--- EMAIL (CA | EN) ---
+
+Subject: 🎡 Thousands of Players Already Claimed Their Bonus
+Preheader: Find out what you're missing
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. The winners keep rolling in - and your spot is still open.
+
+Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
+
+Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
+Button: JOIN NOW
+
+--- EMAIL (DE) ---
+
+Subject: 🎡 Tausende Spieler haben ihren Bonus schon geholt
+Preheader: Erfahre, was du verpasst
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Allein diese Woche haben tausende Spieler ihren Willkommensbonus bei Oshi eingelost und die Walzen gedreht. Die Gewinner horen nicht auf - und dein Platz ist noch frei.
+
+Auserdem schaltest du das Lucky Wheel frei - dreh es und gewinne Freispiele und Bargeld-Preise mit den Codes SILVER oder GOLD.
+
+Bleib nicht am Rand, wahrend andere gewinnen. Tatige deine erste Einzahlung und steig ins Spiel ein!
+Button: JETZT MITMACHEN
+
+
+========== EMAIL #5 | Escalated Offer | 125% + 200 FS ==========
+
+--- EMAIL (DEFAULT | EN) ---
+
+Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Preheader: This offer was made just for you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code DEAD125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Book of Dead.
+
+That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
+
+Don't let this one pass. Lock in your exclusive upgrade and start spinning!
+Button: CLAIM MY UPGRADE
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (AU | EN) ---
+
+Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Preheader: This offer was made just for you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code BASS125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Big Bass Bonanza.
+
+That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
+
+Don't let this one pass. Lock in your exclusive upgrade and start spinning!
+Button: CLAIM MY UPGRADE
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (CA | EN) ---
+
+Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Preheader: This offer was made just for you
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code STAR125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Starburst.
+
+That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
+
+Don't let this one pass. Lock in your exclusive upgrade and start spinning!
+Button: CLAIM MY UPGRADE
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (DE) ---
+
+Subject: ⭐ 125% Bonus + 200 Freispiele - Exklusives Upgrade!
+Preheader: Dieses Angebot wurde nur fur dich gemacht
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Wir haben dein Willkommensangebot aufgewertet. Fur begrenzte Zeit zahlst du 20 EUR oder mehr ein und nutzt den Code DEAD125, um einen 125% Bonus bis zu 1.000 EUR + 200 Freispiele bei Book of Dead freizuschalten.
+
+Das sind 50 zusatzliche Spins und ein groserer Match als das Standardangebot - nur fur ausgewahlte Spieler verfugbar.
+
+Lass dir das nicht entgehen. Sichere dir dein exklusives Upgrade und leg los!
+Button: UPGRADE SICHERN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 20 EUR
+Bonusdauer: 5 Tage
+
+
+========== INAPP #5 | Escalated Offer | 125% + 200 FS ==========
+
+--- INAPP (DEFAULT | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Exclusive upgrade for you!
+Get 125% up to 1,000 EUR + 200 Free Spins on Book of Dead. Use code DEAD125 with your first deposit. This offer is not on the website - it's yours only!
+Button: UPGRADE NOW
+
+--- INAPP (AU | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Exclusive upgrade for you!
+Get 125% up to 1,000 EUR + 200 Free Spins on Big Bass Bonanza. Use code BASS125 with your first deposit. This offer is not on the website - it's yours only!
+Button: UPGRADE NOW
+
+--- INAPP (CA | EN) ---
+
+Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
+Exclusive upgrade for you!
+Get 125% up to 1,000 EUR + 200 Free Spins on Starburst. Use code STAR125 with your first deposit. This offer is not on the website - it's yours only!
+Button: UPGRADE NOW
+
+--- INAPP (DE) ---
+
+Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Exklusives Upgrade fur dich!
+Sichere dir 125% bis zu 1.000 EUR + 200 Freispiele bei Book of Dead. Nutze den Code DEAD125 mit deiner ersten Einzahlung. Dieses Angebot gibt es nicht auf der Website - es ist nur fur dich!
+Button: JETZT UPGRADEN
+
+
+========== EMAIL #6 | Bonus Expires Soon + Winnings Calculator ==========
+
+--- EMAIL (DEFAULT | EN) ---
+
+Subject: ⏳ Your Bonus Offer Expires Soon!
+Preheader: Check what you could win before time runs out
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
+
+Deposit 50 EUR with code DEAD125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
+
+Deposit 100 EUR? You'll play with 225 EUR + 200 Free Spins.
+
+The numbers speak for themselves. Make your deposit before time runs out!
+Button: SECURE MY BONUS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (AU | EN) ---
+
+Subject: ⏳ Your Bonus Offer Expires Soon!
+Preheader: Check what you could win before time runs out
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
+
+Deposit 50 EUR with code BASS125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
+
+Deposit 100 EUR? You'll play with 225 EUR + 200 Free Spins.
+
+The numbers speak for themselves. Make your deposit before time runs out!
+Button: SECURE MY BONUS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (CA | EN) ---
+
+Subject: ⏳ Your Bonus Offer Expires Soon!
+Preheader: Check what you could win before time runs out
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
+
+Deposit 50 EUR with code STAR125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
+
+Deposit 100 EUR? You'll play with 225 EUR + 200 Free Spins.
+
+The numbers speak for themselves. Make your deposit before time runs out!
+Button: SECURE MY BONUS
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (DE) ---
+
+Subject: ⏳ Dein Bonusangebot lauft bald ab!
+Preheader: Sieh dir an, was du gewinnen konntest
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Dein exklusives Bonusangebot lauft bald ab. Das lasst du gerade liegen:
+
+Zahle 50 EUR mit dem Code DEAD125 ein und erhalte 62,50 EUR Bonus + 200 Freispiele. Das sind 112,50 EUR zum Spielen aus nur einer Einzahlung.
+
+100 EUR einzahlen? Dann spielst du mit 225 EUR + 200 Freispielen.
+
+Die Zahlen sprechen fur sich. Tatige deine Einzahlung, bevor die Zeit ablauft!
+Button: BONUS SICHERN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 20 EUR
+Bonusdauer: 5 Tage
+
+
+========== EMAIL #7 | FINAL | 150% + 250 FS + 10 No-Deposit FS ==========
+
+--- EMAIL (DEFAULT | EN) ---
+
+Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Preheader: Our biggest welcome deal - last chance
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Razor Shark.
+
+Use code SHARK150 with a deposit of 20 EUR or more to claim this deal.
+
+On top of that, we've credited 10 Free Spins directly to your account - no code, no deposit, no catch. Open the lobby and spin them right now.
+
+This is the best we can offer. Lock it in before it's gone!
+Button: CLAIM FINAL OFFER
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR (for deposit bonus)
+No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR
+Bonus duration: 5 days
+
+--- EMAIL (AU | EN) ---
+
+Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Preheader: Our biggest welcome deal - last chance
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Sweet Bonanza.
+
+Use code SWEET150 with a deposit of 20 EUR or more to claim this deal.
+
+On top of that, we've credited 10 Free Spins directly to your account - no code, no deposit, no catch. Open the lobby and spin them right now.
+
+This is the best we can offer. Lock it in before it's gone!
+Button: CLAIM FINAL OFFER
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR (for deposit bonus)
+No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR
+Bonus duration: 5 days
+
+--- EMAIL (CA | EN) ---
+
+Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Preheader: Our biggest welcome deal - last chance
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Gonzo's Quest.
+
+Use code GONZO150 with a deposit of 20 EUR or more to claim this deal.
+
+On top of that, we've credited 10 Free Spins directly to your account - no code, no deposit, no catch. Open the lobby and spin them right now.
+
+This is the best we can offer. Lock it in before it's gone!
+Button: CLAIM FINAL OFFER
+
+Terms&Conditions:
+Wager: x40
+Min. deposit: 20 EUR (for deposit bonus)
+No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR
+Bonus duration: 5 days
+
+--- EMAIL (DE) ---
+
+Subject: 🔥 LETZTES Angebot: 150% + 250 Freispiele + 10 Bonusspins!
+Preheader: Unser grotes Willkommensangebot - letzte Chance
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Das ist unser letzter Ruf. Wir haben deinen Willkommensbonus auf das Maximum erhoht: 150% bis zu 1.000 EUR + 250 Freispiele bei Razor Shark.
+
+Nutze den Code SHARK150 mit einer Einzahlung von 20 EUR oder mehr, um dieses Angebot zu sichern.
+
+Zusatzlich haben wir 10 Freispiele direkt auf dein Konto gutgeschrieben - kein Code, keine Einzahlung, kein Haken. Offne die Lobby und dreh sie sofort.
+
+Das ist das Beste, was wir bieten konnen. Sichere es dir, bevor es weg ist!
+Button: LETZTES ANGEBOT HOLEN
+
+Terms&Conditions:
+Umsatz: x40
+Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
+Einzahlungsfreie Freispiele: 10 FS, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
+Bonusdauer: 5 Tage
+
+
+========== SMS #7 | FINAL Offer ==========
+
+--- SMS (DEFAULT | EN) ---
+
+Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code SHARK150 to deposit. [link]
+
+--- SMS (AU | EN) ---
+
+Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code SWEET150 to deposit. [link]
+
+--- SMS (CA | EN) ---
+
+Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code GONZO150 to deposit. [link]
+
+--- SMS (DE) ---
+
+Oshi: FINAL - 150% + 250 FS! 10 Freispiele bereits auf deinem Konto. Nutze Code SHARK150 zum Einzahlen. [link]
+
+
+========== EMAIL #8 | Absolute Final | 160% + 300 FS ==========
+
+--- EMAIL (DEFAULT | EN) ---
+
+Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Preheader: Nothing bigger is coming after this
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Fire Joker.
+
+Deposit 20 EUR or more with code JOKER160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+
+Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
+
+Once this expires, it's gone forever. Make your move and claim the ultimate reward!
+Button: GET MY REWARD
+
+Terms&Conditions:
+Wager: x40 (x25 for crypto deposits)
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (AU | EN) ---
+
+Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Preheader: Nothing bigger is coming after this
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Wolf Gold.
+
+Deposit 20 EUR or more with code WOLF160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+
+Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
+
+Once this expires, it's gone forever. Make your move and claim the ultimate reward!
+Button: GET MY REWARD
+
+Terms&Conditions:
+Wager: x40 (x25 for crypto deposits)
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (CA | EN) ---
+
+Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Preheader: Nothing bigger is coming after this
+Body:
+Hello {{ customer.first_name | default:"there" | capitalize }}!
+
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Mega Moolah.
+
+Deposit 20 EUR or more with code MEGA160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+
+Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
+
+Once this expires, it's gone forever. Make your move and claim the ultimate reward!
+Button: GET MY REWARD
+
+Terms&Conditions:
+Wager: x40 (x25 for crypto deposits)
+Min. deposit: 20 EUR
+Bonus duration: 5 days
+
+--- EMAIL (DE) ---
+
+Subject: 💎 160% + 300 Freispiele - Das ultimative Willkommensangebot!
+Preheader: Danach kommt nichts Groseres mehr
+Body:
+Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+
+Wir haben das Beste zum Schluss aufgehoben. Das ist der absolut groste Willkommensbonus, den Oshi je angeboten hat: 160% bis zu 1.000 EUR + 300 Freispiele bei Fire Joker.
+
+Zahle 20 EUR oder mehr mit dem Code JOKER160 ein und sieh zu, wie sich dein Guthaben vervielfacht. Kein anderer Spieler bekommt ein solches Angebot - es wurde speziell fur dich erstellt.
+
+Einzahlung mit Krypto? Dein Umsatz sinkt von x40 auf nur x25. Gleicher Bonus, schnellere Auszahlung.
+
+Sobald es ablauft, ist es fur immer weg. Mach deinen Zug und hole dir die ultimative Belohnung!
+Button: BELOHNUNG HOLEN
+
+Terms&Conditions:
+Umsatz: x40 (x25 fur Krypto-Einzahlungen)
+Mindesteinzahlung: 20 EUR
+Bonusdauer: 5 Tage

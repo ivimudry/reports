@@ -1,6 +1,12 @@
 ========== EMAIL #1 | Welcome + Brand Intro ==========
 
---- EMAIL BANNER (EN) ---
+--- EMAIL BANNER (DEFAULT | EN) ---
+Welcome to Oshi - Let the Fun Begin!
+
+--- EMAIL BANNER (AU | EN) ---
+Welcome to Oshi - Let the Fun Begin!
+
+--- EMAIL BANNER (CA | EN) ---
 Welcome to Oshi - Let the Fun Begin!
 
 --- EMAIL BANNER (DE) ---
@@ -9,7 +15,13 @@ Willkommen bei Oshi - Der Spass beginnt!
 
 ========== INAPP #1.1 | Welcome Pack | 100% + 150 FS ==========
 
---- INAPP BANNER (EN) ---
+--- INAPP BANNER (DEFAULT | EN) ---
+100% + 150 Free Spins - Your Welcome Pack!
+
+--- INAPP BANNER (AU | EN) ---
+100% + 150 Free Spins - Your Welcome Pack!
+
+--- INAPP BANNER (CA | EN) ---
 100% + 150 Free Spins - Your Welcome Pack!
 
 --- INAPP BANNER (DE) ---
@@ -18,7 +30,13 @@ Willkommen bei Oshi - Der Spass beginnt!
 
 ========== INAPP #1.2 | 150 FS ready ==========
 
---- INAPP BANNER (EN) ---
+--- INAPP BANNER (DEFAULT | EN) ---
+150 Free Spins Ready for You!
+
+--- INAPP BANNER (AU | EN) ---
+150 Free Spins Ready for You!
+
+--- INAPP BANNER (CA | EN) ---
 150 Free Spins Ready for You!
 
 --- INAPP BANNER (DE) ---
@@ -27,7 +45,13 @@ Willkommen bei Oshi - Der Spass beginnt!
 
 ========== EMAIL #2 | 150 FS Waiting + 72hr Urgency ==========
 
---- EMAIL BANNER (EN) ---
+--- EMAIL BANNER (DEFAULT | EN) ---
+150 Free Spins Won't Wait Forever!
+
+--- EMAIL BANNER (AU | EN) ---
+150 Free Spins Won't Wait Forever!
+
+--- EMAIL BANNER (CA | EN) ---
 150 Free Spins Won't Wait Forever!
 
 --- EMAIL BANNER (DE) ---
@@ -36,7 +60,13 @@ Willkommen bei Oshi - Der Spass beginnt!
 
 ========== EMAIL #3 | Platform Value ==========
 
---- EMAIL BANNER (EN) ---
+--- EMAIL BANNER (DEFAULT | EN) ---
+Tournaments, Cashback & 80+ Providers!
+
+--- EMAIL BANNER (AU | EN) ---
+Tournaments, Cashback & 80+ Providers!
+
+--- EMAIL BANNER (CA | EN) ---
 Tournaments, Cashback & 80+ Providers!
 
 --- EMAIL BANNER (DE) ---
@@ -45,7 +75,13 @@ Turniere, Cashback & 80+ Anbieter!
 
 ========== EMAIL #4 | Social Proof + Lootwheel Teaser ==========
 
---- EMAIL BANNER (EN) ---
+--- EMAIL BANNER (DEFAULT | EN) ---
+Thousands Claimed - Your Spot Is Open!
+
+--- EMAIL BANNER (AU | EN) ---
+Thousands Claimed - Your Spot Is Open!
+
+--- EMAIL BANNER (CA | EN) ---
 Thousands Claimed - Your Spot Is Open!
 
 --- EMAIL BANNER (DE) ---
@@ -54,7 +90,13 @@ Tausende haben zugeschlagen - Dein Platz wartet!
 
 ========== EMAIL #5 | Escalated Offer | 125% + 200 FS ==========
 
---- EMAIL BANNER (EN) ---
+--- EMAIL BANNER (DEFAULT | EN) ---
+Exclusive Upgrade - 125% + 200 Free Spins!
+
+--- EMAIL BANNER (AU | EN) ---
+Exclusive Upgrade - 125% + 200 Free Spins!
+
+--- EMAIL BANNER (CA | EN) ---
 Exclusive Upgrade - 125% + 200 Free Spins!
 
 --- EMAIL BANNER (DE) ---
@@ -63,7 +105,13 @@ Exklusives Upgrade - 125% + 200 Freispiele!
 
 ========== INAPP #5 | Escalated Offer | 125% + 200 FS ==========
 
---- INAPP BANNER (EN) ---
+--- INAPP BANNER (DEFAULT | EN) ---
+Your Exclusive 125% + 200 FS Upgrade!
+
+--- INAPP BANNER (AU | EN) ---
+Your Exclusive 125% + 200 FS Upgrade!
+
+--- INAPP BANNER (CA | EN) ---
 Your Exclusive 125% + 200 FS Upgrade!
 
 --- INAPP BANNER (DE) ---
@@ -72,7 +120,13 @@ Dein exklusives 125% + 200 FS Upgrade!
 
 ========== EMAIL #6 | Bonus Expires Soon ==========
 
---- EMAIL BANNER (EN) ---
+--- EMAIL BANNER (DEFAULT | EN) ---
+Time's Running Out on Your Bonus!
+
+--- EMAIL BANNER (AU | EN) ---
+Time's Running Out on Your Bonus!
+
+--- EMAIL BANNER (CA | EN) ---
 Time's Running Out on Your Bonus!
 
 --- EMAIL BANNER (DE) ---
@@ -81,7 +135,13 @@ Dein Bonus lauft bald ab!
 
 ========== EMAIL #7 | FINAL | 150% + 250 FS + 10 No-Deposit FS ==========
 
---- EMAIL BANNER (EN) ---
+--- EMAIL BANNER (DEFAULT | EN) ---
+FINAL: 150% + 250 Free Spins + 10 Bonus Spins!
+
+--- EMAIL BANNER (AU | EN) ---
+FINAL: 150% + 250 Free Spins + 10 Bonus Spins!
+
+--- EMAIL BANNER (CA | EN) ---
 FINAL: 150% + 250 Free Spins + 10 Bonus Spins!
 
 --- EMAIL BANNER (DE) ---
@@ -90,7 +150,13 @@ FINAL: 150% + 250 Freispiele + 10 Bonusspins!
 
 ========== EMAIL #8 | Absolute Final | 160% + 300 FS ==========
 
---- EMAIL BANNER (EN) ---
+--- EMAIL BANNER (DEFAULT | EN) ---
+The Ultimate Deal - 160% + 300 Free Spins!
+
+--- EMAIL BANNER (AU | EN) ---
+The Ultimate Deal - 160% + 300 Free Spins!
+
+--- EMAIL BANNER (CA | EN) ---
 The Ultimate Deal - 160% + 300 Free Spins!
 
 --- EMAIL BANNER (DE) ---
