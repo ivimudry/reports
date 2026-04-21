@@ -287,7 +287,7 @@ Preheader: Instant CAD deposits with Interac, plus crypto and 80+ providers
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Mega Moolah from Microgaming, Gonzo's Quest from NetEnt and Big Bass Bonanza from Pragmatic Play, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
+There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Sugar Rush and Gates of Olympus from Pragmatic Play, plus Wanted Dead or a Wild from Hacksaw Gaming, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
 
 80+ top providers, instant CAD deposits via Interac (withdrawals in 1-3 banking days), plus crypto (BTC, ETH, USDT, LTC and more). New titles drop every week.
 
@@ -297,11 +297,11 @@ Button: DISCOVER MORE
 --- EMAIL (DE) ---
 
 Subject: 🏆 Turniere, Cashback & 80+ Anbieter bei Oshi
-Preheader: Sofort, Paysafecard, Krypto - plus Razor Shark und Book of Dead
+Preheader: Sofort, Paysafecard, Krypto - plus Elvis Frog TRUEWAYS und Lucky Jane in Egypt
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele deutsche Favoriten wie Razor Shark von Push Gaming, Book of Dead von Play'n GO und Eye of Horus von Blueprint Gaming, nimm an wochentlichen Turnieren mit echten Preispools teil und klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch.
+Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele beliebte Slots wie Elvis Frog TRUEWAYS von BGaming, Lucky Jane in Egypt von 1spin4win und Piggy Tap von OnlyPlay, nimm an wochentlichen Turnieren mit echten Preispools teil und klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch.
 
 80+ Top-Anbieter, schnelle Einzahlungen per Sofort, Paysafecard und CashToCode, plus Krypto (BTC, ETH, USDT, LTC und mehr). Neue Spiele erscheinen jede Woche.
 
@@ -379,9 +379,9 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Players across Canada keep claiming their welcome bonus and spinning to wins this week. A few of this week's results:
 
-- Ben••••••44 scored 2,800 CAD on Mega Moolah
-- AvaQ•••• won 1,500 CAD on Gonzo's Quest
-- N•••Wolf cashed out 4,100 CAD on Big Bass Bonanza
+- Ben••••••44 scored 2,800 CAD on Sugar Rush
+- AvaQ•••• won 1,500 CAD on Gates of Olympus
+- N•••Wolf cashed out 4,100 CAD on Wanted Dead or a Wild
 
 Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash prizes:
 - Deposit 30 CAD with code SILVER -> spin to win up to 5,000 EUR
@@ -399,9 +399,9 @@ Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
 Tausende Spieler aus Deutschland holen sich gerade ihren Willkommensbonus bei Oshi. Ein paar Gewinner dieser Woche:
 
-- Luk•••••39 holte 2,600 EUR bei Razor Shark
-- Emi•••Berg gewann 1,400 EUR bei Book of Dead
-- J••••Falke kassierte 3,300 EUR bei Eye of Horus
+- Luk•••••39 holte 2,600 EUR bei Elvis Frog TRUEWAYS
+- Emi•••Berg gewann 1,400 EUR bei Lucky Jane in Egypt
+- J••••Falke kassierte 3,300 EUR bei Piggy Tap
 
 Mit deiner Einzahlung schaltest du das Lucky Wheel frei - dreh und gewinne Freispiele und Bargeld-Preise:
 - Zahle 20 EUR mit Code SILVER ein -> drehe und gewinne bis zu 5,000 EUR
@@ -420,7 +420,7 @@ Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code DEAD125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Book of Dead.
+We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code FROG125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Elvis Frog TRUEWAYS.
 
 That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
 
@@ -458,7 +458,7 @@ Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code MEGA125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Mega Moolah.
+We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code SUGAR125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Sugar Rush.
 
 That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
 
@@ -477,7 +477,7 @@ Preheader: Dieses Angebot wurde nur fur dich gemacht
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Wir haben dein Willkommensangebot aufgewertet. Fur begrenzte Zeit zahlst du 20 EUR oder mehr ein und nutzt den Code DEAD125, um einen 125% Bonus bis zu 1.000 EUR + 200 Freispiele bei Book of Dead freizuschalten.
+Wir haben dein Willkommensangebot aufgewertet. Fur begrenzte Zeit zahlst du 20 EUR oder mehr ein und nutzt den Code FROG125, um einen 125% Bonus bis zu 1.000 EUR + 200 Freispiele bei Elvis Frog TRUEWAYS freizuschalten.
 
 Das sind 50 zusatzliche Spins und ein groserer Match als das Standardangebot - nur fur ausgewahlte Spieler verfugbar.
 
@@ -496,7 +496,7 @@ Bonusdauer: 5 Tage
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Exclusive upgrade for you!
-Get 125% up to 1,000 EUR + 200 Free Spins on Book of Dead. Use code DEAD125 with your first deposit. This offer is not on the website - it's yours only!
+Get 125% up to 1,000 EUR + 200 Free Spins on Elvis Frog TRUEWAYS. Use code FROG125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
 
 --- INAPP (AU) ---
@@ -510,14 +510,14 @@ Button: UPGRADE NOW
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Exclusive upgrade for you!
-Get 125% up to 1,000 EUR + 200 Free Spins on Mega Moolah. Use code MEGA125 with your first deposit. This offer is not on the website - it's yours only!
+Get 125% up to 1,000 EUR + 200 Free Spins on Sugar Rush. Use code SUGAR125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
 
 --- INAPP (DE) ---
 
 Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 Exklusives Upgrade fur dich!
-Sichere dir 125% bis zu 1.000 EUR + 200 Freispiele bei Book of Dead. Nutze den Code DEAD125 mit deiner ersten Einzahlung. Dieses Angebot gibt es nicht auf der Website - es ist nur fur dich!
+Sichere dir 125% bis zu 1.000 EUR + 200 Freispiele bei Elvis Frog TRUEWAYS. Nutze den Code FROG125 mit deiner ersten Einzahlung. Dieses Angebot gibt es nicht auf der Website - es ist nur fur dich!
 Button: JETZT UPGRADEN
 
 
@@ -532,7 +532,7 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
 
-Deposit 50 EUR with code DEAD125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
+Deposit 50 EUR with code FROG125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
 
 Deposit 100 EUR? You'll play with 225 EUR + 200 Free Spins.
 
@@ -574,7 +574,7 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
 
-Deposit 50 EUR with code MEGA125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
+Deposit 50 EUR with code SUGAR125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
 
 Deposit 100 EUR? You'll play with 225 EUR + 200 Free Spins.
 
@@ -595,7 +595,7 @@ Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
 Dein exklusives Bonusangebot lauft bald ab. Das lasst du gerade liegen:
 
-Zahle 50 EUR mit dem Code DEAD125 ein und erhalte 62,50 EUR Bonus + 200 Freispiele. Das sind 112,50 EUR zum Spielen aus nur einer Einzahlung.
+Zahle 50 EUR mit dem Code FROG125 ein und erhalte 62,50 EUR Bonus + 200 Freispiele. Das sind 112,50 EUR zum Spielen aus nur einer Einzahlung.
 
 100 EUR einzahlen? Dann spielst du mit 225 EUR + 200 Freispielen.
 
@@ -617,11 +617,11 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Razor Shark.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Lucky Jane in Egypt.
 
-Use code SHARK150 with a deposit of 20 EUR or more to claim this deal.
+Use code JANE150 with a deposit of 20 EUR or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account on Razor Shark - no code, no deposit, no catch. [Play Razor Shark now →]
+On top of that, we've credited 10 Free Spins directly to your account on Lucky Jane in Egypt - no code, no deposit, no catch. [Play Lucky Jane in Egypt now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -629,7 +629,7 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS on Razor Shark, auto-credited, no code needed, wager x40, max win 50 EUR
+No-deposit Free Spins: 10 FS on Lucky Jane in Egypt, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
 
 --- EMAIL (AU) ---
@@ -661,11 +661,11 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Big Bass Bonanza.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Gates of Olympus.
 
-Use code BASS150 with a deposit of 20 EUR or more to claim this deal.
+Use code GATES150 with a deposit of 20 EUR or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account on Big Bass Bonanza - no code, no deposit, no catch. [Play Big Bass Bonanza now →]
+On top of that, we've credited 10 Free Spins directly to your account on Gates of Olympus - no code, no deposit, no catch. [Play Gates of Olympus now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -673,7 +673,7 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS on Big Bass Bonanza, auto-credited, no code needed, wager x40, max win 50 EUR
+No-deposit Free Spins: 10 FS on Gates of Olympus, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
@@ -683,11 +683,11 @@ Preheader: Unser grotes Willkommensangebot - letzte Chance
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Das ist unser letzter Ruf. Wir haben deinen Willkommensbonus auf das Maximum erhoht: 150% bis zu 1.000 EUR + 250 Freispiele bei Razor Shark.
+Das ist unser letzter Ruf. Wir haben deinen Willkommensbonus auf das Maximum erhoht: 150% bis zu 1.000 EUR + 250 Freispiele bei Lucky Jane in Egypt.
 
-Nutze den Code SHARK150 mit einer Einzahlung von 20 EUR oder mehr, um dieses Angebot zu sichern.
+Nutze den Code JANE150 mit einer Einzahlung von 20 EUR oder mehr, um dieses Angebot zu sichern.
 
-Zusatzlich haben wir 10 Freispiele direkt auf dein Konto gutgeschrieben - bei Razor Shark, kein Code, keine Einzahlung, kein Haken. [Jetzt Razor Shark spielen →]
+Zusatzlich haben wir 10 Freispiele direkt auf dein Konto gutgeschrieben - bei Lucky Jane in Egypt, kein Code, keine Einzahlung, kein Haken. [Jetzt Lucky Jane in Egypt spielen →]
 
 Das ist das Beste, was wir bieten konnen. Sichere es dir, bevor es weg ist!
 Button: LETZTES ANGEBOT HOLEN
@@ -695,7 +695,7 @@ Button: LETZTES ANGEBOT HOLEN
 Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
-Einzahlungsfreie Freispiele: 10 FS bei Razor Shark, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
+Einzahlungsfreie Freispiele: 10 FS bei Lucky Jane in Egypt, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
 Bonusdauer: 5 Tage
 
 
@@ -703,7 +703,7 @@ Bonusdauer: 5 Tage
 
 --- SMS (DEFAULT) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Razor Shark already in your account: [Play →]. Use code SHARK150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Lucky Jane in Egypt already in your account: [Play →]. Use code JANE150 to deposit.
 
 --- SMS (AU) ---
 
@@ -711,11 +711,11 @@ Oshi: FINAL - 150% + 250 FS! 10 free spins on Sweet Bonanza already in your acco
 
 --- SMS (CA) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Big Bass Bonanza already in your account: [Play →]. Use code BASS150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Gates of Olympus already in your account: [Play →]. Use code GATES150 to deposit.
 
 --- SMS (DE) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 Freispiele bei Razor Shark bereits auf deinem Konto: [Spielen →]. Nutze Code SHARK150 zum Einzahlen.
+Oshi: FINAL - 150% + 250 FS! 10 Freispiele bei Lucky Jane in Egypt bereits auf deinem Konto: [Spielen →]. Nutze Code JANE150 zum Einzahlen.
 
 
 ========== EMAIL #8 | Absolute Final | 160% + 300 FS ==========
@@ -727,9 +727,9 @@ Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Fire Joker.
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Piggy Tap.
 
-Deposit 20 EUR or more with code JOKER160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+Deposit 20 EUR or more with code PIGGY160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
 
 Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
 
@@ -769,9 +769,9 @@ Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Sugar Rush.
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Wanted Dead or a Wild.
 
-Deposit 20 EUR or more with code SUGAR160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+Deposit 20 EUR or more with code WANTED160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
 
 Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
 
@@ -790,9 +790,9 @@ Preheader: Danach kommt nichts Groseres mehr
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Wir haben das Beste zum Schluss aufgehoben. Das ist der absolut groste Willkommensbonus, den Oshi je angeboten hat: 160% bis zu 1.000 EUR + 300 Freispiele bei Fire Joker.
+Wir haben das Beste zum Schluss aufgehoben. Das ist der absolut groste Willkommensbonus, den Oshi je angeboten hat: 160% bis zu 1.000 EUR + 300 Freispiele bei Piggy Tap.
 
-Zahle 20 EUR oder mehr mit dem Code JOKER160 ein und sieh zu, wie sich dein Guthaben vervielfacht. Kein anderer Spieler bekommt ein solches Angebot - es wurde speziell fur dich erstellt.
+Zahle 20 EUR oder mehr mit dem Code PIGGY160 ein und sieh zu, wie sich dein Guthaben vervielfacht. Kein anderer Spieler bekommt ein solches Angebot - es wurde speziell fur dich erstellt.
 
 Einzahlung mit Krypto? Dein Umsatz sinkt von x40 auf nur x25. Gleicher Bonus, schnellere Auszahlung.
 
