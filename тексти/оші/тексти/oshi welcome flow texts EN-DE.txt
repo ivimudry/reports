@@ -1,8 +1,8 @@
-========== EMAIL #1 | Welcome + Brand Intro ==========
+﻿========== EMAIL #1 | Welcome + Brand Intro ==========
 
---- EMAIL (DEFAULT | EN) ---
+--- EMAIL (DEFAULT) ---
 
-Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
+Subject: рџЋ° Welcome to Oshi - Your Adventure Starts Now!
 Preheader: See what's waiting for you inside
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -23,9 +23,9 @@ Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (AU | EN) ---
+--- EMAIL (AU) ---
 
-Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
+Subject: рџЋ° Welcome to Oshi - Your Adventure Starts Now!
 Preheader: See what's waiting for you inside
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -46,9 +46,9 @@ Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (CA | EN) ---
+--- EMAIL (CA) ---
 
-Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
+Subject: рџЋ° Welcome to Oshi - Your Adventure Starts Now!
 Preheader: See what's waiting for you inside
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -71,7 +71,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: 🎰 Willkommen bei Oshi - Dein Abenteuer beginnt!
+Subject: рџЋ° Willkommen bei Oshi - Dein Abenteuer beginnt!
 Preheader: Entdecke, was auf dich wartet
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -95,21 +95,21 @@ Bonusdauer: 5 Tage
 
 ========== INAPP #1.1 | Welcome Pack | 100% + 150 FS ==========
 
---- INAPP (DEFAULT | EN) ---
+--- INAPP (DEFAULT) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your welcome bonus is ready!
 Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
 
---- INAPP (AU | EN) ---
+--- INAPP (AU) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your welcome bonus is ready!
 Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
 
---- INAPP (CA | EN) ---
+--- INAPP (CA) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your welcome bonus is ready!
@@ -126,21 +126,21 @@ Button: BONUS HOLEN
 
 ========== INAPP #1.2 | 150 FS ready ==========
 
---- INAPP (DEFAULT | EN) ---
+--- INAPP (DEFAULT) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Liked what you saw?
 Your 150 Free Spins are ready to roll! Make your first deposit, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
 
---- INAPP (AU | EN) ---
+--- INAPP (AU) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Liked what you saw?
 Your 150 Free Spins are ready to roll! Make your first deposit, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
 
---- INAPP (CA | EN) ---
+--- INAPP (CA) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Liked what you saw?
@@ -157,9 +157,9 @@ Button: EINZAHLEN & SPIELEN
 
 ========== EMAIL #2 | 150 FS Waiting + 72hr Urgency ==========
 
---- EMAIL (DEFAULT | EN) ---
+--- EMAIL (DEFAULT) ---
 
-Subject: 🎰 150 Free Spins Are Waiting for You!
+Subject: рџЋ° 150 Free Spins Are Waiting for You!
 Preheader: Your spins won't wait forever
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -180,9 +180,9 @@ Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (AU | EN) ---
+--- EMAIL (AU) ---
 
-Subject: 🎰 150 Free Spins Are Waiting for You!
+Subject: рџЋ° 150 Free Spins Are Waiting for You!
 Preheader: Your spins won't wait forever
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -203,9 +203,9 @@ Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (CA | EN) ---
+--- EMAIL (CA) ---
 
-Subject: 🎰 150 Free Spins Are Waiting for You!
+Subject: рџЋ° 150 Free Spins Are Waiting for You!
 Preheader: Your spins won't wait forever
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -228,7 +228,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: 🎰 150 Freispiele warten auf dich!
+Subject: рџЋ° 150 Freispiele warten auf dich!
 Preheader: Deine Spins warten nicht ewig
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -252,9 +252,9 @@ Bonusdauer: 5 Tage
 
 ========== EMAIL #3 | Platform Value (Tournaments, Loyalty, Providers) ==========
 
---- EMAIL (DEFAULT | EN) ---
+--- EMAIL (DEFAULT) ---
 
-Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
+Subject: рџЏ† Tournaments, Cashback & 80+ Providers at Oshi
 Preheader: There's more to Oshi than just slots
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -266,9 +266,9 @@ New titles drop every week, and exclusive promotions are always around the corne
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
 
---- EMAIL (AU | EN) ---
+--- EMAIL (AU) ---
 
-Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
+Subject: рџЏ† Tournaments, Cashback & 80+ Providers at Oshi
 Preheader: There's more to Oshi than just slots
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -280,9 +280,9 @@ New titles drop every week, and exclusive promotions are always around the corne
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
 
---- EMAIL (CA | EN) ---
+--- EMAIL (CA) ---
 
-Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
+Subject: рџЏ† Tournaments, Cashback & 80+ Providers at Oshi
 Preheader: There's more to Oshi than just slots
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -296,7 +296,7 @@ Button: DISCOVER MORE
 
 --- EMAIL (DE) ---
 
-Subject: 🏆 Turniere, Cashback & 80+ Anbieter bei Oshi
+Subject: рџЏ† Turniere, Cashback & 80+ Anbieter bei Oshi
 Preheader: Oshi hat mehr zu bieten als nur Slots
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -311,15 +311,15 @@ Button: MEHR ENTDECKEN
 
 ========== SMS #3 | Platform Value ==========
 
---- SMS (DEFAULT | EN) ---
+--- SMS (DEFAULT) ---
 
 Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now [link]
 
---- SMS (AU | EN) ---
+--- SMS (AU) ---
 
 Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now [link]
 
---- SMS (CA | EN) ---
+--- SMS (CA) ---
 
 Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now [link]
 
@@ -330,9 +330,9 @@ Oshi: Turniere, Cashback & 80+ Anbieter warten. Deine erste Einzahlung schaltet 
 
 ========== EMAIL #4 | Social Proof + Lootwheel Teaser ==========
 
---- EMAIL (DEFAULT | EN) ---
+--- EMAIL (DEFAULT) ---
 
-Subject: 🎡 Thousands of Players Already Claimed Their Bonus
+Subject: рџЋЎ Thousands of Players Already Claimed Their Bonus
 Preheader: Find out what you're missing
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -344,9 +344,9 @@ Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins
 Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
 Button: JOIN NOW
 
---- EMAIL (AU | EN) ---
+--- EMAIL (AU) ---
 
-Subject: 🎡 Thousands of Players Already Claimed Their Bonus
+Subject: рџЋЎ Thousands of Players Already Claimed Their Bonus
 Preheader: Find out what you're missing
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -358,9 +358,9 @@ Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins
 Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
 Button: JOIN NOW
 
---- EMAIL (CA | EN) ---
+--- EMAIL (CA) ---
 
-Subject: 🎡 Thousands of Players Already Claimed Their Bonus
+Subject: рџЋЎ Thousands of Players Already Claimed Their Bonus
 Preheader: Find out what you're missing
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -374,7 +374,7 @@ Button: JOIN NOW
 
 --- EMAIL (DE) ---
 
-Subject: 🎡 Tausende Spieler haben ihren Bonus schon geholt
+Subject: рџЋЎ Tausende Spieler haben ihren Bonus schon geholt
 Preheader: Erfahre, was du verpasst
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -389,9 +389,9 @@ Button: JETZT MITMACHEN
 
 ========== EMAIL #5 | Escalated Offer | 125% + 200 FS ==========
 
---- EMAIL (DEFAULT | EN) ---
+--- EMAIL (DEFAULT) ---
 
-Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Subject: в­ђ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
 Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -408,9 +408,9 @@ Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (AU | EN) ---
+--- EMAIL (AU) ---
 
-Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Subject: в­ђ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
 Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -427,9 +427,9 @@ Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (CA | EN) ---
+--- EMAIL (CA) ---
 
-Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Subject: в­ђ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
 Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -448,7 +448,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: ⭐ 125% Bonus + 200 Freispiele - Exklusives Upgrade!
+Subject: в­ђ 125% Bonus + 200 Freispiele - Exklusives Upgrade!
 Preheader: Dieses Angebot wurde nur fur dich gemacht
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -468,21 +468,21 @@ Bonusdauer: 5 Tage
 
 ========== INAPP #5 | Escalated Offer | 125% + 200 FS ==========
 
---- INAPP (DEFAULT | EN) ---
+--- INAPP (DEFAULT) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Exclusive upgrade for you!
 Get 125% up to 1,000 EUR + 200 Free Spins on Book of Dead. Use code DEAD125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
 
---- INAPP (AU | EN) ---
+--- INAPP (AU) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Exclusive upgrade for you!
 Get 125% up to 1,000 EUR + 200 Free Spins on Big Bass Bonanza. Use code BASS125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
 
---- INAPP (CA | EN) ---
+--- INAPP (CA) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Exclusive upgrade for you!
@@ -499,9 +499,9 @@ Button: JETZT UPGRADEN
 
 ========== EMAIL #6 | Bonus Expires Soon + Winnings Calculator ==========
 
---- EMAIL (DEFAULT | EN) ---
+--- EMAIL (DEFAULT) ---
 
-Subject: ⏳ Your Bonus Offer Expires Soon!
+Subject: вЏі Your Bonus Offer Expires Soon!
 Preheader: Check what you could win before time runs out
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -520,9 +520,9 @@ Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (AU | EN) ---
+--- EMAIL (AU) ---
 
-Subject: ⏳ Your Bonus Offer Expires Soon!
+Subject: вЏі Your Bonus Offer Expires Soon!
 Preheader: Check what you could win before time runs out
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -541,9 +541,9 @@ Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (CA | EN) ---
+--- EMAIL (CA) ---
 
-Subject: ⏳ Your Bonus Offer Expires Soon!
+Subject: вЏі Your Bonus Offer Expires Soon!
 Preheader: Check what you could win before time runs out
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -564,7 +564,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: ⏳ Dein Bonusangebot lauft bald ab!
+Subject: вЏі Dein Bonusangebot lauft bald ab!
 Preheader: Sieh dir an, was du gewinnen konntest
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -586,9 +586,9 @@ Bonusdauer: 5 Tage
 
 ========== EMAIL #7 | FINAL | 150% + 250 FS + 10 No-Deposit FS ==========
 
---- EMAIL (DEFAULT | EN) ---
+--- EMAIL (DEFAULT) ---
 
-Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Subject: рџ”Ґ FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
 Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -608,9 +608,9 @@ Min. deposit: 20 EUR (for deposit bonus)
 No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
 
---- EMAIL (AU | EN) ---
+--- EMAIL (AU) ---
 
-Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Subject: рџ”Ґ FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
 Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -630,9 +630,9 @@ Min. deposit: 20 EUR (for deposit bonus)
 No-deposit Free Spins: 10 FS, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
 
---- EMAIL (CA | EN) ---
+--- EMAIL (CA) ---
 
-Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Subject: рџ”Ґ FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
 Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -654,7 +654,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: 🔥 LETZTES Angebot: 150% + 250 Freispiele + 10 Bonusspins!
+Subject: рџ”Ґ LETZTES Angebot: 150% + 250 Freispiele + 10 Bonusspins!
 Preheader: Unser grotes Willkommensangebot - letzte Chance
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -671,21 +671,21 @@ Button: LETZTES ANGEBOT HOLEN
 Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
-Einzahlungsfreie Freispiele: 10 FS, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
+Einzahlungsfreie Freispiele: 10 FS, automatisch gutgeschrieben, kein Code nГ¶tig, Umsatz x40, max. Gewinn 50 EUR
 Bonusdauer: 5 Tage
 
 
 ========== SMS #7 | FINAL Offer ==========
 
---- SMS (DEFAULT | EN) ---
+--- SMS (DEFAULT) ---
 
 Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code SHARK150 to deposit. [link]
 
---- SMS (AU | EN) ---
+--- SMS (AU) ---
 
 Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code SWEET150 to deposit. [link]
 
---- SMS (CA | EN) ---
+--- SMS (CA) ---
 
 Oshi: FINAL - 150% + 250 FS! 10 free spins already in your account. Use code GONZO150 to deposit. [link]
 
@@ -696,9 +696,9 @@ Oshi: FINAL - 150% + 250 FS! 10 Freispiele bereits auf deinem Konto. Nutze Code 
 
 ========== EMAIL #8 | Absolute Final | 160% + 300 FS ==========
 
---- EMAIL (DEFAULT | EN) ---
+--- EMAIL (DEFAULT) ---
 
-Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Subject: рџ’Ћ 160% + 300 Free Spins - The Ultimate Welcome Deal!
 Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -717,9 +717,9 @@ Wager: x40 (x25 for crypto deposits)
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (AU | EN) ---
+--- EMAIL (AU) ---
 
-Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Subject: рџ’Ћ 160% + 300 Free Spins - The Ultimate Welcome Deal!
 Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -738,9 +738,9 @@ Wager: x40 (x25 for crypto deposits)
 Min. deposit: 20 EUR
 Bonus duration: 5 days
 
---- EMAIL (CA | EN) ---
+--- EMAIL (CA) ---
 
-Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Subject: рџ’Ћ 160% + 300 Free Spins - The Ultimate Welcome Deal!
 Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -761,7 +761,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: 💎 160% + 300 Freispiele - Das ultimative Willkommensangebot!
+Subject: рџ’Ћ 160% + 300 Freispiele - Das ultimative Willkommensangebot!
 Preheader: Danach kommt nichts Groseres mehr
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -779,3 +779,4 @@ Terms&Conditions:
 Umsatz: x40 (x25 fur Krypto-Einzahlungen)
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
+
