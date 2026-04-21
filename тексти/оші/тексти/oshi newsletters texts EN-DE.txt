@@ -24,7 +24,7 @@ The bonus is available once on April 1 (UTC TZ)
 Subject: 🍬 60% Bonus + 60 Freispiele - Oster-Überraschung!
 Preheader: Eine süße Belohnung wartet auf dich
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Ostern ist bei Oshi angekommen, und wir haben eine süße Überraschung für dich versteckt!
 
@@ -1085,7 +1085,7 @@ Offer period: 21.04.2026 - 30.04.2026
 Subject: 🎰 120 Freispiele auf Valley of the Gods 2 - bereit zum Drehen?
 Preheader: Dein 120-FS-Paket ist mit Code VALO120 aktiv
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Deine 120 Freispiele auf Valley of the Gods 2 warten bei Oshi auf dich!
 
@@ -1108,7 +1108,7 @@ Button: CLAIM 120 FS
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 120 Freispiele auf Valley of the Gods 2 sind aktiv.
 Zahle 30 EUR+ ein und nutze VALO120, um sie jetzt zu starten.
 Button: 120 FREISPIELE HOLEN
@@ -1140,7 +1140,7 @@ Offer period: 21.04.2026 - 30.04.2026
 Subject: 🎁 110% Bonus-Boost - power deine nachste Einzahlung
 Preheader: Aktiviere PWRUP110 und spiele mit starkerem Guthaben
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Dein 110%-Boost ist bei Oshi live und bereit fur dich.
 
@@ -1163,7 +1163,7 @@ Button: GET 110% BONUS
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Dein 110%-Bonus-Boost ist live.
 Zahle 30 EUR+ ein und nutze PWRUP110 zur Aktivierung.
 Button: 110% BONUS HOLEN
@@ -1195,7 +1195,7 @@ Offer period: 21.04.2026 - 30.04.2026
 Subject: ⚡ 125% Bonus-Power - mach deine nachste Session grosser
 Preheader: Nutze PWRUP125 und bring dein Guthaben aufs nachste Level
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Dein 125%-Power-Boost ist jetzt bei Oshi verfugbar.
 
@@ -1218,7 +1218,7 @@ Button: ACTIVATE 125%
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Deine 125%-Bonus-Power ist live.
 Zahle 30 EUR+ ein und nutze PWRUP125 fur mehr Guthaben.
 Button: 125% AKTIVIEREN
@@ -1250,7 +1250,7 @@ Offer period: 21.04.2026 - 30.04.2026
 Subject: 🎯 200 Freispiele auf Plinko Builder - jetzt gross durchstarten
 Preheader: Aktiviere PPLNK200 und starte heute deinen 200-FS-Run
 Body:
-Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+{% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 
 Deine 200 Freispiele auf Plinko Builder sind jetzt bereit.
 
@@ -1273,7 +1273,7 @@ Button: CLAIM 200 FS
 
 --- INAPP (DE) ---
 
-Body: Hallo {{ customer.first_name | default:"dort" | capitalize }}!
+Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Dein Paket mit 200 Freispielen auf Plinko Builder ist live.
 Zahle 30 EUR+ ein und nutze PPLNK200, um jetzt zu starten.
 Button: 200 FREISPIELE HOLEN
