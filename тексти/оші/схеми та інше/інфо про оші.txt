@@ -658,10 +658,10 @@ Payments
 Deposit Methods
 VISA	Type	Fee	Processing Time	Limit per transaction	
 MASTERCARD	Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-Brend	Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-Brend	Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
-Brend	Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
-Brend	Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+MAESTRO	Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+SOFORT	Credit Card	Free	Instant	Min. 10 EUR/ Max. 4,000 EUR	sign up
+BANK TRANSFER	Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
+ASTROPAY CARD	Bank Transfer	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
 Brend	Debit Card	Free	Instant	Min. 10 USD/ Max. 500 USD	sign up
 Brend	Interac Online	Free	Instant	Min. 30 CAD/ Max. 3,000 CAD	sign up
 Brend	Coupon	Free	Instant	Min. 20 EUR/ Max. 4,000 EUR	sign up
