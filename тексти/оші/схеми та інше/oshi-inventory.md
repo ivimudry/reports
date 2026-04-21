@@ -1,4 +1,4 @@
-# Oshi.io Catalog Inventory
+ни# Oshi.io Catalog Inventory
 
 Total games: **11183**  
 Providers: **119**
