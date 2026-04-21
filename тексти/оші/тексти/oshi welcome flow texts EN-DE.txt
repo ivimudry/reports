@@ -2,7 +2,7 @@
 
 --- EMAIL (DEFAULT) ---
 
-Subject: рџЋ° Welcome to Oshi - Your Adventure Starts Now!
+Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
 Preheader: See what's waiting for you inside
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -25,7 +25,7 @@ Bonus duration: 5 days
 
 --- EMAIL (AU) ---
 
-Subject: рџЋ° Welcome to Oshi - Your Adventure Starts Now!
+Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
 Preheader: See what's waiting for you inside
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -48,7 +48,7 @@ Bonus duration: 5 days
 
 --- EMAIL (CA) ---
 
-Subject: рџЋ° Welcome to Oshi - Your Adventure Starts Now!
+Subject: 🎰 Welcome to Oshi - Your Adventure Starts Now!
 Preheader: See what's waiting for you inside
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -71,7 +71,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: рџЋ° Willkommen bei Oshi - Dein Abenteuer beginnt!
+Subject: 🎰 Willkommen bei Oshi - Dein Abenteuer beginnt!
 Preheader: Entdecke, was auf dich wartet
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -159,7 +159,7 @@ Button: EINZAHLEN & SPIELEN
 
 --- EMAIL (DEFAULT) ---
 
-Subject: рџЋ° 150 Free Spins Are Waiting for You!
+Subject: 🎰 150 Free Spins Are Waiting for You!
 Preheader: Your spins won't wait forever
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -182,7 +182,7 @@ Bonus duration: 5 days
 
 --- EMAIL (AU) ---
 
-Subject: рџЋ° 150 Free Spins Are Waiting for You!
+Subject: 🎰 150 Free Spins Are Waiting for You!
 Preheader: Your spins won't wait forever
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -205,7 +205,7 @@ Bonus duration: 5 days
 
 --- EMAIL (CA) ---
 
-Subject: рџЋ° 150 Free Spins Are Waiting for You!
+Subject: 🎰 150 Free Spins Are Waiting for You!
 Preheader: Your spins won't wait forever
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -228,7 +228,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: рџЋ° 150 Freispiele warten auf dich!
+Subject: 🎰 150 Freispiele warten auf dich!
 Preheader: Deine Spins warten nicht ewig
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -254,7 +254,7 @@ Bonusdauer: 5 Tage
 
 --- EMAIL (DEFAULT) ---
 
-Subject: рџЏ† Tournaments, Cashback & 80+ Providers at Oshi
+Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
 Preheader: There's more to Oshi than just slots
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -268,7 +268,7 @@ Button: DISCOVER MORE
 
 --- EMAIL (AU) ---
 
-Subject: рџЏ† Tournaments, Cashback & 80+ Providers at Oshi
+Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
 Preheader: There's more to Oshi than just slots
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -282,7 +282,7 @@ Button: DISCOVER MORE
 
 --- EMAIL (CA) ---
 
-Subject: рџЏ† Tournaments, Cashback & 80+ Providers at Oshi
+Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
 Preheader: There's more to Oshi than just slots
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -296,7 +296,7 @@ Button: DISCOVER MORE
 
 --- EMAIL (DE) ---
 
-Subject: рџЏ† Turniere, Cashback & 80+ Anbieter bei Oshi
+Subject: 🏆 Turniere, Cashback & 80+ Anbieter bei Oshi
 Preheader: Oshi hat mehr zu bieten als nur Slots
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -332,7 +332,7 @@ Oshi: Turniere, Cashback & 80+ Anbieter warten. Deine erste Einzahlung schaltet 
 
 --- EMAIL (DEFAULT) ---
 
-Subject: рџЋЎ Thousands of Players Already Claimed Their Bonus
+Subject: 🎡 Thousands of Players Already Claimed Their Bonus
 Preheader: Find out what you're missing
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -346,7 +346,7 @@ Button: JOIN NOW
 
 --- EMAIL (AU) ---
 
-Subject: рџЋЎ Thousands of Players Already Claimed Their Bonus
+Subject: 🎡 Thousands of Players Already Claimed Their Bonus
 Preheader: Find out what you're missing
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -360,7 +360,7 @@ Button: JOIN NOW
 
 --- EMAIL (CA) ---
 
-Subject: рџЋЎ Thousands of Players Already Claimed Their Bonus
+Subject: 🎡 Thousands of Players Already Claimed Their Bonus
 Preheader: Find out what you're missing
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -374,7 +374,7 @@ Button: JOIN NOW
 
 --- EMAIL (DE) ---
 
-Subject: рџЋЎ Tausende Spieler haben ihren Bonus schon geholt
+Subject: 🎡 Tausende Spieler haben ihren Bonus schon geholt
 Preheader: Erfahre, was du verpasst
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -391,7 +391,7 @@ Button: JETZT MITMACHEN
 
 --- EMAIL (DEFAULT) ---
 
-Subject: в­ђ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
 Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -410,7 +410,7 @@ Bonus duration: 5 days
 
 --- EMAIL (AU) ---
 
-Subject: в­ђ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
 Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -429,7 +429,7 @@ Bonus duration: 5 days
 
 --- EMAIL (CA) ---
 
-Subject: в­ђ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
+Subject: ⭐ 125% Bonus + 200 Free Spins - Exclusive Upgrade!
 Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -448,7 +448,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: в­ђ 125% Bonus + 200 Freispiele - Exklusives Upgrade!
+Subject: ⭐ 125% Bonus + 200 Freispiele - Exklusives Upgrade!
 Preheader: Dieses Angebot wurde nur fur dich gemacht
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -501,7 +501,7 @@ Button: JETZT UPGRADEN
 
 --- EMAIL (DEFAULT) ---
 
-Subject: вЏі Your Bonus Offer Expires Soon!
+Subject: ⏳ Your Bonus Offer Expires Soon!
 Preheader: Check what you could win before time runs out
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -522,7 +522,7 @@ Bonus duration: 5 days
 
 --- EMAIL (AU) ---
 
-Subject: вЏі Your Bonus Offer Expires Soon!
+Subject: ⏳ Your Bonus Offer Expires Soon!
 Preheader: Check what you could win before time runs out
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -543,7 +543,7 @@ Bonus duration: 5 days
 
 --- EMAIL (CA) ---
 
-Subject: вЏі Your Bonus Offer Expires Soon!
+Subject: ⏳ Your Bonus Offer Expires Soon!
 Preheader: Check what you could win before time runs out
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -564,7 +564,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: вЏі Dein Bonusangebot lauft bald ab!
+Subject: ⏳ Dein Bonusangebot lauft bald ab!
 Preheader: Sieh dir an, was du gewinnen konntest
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -588,7 +588,7 @@ Bonusdauer: 5 Tage
 
 --- EMAIL (DEFAULT) ---
 
-Subject: рџ”Ґ FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
 Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -610,7 +610,7 @@ Bonus duration: 5 days
 
 --- EMAIL (AU) ---
 
-Subject: рџ”Ґ FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
 Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -632,7 +632,7 @@ Bonus duration: 5 days
 
 --- EMAIL (CA) ---
 
-Subject: рџ”Ґ FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
+Subject: 🔥 FINAL Offer: 150% + 250 Free Spins + 10 Bonus Spins!
 Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -654,7 +654,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: рџ”Ґ LETZTES Angebot: 150% + 250 Freispiele + 10 Bonusspins!
+Subject: 🔥 LETZTES Angebot: 150% + 250 Freispiele + 10 Bonusspins!
 Preheader: Unser grotes Willkommensangebot - letzte Chance
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
@@ -671,7 +671,7 @@ Button: LETZTES ANGEBOT HOLEN
 Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
-Einzahlungsfreie Freispiele: 10 FS, automatisch gutgeschrieben, kein Code nГ¶tig, Umsatz x40, max. Gewinn 50 EUR
+Einzahlungsfreie Freispiele: 10 FS, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
 Bonusdauer: 5 Tage
 
 
@@ -698,7 +698,7 @@ Oshi: FINAL - 150% + 250 FS! 10 Freispiele bereits auf deinem Konto. Nutze Code 
 
 --- EMAIL (DEFAULT) ---
 
-Subject: рџ’Ћ 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
 Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -719,7 +719,7 @@ Bonus duration: 5 days
 
 --- EMAIL (AU) ---
 
-Subject: рџ’Ћ 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
 Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -740,7 +740,7 @@ Bonus duration: 5 days
 
 --- EMAIL (CA) ---
 
-Subject: рџ’Ћ 160% + 300 Free Spins - The Ultimate Welcome Deal!
+Subject: 💎 160% + 300 Free Spins - The Ultimate Welcome Deal!
 Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
@@ -761,7 +761,7 @@ Bonus duration: 5 days
 
 --- EMAIL (DE) ---
 
-Subject: рџ’Ћ 160% + 300 Freispiele - Das ultimative Willkommensangebot!
+Subject: 💎 160% + 300 Freispiele - Das ultimative Willkommensangebot!
 Preheader: Danach kommt nichts Groseres mehr
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
