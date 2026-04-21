@@ -13,6 +13,7 @@ function onOpen() {
     .addSeparator()
     .addItem('🔄 Refresh Errors', 'refreshErrors')
     .addItem('🧹 Clear Result Cache', 'clearCioResultCache')
+    .addItem('🧹 Clear Cache in Range…', 'clearCioCacheInRange')
     .addToUi();
 }
 
@@ -42,6 +43,137 @@ function clearCioResultCache() {
   ui.alert(
     '✅ Cache cleared: ' + deleted + ' keys.\nNow run "Refresh Active Sheet" or "Refresh All Sheets" to fetch fresh values.'
   );
+}
+
+function clearCioCacheInRange() {
+  var ui = SpreadsheetApp.getUi();
+  var resp = ui.prompt(
+    'Clear Cache in Range',
+    'Enter range:\n  5:10 — rows 5-10\n  A:C — columns A-C\n  A1:G25 — specific range',
+    ui.ButtonSet.OK_CANCEL
+  );
+  if (resp.getSelectedButton() !== ui.Button.OK) return;
+
+  var parsed = _parseRangeInput(resp.getResponseText());
+  if (!parsed) {
+    ui.alert('❌ Invalid format.\n\nExamples:\n  5:10 — rows\n  A:C — columns\n  A1:G25 — range');
+    return;
+  }
+
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var lastRow = sheet.getLastRow();
+  var lastCol = sheet.getLastColumn();
+  if (lastRow === 0 || lastCol === 0) {
+    ui.alert('Sheet is empty.');
+    return;
+  }
+
+  var fromRow, toRow, fromCol, toCol;
+  if (parsed.type === 'rows') {
+    fromRow = parsed.fromRow;
+    toRow = Math.min(parsed.toRow, lastRow);
+    fromCol = 1;
+    toCol = lastCol;
+  } else if (parsed.type === 'cols') {
+    fromRow = 1;
+    toRow = lastRow;
+    fromCol = parsed.fromCol;
+    toCol = Math.min(parsed.toCol, lastCol);
+  } else {
+    fromRow = parsed.fromRow;
+    toRow = Math.min(parsed.toRow, lastRow);
+    fromCol = parsed.fromCol;
+    toCol = Math.min(parsed.toCol, lastCol);
+  }
+
+  var cells = _findCIOCells(sheet, fromRow, toRow, fromCol, toCol);
+  if (cells.length === 0) {
+    ui.alert('No CION/CIOC formulas found in the specified range.');
+    return;
+  }
+
+  var keyMap = {};
+  for (var i = 0; i < cells.length; i++) {
+    var keys = _extractCacheKeysFromFormula(cells[i].formula);
+    for (var k = 0; k < keys.length; k++) keyMap[keys[k]] = true;
+  }
+
+  var props = PropertiesService.getScriptProperties();
+  var all = props.getProperties();
+  var deleted = 0;
+
+  for (var key in keyMap) {
+    if (all.hasOwnProperty(key)) {
+      props.deleteProperty(key);
+      deleted++;
+    }
+  }
+
+  // Also force fresh fetch for next refresh run.
+  CacheService.getScriptCache().put('allow_fetch', '1', 300);
+
+  ui.alert(
+    '✅ Range cache clear complete.\n' +
+    'Formulas found: ' + cells.length + '\n' +
+    'Cache keys removed: ' + deleted + '\n\n' +
+    'Now run a refresh to fetch fresh values.'
+  );
+}
+
+function _extractCacheKeysFromFormula(formula) {
+  var keys = [];
+  if (!formula) return keys;
+
+  var f = String(formula).trim();
+  if (f.charAt(0) === '=') f = f.substring(1);
+
+  var m;
+
+  // =CION(194191; "sent")
+  m = f.match(/^CION\(\s*(\d+)\s*[;,]\s*"([^"]+)"\s*\)$/i);
+  if (m) {
+    keys.push('r_n_' + m[1] + '_' + String(m[2]).toLowerCase().trim());
+    return keys;
+  }
+
+  // =CIOC(194191; "sent")
+  m = f.match(/^CIOC\(\s*(\d+)\s*[;,]\s*"([^"]+)"\s*\)$/i);
+  if (m) {
+    keys.push('r_c_' + m[1] + '_' + String(m[2]).toLowerCase().trim());
+    return keys;
+  }
+
+  // =CIONF(194191; "sent"; 123)
+  m = f.match(/^CIONF\(\s*(\d+)\s*[;,]\s*"([^"]+)"\s*[;,]\s*(\d+)\s*\)$/i);
+  if (m) {
+    keys.push('r_nf_' + m[1] + '_' + String(m[2]).toLowerCase().trim() + '_' + m[3]);
+    return keys;
+  }
+
+  // =CIOCF(194191; "sent"; 123)
+  m = f.match(/^CIOCF\(\s*(\d+)\s*[;,]\s*"([^"]+)"\s*[;,]\s*(\d+)\s*\)$/i);
+  if (m) {
+    keys.push('r_cf_' + m[1] + '_' + String(m[2]).toLowerCase().trim() + '_' + m[3]);
+    return keys;
+  }
+
+  // =CIONSUM(194191) or =CIONSUM(194191; "top")
+  m = f.match(/^CIONSUM\(\s*(\d+)\s*(?:[;,]\s*"?([a-zA-Z]+)"?\s*)?\)$/i);
+  if (m) {
+    var modeN = String(m[2] || '').toLowerCase().trim();
+    keys.push(modeN === 'top' ? ('r_nsum_top_' + m[1]) : ('r_nsum_' + m[1]));
+    return keys;
+  }
+
+  // =CIOCSUM(194191) or =CIOCSUM(194191; "top")
+  m = f.match(/^CIOCSUM\(\s*(\d+)\s*(?:[;,]\s*"?([a-zA-Z]+)"?\s*)?\)$/i);
+  if (m) {
+    var modeC = String(m[2] || '').toLowerCase().trim();
+    keys.push(modeC === 'top' ? ('r_csum_top_' + m[1]) : ('r_csum_' + m[1]));
+    return keys;
+  }
+
+  return keys;
 }
 
 function refreshAllSheets() {
