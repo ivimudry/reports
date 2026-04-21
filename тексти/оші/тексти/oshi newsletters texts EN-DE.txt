@@ -1070,14 +1070,14 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your 120 Free Spins on Valley of the Gods 2 are waiting at Oshi!
 
-Deposit 30 EUR or more and use promo code VALO120 to activate your spin pack. Step into the ancient realm, trigger the reels, and push for bigger hits while the campaign is live.
+Deposit 20 EUR or more and use promo code VALO120 to activate your spin pack. Step into the ancient realm, trigger the reels, and push for bigger hits while the campaign is live.
 
 Load your balance, enter VALO120, and start your 120 FS run now.
 Button: CLAIM 120 FS
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 30 EUR
+Min. deposit: 20 EUR
 Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
@@ -1089,28 +1089,28 @@ Body:
 
 Deine 120 Freispiele auf Valley of the Gods 2 warten bei Oshi auf dich!
 
-Zahle 30 EUR oder mehr ein und nutze den Promo-Code VALO120, um dein Freispiele-Paket zu aktivieren. Starte im Reich der Gotter durch und nutze die Chance auf starke Treffer, solange die Aktion lauft.
+Zahle 20 EUR oder mehr ein und nutze den Promo-Code VALO120, um dein Freispiele-Paket zu aktivieren. Starte im Reich der Gotter durch und nutze die Chance auf starke Treffer, solange die Aktion lauft.
 
 Lade dein Guthaben auf, gib VALO120 ein und starte jetzt deinen 120-FS-Run.
 Button: 120 FREISPIELE HOLEN
 
 Terms&Conditions:
 Umsatz: x40
-Mindesteinzahlung: 30 EUR
+Mindesteinzahlung: 20 EUR
 Aktionszeitraum: 21.04.2026 - 30.04.2026
 
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 120 FS on Valley of the Gods 2 are live.
-Deposit 30 EUR+ and use VALO120 to activate your spins now.
+Deposit 20 EUR+ and use VALO120 to activate your spins now.
 Button: CLAIM 120 FS
 
 --- INAPP (DE) ---
 
 Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 120 Freispiele auf Valley of the Gods 2 sind aktiv.
-Zahle 30 EUR+ ein und nutze VALO120, um sie jetzt zu starten.
+Zahle 20 EUR+ ein und nutze VALO120, um sie jetzt zu starten.
 Button: 120 FREISPIELE HOLEN
 
 
@@ -1125,14 +1125,14 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your 110% boost is live and ready at Oshi.
 
-Deposit 30 EUR or more and enter promo code PWRUP110 to upgrade your next session. More balance means more rounds, more momentum, and more room to chase top outcomes.
+Deposit 20 EUR or more and enter promo code PWRUP110 to upgrade your next session. More balance means more rounds, more momentum, and more room to chase top outcomes.
 
 Top up now, activate PWRUP110, and lock in your 110% bonus.
 Button: ACTIVATE 110% BONUS
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 30 EUR
+Min. deposit: 20 EUR
 Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
@@ -1144,28 +1144,28 @@ Body:
 
 Dein 110%-Boost ist bei Oshi live und bereit fur dich.
 
-Zahle 30 EUR oder mehr ein und gib den Promo-Code PWRUP110 ein, um dein nachstes Spiel aufzuwerten. Mehr Guthaben bedeutet mehr Runden, mehr Dynamik und mehr Chancen auf starke Ergebnisse.
+Zahle 20 EUR oder mehr ein und gib den Promo-Code PWRUP110 ein, um dein nachstes Spiel aufzuwerten. Mehr Guthaben bedeutet mehr Runden, mehr Dynamik und mehr Chancen auf starke Ergebnisse.
 
 Zahle jetzt ein, aktiviere PWRUP110 und sichere dir deinen 110%-Bonus.
 Button: 110% BONUS AKTIVIEREN
 
 Terms&Conditions:
 Umsatz: x40
-Mindesteinzahlung: 30 EUR
+Mindesteinzahlung: 20 EUR
 Aktionszeitraum: 21.04.2026 - 30.04.2026
 
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your 110% bonus boost is live.
-Deposit 30 EUR+ and use PWRUP110 to activate it now.
+Deposit 20 EUR+ and use PWRUP110 to activate it now.
 Button: GET 110% BONUS
 
 --- INAPP (DE) ---
 
 Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Dein 110%-Bonus-Boost ist live.
-Zahle 30 EUR+ ein und nutze PWRUP110 zur Aktivierung.
+Zahle 20 EUR+ ein und nutze PWRUP110 zur Aktivierung.
 Button: 110% BONUS HOLEN
 
 
@@ -1180,14 +1180,14 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your 125% power boost is now available at Oshi.
 
-Deposit 30 EUR or more and enter promo code PWRUP125 to build a bigger balance for longer sessions. Keep control, unlock more play potential, and push for better wins.
+Deposit 20 EUR or more and enter promo code PWRUP125 to build a bigger balance for longer sessions. Keep control, unlock more play potential, and push for better wins.
 
 Deposit today, use PWRUP125, and turn extra power into results.
 Button: CLAIM 125% BONUS
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 30 EUR
+Min. deposit: 20 EUR
 Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
@@ -1199,28 +1199,28 @@ Body:
 
 Dein 125%-Power-Boost ist jetzt bei Oshi verfugbar.
 
-Zahle 30 EUR oder mehr ein und gib den Promo-Code PWRUP125 ein, um dein Guthaben deutlich zu verstarken. Spiele langer, nutze mehr Chancen und hol mehr aus jeder Session heraus.
+Zahle 20 EUR oder mehr ein und gib den Promo-Code PWRUP125 ein, um dein Guthaben deutlich zu verstarken. Spiele langer, nutze mehr Chancen und hol mehr aus jeder Session heraus.
 
 Zahle heute ein, nutze PWRUP125 und verwandle Bonus-Power in Ergebnisse.
 Button: 125% BONUS HOLEN
 
 Terms&Conditions:
 Umsatz: x40
-Mindesteinzahlung: 30 EUR
+Mindesteinzahlung: 20 EUR
 Aktionszeitraum: 21.04.2026 - 30.04.2026
 
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your 125% bonus power is live.
-Deposit 30 EUR+ and use PWRUP125 to upgrade your balance.
+Deposit 20 EUR+ and use PWRUP125 to upgrade your balance.
 Button: ACTIVATE 125%
 
 --- INAPP (DE) ---
 
 Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Deine 125%-Bonus-Power ist live.
-Zahle 30 EUR+ ein und nutze PWRUP125 fur mehr Guthaben.
+Zahle 20 EUR+ ein und nutze PWRUP125 fur mehr Guthaben.
 Button: 125% AKTIVIEREN
 
 
@@ -1235,14 +1235,14 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your 200 Free Spins on Plinko Builder are now ready.
 
-Deposit 30 EUR or more and use promo code PPLNK200 to activate your high-spin pack. Keep the drops coming, build momentum, and chase bigger streaks while the campaign is active.
+Deposit 20 EUR or more and use promo code PPLNK200 to activate your high-spin pack. Keep the drops coming, build momentum, and chase bigger streaks while the campaign is active.
 
 Deposit now, enter PPLNK200, and launch your 200 FS run.
 Button: CLAIM 200 FS
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 30 EUR
+Min. deposit: 20 EUR
 Offer period: 21.04.2026 - 30.04.2026
 
 --- EMAIL (DE) ---
@@ -1254,28 +1254,28 @@ Body:
 
 Deine 200 Freispiele auf Plinko Builder sind jetzt bereit.
 
-Zahle 30 EUR oder mehr ein und nutze den Promo-Code PPLNK200, um dein High-Spin-Paket zu aktivieren. Sammle Drop fur Drop Momentum und jage starkere Treffer, solange die Aktion lauft.
+Zahle 20 EUR oder mehr ein und nutze den Promo-Code PPLNK200, um dein High-Spin-Paket zu aktivieren. Sammle Drop fur Drop Momentum und jage starkere Treffer, solange die Aktion lauft.
 
 Zahle jetzt ein, gib PPLNK200 ein und starte deinen 200-FS-Run.
 Button: 200 FREISPIELE HOLEN
 
 Terms&Conditions:
 Umsatz: x40
-Mindesteinzahlung: 30 EUR
+Mindesteinzahlung: 20 EUR
 Aktionszeitraum: 21.04.2026 - 30.04.2026
 
 --- INAPP (EN) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your 200 FS pack on Plinko Builder is live.
-Deposit 30 EUR+ and use PPLNK200 to start spinning now.
+Deposit 20 EUR+ and use PPLNK200 to start spinning now.
 Button: CLAIM 200 FS
 
 --- INAPP (DE) ---
 
 Body: {% if customer.first_name %}{{ customer.first_name | capitalize }}, unser Special für Dich!{% else %}Unser Special für Dich!{% endif %}
 Dein Paket mit 200 Freispielen auf Plinko Builder ist live.
-Zahle 30 EUR+ ein und nutze PPLNK200, um jetzt zu starten.
+Zahle 20 EUR+ ein und nutze PPLNK200, um jetzt zu starten.
 Button: 200 FREISPIELE HOLEN
 
 
