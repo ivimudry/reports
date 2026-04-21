@@ -32,7 +32,7 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Welcome to Oshi! We're glad you've joined us. Here you'll find thousands of top slots from 80+ leading providers, daily tournaments, a loyalty program with real cashback, and surprises around every corner.
 
-Your welcome package is already loaded: 100% bonus up to 1,000 EUR + 150 Free Spins with your first deposit.
+Your welcome package is already loaded: 100% bonus up to 1,000 AUD + 150 Free Spins with your first deposit.
 
 Your Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
 
@@ -43,7 +43,7 @@ Button: EXPLORE OSHI
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR
+Min. deposit: 20 AUD
 Bonus duration: 5 days
 
 --- EMAIL (CA) ---
@@ -55,7 +55,7 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Welcome to Oshi! We're glad you've joined us. Here you'll find thousands of top slots from 80+ leading providers, daily tournaments, a loyalty program with real cashback, and surprises around every corner.
 
-Your welcome package is already loaded: 100% bonus up to 1,000 EUR + 150 Free Spins with your first deposit.
+Your welcome package is already loaded: 100% bonus up to 1,000 CAD + 150 Free Spins with your first deposit.
 
 Your Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, Plinko 2, Wild West Trueways, Wolf Spins 243, Werewolf's Night, Book of All Ways, and Hold the Gold.
 
@@ -66,7 +66,7 @@ Button: EXPLORE OSHI
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR
+Min. deposit: 20 CAD
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
@@ -106,14 +106,14 @@ Button: CLAIM BONUS
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your welcome bonus is ready!
-Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
+Get 100% up to 1,000 AUD + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
 
 --- INAPP (CA) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Your welcome bonus is ready!
-Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
+Get 100% up to 1,000 CAD + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
 
 --- INAPP (DE) ---
@@ -193,14 +193,14 @@ Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, 
 
 Important: activate your bonus in the Promo section of your account after deposit to use your Free Spins.
 
-On top of the spins, you'll receive a 100% match up to 1,000 EUR. That's double the balance from your very first play.
+On top of the spins, you'll receive a 100% match up to 1,000 AUD. That's double the balance from your very first play.
 
 Hurry - this welcome offer expires in 72 hours. Deposit now and put your spins to work!
 Button: GRAB MY SPINS
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR
+Min. deposit: 20 AUD
 Bonus duration: 5 days
 
 --- EMAIL (CA) ---
@@ -216,14 +216,14 @@ Free Spins are available on Olympus Trueways, All-Star Fruits, Joker's Million, 
 
 Important: activate your bonus in the Promo section of your account after deposit to use your Free Spins.
 
-On top of the spins, you'll receive a 100% match up to 1,000 EUR. That's double the balance from your very first play.
+On top of the spins, you'll receive a 100% match up to 1,000 CAD. That's double the balance from your very first play.
 
 Hurry - this welcome offer expires in 72 hours. Deposit now and put your spins to work!
 Button: GRAB MY SPINS
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR
+Min. deposit: 20 CAD
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
@@ -364,8 +364,8 @@ Aussie players are jumping into Oshi this week and the wins keep rolling in. A f
 - bronk•••• hit 2,650 AUD on Sweet Bonanza
 
 Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash prizes:
-- Deposit 30 AUD with code SILVER -> spin to win up to 5,000 EUR
-- Deposit 45 AUD with code GOLD -> spin to win up to 10,000 EUR
+- Deposit 30 AUD with code SILVER -> spin to win up to 5,000 AUD
+- Deposit 45 AUD with code GOLD -> spin to win up to 10,000 AUD
 
 Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
 Button: JOIN NOW
@@ -384,8 +384,8 @@ Players across Canada keep claiming their welcome bonus and spinning to wins thi
 - N•••Wolf cashed out 4,100 CAD on Wanted Dead or a Wild
 
 Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash prizes:
-- Deposit 30 CAD with code SILVER -> spin to win up to 5,000 EUR
-- Deposit 45 CAD with code GOLD -> spin to win up to 10,000 EUR
+- Deposit 30 CAD with code SILVER -> spin to win up to 5,000 CAD
+- Deposit 45 CAD with code GOLD -> spin to win up to 10,000 CAD
 
 Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
 Button: JOIN NOW
@@ -439,7 +439,7 @@ Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code BASS125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Big Bass Bonanza.
+We've decided to upgrade your welcome deal. For a limited time, deposit 20 AUD or more and use bonus code BASS125 to unlock a 125% bonus up to 1,000 AUD + 200 Free Spins on Big Bass Bonanza.
 
 That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
 
@@ -448,7 +448,7 @@ Button: CLAIM MY UPGRADE
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR
+Min. deposit: 20 AUD
 Bonus duration: 5 days
 
 --- EMAIL (CA) ---
@@ -458,7 +458,7 @@ Preheader: This offer was made just for you
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've decided to upgrade your welcome deal. For a limited time, deposit 20 EUR or more and use bonus code SUGAR125 to unlock a 125% bonus up to 1,000 EUR + 200 Free Spins on Sugar Rush.
+We've decided to upgrade your welcome deal. For a limited time, deposit 20 CAD or more and use bonus code SUGAR125 to unlock a 125% bonus up to 1,000 CAD + 200 Free Spins on Sugar Rush.
 
 That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
 
@@ -467,7 +467,7 @@ Button: CLAIM MY UPGRADE
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR
+Min. deposit: 20 CAD
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
@@ -503,14 +503,14 @@ Button: UPGRADE NOW
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Exclusive upgrade for you!
-Get 125% up to 1,000 EUR + 200 Free Spins on Big Bass Bonanza. Use code BASS125 with your first deposit. This offer is not on the website - it's yours only!
+Get 125% up to 1,000 AUD + 200 Free Spins on Big Bass Bonanza. Use code BASS125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
 
 --- INAPP (CA) ---
 
 Body: Hello {{ customer.first_name | default:"there" | capitalize }}!
 Exclusive upgrade for you!
-Get 125% up to 1,000 EUR + 200 Free Spins on Sugar Rush. Use code SUGAR125 with your first deposit. This offer is not on the website - it's yours only!
+Get 125% up to 1,000 CAD + 200 Free Spins on Sugar Rush. Use code SUGAR125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
 
 --- INAPP (DE) ---
@@ -568,16 +568,16 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
 
-Deposit 50 EUR with code BASS125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
+Deposit 50 AUD with code BASS125 and get 62.50 AUD bonus + 200 Free Spins. That's 112.50 AUD to play with from just one deposit.
 
-Deposit 100 EUR? You'll play with 225 EUR + 200 Free Spins.
+Deposit 100 AUD? You'll play with 225 AUD + 200 Free Spins.
 
 The numbers speak for themselves. Make your deposit before time runs out!
 Button: SECURE MY BONUS
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR
+Min. deposit: 20 AUD
 Bonus duration: 5 days
 
 --- EMAIL (CA) ---
@@ -589,16 +589,16 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
 
-Deposit 50 EUR with code SUGAR125 and get 62.50 EUR bonus + 200 Free Spins. That's 112.50 EUR to play with from just one deposit.
+Deposit 50 CAD with code SUGAR125 and get 62.50 CAD bonus + 200 Free Spins. That's 112.50 CAD to play with from just one deposit.
 
-Deposit 100 EUR? You'll play with 225 EUR + 200 Free Spins.
+Deposit 100 CAD? You'll play with 225 CAD + 200 Free Spins.
 
 The numbers speak for themselves. Make your deposit before time runs out!
 Button: SECURE MY BONUS
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR
+Min. deposit: 20 CAD
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
@@ -654,9 +654,9 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Sweet Bonanza.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 AUD + 250 Free Spins on Sweet Bonanza.
 
-Use code SWEET150 with a deposit of 20 EUR or more to claim this deal.
+Use code SWEET150 with a deposit of 20 AUD or more to claim this deal.
 
 On top of that, we've credited 10 Free Spins directly to your account on Sweet Bonanza - no code, no deposit, no catch. [Play Sweet Bonanza now →]
 
@@ -665,8 +665,8 @@ Button: CLAIM FINAL OFFER
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS on Sweet Bonanza, auto-credited, no code needed, wager x40, max win 50 EUR
+Min. deposit: 20 AUD (for deposit bonus)
+No-deposit Free Spins: 10 FS on Sweet Bonanza, auto-credited, no code needed, wager x40, max win 50 AUD
 Bonus duration: 5 days
 
 --- EMAIL (CA) ---
@@ -676,9 +676,9 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Gates of Olympus.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 CAD + 250 Free Spins on Gates of Olympus.
 
-Use code GATES150 with a deposit of 20 EUR or more to claim this deal.
+Use code GATES150 with a deposit of 20 CAD or more to claim this deal.
 
 On top of that, we've credited 10 Free Spins directly to your account on Gates of Olympus - no code, no deposit, no catch. [Play Gates of Olympus now →]
 
@@ -687,8 +687,8 @@ Button: CLAIM FINAL OFFER
 
 Terms&Conditions:
 Wager: x40
-Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS on Gates of Olympus, auto-credited, no code needed, wager x40, max win 50 EUR
+Min. deposit: 20 CAD (for deposit bonus)
+No-deposit Free Spins: 10 FS on Gates of Olympus, auto-credited, no code needed, wager x40, max win 50 CAD
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
@@ -763,9 +763,9 @@ Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Wolf Gold.
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 AUD + 300 Free Spins on Wolf Gold.
 
-Deposit 20 EUR or more with code WOLF160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+Deposit 20 AUD or more with code WOLF160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
 
 Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
 
@@ -774,7 +774,7 @@ Button: GET MY REWARD
 
 Terms&Conditions:
 Wager: x40 (x25 for crypto deposits)
-Min. deposit: 20 EUR
+Min. deposit: 20 AUD
 Bonus duration: 5 days
 
 --- EMAIL (CA) ---
@@ -784,9 +784,9 @@ Preheader: Nothing bigger is coming after this
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Wanted Dead or a Wild.
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 CAD + 300 Free Spins on Wanted Dead or a Wild.
 
-Deposit 20 EUR or more with code WANTED160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+Deposit 20 CAD or more with code WANTED160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
 
 Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
 
@@ -795,7 +795,7 @@ Button: GET MY REWARD
 
 Terms&Conditions:
 Wager: x40 (x25 for crypto deposits)
-Min. deposit: 20 EUR
+Min. deposit: 20 CAD
 Bonus duration: 5 days
 
 --- EMAIL (DE) ---
