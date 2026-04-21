@@ -488,7 +488,7 @@ function CIOCF(id, metric, segmentId) {
 // ═══════════════════════════════════════════════════════════
 /**
  * Calculates total deposit amount (EUR) for converted users of a NEWSLETTER.
- * Fetches only converted recipients, then sums their deposit_made events
+ * Fetches only converted recipients, then takes only the FIRST deposit_made event
  * within the conversion window (opened/sent → +2 days).
  *
  * @param {number} id    Newsletter ID
@@ -515,7 +515,7 @@ function CIONSUM(id, mode) {
 // ═══════════════════════════════════════════════════════════
 /**
  * Calculates total deposit amount (EUR) for converted users of a CAMPAIGN.
- * Fetches only converted recipients, then sums their deposit_made events
+ * Fetches only converted recipients, then takes only the FIRST deposit_made event
  * within the conversion window (opened/sent → +2 days).
  *
  * @param {number} id    Campaign ID
@@ -630,7 +630,8 @@ function _cioDepositSum(id, filterParam, mode) {
 
   if (convertedMsgs.length === 0) return mode === 'top' ? 'No deposit data available' : 0;
 
-  // 2. For each converted user, fetch deposit events within the conversion window.
+  // 2. For each converted user, fetch deposit events and take ONLY the first
+  //    event within the conversion window.
   //    Window: 1 hour before open/send → open/send + 2 days + 1 hour
   var totalAmount = 0;
   var userDeposits = {}; // email → total amount (for top mode)
@@ -653,6 +654,8 @@ function _cioDepositSum(id, filterParam, mode) {
     var windowEnd   = refTime + (2 * 86400) + 3600; // 2 days + 1 hour after open
 
     var userAmount = 0;
+    var firstDepositTime = Infinity;
+    var firstDepositAmount = 0;
 
     // Fetch deposit_made events from Beta API with pagination
     var evCursor = '';
@@ -673,9 +676,9 @@ function _cioDepositSum(id, filterParam, mode) {
         if (evTime >= windowStart && evTime <= windowEnd) {
           var data = ev.data || ev.attributes || {};
           var amount = parseFloat(data.human_amount_total_rounded || data.human_amount_total || data.human_amount || 0);
-          if (!isNaN(amount)) {
-            totalAmount += amount;
-            userAmount += amount;
+          if (!isNaN(amount) && evTime < firstDepositTime) {
+            firstDepositTime = evTime;
+            firstDepositAmount = amount;
           }
         }
       }
@@ -685,6 +688,11 @@ function _cioDepositSum(id, filterParam, mode) {
 
       evCursor = evRes.data.next || '';
       if (!evCursor) break;
+    }
+
+    if (firstDepositTime !== Infinity) {
+      totalAmount += firstDepositAmount;
+      userAmount += firstDepositAmount;
     }
 
     // Accumulate per-user deposits (same email may appear multiple times)
