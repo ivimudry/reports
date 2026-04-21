@@ -521,6 +521,21 @@ Sichere dir 125% bis zu 1.000 EUR + 200 Freispiele bei Elvis Frog TRUEWAYS. Nutz
 Button: JETZT UPGRADEN
 
 
+========== SMS #5 | Escalated Offer | 125% + 200 FS | AU/CA ONLY ==========
+
+NOTE: This SMS is sent only to AU and CA segments (Tier 1 GEO with high SMS deliverability).
+DEFAULT and DE are excluded from this step (DEFAULT has no SMS, DE has lower SMS deliverability).
+Apply country split filter in Customer.io: send only when country = AU or CA.
+
+--- SMS (AU) ---
+
+Oshi: Exclusive upgrade! 125% + 200 FS on Big Bass Bonanza. Use code BASS125 on your 1st deposit. Claim now [link]
+
+--- SMS (CA) ---
+
+Oshi: Exclusive upgrade! 125% + 200 FS on Sugar Rush. Use code SUGAR125 on your 1st deposit. Claim now [link]
+
+
 ========== EMAIL #6 | Bonus Expires Soon + Winnings Calculator ==========
 
 --- EMAIL (DEFAULT) ---
