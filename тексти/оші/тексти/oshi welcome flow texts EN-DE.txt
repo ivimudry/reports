@@ -339,9 +339,9 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. A few of this week's wins:
 
-- max••••87 won 2,400 EUR on Sweet Bonanza
-- lia••••22 hit 1,150 EUR on Gates of Olympus
-- tom••••05 cashed out 3,800 EUR on Sugar Rush
+- Max••••87 won 2,400 EUR on Sweet Bonanza
+- liaR•••••• hit 1,150 EUR on Gates of Olympus
+- T••••Storm cashed out 3,800 EUR on Sugar Rush
 
 Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
 
@@ -357,9 +357,9 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Aussie players are jumping into Oshi this week and the wins keep rolling in. A few from Down Under:
 
-- jak••••91 grabbed 3,200 AUD on Big Bass Bonanza
-- mia••••58 cashed in 1,750 AUD on Wolf Gold
-- bro••••43 hit 2,650 AUD on Sweet Bonanza
+- Jak•••••91 grabbed 3,200 AUD on Big Bass Bonanza
+- Mi•••Roo cashed in 1,750 AUD on Wolf Gold
+- bronk•••• hit 2,650 AUD on Sweet Bonanza
 
 Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
 
@@ -375,9 +375,9 @@ Hello {{ customer.first_name | default:"there" | capitalize }}!
 
 Players across Canada keep claiming their welcome bonus and spinning to wins this week. A few of this week's results:
 
-- ben••••44 scored 2,800 CAD on Mega Moolah
-- ava••••73 won 1,500 CAD on Gonzo's Quest
-- noa••••28 cashed out 4,100 CAD on Big Bass Bonanza
+- Ben••••••44 scored 2,800 CAD on Mega Moolah
+- AvaQ•••• won 1,500 CAD on Gonzo's Quest
+- N•••Wolf cashed out 4,100 CAD on Big Bass Bonanza
 
 Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
 
@@ -393,9 +393,9 @@ Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
 Tausende Spieler aus Deutschland holen sich gerade ihren Willkommensbonus bei Oshi. Ein paar Gewinner dieser Woche:
 
-- luk••••39 holte 2,600 EUR bei Razor Shark
-- emi••••81 gewann 1,400 EUR bei Book of Dead
-- jon••••17 kassierte 3,300 EUR bei Eye of Horus
+- Luk•••••39 holte 2,600 EUR bei Razor Shark
+- Emi•••Berg gewann 1,400 EUR bei Book of Dead
+- J••••Falke kassierte 3,300 EUR bei Eye of Horus
 
 Ausserdem schaltest du das Lucky Wheel frei - dreh es und gewinne Freispiele und Bargeld-Preise mit den Codes SILVER oder GOLD.
 
