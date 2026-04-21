@@ -650,7 +650,7 @@ function CIOCF(id, metric, segmentId) {
 /**
  * Calculates total deposit amount (EUR) for converted users of a NEWSLETTER.
  * Fetches only converted recipients, then takes only the FIRST deposit_made event
- * within the conversion window (opened/sent → +2 days).
+ * within the conversion window (converted_at -20 min → converted_at +20 min).
  *
  * @param {number} id    Newsletter ID
  * @param {string} mode  Optional: "top" — returns top 3 depositors with emails
@@ -677,7 +677,7 @@ function CIONSUM(id, mode) {
 /**
  * Calculates total deposit amount (EUR) for converted users of a CAMPAIGN.
  * Fetches only converted recipients, then takes only the FIRST deposit_made event
- * within the conversion window (opened/sent → +2 days).
+ * within the conversion window (converted_at -20 min → converted_at +20 min).
  *
  * @param {number} id    Campaign ID
  * @param {string} mode  Optional: "top" — returns top 3 depositors with emails
@@ -792,8 +792,8 @@ function _cioDepositSum(id, filterParam, mode) {
   if (convertedMsgs.length === 0) return mode === 'top' ? 'No deposit data available' : 0;
 
   // 2. For each converted user, fetch deposit events and take ONLY the first
-  //    event within the conversion window.
-  //    Window: 1 hour before open/send → open/send + 2 days + 1 hour
+  //    event within the conversion window around conversion timestamp.
+  //    Window: converted_at -20 min → converted_at +20 min
   var totalAmount = 0;
   var userDeposits = {}; // email → total amount (for top mode)
 
@@ -809,10 +809,10 @@ function _cioDepositSum(id, filterParam, mode) {
       if (resolvedEmail) email = resolvedEmail;
     }
     var metrics = msg.metrics || {};
-    var refTime = metrics.opened || metrics.delivered || metrics.sent || 0;
-    if (!refTime) continue;
-    var windowStart = refTime - 3600;         // 1 hour before open
-    var windowEnd   = refTime + (2 * 86400) + 3600; // 2 days + 1 hour after open
+    var convertedAt = metrics.converted || 0;
+    if (!convertedAt) continue;
+    var windowStart = convertedAt - 1200; // -20 min
+    var windowEnd   = convertedAt + 1200; // +20 min
 
     var userAmount = 0;
     var firstDepositTime = Infinity;
