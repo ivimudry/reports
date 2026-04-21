@@ -259,9 +259,9 @@ Preheader: There's more to Oshi than just slots
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-There's a whole world beyond the reels at Oshi. Jump into weekly tournaments with real prize pools, climb the loyalty ladder for cashback every Wednesday, and pick from 80+ top game providers.
+There's a whole world beyond the reels at Oshi. Spin global hits like Sweet Bonanza, Gates of Olympus and Sugar Rush, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
 
-New titles drop every week, and exclusive promotions are always around the corner. Whether you're into slots, table games or live dealers - Oshi has something for every style of play.
+80+ top providers, fast payments via cards, e-wallets and crypto (BTC, ETH, USDT, LTC and more). New titles drop every week and exclusive promotions are always around the corner.
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
@@ -269,13 +269,13 @@ Button: DISCOVER MORE
 --- EMAIL (AU) ---
 
 Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
-Preheader: There's more to Oshi than just slots
+Preheader: Aussie-friendly pokies, fast payments and weekly cashback
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-There's a whole world beyond the reels at Oshi. Jump into weekly tournaments with real prize pools, climb the loyalty ladder for cashback every Wednesday, and pick from 80+ top game providers.
+There's a whole world beyond the reels at Oshi. Spin Aussie favourites like Big Bass Bonanza, Wolf Gold and Sweet Bonanza from Pragmatic Play, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
 
-New titles drop every week, and exclusive promotions are always around the corner. Whether you're into slots, table games or live dealers - Oshi has something for every style of play.
+80+ top providers, AUD support, fast e-wallets (Skrill, Neteller, MuchBetter) and crypto (BTC, ETH, USDT, LTC and more). New titles drop every week.
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
@@ -283,13 +283,13 @@ Button: DISCOVER MORE
 --- EMAIL (CA) ---
 
 Subject: 🏆 Tournaments, Cashback & 80+ Providers at Oshi
-Preheader: There's more to Oshi than just slots
+Preheader: Instant CAD deposits with Interac, plus crypto and 80+ providers
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-There's a whole world beyond the reels at Oshi. Jump into weekly tournaments with real prize pools, climb the loyalty ladder for cashback every Wednesday, and pick from 80+ top game providers.
+There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Mega Moolah from Microgaming, Gonzo's Quest from NetEnt and Big Bass Bonanza from Pragmatic Play, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
 
-New titles drop every week, and exclusive promotions are always around the corner. Whether you're into slots, table games or live dealers - Oshi has something for every style of play.
+80+ top providers, instant CAD deposits via Interac (withdrawals in 1-3 banking days), plus crypto (BTC, ETH, USDT, LTC and more). New titles drop every week.
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
@@ -297,15 +297,15 @@ Button: DISCOVER MORE
 --- EMAIL (DE) ---
 
 Subject: 🏆 Turniere, Cashback & 80+ Anbieter bei Oshi
-Preheader: Oshi hat mehr zu bieten als nur Slots
+Preheader: Sofort, Paysafecard, Krypto - plus Razor Shark und Book of Dead
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Nimm an wochentlichen Turnieren mit echten Preispools teil, klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch und wahle aus 80+ Top-Anbietern.
+Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele deutsche Favoriten wie Razor Shark von Push Gaming, Book of Dead von Play'n GO und Eye of Horus von Blueprint Gaming, nimm an wochentlichen Turnieren mit echten Preispools teil und klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch.
 
-Neue Spiele erscheinen jede Woche und exklusive Aktionen warten immer um die Ecke. Ob Slots, Tischspiele oder Live-Dealer - Oshi hat fur jeden Spielstil etwas dabei.
+80+ Top-Anbieter, schnelle Einzahlungen per Sofort, Paysafecard und CashToCode, plus Krypto (BTC, ETH, USDT, LTC und mehr). Neue Spiele erscheinen jede Woche.
 
-Schlie dich dem Geschehen an und erlebe, warum Spieler immer wiederkommen!
+Schliess dich dem Geschehen an und erlebe, warum Spieler immer wiederkommen!
 Button: MEHR ENTDECKEN
 
 
@@ -333,11 +333,15 @@ Oshi: Turniere, Cashback & 80+ Anbieter warten. Deine erste Einzahlung schaltet 
 --- EMAIL (DEFAULT) ---
 
 Subject: 🎡 Thousands of Players Already Claimed Their Bonus
-Preheader: Find out what you're missing
+Preheader: See this week's winners - your spot is still open
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. The winners keep rolling in - and your spot is still open.
+This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. A few of this week's wins:
+
+- max••••87 won 2,400 EUR on Sweet Bonanza
+- lia••••22 hit 1,150 EUR on Gates of Olympus
+- tom••••05 cashed out 3,800 EUR on Sugar Rush
 
 Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
 
@@ -346,12 +350,16 @@ Button: JOIN NOW
 
 --- EMAIL (AU) ---
 
-Subject: 🎡 Thousands of Players Already Claimed Their Bonus
-Preheader: Find out what you're missing
+Subject: 🎡 Aussie Players Are Cashing In - Your Bonus Is Still Waiting
+Preheader: This week's winners from Down Under
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. The winners keep rolling in - and your spot is still open.
+Aussie players are jumping into Oshi this week and the wins keep rolling in. A few from Down Under:
+
+- jak••••91 grabbed 3,200 AUD on Big Bass Bonanza
+- mia••••58 cashed in 1,750 AUD on Wolf Gold
+- bro••••43 hit 2,650 AUD on Sweet Bonanza
 
 Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
 
@@ -360,12 +368,16 @@ Button: JOIN NOW
 
 --- EMAIL (CA) ---
 
-Subject: 🎡 Thousands of Players Already Claimed Their Bonus
-Preheader: Find out what you're missing
+Subject: 🎡 Canadian Players Are Winning Big - Claim Your Bonus
+Preheader: This week's winners from across Canada
 Body:
 Hello {{ customer.first_name | default:"there" | capitalize }}!
 
-This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. The winners keep rolling in - and your spot is still open.
+Players across Canada keep claiming their welcome bonus and spinning to wins this week. A few of this week's results:
+
+- ben••••44 scored 2,800 CAD on Mega Moolah
+- ava••••73 won 1,500 CAD on Gonzo's Quest
+- noa••••28 cashed out 4,100 CAD on Big Bass Bonanza
 
 Plus, once you're in, you'll unlock the Lucky Wheel - spin it and win Free Spins and cash prizes with codes SILVER or GOLD.
 
@@ -374,16 +386,20 @@ Button: JOIN NOW
 
 --- EMAIL (DE) ---
 
-Subject: 🎡 Tausende Spieler haben ihren Bonus schon geholt
-Preheader: Erfahre, was du verpasst
+Subject: 🎡 Tausende Spieler aus Deutschland haben ihren Bonus schon geholt
+Preheader: Die Gewinner dieser Woche aus Deutschland
 Body:
 Hallo {{ customer.first_name | default:"dort" | capitalize }}!
 
-Allein diese Woche haben tausende Spieler ihren Willkommensbonus bei Oshi eingelost und die Walzen gedreht. Die Gewinner horen nicht auf - und dein Platz ist noch frei.
+Tausende Spieler aus Deutschland holen sich gerade ihren Willkommensbonus bei Oshi. Ein paar Gewinner dieser Woche:
 
-Auserdem schaltest du das Lucky Wheel frei - dreh es und gewinne Freispiele und Bargeld-Preise mit den Codes SILVER oder GOLD.
+- luk••••39 holte 2,600 EUR bei Razor Shark
+- emi••••81 gewann 1,400 EUR bei Book of Dead
+- jon••••17 kassierte 3,300 EUR bei Eye of Horus
 
-Bleib nicht am Rand, wahrend andere gewinnen. Tatige deine erste Einzahlung und steig ins Spiel ein!
+Ausserdem schaltest du das Lucky Wheel frei - dreh es und gewinne Freispiele und Bargeld-Preise mit den Codes SILVER oder GOLD.
+
+Bleib nicht am Rand, waehrend andere gewinnen. Taetige deine erste Einzahlung und steig ins Spiel ein!
 Button: JETZT MITMACHEN
 
 
