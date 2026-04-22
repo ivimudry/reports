@@ -101,6 +101,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Your welcome bonus is ready!
 Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
+Link: https://www.oshi.io/promotions
 
 --- INAPP (AU) ---
 
@@ -108,6 +109,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Your welcome bonus is ready!
 Get 100% up to 1,500 AUD + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
+Link: https://www.oshi.io/en-AU/promotions
 
 --- INAPP (CA) ---
 
@@ -115,6 +117,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Your welcome bonus is ready!
 Get 100% up to 1,500 CAD + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
+Link: https://www.oshi.io/en-CA/promotions
 
 --- INAPP (DE) ---
 
@@ -122,6 +125,7 @@ Body: {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{
 Dein Willkommensbonus ist bereit!
 Sichere dir 100% bis zu 1.000 EUR + 150 Freispiele mit deiner ersten Einzahlung. Aktiviere deinen Bonus im Promo-Bereich - 150 FS gelten in 9 Spielen.
 Button: BONUS HOLEN
+Link: https://www.oshi.io/de/promotions
 
 
 ========== INAPP #1.2 | 150 FS ready ==========
@@ -132,6 +136,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Still here?
 Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
+Link: https://www.oshi.io/promotions
 
 --- INAPP (AU) ---
 
@@ -139,6 +144,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Still here?
 Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
+Link: https://www.oshi.io/en-AU/promotions
 
 --- INAPP (CA) ---
 
@@ -146,6 +152,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Still here?
 Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
+Link: https://www.oshi.io/en-CA/promotions
 
 --- INAPP (DE) ---
 
@@ -153,6 +160,7 @@ Body: {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{
 Noch da?
 Deine 150 Freispiele aus dem Willkommenspaket sind nur eine Einzahlung entfernt. Lade dein Konto auf, aktiviere den Bonus im Promo-Bereich und dreh los - gultig in 9 Spielen.
 Button: EINZAHLEN & SPIELEN
+Link: https://www.oshi.io/de/promotions
 
 
 ========== EMAIL #2 | 150 FS Waiting + 72hr Urgency ==========
@@ -179,6 +187,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
+Link: https://www.oshi.io/promotions
 
 --- EMAIL (AU) ---
 
@@ -202,6 +211,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-AU/promotions
 
 --- EMAIL (CA) ---
 
@@ -225,6 +235,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-CA/promotions
 
 --- EMAIL (DE) ---
 
@@ -248,6 +259,7 @@ Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
+Link: https://www.oshi.io/de/promotions
 
 
 ========== EMAIL #3 | Platform Value (Tournaments, Loyalty, Providers) ==========
@@ -265,6 +277,7 @@ There's a whole world beyond the reels at Oshi. Spin global hits like Sweet Bona
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
+Link: https://www.oshi.io/tournaments
 
 --- EMAIL (AU) ---
 
@@ -279,6 +292,7 @@ There's a whole world beyond the reels at Oshi. Spin Aussie favourites like Big 
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
+Link: https://www.oshi.io/en-AU/tournaments
 
 --- EMAIL (CA) ---
 
@@ -293,6 +307,7 @@ There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Su
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
+Link: https://www.oshi.io/en-CA/tournaments
 
 --- EMAIL (DE) ---
 
@@ -307,25 +322,26 @@ Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele beliebte Slots wie 
 
 Schliess dich dem Geschehen an und erlebe, warum Spieler immer wiederkommen!
 Button: MEHR ENTDECKEN
+Link: https://www.oshi.io/de/tournaments
 
 
 ========== SMS #3 | Platform Value ==========
 
 --- SMS (DEFAULT) ---
 
-Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now [link]
+Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now https://www.oshi.io/tournaments
 
 --- SMS (AU) ---
 
-Oshi: Aussie pokies, AUD payments & weekly cashback. Your 1st deposit unlocks it all. Play now [link]
+Oshi: Aussie pokies, AUD payments & weekly cashback. Your 1st deposit unlocks it all. Play now https://www.oshi.io/en-AU/tournaments
 
 --- SMS (CA) ---
 
-Oshi: Interac CAD deposits, top games & weekly cashback. Your 1st deposit unlocks it all. Play now [link]
+Oshi: Interac CAD deposits, top games & weekly cashback. Your 1st deposit unlocks it all. Play now https://www.oshi.io/en-CA/tournaments
 
 --- SMS (DE) ---
 
-Oshi: Turniere, Cashback & 80+ Anbieter warten. Deine erste Einzahlung schaltet alles frei. Jetzt spielen [link]
+Oshi: Turniere, Cashback & 80+ Anbieter warten. Deine erste Einzahlung schaltet alles frei. Jetzt spielen https://www.oshi.io/de/tournaments
 
 
 ========== EMAIL #4 | Social Proof + Lootwheel Teaser ==========
@@ -349,6 +365,7 @@ Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash pri
 
 Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
 Button: JOIN NOW
+Link: https://www.oshi.io/lootwheels
 
 --- EMAIL (AU) ---
 
@@ -369,6 +386,7 @@ Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash pri
 
 Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
 Button: JOIN NOW
+Link: https://www.oshi.io/en-AU/lootwheels
 
 --- EMAIL (CA) ---
 
@@ -389,6 +407,7 @@ Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash pri
 
 Don't sit on the sidelines while others are winning. Make your first deposit and get in the game!
 Button: JOIN NOW
+Link: https://www.oshi.io/en-CA/lootwheels
 
 --- EMAIL (DE) ---
 
@@ -409,6 +428,7 @@ Mit deiner Einzahlung schaltest du das Lucky Wheel frei - dreh und gewinne Freis
 
 Bleib nicht am Rand, waehrend andere gewinnen. Taetige deine erste Einzahlung und steig ins Spiel ein!
 Button: JETZT MITMACHEN
+Link: https://www.oshi.io/de/lootwheels
 
 
 ========== EMAIL #5 | Escalated Offer | 125% + 200 FS ==========
@@ -431,6 +451,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
+Link: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 
 --- EMAIL (AU) ---
 
@@ -450,6 +471,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BASS125
 
 --- EMAIL (CA) ---
 
@@ -469,6 +491,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=SUGAR125
 
 --- EMAIL (DE) ---
 
@@ -488,6 +511,7 @@ Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
+Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 
 
 ========== INAPP #5 | Escalated Offer | 125% + 200 FS ==========
@@ -498,6 +522,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Exclusive upgrade for you!
 Get 125% up to 1,000 EUR + 200 Free Spins on Elvis Frog TRUEWAYS. Use code FROG125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
+Link: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 
 --- INAPP (AU) ---
 
@@ -505,6 +530,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Exclusive upgrade for you!
 Get 125% up to 1,500 AUD + 200 Free Spins on Big Bass Bonanza. Use code BASS125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BASS125
 
 --- INAPP (CA) ---
 
@@ -512,6 +538,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Exclusive upgrade for you!
 Get 125% up to 1,500 CAD + 200 Free Spins on Sugar Rush. Use code SUGAR125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=SUGAR125
 
 --- INAPP (DE) ---
 
@@ -519,6 +546,7 @@ Body: {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{
 Exklusives Upgrade fur dich!
 Sichere dir 125% bis zu 1.000 EUR + 200 Freispiele bei Elvis Frog TRUEWAYS. Nutze den Code FROG125 mit deiner ersten Einzahlung. Dieses Angebot gibt es nicht auf der Website - es ist nur fur dich!
 Button: JETZT UPGRADEN
+Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 
 
 ========== SMS #5 | Escalated Offer | 125% + 200 FS | AU/CA ONLY ==========
@@ -529,11 +557,11 @@ Apply country split filter in Customer.io: send only when country = AU or CA.
 
 --- SMS (AU) ---
 
-Oshi: Exclusive upgrade! 125% + 200 FS on Big Bass Bonanza. Use code BASS125 on your 1st deposit. Claim now [link]
+Oshi: Exclusive upgrade! 125% + 200 FS on Big Bass Bonanza. Use code BASS125 on your 1st deposit. Claim now https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BASS125
 
 --- SMS (CA) ---
 
-Oshi: Exclusive upgrade! 125% + 200 FS on Sugar Rush. Use code SUGAR125 on your 1st deposit. Claim now [link]
+Oshi: Exclusive upgrade! 125% + 200 FS on Sugar Rush. Use code SUGAR125 on your 1st deposit. Claim now https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=SUGAR125
 
 
 ========== EMAIL #6 | Bonus Expires Soon + Winnings Calculator ==========
@@ -558,6 +586,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
+Link: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 
 --- EMAIL (AU) ---
 
@@ -579,6 +608,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BASS125
 
 --- EMAIL (CA) ---
 
@@ -600,6 +630,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=SUGAR125
 
 --- EMAIL (DE) ---
 
@@ -621,6 +652,7 @@ Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
+Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 
 
 ========== EMAIL #7 | FINAL | 150% + 250 FS + 10 No-Deposit FS ==========
@@ -646,6 +678,7 @@ Wager: x40
 Min. deposit: 20 EUR (for deposit bonus)
 No-deposit Free Spins: 10 FS on Book Of Ra Magic, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
+Link: https://www.oshi.io/?fast-deposit=modal&bonus=BOOKRA150
 
 --- EMAIL (AU) ---
 
@@ -668,6 +701,7 @@ Wager: x40
 Min. deposit: 30 AUD (for deposit bonus)
 No-deposit Free Spins: 10 FS on Sweet Bonanza, auto-credited, no code needed, wager x40, max win 75 AUD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=SWEET150
 
 --- EMAIL (CA) ---
 
@@ -690,6 +724,7 @@ Wager: x40
 Min. deposit: 30 CAD (for deposit bonus)
 No-deposit Free Spins: 10 FS on Gates of Olympus, auto-credited, no code needed, wager x40, max win 75 CAD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GATES150
 
 --- EMAIL (DE) ---
 
@@ -712,21 +747,22 @@ Umsatz: x40
 Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
 Einzahlungsfreie Freispiele: 10 FS bei Book Of Ra Magic, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
 Bonusdauer: 5 Tage
+Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=BOOKRA150
 
 
 ========== SMS #7 | FINAL Offer ==========
 
 --- SMS (DEFAULT) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Book Of Ra Magic already in your account: [Play →]. Use code BOOKRA150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Book Of Ra Magic already in your account: https://www.oshi.io/?fast-deposit=modal&bonus=BOOKRA150. Use code BOOKRA150 to deposit.
 
 --- SMS (AU) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Sweet Bonanza already in your account: [Play →]. Use code SWEET150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Sweet Bonanza already in your account: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=SWEET150. Use code SWEET150 to deposit.
 
 --- SMS (CA) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Gates of Olympus already in your account: [Play →]. Use code GATES150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Gates of Olympus already in your account: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GATES150. Use code GATES150 to deposit.
 
 --- SMS (DE) ---
 
@@ -755,6 +791,7 @@ Terms&Conditions:
 Wager: x40 (x25 for crypto deposits)
 Min. deposit: 20 EUR
 Bonus duration: 5 days
+Link: https://www.oshi.io/?fast-deposit=modal&bonus=BASS160
 
 --- EMAIL (AU) ---
 
@@ -776,6 +813,7 @@ Terms&Conditions:
 Wager: x40 (x25 for crypto deposits)
 Min. deposit: 30 AUD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF160
 
 --- EMAIL (CA) ---
 
@@ -797,6 +835,7 @@ Terms&Conditions:
 Wager: x40 (x25 for crypto deposits)
 Min. deposit: 30 CAD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=WANTED160
 
 --- EMAIL (DE) ---
 
@@ -818,4 +857,5 @@ Terms&Conditions:
 Umsatz: x40 (x25 fur Krypto-Einzahlungen)
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
+Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=BASS160
 
