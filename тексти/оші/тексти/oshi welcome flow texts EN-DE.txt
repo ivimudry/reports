@@ -1,4 +1,4 @@
-﻿========== EMAIL #1 | Welcome + Brand Intro ==========
+========== EMAIL #1 | Welcome + Brand Intro ==========
 
 --- EMAIL (DEFAULT) ---
 
@@ -22,6 +22,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
+Link: https://www.oshi.io/promotions
 
 --- EMAIL (AU) ---
 
@@ -45,6 +46,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-AU/promotions
 
 --- EMAIL (CA) ---
 
@@ -68,6 +70,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD
 Bonus duration: 5 days
+Link: https://www.oshi.io/en-CA/promotions
 
 --- EMAIL (DE) ---
 
@@ -91,6 +94,7 @@ Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
+Link: https://www.oshi.io/de/promotions
 
 
 ========== INAPP #1.1 | Welcome Pack | 100% + 150 FS ==========
