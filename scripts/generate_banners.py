@@ -202,22 +202,26 @@ def build_variant(
 
 BG_TECH_SUFFIX = (
     "\n\n--- TECH ---\n"
-    "Cinematic 3D background, photorealistic-stylized hybrid, depth of field with bokeh, "
-    "soft volumetric lighting. Horizontal landscape composition. Main visual focus in the right third "
-    "(empty space for a mascot to be added later). Left third should be atmospheric, blurred, slightly darker — "
-    "negative space for text overlay. NO TEXT, NO LETTERS, NO LOGOS, NO NUMBERS, NO BUTTONS, NO PEOPLE. "
-    "No mascot, no character. Pure background only."
+    "Cinematic background with shallow-to-moderate depth of field. Main subjects in the scene must be clearly "
+    "readable and reasonably sharp; only the far background is softly blurred. Avoid heavy abstract bokeh, avoid "
+    "the entire image being a blur of lights. Horizontal landscape composition. Right two-thirds: the main scene. "
+    "Left third: atmospheric, slightly darker, with empty space for text overlay (can be subtly blurred but still "
+    "recognizable). NO TEXT, NO LETTERS, NO LOGOS, NO NUMBERS, NO BUTTONS, NO PEOPLE. No mascot, no character. "
+    "Pure background only."
 )
 
 MASCOT_TECH_SUFFIX = (
     "\n\n--- TECH ---\n"
-    "Same character as in the reference image (blue jelly-like mascot with white headband, "
-    "two small antennae/ears on top, big round eyes, wide friendly mouth). Keep the character's body shape, "
-    "color, proportions and face fully consistent with the reference. "
-    "3D rendered, soft cartoon Pixar style, glossy plastic-like surface, vibrant saturated colors, "
-    "cinematic studio lighting, soft rim light, subtle ground shadow. "
-    "Full body, 3/4 view. Fully transparent background (alpha channel), no environment, no scenery, "
-    "no props except those explicitly described."
+    "CRITICAL: Keep the EXACT same character as in the reference image. The character is a 2D flat cartoon vector "
+    "illustration of a tall blue jelly-bean-shaped creature with: two long thin antennae/ears on top of the head, "
+    "a wide white headband with a small dot ornament across the forehead, large round white eyes with black "
+    "pupils, a wide open friendly smiling mouth with pink-red interior, two thin little arms with small fingers, "
+    "two thin legs. Body color: vivid royal blue. Render style: 2D flat cartoon vector illustration, clean outlines, "
+    "simple cel-shading with soft highlights and shadows. ABSOLUTELY NOT 3D, NOT Pixar style, NOT photorealistic, "
+    "NOT realistic textures. Hand-drawn animation aesthetic, modern flat mobile-game character look. "
+    "You may change: pose, gesture, facial expression, mouth shape, add costume/clothing/props/accessories. "
+    "You MUST preserve: body shape, body color, antennae, headband, eye style, overall proportions and identity. "
+    "Full body, 3/4 or frontal view. Fully transparent background (alpha channel), no environment, no scenery."
 )
 
 
