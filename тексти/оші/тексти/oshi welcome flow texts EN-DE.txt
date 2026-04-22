@@ -297,11 +297,11 @@ Button: DISCOVER MORE
 --- EMAIL (DE) ---
 
 Subject: 🏆 Turniere, Cashback & 80+ Anbieter bei Oshi
-Preheader: Sofort, Paysafecard, Krypto - plus Elvis Frog TRUEWAYS und Lucky Jane in Egypt
+Preheader: Sofort, Paysafecard, Krypto - plus Elvis Frog TRUEWAYS, Book of Dead und Razor Shark
 Body:
 {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{% else %}Hallo!{% endif %}
 
-Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele beliebte Slots wie Elvis Frog TRUEWAYS von BGaming, Lucky Jane in Egypt von 1spin4win und Piggy Tap von OnlyPlay, nimm an wochentlichen Turnieren mit echten Preispools teil und klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch.
+Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele beliebte Slots wie Elvis Frog TRUEWAYS von BGaming, Book of Dead von Play'n GO und Razor Shark von Push Gaming, nimm an wochentlichen Turnieren mit echten Preispools teil und klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch.
 
 80+ Top-Anbieter, schnelle Einzahlungen per Sofort, Paysafecard und CashToCode, plus Krypto (BTC, ETH, USDT, LTC und mehr). Neue Spiele erscheinen jede Woche.
 
@@ -399,9 +399,9 @@ Body:
 
 Tausende Spieler aus Deutschland holen sich gerade ihren Willkommensbonus bei Oshi. Ein paar Gewinner dieser Woche:
 
-- Luk•••••39 holte 2.583 EUR bei Elvis Frog TRUEWAYS
-- Emi•••Berg gewann 1.400 EUR bei Lucky Jane in Egypt
-- J••••Falke kassierte 3.347 EUR bei Piggy Tap
+- Luk•••••39 holte 2.583 EUR bei Book of Dead
+- Emi•••Berg gewann 1.400 EUR bei Eye of Horus
+- J••••Falke kassierte 3.347 EUR bei Razor Shark
 
 Mit deiner Einzahlung schaltest du das Lucky Wheel frei - dreh und gewinne Freispiele und Bargeld-Preise:
 - Zahle 20 EUR mit Code SILVER ein -> drehe und gewinne bis zu 5.000 EUR
