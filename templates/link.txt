@@ -4,4 +4,4 @@ https://ivimudry.github.io/reports/pages/promptgrid/NAMEOFREPORT.html
 GNB Agency
 https://ivimudry.github.io/reports/pages/gnb/NAMEOFREPORT.html
 
-C:\Projects\REPORTS\WPositivity Conference-20260422T120051Z-3-001
+C:\Projects\REPORTS\WPConference
