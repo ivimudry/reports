@@ -22,7 +22,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
-Link: https://www.oshi.io/promotions
+Link: https://www.oshi.io/?fast-deposit=modal
 
 --- EMAIL (AU) ---
 
@@ -46,7 +46,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-AU/promotions
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal
 
 --- EMAIL (CA) ---
 
@@ -70,7 +70,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-CA/promotions
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal
 
 --- EMAIL (DE) ---
 
@@ -94,7 +94,7 @@ Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
-Link: https://www.oshi.io/de/promotions
+Link: https://www.oshi.io/de/?fast-deposit=modal
 
 
 ========== INAPP #1.1 | Welcome Pack | 100% + 150 FS ==========
@@ -105,7 +105,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Your welcome bonus is ready!
 Get 100% up to 1,000 EUR + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
-Link: https://www.oshi.io/promotions
+Link: https://www.oshi.io/?fast-deposit=modal
 
 --- INAPP (AU) ---
 
@@ -113,7 +113,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Your welcome bonus is ready!
 Get 100% up to 1,500 AUD + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
-Link: https://www.oshi.io/en-AU/promotions
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal
 
 --- INAPP (CA) ---
 
@@ -121,7 +121,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Your welcome bonus is ready!
 Get 100% up to 1,500 CAD + 150 Free Spins with your first deposit. Activate your bonus in the Promo section - 150 FS are valid in 9 games.
 Button: CLAIM BONUS
-Link: https://www.oshi.io/en-CA/promotions
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal
 
 --- INAPP (DE) ---
 
@@ -129,7 +129,7 @@ Body: {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{
 Dein Willkommensbonus ist bereit!
 Sichere dir 100% bis zu 1.000 EUR + 150 Freispiele mit deiner ersten Einzahlung. Aktiviere deinen Bonus im Promo-Bereich - 150 FS gelten in 9 Spielen.
 Button: BONUS HOLEN
-Link: https://www.oshi.io/de/promotions
+Link: https://www.oshi.io/de/?fast-deposit=modal
 
 
 ========== INAPP #1.2 | 150 FS ready ==========
@@ -140,7 +140,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Still here?
 Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
-Link: https://www.oshi.io/promotions
+Link: https://www.oshi.io/?fast-deposit=modal
 
 --- INAPP (AU) ---
 
@@ -148,7 +148,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Still here?
 Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
-Link: https://www.oshi.io/en-AU/promotions
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal
 
 --- INAPP (CA) ---
 
@@ -156,7 +156,7 @@ Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{
 Still here?
 Your 150 Free Spins from the welcome pack are one deposit away. Top up your account, activate the bonus in Promo, and start spinning - valid in 9 games.
 Button: DEPOSIT & PLAY
-Link: https://www.oshi.io/en-CA/promotions
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal
 
 --- INAPP (DE) ---
 
@@ -164,7 +164,7 @@ Body: {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{
 Noch da?
 Deine 150 Freispiele aus dem Willkommenspaket sind nur eine Einzahlung entfernt. Lade dein Konto auf, aktiviere den Bonus im Promo-Bereich und dreh los - gultig in 9 Spielen.
 Button: EINZAHLEN & SPIELEN
-Link: https://www.oshi.io/de/promotions
+Link: https://www.oshi.io/de/?fast-deposit=modal
 
 
 ========== EMAIL #2 | 150 FS Waiting + 72hr Urgency ==========
@@ -191,7 +191,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR
 Bonus duration: 5 days
-Link: https://www.oshi.io/promotions
+Link: https://www.oshi.io/?fast-deposit=modal
 
 --- EMAIL (AU) ---
 
@@ -215,7 +215,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-AU/promotions
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal
 
 --- EMAIL (CA) ---
 
@@ -239,7 +239,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-CA/promotions
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal
 
 --- EMAIL (DE) ---
 
@@ -263,7 +263,7 @@ Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
-Link: https://www.oshi.io/de/promotions
+Link: https://www.oshi.io/de/?fast-deposit=modal
 
 
 ========== EMAIL #3 | Platform Value (Tournaments, Loyalty, Providers) ==========
