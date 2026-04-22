@@ -202,41 +202,28 @@ def build_variant(
 
 BG_TECH_SUFFIX = (
     "\n\n--- TECH ---\n"
-    "Cinematic background with shallow-to-moderate depth of field. Main subjects in the scene must be clearly "
-    "readable and reasonably sharp; only the far background is softly blurred. Avoid heavy abstract bokeh, avoid "
-    "the entire image being a blur of lights. Horizontal landscape composition. Right two-thirds: the main scene. "
-    "Left third: atmospheric, slightly darker, with empty space for text overlay (can be subtly blurred but still "
-    "recognizable). NO TEXT, NO LETTERS, NO LOGOS, NO NUMBERS, NO BUTTONS, NO PEOPLE. No mascot, no character. "
-    "Pure background only."
+    "Horizontal landscape composition. Place the main visual subjects, props and detailed elements in the LEFT "
+    "half of the frame (a dark filter and text will be overlaid on top of them later — the detail provides "
+    "atmosphere visible through the filter). Keep the RIGHT half clean and atmospheric with minimal detail "
+    "(open space where a mascot character will be placed later — the mascot must not blend into a busy "
+    "background). Subjects should be reasonably sharp and readable; only the far background may be softly "
+    "blurred. NO TEXT, NO LETTERS, NO LOGOS, NO NUMBERS, NO BUTTONS, NO PEOPLE, NO CHARACTERS, NO MASCOT."
 )
 
 MASCOT_TECH_SUFFIX = (
     "\n\n--- TECH ---\n"
-    "CRITICAL: Keep the EXACT same character as in the reference image. The character is a 2D flat cartoon vector "
-    "illustration of a tall blue jelly-bean-shaped creature with: two long thin antennae/ears on top of the head, "
-    "a wide white headband with a small dot ornament across the forehead, large round white eyes with black "
-    "pupils, a wide open friendly smiling mouth with pink-red interior, two thin little arms with small fingers, "
-    "two thin legs. Body color: vivid royal blue. Render style: 2D flat cartoon vector illustration, clean outlines, "
-    "simple cel-shading with soft highlights and shadows. ABSOLUTELY NOT 3D, NOT Pixar style, NOT photorealistic, "
-    "NOT realistic textures. Hand-drawn animation aesthetic, modern flat mobile-game character look. "
-    "You may change: pose, gesture, facial expression, mouth shape, add costume/clothing/props/accessories. "
-    "You MUST preserve: body shape, body color, antennae, headband, eye style, overall proportions and identity. "
-    "Full body, 3/4 or frontal view. Fully transparent background (alpha channel), no environment, no scenery."
+    "Keep the same character as in the reference image (same body shape, color, face, antennae, headband, "
+    "overall identity and rendering style). Only change pose, gesture, expression and add the requested "
+    "costume/clothing/props. Full body, fully transparent background."
 )
 
 
 def build_bg_prompt(v: BannerVariant) -> str:
-    header = f"Banner background for: {v.section_title}"
-    if v.variant_label:
-        header += f" — variant: {v.variant_label}"
-    return f"{header}\n\n{v.background_prompt}{BG_TECH_SUFFIX}"
+    return f"{v.background_prompt}{BG_TECH_SUFFIX}"
 
 
 def build_mascot_prompt(v: BannerVariant) -> str:
-    header = f"Mascot for: {v.section_title}"
-    if v.variant_label:
-        header += f" — variant: {v.variant_label}"
-    return f"{header}\n\n{v.mascot_prompt}{MASCOT_TECH_SUFFIX}"
+    return f"{v.mascot_prompt}{MASCOT_TECH_SUFFIX}"
 
 
 # ---------------------------------------------------------------------------
