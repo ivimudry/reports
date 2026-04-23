@@ -672,7 +672,7 @@ This is our final call. We've pushed your welcome bonus to the maximum: 150% up 
 
 Use code GEM150 with a deposit of 20 EUR or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account on Book Of Ra Magic - no code, no deposit, no catch. [Play Book Of Ra Magic now →]
+On top of that, we've credited 10 Free Spins directly to your account on Gemhalla - no code, no deposit, no catch. [Play Gemhalla now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -695,7 +695,7 @@ This is our final call. We've pushed your welcome bonus to the maximum: 150% up 
 
 Use code CATCH150 with a deposit of 30 AUD or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account on Sweet Bonanza - no code, no deposit, no catch. [Play Sweet Bonanza now →]
+On top of that, we've credited 10 Free Spins directly to your account on Big Catch Bonanza - no code, no deposit, no catch. [Play Big Catch Bonanza now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -718,7 +718,7 @@ This is our final call. We've pushed your welcome bonus to the maximum: 150% up 
 
 Use code GATES150 with a deposit of 30 CAD or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account on Gates of Olympus - no code, no deposit, no catch. [Play Gates of Olympus now →]
+On top of that, we've credited 10 Free Spins directly to your account on Gates of Olympus Super Scatter - no code, no deposit, no catch. [Play Gates of Olympus Super Scatter now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -741,7 +741,7 @@ Das ist unser letzter Ruf. Wir haben deinen Willkommensbonus auf das Maximum erh
 
 Nutze den Code JANE150 mit einer Einzahlung von 20 EUR oder mehr, um dieses Angebot zu sichern.
 
-Zusatzlich haben wir 10 Freispiele direkt auf dein Konto gutgeschrieben - bei Book Of Ra Magic, kein Code, keine Einzahlung, kein Haken. [Jetzt Book Of Ra Magic spielen →]
+Zusatzlich haben wir 10 Freispiele direkt auf dein Konto gutgeschrieben - bei Lucky Jane in Egypt, kein Code, keine Einzahlung, kein Haken. [Jetzt Lucky Jane in Egypt spielen →]
 
 Das ist das Beste, was wir bieten konnen. Sichere es dir, bevor es weg ist!
 Button: LETZTES ANGEBOT HOLEN
@@ -749,7 +749,7 @@ Button: LETZTES ANGEBOT HOLEN
 Terms&Conditions:
 Umsatz: x40
 Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
-Einzahlungsfreie Freispiele: 10 FS bei Book Of Ra Magic, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
+Einzahlungsfreie Freispiele: 10 FS bei Lucky Jane in Egypt, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
 Bonusdauer: 5 Tage
 Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=GEM150
 
@@ -758,19 +758,19 @@ Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=GEM150
 
 --- SMS (DEFAULT) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Book Of Ra Magic already in your account: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150. Use code BOOKRA150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Gemhalla already in your account: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150. Use code GEM150 to deposit.
 
 --- SMS (AU) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Sweet Bonanza already in your account: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150. Use code SWEET150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Big Catch Bonanza already in your account: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150. Use code CATCH150 to deposit.
 
 --- SMS (CA) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Gates of Olympus already in your account: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GATES150. Use code GATES150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Gates of Olympus Super Scatter already in your account: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GATES150. Use code GATES150 to deposit.
 
 --- SMS (DE) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 Freispiele bei Book Of Ra Magic bereits auf deinem Konto: [Spielen →]. Nutze Code BOOKRA150 zum Einzahlen.
+Oshi: FINAL - 150% + 250 FS! 10 Freispiele bei Lucky Jane in Egypt bereits auf deinem Konto: [Spielen →]. Nutze Code JANE150 zum Einzahlen.
 
 
 ========== EMAIL #8 | Absolute Final | 160% + 300 FS ==========
@@ -782,9 +782,9 @@ Preheader: Nothing bigger is coming after this
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Big Bass Splash.
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,000 EUR + 300 Free Spins on Aztec Magic Bonanza.
 
-Deposit 20 EUR or more with code BASS160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+Deposit 20 EUR or more with code AZTEC160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
 
 Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
 
@@ -795,7 +795,7 @@ Terms&Conditions:
 Wager: x40 (x25 for crypto deposits)
 Min. deposit: 20 EUR
 Bonus duration: 5 days
-Link: https://www.oshi.io/?fast-deposit=modal&bonus=BASS160
+Link: https://www.oshi.io/?fast-deposit=modal&bonus=AZTEC160
 
 --- EMAIL (AU) ---
 
@@ -804,9 +804,9 @@ Preheader: Nothing bigger is coming after this
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,500 AUD + 300 Free Spins on Wolf Gold.
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,500 AUD + 300 Free Spins on Buffalo Trail.
 
-Deposit 30 AUD or more with code WOLF160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+Deposit 30 AUD or more with code BUFF160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
 
 Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
 
@@ -817,7 +817,7 @@ Terms&Conditions:
 Wager: x40 (x25 for crypto deposits)
 Min. deposit: 30 AUD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF160
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BUFF160
 
 --- EMAIL (CA) ---
 
@@ -826,9 +826,9 @@ Preheader: Nothing bigger is coming after this
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,500 CAD + 300 Free Spins on Wanted Dead or a Wild.
+We've saved the best for last. This is the absolute biggest welcome bonus Oshi has ever offered: 160% up to 1,500 CAD + 300 Free Spins on Lucky Gold Miner.
 
-Deposit 30 CAD or more with code WANTED160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
+Deposit 30 CAD or more with code GOLD160 and watch your balance multiply. No other player gets a deal this big - it was built specifically for you.
 
 Depositing with crypto? Your wagering drops from x40 to just x25. Same bonus, faster cashout.
 
@@ -839,7 +839,7 @@ Terms&Conditions:
 Wager: x40 (x25 for crypto deposits)
 Min. deposit: 30 CAD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=WANTED160
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GOLD160
 
 --- EMAIL (DE) ---
 
@@ -848,9 +848,9 @@ Preheader: Danach kommt nichts Groseres mehr
 Body:
 {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{% else %}Hallo!{% endif %}
 
-Wir haben das Beste zum Schluss aufgehoben. Das ist der absolut groste Willkommensbonus, den Oshi je angeboten hat: 160% bis zu 1.000 EUR + 300 Freispiele bei Big Bass Splash.
+Wir haben das Beste zum Schluss aufgehoben. Das ist der absolut groste Willkommensbonus, den Oshi je angeboten hat: 160% bis zu 1.000 EUR + 300 Freispiele bei Bonanza Trillion.
 
-Zahle 20 EUR oder mehr mit dem Code BASS160 ein und sieh zu, wie sich dein Guthaben vervielfacht. Kein anderer Spieler bekommt ein solches Angebot - es wurde speziell fur dich erstellt.
+Zahle 20 EUR oder mehr mit dem Code TRILL160 ein und sieh zu, wie sich dein Guthaben vervielfacht. Kein anderer Spieler bekommt ein solches Angebot - es wurde speziell fur dich erstellt.
 
 Einzahlung mit Krypto? Dein Umsatz sinkt von x40 auf nur x25. Gleicher Bonus, schnellere Auszahlung.
 
@@ -861,5 +861,5 @@ Terms&Conditions:
 Umsatz: x40 (x25 fur Krypto-Einzahlungen)
 Mindesteinzahlung: 20 EUR
 Bonusdauer: 5 Tage
-Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=BASS160
+Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=TRILL160
 
