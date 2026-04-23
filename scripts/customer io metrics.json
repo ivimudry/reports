@@ -455,7 +455,7 @@ function CION(id, metric) {
     if (!id || !metric) return '';
     return _cioFetch(id, metric, 'newsletters');
   } catch(e) {
-    return 'ERR_RETRY';
+    return _formatErr(e);
   }
 }
 
@@ -475,7 +475,7 @@ function CIOC(id, metric) {
     if (!id || !metric) return '';
     return _cioFetch(id, metric, 'campaigns');
   } catch(e) {
-    return 'ERR_RETRY';
+    return _formatErr(e);
   }
 }
 
@@ -571,7 +571,7 @@ function CIONF(id, metric, segmentId) {
     if (!id || !metric || !segmentId) return '';
     return _cioFiltered(id, metric, segmentId, 'newsletter_id');
   } catch(e) {
-    return 'ERR_RETRY';
+    return _formatErr(e);
   }
 }
 
@@ -592,7 +592,7 @@ function CIOCF(id, metric, segmentId) {
     if (!id || !metric || !segmentId) return '';
     return _cioFiltered(id, metric, segmentId, 'campaign_id');
   } catch(e) {
-    return 'ERR_RETRY';
+    return _formatErr(e);
   }
 }
 
@@ -619,7 +619,7 @@ function CIONSUM(id, mode) {
     _setCachedResult(key, result);
     return result;
   } catch(e) {
-    return 'ERR_RETRY';
+    return _formatErr(e);
   }
 }
 
@@ -646,7 +646,7 @@ function CIOCSUM(id, mode) {
     _setCachedResult(key, result);
     return result;
   } catch(e) {
-    return 'ERR_RETRY';
+    return _formatErr(e);
   }
 }
 
@@ -717,7 +717,7 @@ function CIOTOPSUM(range) {
     }
     return lines.join('\n');
   } catch(e) {
-    return 'ERR_RETRY';
+    return _formatErr(e);
   }
 }
 
@@ -1000,6 +1000,16 @@ function _getSegmentMembers(segmentId) {
   } catch(e) { /* too large for cache */ }
 
   return ids;
+}
+
+// ── Error formatter ─────────────────────────────────────────
+// Wraps thrown exceptions into a readable 'ERR <msg>' string so users see
+// the real cause and refreshErrors() can still detect & retry the cell.
+function _formatErr(e) {
+  var msg = (e && e.message) ? e.message : String(e);
+  msg = msg.replace(/\s+/g, ' ').trim();
+  if (msg.length > 120) msg = msg.substring(0, 117) + '...';
+  return 'ERR ' + msg;
 }
 
 // ── HTTP helper ─────────────────────────────────────────────
