@@ -129,34 +129,6 @@ function _extractCacheKeysFromFormula(formula) {
 
   var m;
 
-  // =CION(194191; "sent")
-  m = f.match(/^CION\(\s*(\d+)\s*[;,]\s*"([^"]+)"\s*\)$/i);
-  if (m) {
-    keys.push('r_n_' + m[1] + '_' + String(m[2]).toLowerCase().trim());
-    return keys;
-  }
-
-  // =CIOC(194191; "sent")
-  m = f.match(/^CIOC\(\s*(\d+)\s*[;,]\s*"([^"]+)"\s*\)$/i);
-  if (m) {
-    keys.push('r_c_' + m[1] + '_' + String(m[2]).toLowerCase().trim());
-    return keys;
-  }
-
-  // =CIONF(194191; "sent"; 123)
-  m = f.match(/^CIONF\(\s*(\d+)\s*[;,]\s*"([^"]+)"\s*[;,]\s*(\d+)\s*\)$/i);
-  if (m) {
-    keys.push('r_nf_' + m[1] + '_' + String(m[2]).toLowerCase().trim() + '_' + m[3]);
-    return keys;
-  }
-
-  // =CIOCF(194191; "sent"; 123)
-  m = f.match(/^CIOCF\(\s*(\d+)\s*[;,]\s*"([^"]+)"\s*[;,]\s*(\d+)\s*\)$/i);
-  if (m) {
-    keys.push('r_cf_' + m[1] + '_' + String(m[2]).toLowerCase().trim() + '_' + m[3]);
-    return keys;
-  }
-
   // =CIONSUM(194191) or =CIONSUM(194191; "top")
   m = f.match(/^CIONSUM\(\s*(\d+)\s*(?:[;,]\s*"?([a-zA-Z]+)"?\s*)?\)$/i);
   if (m) {
@@ -481,12 +453,7 @@ function _parseTopTotal(s) {
 function CION(id, metric) {
   try {
     if (!id || !metric) return '';
-    var key = 'r_n_' + id + '_' + String(metric).toLowerCase().trim();
-    var cached = _getCachedResult(key);
-    if (cached !== null) return cached;
-    var result = _cioFetch(id, metric, 'newsletters');
-    _setCachedResult(key, result);
-    return result;
+    return _cioFetch(id, metric, 'newsletters');
   } catch(e) {
     return 'ERR_RETRY';
   }
@@ -506,12 +473,7 @@ function CION(id, metric) {
 function CIOC(id, metric) {
   try {
     if (!id || !metric) return '';
-    var key = 'r_c_' + id + '_' + String(metric).toLowerCase().trim();
-    var cached = _getCachedResult(key);
-    if (cached !== null) return cached;
-    var result = _cioFetch(id, metric, 'campaigns');
-    _setCachedResult(key, result);
-    return result;
+    return _cioFetch(id, metric, 'campaigns');
   } catch(e) {
     return 'ERR_RETRY';
   }
@@ -607,12 +569,7 @@ function _fetchMetricsRaw(id, type) {
 function CIONF(id, metric, segmentId) {
   try {
     if (!id || !metric || !segmentId) return '';
-    var key = 'r_nf_' + id + '_' + String(metric).toLowerCase().trim() + '_' + segmentId;
-    var cached = _getCachedResult(key);
-    if (cached !== null) return cached;
-    var result = _cioFiltered(id, metric, segmentId, 'newsletter_id');
-    _setCachedResult(key, result);
-    return result;
+    return _cioFiltered(id, metric, segmentId, 'newsletter_id');
   } catch(e) {
     return 'ERR_RETRY';
   }
@@ -633,12 +590,7 @@ function CIONF(id, metric, segmentId) {
 function CIOCF(id, metric, segmentId) {
   try {
     if (!id || !metric || !segmentId) return '';
-    var key = 'r_cf_' + id + '_' + String(metric).toLowerCase().trim() + '_' + segmentId;
-    var cached = _getCachedResult(key);
-    if (cached !== null) return cached;
-    var result = _cioFiltered(id, metric, segmentId, 'campaign_id');
-    _setCachedResult(key, result);
-    return result;
+    return _cioFiltered(id, metric, segmentId, 'campaign_id');
   } catch(e) {
     return 'ERR_RETRY';
   }
