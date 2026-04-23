@@ -495,7 +495,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=SUGAR125
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 
 --- EMAIL (DE) ---
 
@@ -612,7 +612,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BASS125
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 
 --- EMAIL (CA) ---
 
@@ -634,7 +634,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=SUGAR125
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 
 --- EMAIL (DE) ---
 
@@ -668,9 +668,9 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Book Of Ra Magic.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,000 EUR + 250 Free Spins on Gemhalla.
 
-Use code BOOKRA150 with a deposit of 20 EUR or more to claim this deal.
+Use code GEM150 with a deposit of 20 EUR or more to claim this deal.
 
 On top of that, we've credited 10 Free Spins directly to your account on Book Of Ra Magic - no code, no deposit, no catch. [Play Book Of Ra Magic now →]
 
@@ -680,9 +680,9 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 20 EUR (for deposit bonus)
-No-deposit Free Spins: 10 FS on Book Of Ra Magic, auto-credited, no code needed, wager x40, max win 50 EUR
+No-deposit Free Spins: 10 FS on Gemhalla, auto-credited, no code needed, wager x40, max win 50 EUR
 Bonus duration: 5 days
-Link: https://www.oshi.io/?fast-deposit=modal&bonus=BOOKRA150
+Link: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150
 
 --- EMAIL (AU) ---
 
@@ -691,9 +691,9 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,500 AUD + 250 Free Spins on Sweet Bonanza.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,500 AUD + 250 Free Spins on Big Catch Bonanza.
 
-Use code SWEET150 with a deposit of 30 AUD or more to claim this deal.
+Use code CATCH150 with a deposit of 30 AUD or more to claim this deal.
 
 On top of that, we've credited 10 Free Spins directly to your account on Sweet Bonanza - no code, no deposit, no catch. [Play Sweet Bonanza now →]
 
@@ -703,9 +703,9 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD (for deposit bonus)
-No-deposit Free Spins: 10 FS on Sweet Bonanza, auto-credited, no code needed, wager x40, max win 75 AUD
+No-deposit Free Spins: 10 FS on Big Catch Bonanza, auto-credited, no code needed, wager x40, max win 75 AUD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=SWEET150
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150
 
 --- EMAIL (CA) ---
 
@@ -714,7 +714,7 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,500 CAD + 250 Free Spins on Gates of Olympus.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,500 CAD + 250 Free Spins on Gates of Olympus Super Scatter.
 
 Use code GATES150 with a deposit of 30 CAD or more to claim this deal.
 
@@ -726,7 +726,7 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD (for deposit bonus)
-No-deposit Free Spins: 10 FS on Gates of Olympus, auto-credited, no code needed, wager x40, max win 75 CAD
+No-deposit Free Spins: 10 FS on Gates of Olympus Super Scatter, auto-credited, no code needed, wager x40, max win 75 CAD
 Bonus duration: 5 days
 Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GATES150
 
@@ -737,9 +737,9 @@ Preheader: Unser grotes Willkommensangebot - letzte Chance
 Body:
 {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{% else %}Hallo!{% endif %}
 
-Das ist unser letzter Ruf. Wir haben deinen Willkommensbonus auf das Maximum erhoht: 150% bis zu 1.000 EUR + 250 Freispiele bei Book Of Ra Magic.
+Das ist unser letzter Ruf. Wir haben deinen Willkommensbonus auf das Maximum erhoht: 150% bis zu 1.000 EUR + 250 Freispiele bei Lucky Jane in Egypt.
 
-Nutze den Code BOOKRA150 mit einer Einzahlung von 20 EUR oder mehr, um dieses Angebot zu sichern.
+Nutze den Code JANE150 mit einer Einzahlung von 20 EUR oder mehr, um dieses Angebot zu sichern.
 
 Zusatzlich haben wir 10 Freispiele direkt auf dein Konto gutgeschrieben - bei Book Of Ra Magic, kein Code, keine Einzahlung, kein Haken. [Jetzt Book Of Ra Magic spielen →]
 
@@ -751,18 +751,18 @@ Umsatz: x40
 Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
 Einzahlungsfreie Freispiele: 10 FS bei Book Of Ra Magic, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
 Bonusdauer: 5 Tage
-Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=BOOKRA150
+Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=GEM150
 
 
 ========== SMS #7 | FINAL Offer ==========
 
 --- SMS (DEFAULT) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Book Of Ra Magic already in your account: https://www.oshi.io/?fast-deposit=modal&bonus=BOOKRA150. Use code BOOKRA150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Book Of Ra Magic already in your account: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150. Use code BOOKRA150 to deposit.
 
 --- SMS (AU) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Sweet Bonanza already in your account: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=SWEET150. Use code SWEET150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Sweet Bonanza already in your account: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150. Use code SWEET150 to deposit.
 
 --- SMS (CA) ---
 
