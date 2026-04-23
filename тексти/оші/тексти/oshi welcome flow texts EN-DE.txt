@@ -275,7 +275,7 @@ Preheader: There's more to Oshi than just slots
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-There's a whole world beyond the reels at Oshi. Spin global hits like Sweet Bonanza, Gates of Olympus and Sugar Rush, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
+There's a whole world beyond the reels at Oshi. Spin global hits like Elvis Frog TRUEWAYS, Gemhalla and Aztec Magic Bonanza from BGaming, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
 
 80+ top providers, fast payments via cards, e-wallets and crypto (BTC, ETH, USDT, LTC and more). New titles drop every week and exclusive promotions are always around the corner.
 
@@ -290,7 +290,7 @@ Preheader: Aussie-friendly pokies, fast payments and weekly cashback
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-There's a whole world beyond the reels at Oshi. Spin Aussie favourites like Big Bass Bonanza, Wolf Gold and Sweet Bonanza from Pragmatic Play, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
+There's a whole world beyond the reels at Oshi. Spin Aussie favourites like Lady Wolf Moon Megaways from BGaming, Big Catch Bonanza from netgame and Buffalo Trail from gamebeat, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
 
 80+ top providers, AUD support, fast e-wallets (Skrill, Neteller, MuchBetter) and crypto (BTC, ETH, USDT, LTC and more). New titles drop every week.
 
@@ -305,7 +305,7 @@ Preheader: Instant CAD deposits with Interac, plus crypto and 80+ providers
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Sugar Rush and Gates of Olympus from Pragmatic Play, plus Wanted Dead or a Wild from Hacksaw Gaming, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
+There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Olympus TRUEWAYS from BGaming and Gates of Olympus Super Scatter from Pragmatic, plus Lucky Gold Miner from 1spin4win, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
 
 80+ top providers, instant CAD deposits via Interac (withdrawals in 1-3 banking days), plus crypto (BTC, ETH, USDT, LTC and more). New titles drop every week.
 
@@ -316,11 +316,11 @@ Link: https://www.oshi.io/en-CA/tournaments
 --- EMAIL (DE) ---
 
 Subject: 🏆 Turniere, Cashback & 80+ Anbieter bei Oshi
-Preheader: Sofort, Paysafecard, Krypto - plus Elvis Frog TRUEWAYS, Book Of Ra Magic und Big Bass Splash
+Preheader: Sofort, Paysafecard, Krypto - plus Elvis Frog TRUEWAYS, Lucky Jane in Egypt und Bonanza Trillion
 Body:
 {% if customer.first_name %}Hallo {{ customer.first_name | capitalize }}!{% else %}Hallo!{% endif %}
 
-Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele beliebte Slots wie Elvis Frog TRUEWAYS von BGaming, Book Of Ra Magic von Novomatic und Big Bass Splash von Pragmatic Play, nimm an wochentlichen Turnieren mit echten Preispools teil und klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch.
+Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele beliebte Slots wie Elvis Frog TRUEWAYS von BGaming, Lucky Jane in Egypt von 1spin4win und Bonanza Trillion von BGaming, nimm an wochentlichen Turnieren mit echten Preispools teil und klettere die Treue-Leiter hoch fur Cashback jeden Mittwoch.
 
 80+ Top-Anbieter, schnelle Einzahlungen per Sofort, Paysafecard und CashToCode, plus Krypto (BTC, ETH, USDT, LTC und mehr). Neue Spiele erscheinen jede Woche.
 
@@ -359,9 +359,9 @@ Body:
 
 This week alone, thousands of players grabbed their welcome bonus and hit the reels at Oshi. A few of this week's wins:
 
-- Max••••87 won 2,387 EUR on Sweet Bonanza
-- liaR•••••• hit 1,150 EUR on Gates of Olympus
-- T••••Storm cashed out 3,742 EUR on Sugar Rush
+- Max••••87 won 2,387 EUR on Elvis Frog TRUEWAYS
+- liaR•••••• hit 1,150 EUR on Gemhalla
+- T••••Storm cashed out 3,742 EUR on Aztec Magic Bonanza
 
 Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash prizes:
 - Deposit 20 EUR with code SILVER -> spin to win up to 5,000 EUR
@@ -380,9 +380,9 @@ Body:
 
 Aussie players are jumping into Oshi this week and the wins keep rolling in. A few from Down Under:
 
-- Jak•••••91 grabbed 4,820 AUD on Big Bass Bonanza
-- Mi•••Roo cashed in 2,625 AUD on Wolf Gold
-- bronk•••• hit 3,891 AUD on Sweet Bonanza
+- Jak•••••91 grabbed 4,820 AUD on Lady Wolf Moon Megaways
+- Mi•••Roo cashed in 2,625 AUD on Big Catch Bonanza
+- bronk•••• hit 3,891 AUD on Buffalo Trail
 
 Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash prizes:
 - Deposit 30 AUD with code SILVER -> spin to win up to 7,500 AUD
@@ -401,9 +401,9 @@ Body:
 
 Players across Canada keep claiming their welcome bonus and spinning to wins this week. A few of this week's results:
 
-- Ben••••••44 scored 4,178 CAD on Sugar Rush
-- AvaQ•••• won 2,250 CAD on Gates of Olympus
-- N•••Wolf cashed out 6,243 CAD on Wanted Dead or a Wild
+- Ben••••••44 scored 4,178 CAD on Olympus TRUEWAYS
+- AvaQ•••• won 2,250 CAD on Gates of Olympus Super Scatter
+- N•••Wolf cashed out 6,243 CAD on Lucky Gold Miner
 
 Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash prizes:
 - Deposit 30 CAD with code SILVER -> spin to win up to 7,500 CAD
@@ -422,9 +422,9 @@ Body:
 
 Tausende Spieler aus Deutschland holen sich gerade ihren Willkommensbonus bei Oshi. Ein paar Gewinner dieser Woche:
 
-- Luk•••••39 holte 2.583 EUR bei Book Of Ra Magic
-- Emi•••Berg gewann 1.400 EUR bei Gates of Olympus
-- J••••Falke kassierte 3.347 EUR bei Big Bass Splash
+- Luk•••••39 holte 2.583 EUR bei Elvis Frog TRUEWAYS
+- Emi•••Berg gewann 1.400 EUR bei Lucky Jane in Egypt
+- J••••Falke kassierte 3.347 EUR bei Bonanza Trillion
 
 Mit deiner Einzahlung schaltest du das Lucky Wheel frei - dreh und gewinne Freispiele und Bargeld-Preise:
 - Zahle 20 EUR mit Code SILVER ein -> drehe und gewinne bis zu 5.000 EUR
@@ -464,7 +464,7 @@ Preheader: This offer was made just for you
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-We've decided to upgrade your welcome deal. For a limited time, deposit 30 AUD or more and use bonus code BASS125 to unlock a 125% bonus up to 1,500 AUD + 200 Free Spins on Big Bass Bonanza.
+We've decided to upgrade your welcome deal. For a limited time, deposit 30 AUD or more and use bonus code WOLF125 to unlock a 125% bonus up to 1,500 AUD + 200 Free Spins on Lady Wolf Moon Megaways.
 
 That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
 
@@ -475,7 +475,7 @@ Terms&Conditions:
 Wager: x40
 Min. deposit: 30 AUD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BASS125
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 
 --- EMAIL (CA) ---
 
@@ -484,7 +484,7 @@ Preheader: This offer was made just for you
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-We've decided to upgrade your welcome deal. For a limited time, deposit 30 CAD or more and use bonus code SUGAR125 to unlock a 125% bonus up to 1,500 CAD + 200 Free Spins on Sugar Rush.
+We've decided to upgrade your welcome deal. For a limited time, deposit 30 CAD or more and use bonus code OLYMP125 to unlock a 125% bonus up to 1,500 CAD + 200 Free Spins on Olympus TRUEWAYS.
 
 That's 50 extra spins and a bigger match than the standard package. This upgraded offer is not available on the website - it was created exclusively for you.
 
@@ -532,17 +532,17 @@ Link: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 
 Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 Exclusive upgrade for you!
-Get 125% up to 1,500 AUD + 200 Free Spins on Big Bass Bonanza. Use code BASS125 with your first deposit. This offer is not on the website - it's yours only!
+Get 125% up to 1,500 AUD + 200 Free Spins on Lady Wolf Moon Megaways. Use code WOLF125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
-Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BASS125
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 
 --- INAPP (CA) ---
 
 Body: {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 Exclusive upgrade for you!
-Get 125% up to 1,500 CAD + 200 Free Spins on Sugar Rush. Use code SUGAR125 with your first deposit. This offer is not on the website - it's yours only!
+Get 125% up to 1,500 CAD + 200 Free Spins on Olympus TRUEWAYS. Use code OLYMP125 with your first deposit. This offer is not on the website - it's yours only!
 Button: UPGRADE NOW
-Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=SUGAR125
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 
 --- INAPP (DE) ---
 
@@ -561,11 +561,11 @@ Apply country split filter in Customer.io: send only when country = AU or CA.
 
 --- SMS (AU) ---
 
-Oshi: Exclusive upgrade! 125% + 200 FS on Big Bass Bonanza. Use code BASS125 on your 1st deposit. Claim now https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BASS125
+Oshi: Exclusive upgrade! 125% + 200 FS on Lady Wolf Moon Megaways. Use code WOLF125 on your 1st deposit. Claim now https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 
 --- SMS (CA) ---
 
-Oshi: Exclusive upgrade! 125% + 200 FS on Sugar Rush. Use code SUGAR125 on your 1st deposit. Claim now https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=SUGAR125
+Oshi: Exclusive upgrade! 125% + 200 FS on Olympus TRUEWAYS. Use code OLYMP125 on your 1st deposit. Claim now https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 
 
 ========== EMAIL #6 | Bonus Expires Soon + Winnings Calculator ==========
@@ -601,7 +601,7 @@ Body:
 
 Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
 
-Deposit 50 AUD with code BASS125 and get 62.50 AUD bonus + 200 Free Spins. That's 112.50 AUD to play with from just one deposit.
+Deposit 50 AUD with code WOLF125 and get 62.50 AUD bonus + 200 Free Spins. That's 112.50 AUD to play with from just one deposit.
 
 Deposit 100 AUD? You'll play with 225 AUD + 200 Free Spins.
 
@@ -623,7 +623,7 @@ Body:
 
 Your exclusive bonus offer is about to expire. Here's what you're leaving on the table:
 
-Deposit 50 CAD with code SUGAR125 and get 62.50 CAD bonus + 200 Free Spins. That's 112.50 CAD to play with from just one deposit.
+Deposit 50 CAD with code OLYMP125 and get 62.50 CAD bonus + 200 Free Spins. That's 112.50 CAD to play with from just one deposit.
 
 Deposit 100 CAD? You'll play with 225 CAD + 200 Free Spins.
 
