@@ -281,7 +281,7 @@ There's a whole world beyond the reels at Oshi. Spin global hits like Elvis Frog
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
-Link: https://www.oshi.io/tournaments
+Link: https://www.oshi.io/?fast-deposit=modal
 
 --- EMAIL (AU) ---
 
@@ -296,7 +296,7 @@ There's a whole world beyond the reels at Oshi. Spin Aussie favourites like Lady
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
-Link: https://www.oshi.io/en-AU/tournaments
+Link: https://www.oshi.io/en-AU/?fast-deposit=modal
 
 --- EMAIL (CA) ---
 
@@ -311,7 +311,7 @@ There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Ol
 
 Join the action and see why players keep coming back!
 Button: DISCOVER MORE
-Link: https://www.oshi.io/en-CA/tournaments
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal
 
 --- EMAIL (DE) ---
 
@@ -326,26 +326,26 @@ Bei Oshi gibt es eine ganze Welt jenseits der Walzen. Spiele beliebte Slots wie 
 
 Schliess dich dem Geschehen an und erlebe, warum Spieler immer wiederkommen!
 Button: MEHR ENTDECKEN
-Link: https://www.oshi.io/de/tournaments
+Link: https://www.oshi.io/de/?fast-deposit=modal
 
 
 ========== SMS #3 | Platform Value ==========
 
 --- SMS (DEFAULT) ---
 
-Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now https://www.oshi.io/tournaments
+Oshi: Tournaments, cashback & 80+ providers are waiting. Your first deposit unlocks it all. Play now https://www.oshi.io/?fast-deposit=modal
 
 --- SMS (AU) ---
 
-Oshi: Aussie pokies, AUD payments & weekly cashback. Your 1st deposit unlocks it all. Play now https://www.oshi.io/en-AU/tournaments
+Oshi: Aussie pokies, AUD payments & weekly cashback. Your 1st deposit unlocks it all. Play now https://www.oshi.io/en-AU/?fast-deposit=modal
 
 --- SMS (CA) ---
 
-Oshi: Interac CAD deposits, top games & weekly cashback. Your 1st deposit unlocks it all. Play now https://www.oshi.io/en-CA/tournaments
+Oshi: Interac CAD deposits, top games & weekly cashback. Your 1st deposit unlocks it all. Play now https://www.oshi.io/en-CA/?fast-deposit=modal
 
 --- SMS (DE) ---
 
-Oshi: Turniere, Cashback & 80+ Anbieter warten. Deine erste Einzahlung schaltet alles frei. Jetzt spielen https://www.oshi.io/de/tournaments
+Oshi: Turniere, Cashback & 80+ Anbieter warten. Deine erste Einzahlung schaltet alles frei. Jetzt spielen https://www.oshi.io/de/?fast-deposit=modal
 
 
 ========== EMAIL #4 | Social Proof + Lootwheel Teaser ==========
