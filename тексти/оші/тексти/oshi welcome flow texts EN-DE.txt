@@ -751,7 +751,7 @@ Umsatz: x40
 Mindesteinzahlung: 20 EUR (fur Einzahlungsbonus)
 Einzahlungsfreie Freispiele: 10 FS bei Lucky Jane in Egypt, automatisch gutgeschrieben, kein Code nötig, Umsatz x40, max. Gewinn 50 EUR
 Bonusdauer: 5 Tage
-Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=GEM150
+Link: https://www.oshi.io/de/?fast-deposit=modal&bonus=JANE150
 
 
 ========== SMS #7 | FINAL Offer ==========
