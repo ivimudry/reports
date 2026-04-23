@@ -843,7 +843,7 @@ function _getCustomerEmail(cioId) {
 
 // ── Beta API helper ─────────────────────────────────────────
 function _betaApiGet(path) {
-  var res = UrlFetchApp.fetch(CIO_BETA + path, {
+  var res = _fetchWithRetry(CIO_BETA + path, {
     headers: { 'Authorization': 'Bearer ' + CIO_APP_KEY },
     muteHttpExceptions: true
   });
@@ -1002,6 +1002,40 @@ function _getSegmentMembers(segmentId) {
   return ids;
 }
 
+// ── Fetch with retry/backoff ───────────────────────────────
+// Retries on transient failures: "Bandwidth quota exceeded", 429, 502, 503, 504,
+// network exceptions. Backoff: 1s, 2s, 4s, 8s.
+function _fetchWithRetry(url, options) {
+  var attempts = 5;
+  var delay = 1000;
+  var lastErr = null;
+  for (var i = 0; i < attempts; i++) {
+    try {
+      var res = UrlFetchApp.fetch(url, options);
+      var code = res.getResponseCode();
+      if (code === 429 || code === 502 || code === 503 || code === 504) {
+        lastErr = 'HTTP ' + code;
+        Utilities.sleep(delay);
+        delay *= 2;
+        continue;
+      }
+      return res;
+    } catch (e) {
+      var msg = (e && e.message) ? e.message : String(e);
+      lastErr = msg;
+      // Retry only on known transient quota/rate errors
+      if (/bandwidth quota|rate of data transfer|service invoked too many times|timeout|address unavailable|service unavailable|temporarily unavailable/i.test(msg)) {
+        if (i === attempts - 1) throw e;
+        Utilities.sleep(delay);
+        delay *= 2;
+        continue;
+      }
+      throw e;
+    }
+  }
+  throw new Error(lastErr || 'fetch failed after retries');
+}
+
 // ── Error formatter ─────────────────────────────────────────
 // Wraps thrown exceptions into a readable 'ERR <msg>' string so users see
 // the real cause and refreshErrors() can still detect & retry the cell.
@@ -1014,7 +1048,7 @@ function _formatErr(e) {
 
 // ── HTTP helper ─────────────────────────────────────────────
 function _apiGet(path) {
-  var res = UrlFetchApp.fetch(CIO_BASE + path, {
+  var res = _fetchWithRetry(CIO_BASE + path, {
     headers: { 'Authorization': 'Bearer ' + CIO_APP_KEY },
     muteHttpExceptions: true
   });
