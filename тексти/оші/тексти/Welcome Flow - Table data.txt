@@ -11,11 +11,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: EXPLORE OSHI
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/?fast-deposit=modal
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/?fast-deposit=modal
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/?fast-deposit=modal
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -40,11 +40,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: EXPLORE OSHI
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -69,11 +69,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: EXPLORE OSHI
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -98,11 +98,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/de/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Passwort vergessen?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Abmelden</a></p></td>
 button_text_1: OSHI ENTDECKEN
-button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/de/?fast-deposit=modal
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/de/?fast-deposit=modal
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/de/?fast-deposit=modal
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -127,11 +127,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: GRAB MY SPINS
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/?fast-deposit=modal
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/?fast-deposit=modal
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/?fast-deposit=modal
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -156,11 +156,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: GRAB MY SPINS
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -185,11 +185,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: GRAB MY SPINS
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -214,11 +214,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/de/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Passwort vergessen?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Abmelden</a></p></td>
 button_text_1: SPINS SICHERN
-button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/de/?fast-deposit=modal
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/de/?fast-deposit=modal
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/de/?fast-deposit=modal
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -243,11 +243,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: DISCOVER MORE
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/tournaments
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/tournaments
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/tournaments
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -272,11 +272,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: DISCOVER MORE
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-AU/tournaments
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-AU/tournaments
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-AU/tournaments
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -301,11 +301,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: DISCOVER MORE
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-CA/tournaments
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-CA/tournaments
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-CA/tournaments
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -330,11 +330,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/de/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Passwort vergessen?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Abmelden</a></p></td>
 button_text_1: MEHR ENTDECKEN
-button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/de/tournaments
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/de/tournaments
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/de/tournaments
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -359,11 +359,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: JOIN NOW
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/lootwheels
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/lootwheels
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/lootwheels
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -388,11 +388,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: JOIN NOW
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-AU/lootwheels
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-AU/lootwheels
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-AU/lootwheels
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -417,11 +417,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: JOIN NOW
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-CA/lootwheels
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-CA/lootwheels
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-CA/lootwheels
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -446,11 +446,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/de/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Passwort vergessen?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Abmelden</a></p></td>
 button_text_1: JETZT MITMACHEN
-button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/de/lootwheels
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/de/lootwheels
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/de/lootwheels
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -475,11 +475,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: CLAIM MY UPGRADE
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -504,11 +504,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: CLAIM MY UPGRADE
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -533,11 +533,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: CLAIM MY UPGRADE
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -562,11 +562,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/de/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Passwort vergessen?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Abmelden</a></p></td>
 button_text_1: UPGRADE SICHERN
-button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -591,11 +591,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: SECURE MY BONUS
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -620,11 +620,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: SECURE MY BONUS
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -649,11 +649,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: SECURE MY BONUS
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -678,11 +678,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/de/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Passwort vergessen?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Abmelden</a></p></td>
 button_text_1: BONUS SICHERN
-button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -707,11 +707,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: CLAIM FINAL OFFER
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -736,11 +736,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: CLAIM FINAL OFFER
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -765,11 +765,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: CLAIM FINAL OFFER
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=VALLEY150
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=VALLEY150
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=VALLEY150
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -794,11 +794,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/de/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Passwort vergessen?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Abmelden</a></p></td>
 button_text_1: LETZTES ANGEBOT HOLEN
-button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=JANE150
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=JANE150
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=JANE150
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -823,11 +823,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: GET MY REWARD
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=AZTEC160
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=AZTEC160
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=AZTEC160
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -852,11 +852,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: GET MY REWARD
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BUFF160
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BUFF160
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BUFF160
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -881,11 +881,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Forgot your password?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Unsubscribe</a></p></td>
 button_text_1: GET MY REWARD
-button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GOLD160
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GOLD160
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GOLD160
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
@@ -910,11 +910,11 @@ text_12: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Ma
 text_13: <td align="center" valign="top" width="50.00%" style="padding:10px 0;Margin:0;border:0"><div style="vertical-align:middle;display:block"><a target="_blank" href="https://www.oshi.io/de/users/forgot-password" style="mso-line-height-rule:exactly;text-decoration:none;font-family:Montserrat, helvetica, arial, sans-serif;display:block;color:#d5e5fd;font-size:11px">Passwort vergessen?</a></div></td>
 text_15: <td align="center" class="es-m-text" style="padding:0 20px;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#cacbcd;font-size:11px"><strong style="font-weight:700 !important"> </strong></p><p class="es-text-mobile-size-10" style="Margin:0;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:16.5px;letter-spacing:0;color:#ffffff;font-size:11px"><a target="_blank" href="{% unsubscribe_url %}" style="mso-line-height-rule:exactly;text-decoration:underline;color:#ffffff;font-size:11px">Abmelden</a></p></td>
 button_text_1: BELOHNUNG HOLEN
-button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=TRILL160
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
-logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=TRILL160
 banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
-banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=START120
+banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=TRILL160
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
 tournaments_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1743084581610_Tournaments_01JQBYZWVAYNWCB50YN857J5X4.png
