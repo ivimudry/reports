@@ -14,7 +14,7 @@ button_text_1: EXPLORE OSHI
 button_href_1: https://www.oshi.io/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKDQYHZ1PTBJNQ78RK4F2T.png
 banner_href: https://www.oshi.io/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -43,7 +43,7 @@ button_text_1: EXPLORE OSHI
 button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en-AU
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en-AU
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKK6FJFHEQ81JDF7D7863H.png
 banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en-AU
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -72,7 +72,7 @@ button_text_1: EXPLORE OSHI
 button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en-CA
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en-CA
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKF0M1SG3CE53Z508Q195M.png
 banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=en-CA
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -101,7 +101,7 @@ button_text_1: OSHI ENTDECKEN
 button_href_1: https://www.oshi.io/de/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=de
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/de/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=de
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKEBNAJ92HC51JVQT1Z4GS.png
 banner_href: https://www.oshi.io/de/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=1&utm_language=de
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -130,7 +130,7 @@ button_text_1: GRAB MY SPINS
 button_href_1: https://www.oshi.io/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKDQJ11EA158XQ4YJ23P00.png
 banner_href: https://www.oshi.io/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -159,7 +159,7 @@ button_text_1: GRAB MY SPINS
 button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en-AU
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en-AU
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKK6BHGNE93CEEEVMJMJPY.png
 banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en-AU
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -188,7 +188,7 @@ button_text_1: GRAB MY SPINS
 button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en-CA
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en-CA
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKF06E0ZZPYE400BS3EWJY.png
 banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=en-CA
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -217,7 +217,7 @@ button_text_1: SPINS SICHERN
 button_href_1: https://www.oshi.io/de/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=de
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/de/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=de
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKEB53PA2F634SV2DHKM7C.png
 banner_href: https://www.oshi.io/de/?fast-deposit=modal&utm_campaign=welcome&utm_source=customerio&utm_email=2&utm_language=de
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -246,7 +246,7 @@ button_text_1: DISCOVER MORE
 button_href_1: https://www.oshi.io/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKDR0KPFACE22X44JX9ARM.png
 banner_href: https://www.oshi.io/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -275,7 +275,7 @@ button_text_1: DISCOVER MORE
 button_href_1: https://www.oshi.io/en-AU/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en-AU
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-AU/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en-AU
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKK6FW2BT71NBQZ3E1S5DA.png
 banner_href: https://www.oshi.io/en-AU/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en-AU
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -304,7 +304,7 @@ button_text_1: DISCOVER MORE
 button_href_1: https://www.oshi.io/en-CA/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en-CA
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-CA/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en-CA
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKF0NV7K3KTM2GZY7K676D.png
 banner_href: https://www.oshi.io/en-CA/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=en-CA
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -333,7 +333,7 @@ button_text_1: MEHR ENTDECKEN
 button_href_1: https://www.oshi.io/de/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=de
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/de/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=de
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKEBK9ZWT1XCVX5WH4K2ZZ.png
 banner_href: https://www.oshi.io/de/tournaments?utm_campaign=welcome&utm_source=customerio&utm_email=3&utm_language=de
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -362,7 +362,7 @@ button_text_1: JOIN NOW
 button_href_1: https://www.oshi.io/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKDRD5BZBM6D0VWBX6QE8K.png
 banner_href: https://www.oshi.io/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -391,7 +391,7 @@ button_text_1: JOIN NOW
 button_href_1: https://www.oshi.io/en-AU/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en-AU
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-AU/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en-AU
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKK6RYGM1FC50DYKDP1334.png
 banner_href: https://www.oshi.io/en-AU/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en-AU
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -420,7 +420,7 @@ button_text_1: JOIN NOW
 button_href_1: https://www.oshi.io/en-CA/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en-CA
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-CA/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en-CA
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKF1F2KQPRV67YXKST59GZ.png
 banner_href: https://www.oshi.io/en-CA/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=en-CA
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -449,7 +449,7 @@ button_text_1: JETZT MITMACHEN
 button_href_1: https://www.oshi.io/de/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=de
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/de/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=de
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKEBXFPM2KW26RCJVFQ26G.png
 banner_href: https://www.oshi.io/de/lootwheels?utm_campaign=welcome&utm_source=customerio&utm_email=4&utm_language=de
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -478,7 +478,7 @@ button_text_1: CLAIM MY UPGRADE
 button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKDRRWVFD4TRAHH37K5ZQB.png
 banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -507,7 +507,7 @@ button_text_1: CLAIM MY UPGRADE
 button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en-AU
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en-AU
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKK7917S87KMY1G7GH12DV.png
 banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en-AU
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -536,7 +536,7 @@ button_text_1: CLAIM MY UPGRADE
 button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en-CA
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en-CA
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKF1HB6XMXFS3G7JE0MES7.png
 banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=en-CA
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -565,7 +565,7 @@ button_text_1: UPGRADE SICHERN
 button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=de
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=de
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKEC1KCT3THA47F88GF2ZZ.png
 banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=5&utm_language=de
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -594,7 +594,7 @@ button_text_1: SECURE MY BONUS
 button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKDSW2SWPS657W91KD8JT1.png
 banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -623,7 +623,7 @@ button_text_1: SECURE MY BONUS
 button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en-AU
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en-AU
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKK9HQYNZYA3Z7CZB0SF6Y.png
 banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=WOLF125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en-AU
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -652,7 +652,7 @@ button_text_1: SECURE MY BONUS
 button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en-CA
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en-CA
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKF2YXKHNV13BR9ZAHEJJJ.png
 banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=OLYMP125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=en-CA
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -681,7 +681,7 @@ button_text_1: BONUS SICHERN
 button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=de
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=de
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKEE0TM0M5JY960B04HQCP.png
 banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=FROG125&utm_campaign=welcome&utm_source=customerio&utm_email=6&utm_language=de
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -710,7 +710,7 @@ button_text_1: CLAIM FINAL OFFER
 button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKDTS5XY5JR8BMKNTD5JCP.png
 banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=GEM150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -739,7 +739,7 @@ button_text_1: CLAIM FINAL OFFER
 button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en-AU
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en-AU
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKK8QMV24PGS2MA1VFCCX0.png
 banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=CATCH150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en-AU
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -768,7 +768,7 @@ button_text_1: CLAIM FINAL OFFER
 button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=VALLEY150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en-CA
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=VALLEY150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en-CA
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKF3C9P9XMKRJJ3VJ91591.png
 banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=VALLEY150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=en-CA
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -797,7 +797,7 @@ button_text_1: LETZTES ANGEBOT HOLEN
 button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=JANE150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=de
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=JANE150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=de
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKEEB16MZEQQAE4PY8S455.png
 banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=JANE150&utm_campaign=welcome&utm_source=customerio&utm_email=7&utm_language=de
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -826,7 +826,7 @@ button_text_1: GET MY REWARD
 button_href_1: https://www.oshi.io/?fast-deposit=modal&bonus=AZTEC160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/?fast-deposit=modal&bonus=AZTEC160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKDTV3X5J68J7YQ6P26D9D.png
 banner_href: https://www.oshi.io/?fast-deposit=modal&bonus=AZTEC160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -855,7 +855,7 @@ button_text_1: GET MY REWARD
 button_href_1: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BUFF160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en-AU
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BUFF160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en-AU
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKK9HPEGWAPGBTMX6YFNX2.png
 banner_href: https://www.oshi.io/en-AU/?fast-deposit=modal&bonus=BUFF160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en-AU
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -884,7 +884,7 @@ button_text_1: GET MY REWARD
 button_href_1: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GOLD160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en-CA
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GOLD160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en-CA
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKF3DXMQ64FZKSBNT9Z7NT.png
 banner_href: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GOLD160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=en-CA
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
@@ -913,7 +913,7 @@ button_text_1: BELOHNUNG HOLEN
 button_href_1: https://www.oshi.io/de/?fast-deposit=modal&bonus=TRILL160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=de
 logo_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1720173287902_Group%2048096481_01J2152Q1N4YG3CZVEYMSB0AJX.png
 logo_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=TRILL160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=de
-banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1770191023278_nrc_banner_EN_01KGKSPV98X28S97HXBCKRWC8N.png
+banner_src: https://userimg-assets.customeriomail.com/images/client-env-47372/01KPXKEECY31Z4721WX5SHT7K3.png
 banner_href: https://www.oshi.io/de/?fast-deposit=modal&bonus=TRILL160&utm_campaign=welcome&utm_source=customerio&utm_email=8&utm_language=de
 telegram_src: https://userimg-assets.customeriomail.com/images/client-env-47372/1740492326437_Layer%201_01JMYPTJR70BHM968X70N88MJR.png
 telegram_href: https://t.me/+kaKGhcsLQBM4OGRi
