@@ -305,7 +305,7 @@ Preheader: Instant CAD deposits with Interac, plus crypto and 80+ providers
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Olympus TRUEWAYS from BGaming and Gates of Olympus Super Scatter from Pragmatic, plus Lucky Gold Miner from 1spin4win, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
+There's a whole world beyond the reels at Oshi. Spin Canadian favourites like Olympus TRUEWAYS from BGaming and Valley of the Gods 2 from Pragmatic, plus Lucky Gold Miner from 1spin4win, jump into weekly tournaments with real prize pools, and climb the loyalty ladder for cashback every Wednesday.
 
 80+ top providers, instant CAD deposits via Interac (withdrawals in 1-3 banking days), plus crypto (BTC, ETH, USDT, LTC and more). New titles drop every week.
 
@@ -402,7 +402,7 @@ Body:
 Players across Canada keep claiming their welcome bonus and spinning to wins this week. A few of this week's results:
 
 - Ben••••••44 scored 4,178 CAD on Olympus TRUEWAYS
-- AvaQ•••• won 2,250 CAD on Gates of Olympus Super Scatter
+- AvaQ•••• won 2,250 CAD on Valley of the Gods 2
 - N•••Wolf cashed out 6,243 CAD on Lucky Gold Miner
 
 Plus, your deposit unlocks the Lucky Wheel - spin to win Free Spins and cash prizes:
@@ -714,11 +714,11 @@ Preheader: Our biggest welcome deal - last chance
 Body:
 {% if customer.first_name %}Hello {{ customer.first_name | capitalize }}!{% else %}Hello!{% endif %}
 
-This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,500 CAD + 250 Free Spins on Gates of Olympus Super Scatter.
+This is our final call. We've pushed your welcome bonus to the maximum: 150% up to 1,500 CAD + 250 Free Spins on Valley of the Gods 2.
 
-Use code GATES150 with a deposit of 30 CAD or more to claim this deal.
+Use code VALLEY150 with a deposit of 30 CAD or more to claim this deal.
 
-On top of that, we've credited 10 Free Spins directly to your account on Gates of Olympus Super Scatter - no code, no deposit, no catch. [Play Gates of Olympus Super Scatter now →]
+On top of that, we've credited 10 Free Spins directly to your account on Valley of the Gods 2 - no code, no deposit, no catch. [Play Valley of the Gods 2 now →]
 
 This is the best we can offer. Lock it in before it's gone!
 Button: CLAIM FINAL OFFER
@@ -726,9 +726,9 @@ Button: CLAIM FINAL OFFER
 Terms&Conditions:
 Wager: x40
 Min. deposit: 30 CAD (for deposit bonus)
-No-deposit Free Spins: 10 FS on Gates of Olympus Super Scatter, auto-credited, no code needed, wager x40, max win 75 CAD
+No-deposit Free Spins: 10 FS on Valley of the Gods 2, auto-credited, no code needed, wager x40, max win 75 CAD
 Bonus duration: 5 days
-Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=GATES150
+Link: https://www.oshi.io/en-CA/?fast-deposit=modal&bonus=VALLEY150
 
 --- EMAIL (DE) ---
 
@@ -766,7 +766,7 @@ Oshi: FINAL - 150% + 250 FS! 10 free spins on Big Catch Bonanza already in your 
 
 --- SMS (CA) ---
 
-Oshi: FINAL - 150% + 250 FS! 10 free spins on Gates of Olympus Super Scatter already in your account: https://www.oshi.io/en-CA/game/gates-of-olympus-super-scatter. Use code GATES150 to deposit.
+Oshi: FINAL - 150% + 250 FS! 10 free spins on Valley of the Gods 2 already in your account: https://www.oshi.io/en-CA/game/valley-of-the-gods-2. Use code VALLEY150 to deposit.
 
 --- SMS (DE) ---
 

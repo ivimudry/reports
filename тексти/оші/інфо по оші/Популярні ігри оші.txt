@@ -5,7 +5,6 @@ Piggy Tap (onlyplay)
 Gemhalla (bgmng)
 Valley of the Gods 2	yggdrasil
 Lady Wolf Moon Megaways	bgmng
-Gates of Olympus Super Scatter	pragmaticexternal
 Juicy Market	spadegaming
 Bonanza Trillion	bgmng
 Sleeping Dragon	pragmaticexternal
