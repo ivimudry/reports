@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>active_player_period — specification</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 820px; margin: 32px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.5; }
+  h1 { font-size: 24px; border-bottom: 2px solid #333; padding-bottom: 8px; }
+  h2 { font-size: 18px; margin-top: 28px; color: #0a4d8c; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 14px; }
+  th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+  th { background: #f0f4f8; }
+  code, pre { font-family: Consolas, Monaco, monospace; font-size: 13px; }
+  code { background: #f4f4f4; padding: 1px 5px; border-radius: 3px; }
+  pre { background: #f8f8f8; border-left: 3px solid #0a4d8c; padding: 10px 14px; overflow-x: auto; }
+  .warn { background: #fff8e1; border-left: 3px solid #f5a623; padding: 8px 12px; margin: 12px 0; }
+  .note { background: #e8f4fd; border-left: 3px solid #0a4d8c; padding: 8px 12px; margin: 12px 0; }
+  ul, ol { padding-left: 22px; }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+
+<h1>active_player_period — Customer.io attribute</h1>
+
+<p><strong>What it is:</strong> the time-of-day period when a player most often <strong>logs in to the casino</strong>. Used by marketing to send messages at the player's active hours.</p>
+
+<p><strong>Data source:</strong> casino login events (<code>session.start_time</code> or equivalent — the successful login event). Session duration, bets, deposits — <strong>not used</strong>. Only the login event itself.</p>
+
+<h2>Attribute</h2>
+<table>
+  <tr><th>Name</th><th>Type</th><th>Values</th></tr>
+  <tr><td><code>active_player_period</code></td><td>string</td><td>see table below or <code>unknown</code></td></tr>
+</table>
+
+<h2>Periods (player's local time)</h2>
+<table>
+  <tr><th>Value</th><th>Hours</th></tr>
+  <tr><td><code>late_night</code></td><td>00:00–03:59</td></tr>
+  <tr><td><code>early_morning</code></td><td>04:00–07:59</td></tr>
+  <tr><td><code>morning</code></td><td>08:00–11:59</td></tr>
+  <tr><td><code>afternoon</code></td><td>12:00–15:59</td></tr>
+  <tr><td><code>evening</code></td><td>16:00–19:59</td></tr>
+  <tr><td><code>night</code></td><td>20:00–23:59</td></tr>
+  <tr><td><code>unknown</code></td><td>not enough logins or no timezone</td></tr>
+</table>
+
+<h2>Algorithm</h2>
+<ol>
+  <li>Take the player's last <strong>30 casino logins</strong> (field <code>session.start_time</code>, UTC).</li>
+  <li>If logins <strong>&lt; 5</strong> or the player has no timezone → <code>unknown</code>, exit.</li>
+  <li>Convert each <code>start_time</code> to the player's local time, keep only the hour (0–23).</li>
+  <li>Each login awards points to buckets:
+    <ul>
+      <li><strong>+1.0</strong> to its own bucket;</li>
+      <li><strong>+0.5</strong> to the previous bucket;</li>
+      <li><strong>+0.5</strong> to the next bucket.</li>
+    </ul>
+    Buckets wrap around: after <code>night</code> comes <code>late_night</code> again.
+  </li>
+  <li>Winner — the bucket with the highest total score. That is <code>active_player_period</code>.</li>
+  <li>If several buckets are tied — see the "Tie-break" section below.</li>
+  <li>Push the result to Customer.io via API.</li>
+</ol>
+
+<h2>Tie-break (when scores are equal)</h2>
+<ol>
+  <li><strong>Compare "raw" logins.</strong> The bucket with more actual logins (without neighbour bonuses) wins.</li>
+  <li><strong>If still tied — fixed period priority:</strong>
+    <ol>
+      <li><code>evening</code></li>
+      <li><code>night</code></li>
+      <li><code>afternoon</code></li>
+      <li><code>morning</code></li>
+      <li><code>early_morning</code></li>
+      <li><code>late_night</code></li>
+    </ol>
+    Rationale: evening/night is the peak casino traffic time — a safe default for messaging.
+  </li>
+  <li><strong>If still tied</strong> (very unlikely) → <code>unknown</code>.</li>
+</ol>
+
+<div class="note">
+<strong>Why "+0.5 to neighbours":</strong> a login at 15:55 formally falls into <code>afternoon</code>, but it's almost <code>evening</code>. Neighbours get half a point so bucket boundaries don't distort the result. If the player has one clear period — it still wins. If activity is spread between two adjacent periods — the closer one wins.
+</div>
+
+<div class="warn">
+<strong>Important:</strong> buckets are circular. The neighbour to the left of <code>late_night</code> is <code>night</code>; the neighbour to the right of <code>night</code> is <code>late_night</code>. Otherwise a player logging in at 23:00 and 01:00 will get garbage.
+</div>
+
+<h2>Hour → bucket mapping</h2>
+<pre>bucket_index = floor(hour / 4)
+0 → late_night
+1 → early_morning
+2 → morning
+3 → afternoon
+4 → evening
+5 → night</pre>
+
+<h2>Python</h2>
+<pre>BUCKETS = ['late_night', 'early_morning', 'morning',
+           'afternoon', 'evening', 'night']
+PRIORITY = ['evening', 'night', 'afternoon',
+            'morning', 'early_morning', 'late_night']
+
+def active_period(hours):
+    """hours — list of local hours of casino logins (0..23)."""
+    if len(hours) &lt; 5:
+        return 'unknown'
+
+    score = [0.0] * 6
+    raw = [0] * 6
+    for h in hours:
+        i = h // 4
+        raw[i] += 1
+        score[i] += 1.0
+        score[(i - 1) % 6] += 0.5
+        score[(i + 1) % 6] += 0.5
+
+    max_score = max(score)
+    candidates = [i for i, s in enumerate(score) if s == max_score]
+    if len(candidates) == 1:
+        return BUCKETS[candidates[0]]
+
+    # Tie-break 1: more raw logins
+    max_raw = max(raw[i] for i in candidates)
+    candidates = [i for i in candidates if raw[i] == max_raw]
+    if len(candidates) == 1:
+        return BUCKETS[candidates[0]]
+
+    # Tie-break 2: fixed priority
+    for name in PRIORITY:
+        if BUCKETS.index(name) in candidates:
+            return name
+
+    # Tie-break 3: very rare case
+    return 'unknown'
+
+# example: logins mostly in the evening
+print(active_period([16, 17, 18, 19, 20, 15, 19, 21]))  # evening</pre>
+
+<h2>SQL (PostgreSQL)</h2>
+<pre>WITH buckets AS (
+  SELECT
+    user_id,
+    FLOOR(EXTRACT(HOUR FROM start_time AT TIME ZONE user_tz) / 4)::INT AS b
+  FROM sessions
+  WHERE start_time &gt; NOW() - INTERVAL '30 days'
+),
+counts AS (
+  SELECT user_id, b, COUNT(*) AS c
+  FROM buckets
+  GROUP BY user_id, b
+),
+-- distribute points: +1 to own bucket, +0.5 to neighbours (circular)
+scored AS (
+  SELECT user_id, b AS bucket, c::FLOAT AS score FROM counts
+  UNION ALL
+  SELECT user_id, (b + 1) % 6, c * 0.5 FROM counts
+  UNION ALL
+  SELECT user_id, (b + 5) % 6, c * 0.5 FROM counts  -- (b - 1 + 6) mod 6
+),
+raw_counts AS (
+  SELECT user_id, b AS bucket, c AS raw FROM counts
+),
+totals AS (
+  SELECT
+    s.user_id,
+    s.bucket,
+    SUM(s.score) AS total,
+    COALESCE(MAX(r.raw), 0) AS raw,
+    ROW_NUMBER() OVER (
+      PARTITION BY s.user_id
+      ORDER BY
+        SUM(s.score) DESC,                    -- main score
+        COALESCE(MAX(r.raw), 0) DESC,         -- tie-break 1: raw logins
+        CASE s.bucket                         -- tie-break 2: priority
+          WHEN 4 THEN 1  -- evening
+          WHEN 5 THEN 2  -- night
+          WHEN 3 THEN 3  -- afternoon
+          WHEN 2 THEN 4  -- morning
+          WHEN 1 THEN 5  -- early_morning
+          WHEN 0 THEN 6  -- late_night
+        END
+    ) AS rn
+  FROM scored s
+  LEFT JOIN raw_counts r ON r.user_id = s.user_id AND r.bucket = s.bucket
+  GROUP BY s.user_id, s.bucket
+),
+qualified AS (
+  SELECT user_id FROM buckets GROUP BY user_id HAVING COUNT(*) &gt;= 5
+)
+SELECT
+  q.user_id,
+  CASE t.bucket
+    WHEN 0 THEN 'late_night'
+    WHEN 1 THEN 'early_morning'
+    WHEN 2 THEN 'morning'
+    WHEN 3 THEN 'afternoon'
+    WHEN 4 THEN 'evening'
+    WHEN 5 THEN 'night'
+  END AS active_player_period
+FROM qualified q
+JOIN totals t ON t.user_id = q.user_id AND t.rn = 1;</pre>
+
+<h2>Schedule</h2>
+<p>Batch job <strong>once a day at 03:00 UTC</strong>. Processes all players who had casino logins in the last 30 days, pushes the result to Customer.io via API.</p>
+
+<h2>Test cases</h2>
+<table>
+  <tr><th>Casino logins (local hour)</th><th>Expected result</th></tr>
+  <tr><td>17, 18, 19, 18, 17</td><td><code>evening</code></td></tr>
+  <tr><td>23, 0, 1, 23, 22</td><td><code>late_night</code> or <code>night</code> (neighbours; <strong>not</strong> <code>afternoon</code>)</td></tr>
+  <tr><td>15, 16, 15, 16, 15</td><td><code>afternoon</code> (15 more frequent than 16)</td></tr>
+  <tr><td>3 logins</td><td><code>unknown</code></td></tr>
+  <tr><td>No timezone</td><td><code>unknown</code></td></tr>
+  <tr><td>12, 12, 12, 12, 12</td><td><code>afternoon</code></td></tr>
+  <tr><td>10, 11, 18, 19, 18 (morning and evening tied on score)</td><td><code>evening</code> (tie-break: priority)</td></tr>
+  <tr><td>10, 10, 18, 19 + 10, 10 (4 in morning, 2 in evening, scores equal after neighbours)</td><td><code>morning</code> (tie-break 1: more raw)</td></tr>
+</table>
+
+</body>
+</html>
