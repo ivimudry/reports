@@ -23,7 +23,9 @@
 
 <h1>active_player_period — атрибут Customer.io</h1>
 
-<p><strong>Что это:</strong> период суток, когда игрок чаще всего заходит на сайт. Используется маркетингом для отправки рассылок в активное время игрока.</p>
+<p><strong>Что это:</strong> период суток, когда игрок чаще всего <strong>заходит в казино</strong> (логин на сайт казино). Используется маркетингом для отправки рассылок в активное время игрока.</p>
+
+<p><strong>Источник данных:</strong> логи входов игрока в казино (<code>session.start_time</code> или эквивалент — событие успешного логина). Длительность сессии, ставки, депозиты — <strong>не учитываем</strong>. Только сам факт входа.</p>
 
 <h2>Атрибут</h2>
 <table>
@@ -45,7 +47,7 @@
 
 <h2>Алгоритм</h2>
 <ol>
-  <li>Берём последние <strong>30 входов</strong> игрока на сайт (поле <code>session.start_time</code>, UTC).</li>
+  <li>Берём последние <strong>30 входов в казино</strong> (поле <code>session.start_time</code>, UTC).</li>
   <li>Если входов <strong>&lt; 5</strong> или у игрока нет таймзоны → <code>unknown</code>, выходим.</li>
   <li>Каждый <code>start_time</code> переводим в локальное время игрока, берём только час (0–23).</li>
   <li>Каждый вход даёт очки бакетам:
@@ -57,7 +59,25 @@
     Бакеты идут по кругу: после <code>night</code> снова <code>late_night</code>.
   </li>
   <li>Победитель — бакет с наибольшей суммой очков. Это и есть <code>active_player_period</code>.</li>
+  <li>Если несколько бакетов набрали поровну — см. раздел «Tie-break» ниже.</li>
   <li>Записать в Customer.io через API.</li>
+</ol>
+
+<h2>Tie-break (что делать при равенстве очков)</h2>
+<ol>
+  <li><strong>Сравнить «сырые» входы.</strong> Побеждает бакет, в который попало больше реальных логинов (без бонусов от соседей).</li>
+  <li><strong>Если снова равенство — фиксированный приоритет периодов:</strong>
+    <ol>
+      <li><code>evening</code></li>
+      <li><code>night</code></li>
+      <li><code>afternoon</code></li>
+      <li><code>morning</code></li>
+      <li><code>early_morning</code></li>
+      <li><code>late_night</code></li>
+    </ol>
+    Логика: вечер/ночь — пиковое время трафика в казино, безопасный дефолт для рассылки.
+  </li>
+  <li><strong>Если и тут равенство</strong> (крайне маловероятно) → <code>unknown</code>.</li>
 </ol>
 
 <div class="note">
@@ -80,17 +100,41 @@
 <h2>Python</h2>
 <pre>BUCKETS = ['late_night', 'early_morning', 'morning',
            'afternoon', 'evening', 'night']
+PRIORITY = ['evening', 'night', 'afternoon',
+            'morning', 'early_morning', 'late_night']
 
 def active_period(hours):
+    """hours — список локальных часов входов в казино (0..23)."""
     if len(hours) &lt; 5:
         return 'unknown'
+
     score = [0.0] * 6
+    raw = [0] * 6
     for h in hours:
         i = h // 4
+        raw[i] += 1
         score[i] += 1.0
         score[(i - 1) % 6] += 0.5
         score[(i + 1) % 6] += 0.5
-    return BUCKETS[score.index(max(score))]
+
+    max_score = max(score)
+    candidates = [i for i, s in enumerate(score) if s == max_score]
+    if len(candidates) == 1:
+        return BUCKETS[candidates[0]]
+
+    # Tie-break 1: больше «сырых» входов
+    max_raw = max(raw[i] for i in candidates)
+    candidates = [i for i in candidates if raw[i] == max_raw]
+    if len(candidates) == 1:
+        return BUCKETS[candidates[0]]
+
+    # Tie-break 2: фиксированный приоритет
+    for name in PRIORITY:
+        if BUCKETS.index(name) in candidates:
+            return name
+
+    # Tie-break 3: совсем редкий случай
+    return 'unknown'
 
 # пример: входы преимущественно вечером
 print(active_period([16, 17, 18, 19, 20, 15, 19, 21]))  # evening</pre>
@@ -116,11 +160,32 @@ scored AS (
   UNION ALL
   SELECT user_id, (b + 5) % 6, c * 0.5 FROM counts  -- (b - 1 + 6) mod 6
 ),
+raw_counts AS (
+  SELECT user_id, b AS bucket, c AS raw FROM counts
+),
 totals AS (
-  SELECT user_id, bucket, SUM(score) AS total,
-         ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY SUM(score) DESC) AS rn
-  FROM scored
-  GROUP BY user_id, bucket
+  SELECT
+    s.user_id,
+    s.bucket,
+    SUM(s.score) AS total,
+    COALESCE(MAX(r.raw), 0) AS raw,
+    ROW_NUMBER() OVER (
+      PARTITION BY s.user_id
+      ORDER BY
+        SUM(s.score) DESC,                    -- основной балл
+        COALESCE(MAX(r.raw), 0) DESC,         -- tie-break 1: сырые входы
+        CASE s.bucket                         -- tie-break 2: приоритет
+          WHEN 4 THEN 1  -- evening
+          WHEN 5 THEN 2  -- night
+          WHEN 3 THEN 3  -- afternoon
+          WHEN 2 THEN 4  -- morning
+          WHEN 1 THEN 5  -- early_morning
+          WHEN 0 THEN 6  -- late_night
+        END
+    ) AS rn
+  FROM scored s
+  LEFT JOIN raw_counts r ON r.user_id = s.user_id AND r.bucket = s.bucket
+  GROUP BY s.user_id, s.bucket
 ),
 qualified AS (
   SELECT user_id FROM buckets GROUP BY user_id HAVING COUNT(*) &gt;= 5
@@ -139,17 +204,19 @@ FROM qualified q
 JOIN totals t ON t.user_id = q.user_id AND t.rn = 1;</pre>
 
 <h2>Расписание</h2>
-<p>Батч-джоб <strong>раз в сутки в 03:00 UTC</strong>. Считает по всем активным игрокам, пушит результат в Customer.io через API.</p>
+<p>Батч-джоб <strong>раз в сутки в 03:00 UTC</strong>. Считает по всем игрокам, у которых были входы в казино за последние 30 дней, пушит результат в Customer.io через API.</p>
 
 <h2>Тест-кейсы</h2>
 <table>
-  <tr><th>Входы (локальный час)</th><th>Ожидаемый результат</th></tr>
+  <tr><th>Входы в казино (локальный час)</th><th>Ожидаемый результат</th></tr>
   <tr><td>17, 18, 19, 18, 17</td><td><code>evening</code></td></tr>
   <tr><td>23, 0, 1, 23, 22</td><td><code>late_night</code> или <code>night</code> (соседи; <strong>не</strong> <code>afternoon</code>)</td></tr>
   <tr><td>15, 16, 15, 16, 15</td><td><code>afternoon</code> (15 чаще, чем 16)</td></tr>
   <tr><td>3 входа</td><td><code>unknown</code></td></tr>
   <tr><td>Нет таймзоны</td><td><code>unknown</code></td></tr>
   <tr><td>12, 12, 12, 12, 12</td><td><code>afternoon</code></td></tr>
+  <tr><td>10, 11, 18, 19, 18 (равные баллы у morning и evening)</td><td><code>evening</code> (tie-break: приоритет)</td></tr>
+  <tr><td>10, 10, 18, 19 + 10, 10 (4 в morning, 2 в evening, баллы равны после соседей)</td><td><code>morning</code> (tie-break 1: больше сырых)</td></tr>
 </table>
 
 </body>
