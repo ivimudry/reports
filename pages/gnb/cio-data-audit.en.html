@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>CIO Data Audit (EN)</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+  body { font-family: Arial, sans-serif; max-width: 1100px; margin: 24px auto; padding: 0 16px; color: #222; }
+  h1 { border-bottom: 2px solid #333; padding-bottom: 6px; }
+  h2 { border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-top: 32px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #f0f0f0; }
+  code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.92em; }
+  pre { background: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
+  blockquote { border-left: 4px solid #ccc; margin: 12px 0; padding: 4px 12px; color: #555; }
+  hr { border: none; border-top: 1px solid #ccc; margin: 24px 0; }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">CIO Data Audit (EN)</h1>
+</header>
+<h1 id="chill4reel--cio-data-audit-en">Chill4Reel — CIO Data Audit
+(EN)</h1>
+<p><strong>Date:</strong> 2026-05-18 <strong>Sources:</strong></p>
+<ul>
+<li>Fresh API pull from CIO (App API, Bearer):
+<code>cio-snapshot-fresh/</code> — 24 campaigns + 37 segments, pulled
+2026-05-18.</li>
+<li>Data Index CSV export:
+<code>data_index_213330_attributes-2026-05-14.csv</code>,
+<code>…_events-2026-05-14.csv</code> (4 days old; CIO Data Index updates
+on each event/attribute ingestion — for a non-test workspace this is an
+accurate picture).</li>
+<li>Playbook proposals: <code>plan.txt</code> (Appendix A),
+<code>metadata-info.txt</code> (mapping “needed ⇄ available on
+platform”), <code>miro-structures.txt</code>.</li>
+<li>Current campaign spec: <code>cio-setup/</code> (00–95 +
+99-todo).</li>
+</ul>
+<p><strong>How to read the tables:</strong> the <strong>Status</strong>
+column is a traffic light:</p>
+<ul>
+<li>✅ <strong>Ready</strong> — exists in CIO today, usable as-is.</li>
+<li>⚠️ <strong>Replacement</strong> — playbook asked for one thing;
+CIO/backend already has something else that fully covers the case.
+Mapping + justification recorded.</li>
+<li>❌ <strong>Integrate</strong> — does not exist in either CIO or
+backend; must be created (backend / CIO segment / CIO promo code).</li>
+</ul>
+<hr />
+<h2 id="0-executive-summary">0. Executive summary</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th style="text-align: right;">✅ Ready</th>
+<th style="text-align: right;">⚠️ Replacement</th>
+<th style="text-align: right;">❌ Integrate</th>
+<th style="text-align: right;">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Events</strong></td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">28</td>
+</tr>
+<tr>
+<td><strong>Attributes</strong></td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">76</td>
+</tr>
+<tr>
+<td><strong>Segments</strong></td>
+<td style="text-align: right;">19 (of which 7 sample/test to be
+deleted)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">32</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key takeaways:</strong></p>
+<ol type="1">
+<li><p><strong>Transactional layer (payments / bonuses / account) is
+essentially complete.</strong> 14 of 19 base event-triggered CIO
+campaigns are already running (Confirm Email, Deposit
+Successful/Failed/Pending, Withdrawal *, KYC, Bonus, FS, Tournament).
+This covers all FTD tracking, KYC tracking, and the payment
+flow.</p></li>
+<li><p><strong>Backend already exposes most required attributes — just
+under different names.</strong> 14 “new attributes” from the playbook
+actually exist already (<code>deposit_made</code> →
+<code>payment_deposit_succeeded</code>, <code>bonus_abuse_flag</code> →
+segment <code>❗️Bonus Abuser Flag</code>, <code>vip_level</code> →
+<code>is_vip</code> + <code>player_loyalty_level</code>, etc.).</p></li>
+<li><p><strong>The real backend gap is 5 new events</strong>
+(<code>player_session_ended</code>, <code>player_big_win</code>,
+<code>player_balance_low</code>, <code>player_wagering_completed</code>,
+<code>payment_withdrawal_cancelled</code>) + 1 for Failed Deposit
+(<code>payment_deposit_failed</code> with <code>error_type</code>) + 1
+CIO-only event (<code>promo_code_redeemed</code>).</p></li>
+<li><p><strong>CIO-side work:</strong> ~13 new segments (suppression
+<code>❗️Dormant Archive</code>, lifecycle
+<code>Inactive 7/14/21/35d</code>, churn risk, birthday tiers, Pre-VIP,
+KYC stalled).</p></li>
+</ol>
+<hr />
+<h2 id="1-events">1. EVENTS</h2>
+<h3
+id="11-white_check_mark-ready-events-present-in-cio-data-index-backend-already-sending">1.1
+✅ Ready events (present in CIO Data Index, backend already
+sending)</h3>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th style="text-align: right;">People</th>
+<th style="text-align: right;">Campaigns sending it</th>
+<th>Payload (key fields)</th>
+<th>Used in (playbook)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>payment_deposit_succeeded</code></td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">7</td>
+<td><code>amount_base</code> (CAD), <code>deposits_count</code>
+(cumulative), <code>payment_method</code>, <code>currency</code>,
+<code>total_balance_base</code></td>
+<td>Welcome 2/3/4 trigger; 10.6/10.7/10.8 exit condition; conversion
+goal for all deposit-attached</td>
+</tr>
+<tr>
+<td><code>payment_deposit_created</code></td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">1</td>
+<td><code>amount_base</code>, <code>currency</code>,
+<code>payment_method</code></td>
+<td>Deposit Pending transactional</td>
+</tr>
+<tr>
+<td><code>payment_deposit_rejected</code></td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">1</td>
+<td><code>decline_reason_category</code>,
+<code>reason_code_description</code>, <code>reason_code_name</code>,
+<code>payment_method</code></td>
+<td>Deposit Failed transactional (template only)</td>
+</tr>
+<tr>
+<td><code>payment_withdrawal_created</code></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td><code>amount_base</code>, <code>payment_method</code>,
+<code>withdrawals_count</code></td>
+<td>Withdrawal Pending transactional</td>
+</tr>
+<tr>
+<td><code>payment_withdrawal_processing</code></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td>—</td>
+<td>(transactional, optional)</td>
+</tr>
+<tr>
+<td><code>payment_withdrawal_approved</code></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td><code>amount_base</code>, <code>withdrawals_count</code></td>
+<td>Withdrawal Confirmed transactional</td>
+</tr>
+<tr>
+<td><code>payment_withdrawal_rejected</code></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td><code>decline_reason</code>, <code>payment_method</code></td>
+<td>Withdrawal Rejected transactional</td>
+</tr>
+<tr>
+<td><code>player_email_confirm</code></td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">1</td>
+<td><code>email_confirmation_token</code></td>
+<td>KYC chain phase 1 trigger; Confirm Email transactional</td>
+</tr>
+<tr>
+<td><code>player_phone_approved</code></td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td><code>phone_confirmed_at</code>, <code>phone_verified</code></td>
+<td>KYC chain phase 2 trigger</td>
+</tr>
+<tr>
+<td><code>player_password_forgotten</code></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td><code>code</code> (reset token)</td>
+<td>Password Reset transactional</td>
+</tr>
+<tr>
+<td><code>player_password_changed</code></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td><code>{}</code></td>
+<td>(security audit, optional)</td>
+</tr>
+<tr>
+<td><code>player_bonus_created</code></td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">1</td>
+<td><code>bonus_id</code>, <code>bonus_name</code>,
+<code>bonus_amount_base</code>, <code>bonus_trigger</code>,
+<code>wager_casino</code>, <code>expires_at</code>,
+<code>bonuses_count</code></td>
+<td>Bonus Issued transactional; source of
+<code>bonuses_count</code></td>
+</tr>
+<tr>
+<td><code>player_bonus_expired</code></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">1</td>
+<td><code>bonus_id</code>, <code>bonus_name</code>,
+<code>bonus_amount_base</code>, <code>expires_at</code></td>
+<td><strong>10.5 Bonus Expired</strong> trigger; Bonus Expired
+transactional</td>
+</tr>
+<tr>
+<td><code>player_freespin_created</code></td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">1</td>
+<td><code>bonus_id</code>, <code>bonus_name</code>,
+<code>freespins_count</code>, <code>game_id</code>,
+<code>game_name</code>, <code>bet_amount</code>,
+<code>max_cashout</code>, <code>wager_casino</code></td>
+<td>Free Spins Awarded transactional</td>
+</tr>
+<tr>
+<td><code>player_freespin_expired</code></td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1</td>
+<td><code>bonus_id</code>, <code>bonus_name</code>,
+<code>freespins_count</code>, <code>game_id</code></td>
+<td>Free Spins Expired transactional</td>
+</tr>
+<tr>
+<td><code>player_autologin_token</code></td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">0</td>
+<td><code>autologin_token</code></td>
+<td>Magic link for all email CTAs</td>
+</tr>
+<tr>
+<td><code>tournament_win</code></td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td><code>tournament_place</code>, <code>tournament_prize</code>,
+<code>tournament_title</code></td>
+<td>Tournament Win transactional</td>
+</tr>
+</tbody>
+</table>
+<h3 id="12-warning-replacements-playbook-asked-x--we-already-have-y">1.2
+⚠️ Replacements (playbook asked X — we already have Y)</h3>
+<table>
+<thead>
+<tr>
+<th>Playbook event</th>
+<th>Replaced with</th>
+<th>Why it is valid</th>
+<th>Payload mapping (playbook → real)</th>
+<th>Campaigns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>first_deposit</code> (one-shot at FTD)</td>
+<td><code>payment_deposit_succeeded</code> + filter
+<code>deposits_count == 1</code></td>
+<td><code>deposits_count</code> in the payload is a cumulative counter
+from backend; filtering by <code>== 1</code> identifies the FTD without
+a separate event.</td>
+<td><code>first_deposit.amount</code> →
+<code>payment_deposit_succeeded.amount_base</code> (CAD), remaining
+fields identical.</td>
+<td>Welcome 2 trigger; FTD tagging</td>
+</tr>
+<tr>
+<td><code>deposit_made</code></td>
+<td><code>payment_deposit_succeeded</code></td>
+<td>Semantically the same event ("successful deposit"). The playbook
+just uses a generic name.</td>
+<td><code>deposit_made.amount</code> → <code>amount_base</code>;
+<code>deposit_made.payment_method</code> → <code>payment_method</code>;
+additionally we get <code>deposits_count</code>.</td>
+<td>Welcome 3/4 trigger; conversion goal in
+10.6/10.7/10.8/retention/churn/birthday</td>
+</tr>
+<tr>
+<td><code>deposit_canceled</code></td>
+<td><code>payment_deposit_rejected</code></td>
+<td>"Cancelled by gateway/limits" = "rejected" with payload reason.
+Turbo Stars has no separate "player-cancelled deposit".</td>
+<td><code>deposit_canceled.reason</code> →
+<code>decline_reason_category</code> +
+<code>reason_code_description</code>.</td>
+<td>Failed Deposit Recovery (trigger)</td>
+</tr>
+<tr>
+<td><code>bonus_expired</code></td>
+<td><code>player_bonus_expired</code></td>
+<td>Same event, different naming.</td>
+<td><code>bonus_expired.bonus_name</code> →
+<code>player_bonus_expired.bonus_name</code>; additionally
+<code>bonus_amount_base</code> (CAD).</td>
+<td>10.5 Bonus Expired</td>
+</tr>
+<tr>
+<td><code>inactivity_7d</code> / <code>_14d</code> / <code>_30d</code>
+(events)</td>
+<td>Segments on <code>last_login_at</code> (TBD attribute)</td>
+<td>Best practice: inactivity is not an event, it is a stateful
+condition. One daily cron recompute of <code>last_login_at</code> and
+all 4 inactivity segments work.</td>
+<td>Backend: daily cron writes <code>last_login_at</code>. CIO: 4
+segments on <code>last_login_at within range</code>.</td>
+<td>Retention T1–T4 (segment-trigger instead of event-trigger)</td>
+</tr>
+<tr>
+<td><code>session_started</code></td>
+<td><code>last_casino_spin_at</code> (attribute, updated on each
+spin)</td>
+<td>Sessions as a separate entity are not tracked at launch; this is in
+product backlog. The first-touch activity indicator is the first
+spin.</td>
+<td><code>session_started.time</code> →
+<code>last_casino_spin_at</code>.</td>
+<td>Welcome popup (via CIO in-app condition)</td>
+</tr>
+<tr>
+<td><code>product_inactive</code></td>
+<td><code>Inactive 7d</code> segment +
+<code>receive_emails == true</code> filter</td>
+<td>Playbook definition: "no product action but opens comms". This is
+just a segment condition.</td>
+<td>—</td>
+<td>High-value reactivation (built into Retention T1)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-x-integrate-must-be-built-on-backend-or-in-cio">1.3 ❌
+Integrate (must be built on backend or in CIO)</h3>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Owner</th>
+<th>Backend trigger</th>
+<th>Payload (recommended)</th>
+<th>Blocked campaigns</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>player_session_ended</code></td>
+<td><strong>Backend</strong> (Turbo Stars)</td>
+<td>End of game session (logout or 30-min idle timeout)</td>
+<td><code>session_id</code> (uuid), <code>session_duration_min</code>
+(int), <code>final_balance</code> (number, CAD),
+<code>weekly_active_days</code> (0–7, from cron),
+<code>games_played</code> (int), <code>spins_count</code> (int)</td>
+<td><strong>10.1</strong> Weekly Active, <strong>10.7</strong> Soft
+Restart</td>
+<td>P1 (blocks 6 lifecycle variants)</td>
+</tr>
+<tr>
+<td><code>player_big_win</code></td>
+<td><strong>Backend</strong></td>
+<td>Win ≥ X·bet OR ≥ Y CAD (threshold to confirm with product; default:
+win ≥ 50·bet OR win ≥ 200 CAD)</td>
+<td><code>game_id</code>, <code>game_name</code>,
+<code>bet_amount</code>, <code>win_amount</code>,
+<code>multiplier</code>, <code>currency</code></td>
+<td><strong>10.4</strong> Big Win</td>
+<td>P1</td>
+</tr>
+<tr>
+<td><code>player_balance_low</code></td>
+<td><strong>Backend</strong></td>
+<td>When <code>real_balance + bonus_balance &lt; 1 CAD</code> AND
+<code>last_casino_spin_at within 30 min</code> (during active
+session)</td>
+<td><code>current_balance</code>, <code>currency</code>,
+<code>last_session_ended_at</code></td>
+<td><strong>10.8</strong> Balance Low Top-Up (5 variants)</td>
+<td>P1</td>
+</tr>
+<tr>
+<td><code>player_wagering_completed</code></td>
+<td><strong>Backend</strong></td>
+<td>When bonus wager requirement is fully met and bonus funds are
+converted to real</td>
+<td><code>bonus_id</code>, <code>bonus_name</code>,
+<code>wager_amount_completed</code> (CAD), <code>cash_released</code>
+(CAD)</td>
+<td><strong>10.6</strong> Wagering Completed</td>
+<td>P2</td>
+</tr>
+<tr>
+<td><code>payment_withdrawal_cancelled</code></td>
+<td><strong>Backend</strong></td>
+<td>Player SELF-cancelled the withdrawal (via UI). NOT operator.</td>
+<td><code>amount_base</code>, <code>currency</code>,
+<code>payment_method</code>, <code>withdrawal_id</code>,
+<code>cancelled_by: "player"</code></td>
+<td><strong>10.3</strong> Withdrawal Cancelled (catch the moment)</td>
+<td>P1</td>
+</tr>
+<tr>
+<td><code>payment_deposit_failed</code> (with deterministic
+<code>error_type</code>)</td>
+<td><strong>Backend</strong></td>
+<td>Any deposit failure with a normalized reason</td>
+<td><code>amount_base</code>, <code>currency</code>,
+<code>payment_method</code>, <code>error_type</code> (enum:
+<code>insufficient_funds</code> / <code>card_invalid</code> /
+<code>gateway_error</code> / <code>acquirer_declined</code> /
+<code>limit_reached</code>), <code>error_message</code> (raw)</td>
+<td><strong>30</strong> Failed Deposit (Liquid switch on 5
+error_types)</td>
+<td>P1</td>
+</tr>
+<tr>
+<td><code>promo_code_redeemed</code> ⭐</td>
+<td><strong>CIO Send Event</strong> (from campaigns, for analytics)
+AND/OR <strong>Backend</strong> (when player actually redeems)</td>
+<td>Player entered the code at cashier and bonus was credited</td>
+<td><code>code</code> (string, e.g. <code>"WEEKLY30"</code>),
+<code>redeemed_at</code> (timestamp), <code>bonus_amount_base?</code>,
+<code>bonus_type?</code></td>
+<td><strong>Conversion goal for all 30+ ND campaigns</strong>
+(10.1–10.4, retention ND, churn ND, birthday ND, KYC, VIP ND)</td>
+<td>P1 (without this we cannot measure conversion)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong><code>wheel_spins</code></strong> — DEPRECATED. Still present
+in the fresh pull (5 historical people) but <strong>no new campaign
+requires it</strong>. Wheel of Fortune is fully removed from the
+playbook. Backend can <strong>stop sending it</strong>.</p>
+</blockquote>
+<hr />
+<h2 id="2-attributes">2. ATTRIBUTES</h2>
+<h3
+id="21-white_check_mark-ready-attributes-present-in-data-index-populated-by-backend">2.1
+✅ Ready attributes (present in Data Index, populated by backend)</h3>
+<p>Grouped by function; full list below.</p>
+<p><strong>Identity / contact (14):</strong> <code>id</code>,
+<code>cio_id</code>, <code>email</code>, <code>phone</code>,
+<code>first_name</code>, <code>last_name</code>, <code>nickname</code>,
+<code>birthdate</code>, <code>gender</code>, <code>country</code>,
+<code>last_login_country</code>, <code>locale</code>,
+<code>address</code>, <code>postalCode</code>, <code>region</code>,
+<code>timezone_valid</code>.</p>
+<p><strong>Verification / status (10):</strong> <code>verified</code>
+(master KYC), <code>kycaid_verified</code>,
+<code>sumsub_verified</code>, <code>operator_verified</code>,
+<code>confirmed_at</code> (email),
+<code>email_confirmation_token</code>, <code>phone_confirmed_at</code>,
+<code>phone_verified</code>, <code>profile_status</code> (0/2/3),
+<code>blocked</code>, <code>is_duplicated</code>,
+<code>is_test</code>.</p>
+<p><strong>Consents (3):</strong> <code>receive_emails</code>,
+<code>receive_sms</code>, <code>autologin_token</code>,
+<code>auto_issue_bonuses</code>.</p>
+<p><strong>Money / balances (8):</strong> <code>active_currency</code>,
+<code>real_balance</code>, <code>real_balance_base</code>,
+<code>bonus_balance</code>, <code>bonus_balance_base</code>,
+<code>locked_balance</code>, <code>locked_balance_base</code>.</p>
+<p><strong>Lifetime metrics (8):</strong> <code>ggr_base</code>,
+<code>ggr_casino</code>, <code>ggr_betting</code>, <code>ngr</code>,
+<code>rtp</code>, <code>total_cashback</code>,
+<code>casino_spins_count</code>, <code>betting_bets_count</code>,
+<code>referrals_count</code>.</p>
+<p><strong>Loyalty / VIP (5):</strong> <code>player_loyalty_level</code>
+(1–10), <code>is_vip</code>, <code>player_comp_points</code>,
+<code>player_limit</code>.</p>
+<p><strong>Activity timestamps (4):</strong>
+<code>last_deposit_date</code>, <code>last_casino_spin_at</code>,
+<code>created_at</code>, <code>updated_at</code>.</p>
+<p><strong>Misc (3):</strong> <code>affiliate_tag</code>,
+<code>is_pwa_installed</code>, <code>segments</code> (JSON array, used
+to detect Bonus Abuser).</p>
+<p>→ Total: <strong>40 ready attributes</strong>. None require any
+action from backend or from us.</p>
+<h3 id="22-warning-replacements-playbook-asked-x--we-already-have-y">2.2
+⚠️ Replacements (playbook asked X — we already have Y)</h3>
+<table>
+<thead>
+<tr>
+<th>Playbook attribute</th>
+<th>Replaced with</th>
+<th>Why it is valid</th>
+<th>Campaigns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>active_bonus</code> (boolean)</td>
+<td><code>bonus_balance &gt; 0</code> (inline filter) OR derived segment
+<code>❗️ Has Active Bonus</code></td>
+<td>The real state "has an active bonus" always equals "bonus_balance is
+non-zero". A separate boolean from backend would duplicate it.</td>
+<td>Suppression in all promo campaigns</td>
+</tr>
+<tr>
+<td><code>current_balance</code></td>
+<td><code>real_balance_base</code> (CAD, real-time via webhook)</td>
+<td>Backend updates <code>real_balance_base</code> instantly on every
+balance change. <code>_base</code> suffix guarantees CAD.</td>
+<td>10.8 condition; balance-based personalization</td>
+</tr>
+<tr>
+<td><code>days_since_last_deposit</code></td>
+<td>derived from <code>last_deposit_date</code> via Liquid
+(<code>{{ now - last_deposit_date }}</code>) OR segment ranges</td>
+<td>CIO has native relative-time support in segment conditions
+(<code>last_deposit_date within last X days</code>). A separate counter
+is redundant.</td>
+<td>Retention tiers, churn assignment</td>
+</tr>
+<tr>
+<td><code>days_since_last_bet</code></td>
+<td>derived from <code>last_casino_spin_at</code></td>
+<td>Same as <code>days_since_last_deposit</code>.</td>
+<td>Churn detection (via <code>Inactive Nd</code> segments)</td>
+</tr>
+<tr>
+<td><code>bonus_abuse_flag</code></td>
+<td>Segment <code>❗️Bonus Abuser Flag</code> (id 56) —
+<code>segments contains UUID f3f3954b-372f-4f68-bcd7-bec011a18299</code></td>
+<td>Anti-fraud flags a user by adding them to a CIO segment via the
+<code>segments</code> attribute. Already working and used in Welcome
+1.</td>
+<td>Global suppression</td>
+</tr>
+<tr>
+<td><code>preferred_payment_method</code></td>
+<td><code>payment_method</code> from
+<code>payment_deposit_succeeded</code> payload (take the last one)</td>
+<td>Each <code>payment_deposit_succeeded</code> contains
+<code>payment_method</code>. In CIO you can reach the last event via
+Liquid:
+<code>{{ customer.last_event('payment_deposit_succeeded').payment_method }}</code>.</td>
+<td>Failed Deposit Recovery (showing the correct instruction)</td>
+</tr>
+<tr>
+<td><code>vip_level</code></td>
+<td><code>is_vip</code> (boolean) + <code>player_loyalty_level</code>
+(1–10)</td>
+<td>Playbook asked for an enum bronze/silver/gold/platinum/diamond/elite
+— we have 10 loyalty levels (1–10) + <code>is_vip</code> flag. Mapping
+after rebase: <strong>Bronze=L2, Silver=L3, Gold=L4, Platinum=L5, VIP
+threshold=L6+</strong> (aligned via
+<code>важливі зміни.txt</code>).</td>
+<td>Birthday tiers, VIP unlock</td>
+</tr>
+<tr>
+<td><code>churn_risk_score</code></td>
+<td>Already exists — <code>churn_risk_score</code> (from BO)</td>
+<td>Confirmed in <code>metadata-info.txt</code>: "exists (via BO)". Not
+visible in the freshness CSV yet (TBD: confirm with backend that the
+field is actually populated).</td>
+<td>7.4 Churn (personalized)</td>
+</tr>
+<tr>
+<td><code>last_game_date</code></td>
+<td><code>last_casino_spin_at</code></td>
+<td>Same timestamp, different name.</td>
+<td>Reactivation personalization</td>
+</tr>
+<tr>
+<td><code>bonus_conversion_rate</code></td>
+<td>derived from count of <code>player_bonus_created</code> vs
+<code>player_bonus_expired</code> events</td>
+<td>CIO Liquid can compute:
+<code>100 * (bonuses_count - expired_count) / bonuses_count</code>. No
+separate attribute needed.</td>
+<td>Player quality assessment</td>
+</tr>
+<tr>
+<td><code>deposit_count_3D</code> / <code>last_30d</code> /
+<code>last_60d</code></td>
+<td>TBD segments on
+<code>payment_deposit_succeeded count within X days</code></td>
+<td>CIO has native count aggregation in segment conditions. Separate
+attributes are redundant unless required in Liquid.</td>
+<td>7.1 Churn (Deposit Drop)</td>
+</tr>
+<tr>
+<td><code>freespins_issued_total</code></td>
+<td>derived from count of <code>player_freespin_created</code>
+events</td>
+<td>Same as with bonuses.</td>
+<td>FS fatigue tracking</td>
+</tr>
+<tr>
+<td><code>total_bonus_count</code></td>
+<td><code>bonuses_count</code> from <code>player_bonus_created</code>
+payload</td>
+<td>Directly in payload, cumulative.</td>
+<td>Bonus hunter detection</td>
+</tr>
+<tr>
+<td><code>last_bonus_type</code> / <code>last_bonus_name</code></td>
+<td><code>bonus_name</code> from last <code>player_bonus_created</code>
+event (Liquid)</td>
+<td>Available via <code>customer.last_event(...)</code>.</td>
+<td>Offer personalization</td>
+</tr>
+</tbody>
+</table>
+<h3 id="23-x-integrate-must-be-created">2.3 ❌ Integrate (must be
+created)</h3>
+<p><strong>Split into 3 groups by creation path.</strong></p>
+<h4 id="23a--backend-must-write-update-person-api-or-daily-cron">2.3.A —
+Backend must write (Update Person API or daily cron)</h4>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Owner</th>
+<th>How it is computed</th>
+<th>Campaigns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>last_login_at</code></td>
+<td>timestamp</td>
+<td>Backend (on-login webhook)</td>
+<td>moment of each login</td>
+<td><strong>10.2, Retention T1–T4, Pre-VIP, KYC stalled</strong></td>
+</tr>
+<tr>
+<td><code>last_session_ended_at</code></td>
+<td>timestamp</td>
+<td>Backend (on session end)</td>
+<td>together with <code>player_session_ended</code></td>
+<td>(reserve; 10.8 condition)</td>
+</tr>
+<tr>
+<td><code>weekly_active_days</code></td>
+<td>int (0–7)</td>
+<td>Backend (daily cron)</td>
+<td>unique-days of activity in last 7 days</td>
+<td><strong>10.1</strong> trigger filter (≥3 days)</td>
+</tr>
+<tr>
+<td><code>login_days_last_7</code></td>
+<td>int (0–7)</td>
+<td>Backend (daily cron)</td>
+<td>unique-days of login in last 7 days</td>
+<td>(reserve)</td>
+</tr>
+<tr>
+<td><code>churn_risk_score</code></td>
+<td>enum (LOW/MEDIUM/HIGH)</td>
+<td>Backend (ML/scoring cron)</td>
+<td>predictive score (model or rules)</td>
+<td><strong>7.4</strong> Churn HIGH risk</td>
+</tr>
+<tr>
+<td><code>churn_risk_deposit_drop</code></td>
+<td>boolean</td>
+<td>Backend (cron)</td>
+<td><code>deposits_last_30d &lt; 0.7 * deposits_30-60d_ago</code></td>
+<td><strong>7.1</strong> Churn Deposit Drop</td>
+</tr>
+<tr>
+<td><code>churn_risk_session_drop</code></td>
+<td>boolean</td>
+<td>Backend (cron)</td>
+<td><code>avg_session_30d &lt; 0.7 * avg_session_30-60d</code></td>
+<td><strong>7.2</strong> Churn Session Drop</td>
+</tr>
+<tr>
+<td><code>preferred_offer_type</code></td>
+<td>enum (reload/free_spins/extra_fs/cashback)</td>
+<td>Backend (ML on history)</td>
+<td>which offer type historically converts best</td>
+<td><strong>7.4</strong> Liquid switch</td>
+</tr>
+<tr>
+<td><code>favorite_slot</code></td>
+<td>string (slot slug)</td>
+<td>Backend (most-played last 30d)</td>
+<td>most-played slot</td>
+<td><strong>9</strong> Pre-VIP, <strong>7.4</strong> Personalized</td>
+</tr>
+<tr>
+<td><code>assigned_pm_name</code></td>
+<td>string</td>
+<td>Backend (round-robin at VIP/Pre-VIP)</td>
+<td>personal manager name</td>
+<td><strong>9, 12, T2 Retention</strong></td>
+</tr>
+<tr>
+<td><code>deposits_count_last_30d</code></td>
+<td>int</td>
+<td>Backend (cron)</td>
+<td>(optional, if <code>churn_risk_deposit_drop</code> is not
+enough)</td>
+<td>7.1</td>
+</tr>
+<tr>
+<td><code>deposits_count_last_60d</code></td>
+<td>int</td>
+<td>Backend (cron)</td>
+<td>(optional)</td>
+<td>7.1</td>
+</tr>
+<tr>
+<td><code>avg_session_duration_min_last_30d</code></td>
+<td>int</td>
+<td>Backend (cron)</td>
+<td>average session duration</td>
+<td>7.2</td>
+</tr>
+<tr>
+<td><code>avg_session_duration_min_last_60d</code></td>
+<td>int</td>
+<td>Backend (cron)</td>
+<td>for compare</td>
+<td>7.2</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>💡 <strong>Simplification:</strong> instead of 4 numeric attributes
+(<code>deposits_count_last_30d/60d</code>,
+<code>avg_session_duration_30d/60d</code>) two booleans suffice:
+<code>churn_risk_deposit_drop</code>,
+<code>churn_risk_session_drop</code>. Backend cron does the compare and
+writes true/false. CIO segment conditions become much simpler.</p>
+</blockquote>
+<h4
+id="23b--cio-will-create-automatically-via-update-person-block-inside-campaigns">2.3.B
+— CIO will create automatically (via Update Person block inside
+campaigns)</h4>
+<p>No backend work required. Created on the first write from CIO.</p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Created in</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>no_ftd</code></td>
+<td>boolean</td>
+<td>Welcome 1 (FALSE branch after 14 days)</td>
+<td>did not make FTD throughout Welcome 1</td>
+</tr>
+<tr>
+<td><code>first_deposit_only</code></td>
+<td>boolean</td>
+<td>Welcome 2 (FALSE branch)</td>
+<td>stalled at 1 deposit</td>
+</tr>
+<tr>
+<td><code>welcome_incomplete</code></td>
+<td>boolean</td>
+<td>Welcome 3 / 4 (FALSE branches)</td>
+<td>did not complete funnel</td>
+</tr>
+<tr>
+<td><code>welcome_complete</code></td>
+<td>boolean</td>
+<td>Welcome 4 (TRUE branch)</td>
+<td>completed all 4 deposits</td>
+</tr>
+<tr>
+<td><code>payment_blocked</code></td>
+<td>boolean</td>
+<td>Failed Deposit (T/F branch)</td>
+<td>blocks further deposit attempts (suppression)</td>
+</tr>
+<tr>
+<td><code>dormant_archive</code></td>
+<td>boolean</td>
+<td>Retention T4 (FALSE final)</td>
+<td>archive after 35d+21d, global suppression</td>
+</tr>
+<tr>
+<td><code>cashback_enabled</code></td>
+<td>boolean</td>
+<td>9 Pre-VIP (Update Person)</td>
+<td>turns on weekly cashback on backend</td>
+</tr>
+<tr>
+<td><code>cashback_rate</code></td>
+<td>int (%)</td>
+<td>9 Pre-VIP</td>
+<td>weekly cashback %</td>
+</tr>
+<tr>
+<td><code>cashback_until</code></td>
+<td>timestamp</td>
+<td>9 Pre-VIP</td>
+<td>until when cashback is active</td>
+</tr>
+<tr>
+<td><code>pre_vip_extended</code></td>
+<td>boolean</td>
+<td>9 Pre-VIP</td>
+<td>extended observation</td>
+</tr>
+<tr>
+<td><code>vip_flagged_at</code></td>
+<td>timestamp</td>
+<td>12 VIP</td>
+<td>moment of VIP unlock</td>
+</tr>
+<tr>
+<td><code>birthday_pm_notified_at</code></td>
+<td>timestamp</td>
+<td>8.4 Birthday Platinum</td>
+<td>back-office trigger</td>
+</tr>
+</tbody>
+</table>
+<h4 id="23c--optional-nice-to-have-priority-3">2.3.C — Optional
+(Nice-to-Have, Priority 3)</h4>
+<p>Not required for launch. Add when demand arises.</p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>What it provides</th>
+<th>Campaigns</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>has_app</code> (PWA push targeting)</td>
+<td>we already have <code>is_pwa_installed</code> → <strong>use it
+instead of a separate attribute</strong></td>
+<td>Push targeting</td>
+</tr>
+<tr>
+<td><code>deposit_type_last_3_months</code> (crypto/fiat)</td>
+<td>Cohort analysis</td>
+<td>(no current campaigns)</td>
+</tr>
+<tr>
+<td><code>average_bet_percent_of_last_deposit</code></td>
+<td>Aggression scoring</td>
+<td>(no campaigns)</td>
+</tr>
+<tr>
+<td><code>playing_time_segment</code>
+(morning/daytime/evening/night)</td>
+<td>Send time optimization</td>
+<td>(CIO has native "best time to send")</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-segments">3. SEGMENTS</h2>
+<h3 id="31-white_check_mark-ready-segments-in-cio-as-of-2026-05-18">3.1
+✅ Ready segments in CIO (as of 2026-05-18)</h3>
+<p><strong>Sample/Test (delete before launch):</strong>
+<code>1 All Users</code>, <code>2 Have not logged in recently</code>,
+<code>3 Paying Customers</code>, <code>4 Free Customers</code>,
+<code>5 Unsubscribed</code>, <code>8 Have a Mobile Device</code>,
+<code>9 Doesn't have a Mobile Device</code>, <code>15 test</code>,
+<code>16 TEST</code>, <code>17 TEST WEBHOOK</code>,
+<code>20 test3</code>.</p>
+<p><strong>Email validity:</strong> | ID | Name | Condition | Use |
+|---|---|---|---| | 6 | Valid Email Address | RFC 5322 valid | Filter in
+Welcome + Behavioral Eligible | | 7 | Invalid Email Address | RFC 5322
+invalid | (inverse) |</p>
+<p><strong>Loyalty levels:</strong> | ID | Name | Condition |
+|---|---|---| | 22–31 | Level 1 … Level 10 |
+<code>player_loyalty_level == N</code> |</p>
+<p><strong>Lifecycle audiences:</strong> | ID | Name | Condition |
+Campaigns | |---|---|---|---| | 33 | NDC (New Depositing Customer) |
+(TBD definition) | (optional) | | 34 | FTD-Only: 1 deposit, no 2nd, ≥48h
+since FTD |
+<code>deposits_count == 1 AND now - last_deposit_date ≥ 48h</code> |
+<strong>10.7-FTD, 10.8-FTD</strong> | | 36 | Active Regular: 4+
+deposits, last bet ≤7d |
+<code>deposits_count ≥ 4 AND last_casino_spin_at within 7d</code> |
+<strong>10.7-AR, 10.8-AR</strong> | | 37 | Churning: deposit/bet 14–30d
+ago | | (reserve 7.1) | | 38 | Churned: no activity 30–90d | | (reserve
+reactivation) | | 39 | VIP | <code>is_vip == true</code> |
+<strong>10.7-VIP, 10.8-VIP, 12</strong> | | 50 | Welcome In-Progress:
+2-3 deposits | <code>deposits_count IN (2, 3)</code> | <strong>10.7-IP,
+10.8-IP</strong> |</p>
+<p><strong>Suppression (❗️):</strong> | ID | Name | Condition |
+|---|---|---| | 40 | ❗️ Self-Excluded | <code>profile_status == 3</code>
+| | 44 | ❗️ Cool-Off | <code>profile_status == 2</code> | | 45 | ❗️ CASL
+Non-Consented | <code>receive_emails == false</code> | | 56 | ❗️ Bonus
+Abuser Flag | <code>segments contains f3f3954b-...</code> |</p>
+<p><strong>Welcome triggers:</strong> | ID | Name | Condition |
+|---|---|---| | 61 | Welcome 1 - Start |
+<code>payment_deposit_succeeded has not been performed = true AND cio_id exists</code>
+|</p>
+<p><strong>Behavioral (recently created, captured by the pull):</strong>
+| ID | Name | Condition | Campaigns | |---|---|---|---| | 69 |
+<strong>Behavioral Eligible</strong> | composite AND (Valid Email + NOT
+suppressed + bonus_balance == 0 + verified == true) | <strong>Filter for
+all 10.1–10.8</strong> | | 70 | <strong>5 Days Logged-In Without
+Deposit</strong> |
+<code>login_days_last_7 ≥ 5 AND no payment_deposit_succeeded since registration</code>
+| <strong>10.2 trigger</strong> |</p>
+<p>→ Total: <strong>19 production-ready segments</strong> (excluding
+sample/test).</p>
+<h3 id="32-warning-replacements">3.2 ⚠️ Replacements</h3>
+<p>No replacements. All existing segments are used as-is; everything
+missing must be created from scratch (next section).</p>
+<h3 id="33-x-integrate-create-in-cio">3.3 ❌ Integrate (create in
+CIO)</h3>
+<table>
+<thead>
+<tr>
+<th>Segment</th>
+<th>Type</th>
+<th>Conditions</th>
+<th>Campaigns</th>
+<th>Depends on (TBD attribute)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>❗️ Dormant Archive</strong></td>
+<td>dynamic</td>
+<td><code>dormant_archive == true</code></td>
+<td>Global suppression (add to <code>Behavioral Eligible</code>)</td>
+<td><code>dormant_archive</code> (CIO-created via Retention T4)</td>
+</tr>
+<tr>
+<td><strong>❗️ Has Active Bonus</strong></td>
+<td>dynamic</td>
+<td><code>bonus_balance &gt; 0</code></td>
+<td>Helper (optional, otherwise inline filter)</td>
+<td>— (attribute ready)</td>
+</tr>
+<tr>
+<td><strong>Inactive 7d</strong></td>
+<td>dynamic</td>
+<td><code>last_login_at within 7-14 days ago AND bonus_balance == 0</code></td>
+<td><strong>Retention T1</strong></td>
+<td><code>last_login_at</code> (backend)</td>
+</tr>
+<tr>
+<td><strong>Inactive 14d</strong></td>
+<td>dynamic</td>
+<td><code>last_login_at within 14-21 days ago</code></td>
+<td><strong>Retention T2</strong></td>
+<td><code>last_login_at</code></td>
+</tr>
+<tr>
+<td><strong>Inactive 21d</strong></td>
+<td>dynamic</td>
+<td><code>last_login_at within 21-35 days ago</code></td>
+<td><strong>Retention T3</strong></td>
+<td><code>last_login_at</code></td>
+</tr>
+<tr>
+<td><strong>Inactive 35d</strong></td>
+<td>dynamic</td>
+<td><code>last_login_at ≥ 35 days ago AND NOT dormant_archive</code></td>
+<td><strong>Retention T4</strong></td>
+<td><code>last_login_at</code>, <code>dormant_archive</code></td>
+</tr>
+<tr>
+<td><strong>❗️ Multiple Deposit Failures 7d</strong></td>
+<td>dynamic</td>
+<td><code>count(payment_deposit_failed) ≥ 2 within last 7d</code></td>
+<td><strong>30</strong> Failed Deposit (rate-limit)</td>
+<td><code>payment_deposit_failed</code> event</td>
+</tr>
+<tr>
+<td><strong>Churn Risk: Deposit Drop</strong></td>
+<td>dynamic</td>
+<td><code>churn_risk_deposit_drop == true</code></td>
+<td><strong>7.1</strong></td>
+<td><code>churn_risk_deposit_drop</code> (backend)</td>
+</tr>
+<tr>
+<td><strong>Churn Risk: Session Drop</strong></td>
+<td>dynamic</td>
+<td><code>churn_risk_session_drop == true</code></td>
+<td><strong>7.2</strong></td>
+<td><code>churn_risk_session_drop</code> (backend)</td>
+</tr>
+<tr>
+<td><strong>Churn Risk: HIGH</strong></td>
+<td>dynamic</td>
+<td><code>churn_risk_score == HIGH</code></td>
+<td><strong>7.4</strong></td>
+<td><code>churn_risk_score</code> (backend)</td>
+</tr>
+<tr>
+<td><strong>KYC Stalled 7d</strong></td>
+<td>dynamic</td>
+<td><code>verified == false AND created_at within 7-30 days ago</code></td>
+<td><strong>7.5</strong></td>
+<td>— (attributes ready)</td>
+</tr>
+<tr>
+<td><strong>Birthday Today + Bronze</strong></td>
+<td>dynamic</td>
+<td><code>birthdate matches today AND player_loyalty_level == 2</code></td>
+<td><strong>8.1</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Birthday Today + Silver</strong></td>
+<td>dynamic</td>
+<td><code>… AND player_loyalty_level == 3</code></td>
+<td><strong>8.2</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Birthday Today + Gold</strong></td>
+<td>dynamic</td>
+<td><code>… AND player_loyalty_level == 4</code></td>
+<td><strong>8.3</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Birthday Today + Platinum+</strong></td>
+<td>dynamic</td>
+<td><code>… AND player_loyalty_level ≥ 5</code></td>
+<td><strong>8.4</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Pre-VIP Eligible</strong></td>
+<td>dynamic</td>
+<td><code>ggr_base ≥ 1000 AND last_casino_spin_at within 14d AND player_loyalty_level &lt; 6</code></td>
+<td><strong>9</strong> Pre-VIP</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>VIP Active</strong></td>
+<td>dynamic</td>
+<td><code>player_loyalty_level ≥ 6</code> (align after rebase)</td>
+<td><strong>12</strong> VIP</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional (analytics, non-blocking):</strong> | Segment |
+Conditions | |---|---| | Welcome 1 - Complete (no_ftd) |
+<code>no_ftd == true</code> | | Welcome 2 - Complete (FTD-Only) |
+<code>first_deposit_only == true</code> | | Welcome 3/4 - Incomplete |
+<code>welcome_incomplete == true</code> | | Welcome - Complete |
+<code>welcome_complete == true</code> |</p>
+<p>→ Total: <strong>13 required segments + 4 analytical</strong>.</p>
+<hr />
+<h2 id="4-action-plan-recommended-sequence">4. ACTION PLAN (recommended
+sequence)</h2>
+<h3 id="sprint-1--unblock-p1">Sprint 1 — Unblock P1</h3>
+<ol type="1">
+<li><strong>Backend:</strong> implement <code>last_login_at</code> +
+daily cron <code>weekly_active_days</code>.</li>
+<li><strong>Backend:</strong> <code>payment_deposit_failed</code> with
+<code>error_type</code> enum.</li>
+<li><strong>CIO:</strong> create segments
+<code>Inactive 7d / 14d / 21d / 35d</code>,
+<code>❗️ Multiple Deposit Failures 7d</code>.</li>
+<li><strong>CIO:</strong> add
+<code>NOT in segment ❗️ Dormant Archive</code> to
+<code>Behavioral Eligible</code>.</li>
+</ol>
+<h3 id="sprint-2--behavioral-events">Sprint 2 — Behavioral events</h3>
+<ol start="5" type="1">
+<li><strong>Backend:</strong> <code>player_session_ended</code>,
+<code>player_big_win</code>, <code>player_balance_low</code>,
+<code>payment_withdrawal_cancelled</code>.</li>
+<li><strong>Backend:</strong> listener for
+<code>promo_code_redeemed</code> (event itself will be emitted from CIO
+campaigns).</li>
+</ol>
+<h3 id="sprint-3--churn--retention-attributes">Sprint 3 — Churn /
+Retention attributes</h3>
+<ol start="7" type="1">
+<li><strong>Backend:</strong> <code>churn_risk_deposit_drop</code>,
+<code>churn_risk_session_drop</code>, <code>churn_risk_score</code>
+(cron).</li>
+<li><strong>Backend:</strong>
+<code>player_wagering_completed</code>.</li>
+<li><strong>CIO:</strong> Birthday segments (4), Pre-VIP / VIP / KYC
+Stalled segments.</li>
+</ol>
+<h3 id="sprint-4--pre-vip--vip-attributes">Sprint 4 — Pre-VIP / VIP
+attributes</h3>
+<ol start="10" type="1">
+<li><strong>Backend:</strong> <code>assigned_pm_name</code>,
+<code>favorite_slot</code>, <code>preferred_offer_type</code> (if needed
+for personalization).</li>
+</ol>
+<h3 id="ongoing">Ongoing</h3>
+<ul>
+<li>Delete sample/test segments
+(<code>1, 2, 3, 4, 5, 8, 9, 15, 16, 17, 20</code>) before launch.</li>
+<li>Backend can stop sending <code>wheel_spins</code>.</li>
+</ul>
+<hr />
+<p><strong>End of audit.</strong> Document synchronized with API pull
+from 2026-05-18.</p>
+</body>
+</html>
