@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $root = 'c:\Projects\CLIENTS\CHEEL4REEL'
 
 # ---------- universal pool replacement (all 20 files) ----------
