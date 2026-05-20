@@ -1,0 +1,128 @@
+﻿SHEETS: ['Welcome Pack', 'Weekly Bonuses', 'Bonus Mechanics', 'CA Benchmarks']
+
+========== SHEET: Welcome Pack (maxcol=11, maxrow=8) ==========
+R1: RECOMMENDED WELCOME PACK: chill4reel.com (CA) |  |  |  |  |  |  |  |  |  | 
+R3: Step | Min Deposit | Deposit Bonus | Max Win from Cash | Free Spins | Max Win from FS | Game | Wager | Max Bet | Activation Duration | Wagering Duration
+R4: Deposit 1 | 20 CAD | 100% (Max 500 CAD) | 2500 CAD | 100 FS (50+50 over 2 days) | 250 CAD | TBD popular slot | x35 | 5 CAD | 7 days FS / Cash | 7 days FS / Cash
+R5: Deposit 2 | 20 CAD | 75% (Max 600 CAD) | 2500 CAD | 50 FS | 150 CAD | TBD popular slot | x35 | 5 CAD | 7 days | 7 days
+R6: Deposit 3 | 30 CAD | 100% (Max 800 CAD) | 3000 CAD | 75 FS | 200 CAD | TBD popular slot | x35 | 5 CAD | 7 days | 7 days
+R7: Deposit 4 | 30 CAD | 125% (Max 1200 CAD) | 4000 CAD | 75 FS | 200 CAD | TBD popular slot | x35 | 5 CAD | 7 days | 7 days
+R8: TOTAL |  | Up to 3,100 CAD bonus |  | 300 FS total |  |  |  |  |  | 
+
+========== SHEET: Weekly Bonuses (maxcol=8, maxrow=32) ==========
+R1: RECOMMENDED WEEKLY BONUS CALENDAR: chill4reel.com (CA) |  |  |  |  |  |  | 
+R3: Day | Promo Name | Mechanic / Trigger | Min Deposit | Reward | Wager | Max Win | Notes
+R4: Monday | Monday Free Spins | Deposit & opt-in | 15 CAD | 50 FS @ 0.20 CAD | x35 | 100 CAD | Soft start to the week, low friction
+R5: Tuesday | New Games Quest | Place 50 bets (min 0.20 CAD) on New Releases tab | - | 40 FS @ 0.20 CAD | x35 | 100 CAD | Drives game-discovery KPI for new content
+R6: Wednesday | Midweek Reload | Deposit & opt-in | 20 CAD | 50% bonus up to 200 CAD + 25 FS | x35 | 1000 CAD | Bigger reload to break midweek dip
+R7: Thursday | X-Win Quest | Win 30× your bet in a single round (min bet 0.20 CAD) | - | 50 FS @ 0.20 CAD | x35 | 100 CAD | Engagement-based, no deposit required
+R8: Friday | Weekend Kickoff | Deposit & opt-in | 20 CAD | 75% bonus up to 300 CAD + 30 FS | x35 | 1500 CAD | Highest-value reload of the week
+R9: Saturday | Saturday Spin Drop | Deposit 20+ CAD on Saturday | 20 CAD | 40 FS @ 0.20 CAD | x35 | 150 CAD | Keeps weekend depositors engaged
+R10: Sunday | Sunday Cashback | Auto-credited Mon morning on net losses Mon-Sun | - | 10% cashback up to 200 CAD | x1 | - | Wager x1 only - true cashback. Loss-recovery & churn prevention; unique hook vs. competitors
+R12: KEY CHANGES vs. ORIGINAL WEEKLY PROPOSAL |  |  |  |  |  |  | 
+R13: 1. Min deposit lowered to 15-20 CAD |  |  |  |  |  |  | 
+R14: Original 30 CAD min deposit is too high for daily/weekly reloads, it kills participation rates. Reload promo benchmarks in CA sit at 10-20 CAD min. |  |  |  |  |  |  | 
+R15: 2. Sat & Sun filled in |  |  |  |  |  |  | 
+R16: Original calendar left Saturday & Sunday EMPTY (just NaN cells with the Friday "Weekend Boost" supposedly stretching across). This is a wasted weekend, since peak iGaming traffic is Fri-Sun. Now every day has a dedicated promo with its own opt-in (better for Customer.io segmentation, attribution, and A/B testing). |  |  |  |  |  |  | 
+R17: 3. Sunday Cashback added |  |  |  |  |  |  | 
+R18: BIGGEST recommendation. Cashback is the #1 retention tool in CA market and your original calendar has none. 10% up to 200 CAD with x1 wager is loss-recovery, not a deposit bonus - drives win-back of churning users and reduces 7-day churn significantly. Auto-credited Monday morning = strong reactivation trigger. |  |  |  |  |  |  | 
+R19: 4. Wagering x40 → x35 |  |  |  |  |  |  | 
+R20: Same logic as welcome pack - aligns with CA industry average and improves clear-rate. |  |  |  |  |  |  | 
+R21: 5. Max Win raised |  |  |  |  |  |  | 
+R22: Original 75 CAD max win on FS feels stingy. Bumped to 100-150 CAD on FS, 1000-1500 CAD on cash reloads. More aspirational, better social proof (winners screenshot bigger wins). |  |  |  |  |  |  | 
+R23: 6. Friday reload bigger |  |  |  |  |  |  | 
+R24: Original Friday was 30% up to 100 CAD + 60 FS. New Friday: 75% up to 300 CAD + 30 FS. Friday should be the WEEK'S BEST reload - that's when discretionary spend peaks. |  |  |  |  |  |  | 
+R25: 7. Wednesday reload bigger |  |  |  |  |  |  | 
+R26: Original 40% / 120 CAD → 50% / 200 CAD + FS. Midweek dip is real; needs a stronger pull. |  |  |  |  |  |  | 
+R27: 8. Quests preserved + cleaned |  |  |  |  |  |  | 
+R28: Tuesday & Thursday quests stayed (good mechanics), but trigger threshold lowered from 75 bets / 50× win to 50 bets / 30× win - more achievable, higher completion rate = higher engagement KPI. |  |  |  |  |  |  | 
+R29: 9. Suggested Customer.io flow |  |  |  |  |  |  | 
+R30: Each day = own opt-in event → trigger campaign → 24h reminder if not deposited → next-day report email. Use cashback day as the weekly anchor email (highest open rate). |  |  |  |  |  |  | 
+R31: 10. Test ideas for month 2+ |  |  |  |  |  |  | 
+R32: Once you have traffic data, test: (a) Tournament Sundays instead of cashback for high-VIP segment; (b) Drop-and-Wins from providers (Pragmatic, Evolution) layered on top - prize pool funded by provider, not you; (c) Birthday bonus + level-up bonus via lifecycle in Customer.io. |  |  |  |  |  |  | 
+
+========== SHEET: Bonus Mechanics (maxcol=14, maxrow=1000) ==========
+R1: BONUS MECHANICS - RECOMMENDATIONS (Quests, Wheel, Tournaments, Referrals, Segments) |  |  |  |  |  |  |  |  |  |  |  |  | 
+R2: Covers the additional bonus types now confirmed available on Turbo Stars + Customer.io segmentation depth. |  |  |  |  |  |  |  |  |  |  |  |  | 
+R4: 1. ONBOARDING QUEST  (use cases: email verif, profile, mobile verif, FTD, first bet, first win) |  |  |  |  |  |  |  |  |  |  |  |  | 
+R5: Step | Trigger | Reward | Wager | Why It Matters | KPI Impact |  |  |  |  |  |  |  | 
+R6: 1 | Email verification | 10 FS @ 0.20 CAD | x35 | Confirms deliverability before Customer.io campaigns spin up; cuts bounce rate. | +15-25% email-verified rate | Max bet: 5 CAD / Max win: 50 CAD / Activation duration: 7 days / Wagering duration: 7 days |  |  |  |  |  |  | 
+R7: 2 | Profile completion (DoB, address, phone) | 15 FS @ 0.20 CAD | x35 | Pre-fills KYC fields → smoother withdrawal later → fewer abandoned FTDs. | Faster KYC pass | Max bet: 5 CAD / Max win: 75 CAD / Activation duration: 7 days / Wagering duration: 7 days |  |  |  |  |  |  | 
+R8: 3 | Mobile phone verification | 20 FS @ 0.20 CAD | x35 | Highest-leverage step. Enables SMS channel + cuts fraud/multi-accounting hard. | −30-50% chargeback risk | Max bet: 5 CAD / Max win: 100 CAD / Activation duration: 7 days / Wagering duration: 7 days |  |  |  |  |  |  | 
+R9: 4 | First Deposit (any amount) | Triggers Welcome Pack Dep 1 | - | The quest naturally hands off to the welcome pack - don't double-pay here. | FTD conversion lift |  |  |  |  |  |  |  | 
+R10: 5 | First bet placed | 15 FS @ 0.20 CAD | x35 | Removes "deposited but never played" segment which is ~10-15% of FTDs. | Activation rate + | Max bet: 5 CAD / Max win: 75 CAD / Activation duration: 7 days / Wagering duration: 7 days |  |  |  |  |  |  | 
+R11: 6 | First win (any amount) | 10 FS @ 0.20 CAD | x35 | Dopamine reinforcement - frames the casino as "lucky" early. | D2 retention + | Max bet: 5 CAD / Max win: 50 CAD / Activation duration: 7 days / Wagering duration: 7 days |  |  |  |  |  |  | 
+R12: 7 | QUEST COMPLETE bonus | 50 CAD cash bonus | x30 | Final pop. Cash (not FS) so it feels qualitatively different from the steps. | Pack completion 40-60% | Max bet: 5 CAD / Max win: 500 CAD / Activation duration: 7 days / Wagering duration: 7 days / |  |  |  |  |  |  | 
+R14: NOTE: Whole quest should be auto-enrolled at signup. No opt-in friction. Keep total quest reward (≈70 FS + 50 CAD) BELOW the welcome pack value so the welcome pack remains the main hook. CA benchmark: gamified onboarding lifts FTD rate 15-25% vs. plain registration. |  |  |  |  |  |  |  |  |  |  |  |  | 
+R16: 2. WHEEL OF FORTUNE  (earned spins → cash or FS prizes, segmentable, schedulable) |  |  |  |  |  |  |  |  |  |  |  |  | 
+R17: Mechanic | Recommendation |  |  |  |  |  |  |  |  |  |  |  | 
+R18: Earning rule (primary) | 1 free wheel spin per 100 CAD wagered (resets weekly) |  |  | Ties wheel to bet volume, not deposits → encourages play of existing balance, not just topping up. |  |  |  |  |  |  |  |  | 
+R19: Earning rule (secondary) | 1 bonus spin for any deposit ≥ 30 CAD on Friday/Saturday |  |  | Reinforces the weekend reload promos. Stacks engagement loops. |  |  |  |  |  |  |  |  | 
+R20: Earning rule (tertiary) | Daily login spin (1/day) for users active in last 14 days |  |  | Habit-forming. Low cost, high session-frequency lift. CA benchmark: daily login mechanics +20% DAU. |  |  |  |  |  |  |  |  | 
+R21: Prize pool - Tier 1 (NDC/low) | 5 FS / 10 FS / 20 FS / 5 CAD / 10 CAD / 25 FS / 15 CAD / "try again" |  |  | Small prizes, high hit rate. NDCs and low-rollers shouldn't see "1000 CAD" wedges they'll never hit. |  | 5 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 25 CAD / Activation duration: 7 days / Wagering duration: 7 days | 10 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 50 CAD / Activation duration: 7 days / Wagering duration: 7 days | 20 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 100 CAD / Activation duration: 7 days / Wagering duration: 7 days | 5 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 50 CAD / Activation duration: 7 days / Wagering duration: 7 days | 10 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 100 CAD / Activation duration: 7 days / Wagering duration: 7 days | 25 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 125 CAD / Activation duration: 7 days / Wagering duration: 7 days | 15 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 150 CAD / Activation duration: 7 days / Wagering duration: 7 days | 
+R22: Prize pool - Tier 2 (regular) | 10 FS / 25 FS / 15 CAD / 50 FS / 25 CAD / 50 CAD / 100 FS / 75 CAD |  |  | Mid-tier rewards. Use for users with 2+ deposits. |  | 10 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 50 CAD / Activation duration: 7 days / Wagering duration: 7 days | 25 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 125 CAD / Activation duration: 7 days / Wagering duration: 7 days | 15 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 150 CAD / Activation duration: 7 days / Wagering duration: 7 days | 50 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 250 CAD / Activation duration: 7 days / Wagering duration: 7 days | 25 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 250 CAD / Activation duration: 7 days / Wagering duration: 7 days | 50 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 500 CAD / Activation duration: 7 days / Wagering duration: 7 days | 100 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 500 CAD / Activation duration: 7 days / Wagering duration: 7 days | 75 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 750 CAD / Activation duration: 7 days / Wagering duration: 7 days
+R23: Prize pool - Tier 3 (VIP) | 50 FS / 100 FS / 100 CAD / 250 FS / 250 CAD / 500 CAD / 1000 CAD / 150 FS Mystery box |  |  | High-value, low-frequency. Mystery box = sticky engagement hook. |  | 50 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 250 CAD / Activation duration: 7 days / Wagering duration: 7 days | 100 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 500 CAD / Activation duration: 7 days / Wagering duration: 7 days | 100 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 1000 CAD / Activation duration: 7 days / Wagering duration: 7 days | 250 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 1250 CAD / Activation duration: 7 days / Wagering duration: 7 days | 250 CAD Cash Bonus / Wager: x30 / Max bet: 5 CAD / Max win: 2500 CAD / Activation duration: 7 days / Wagering duration: 7 days | 500 CAD Cash Bonus / Wager: x30 / Max bet: 10 CAD / Max win: 5000 CAD / Activation duration: 7 days / Wagering duration: 7 days | 1000 CAD Cash Bonus / Wager: x30 / Max bet: 10 CAD / Max win: 10000 CAD / Activation duration: 7 days / Wagering duration: 7 days | 150 FS Bonus / FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 1500 CAD / Activation duration: 7 days / Wagering duration: 7 days
+R24: Wager on prizes | FS prizes x35, cash prizes x25 |  |  | Slightly softer wager than welcome pack - wheel should feel like a "thank you", not another grind. |  |  |  |  |  |  |  |  | 
+R25: Schedule | Wheel always available; weekly prize-pool refresh every Monday 00:00 EST |  |  | EST aligns with CA player primetime. Refresh = built-in re-engagement reason for Customer.io email. |  |  |  |  |  |  |  |  | 
+R26: Customer.io trigger | Email + push on Sunday night: "X spins waiting on your Wheel - expires tonight" |  |  | Loss-aversion is the strongest engagement lever. Fires 2x: 6PM and 10PM EST. |  |  |  |  |  |  |  |  | 
+R28: NOTE: Tier the prize pool by VIP segment from day 1 - this is the single biggest wheel design mistake operators make. Showing a 1000 CAD wedge to a 20 CAD depositor feels like a trick; showing a 5 FS wedge to a VIP feels insulting. |  |  |  |  |  |  |  |  |  |  |  |  | 
+R30: 3. TOURNAMENTS  (cash + FS rewards, leaderboard mechanic) |  |  |  |  |  |  |  |  |  |  |  |  | 
+R31: Tournament | Frequency | Prize Pool | Mechanic | Why | Cost to Operator |  |  |  |  |  |  |  | 
+R32: House Slot Race | Weekly (Mon-Sun) | 2,500 CAD split top 50 | Highest total bet on selected slots wins. Min bet 0.50 CAD. | Anchor weekly engagement loop. Drives consistent volume from regulars. | Full cost ~2.5k CAD/wk |  |  |  |  |  |  |  | 
+R33: Weekend Win Streak | Weekly (Fri-Sun) | 1,500 CAD split top 30 | Highest single-spin multiplier (e.g., 500x) wins. Min bet 0.20 CAD. | Variance-based - favours casual players, not whales. Levels playing field. | Full cost ~1.5k CAD/wk |  |  |  |  |  |  |  | 
+R34: Provider Drop & Wins | Continuous | Funded by Pragmatic / Evolution | Random prize drops on selected provider games. | ZERO COST to chill4reel. Just enable in backoffice. Free engagement. | ZERO |  |  |  |  |  |  |  | 
+R35: Monthly High-Roller | Monthly | 10,000 CAD split top 10 | VIP-only. Highest total deposit + bet volume. | Retains VIPs (top 5% = 60-80% of GGR). Worth every cent. | Full cost ~10k CAD/mo |  |  |  |  |  |  |  | 
+R37: NOTE: Start with ONLY the provider Drop & Wins (zero cost) until you have ~500+ active users. House-funded tournaments need a critical mass of participants or top-3 prizes get sniped by the same 2 whales every week, killing engagement for everyone else. |  |  |  |  |  |  |  |  |  |  |  |  | 
+R39: 4. REFERRAL PROGRAM  (cash + FS rewards) |  |  |  |  |  |  |  |  |  |  |  |  | 
+R40: Element | Recommendation |  |  |  |  |  |  |  |  |  |  |  | 
+R41: Referrer reward | 50 CAD cash bonus |  |  | Credited only after referee makes 2nd deposit (not 1st). Prevents self-referral via second device. |  | Bonus type: Cash Bonus / Bonus amount: 50 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 500 CAD / Activation duration: 7 days / Wagering duration: 7 days |  |  |  |  |  |  | 
+R42: Referee reward | 25 FS on top of standard welcome pack |  |  | Stack on top of welcome - don't replace it, otherwise referee feels cheated. |  | FS value: 0.20 CAD / Wager: x35 / Max bet: 5 CAD / Max win: 125 CAD / Activation duration: 7 days / Wagering duration: 7 days |  |  |  |  |  |  | 
+R43: Wager on reward | x35 (matches welcome pack) |  |  | - |  |  |  |  |  |  |  |  | 
+R44: Cap | Max 50 successful referrals per user |  |  | Caps farming. Lifted for verified VIPs case-by-case. |  |  |  |  |  |  |  |  | 
+R45: Tracking | Unique link + referral code, both valid |  |  | Code path captures social/word-of-mouth that links can't. |  |  |  |  |  |  |  |  | 
+R46: Customer.io flow | Auto-email on referee's 1st deposit ("your friend signed up!"), 2nd deposit ("50 CAD credited!") |  |  | Two-step communication = stronger advocacy loop. |  |  |  |  |  |  |  |  | 
+R48: NOTE: Referral programs in CA iGaming have notoriously high fraud rates (10-25% of referrals are self-refs). The "credit on 2nd deposit" rule is non-negotiable. Also bind the referrer reward to KYC completion of the referee. |  |  |  |  |  |  |  |  |  |  |  |  | 
+R50: 5. SEGMENTATION  (40+ parameters available - Customer.io targeting) |  |  |  |  |  |  |  |  |  |  |  |  | 
+R51: Priority | Segment | Definition |  |  |  |  |  |  |  |  |  |  | 
+R52: MUST-HAVE | NDC (Non-Depositing Customer) | Registered, no deposit yet, signed up <14 days ago |  | Quest progression + no-deposit FS (5-10) on day 3 if still no FTD |  |  |  |  |  |  |  |  | 
+R53: MUST-HAVE | FTD-Only | Made exactly 1 deposit, ≥3 days ago |  | Aggressive Dep 2 reminder. 24h flash bonus (+25% on top of standard Dep 2) |  |  |  |  |  |  |  |  | 
+R54: MUST-HAVE | 2-3 Deposits | Made 2 or 3 deposits, active <14 days |  | Push to complete welcome pack. Reminder of remaining Dep 3/Dep 4 value |  |  |  |  |  |  |  |  | 
+R55: MUST-HAVE | Active Regular | 4+ deposits, last bet within 7 days |  | Standard weekly bonus calendar. Wheel of Fortune Tier 2 prizes |  |  |  |  |  |  |  |  | 
+R56: MUST-HAVE | Churning | Last deposit 14-30 days ago, no recent activity |  | "We miss you" reload bonus. 100% match up to 100 CAD, low wager (x25) |  |  |  |  |  |  |  |  | 
+R57: MUST-HAVE | Churned | No activity 30-90 days |  | Reactivation: free 25 FS no deposit + reload bonus on next FTD |  |  |  |  |  |  |  |  | 
+R58: MUST-HAVE | VIP / High-Roller | Lifetime deposits ≥ 2,000 CAD OR avg deposit ≥ 200 CAD |  | Tier 3 wheel, monthly high-roller tournament, dedicated account manager, no max-bet on bonuses |  |  |  |  |  |  |  |  | 
+R59: NICE-TO-HAVE | Slot Lover | 90%+ of bets on slots |  | FS-heavy bonuses, exclude live casino offers |  |  |  |  |  |  |  |  | 
+R60: NICE-TO-HAVE | Live Casino Player | 50%+ of bets on live games |  | Cashback-heavy (live games = 0% bonus contribution anyway). Live-specific cashback |  |  |  |  |  |  |  |  | 
+R61: NICE-TO-HAVE | Mobile-Only | 90%+ sessions on mobile |  | Push-notification heavy. Mobile-exclusive promo codes |  |  |  |  |  |  |  |  | 
+R62: NICE-TO-HAVE | Weekend Warrior | 70%+ activity on Fri/Sat/Sun |  | Suppress midweek campaigns. Heavy on Friday Kickoff promo |  |  |  |  |  |  |  |  | 
+R63: NICE-TO-HAVE | Bonus Abuser flag | Wagering completed without losses on 3+ bonuses, low-variance pattern |  | Exclude from bonus campaigns. Manual review. |  |  |  |  |  |  |  |  | 
+R65: NOTE: Build the 7 MUST-HAVE segments in Customer.io before launch - these alone unlock 80% of the value of segmentation. The other 5 can wait until you have 3+ months of data. Segmented campaigns typically convert 2-4x better than broadcast in CA iGaming. |  |  |  |  |  |  |  |  |  |  |  |  | 
+R67: 7. LAUNCH PRIORITY ORDER (what to ship in which week) |  |  |  |  |  |  |  |  |  |  |  |  | 
+R68: Phase | Mechanic | Why This Order |  |  |  |  |  |  |  |  |  |  | 
+R69: LAUNCH (Week 1) | Welcome Pack + Onboarding Quest + 7 MUST-HAVE segments in Customer.io | Conversion + lifecycle backbone. Without these, nothing else matters. |  |  |  |  |  |  |  |  |  |  | 
+R70: LAUNCH (Week 1) | Weekly bonus calendar (Mon-Sun) including Sunday Cashback | Retention loop must exist from day 1 or churn spikes. |  |  |  |  |  |  |  |  |  |  | 
+R71: Month 1 | Wheel of Fortune (Tier 1 + Tier 2 prize pools only) | Add once you have 100+ daily depositors so the wheel feels alive. |  |  |  |  |  |  |  |  |  |  | 
+R72: Month 1 | Provider Drop & Wins (Pragmatic / Evolution) | Zero-cost engagement. Enable as soon as provider integration is verified. |  |  |  |  |  |  |  |  |  |  | 
+R73: Month 2 | Referral program | Needs an existing happy user base to refer. Launching too early = silence. |  |  |  |  |  |  |  |  |  |  | 
+R74: Month 2 | House Slot Race tournament (weekly) | Needs ≥500 active users for the leaderboard to feel competitive. |  |  |  |  |  |  |  |  |  |  | 
+R75: Month 3 | VIP segment + Tier 3 wheel + Monthly High-Roller tournament | By now you can identify your real VIPs from data, not guesses. |  |  |  |  |  |  |  |  |  |  | 
+R76: Month 3+ | Nice-to-have segments (slot lover, mobile-only, weekend warrior, etc.) | Optimize once base segments are converting reliably. |  |  |  |  |  |  |  |  |  |  | 
+
+========== SHEET: CA Benchmarks (maxcol=5, maxrow=19) ==========
+R1: CANADIAN iGAMING MARKET BENCHMARKS (2025) |  |  |  | 
+R3: Operator | Welcome Package | Wagering | Min Deposit | Notes
+R4: LeoVegas | 100% up to 1,000 CAD + FS | 35x | 10 CAD | Single-deposit pack, very competitive
+R5: Casumo | 2,000 CAD + 99 FS over 3 deposits | 30x | 10 CAD | Lowest wagering of mainstream brands
+R6: JackpotCity | 1,600 CAD over 4 deposits | 70x | 10 CAD | Higher wagering but huge brand
+R7: Spin Casino | 1,000 CAD over 3 deposits | ~35x | 10 CAD | Microgaming-heavy, mainstream
+R8: PlayOJO | 50 FS no-wager | 0x | 10 CAD | Niche "fair play" positioning
+R9: Boho Casino | Up to 1,000 CAD + 100 FS | 35x | 30 CAD | High-roller positioning
+R10: INDUSTRY AVERAGE | 1,000-2,000 CAD + 100-200 FS | 25-35x | 10-20 CAD | What CA players expect to see
+R11: Original proposal | 2,100 CAD + 100 FS over 4 dep | 40x | 30-60 CAD | BELOW market on min dep & wager
+R12: NEW recommendation | 3,100 CAD + 300 FS over 4 dep | 35x | 20-30 CAD | AT market on terms, ABOVE on value
+R14: SOURCES |  |  |  | 
+R15: • online-casinos.ca - wagering requirements comparison (Nov 2025) |  |  |  | 
+R16: • canadacasino.ca - wagering requirements guide (Oct 2025) |  |  |  | 
+R17: • casino.org/canada/bonus - best CA bonuses 2026 (Apr 2026) |  |  |  | 
+R18: • slotsjuice.com - CA wagering guide (Jan 2026) |  |  |  | 
+R19: • tooblackguys.co / CasinoHub365 - welcome bonus structures (Nov 2025) |  |  |  | 
