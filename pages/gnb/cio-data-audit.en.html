@@ -666,11 +666,18 @@ action from backend or from us.</p>
 <tbody>
 <tr>
 <td><code>active_bonus</code> (boolean)</td>
-<td><code>bonus_balance &gt; 0</code> (inline filter) OR derived segment
-<code>❗️ Has Active Bonus</code></td>
-<td>The real state "has an active bonus" always equals "bonus_balance is
-non-zero". A separate boolean from backend would duplicate it.</td>
-<td>Suppression in all promo campaigns</td>
+<td>⚠️ <strong>NOT replaceable as-is.</strong> The existing CIO segment
+<code>❗️ Has Active Bonus</code> (id 74) is built on
+<code>attribute_change</code> of attribute <code>has_active_bonus</code>
+(see 2.3.A) — not on <code>bonus_balance</code>. Backend must write
+the boolean attribute <code>has_active_bonus</code>, OR the segment
+must be rebuilt as a plain attribute check
+(<code>has_active_bonus == true</code>, no <code>from</code>/<code>to</code>).</td>
+<td>Today the segment has <code>customer_count = 0</code> because the
+attribute is never written. Same gap blocks segment
+<code>Behavioral Eligible</code> (id 69) which gates ALL Behavioral
+campaigns (10.1–10.8).</td>
+<td>Suppression in all promo campaigns; master gate for Behavioral</td>
 </tr>
 <tr>
 <td><code>current_balance</code></td>
@@ -894,8 +901,39 @@ enough)</td>
 <td>for compare</td>
 <td>7.2</td>
 </tr>
+<tr>
+<td><code>has_active_bonus</code> 🔴 <strong>P1</strong></td>
+<td>boolean</td>
+<td>Backend (webhook on bonus state change)</td>
+<td><code>true</code> on <code>player_bonus_created</code>; <code>false</code>
+on <code>player_bonus_expired</code> / <code>player_wagering_completed</code>
+/ cancellation. CIO segments
+<code>❗️ Has Active Bonus</code> (74) and <code>Behavioral Eligible</code>
+(69) listen to attribute_change of this field.</td>
+<td><strong>10.1–10.8</strong> (all Behavioral — via gate #69); all promo
+suppression (via #74)</td>
+</tr>
+<tr>
+<td><code>kyc_status</code> 🔴 <strong>P1</strong></td>
+<td>enum (<code>pending</code> / <code>verified</code> / <code>rejected</code>)</td>
+<td>Backend (webhook on KYC step change)</td>
+<td>Updated on every KYC transition. Segment <code>Behavioral Eligible</code>
+(69) requires <code>attribute_change</code> on this attribute.
+Note: today only the boolean <code>verified</code> exists in 2.1 Ready —
+that is not enough because segment #69 expects the full enum and
+transition events.</td>
+<td><strong>10.1–10.8</strong> (via gate #69); KYC nudge campaigns</td>
+</tr>
 </tbody>
 </table>
+<blockquote>
+<p>🔴 <strong>Blocking dependency for Behavioral track:</strong> until
+<code>has_active_bonus</code> and <code>kyc_status</code> are written by
+backend (or until segments #69 and #74 are rebuilt to use already-existing
+attributes — <code>bonus_balance_base &gt; 0</code> and <code>verified</code>),
+the entire Behavioral block (10.1–10.8) cannot launch. Master gate
+<code>Behavioral Eligible</code> currently has <code>customer_count = 0</code>.</p>
+</blockquote>
 <blockquote>
 <p>💡 <strong>Simplification:</strong> instead of 4 numeric attributes
 (<code>deposits_count_last_30d/60d</code>,
