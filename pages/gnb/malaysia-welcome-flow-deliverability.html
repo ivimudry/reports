@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Малайзия — доставляемость Welcome Flow</title>
+  <style>
+  html { color: #1a1a1a; background-color: #fdfdfd; }
+  body { font-family: Arial, sans-serif; max-width: 1000px; margin: 24px auto; padding: 0 16px; color: #222; line-height: 1.6; }
+  h1 { border-bottom: 2px solid #333; padding-bottom: 6px; }
+  h2 { border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-top: 32px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #f0f0f0; }
+  code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.92em; }
+  blockquote { border-left: 4px solid #ccc; margin: 12px 0; padding: 4px 12px; color: #555; }
+  hr { border: none; border-top: 1px solid #ccc; margin: 24px 0; }
+  .ok { color: #1a7f37; font-weight: 600; }
+  .meta { color: #666; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+<h1>Малайзия — анализ доставляемости писем Welcome Flow</h1>
+<p class="meta">Chill4Reel &bull; Customer.io (EU) &bull; 3 июня 2026</p>
+
+<p>Проверяли, доходят ли письма Welcome Flow до игроков из Малайзии. Сопоставили базу
+малайзийских игроков с журналом доставок Customer.io за два периода: <strong>исторически
+за последний год</strong> и отдельно <strong>за последний месяц</strong>.</p>
+
+<h2>1. Что анализировали</h2>
+<table>
+  <tr><th>Источник</th><th>Объём</th></tr>
+  <tr><td>База игроков Малайзии</td><td>4 913 контактов (все — страна MY)</td></tr>
+  <tr><td>— из них с email</td><td>1 570</td></tr>
+  <tr><td>Журнал доставок Welcome Flow (за год)</td><td>902 076 записей</td></tr>
+</table>
+
+<h2>2. Итог за последний год</h2>
+<p>Из 1 570 малайзийских игроков с email письма реально доходили до большинства:</p>
+<table>
+  <tr><th>Этап</th><th>Уникальных email</th><th>Доля</th></tr>
+  <tr><td>С email в базе</td><td>1 570</td><td>100%</td></tr>
+  <tr><td>Была хотя бы одна отправка</td><td>1 546</td><td>98%</td></tr>
+  <tr><td><span class="ok">Доставлено хотя бы раз</span></td><td><strong>1 301</strong></td><td><strong>83%</strong></td></tr>
+</table>
+<p>Недоставка у остальных объясняется не техникой, а качеством адресов:</p>
+<table>
+  <tr><th>Причина</th><th>Кол-во</th><th>Комментарий</th></tr>
+  <tr><td>Bounced (отбито)</td><td>130</td><td>Несуществующие / временные ящики (temp-mail)</td></tr>
+  <tr><td>Suppressed (заблокировано)</td><td>78</td><td>Адреса в списке подавления после прошлых отказов</td></tr>
+  <tr><td>Failed</td><td>114</td><td>Историческая разовая проблема — см. ниже</td></tr>
+</table>
+
+<blockquote>
+Все 114 «Failed» — это <strong>январь 2026</strong> и только письма <code>C1.1 BD</code> /
+<code>S1.1 BD</code>, которые тогда стояли в тестовом режиме (ошибка «Test sends limit
+reached»). После перевода писем в боевой режим проблема исчезла и больше не повторялась.
+</blockquote>
+
+<h2>3. Итог за последний месяц (03.05 – 03.06.2026)</h2>
+<p>За последний месяц малайзийцы <strong>получают письма штатно</strong>:</p>
+<table>
+  <tr><th>Метрика</th><th>Значение</th></tr>
+  <tr><td>Отправлено (записей)</td><td>312</td></tr>
+  <tr><td><span class="ok">Доставлено (записей)</span></td><td><strong>234</strong></td></tr>
+  <tr><td>Уникальных игроков получили письма</td><td>21</td></tr>
+  <tr><td>Ошибок Failed / тестовый режим</td><td><span class="ok">0</span></td></tr>
+  <tr><td>Bounced</td><td>31 (мёртвые адреса)</td></tr>
+  <tr><td>Suppressed</td><td>47</td></tr>
+</table>
+<p>Локаль теперь корректная — за месяц шли письма базовой локали (<code>C7.1</code>,
+<code>C8.1</code> и т.д.), а не <code>BD</code>, как было в январе.</p>
+
+<h2>4. Выводы</h2>
+<ul>
+  <li><strong>Письма доходят.</strong> Исторически — 83% игроков с email, за последний
+      месяц — стабильно, без сбоев.</li>
+  <li><strong>Технических проблем нет.</strong> Тестовый режим / Failed — единичный
+      случай января, давно устранён. Сейчас 0 ошибок.</li>
+  <li><strong>Единственные потери</strong> — это bounced и suppressed, то есть
+      фейковые / временные адреса при регистрации. Это вопрос чистки базы, а не
+      настройки рассылки.</li>
+</ul>
+
+</body>
+</html>

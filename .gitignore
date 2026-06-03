@@ -1,0 +1,6 @@
+# Large data exports (exceed GitHub 100 MB limit / not for VCS)
+deliveries.csv
+
+# Python cache
+__pycache__/
+*.pyc
