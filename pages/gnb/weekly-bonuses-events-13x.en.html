@@ -135,7 +135,7 @@
 <p><strong>Purpose:</strong> define a single recurring event model for Weekly Bonuses campaigns 13.1–13.7. All weekly bonus sends use one event, <code>weekly_bonuses</code>. The specific weekly campaign is selected by the event attribute <code>bonus_type</code>.</p>
 <hr />
 <h2 id="0-executive-summary">0. Executive summary</h2>
-<p>The Weekly Bonuses block should use one shared event trigger instead of separate events per weekday. A scheduler sends <code>weekly_bonuses</code> to all existing users on the configured weekly schedule. The event carries one required attribute: <code>bonus_type</code>.</p>
+<p>The Weekly Bonuses block should use one shared event trigger for all weekday variants. A scheduler sends <code>weekly_bonuses</code> to all existing users on the configured weekly schedule. The event carries one required attribute: <code>bonus_type</code>.</p>
 <p><strong>Core rule:</strong> the scheduler does not decide eligibility. It sends the event to all existing users. The chain then filters users by <code>bonus_type</code>, global suppressions, active bonus state, consent, channel availability, and campaign-specific rules.</p>
 <table>
 <thead>
@@ -460,7 +460,7 @@
 </tr>
 <tr>
 <td>No changes are required to unrelated campaigns</td>
-<td>Only campaigns 13.1–13.7 depend on these events</td>
+<td>Only campaigns 13.1–13.7 depend on this shared event</td>
 </tr>
 </tbody>
 </table>
