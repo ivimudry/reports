@@ -126,16 +126,16 @@
 	.lang-btn:hover { border-color: var(--brand); color: var(--text); }
 	.lang-btn.active { background: var(--brand); border-color: var(--brand); color: #0C0C0C; }
 
-	.tab-list { display: grid; gap: 8px; margin-bottom: 22px; }
+	.tab-list { display: flex; flex-wrap: wrap; gap: 8px; }
 	.tab-btn {
-		width: 100%;
-		padding: 10px 12px;
+		min-height: 38px;
+		padding: 0 14px;
 		border: 1px solid #303030;
 		border-radius: 8px;
 		background: #151515;
 		color: #BDBDBD;
 		cursor: pointer;
-		text-align: left;
+		text-align: center;
 		font: 700 12px 'Inter', sans-serif;
 		transition: all 0.2s;
 	}
@@ -143,7 +143,8 @@
 	.tab-btn.active { background: var(--brand); border-color: var(--brand); color: #0C0C0C; }
 
 	.nav-title { margin: 22px 0 8px; color: var(--dim); font-size: 10px; font-weight: 900; letter-spacing: 0.09em; text-transform: uppercase; }
-	.side-nav { display: grid; gap: 3px; }
+	.side-nav { display: none; gap: 3px; }
+	.side-nav.active { display: grid; }
 	.side-nav a {
 		display: flex;
 		gap: 8px;
@@ -166,10 +167,10 @@
 		z-index: 40;
 		display: flex;
 		align-items: center;
-		justify-content: flex-start;
+		justify-content: space-between;
 		gap: 18px;
 		min-height: 64px;
-		padding: 0 34px;
+		padding: 12px 34px;
 		border-bottom: 1px solid rgba(42,42,42,0.8);
 		background: rgba(12,12,12,0.78);
 		-webkit-backdrop-filter: blur(18px);
@@ -319,15 +320,8 @@
 			<button class="lang-btn" data-set-lang="en">EN</button>
 		</div>
 
-		<div class="tab-list" aria-label="Documentation sections">
-			<button class="tab-btn active" data-set-tab="guide"><span data-lang="ua" class="active">Користувач</span><span data-lang="ru">Пользователь</span><span data-lang="en">User guide</span></button>
-			<button class="tab-btn" data-set-tab="workflows"><span data-lang="ua" class="active">Workflows</span><span data-lang="ru">Workflows</span><span data-lang="en">Workflows</span></button>
-			<button class="tab-btn" data-set-tab="setup"><span data-lang="ua" class="active">Встановлення</span><span data-lang="ru">Установка</span><span data-lang="en">Installation</span></button>
-			<button class="tab-btn" data-set-tab="troubleshooting"><span data-lang="ua" class="active">Проблеми</span><span data-lang="ru">Проблемы</span><span data-lang="en">Troubleshooting</span></button>
-		</div>
-
 		<div class="nav-title"><span data-lang="ua" class="active">Навігація</span><span data-lang="ru">Навигация</span><span data-lang="en">Navigation</span></div>
-		<nav class="side-nav">
+		<nav class="side-nav active" data-nav-tab="guide">
 			<a href="#overview"><b>01</b><span data-lang="ua" class="active">Огляд</span><span data-lang="ru">Обзор</span><span data-lang="en">Overview</span></a>
 			<a href="#schema"><b>02</b><span data-lang="ua" class="active">Колонки</span><span data-lang="ru">Колонки</span><span data-lang="en">Columns</span></a>
 			<a href="#agent"><b>03</b><span data-lang="ua" class="active">Агент</span><span data-lang="ru">Агент</span><span data-lang="en">Agent</span></a>
@@ -335,13 +329,30 @@
 			<a href="#functions"><b>05</b><span data-lang="ua" class="active">Функції</span><span data-lang="ru">Функции</span><span data-lang="en">Functions</span></a>
 			<a href="#start"><b>06</b><span data-lang="ua" class="active">Start</span><span data-lang="ru">Start</span><span data-lang="en">Start</span></a>
 			<a href="#history"><b>07</b><span data-lang="ua" class="active">Історія</span><span data-lang="ru">История</span><span data-lang="en">History</span></a>
-			<a href="#errors"><b>08</b><span data-lang="ua" class="active">Помилки</span><span data-lang="ru">Ошибки</span><span data-lang="en">Errors</span></a>
+		</nav>
+		<nav class="side-nav" data-nav-tab="workflows">
+			<a href="#workflow-generation"><b>A</b><span data-lang="ua" class="active">Нові captions</span><span data-lang="ru">Новые captions</span><span data-lang="en">New captions</span></a>
+			<a href="#workflow-translation"><b>B</b><span data-lang="ua" class="active">Переклад</span><span data-lang="ru">Перевод</span><span data-lang="en">Translation</span></a>
+			<a href="#workflow-regeneration"><b>C</b><span data-lang="ua" class="active">Regeneration</span><span data-lang="ru">Regeneration</span><span data-lang="en">Regeneration</span></a>
+			<a href="#workflow-change"><b>D</b><span data-lang="ua" class="active">Запит змін</span><span data-lang="ru">Запрос изменений</span><span data-lang="en">Change request</span></a>
+		</nav>
+		<nav class="side-nav" data-nav-tab="setup">
+			<a href="#setup-install"><b>01</b><span data-lang="ua" class="active">Новий base</span><span data-lang="ru">Новый base</span><span data-lang="en">New base</span></a>
+		</nav>
+		<nav class="side-nav" data-nav-tab="troubleshooting">
+			<a href="#errors"><b>01</b><span data-lang="ua" class="active">Типові проблеми</span><span data-lang="ru">Типичные проблемы</span><span data-lang="en">Common issues</span></a>
 		</nav>
 	</aside>
 
 	<main class="content-area">
 		<div class="topbar">
 			<div class="topbar-title">GNB Agency · Airtable Custom App</div>
+			<div class="tab-list" aria-label="Documentation sections">
+				<button class="tab-btn active" data-set-tab="guide"><span data-lang="ua" class="active">Користувач</span><span data-lang="ru">Пользователь</span><span data-lang="en">User guide</span></button>
+				<button class="tab-btn" data-set-tab="workflows"><span data-lang="ua" class="active">Workflows</span><span data-lang="ru">Workflows</span><span data-lang="en">Workflows</span></button>
+				<button class="tab-btn" data-set-tab="setup"><span data-lang="ua" class="active">Встановлення</span><span data-lang="ru">Установка</span><span data-lang="en">Installation</span></button>
+				<button class="tab-btn" data-set-tab="troubleshooting"><span data-lang="ua" class="active">Проблеми</span><span data-lang="ru">Проблемы</span><span data-lang="en">Troubleshooting</span></button>
+			</div>
 		</div>
 
 		<section class="hero">
