@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="uk" style="scroll-behavior:smooth;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GNB Agency — AI Caption Agents Guide</title>
+<link rel="icon" type="image/svg+xml" href="../../assets/gnb-favicon.svg">
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+	:root {
+		--bg: #0C0C0C;
+		--bg-soft: #111111;
+		--panel: #151515;
+		--panel-2: #1B1B1B;
+		--line: #2A2A2A;
+		--line-soft: #202020;
+		--text: #F3F3F3;
+		--muted: #A9A9A9;
+		--dim: #737373;
+		--brand: #EAFF00;
+		--brand-soft: rgba(234, 255, 0, 0.14);
+		--green: #51CF66;
+		--red: #FF6B6B;
+		--orange: #F0A030;
+		--cyan: #8BD3DD;
+		--shadow: 0 24px 70px rgba(0,0,0,0.35);
+	}
+
+	* { box-sizing: border-box; }
+	html, body { min-height: 100%; }
+	body {
+		margin: 0;
+		color: var(--text);
+		background:
+			radial-gradient(circle at 18% 0%, rgba(234,255,0,0.09), transparent 30%),
+			linear-gradient(180deg, #111 0%, var(--bg) 320px, #090909 100%);
+		font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+		line-height: 1.65;
+	}
+
+	a { color: inherit; }
+	code {
+		background: #202020;
+		border: 1px solid #333;
+		border-radius: 5px;
+		color: #ECECEC;
+		font: 12px/1.5 Consolas, Monaco, monospace;
+		padding: 2px 6px;
+		word-break: break-word;
+	}
+	pre {
+		margin: 12px 0 0;
+		padding: 14px 16px;
+		overflow-x: auto;
+		border: 1px solid var(--line);
+		border-radius: 8px;
+		background: #101010;
+		color: #EDEDED;
+		font: 12px/1.55 Consolas, Monaco, monospace;
+	}
+
+	.docs-shell { min-height: 100vh; display: grid; grid-template-columns: 300px minmax(0, 1fr); }
+	.sidebar {
+		position: sticky;
+		top: 0;
+		height: 100vh;
+		padding: 24px 18px;
+		border-right: 1px solid var(--line);
+		background: rgba(12,12,12,0.94);
+		backdrop-filter: blur(18px);
+		overflow-y: auto;
+	}
+	.brand { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+	.brand img { height: 26px; width: auto; display: block; }
+	.brand-label { font-size: 11px; color: var(--dim); font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+
+	.search-box { position: relative; margin-bottom: 16px; }
+	.search-box input {
+		width: 100%;
+		height: 42px;
+		padding: 0 14px 0 38px;
+		border: 1px solid #333;
+		border-radius: 999px;
+		outline: none;
+		background: #161616;
+		color: var(--text);
+		font: 500 13px 'Inter', sans-serif;
+	}
+	.search-box input:focus { border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-soft); }
+	.search-box span { position: absolute; left: 14px; top: 9px; color: var(--brand); font-size: 15px; }
+
+	.lang-switcher { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 18px; }
+	.lang-btn {
+		height: 32px;
+		border: 1px solid #333;
+		border-radius: 8px;
+		background: #171717;
+		color: #8D8D8D;
+		cursor: pointer;
+		font: 800 12px 'Inter', sans-serif;
+		transition: all 0.2s;
+	}
+	.lang-btn:hover { border-color: var(--brand); color: var(--text); }
+	.lang-btn.active { background: var(--brand); border-color: var(--brand); color: #0C0C0C; }
+
+	.tab-list { display: grid; gap: 8px; margin-bottom: 22px; }
+	.tab-btn {
+		width: 100%;
+		padding: 10px 12px;
+		border: 1px solid #303030;
+		border-radius: 8px;
+		background: #151515;
+		color: #BDBDBD;
+		cursor: pointer;
+		text-align: left;
+		font: 700 12px 'Inter', sans-serif;
+		transition: all 0.2s;
+	}
+	.tab-btn:hover { border-color: var(--brand); color: var(--text); }
+	.tab-btn.active { background: var(--brand); border-color: var(--brand); color: #0C0C0C; }
+
+	.nav-title { margin: 22px 0 8px; color: var(--dim); font-size: 10px; font-weight: 900; letter-spacing: 0.09em; text-transform: uppercase; }
+	.side-nav { display: grid; gap: 3px; }
+	.side-nav a {
+		display: flex;
+		gap: 8px;
+		align-items: center;
+		padding: 8px 10px;
+		border-radius: 8px;
+		color: #A7A7A7;
+		font-size: 12px;
+		font-weight: 650;
+		text-decoration: none;
+		transition: all 0.2s;
+	}
+	.side-nav a:hover, .side-nav a.active { background: var(--brand-soft); color: var(--brand); }
+	.side-nav b { width: 18px; color: var(--brand); font-size: 10px; }
+
+	.content-area { min-width: 0; }
+	.topbar {
+		position: sticky;
+		top: 0;
+		z-index: 40;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 18px;
+		min-height: 64px;
+		padding: 0 34px;
+		border-bottom: 1px solid rgba(42,42,42,0.8);
+		background: rgba(12,12,12,0.78);
+		backdrop-filter: blur(18px);
+	}
+	.topbar-title { color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
+	.topbar-link {
+		display: inline-flex;
+		align-items: center;
+		height: 34px;
+		padding: 0 14px;
+		border: 1px solid var(--brand);
+		border-radius: 999px;
+		color: #0C0C0C;
+		background: var(--brand);
+		font-size: 12px;
+		font-weight: 900;
+		text-decoration: none;
+	}
+
+	.hero { padding: 64px 42px 34px; max-width: 1180px; }
+	.hero-kicker { color: var(--brand); font-size: 12px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
+	.hero h1 { max-width: 920px; margin: 12px 0 16px; color: #fff; font-size: clamp(36px, 6vw, 68px); line-height: 0.98; letter-spacing: -0.04em; }
+	.hero p { max-width: 780px; margin: 0; color: #C6C6C6; font-size: 17px; line-height: 1.75; }
+
+	.quick-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-top: 34px; }
+	.quick-card {
+		min-height: 130px;
+		padding: 18px;
+		border: 1px solid var(--line);
+		border-radius: 8px;
+		background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.015));
+	}
+	.quick-card .num { color: var(--brand); font-size: 12px; font-weight: 900; }
+	.quick-card h3 { margin: 10px 0 6px; color: #fff; font-size: 15px; }
+	.quick-card p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+
+	.docs-main { max-width: 1180px; padding: 10px 42px 70px; }
+	.tab-panel { display: none; }
+	.tab-panel.active { display: block; }
+	.doc-section {
+		scroll-margin-top: 92px;
+		margin: 18px 0;
+		padding: 26px;
+		border: 1px solid var(--line);
+		border-radius: 8px;
+		background: rgba(18,18,18,0.72);
+		box-shadow: 0 16px 44px rgba(0,0,0,0.18);
+	}
+	.doc-section.hidden-by-search, .quick-card.hidden-by-search { display: none; }
+	.section-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+	.section-label { color: var(--brand); font-size: 11px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
+	h2 { margin: 5px 0 0; color: #fff; font-size: 25px; line-height: 1.2; letter-spacing: -0.025em; }
+	h3 { margin: 18px 0 8px; color: #E8E8E8; font-size: 15px; }
+	p, li { color: #BDBDBD; font-size: 14px; }
+	p { margin: 8px 0 0; }
+	ul, ol { margin: 10px 0 0; padding-left: 20px; }
+	li { margin-bottom: 7px; }
+	li::marker { color: var(--brand); font-weight: 800; }
+
+	.note, .warn, .danger, .success {
+		margin: 14px 0 0;
+		padding: 14px 16px;
+		border-radius: 0 8px 8px 0;
+		font-size: 13px;
+	}
+	.note { border-left: 3px solid var(--brand); background: #1A1700; color: #C8C09B; }
+	.warn { border-left: 3px solid var(--orange); background: #1A1510; color: #C8A978; }
+	.danger { border-left: 3px solid var(--red); background: #1A1010; color: #D19C9C; }
+	.success { border-left: 3px solid var(--green); background: #0E1A12; color: #A7DDB0; }
+	.note strong { color: var(--brand); }
+	.warn strong { color: var(--orange); }
+	.danger strong { color: var(--red); }
+	.success strong { color: var(--green); }
+
+	table { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 13px; }
+	th { padding: 10px 12px; border-bottom: 2px solid var(--brand); background: #181818; color: var(--brand); text-align: left; text-transform: uppercase; letter-spacing: 0.04em; font-size: 11px; }
+	td { padding: 11px 12px; border-bottom: 1px solid var(--line-soft); color: #CFCFCF; vertical-align: top; }
+	tr:hover td { background: rgba(255,255,255,0.025); }
+
+	.steps { display: grid; gap: 12px; margin-top: 14px; }
+	.step {
+		display: grid;
+		grid-template-columns: 36px minmax(0, 1fr);
+		gap: 12px;
+		padding: 14px;
+		border: 1px solid var(--line-soft);
+		border-radius: 8px;
+		background: #121212;
+	}
+	.step-num {
+		width: 32px;
+		height: 32px;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: var(--brand);
+		color: #0C0C0C;
+		font-size: 13px;
+		font-weight: 900;
+	}
+	.step h3 { margin: 0 0 4px; }
+	.step p { margin: 0; }
+
+	.kbd-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+	.pill { display: inline-flex; align-items: center; min-height: 28px; padding: 0 10px; border: 1px solid #363636; border-radius: 999px; color: #D8D8D8; background: #151515; font-size: 12px; font-weight: 750; }
+	.pill.brand { border-color: var(--brand); color: #0C0C0C; background: var(--brand); }
+
+	details { margin-top: 10px; border: 1px solid var(--line-soft); border-radius: 8px; background: #121212; }
+	summary { cursor: pointer; padding: 13px 15px; color: #F2F2F2; font-size: 14px; font-weight: 800; }
+	details > div { padding: 0 15px 15px; }
+
+	[data-lang] { display: none; }
+	[data-lang].active { display: revert; }
+	span[data-lang].active { display: inline; }
+	.quick-grid[data-lang].active { display: grid; }
+
+	.no-results { display: none; margin: 18px 0; padding: 18px; border: 1px dashed #444; border-radius: 8px; color: var(--muted); text-align: center; }
+	.no-results.active { display: block; }
+
+	@media (max-width: 980px) {
+		.docs-shell { grid-template-columns: 1fr; }
+		.sidebar { position: relative; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+		.topbar { position: relative; padding: 14px 20px; flex-wrap: wrap; }
+		.hero, .docs-main { padding-left: 20px; padding-right: 20px; }
+		.quick-grid { grid-template-columns: 1fr 1fr; }
+	}
+	@media (max-width: 620px) {
+		.quick-grid { grid-template-columns: 1fr; }
+		.section-head { display: block; }
+		.doc-section { padding: 18px; }
+		table { display: block; overflow-x: auto; white-space: nowrap; }
+	}
+</style>
+</head>
+<body>
+<div class="docs-shell">
+	<aside class="sidebar">
+		<div class="brand">
+			<img src="../../assets/gnb-logo.png" alt="GNB Agency">
+			<div class="brand-label">AI Caption Docs</div>
+		</div>
+
+		<label class="search-box" aria-label="Search documentation">
+			<span>⌕</span>
+			<input id="doc-search" type="search" autocomplete="off" placeholder="Search / Пошук / Поиск">
+		</label>
+
+		<div class="lang-switcher">
+			<button class="lang-btn" data-set-lang="ru">RU</button>
+			<button class="lang-btn active" data-set-lang="ua">UA</button>
+			<button class="lang-btn" data-set-lang="en">EN</button>
+		</div>
+
+		<div class="tab-list" role="tablist" aria-label="Documentation sections">
+			<button class="tab-btn active" data-set-tab="guide"><span data-lang="ua" class="active">Користувач</span><span data-lang="ru">Пользователь</span><span data-lang="en">User guide</span></button>
+			<button class="tab-btn" data-set-tab="workflows"><span data-lang="ua" class="active">Workflows</span><span data-lang="ru">Workflows</span><span data-lang="en">Workflows</span></button>
+			<button class="tab-btn" data-set-tab="setup"><span data-lang="ua" class="active">Встановлення</span><span data-lang="ru">Установка</span><span data-lang="en">Installation</span></button>
+			<button class="tab-btn" data-set-tab="troubleshooting"><span data-lang="ua" class="active">Проблеми</span><span data-lang="ru">Проблемы</span><span data-lang="en">Troubleshooting</span></button>
+		</div>
+
+		<div class="nav-title"><span data-lang="ua" class="active">Навігація</span><span data-lang="ru">Навигация</span><span data-lang="en">Navigation</span></div>
+		<nav class="side-nav">
+			<a href="#overview"><b>01</b><span data-lang="ua" class="active">Огляд</span><span data-lang="ru">Обзор</span><span data-lang="en">Overview</span></a>
+			<a href="#schema"><b>02</b><span data-lang="ua" class="active">Колонки</span><span data-lang="ru">Колонки</span><span data-lang="en">Columns</span></a>
+			<a href="#agent"><b>03</b><span data-lang="ua" class="active">Агент</span><span data-lang="ru">Агент</span><span data-lang="en">Agent</span></a>
+			<a href="#start"><b>04</b><span data-lang="ua" class="active">Start</span><span data-lang="ru">Start</span><span data-lang="en">Start</span></a>
+			<a href="#history"><b>05</b><span data-lang="ua" class="active">Історія</span><span data-lang="ru">История</span><span data-lang="en">History</span></a>
+			<a href="#errors"><b>06</b><span data-lang="ua" class="active">Помилки</span><span data-lang="ru">Ошибки</span><span data-lang="en">Errors</span></a>
+		</nav>
+	</aside>
+
+	<main class="content-area">
+		<div class="topbar">
+			<div class="topbar-title">GNB Agency · Airtable Custom App</div>
+			<a class="topbar-link" href="https://ivimudry.github.io/reports/pages/gnb/ai-caption-guide.html">Public guide</a>
+		</div>
+
+		<section class="hero">
+			<div class="hero-kicker">AI Caption Agents</div>
+			<h1 data-lang="ua" class="active">Документація для генерації та перекладу caption прямо в Airtable.</h1>
+			<h1 data-lang="ru">Документация для генерации и перевода caption прямо в Airtable.</h1>
+			<h1 data-lang="en">Documentation for generating and translating captions directly in Airtable.</h1>
+
+			<p data-lang="ua" class="active">Цей гайд пояснює, як підготувати таблиці, створити агента, запустити генерацію або переклад, перевірити витрати й розібрати помилки без виходу з Airtable.</p>
+			<p data-lang="ru">Этот гайд объясняет, как подготовить таблицы, создать агента, запустить генерацию или перевод, проверить расходы и разобрать ошибки не выходя из Airtable.</p>
+			<p data-lang="en">This guide explains how to prepare tables, create an agent, run generation or translation, review costs, and debug errors without leaving Airtable.</p>
+
+			<div class="quick-grid active" data-lang="ua">
+				<a class="quick-card" href="#schema"><div class="num">01</div><h3>Підготуй колонки</h3><p>Потрібні `Attachments`, `Topic` і caption columns для мов.</p></a>
+				<a class="quick-card" href="#agent"><div class="num">02</div><h3>Створи агента</h3><p>Provider, API key, model і language bindings.</p></a>
+				<a class="quick-card" href="#start"><div class="num">03</div><h3>Запусти workflow</h3><p>Generation або Translation, Bulk або Selective.</p></a>
+				<a class="quick-card" href="#history"><div class="num">04</div><h3>Перевір history</h3><p>Progress, cost, token usage, raw responses і помилки.</p></a>
+			</div>
+			<div class="quick-grid" data-lang="ru">
+				<a class="quick-card" href="#schema"><div class="num">01</div><h3>Подготовь колонки</h3><p>Нужны `Attachments`, `Topic` и caption columns для языков.</p></a>
+				<a class="quick-card" href="#agent"><div class="num">02</div><h3>Создай агента</h3><p>Provider, API key, model и language bindings.</p></a>
+				<a class="quick-card" href="#start"><div class="num">03</div><h3>Запусти workflow</h3><p>Generation или Translation, Bulk или Selective.</p></a>
+				<a class="quick-card" href="#history"><div class="num">04</div><h3>Проверь history</h3><p>Progress, cost, token usage, raw responses и ошибки.</p></a>
+			</div>
+			<div class="quick-grid" data-lang="en">
+				<a class="quick-card" href="#schema"><div class="num">01</div><h3>Prepare columns</h3><p>You need `Attachments`, `Topic`, and caption columns for languages.</p></a>
+				<a class="quick-card" href="#agent"><div class="num">02</div><h3>Create an agent</h3><p>Provider, API key, model, and language bindings.</p></a>
+				<a class="quick-card" href="#start"><div class="num">03</div><h3>Run workflow</h3><p>Generation or Translation, Bulk or Selective.</p></a>
+				<a class="quick-card" href="#history"><div class="num">04</div><h3>Check history</h3><p>Progress, cost, token usage, raw responses, and errors.</p></a>
+			</div>
+		</section>
+
+		<div class="docs-main">
+			<div class="no-results" id="no-results">No matching documentation sections found.</div>
+
+			<section class="tab-panel active" data-tab="guide">
+				<article class="doc-section" id="overview" data-search-block>
+					<div class="section-head"><div><div class="section-label">01 · Overview</div><h2 data-lang="ua" class="active">Що робить додаток</h2><h2 data-lang="ru">Что делает приложение</h2><h2 data-lang="en">What the app does</h2></div><span class="pill brand">AI Caption Agents</span></div>
+					<p data-lang="ua" class="active">Додаток створює caption для Airtable records на основі attachments і topic. Він може генерувати primary language captions, перекладати їх на інші мови, працювати масово або по вибраних рядках, а також записувати детальний history log.</p>
+					<p data-lang="ru">Приложение создает caption для Airtable records на основе attachments и topic. Оно может генерировать primary language captions, переводить их на другие языки, работать массово или по выбранным строкам, а также записывать детальный history log.</p>
+					<p data-lang="en">The app creates captions for Airtable records using attachments and topic context. It can generate primary-language captions, translate them into additional languages, run in bulk or selective mode, and store detailed history logs.</p>
+					<div class="kbd-row"><span class="pill">OpenAI</span><span class="pill">Gemini</span><span class="pill">Anthropic</span><span class="pill">Generation</span><span class="pill">Translation</span><span class="pill">Bulk</span><span class="pill">Selective</span></div>
+				</article>
+
+				<article class="doc-section" id="schema" data-search-block>
+					<div class="section-head"><div><div class="section-label">02 · Table schema</div><h2 data-lang="ua" class="active">Які колонки потрібні в робочих таблицях</h2><h2 data-lang="ru">Какие колонки нужны в рабочих таблицах</h2><h2 data-lang="en">Required columns in working tables</h2></div></div>
+					<table>
+						<tr><th>Column</th><th data-lang="ua" class="active">Для чого</th><th data-lang="ru">Зачем</th><th data-lang="en">Purpose</th><th data-lang="ua" class="active">Обов'язково</th><th data-lang="ru">Обязательно</th><th data-lang="en">Required</th></tr>
+						<tr><td><code>Attachments</code></td><td data-lang="ua" class="active">Зображення або відео, які треба проаналізувати.</td><td data-lang="ru">Изображения или видео, которые нужно проанализировать.</td><td data-lang="en">Images or videos that should be analyzed.</td><td>Yes</td></tr>
+						<tr><td><code>Topic</code></td><td data-lang="ua" class="active">Контекст поста: офер, CTA, тема, обмеження.</td><td data-lang="ru">Контекст поста: оффер, CTA, тема, ограничения.</td><td data-lang="en">Post context: offer, CTA, theme, constraints.</td><td>Recommended</td></tr>
+						<tr><td><code>Caption EN</code>, <code>Caption ES</code>, etc.</td><td data-lang="ua" class="active">Колонки, куди додаток записує готові captions.</td><td data-lang="ru">Колонки, куда приложение записывает готовые captions.</td><td data-lang="en">Columns where the app writes final captions.</td><td>Yes</td></tr>
+					</table>
+					<div class="note"><strong>Important:</strong> <span data-lang="ua" class="active">`Attachments` і `Topic` підключаються автоматично за назвою column. Для мов ти вручну вибираєш, яка language пишеться в яку caption column.</span><span data-lang="ru">`Attachments` и `Topic` подключаются автоматически по названию column. Для языков ты вручную выбираешь, какой language пишет в какую caption column.</span><span data-lang="en">`Attachments` and `Topic` are detected automatically by column name. For languages, you manually bind each language to its caption column.</span></div>
+				</article>
+
+				<article class="doc-section" id="agent" data-search-block>
+					<div class="section-head"><div><div class="section-label">03 · Agent setup</div><h2 data-lang="ua" class="active">Як створити агента</h2><h2 data-lang="ru">Как создать агента</h2><h2 data-lang="en">How to create an agent</h2></div></div>
+					<div class="steps">
+						<div class="step"><div class="step-num">1</div><div><h3>Add Agent</h3><p data-lang="ua" class="active">Натисни <strong>Add Agent</strong>, введи назву агента й відкрий settings.</p><p data-lang="ru">Нажми <strong>Add Agent</strong>, введи название агента и открой settings.</p><p data-lang="en">Click <strong>Add Agent</strong>, enter an agent name, and open settings.</p></div></div>
+						<div class="step"><div class="step-num">2</div><div><h3>Provider, API Key, Model</h3><p data-lang="ua" class="active">Вибери OpenAI, Gemini або Anthropic. API key шифрується в settings table; після збереження його не треба вводити повторно.</p><p data-lang="ru">Выбери OpenAI, Gemini или Anthropic. API key шифруется в settings table; после сохранения его не нужно вводить повторно.</p><p data-lang="en">Choose OpenAI, Gemini, or Anthropic. The API key is encrypted in the settings table and does not need to be re-entered after saving.</p></div></div>
+						<div class="step"><div class="step-num">3</div><div><h3>Language bindings</h3><p data-lang="ua" class="active">Додай мови. Перша мова є <strong>Default / Primary</strong>; саме вона генерується першою. Додаткові мови перекладаються з primary caption.</p><p data-lang="ru">Добавь языки. Первый язык — <strong>Default / Primary</strong>; он генерируется первым. Дополнительные языки переводятся из primary caption.</p><p data-lang="en">Add languages. The first language is <strong>Default / Primary</strong>; it is generated first. Additional languages are translated from the primary caption.</p></div></div>
+						<div class="step"><div class="step-num">4</div><div><h3>Optional context</h3><p data-lang="ua" class="active">За потреби додай Character Limit, Brand Voice, System Prompt або Training Data. Це впливає на tone, structure і правила caption.</p><p data-lang="ru">При необходимости добавь Character Limit, Brand Voice, System Prompt или Training Data. Это влияет на tone, structure и правила caption.</p><p data-lang="en">Optionally add Character Limit, Brand Voice, System Prompt, or Training Data. These affect tone, structure, and caption rules.</p></div></div>
+					</div>
+				</article>
+
+				<article class="doc-section" id="start" data-search-block>
+					<div class="section-head"><div><div class="section-label">04 · Start</div><h2 data-lang="ua" class="active">Як запускати генерацію або переклад</h2><h2 data-lang="ru">Как запускать генерацию или перевод</h2><h2 data-lang="en">How to run generation or translation</h2></div></div>
+					<table>
+						<tr><th>Mode</th><th>Scope</th><th data-lang="ua" class="active">Коли використовувати</th><th data-lang="ru">Когда использовать</th><th data-lang="en">When to use</th></tr>
+						<tr><td><strong>Generation</strong></td><td>Bulk</td><td data-lang="ua" class="active">Коли треба заповнити багато records одразу.</td><td data-lang="ru">Когда нужно заполнить много records сразу.</td><td data-lang="en">When you need to fill many records at once.</td></tr>
+						<tr><td><strong>Generation</strong></td><td>Selective</td><td data-lang="ua" class="active">Коли треба обробити тільки конкретні рядки.</td><td data-lang="ru">Когда нужно обработать только конкретные строки.</td><td data-lang="en">When you only want specific rows.</td></tr>
+						<tr><td><strong>Translation</strong></td><td>Bulk</td><td data-lang="ua" class="active">Коли primary captions вже є, і треба перекласти їх у target languages.</td><td data-lang="ru">Когда primary captions уже есть, и нужно перевести их в target languages.</td><td data-lang="en">When primary captions already exist and need target-language translations.</td></tr>
+						<tr><td><strong>Translation</strong></td><td>Selective</td><td data-lang="ua" class="active">Коли треба перекласти тільки вибрані рядки.</td><td data-lang="ru">Когда нужно перевести только выбранные строки.</td><td data-lang="en">When only selected rows need translation.</td></tr>
+					</table>
+					<div class="success"><strong data-lang="ua" class="active">Token saving:</strong><strong data-lang="ru">Экономия токенов:</strong><strong data-lang="en">Token saving:</strong> <span data-lang="ua" class="active">переклад робиться batch-запитом по кожній target language, а не окремим запитом на кожну клітинку.</span><span data-lang="ru">перевод выполняется batch-запросом по каждому target language, а не отдельным запросом на каждую ячейку.</span><span data-lang="en">translation is performed as one batch request per target language, not one request per cell.</span></div>
+				</article>
+
+				<article class="doc-section" id="history" data-search-block>
+					<div class="section-head"><div><div class="section-label">05 · History</div><h2 data-lang="ua" class="active">Як читати історію запусків</h2><h2 data-lang="ru">Как читать историю запусков</h2><h2 data-lang="en">How to read operation history</h2></div></div>
+					<p data-lang="ua" class="active">Кожен запуск створює record в <strong>AI Agents History</strong>. Там видно status, progress, token usage, cost, successful/failed requests і окремі поля для analysis, generation та translation responses.</p>
+					<p data-lang="ru">Каждый запуск создает record в <strong>AI Agents History</strong>. Там видны status, progress, token usage, cost, successful/failed requests и отдельные поля для analysis, generation и translation responses.</p>
+					<p data-lang="en">Each run creates a record in <strong>AI Agents History</strong>. It shows status, progress, token usage, cost, successful/failed requests, and separate response fields for analysis, generation, and translation.</p>
+					<div class="kbd-row"><span class="pill">Analysis Responses</span><span class="pill">Generation Responses</span><span class="pill">Translation Responses</span><span class="pill">Translation Details JSON</span><span class="pill">Download details</span></div>
+				</article>
+			</section>
+
+			<section class="tab-panel" data-tab="workflows">
+				<article class="doc-section" data-search-block>
+					<div class="section-head"><div><div class="section-label">Workflow A</div><h2 data-lang="ua" class="active">Нові captions з attachments</h2><h2 data-lang="ru">Новые captions из attachments</h2><h2 data-lang="en">New captions from attachments</h2></div></div>
+					<ol data-lang="ua" class="active"><li>Перевір, що в table є <code>Attachments</code>, <code>Topic</code> і caption columns.</li><li>В agent settings вибери primary language і output column.</li><li>Натисни <strong>Start</strong>, вибери <strong>Generation</strong> і <strong>Bulk</strong> або <strong>Selective</strong>.</li><li>Вибери tables/views, languages і existing-data mode.</li><li>Натисни <strong>Start</strong> і дивись progress.</li></ol>
+					<ol data-lang="ru"><li>Проверь, что в table есть <code>Attachments</code>, <code>Topic</code> и caption columns.</li><li>В agent settings выбери primary language и output column.</li><li>Нажми <strong>Start</strong>, выбери <strong>Generation</strong> и <strong>Bulk</strong> или <strong>Selective</strong>.</li><li>Выбери tables/views, languages и existing-data mode.</li><li>Нажми <strong>Start</strong> и смотри progress.</li></ol>
+					<ol data-lang="en"><li>Check that the table has <code>Attachments</code>, <code>Topic</code>, and caption columns.</li><li>In agent settings, choose the primary language and output column.</li><li>Click <strong>Start</strong>, then choose <strong>Generation</strong> and <strong>Bulk</strong> or <strong>Selective</strong>.</li><li>Select tables/views, languages, and existing-data mode.</li><li>Click <strong>Start</strong> and watch progress.</li></ol>
+				</article>
+
+				<article class="doc-section" data-search-block>
+					<div class="section-head"><div><div class="section-label">Workflow B</div><h2 data-lang="ua" class="active">Переклад вже готових captions</h2><h2 data-lang="ru">Перевод уже готовых captions</h2><h2 data-lang="en">Translate existing captions</h2></div></div>
+					<ol data-lang="ua" class="active"><li>Переконайся, що source language column вже має captions.</li><li>Натисни <strong>Start</strong> і вибери <strong>Translation</strong>.</li><li>Вибери source language і одну або кілька target languages.</li><li>Вибери <strong>Bulk</strong> для всіх рядків або <strong>Selective</strong> для конкретних.</li><li>Запусти. Додаток зробить batch translation по кожній target language.</li></ol>
+					<ol data-lang="ru"><li>Убедись, что source language column уже содержит captions.</li><li>Нажми <strong>Start</strong> и выбери <strong>Translation</strong>.</li><li>Выбери source language и один или несколько target languages.</li><li>Выбери <strong>Bulk</strong> для всех строк или <strong>Selective</strong> для конкретных.</li><li>Запусти. Приложение выполнит batch translation по каждому target language.</li></ol>
+					<ol data-lang="en"><li>Make sure the source language column already contains captions.</li><li>Click <strong>Start</strong> and choose <strong>Translation</strong>.</li><li>Choose source language and one or more target languages.</li><li>Choose <strong>Bulk</strong> for all rows or <strong>Selective</strong> for specific rows.</li><li>Run it. The app performs batch translation per target language.</li></ol>
+				</article>
+
+				<article class="doc-section" data-search-block>
+					<div class="section-head"><div><div class="section-label">Workflow C</div><h2 data-lang="ua" class="active">Що робити, коли потрібна нова функція або зміна</h2><h2 data-lang="ru">Что делать, когда нужна новая функция или изменение</h2><h2 data-lang="en">What to do when you need a change</h2></div></div>
+					<p data-lang="ua" class="active">Щоб швидко змінити agent behavior, передай: назву base, agent name, приклад row, очікуваний caption, що саме не так у поточному результаті, provider/model і screenshot або download details з history.</p>
+					<p data-lang="ru">Чтобы быстро изменить agent behavior, передай: название base, agent name, пример row, ожидаемый caption, что именно не так в текущем результате, provider/model и screenshot или download details из history.</p>
+					<p data-lang="en">To change agent behavior quickly, provide: base name, agent name, sample row, expected caption, what is wrong with the current result, provider/model, and a screenshot or downloaded details from history.</p>
+					<pre>Base: GNB Main
+Agent: Instagram Captions EN/ES
+Row: Table "Posts", View "June", Row 12
+Expected: shorter caption, no Kickstarter CTA
+Attached: operation details file from History</pre>
+				</article>
+			</section>
+
+			<section class="tab-panel" data-tab="setup">
+				<article class="doc-section" data-search-block>
+					<div class="section-head"><div><div class="section-label">Installer</div><h2 data-lang="ua" class="active">Як додати app у новий Airtable base вручну</h2><h2 data-lang="ru">Как добавить app в новый Airtable base вручную</h2><h2 data-lang="en">How to add the app to a new Airtable base manually</h2></div></div>
+					<p data-lang="ua" class="active">У target base створи новий custom extension. Airtable покаже команду на кшталт:</p><p data-lang="ru">В target base создай новый custom extension. Airtable покажет команду вида:</p><p data-lang="en">In the target base, create a new custom extension. Airtable will show a command like:</p>
+					<pre>block init apptpdJw9KDyuQMZ4/blkZWnSnQLb7bkTMb --template=https://github.com/Airtable/apps-hello-world ai_caption_agents</pre>
+					<p data-lang="ua" class="active">З цієї команди потрібна тільки частина <code>apptpdJw9KDyuQMZ4/blkZWnSnQLb7bkTMb</code>. Це extension identifier.</p>
+					<p data-lang="ru">Из этой команды нужна только часть <code>apptpdJw9KDyuQMZ4/blkZWnSnQLb7bkTMb</code>. Это extension identifier.</p>
+					<p data-lang="en">From this command, only <code>apptpdJw9KDyuQMZ4/blkZWnSnQLb7bkTMb</code> is needed. This is the extension identifier.</p>
+					<pre>npm run connect:base -- apptpdJw9KDyuQMZ4/blkZWnSnQLb7bkTMb client-remote-name
+npm run release:base -- client-remote-name</pre>
+					<div class="warn"><strong>API key:</strong> <span data-lang="ua" class="active">для release потрібен Airtable Personal Access Token зі scope <code>block:manage</code>. Його достатньо один раз встановити через <code>block set-api-key</code> на машині або сервері, який робить release.</span><span data-lang="ru">для release нужен Airtable Personal Access Token со scope <code>block:manage</code>. Его достаточно один раз установить через <code>block set-api-key</code> на машине или сервере, который делает release.</span><span data-lang="en">release requires an Airtable Personal Access Token with the <code>block:manage</code> scope. Set it once with <code>block set-api-key</code> on the machine or server that performs releases.</span></div>
+				</article>
+			</section>
+
+			<section class="tab-panel" data-tab="troubleshooting">
+				<article class="doc-section" id="errors" data-search-block>
+					<div class="section-head"><div><div class="section-label">Troubleshooting</div><h2 data-lang="ua" class="active">Типові проблеми та що перевірити</h2><h2 data-lang="ru">Типичные проблемы и что проверить</h2><h2 data-lang="en">Common problems and what to check</h2></div></div>
+					<details open><summary data-lang="ua" class="active">Кнопка Start disabled</summary><summary data-lang="ru">Кнопка Start disabled</summary><summary data-lang="en">Start button is disabled</summary><div><p data-lang="ua" class="active">Перевір provider, API key, model, language bindings, tables/views і чи вибрана хоча б одна target language для Translation.</p><p data-lang="ru">Проверь provider, API key, model, language bindings, tables/views и выбран ли хотя бы один target language для Translation.</p><p data-lang="en">Check provider, API key, model, language bindings, selected tables/views, and at least one target language for Translation.</p></div></details>
+					<details><summary data-lang="ua" class="active">Нічого не згенерувалося</summary><summary data-lang="ru">Ничего не сгенерировалось</summary><summary data-lang="en">Nothing was generated</summary><div><p data-lang="ua" class="active">Перевір, чи є attachments у column <code>Attachments</code>, чи не вибраний режим Skip existing data, і чи caption column не була вже заповнена.</p><p data-lang="ru">Проверь, есть ли attachments в column <code>Attachments</code>, не выбран ли режим Skip existing data, и не была ли caption column уже заполнена.</p><p data-lang="en">Check that <code>Attachments</code> contains files, Skip existing data is not preventing writes, and the caption column was not already filled.</p></div></details>
+					<details><summary data-lang="ua" class="active">Переклад не спрацював</summary><summary data-lang="ru">Перевод не сработал</summary><summary data-lang="en">Translation did not work</summary><div><p data-lang="ua" class="active">Source language column має містити текст. Target language має бути прив'язана до writable caption column. В history перевір <code>Translation Responses</code>.</p><p data-lang="ru">Source language column должен содержать текст. Target language должен быть привязан к writable caption column. В history проверь <code>Translation Responses</code>.</p><p data-lang="en">The source language column must contain text. Target languages must be bound to writable caption columns. Check <code>Translation Responses</code> in history.</p></div></details>
+					<details><summary data-lang="ua" class="active">Provider повертає помилку</summary><summary data-lang="ru">Provider возвращает ошибку</summary><summary data-lang="en">Provider returns an error</summary><div><p data-lang="ua" class="active">Перевір API key, model availability, provider balance/limits і raw response в operation details. Додаток автоматично повторює запит до двох разів після помилки.</p><p data-lang="ru">Проверь API key, model availability, provider balance/limits и raw response в operation details. Приложение автоматически повторяет запрос до двух раз после ошибки.</p><p data-lang="en">Check API key, model availability, provider balance/limits, and the raw response in operation details. The app automatically retries failed requests up to two times.</p></div></details>
+					<details><summary data-lang="ua" class="active">Storage needs repair</summary><summary data-lang="ru">Storage needs repair</summary><summary data-lang="en">Storage needs repair</summary><div><p data-lang="ua" class="active">Це означає, що settings/history tables або нові fields ще не створені. Натисни repair/add button у додатку, щоб він створив потрібні service fields.</p><p data-lang="ru">Это значит, что settings/history tables или новые fields еще не созданы. Нажми repair/add button в приложении, чтобы оно создало нужные service fields.</p><p data-lang="en">This means settings/history tables or new fields are missing. Click the repair/add button in the app so it can create the required service fields.</p></div></details>
+					<div class="danger"><strong data-lang="ua" class="active">Не видаляй service tables:</strong><strong data-lang="ru">Не удаляй service tables:</strong><strong data-lang="en">Do not delete service tables:</strong> <span data-lang="ua" class="active"><code>AI Agent Settings</code> і <code>AI Agents History</code> потрібні для роботи app.</span><span data-lang="ru"><code>AI Agent Settings</code> и <code>AI Agents History</code> нужны для работы app.</span><span data-lang="en"><code>AI Agent Settings</code> and <code>AI Agents History</code> are required for the app to work.</span></div>
+				</article>
+			</section>
+		</div>
+	</main>
+</div>
+
+<script>
+(function() {
+	const languageButtons = document.querySelectorAll('[data-set-lang]');
+	const languageElements = document.querySelectorAll('[data-lang]');
+	const tabButtons = document.querySelectorAll('[data-set-tab]');
+	const tabPanels = document.querySelectorAll('[data-tab]');
+	const searchInput = document.getElementById('doc-search');
+	const noResults = document.getElementById('no-results');
+	const navLinks = document.querySelectorAll('.side-nav a');
+
+	function setLanguage(language) {
+		languageElements.forEach(element => {
+			element.classList.toggle('active', element.getAttribute('data-lang') === language);
+		});
+		languageButtons.forEach(button => {
+			button.classList.toggle('active', button.getAttribute('data-set-lang') === language);
+		});
+		document.documentElement.lang = language === 'ua' ? 'uk' : language;
+		applySearch();
+	}
+
+	function setTab(tabName) {
+		tabButtons.forEach(button => button.classList.toggle('active', button.getAttribute('data-set-tab') === tabName));
+		tabPanels.forEach(panel => panel.classList.toggle('active', panel.getAttribute('data-tab') === tabName));
+		applySearch();
+	}
+
+	function applySearch() {
+		const query = (searchInput.value || '').trim().toLowerCase();
+		const activePanel = document.querySelector('.tab-panel.active');
+		const searchableItems = activePanel ? activePanel.querySelectorAll('[data-search-block]') : [];
+		let visibleCount = 0;
+
+		searchableItems.forEach(item => {
+			const isMatch = !query || item.textContent.toLowerCase().includes(query);
+			item.classList.toggle('hidden-by-search', !isMatch);
+			if (isMatch) visibleCount += 1;
+		});
+
+		document.querySelectorAll('.quick-card').forEach(card => {
+			const isMatch = !query || card.textContent.toLowerCase().includes(query);
+			card.classList.toggle('hidden-by-search', !isMatch);
+		});
+
+		noResults.classList.toggle('active', query && visibleCount === 0);
+	}
+
+	function updateActiveNav() {
+		const anchors = Array.from(document.querySelectorAll('.doc-section[id]')).filter(section => section.offsetParent !== null);
+		let activeId = anchors.length ? anchors[0].id : '';
+		for (const section of anchors) {
+			if (section.getBoundingClientRect().top <= 110) activeId = section.id;
+		}
+		navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + activeId));
+	}
+
+	languageButtons.forEach(button => button.addEventListener('click', () => setLanguage(button.getAttribute('data-set-lang'))));
+	tabButtons.forEach(button => button.addEventListener('click', () => setTab(button.getAttribute('data-set-tab'))));
+	searchInput.addEventListener('input', applySearch);
+	window.addEventListener('scroll', updateActiveNav, {passive: true});
+	updateActiveNav();
+	setLanguage('ua');
+})();
+</script>
+</body>
+</html>
