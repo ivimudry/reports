@@ -555,20 +555,64 @@
 		updateActiveNav();
 	}
 
+	const searchSynonymGroups = [
+		['attachment', 'attachments', 'media', 'file', 'files', 'image', 'images', 'video', 'videos', 'аттач', 'атач', 'медіа', 'медиа', 'файл', 'картинка', 'зображення'],
+		['table', 'tables', 'таблиця', 'таблиці', 'таблица', 'таблицы', 'base', 'база'],
+		['column', 'columns', 'field', 'fields', 'стовпець', 'стовпці', 'колонка', 'колонки', 'поле', 'поля'],
+		['channel', 'channels', 'platform', 'platforms', 'канал', 'канали', 'платформа', 'платформи'],
+		['hashtag', 'hashtags', 'tag', 'tags', 'хештег', 'хештеги', 'хештегс'],
+		['topic', 'topics', 'тема', 'теми', 'топік', 'топик'],
+		['language', 'languages', 'translation', 'translate', 'мова', 'мови', 'язык', 'языки', 'переклад', 'перевод'],
+		['api', 'key', 'provider', 'model', 'ключ', 'провайдер', 'модель'],
+		['generation', 'generate', 'regeneration', 'regenerate', 'translation', 'start', 'генерація', 'регенерація', 'перегенерація', 'перевод', 'переклад'],
+		['error', 'errors', 'troubleshooting', 'repair', 'disabled', 'помилка', 'помилки', 'ремонт', 'відновити', 'не працює', 'ошибка', 'ошибки', 'починить'],
+	];
+
+	function normalizeSearchText(value) {
+		return String(value || '')
+			.toLowerCase()
+			.normalize('NFD')
+			.replace(/[\u0300-\u036f]/g, '')
+			.replace(/ё/g, 'е')
+			.replace(/і/g, 'i')
+			.replace(/ї/g, 'i')
+			.replace(/є/g, 'е')
+			.replace(/[^a-zа-я0-9#]+/gi, ' ')
+			.replace(/\s+/g, ' ')
+			.trim();
+	}
+
+	function getSearchTokens(query) {
+		const rawTokens = normalizeSearchText(query).split(' ').filter(token => token.length > 1);
+		return rawTokens.map(token => {
+			const group = searchSynonymGroups.find(items => items.some(item => normalizeSearchText(item) === token || normalizeSearchText(item).startsWith(token) || token.startsWith(normalizeSearchText(item))));
+			return group ? group.map(normalizeSearchText) : [token];
+		});
+	}
+
+	function isSmartMatch(element, query, tokenGroups) {
+		if (!query) return true;
+		const text = normalizeSearchText(element.textContent);
+		const normalizedQuery = normalizeSearchText(query);
+		if (text.includes(normalizedQuery)) return true;
+		return tokenGroups.every(group => group.some(token => text.includes(token) || token.includes(text.slice(0, Math.min(text.length, token.length)))));
+	}
+
 	function applySearch() {
-		const query = (searchInput.value || '').trim().toLowerCase();
+		const query = (searchInput.value || '').trim();
+		const tokenGroups = getSearchTokens(query);
 		const activePanel = document.querySelector('.tab-panel.active');
 		const searchableItems = activePanel ? activePanel.querySelectorAll('[data-search-block]') : [];
 		let visibleCount = 0;
 
 		searchableItems.forEach(item => {
-			const isMatch = !query || item.textContent.toLowerCase().includes(query);
+			const isMatch = isSmartMatch(item, query, tokenGroups);
 			item.classList.toggle('hidden-by-search', !isMatch);
 			if (isMatch) visibleCount += 1;
 		});
 
 		document.querySelectorAll('.quick-card').forEach(card => {
-			const isMatch = !query || card.textContent.toLowerCase().includes(query);
+			const isMatch = isSmartMatch(card, query, tokenGroups);
 			card.classList.toggle('hidden-by-search', !isMatch);
 		});
 
