@@ -271,6 +271,36 @@
 	.provider-card h3 { margin-top: 0; }
 	.provider-card ol { padding-left: 18px; }
 	.result-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
+	.visual-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 16px; margin-top: 16px; }
+	.mock-app { border: 1px solid #303030; border-radius: 8px; background: #101010; box-shadow: var(--shadow); overflow: hidden; }
+	.mock-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px; border-bottom: 1px solid #242424; background: #151515; }
+	.mock-title { color: #fff; font-size: 13px; font-weight: 900; }
+	.mock-actions { display: grid; gap: 8px; }
+	.mock-btn { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 32px; padding: 0 12px; border: 1px solid #334155; border-radius: 8px; background: #182231; color: #E2E8F0; font-size: 12px; font-weight: 800; text-decoration: none; }
+	.mock-btn.primary { border-color: #2563EB; background: #2563EB; color: #fff; }
+	.mock-btn.danger { border-color: #FB7185; background: #E11D48; color: #fff; }
+	.mock-btn.link { border-color: #363636; background: #151515; color: var(--brand); }
+	.mock-body { display: grid; grid-template-columns: 1fr 180px; gap: 12px; padding: 14px; }
+	.mock-card, .mock-dialog, .mock-panel { padding: 14px; border: 1px solid #273445; border-radius: 8px; background: #151D27; }
+	.mock-card h3, .mock-dialog h3, .mock-panel h3 { margin: 0 0 8px; color: #F8FAFC; font-size: 14px; }
+	.mock-muted { color: #CBD5E1; font-size: 12px; line-height: 1.5; }
+	.mock-badge { display: inline-flex; min-height: 22px; align-items: center; padding: 0 8px; border-radius: 999px; color: #BBF7D0; background: #173824; font-size: 11px; font-weight: 800; }
+	.mock-field { margin-top: 10px; }
+	.mock-field label { display: block; margin-bottom: 5px; color: #E5E7EB; font-size: 11px; font-weight: 900; }
+	.mock-input, .mock-select, .mock-textarea { width: 100%; border: 1px solid #334155; border-radius: 8px; background: #0F1720; color: #F8FAFC; font: 700 12px 'Inter', sans-serif; }
+	.mock-input, .mock-select { height: 34px; padding: 0 10px; }
+	.mock-textarea { min-height: 74px; padding: 10px; line-height: 1.45; }
+	.mock-stack { display: grid; gap: 8px; }
+	.mock-flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+	.mock-node { padding: 12px; border: 1px solid #303030; border-radius: 8px; background: #121212; }
+	.mock-node b { display: block; color: var(--brand); font-size: 11px; margin-bottom: 5px; }
+	.mock-node span { color: #CFCFCF; font-size: 12px; }
+	.reference-table td:first-child { width: 220px; color: #F3F3F3; font-weight: 850; }
+	.reference-table td:nth-child(2) { width: 210px; }
+	.reference-table .ui-chip { display: inline-flex; align-items: center; min-height: 26px; padding: 0 9px; border: 1px solid #334155; border-radius: 8px; background: #182231; color: #E2E8F0; font-size: 11px; font-weight: 850; white-space: nowrap; }
+	.reference-table .ui-chip.primary { border-color: #2563EB; background: #2563EB; color: #fff; }
+	.reference-table .ui-chip.danger { border-color: #FB7185; background: #E11D48; color: #fff; }
+	.reference-table .ui-chip.field { border-color: #334155; background: #0F1720; color: #F8FAFC; }
 
 	details { margin-top: 10px; border: 1px solid var(--line-soft); border-radius: 8px; background: #121212; }
 	summary { cursor: pointer; padding: 13px 15px; color: #F2F2F2; font-size: 14px; font-weight: 800; }
@@ -310,12 +340,15 @@
 		<div class="nav-title"><span data-lang="ua" class="active">Навігація</span><span data-lang="ru">Навигация</span><span data-lang="en">Navigation</span></div>
 		<nav class="side-nav active" data-nav-tab="guide">
 			<a href="#overview"><b>01</b><span data-lang="ua" class="active">Огляд</span><span data-lang="ru">Обзор</span><span data-lang="en">Overview</span></a>
-			<a href="#schema"><b>02</b><span data-lang="ua" class="active">Колонки</span><span data-lang="ru">Колонки</span><span data-lang="en">Columns</span></a>
-			<a href="#agent"><b>03</b><span data-lang="ua" class="active">Агент</span><span data-lang="ru">Агент</span><span data-lang="en">Agent</span></a>
-			<a href="#providers"><b>04</b><span data-lang="ua" class="active">API ключі</span><span data-lang="ru">API ключи</span><span data-lang="en">API keys</span></a>
-			<a href="#functions"><b>05</b><span data-lang="ua" class="active">Функції</span><span data-lang="ru">Функции</span><span data-lang="en">Functions</span></a>
-			<a href="#start"><b>06</b><span data-lang="ua" class="active">Start</span><span data-lang="ru">Start</span><span data-lang="en">Start</span></a>
-			<a href="#history"><b>07</b><span data-lang="ua" class="active">Історія</span><span data-lang="ru">История</span><span data-lang="en">History</span></a>
+			<a href="#interface-map"><b>02</b><span data-lang="ua" class="active">UI карта</span><span data-lang="ru">UI карта</span><span data-lang="en">UI map</span></a>
+			<a href="#button-reference"><b>03</b><span data-lang="ua" class="active">Кнопки</span><span data-lang="ru">Кнопки</span><span data-lang="en">Buttons</span></a>
+			<a href="#settings-reference"><b>04</b><span data-lang="ua" class="active">Settings</span><span data-lang="ru">Settings</span><span data-lang="en">Settings</span></a>
+			<a href="#schema"><b>05</b><span data-lang="ua" class="active">Колонки</span><span data-lang="ru">Колонки</span><span data-lang="en">Columns</span></a>
+			<a href="#agent"><b>06</b><span data-lang="ua" class="active">Агент</span><span data-lang="ru">Агент</span><span data-lang="en">Agent</span></a>
+			<a href="#providers"><b>07</b><span data-lang="ua" class="active">API ключі</span><span data-lang="ru">API ключи</span><span data-lang="en">API keys</span></a>
+			<a href="#functions"><b>08</b><span data-lang="ua" class="active">Функції</span><span data-lang="ru">Функции</span><span data-lang="en">Functions</span></a>
+			<a href="#start"><b>09</b><span data-lang="ua" class="active">Start</span><span data-lang="ru">Start</span><span data-lang="en">Start</span></a>
+			<a href="#history"><b>10</b><span data-lang="ua" class="active">Історія</span><span data-lang="ru">История</span><span data-lang="en">History</span></a>
 		</nav>
 		<nav class="side-nav" data-nav-tab="workflows">
 			<a href="#workflow-generation"><b>A</b><span data-lang="ua" class="active">Нові captions</span><span data-lang="ru">Новые captions</span><span data-lang="en">New captions</span></a>
