@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Weekly Bonuses Events 13.x (EN)</title>
   <style>
     html {
@@ -37,10 +37,6 @@
         background-color: transparent;
         color: black;
         font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
       }
       h2, h3, h4 {
         page-break-after: avoid;
@@ -155,49 +151,49 @@
 <td><code>monday_weekly</code></td>
 <td>Sunday, 8:00 PM</td>
 <td>Every week</td>
-<td>Send the event to all eligible users at the scheduled time</td>
+<td>Send the event to all existing users at the scheduled time; filtering happens inside the chain</td>
 </tr>
 <tr>
 <td><strong>13.2 Tuesday New Games Quest</strong></td>
 <td><code>tuesday_weekly</code></td>
 <td>Tuesday, 9:00 AM</td>
 <td>Every week</td>
-<td>Send the event to all eligible users at the scheduled time</td>
+<td>Send the event to all existing users at the scheduled time; filtering happens inside the chain</td>
 </tr>
 <tr>
 <td><strong>13.3 Wednesday Midweek Reload</strong></td>
 <td><code>wednesday_weekly</code></td>
 <td>Wednesday, 9:00 AM</td>
 <td>Every week</td>
-<td>Send the event to all eligible users at the scheduled time</td>
+<td>Send the event to all existing users at the scheduled time; filtering happens inside the chain</td>
 </tr>
 <tr>
 <td><strong>13.4 Thursday X-Win Quest</strong></td>
 <td><code>thursday_weekly</code></td>
 <td>Thursday, 9:00 AM</td>
 <td>Every week</td>
-<td>Send the event to all eligible users at the scheduled time</td>
+<td>Send the event to all existing users at the scheduled time; filtering happens inside the chain</td>
 </tr>
 <tr>
 <td><strong>13.5 Friday Weekend Kickoff</strong></td>
 <td><code>friday_weekly</code></td>
 <td>Friday, 9:00 AM</td>
 <td>Every week</td>
-<td>Send the event to all eligible users at the scheduled time</td>
+<td>Send the event to all existing users at the scheduled time; filtering happens inside the chain</td>
 </tr>
 <tr>
 <td><strong>13.6 Saturday Spin Drop</strong></td>
 <td><code>saturday_weekly</code></td>
 <td>Saturday, 10:00 AM</td>
 <td>Every week</td>
-<td>Send the event to all eligible users at the scheduled time</td>
+<td>Send the event to all existing users at the scheduled time; filtering happens inside the chain</td>
 </tr>
 <tr>
 <td><strong>13.7 Sunday Cashback</strong></td>
 <td><code>sunday_weekly</code></td>
 <td>Sunday, 6:00 PM</td>
 <td>Every week</td>
-<td>Send the event to all eligible users at the scheduled time</td>
+<td>Send the event to all existing users at the scheduled time; filtering happens inside the chain</td>
 </tr>
 </tbody>
 </table>
@@ -206,7 +202,7 @@
 <p>All 7 weekly campaigns use the same event model:</p>
 <ol type="1">
 <li>A dedicated event exists for each 13.x campaign.</li>
-<li>The event is broadcast to the full intended audience at a fixed day and time.</li>
+<li>The event is broadcast to all existing users at a fixed day and time.</li>
 <li>The event repeats every week on the same schedule.</li>
 <li>The campaign listens to that event as its trigger.</li>
 </ol>
@@ -289,7 +285,7 @@
 <tbody>
 <tr>
 <td><strong>Audience</strong></td>
-<td>All users intended for the specific weekly campaign at send time</td>
+<td>All existing users; campaign-level filtering happens inside the chain after the event is received</td>
 </tr>
 <tr>
 <td><strong>Delivery model</strong></td>
