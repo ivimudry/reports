@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk" style="scroll-behavior:smooth;">
+<html lang="uk">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,8 @@
 	}
 
 	* { box-sizing: border-box; }
-	html, body { min-height: 100%; }
+	html { min-height: 100%; scroll-behavior: smooth; }
+	body { min-height: 100%; }
 	body {
 		margin: 0;
 		color: var(--text);
@@ -68,6 +69,7 @@
 		padding: 24px 18px;
 		border-right: 1px solid var(--line);
 		background: rgba(12,12,12,0.94);
+		-webkit-backdrop-filter: blur(18px);
 		backdrop-filter: blur(18px);
 		overflow-y: auto;
 	}
@@ -150,6 +152,7 @@
 		padding: 0 34px;
 		border-bottom: 1px solid rgba(42,42,42,0.8);
 		background: rgba(12,12,12,0.78);
+		-webkit-backdrop-filter: blur(18px);
 		backdrop-filter: blur(18px);
 	}
 	.topbar-title { color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
@@ -262,6 +265,7 @@
 
 	[data-lang] { display: none; }
 	[data-lang].active { display: revert; }
+	th[data-lang].active, td[data-lang].active { display: table-cell; }
 	span[data-lang].active { display: inline; }
 	.quick-grid[data-lang].active { display: grid; }
 
@@ -302,7 +306,7 @@
 			<button class="lang-btn" data-set-lang="en">EN</button>
 		</div>
 
-		<div class="tab-list" role="tablist" aria-label="Documentation sections">
+		<div class="tab-list" aria-label="Documentation sections">
 			<button class="tab-btn active" data-set-tab="guide"><span data-lang="ua" class="active">Користувач</span><span data-lang="ru">Пользователь</span><span data-lang="en">User guide</span></button>
 			<button class="tab-btn" data-set-tab="workflows"><span data-lang="ua" class="active">Workflows</span><span data-lang="ru">Workflows</span><span data-lang="en">Workflows</span></button>
 			<button class="tab-btn" data-set-tab="setup"><span data-lang="ua" class="active">Встановлення</span><span data-lang="ru">Установка</span><span data-lang="en">Installation</span></button>
