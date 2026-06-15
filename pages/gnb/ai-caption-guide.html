@@ -72,8 +72,6 @@
 		-webkit-backdrop-filter: blur(18px);
 		backdrop-filter: blur(18px);
 		overflow-y: auto;
-		scrollbar-width: thin;
-		scrollbar-color: var(--brand) #141414;
 	}
 	.sidebar::-webkit-scrollbar { width: 9px; }
 	.sidebar::-webkit-scrollbar-track { background: #101010; border-left: 1px solid #1e1e1e; }
@@ -329,16 +327,17 @@
 			<a href="#overview"><b>01</b><span data-lang="ua" class="active">Огляд</span><span data-lang="ru">Обзор</span><span data-lang="en">Overview</span></a>
 			<a href="#schema"><b>02</b><span data-lang="ua" class="active">Колонки</span><span data-lang="ru">Колонки</span><span data-lang="en">Columns</span></a>
 			<a href="#agent"><b>03</b><span data-lang="ua" class="active">Агент</span><span data-lang="ru">Агент</span><span data-lang="en">Agent</span></a>
-			<a href="#start"><b>04</b><span data-lang="ua" class="active">Start</span><span data-lang="ru">Start</span><span data-lang="en">Start</span></a>
-			<a href="#history"><b>05</b><span data-lang="ua" class="active">Історія</span><span data-lang="ru">История</span><span data-lang="en">History</span></a>
-			<a href="#errors"><b>06</b><span data-lang="ua" class="active">Помилки</span><span data-lang="ru">Ошибки</span><span data-lang="en">Errors</span></a>
+			<a href="#providers"><b>04</b><span data-lang="ua" class="active">API ключі</span><span data-lang="ru">API ключи</span><span data-lang="en">API keys</span></a>
+			<a href="#functions"><b>05</b><span data-lang="ua" class="active">Функції</span><span data-lang="ru">Функции</span><span data-lang="en">Functions</span></a>
+			<a href="#start"><b>06</b><span data-lang="ua" class="active">Start</span><span data-lang="ru">Start</span><span data-lang="en">Start</span></a>
+			<a href="#history"><b>07</b><span data-lang="ua" class="active">Історія</span><span data-lang="ru">История</span><span data-lang="en">History</span></a>
+			<a href="#errors"><b>08</b><span data-lang="ua" class="active">Помилки</span><span data-lang="ru">Ошибки</span><span data-lang="en">Errors</span></a>
 		</nav>
 	</aside>
 
 	<main class="content-area">
 		<div class="topbar">
 			<div class="topbar-title">GNB Agency · Airtable Custom App</div>
-			<a class="topbar-link" href="https://ivimudry.github.io/reports/pages/gnb/ai-caption-guide.html">Public guide</a>
 		</div>
 
 		<section class="hero">
@@ -404,8 +403,54 @@
 					</div>
 				</article>
 
+				<article class="doc-section" id="providers" data-search-block>
+					<div class="section-head"><div><div class="section-label">04 · Providers</div><h2 data-lang="ua" class="active">Як отримати API keys і поповнити акаунти</h2><h2 data-lang="ru">Как получить API keys и пополнить аккаунты</h2><h2 data-lang="en">How to get API keys and add billing</h2></div></div>
+					<p data-lang="ua" class="active">Додаток підтримує три providers: OpenAI, Gemini і Anthropic. Для кожного потрібен власний API key. Key вставляється в agent settings один раз і зберігається encrypted.</p>
+					<p data-lang="ru">Приложение поддерживает три providers: OpenAI, Gemini и Anthropic. Для каждого нужен собственный API key. Key вставляется в agent settings один раз и сохраняется encrypted.</p>
+					<p data-lang="en">The app supports three providers: OpenAI, Gemini, and Anthropic. Each provider needs its own API key. The key is pasted into agent settings once and stored encrypted.</p>
+
+					<div class="provider-grid">
+						<div class="provider-card">
+							<h3>OpenAI</h3>
+							<ol data-lang="ua" class="active"><li>Відкрий <a href="https://platform.openai.com/api-keys" target="_blank" rel="noreferrer">platform.openai.com/api-keys</a>.</li><li>Увійди в потрібний organization/project.</li><li>Натисни <strong>Create new secret key</strong>.</li><li>Скопіюй key і встав у поле <strong>API Key</strong> в agent settings.</li><li>Для поповнення відкрий <a href="https://platform.openai.com/settings/organization/billing/overview" target="_blank" rel="noreferrer">Billing</a>, додай payment method і credits/limit.</li></ol>
+							<ol data-lang="ru"><li>Открой <a href="https://platform.openai.com/api-keys" target="_blank" rel="noreferrer">platform.openai.com/api-keys</a>.</li><li>Войди в нужный organization/project.</li><li>Нажми <strong>Create new secret key</strong>.</li><li>Скопируй key и вставь в поле <strong>API Key</strong> в agent settings.</li><li>Для пополнения открой <a href="https://platform.openai.com/settings/organization/billing/overview" target="_blank" rel="noreferrer">Billing</a>, добавь payment method и credits/limit.</li></ol>
+							<ol data-lang="en"><li>Open <a href="https://platform.openai.com/api-keys" target="_blank" rel="noreferrer">platform.openai.com/api-keys</a>.</li><li>Choose the correct organization/project.</li><li>Click <strong>Create new secret key</strong>.</li><li>Copy the key into <strong>API Key</strong> in agent settings.</li><li>For billing, open <a href="https://platform.openai.com/settings/organization/billing/overview" target="_blank" rel="noreferrer">Billing</a>, add a payment method and credits/limits.</li></ol>
+						</div>
+						<div class="provider-card">
+							<h3>Gemini</h3>
+							<ol data-lang="ua" class="active"><li>Відкрий <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noreferrer">Google AI Studio API keys</a>.</li><li>Натисни <strong>Create API key</strong> і вибери Google Cloud project.</li><li>Скопіюй key у поле <strong>API Key</strong>.</li><li>Для платного використання відкрий <a href="https://console.cloud.google.com/billing" target="_blank" rel="noreferrer">Google Cloud Billing</a>, прив'яжи billing account до project і перевір quotas.</li></ol>
+							<ol data-lang="ru"><li>Открой <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noreferrer">Google AI Studio API keys</a>.</li><li>Нажми <strong>Create API key</strong> и выбери Google Cloud project.</li><li>Скопируй key в поле <strong>API Key</strong>.</li><li>Для платного использования открой <a href="https://console.cloud.google.com/billing" target="_blank" rel="noreferrer">Google Cloud Billing</a>, привяжи billing account к project и проверь quotas.</li></ol>
+							<ol data-lang="en"><li>Open <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noreferrer">Google AI Studio API keys</a>.</li><li>Click <strong>Create API key</strong> and choose a Google Cloud project.</li><li>Copy the key into <strong>API Key</strong>.</li><li>For paid usage, open <a href="https://console.cloud.google.com/billing" target="_blank" rel="noreferrer">Google Cloud Billing</a>, attach a billing account to the project, and check quotas.</li></ol>
+						</div>
+						<div class="provider-card">
+							<h3>Anthropic</h3>
+							<ol data-lang="ua" class="active"><li>Відкрий <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noreferrer">Anthropic API Keys</a>.</li><li>Створи key через <strong>Create Key</strong>.</li><li>Скопіюй key у поле <strong>API Key</strong>.</li><li>Для поповнення відкрий <a href="https://console.anthropic.com/settings/billing" target="_blank" rel="noreferrer">Billing</a>, додай payment method і credits.</li></ol>
+							<ol data-lang="ru"><li>Открой <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noreferrer">Anthropic API Keys</a>.</li><li>Создай key через <strong>Create Key</strong>.</li><li>Скопируй key в поле <strong>API Key</strong>.</li><li>Для пополнения открой <a href="https://console.anthropic.com/settings/billing" target="_blank" rel="noreferrer">Billing</a>, добавь payment method и credits.</li></ol>
+							<ol data-lang="en"><li>Open <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noreferrer">Anthropic API Keys</a>.</li><li>Create a key with <strong>Create Key</strong>.</li><li>Copy the key into <strong>API Key</strong>.</li><li>To add funds, open <a href="https://console.anthropic.com/settings/billing" target="_blank" rel="noreferrer">Billing</a>, add a payment method and credits.</li></ol>
+						</div>
+					</div>
+					<div class="warn"><strong data-lang="ua" class="active">Security:</strong><strong data-lang="ru">Security:</strong><strong data-lang="en">Security:</strong> <span data-lang="ua" class="active">не вставляй provider keys у звичайні Airtable rows, коментарі або docs. Використовуй тільки поле <strong>API Key</strong> в settings агента.</span><span data-lang="ru">не вставляй provider keys в обычные Airtable rows, комментарии или docs. Используй только поле <strong>API Key</strong> в settings агента.</span><span data-lang="en">do not paste provider keys into regular Airtable rows, comments, or docs. Use only the <strong>API Key</strong> field in agent settings.</span></div>
+				</article>
+
+				<article class="doc-section" id="functions" data-search-block>
+					<div class="section-head"><div><div class="section-label">05 · Functions</div><h2 data-lang="ua" class="active">Що робить кожна функція і як отримати потрібний результат</h2><h2 data-lang="ru">Что делает каждая функция и как получить нужный результат</h2><h2 data-lang="en">What each function does and how to get the right result</h2></div></div>
+					<div class="result-grid">
+						<div class="provider-card"><h3>Media Analysis</h3><p data-lang="ua" class="active">Перший етап generation. App читає <code>Attachments</code>, групує медіа одного row і просить AI описати, що зображено, які об'єкти, настрій, важливі деталі та що не можна вигадувати.</p><p data-lang="ru">Первый этап generation. App читает <code>Attachments</code>, группирует медиа одного row и просит AI описать, что изображено, объекты, настроение, важные детали и что нельзя выдумывать.</p><p data-lang="en">The first generation stage. The app reads <code>Attachments</code>, groups media for each row, and asks AI to describe the content, objects, mood, key details, and what must not be invented.</p></div>
+						<div class="provider-card"><h3>Caption Generation</h3><p data-lang="ua" class="active">Другий етап generation. App бере media analysis, <code>Topic</code>, Brand Voice, System Prompt, Training Data і створює caption у primary language.</p><p data-lang="ru">Второй этап generation. App берет media analysis, <code>Topic</code>, Brand Voice, System Prompt, Training Data и создает caption на primary language.</p><p data-lang="en">The second generation stage. The app uses media analysis, <code>Topic</code>, Brand Voice, System Prompt, and Training Data to create a caption in the primary language.</p></div>
+						<div class="provider-card"><h3>Caption Translation</h3><p data-lang="ua" class="active">Третій етап, якщо вибрано кілька мов або Translation mode. App бере source captions і перекладає їх batch-запитом по target language, зберігаючи сенс, CTA і формат.</p><p data-lang="ru">Третий этап, если выбрано несколько языков или Translation mode. App берет source captions и переводит их batch-запросом по target language, сохраняя смысл, CTA и формат.</p><p data-lang="en">The third stage when multiple languages or Translation mode are selected. The app translates source captions in batches per target language while preserving meaning, CTA, and format.</p></div>
+						<div class="provider-card"><h3>Existing Data Mode</h3><p data-lang="ua" class="active"><strong>Skip</strong> не чіпає вже заповнені клітинки. <strong>Regenerate</strong> перезаписує їх новим результатом. Для bulk запусків спочатку краще тестувати на Selective.</p><p data-lang="ru"><strong>Skip</strong> не трогает уже заполненные ячейки. <strong>Regenerate</strong> перезаписывает их новым результатом. Для bulk запусков сначала лучше тестировать на Selective.</p><p data-lang="en"><strong>Skip</strong> leaves filled cells untouched. <strong>Regenerate</strong> overwrites them with a new result. For bulk runs, test with Selective first.</p></div>
+					</div>
+					<table>
+						<tr><th data-lang="ua" class="active">Потрібний результат</th><th data-lang="ru">Нужный результат</th><th data-lang="en">Desired result</th><th data-lang="ua" class="active">Що налаштувати</th><th data-lang="ru">Что настроить</th><th data-lang="en">What to configure</th></tr>
+						<tr><td data-lang="ua" class="active">Коротші captions</td><td data-lang="ru">Более короткие captions</td><td data-lang="en">Shorter captions</td><td data-lang="ua" class="active">Постав <strong>Character Limit</strong> і додай правило в System Prompt.</td><td data-lang="ru">Поставь <strong>Character Limit</strong> и добавь правило в System Prompt.</td><td data-lang="en">Set <strong>Character Limit</strong> and add a rule in System Prompt.</td></tr>
+						<tr><td data-lang="ua" class="active">Більше brand tone</td><td data-lang="ru">Больше brand tone</td><td data-lang="en">More brand tone</td><td data-lang="ua" class="active">Заповни <strong>Brand Voice</strong> і дай 3-5 good examples у Training Data.</td><td data-lang="ru">Заполни <strong>Brand Voice</strong> и дай 3-5 good examples в Training Data.</td><td data-lang="en">Fill <strong>Brand Voice</strong> and add 3-5 good examples in Training Data.</td></tr>
+						<tr><td data-lang="ua" class="active">Без вигаданих фактів</td><td data-lang="ru">Без выдуманных фактов</td><td data-lang="en">No invented facts</td><td data-lang="ua" class="active">У Topic/System Prompt вкажи: використовувати тільки visible media + Topic, не додавати claims.</td><td data-lang="ru">В Topic/System Prompt укажи: использовать только visible media + Topic, не добавлять claims.</td><td data-lang="en">In Topic/System Prompt, specify: use only visible media + Topic, do not add claims.</td></tr>
+						<tr><td data-lang="ua" class="active">Точний CTA</td><td data-lang="ru">Точный CTA</td><td data-lang="en">Exact CTA</td><td data-lang="ua" class="active">Напиши CTA у <code>Topic</code>: link in bio, Discord, Kickstarter, waitlist тощо.</td><td data-lang="ru">Напиши CTA в <code>Topic</code>: link in bio, Discord, Kickstarter, waitlist и т.д.</td><td data-lang="en">Write the CTA in <code>Topic</code>: link in bio, Discord, Kickstarter, waitlist, etc.</td></tr>
+					</table>
+				</article>
+
 				<article class="doc-section" id="start" data-search-block>
-					<div class="section-head"><div><div class="section-label">04 · Start</div><h2 data-lang="ua" class="active">Як запускати генерацію або переклад</h2><h2 data-lang="ru">Как запускать генерацию или перевод</h2><h2 data-lang="en">How to run generation or translation</h2></div></div>
+					<div class="section-head"><div><div class="section-label">06 · Start</div><h2 data-lang="ua" class="active">Як запускати генерацію або переклад</h2><h2 data-lang="ru">Как запускать генерацию или перевод</h2><h2 data-lang="en">How to run generation or translation</h2></div></div>
 					<table>
 						<tr><th>Mode</th><th>Scope</th><th data-lang="ua" class="active">Коли використовувати</th><th data-lang="ru">Когда использовать</th><th data-lang="en">When to use</th></tr>
 						<tr><td><strong>Generation</strong></td><td>Bulk</td><td data-lang="ua" class="active">Коли треба заповнити багато records одразу.</td><td data-lang="ru">Когда нужно заполнить много records сразу.</td><td data-lang="en">When you need to fill many records at once.</td></tr>
@@ -417,7 +462,7 @@
 				</article>
 
 				<article class="doc-section" id="history" data-search-block>
-					<div class="section-head"><div><div class="section-label">05 · History</div><h2 data-lang="ua" class="active">Як читати історію запусків</h2><h2 data-lang="ru">Как читать историю запусков</h2><h2 data-lang="en">How to read operation history</h2></div></div>
+					<div class="section-head"><div><div class="section-label">07 · History</div><h2 data-lang="ua" class="active">Як читати історію запусків</h2><h2 data-lang="ru">Как читать историю запусков</h2><h2 data-lang="en">How to read operation history</h2></div></div>
 					<p data-lang="ua" class="active">Кожен запуск створює record в <strong>AI Agents History</strong>. Там видно status, progress, token usage, cost, successful/failed requests і окремі поля для analysis, generation та translation responses.</p>
 					<p data-lang="ru">Каждый запуск создает record в <strong>AI Agents History</strong>. Там видны status, progress, token usage, cost, successful/failed requests и отдельные поля для analysis, generation и translation responses.</p>
 					<p data-lang="en">Each run creates a record in <strong>AI Agents History</strong>. It shows status, progress, token usage, cost, successful/failed requests, and separate response fields for analysis, generation, and translation.</p>
