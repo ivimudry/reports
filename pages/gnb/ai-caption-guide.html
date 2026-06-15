@@ -291,6 +291,7 @@
 	.mock-input, .mock-select { height: 34px; padding: 0 10px; }
 	.mock-textarea { min-height: 74px; padding: 10px; line-height: 1.45; }
 	.mock-stack { display: grid; gap: 8px; }
+	.mock-stack-spaced { margin-top: 12px; }
 	.mock-flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
 	.mock-node { padding: 12px; border: 1px solid #303030; border-radius: 8px; background: #121212; }
 	.mock-node b { display: block; color: var(--brand); font-size: 11px; margin-bottom: 5px; }
@@ -435,7 +436,7 @@
 							<div class="mock-field"><label>Provider *</label><div class="mock-select">OpenAI</div></div>
 							<div class="mock-field"><label>API Key *</label><div class="mock-input">Stored encrypted key</div></div>
 							<div class="mock-field"><label>Model *</label><div class="mock-select">gpt-4.1-mini</div></div>
-							<div class="mock-stack" style="margin-top:12px"><span class="mock-btn">Cancel</span><span class="mock-btn primary">Save configuration</span></div>
+							<div class="mock-stack mock-stack-spaced"><span class="mock-btn">Cancel</span><span class="mock-btn primary">Save configuration</span></div>
 						</div>
 					</div>
 
@@ -510,7 +511,7 @@
 				</article>
 
 				<article class="doc-section" id="schema" data-search-block>
-					<div class="section-head"><div><div class="section-label">02 · Table schema</div><h2 data-lang="ua" class="active">Які колонки потрібні в робочих таблицях</h2><h2 data-lang="ru">Какие колонки нужны в рабочих таблицах</h2><h2 data-lang="en">Required columns in working tables</h2></div></div>
+					<div class="section-head"><div><div class="section-label">05 · Table schema</div><h2 data-lang="ua" class="active">Які колонки потрібні в робочих таблицях</h2><h2 data-lang="ru">Какие колонки нужны в рабочих таблицах</h2><h2 data-lang="en">Required columns in working tables</h2></div></div>
 					<table>
 						<tr><th>Column</th><th data-lang="ua" class="active">Для чого</th><th data-lang="ru">Зачем</th><th data-lang="en">Purpose</th><th data-lang="ua" class="active">Обов'язково</th><th data-lang="ru">Обязательно</th><th data-lang="en">Required</th></tr>
 						<tr><td><code>Media / Attachments</code></td><td data-lang="ua" class="active">Зображення або відео, які треба проаналізувати. Column вибирається в Source Columns.</td><td data-lang="ru">Изображения или видео, которые нужно проанализировать. Column выбирается в Source Columns.</td><td data-lang="en">Images or videos that should be analyzed. The column is selected in Source Columns.</td><td>Yes</td></tr>
@@ -525,7 +526,7 @@
 				</article>
 
 				<article class="doc-section" id="agent" data-search-block>
-					<div class="section-head"><div><div class="section-label">03 · Agent setup</div><h2 data-lang="ua" class="active">Як створити агента</h2><h2 data-lang="ru">Как создать агента</h2><h2 data-lang="en">How to create an agent</h2></div></div>
+					<div class="section-head"><div><div class="section-label">06 · Agent setup</div><h2 data-lang="ua" class="active">Як створити агента</h2><h2 data-lang="ru">Как создать агента</h2><h2 data-lang="en">How to create an agent</h2></div></div>
 					<div class="steps">
 						<div class="step"><div class="step-num">1</div><div><h3>Add Agent</h3><p data-lang="ua" class="active">Натисни <strong>Add Agent</strong>, введи назву агента й відкрий settings. Щоб зробити копію з тими самими settings, відкрий agent profile і натисни <strong>Duplicate</strong>; app створить новий Agent ID і додасть до назви <code>(1)</code>, <code>(2)</code> тощо. Operation history не копіюється.</p><p data-lang="ru">Нажми <strong>Add Agent</strong>, введи название агента и открой settings. Чтобы сделать копию с теми же settings, открой agent profile и нажми <strong>Duplicate</strong>; app создаст новый Agent ID и добавит к названию <code>(1)</code>, <code>(2)</code> и т.д. Operation history не копируется.</p><p data-lang="en">Click <strong>Add Agent</strong>, enter an agent name, and open settings. To copy the same settings, open the agent profile and click <strong>Duplicate</strong>; the app creates a new Agent ID and adds <code>(1)</code>, <code>(2)</code>, etc. to the name. Operation history is not copied.</p></div></div>
 						<div class="step"><div class="step-num">2</div><div><h3>Provider, API Key, Model</h3><p data-lang="ua" class="active">Вибери OpenAI, Gemini або Anthropic. API key шифрується в settings table; після збереження його не треба вводити повторно.</p><p data-lang="ru">Выбери OpenAI, Gemini или Anthropic. API key шифруется в settings table; после сохранения его не нужно вводить повторно.</p><p data-lang="en">Choose OpenAI, Gemini, or Anthropic. The API key is encrypted in the settings table and does not need to be re-entered after saving.</p></div></div>
@@ -538,7 +539,7 @@
 				</article>
 
 				<article class="doc-section" id="providers" data-search-block>
-					<div class="section-head"><div><div class="section-label">04 · Providers</div><h2 data-lang="ua" class="active">Як отримати API keys і поповнити акаунти</h2><h2 data-lang="ru">Как получить API keys и пополнить аккаунты</h2><h2 data-lang="en">How to get API keys and add billing</h2></div></div>
+					<div class="section-head"><div><div class="section-label">07 · Providers</div><h2 data-lang="ua" class="active">Як отримати API keys і поповнити акаунти</h2><h2 data-lang="ru">Как получить API keys и пополнить аккаунты</h2><h2 data-lang="en">How to get API keys and add billing</h2></div></div>
 					<p data-lang="ua" class="active">Додаток підтримує три providers: OpenAI, Gemini і Anthropic. Для кожного потрібен власний API key. Key вставляється в agent settings один раз і зберігається encrypted.</p>
 					<p data-lang="ru">Приложение поддерживает три providers: OpenAI, Gemini и Anthropic. Для каждого нужен собственный API key. Key вставляется в agent settings один раз и сохраняется encrypted.</p>
 					<p data-lang="en">The app supports three providers: OpenAI, Gemini, and Anthropic. Each provider needs its own API key. The key is pasted into agent settings once and stored encrypted.</p>
@@ -567,7 +568,7 @@
 				</article>
 
 				<article class="doc-section" id="functions" data-search-block>
-					<div class="section-head"><div><div class="section-label">05 · Functions</div><h2 data-lang="ua" class="active">Що робить кожна функція і як отримати потрібний результат</h2><h2 data-lang="ru">Что делает каждая функция и как получить нужный результат</h2><h2 data-lang="en">What each function does and how to get the right result</h2></div></div>
+					<div class="section-head"><div><div class="section-label">08 · Functions</div><h2 data-lang="ua" class="active">Що робить кожна функція і як отримати потрібний результат</h2><h2 data-lang="ru">Что делает каждая функция и как получить нужный результат</h2><h2 data-lang="en">What each function does and how to get the right result</h2></div></div>
 					<div class="result-grid">
 						<div class="provider-card"><h3>Media Analysis</h3><p data-lang="ua" class="active">Перший етап generation. App читає <code>Attachments</code>, групує медіа одного row і просить AI описати, що зображено, які об'єкти, настрій, важливі деталі та що не можна вигадувати.</p><p data-lang="ru">Первый этап generation. App читает <code>Attachments</code>, группирует медиа одного row и просит AI описать, что изображено, объекты, настроение, важные детали и что нельзя выдумывать.</p><p data-lang="en">The first generation stage. The app reads <code>Attachments</code>, groups media for each row, and asks AI to describe the content, objects, mood, key details, and what must not be invented.</p></div>
 						<div class="provider-card"><h3>Caption Generation</h3><p data-lang="ua" class="active">Другий етап generation. App бере media analysis, <code>Topic</code>, Brand Voice, System Prompt, Training Data і створює caption у primary language.</p><p data-lang="ru">Второй этап generation. App берет media analysis, <code>Topic</code>, Brand Voice, System Prompt, Training Data и создает caption на primary language.</p><p data-lang="en">The second generation stage. The app uses media analysis, <code>Topic</code>, Brand Voice, System Prompt, and Training Data to create a caption in the primary language.</p></div>
@@ -585,7 +586,7 @@
 				</article>
 
 				<article class="doc-section" id="start" data-search-block>
-					<div class="section-head"><div><div class="section-label">06 · Start</div><h2 data-lang="ua" class="active">Як запускати генерацію, регенерацію або переклад</h2><h2 data-lang="ru">Как запускать генерацию, регенерацию или перевод</h2><h2 data-lang="en">How to run generation, regeneration, or translation</h2></div></div>
+					<div class="section-head"><div><div class="section-label">09 · Start</div><h2 data-lang="ua" class="active">Як запускати генерацію, регенерацію або переклад</h2><h2 data-lang="ru">Как запускать генерацию, регенерацию или перевод</h2><h2 data-lang="en">How to run generation, regeneration, or translation</h2></div></div>
 					<div class="success"><strong data-lang="ua" class="active">Required agent settings:</strong><strong data-lang="ru">Required agent settings:</strong><strong data-lang="en">Required agent settings:</strong> <span data-lang="ua" class="active">Agent Name, Provider, API Key, Model, Tables, Language column binding і Attachments column binding. Якщо Hashtags увімкнені як Separate column, Hashtags column теж required.</span><span data-lang="ru">Agent Name, Provider, API Key, Model, Tables, Language column binding и Attachments column binding. Если Hashtags включены как Separate column, Hashtags column тоже required.</span><span data-lang="en">Agent Name, Provider, API Key, Model, Tables, Language column binding, and Attachments column binding. If Hashtags are enabled as Separate column, Hashtags column is also required.</span></div>
 					<table>
 						<tr><th>Mode</th><th>Scope</th><th data-lang="ua" class="active">Коли використовувати</th><th data-lang="ru">Когда использовать</th><th data-lang="en">When to use</th></tr>
@@ -600,7 +601,7 @@
 				</article>
 
 				<article class="doc-section" id="history" data-search-block>
-					<div class="section-head"><div><div class="section-label">07 · History</div><h2 data-lang="ua" class="active">Як читати історію запусків</h2><h2 data-lang="ru">Как читать историю запусков</h2><h2 data-lang="en">How to read operation history</h2></div></div>
+					<div class="section-head"><div><div class="section-label">10 · History</div><h2 data-lang="ua" class="active">Як читати історію запусків</h2><h2 data-lang="ru">Как читать историю запусков</h2><h2 data-lang="en">How to read operation history</h2></div></div>
 					<p data-lang="ua" class="active">Історія доступна в agent profile через кнопку <strong>Operations</strong>. Там видно status, progress, token usage, cost, successful/failed requests, operation details і raw responses для analysis, generation та translation.</p>
 					<p data-lang="ru">История доступна в agent profile через кнопку <strong>Operations</strong>. Там видны status, progress, token usage, cost, successful/failed requests, operation details и raw responses для analysis, generation и translation.</p>
 					<p data-lang="en">History is available from the agent profile through <strong>Operations</strong>. It shows status, progress, token usage, cost, successful/failed requests, operation details, and raw responses for analysis, generation, and translation.</p>
