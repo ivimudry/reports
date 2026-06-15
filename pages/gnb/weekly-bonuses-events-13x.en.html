@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Weekly Bonuses Events 13.x (EN)</title>
+  <title>Weekly Bonuses Event 13.x (EN)</title>
   <style>
     html {
       color: #1a1a1a;
@@ -129,157 +129,196 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Weekly Bonuses Events 13.x (EN)</h1>
+<h1 class="title">Weekly Bonuses Event 13.x (EN)</h1>
 </header>
-<h1 id="chill4reel-weekly-bonuses-events-13x-en">Chill4Reel — Weekly Bonuses Events 13.x (EN)</h1>
-<p><strong>Purpose:</strong> define the event-based trigger model for Weekly Bonuses campaigns 13.1–13.7. Each campaign receives its own scheduled weekly event. The event is sent to all existing users, and all eligibility, suppression, bonus-state, consent, and campaign-specific checks are handled inside the chain.</p>
+<h1 id="chill4reel-weekly-bonuses-event-13x-en">Chill4Reel — Weekly Bonuses Event 13.x (EN)</h1>
+<p><strong>Purpose:</strong> define a single recurring event model for Weekly Bonuses campaigns 13.1–13.7. All weekly bonus sends use one event, <code>weekly_bonuses</code>. The specific weekly campaign is selected by the event attribute <code>bonus_type</code>.</p>
 <hr />
 <h2 id="0-executive-summary">0. Executive summary</h2>
-<p>The current Weekly Bonuses block can be moved to a simple event-triggered model. Instead of relying on manually targeted sends or separate audience pushes per weekly promo, a scheduler emits one dedicated event for each campaign on its fixed weekly cadence.</p>
-<p><strong>Core rule:</strong> the scheduler does not decide who should receive the message. It sends the weekly event to all existing users. The campaign chain then filters users through its own conditions before sending Email, Push, SMS, In-App, or any follow-up step.</p>
+<p>The Weekly Bonuses block should use one shared event trigger instead of separate events per weekday. A scheduler sends <code>weekly_bonuses</code> to all existing users on the configured weekly schedule. The event carries one required attribute: <code>bonus_type</code>.</p>
+<p><strong>Core rule:</strong> the scheduler does not decide eligibility. It sends the event to all existing users. The chain then filters users by <code>bonus_type</code>, global suppressions, active bonus state, consent, channel availability, and campaign-specific rules.</p>
 <table>
 <thead>
 <tr>
 <th>Campaign</th>
 <th>Event</th>
+<th><code>bonus_type</code></th>
 <th>Schedule</th>
 <th>Recurrence</th>
-<th>Audience logic</th>
+<th>Chain logic</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>13.1 Monday Happy Spins</strong></td>
+<td><code>weekly_bonuses</code></td>
 <td><code>monday_weekly</code></td>
 <td>Sunday, 8:00 PM</td>
 <td>Every week</td>
-<td>Event sent to all existing users; chain filters after trigger</td>
+<td>Continue only when <code>bonus_type == "monday_weekly"</code></td>
 </tr>
 <tr>
 <td><strong>13.2 Tuesday New Games Quest</strong></td>
+<td><code>weekly_bonuses</code></td>
 <td><code>tuesday_weekly</code></td>
 <td>Tuesday, 9:00 AM</td>
 <td>Every week</td>
-<td>Event sent to all existing users; chain filters after trigger</td>
+<td>Continue only when <code>bonus_type == "tuesday_weekly"</code></td>
 </tr>
 <tr>
 <td><strong>13.3 Wednesday Midweek Reload</strong></td>
+<td><code>weekly_bonuses</code></td>
 <td><code>wednesday_weekly</code></td>
 <td>Wednesday, 9:00 AM</td>
 <td>Every week</td>
-<td>Event sent to all existing users; chain filters after trigger</td>
+<td>Continue only when <code>bonus_type == "wednesday_weekly"</code></td>
 </tr>
 <tr>
 <td><strong>13.4 Thursday X-Win Quest</strong></td>
+<td><code>weekly_bonuses</code></td>
 <td><code>thursday_weekly</code></td>
 <td>Thursday, 9:00 AM</td>
 <td>Every week</td>
-<td>Event sent to all existing users; chain filters after trigger</td>
+<td>Continue only when <code>bonus_type == "thursday_weekly"</code></td>
 </tr>
 <tr>
 <td><strong>13.5 Friday Weekend Kickoff</strong></td>
+<td><code>weekly_bonuses</code></td>
 <td><code>friday_weekly</code></td>
 <td>Friday, 9:00 AM</td>
 <td>Every week</td>
-<td>Event sent to all existing users; chain filters after trigger</td>
+<td>Continue only when <code>bonus_type == "friday_weekly"</code></td>
 </tr>
 <tr>
 <td><strong>13.6 Saturday Spin Drop</strong></td>
+<td><code>weekly_bonuses</code></td>
 <td><code>saturday_weekly</code></td>
 <td>Saturday, 10:00 AM</td>
 <td>Every week</td>
-<td>Event sent to all existing users; chain filters after trigger</td>
+<td>Continue only when <code>bonus_type == "saturday_weekly"</code></td>
 </tr>
 <tr>
 <td><strong>13.7 Sunday Cashback</strong></td>
+<td><code>weekly_bonuses</code></td>
 <td><code>sunday_weekly</code></td>
 <td>Sunday, 6:00 PM</td>
 <td>Every week</td>
-<td>Event sent to all existing users; chain filters after trigger</td>
+<td>Continue only when <code>bonus_type == "sunday_weekly"</code></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h2 id="1-event-logic">1. Event logic</h2>
-<p>All 7 weekly campaigns use the same operating model:</p>
+<p>All 13.x weekly campaigns use the same operating model:</p>
 <ol type="1">
-<li>The scheduler emits one dedicated event for the specific weekly campaign.</li>
+<li>The scheduler emits <code>weekly_bonuses</code> on the configured weekday and time.</li>
+<li>The event includes <code>bonus_type</code> to identify the weekly campaign variant.</li>
 <li>The event is sent to all existing users in the workspace.</li>
 <li>The campaign chain listens to that event as its trigger.</li>
-<li>The first steps inside the chain apply all eligibility and suppression checks.</li>
+<li>The first branch inside the chain checks <code>bonus_type</code> and routes users to the matching 13.x campaign path.</li>
+<li>The chain then applies all eligibility and suppression checks.</li>
 <li>Only users who pass the chain filters continue to receive campaign messages.</li>
-<li>The event repeats every week on the same weekday and time.</li>
 </ol>
 <blockquote>
-<p><strong>Important:</strong> event delivery and audience qualification are separate. The scheduler sends the event broadly; the chain decides who is allowed to continue.</p>
+<p><strong>Important:</strong> <code>monday_weekly</code>, <code>tuesday_weekly</code>, and the other weekday values are not separate event names. They are values of <code>bonus_type</code> inside the shared <code>weekly_bonuses</code> event.</p>
 </blockquote>
 <hr />
-<h2 id="2-event-definitions">2. Event definitions</h2>
+<h2 id="2-event-contract">2. Event contract</h2>
 <table>
 <thead>
 <tr>
-<th>Event name</th>
-<th>Campaign mapping</th>
-<th>Trigger owner</th>
+<th>Field</th>
+<th>Value</th>
+<th>Required</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Event name</td>
+<td><code>weekly_bonuses</code></td>
+<td>Yes</td>
+<td>Single event used by all Weekly Bonuses campaigns 13.1–13.7</td>
+</tr>
+<tr>
+<td>Event attribute</td>
+<td><code>bonus_type</code></td>
+<td>Yes</td>
+<td>Identifies which weekly campaign path should continue inside the chain</td>
+</tr>
+<tr>
+<td>Audience</td>
+<td>All existing users</td>
+<td>Yes</td>
+<td>No pre-filtering in the scheduler</td>
+</tr>
+<tr>
+<td>Owner</td>
+<td>Backend scheduler or CIO-compatible orchestration layer</td>
+<td>Yes</td>
+<td>Any system that can send Customer.io events on a weekly cadence</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-bonus-type-values-and-schedule">3. <code>bonus_type</code> values and schedule</h2>
+<table>
+<thead>
+<tr>
+<th><code>bonus_type</code></th>
+<th>Campaign path</th>
 <th>Schedule</th>
-<th>Payload</th>
+<th>Recurrence</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>monday_weekly</code></td>
 <td>13.1 Monday Happy Spins</td>
-<td>Scheduler / orchestration layer</td>
-<td>Every Sunday at 8:00 PM</td>
-<td>Standard weekly payload</td>
+<td>Sunday, 8:00 PM</td>
+<td>Every week</td>
 </tr>
 <tr>
 <td><code>tuesday_weekly</code></td>
 <td>13.2 Tuesday New Games Quest</td>
-<td>Scheduler / orchestration layer</td>
-<td>Every Tuesday at 9:00 AM</td>
-<td>Standard weekly payload</td>
+<td>Tuesday, 9:00 AM</td>
+<td>Every week</td>
 </tr>
 <tr>
 <td><code>wednesday_weekly</code></td>
 <td>13.3 Wednesday Midweek Reload</td>
-<td>Scheduler / orchestration layer</td>
-<td>Every Wednesday at 9:00 AM</td>
-<td>Standard weekly payload</td>
+<td>Wednesday, 9:00 AM</td>
+<td>Every week</td>
 </tr>
 <tr>
 <td><code>thursday_weekly</code></td>
 <td>13.4 Thursday X-Win Quest</td>
-<td>Scheduler / orchestration layer</td>
-<td>Every Thursday at 9:00 AM</td>
-<td>Standard weekly payload</td>
+<td>Thursday, 9:00 AM</td>
+<td>Every week</td>
 </tr>
 <tr>
 <td><code>friday_weekly</code></td>
 <td>13.5 Friday Weekend Kickoff</td>
-<td>Scheduler / orchestration layer</td>
-<td>Every Friday at 9:00 AM</td>
-<td>Standard weekly payload</td>
+<td>Friday, 9:00 AM</td>
+<td>Every week</td>
 </tr>
 <tr>
 <td><code>saturday_weekly</code></td>
 <td>13.6 Saturday Spin Drop</td>
-<td>Scheduler / orchestration layer</td>
-<td>Every Saturday at 10:00 AM</td>
-<td>Standard weekly payload</td>
+<td>Saturday, 10:00 AM</td>
+<td>Every week</td>
 </tr>
 <tr>
 <td><code>sunday_weekly</code></td>
 <td>13.7 Sunday Cashback</td>
-<td>Scheduler / orchestration layer</td>
-<td>Every Sunday at 6:00 PM</td>
-<td>Standard weekly payload</td>
+<td>Sunday, 6:00 PM</td>
+<td>Every week</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="3-standard-weekly-payload">3. Standard weekly payload</h2>
-<p>Each event should use the same payload shape. The event name identifies the campaign, while the payload gives enough context for reporting, debugging, and downstream Liquid logic if needed.</p>
+<h2 id="4-minimal-event-payload">4. Minimal event payload</h2>
+<p>The only required event attribute is <code>bonus_type</code>. Additional metadata is optional and should be added only if it is needed for reporting or debugging.</p>
 <table>
 <thead>
 <tr>
@@ -291,40 +330,16 @@
 </thead>
 <tbody>
 <tr>
-<td><code>campaign_id</code></td>
+<td><code>bonus_type</code></td>
 <td>string</td>
 <td>Yes</td>
-<td>Campaign number, for example <code>13.1</code>, <code>13.2</code>, <code>13.7</code></td>
-</tr>
-<tr>
-<td><code>campaign_name</code></td>
-<td>string</td>
-<td>Yes</td>
-<td>Human-readable campaign name, for example <code>Monday Happy Spins</code></td>
-</tr>
-<tr>
-<td><code>weekly_event</code></td>
-<td>string</td>
-<td>Yes</td>
-<td>Same value as the event name, for example <code>monday_weekly</code></td>
+<td>One of the allowed values listed in section 3</td>
 </tr>
 <tr>
 <td><code>scheduled_for</code></td>
 <td>timestamp</td>
-<td>Yes</td>
-<td>Scheduled send timestamp in the agreed campaign timezone</td>
-</tr>
-<tr>
-<td><code>weekday</code></td>
-<td>string</td>
-<td>Yes</td>
-<td>Calendar day used by the scheduler, for example <code>sunday</code>, <code>tuesday</code>, <code>wednesday</code></td>
-</tr>
-<tr>
-<td><code>weekly_batch_id</code></td>
-<td>string</td>
-<td>Yes</td>
-<td>Unique ID for one weekly send batch; used for dedupe and reporting</td>
+<td>No</td>
+<td>Optional scheduler timestamp if needed for reporting</td>
 </tr>
 <tr>
 <td><code>source</code></td>
@@ -335,8 +350,8 @@
 </tbody>
 </table>
 <hr />
-<h2 id="4-chain-filtering-model">4. Chain filtering model</h2>
-<p>Every 13.x campaign should treat the weekly event as a broad trigger, then immediately apply its own filters inside the chain.</p>
+<h2 id="5-chain-filtering-model">5. Chain filtering model</h2>
+<p>The shared <code>weekly_bonuses</code> event should be treated as a broad trigger. The chain must immediately route and filter users after the event is received.</p>
 <table>
 <thead>
 <tr>
@@ -346,6 +361,11 @@
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><strong>Weekly route</strong></td>
+<td>Inside campaign chain</td>
+<td>Continue only through the path matching <code>event.bonus_type</code></td>
+</tr>
 <tr>
 <td><strong>Global suppression</strong></td>
 <td>Inside campaign chain</td>
@@ -374,10 +394,10 @@
 </tbody>
 </table>
 <blockquote>
-<p><strong>Implementation note:</strong> the scheduler should not pre-filter the audience. Keeping the scheduler broad makes the weekly event contract simple and moves all business logic into CIO, where campaign behavior is visible and editable.</p>
+<p><strong>Implementation note:</strong> the scheduler should not pre-filter the audience. It should only send <code>weekly_bonuses</code> with the correct <code>bonus_type</code>. All business logic stays inside CIO.</p>
 </blockquote>
 <hr />
-<h2 id="5-scheduling-rules">5. Scheduling rules</h2>
+<h2 id="6-scheduling-rules">6. Scheduling rules</h2>
 <table>
 <thead>
 <tr>
@@ -392,11 +412,11 @@
 </tr>
 <tr>
 <td><strong>Delivery model</strong></td>
-<td>One event push per campaign, per week, sent to every existing user profile</td>
+<td>One <code>weekly_bonuses</code> event push per weekly schedule, sent to every existing user profile</td>
 </tr>
 <tr>
 <td><strong>Recurrence</strong></td>
-<td>Weekly, same weekday and time</td>
+<td>Weekly, using the schedule tied to the selected <code>bonus_type</code></td>
 </tr>
 <tr>
 <td><strong>Event ownership</strong></td>
@@ -409,7 +429,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="6-qa-checklist">6. QA checklist</h2>
+<h2 id="7-qa-checklist">7. QA checklist</h2>
 <table>
 <thead>
 <tr>
@@ -419,24 +439,24 @@
 </thead>
 <tbody>
 <tr>
-<td>Each 13.x campaign has exactly one dedicated weekly event</td>
-<td>7 events total: <code>monday_weekly</code> through <code>sunday_weekly</code></td>
+<td>Only one event name is used</td>
+<td>All weekly campaigns trigger from <code>weekly_bonuses</code></td>
 </tr>
 <tr>
-<td>Each event is sent on its configured weekly schedule</td>
-<td>Scheduler fires once per week per campaign</td>
+<td><code>bonus_type</code> is present on every event</td>
+<td>Every event includes one allowed value from section 3</td>
 </tr>
 <tr>
 <td>Event is sent to all existing users</td>
 <td>No audience filtering in the scheduler</td>
 </tr>
 <tr>
-<td>Campaign chain filters users after trigger</td>
-<td>Only users passing suppression, consent, and campaign rules continue</td>
+<td>Campaign chain routes by <code>bonus_type</code></td>
+<td>Only the matching 13.x path continues for each weekly send</td>
 </tr>
 <tr>
-<td><code>weekly_batch_id</code> is unique per weekly send</td>
-<td>Reporting and dedupe can identify each weekly run</td>
+<td>Campaign chain filters users after routing</td>
+<td>Only users passing suppression, consent, bonus-state, and campaign rules continue</td>
 </tr>
 <tr>
 <td>No changes are required to unrelated campaigns</td>
