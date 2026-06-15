@@ -391,10 +391,10 @@
 			<section class="tab-panel active" data-tab="guide">
 				<article class="doc-section" id="overview" data-search-block>
 					<div class="section-head"><div><div class="section-label">01 · Overview</div><h2 data-lang="ua" class="active">Що робить додаток</h2><h2 data-lang="ru">Что делает приложение</h2><h2 data-lang="en">What the app does</h2></div><span class="pill brand">AI Caption Agents</span></div>
-					<p data-lang="ua" class="active">Додаток створює caption для Airtable records на основі attachments і topic. Він може генерувати primary language captions, перекладати їх на інші мови, працювати масово або по вибраних рядках, а також записувати детальний history log.</p>
-					<p data-lang="ru">Приложение создает caption для Airtable records на основе attachments и topic. Оно может генерировать primary language captions, переводить их на другие языки, работать массово или по выбранным строкам, а также записывать детальный history log.</p>
-					<p data-lang="en">The app creates captions for Airtable records using attachments and topic context. It can generate primary-language captions, translate them into additional languages, run in bulk or selective mode, and store detailed history logs.</p>
-					<div class="kbd-row"><span class="pill">OpenAI</span><span class="pill">Gemini</span><span class="pill">Anthropic</span><span class="pill">Generation</span><span class="pill">Translation</span><span class="pill">Bulk</span><span class="pill">Selective</span></div>
+					<p data-lang="ua" class="active">Додаток створює caption для Airtable records на основі attachments і topic. Він може генерувати primary language captions, перегенеровувати їх із correction prompt, перекладати на інші мови, працювати масово або по вибраних рядках, а також записувати детальний history log.</p>
+					<p data-lang="ru">Приложение создает caption для Airtable records на основе attachments и topic. Оно может генерировать primary language captions, перегенерировать их с correction prompt, переводить на другие языки, работать массово или по выбранным строкам, а также записывать детальный history log.</p>
+					<p data-lang="en">The app creates captions for Airtable records using attachments and topic context. It can generate primary-language captions, regenerate them with a correction prompt, translate them into additional languages, run in bulk or selective mode, and store detailed history logs.</p>
+					<div class="kbd-row"><span class="pill">OpenAI</span><span class="pill">Gemini</span><span class="pill">Anthropic</span><span class="pill">Generation</span><span class="pill">Regeneration</span><span class="pill">Translation</span><span class="pill">Bulk</span><span class="pill">Selective</span></div>
 				</article>
 
 				<article class="doc-section" id="schema" data-search-block>
@@ -453,6 +453,7 @@
 						<div class="provider-card"><h3>Media Analysis</h3><p data-lang="ua" class="active">Перший етап generation. App читає <code>Attachments</code>, групує медіа одного row і просить AI описати, що зображено, які об'єкти, настрій, важливі деталі та що не можна вигадувати.</p><p data-lang="ru">Первый этап generation. App читает <code>Attachments</code>, группирует медиа одного row и просит AI описать, что изображено, объекты, настроение, важные детали и что нельзя выдумывать.</p><p data-lang="en">The first generation stage. The app reads <code>Attachments</code>, groups media for each row, and asks AI to describe the content, objects, mood, key details, and what must not be invented.</p></div>
 						<div class="provider-card"><h3>Caption Generation</h3><p data-lang="ua" class="active">Другий етап generation. App бере media analysis, <code>Topic</code>, Brand Voice, System Prompt, Training Data і створює caption у primary language.</p><p data-lang="ru">Второй этап generation. App берет media analysis, <code>Topic</code>, Brand Voice, System Prompt, Training Data и создает caption на primary language.</p><p data-lang="en">The second generation stage. The app uses media analysis, <code>Topic</code>, Brand Voice, System Prompt, and Training Data to create a caption in the primary language.</p></div>
 						<div class="provider-card"><h3>Caption Translation</h3><p data-lang="ua" class="active">Третій етап, якщо вибрано кілька мов або Translation mode. App бере source captions і перекладає їх batch-запитом по target language, зберігаючи сенс, CTA і формат.</p><p data-lang="ru">Третий этап, если выбрано несколько языков или Translation mode. App берет source captions и переводит их batch-запросом по target language, сохраняя смысл, CTA и формат.</p><p data-lang="en">The third stage when multiple languages or Translation mode are selected. The app translates source captions in batches per target language while preserving meaning, CTA, and format.</p></div>
+						<div class="provider-card"><h3>Regeneration</h3><p data-lang="ua" class="active">Режим для переписування вже створених captions. Він працює як Generation, але додає correction prompt у media analysis, caption generation і translation prompts, якщо вибрано кілька мов.</p><p data-lang="ru">Режим для переписывания уже созданных captions. Он работает как Generation, но добавляет correction prompt в media analysis, caption generation и translation prompts, если выбрано несколько языков.</p><p data-lang="en">A mode for rewriting existing captions. It behaves like Generation, but adds the correction prompt to media analysis, caption generation, and translation prompts when multiple languages are selected.</p></div>
 						<div class="provider-card"><h3>Existing Data Mode</h3><p data-lang="ua" class="active"><strong>Skip</strong> не чіпає вже заповнені клітинки. <strong>Regenerate</strong> перезаписує їх новим результатом. Для bulk запусків спочатку краще тестувати на Selective.</p><p data-lang="ru"><strong>Skip</strong> не трогает уже заполненные ячейки. <strong>Regenerate</strong> перезаписывает их новым результатом. Для bulk запусков сначала лучше тестировать на Selective.</p><p data-lang="en"><strong>Skip</strong> leaves filled cells untouched. <strong>Regenerate</strong> overwrites them with a new result. For bulk runs, test with Selective first.</p></div>
 					</div>
 					<table>
@@ -465,14 +466,16 @@
 				</article>
 
 				<article class="doc-section" id="start" data-search-block>
-					<div class="section-head"><div><div class="section-label">06 · Start</div><h2 data-lang="ua" class="active">Як запускати генерацію або переклад</h2><h2 data-lang="ru">Как запускать генерацию или перевод</h2><h2 data-lang="en">How to run generation or translation</h2></div></div>
+					<div class="section-head"><div><div class="section-label">06 · Start</div><h2 data-lang="ua" class="active">Як запускати генерацію, регенерацію або переклад</h2><h2 data-lang="ru">Как запускать генерацию, регенерацию или перевод</h2><h2 data-lang="en">How to run generation, regeneration, or translation</h2></div></div>
 					<table>
 						<tr><th>Mode</th><th>Scope</th><th data-lang="ua" class="active">Коли використовувати</th><th data-lang="ru">Когда использовать</th><th data-lang="en">When to use</th></tr>
 						<tr><td><strong>Generation</strong></td><td>Bulk</td><td data-lang="ua" class="active">Коли треба заповнити багато records одразу.</td><td data-lang="ru">Когда нужно заполнить много records сразу.</td><td data-lang="en">When you need to fill many records at once.</td></tr>
 						<tr><td><strong>Generation</strong></td><td>Selective</td><td data-lang="ua" class="active">Коли треба обробити тільки конкретні рядки.</td><td data-lang="ru">Когда нужно обработать только конкретные строки.</td><td data-lang="en">When you only want specific rows.</td></tr>
+						<tr><td><strong>Regeneration</strong></td><td>Bulk / Selective</td><td data-lang="ua" class="active">Коли captions уже є, але їх треба переписати за конкретним correction prompt.</td><td data-lang="ru">Когда captions уже есть, но их нужно переписать по конкретному correction prompt.</td><td data-lang="en">When captions already exist but must be rewritten with a specific correction prompt.</td></tr>
 						<tr><td><strong>Translation</strong></td><td>Bulk</td><td data-lang="ua" class="active">Коли primary captions вже є, і треба перекласти їх у target languages.</td><td data-lang="ru">Когда primary captions уже есть, и нужно перевести их в target languages.</td><td data-lang="en">When primary captions already exist and need target-language translations.</td></tr>
 						<tr><td><strong>Translation</strong></td><td>Selective</td><td data-lang="ua" class="active">Коли треба перекласти тільки вибрані рядки.</td><td data-lang="ru">Когда нужно перевести только выбранные строки.</td><td data-lang="en">When only selected rows need translation.</td></tr>
 					</table>
+					<div class="note"><strong>Regeneration:</strong> <span data-lang="ua" class="active">поле <strong>What should be fixed?</strong> описує, що не так із captions: тон, довжина, CTA, повтори, стиль, заборонені формулювання. Для цього mode app автоматично використовує overwrite behavior.</span><span data-lang="ru">поле <strong>What should be fixed?</strong> описывает, что не так с captions: тон, длина, CTA, повторы, стиль, запрещенные формулировки. Для этого mode app автоматически использует overwrite behavior.</span><span data-lang="en">the <strong>What should be fixed?</strong> field describes what is wrong with the captions: tone, length, CTA, repetition, style, or blocked wording. This mode automatically uses overwrite behavior.</span></div>
 					<div class="success"><strong data-lang="ua" class="active">Token saving:</strong><strong data-lang="ru">Экономия токенов:</strong><strong data-lang="en">Token saving:</strong> <span data-lang="ua" class="active">переклад робиться batch-запитом по кожній target language, а не окремим запитом на кожну клітинку.</span><span data-lang="ru">перевод выполняется batch-запросом по каждому target language, а не отдельным запросом на каждую ячейку.</span><span data-lang="en">translation is performed as one batch request per target language, not one request per cell.</span></div>
 				</article>
 
@@ -486,22 +489,30 @@
 			</section>
 
 			<section class="tab-panel" data-tab="workflows">
-				<article class="doc-section" data-search-block>
+				<article class="doc-section" id="workflow-generation" data-search-block>
 					<div class="section-head"><div><div class="section-label">Workflow A</div><h2 data-lang="ua" class="active">Нові captions з attachments</h2><h2 data-lang="ru">Новые captions из attachments</h2><h2 data-lang="en">New captions from attachments</h2></div></div>
 					<ol data-lang="ua" class="active"><li>Перевір, що в table є <code>Attachments</code>, <code>Topic</code> і caption columns.</li><li>В agent settings вибери primary language і output column.</li><li>Натисни <strong>Start</strong>, вибери <strong>Generation</strong> і <strong>Bulk</strong> або <strong>Selective</strong>.</li><li>Вибери tables/views, languages і existing-data mode.</li><li>Натисни <strong>Start</strong> і дивись progress.</li></ol>
 					<ol data-lang="ru"><li>Проверь, что в table есть <code>Attachments</code>, <code>Topic</code> и caption columns.</li><li>В agent settings выбери primary language и output column.</li><li>Нажми <strong>Start</strong>, выбери <strong>Generation</strong> и <strong>Bulk</strong> или <strong>Selective</strong>.</li><li>Выбери tables/views, languages и existing-data mode.</li><li>Нажми <strong>Start</strong> и смотри progress.</li></ol>
 					<ol data-lang="en"><li>Check that the table has <code>Attachments</code>, <code>Topic</code>, and caption columns.</li><li>In agent settings, choose the primary language and output column.</li><li>Click <strong>Start</strong>, then choose <strong>Generation</strong> and <strong>Bulk</strong> or <strong>Selective</strong>.</li><li>Select tables/views, languages, and existing-data mode.</li><li>Click <strong>Start</strong> and watch progress.</li></ol>
 				</article>
 
-				<article class="doc-section" data-search-block>
+				<article class="doc-section" id="workflow-translation" data-search-block>
 					<div class="section-head"><div><div class="section-label">Workflow B</div><h2 data-lang="ua" class="active">Переклад вже готових captions</h2><h2 data-lang="ru">Перевод уже готовых captions</h2><h2 data-lang="en">Translate existing captions</h2></div></div>
 					<ol data-lang="ua" class="active"><li>Переконайся, що source language column вже має captions.</li><li>Натисни <strong>Start</strong> і вибери <strong>Translation</strong>.</li><li>Вибери source language і одну або кілька target languages.</li><li>Вибери <strong>Bulk</strong> для всіх рядків або <strong>Selective</strong> для конкретних.</li><li>Запусти. Додаток зробить batch translation по кожній target language.</li></ol>
 					<ol data-lang="ru"><li>Убедись, что source language column уже содержит captions.</li><li>Нажми <strong>Start</strong> и выбери <strong>Translation</strong>.</li><li>Выбери source language и один или несколько target languages.</li><li>Выбери <strong>Bulk</strong> для всех строк или <strong>Selective</strong> для конкретных.</li><li>Запусти. Приложение выполнит batch translation по каждому target language.</li></ol>
 					<ol data-lang="en"><li>Make sure the source language column already contains captions.</li><li>Click <strong>Start</strong> and choose <strong>Translation</strong>.</li><li>Choose source language and one or more target languages.</li><li>Choose <strong>Bulk</strong> for all rows or <strong>Selective</strong> for specific rows.</li><li>Run it. The app performs batch translation per target language.</li></ol>
 				</article>
 
-				<article class="doc-section" data-search-block>
-					<div class="section-head"><div><div class="section-label">Workflow C</div><h2 data-lang="ua" class="active">Що робити, коли потрібна нова функція або зміна</h2><h2 data-lang="ru">Что делать, когда нужна новая функция или изменение</h2><h2 data-lang="en">What to do when you need a change</h2></div></div>
+				<article class="doc-section" id="workflow-regeneration" data-search-block>
+					<div class="section-head"><div><div class="section-label">Workflow C</div><h2 data-lang="ua" class="active">Перегенерація captions із correction prompt</h2><h2 data-lang="ru">Регенерация captions с correction prompt</h2><h2 data-lang="en">Regenerate captions with a correction prompt</h2></div></div>
+					<ol data-lang="ua" class="active"><li>Натисни <strong>Start</strong> і вибери <strong>Regeneration</strong>.</li><li>У полі <strong>What should be fixed?</strong> напиши, що саме не так: занадто довго, слабкий CTA, повторюється перший рядок, не той tone, зайві claims.</li><li>Вибери Bulk або Selective. Для першого тесту краще Selective на 1-3 rows.</li><li>Вибери потрібні languages. Primary language буде перегенерована, додаткові languages перекладуться з урахуванням того самого correction prompt.</li><li>Запусти і перевір History: correction prompt потрапляє в media analysis, caption generation і translation requests.</li></ol>
+					<ol data-lang="ru"><li>Нажми <strong>Start</strong> и выбери <strong>Regeneration</strong>.</li><li>В поле <strong>What should be fixed?</strong> напиши, что именно не так: слишком длинно, слабый CTA, повторяется первая строка, не тот tone, лишние claims.</li><li>Выбери Bulk или Selective. Для первого теста лучше Selective на 1-3 rows.</li><li>Выбери нужные languages. Primary language будет регенерирован, дополнительные languages переведутся с учетом того же correction prompt.</li><li>Запусти и проверь History: correction prompt попадает в media analysis, caption generation и translation requests.</li></ol>
+					<ol data-lang="en"><li>Click <strong>Start</strong> and choose <strong>Regeneration</strong>.</li><li>In <strong>What should be fixed?</strong>, describe the problem: too long, weak CTA, repeated first line, wrong tone, or extra claims.</li><li>Choose Bulk or Selective. For the first test, use Selective on 1-3 rows.</li><li>Select the languages. The primary language is regenerated, and additional languages are translated with the same correction prompt applied.</li><li>Run it and check History: the correction prompt is included in media analysis, caption generation, and translation requests.</li></ol>
+					<pre>Make each caption shorter and less generic. Keep the CTA soft, avoid repeating the first line, and do not mention discounts unless Topic explicitly says so.</pre>
+				</article>
+
+				<article class="doc-section" id="workflow-change" data-search-block>
+					<div class="section-head"><div><div class="section-label">Workflow D</div><h2 data-lang="ua" class="active">Що робити, коли потрібна нова функція або зміна</h2><h2 data-lang="ru">Что делать, когда нужна новая функция или изменение</h2><h2 data-lang="en">What to do when you need a change</h2></div></div>
 					<p data-lang="ua" class="active">Щоб швидко змінити agent behavior, передай: назву base, agent name, приклад row, очікуваний caption, що саме не так у поточному результаті, provider/model і screenshot або download details з history.</p>
 					<p data-lang="ru">Чтобы быстро изменить agent behavior, передай: название base, agent name, пример row, ожидаемый caption, что именно не так в текущем результате, provider/model и screenshot или download details из history.</p>
 					<p data-lang="en">To change agent behavior quickly, provide: base name, agent name, sample row, expected caption, what is wrong with the current result, provider/model, and a screenshot or downloaded details from history.</p>
@@ -514,7 +525,7 @@ Attached: operation details file from History</pre>
 			</section>
 
 			<section class="tab-panel" data-tab="setup">
-				<article class="doc-section" data-search-block>
+				<article class="doc-section" id="setup-install" data-search-block>
 					<div class="section-head"><div><div class="section-label">Installer</div><h2 data-lang="ua" class="active">Як додати app у новий Airtable base вручну</h2><h2 data-lang="ru">Как добавить app в новый Airtable base вручную</h2><h2 data-lang="en">How to add the app to a new Airtable base manually</h2></div></div>
 					<p data-lang="ua" class="active">У target base створи новий custom extension. Airtable покаже команду на кшталт:</p><p data-lang="ru">В target base создай новый custom extension. Airtable покажет команду вида:</p><p data-lang="en">In the target base, create a new custom extension. Airtable will show a command like:</p>
 					<pre>block init apptpdJw9KDyuQMZ4/blkZWnSnQLb7bkTMb --template=https://github.com/Airtable/apps-hello-world ai_caption_agents</pre>
@@ -548,9 +559,9 @@ npm run release:base -- client-remote-name</pre>
 	const languageElements = document.querySelectorAll('[data-lang]');
 	const tabButtons = document.querySelectorAll('[data-set-tab]');
 	const tabPanels = document.querySelectorAll('[data-tab]');
+	const navGroups = document.querySelectorAll('[data-nav-tab]');
 	const searchInput = document.getElementById('doc-search');
 	const noResults = document.getElementById('no-results');
-	const navLinks = document.querySelectorAll('.side-nav a');
 
 	function setLanguage(language) {
 		languageElements.forEach(element => {
@@ -566,7 +577,9 @@ npm run release:base -- client-remote-name</pre>
 	function setTab(tabName) {
 		tabButtons.forEach(button => button.classList.toggle('active', button.getAttribute('data-set-tab') === tabName));
 		tabPanels.forEach(panel => panel.classList.toggle('active', panel.getAttribute('data-tab') === tabName));
+		navGroups.forEach(group => group.classList.toggle('active', group.getAttribute('data-nav-tab') === tabName));
 		applySearch();
+		updateActiveNav();
 	}
 
 	function applySearch() {
@@ -591,11 +604,13 @@ npm run release:base -- client-remote-name</pre>
 
 	function updateActiveNav() {
 		const anchors = Array.from(document.querySelectorAll('.doc-section[id]')).filter(section => section.offsetParent !== null);
+		const activeNavLinks = document.querySelectorAll('.side-nav.active a');
 		let activeId = anchors.length ? anchors[0].id : '';
 		for (const section of anchors) {
 			if (section.getBoundingClientRect().top <= 110) activeId = section.id;
 		}
-		navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + activeId));
+		document.querySelectorAll('.side-nav a').forEach(link => link.classList.remove('active'));
+		activeNavLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + activeId));
 	}
 
 	languageButtons.forEach(button => button.addEventListener('click', () => setLanguage(button.getAttribute('data-set-lang'))));
